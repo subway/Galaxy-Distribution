@@ -1,0 +1,52 @@
+/cluster/home/sabbai/Master/galaxy-dist/tools/assembly_benchmark/quast/quast.py -o /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-194411 /projects/cees/in_progress/sabba/analysis/velvetRuns/miSeq/Vibrio_cholerae_CO_0132_5_MiSeq/trimmed/contigs.fa /projects/cees/in_progress/sabba/analysis/velvetRuns/hiSeq/Vibrio_cholerae_CO_1032_5_HiSeq/trimmed/contigs.fa
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2013-12-03 19:44:12
+
+Logging to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-194411/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Contigs:
+  /projects/cees/in_progress/sabba/analysis/velvetRuns/miSeq/Vibrio_cholerae_CO_0132_5_MiSeq/trimmed/contigs.fa ==> trimmed_contigs
+  /projects/cees/in_progress/sabba/analysis/velvetRuns/hiSeq/Vibrio_cholerae_CO_1032_5_HiSeq/trimmed/contigs.fa ==> trimmed_contigs 1
+
+2013-12-03 19:44:35
+Running Basic statistics processor...
+  Contig files: 
+    1  trimmed_contigs
+    2  trimmed_contigs 1
+  Calculating N50 and L50...
+    1  trimmed_contigs, N50 = 105176, L50 = 12, Total length = 3892321, GC % = 47.69, # N's per 100 kbp =  1.28
+    2  trimmed_contigs 1, N50 = 163386, L50 = 8, Total length = 3903678, GC % = 47.63, # N's per 100 kbp =  515.80
+  Drawing cumulative plot...
+    saved to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-194411/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-194411/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-194411/basic_stats/Nx_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2013-12-03 19:44:41
+Summarizing...
+  Creating total report...
+    saved to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-194411/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-194411/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-194411/report.html
+  All pdf files are merged to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-194411/plots.pdf
+Log saved to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-194411/quast.log
+
+Finished: 2013-12-03 19:44:42
+Elapsed time: 0:00:30.598659

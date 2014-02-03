@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<HTML><HEAD>
+ 		<SCRIPT type="text/javascript">function toggleImg(id){ 
+ 		var img = document.getElementById(id);
+ 	        img.style.display = (img.style.display=='none' ? 'block' : 'none');}</SCRIPT> 	    	<H3>All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+</H3></HEAD>
+<BODY><P><TABLE BORDER="0"><TR><TD>Assembly</TD><TD>dataset_10.dat</TD><TD>dataset_9.dat</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot1');"># contigs (>= 0 bp) </A></TD>
+<TD>177</TD><TD>177</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot2');"># contigs (>= 1000 bp) </A></TD>
+<TD>108</TD><TD>108</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot3');">Total length (>= 0 bp) </A></TD>
+<TD>3905444</TD><TD>3905444</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot4');">Total length (>= 1000 bp) </A></TD>
+<TD>3875057</TD><TD>3875057</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot5');"># contigs </A></TD>
+<TD>133</TD><TD>133</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot6');">Total length </A></TD>
+<TD>3892321</TD><TD>3892321</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot7');">Largest contig </A></TD>
+<TD>246346</TD><TD>246346</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot8');">GC (%) </A></TD>
+<TD>47.69</TD><TD>47.69</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot9');">N50 </A></TD>
+<TD>105176</TD><TD>105176</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot10');">N75 </A></TD>
+<TD>43442</TD><TD>43442</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot11');">L50 </A></TD>
+<TD>12</TD><TD>12</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot12');">L75 </A></TD>
+<TD>26</TD><TD>26</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot13');"># N's per 100 kbp </A></TD>
+<TD>1.28</TD><TD>1.28</TD></TR>
+</TABLE></BR><img style="display:none;" id="plot1" src="/static/plots/14012014-192334/plot1.jpeg" alt="Plot 1"/>
+<img style="display:none;" id="plot2" src="/static/plots/14012014-192334/plot2.jpeg" alt="Plot 2"/>
+<img style="display:none;" id="plot3" src="/static/plots/14012014-192334/plot3.jpeg" alt="Plot 3"/>
+<img style="display:none;" id="plot4" src="/static/plots/14012014-192334/plot4.jpeg" alt="Plot 4"/>
+<img style="display:none;" id="plot5" src="/static/plots/14012014-192334/plot5.jpeg" alt="Plot 5"/>
+<img style="display:none;" id="plot6" src="/static/plots/14012014-192334/plot6.jpeg" alt="Plot 6"/>
+<img style="display:none;" id="plot7" src="/static/plots/14012014-192334/plot7.jpeg" alt="Plot 7"/>
+<img style="display:none;" id="plot8" src="/static/plots/14012014-192334/plot8.jpeg" alt="Plot 8"/>
+<img style="display:none;" id="plot9" src="/static/plots/14012014-192334/plot9.jpeg" alt="Plot 9"/>
+<img style="display:none;" id="plot10" src="/static/plots/14012014-192334/plot10.jpeg" alt="Plot 10"/>
+<img style="display:none;" id="plot11" src="/static/plots/14012014-192334/plot11.jpeg" alt="Plot 11"/>
+<img style="display:none;" id="plot12" src="/static/plots/14012014-192334/plot12.jpeg" alt="Plot 12"/>
+<img style="display:none;" id="plot13" src="/static/plots/14012014-192334/plot13.jpeg" alt="Plot 13"/>
+</BODY></HTML>

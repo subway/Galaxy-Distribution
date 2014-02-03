@@ -1,0 +1,61 @@
+<tool id="compute_stat" name="Compute statistics">
+  <description>for contig files</description>
+  <command interpreter="python">computeStat.py 
+    #if conditionalRefGen.refGenome == "builtin": 
+      Ref$builtinRef
+      #for $l in $labels:
+        Label${l.label}
+      #end for
+      #for $f in $files:
+        File${f.file}
+      #end for
+      $output
+    #elif conditionalRefGen.refGenome == "upload": 
+      Ref$uploadRef
+    #end if
+  </command>
+
+  <inputs>
+
+    <repeat name="labels" title="Label for contig file" help="Names of assemblies to use in reports"> 
+      <param name="label" format="text" type="text"/>
+    </repeat>
+
+    <repeat name="files" title="Fasta file" help="Files with contigs">
+      <param name="file" format="fasta" type="data"/>
+    </repeat>
+
+    <conditional name="conditonalRefGen">
+      <param name="refGenome" type="select" label="Reference Genome" help="Reference genome file">
+		<option value="default" selected="true">Do not use reference</option>
+		<option value="builtin">Use built in reference</option>
+		<option value="upload">Upload your reference</option>
+      </param>
+      <when value="builtin">
+		<param name="builtinRef" format="text" label="Choose reference genome"/>
+      </when>
+      <when value="upload">
+		<param format="file" name="uploadRef" label="Upload reference genome"/>
+		<param format="text" name="genes" type="data" optional="true" label="Genes" help="File with gene coordinates in the reference"/>
+      </when>
+    </conditional>
+
+    <param name="genes" format="text" type="data" optional="true" label="Genes" help="File with gene coordinates in the reference"/>
+    <param name="threshold" format="text" label="Thresholds" type="text" help="Comma-separated list of contig length thresholds (default: 0,1000)"/>
+    <param name="scaffold" type="select" label="Scaffolds" help="Are the assemblies scaffolds (yes) or contigs (no, default)">
+      <option value="yes">Yes</option>
+      <option value="no" selected="true">No</option>
+    </param>
+    <param name="threads" type="text" label="Threads" help="Maximum number of threads (default: number of CPUs)"/>
+
+  </inputs>
+
+  <outputs>
+    <data name="output" format="text" from_work_dir="stat.txt"/>
+  </outputs>
+
+  <help>
+    This tool computes quast result from multiple contig files.
+  </help>
+
+</tool>
