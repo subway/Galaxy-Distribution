@@ -14,10 +14,11 @@
     #end if
     #if $reference.refGenome=="builtIn":
             Ref$builtInRef
-            Gene$genes
     #elif $reference.refGenome=="uploadYour":
             Ref$uploadYourRef
-            Gene$genes
+    #end if
+    #if str($genes) != "None":
+        Gene$genes
     #end if
     Min$thresholdMin
     Max$thresholdMax

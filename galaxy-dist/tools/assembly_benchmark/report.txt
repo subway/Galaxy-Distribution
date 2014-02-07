@@ -1,16 +1,36 @@
 All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
 
-Assembly                   V.cholerae[miseq_CABOG-7.0]  V.cholerae[hiseq_CABOG-7.0]
-# contigs (>= 0 bp)        274                          144                       
-# contigs (>= 1000 bp)     274                          142                       
-Total length (>= 0 bp)     3959129                      3849141                   
-Total length (>= 1000 bp)  3959129                      3848582                   
-# contigs                  274                          142                       
-Total length               3959129                      3848582                   
-Largest contig             115283                       224340                    
-GC (%)                     47.52                        47.54                     
-N50                        28178                        57089                     
-N75                        13884                        30707                     
-L50                        43                           20                        
-L75                        94                           43                        
-# N's per 100 kbp          0.00                         0.00                      
+Assembly                     390.dat  391.dat  392.dat  393.dat
+# contigs (>= 0 bp)          209              241              564              173            
+# contigs (>= 1000 bp)       124              241              149              142            
+Total length (>= 0 bp)       3960394          3953298          3959969          4034988        
+Total length (>= 1000 bp)    3921645          3953298          3872255          4014349        
+# contigs                    156              241              196              163            
+Total length                 3944260          3953298          3904784          4030761        
+Largest contig               246346           140691           178118           255146         
+Reference length             1072315          1072315          1072315          1072315        
+GC (%)                       47.52            47.52            47.56            47.47          
+Reference GC (%)             46.91            46.91            46.91            46.91          
+N50                          92036            33710            60973            76131          
+NG50                         187929           78380            111096           177955         
+N75                          43442            17245            27970            45736          
+NG75                         180000           71059            105316           155187         
+L50                          15               34               21               16             
+LG50                         3                6                4                3              
+L75                          31               74               44               33             
+LG75                         4                9                7                4              
+# misassemblies              6                8                1                6              
+Misassembled contigs length  82242            22901            8436             19317          
+# local misassemblies        1                1                0                2              
+# unaligned contigs          58 + 21 part     121 + 30 part    99 + 0 part      58 + 27 part   
+Unaligned contigs length     2909936          2925596          2895073          2949668        
+Genome fraction (%)          95.677           94.203           93.926           97.030         
+Duplication ratio            1.009            1.021            1.003            1.041          
+# N's per 100 kbp            0.00             0.00             0.00             0.00           
+# mismatches per 100 kbp     6.04             24.06            11.82            19.70          
+# indels per 100 kbp         5.15             5.35             4.67             5.29           
+Largest alignment            140621           110049           110288           105536         
+NGA50                        47047            20733            45047            63983          
+NGA75                        18945            8063             18876            34879          
+LGA50                        8                14               8                7              
+LGA75                        16               34               17               12

@@ -1,54 +1,191 @@
 #!/usr/bin/env python
 import matplotlib
 matplotlib.use('Agg')
-import os, sys, time, numpy as np, matplotlib.pyplot as plt 
+import os, sys, time, numpy as np, matplotlib.pyplot as plt, json
+from pprint import pprint
+from matplotlib.mlab import PCA
 
 # validate input
-usage = 'Usage: %s path to QUAST report.txt file' % sys.argv[0]
-global stat, title, header, plotPrefix, colorSet
+#usage = 'Usage: %s path to QUAST report.txt file' % sys.argv[0]
+#global stat, title, header, plotPrefix, colorSet
+
+#x = [[92036,33710,60973],[156,241,196],[21,30,0]]
+x = [[92036,156,21],[33710,241,30],[60973,196,0]]
+#x = [[0,8],[8,9],[12,11],[20,12]]
+#y = [[0,8,12,20],[8,9,11,12],[0,8,12,20],[8,9,11,12]]
+dataMatrix = np.array(x)
+print dataMatrix
+myPCA = PCA(dataMatrix)
+print "\na - centered unit sigma version of input a"
+print myPCA.a
+print "\nmu - a numdims array of means of a"
+print myPCA.mu
+print "\nsigma - a numdims array of atandard deviation of a"
+print myPCA.sigma
+print "\nfracs - the proportion of variance of each of the principal components"
+print myPCA.fracs
+print "\nWt - the weight vector for projecting a numdims point or array into PCA space"
+print myPCA.Wt
+print "\nY - a projected into PCA space"
+print myPCA.Y
 
 
-class switch(object):
-    	value = None
-    	def __new__(class_, value):
-        	class_.value = value
-        	return True
-
-def case(arg):	
-	if (switch.value.find(arg) != -1): return True
-    	return False
-
-def makeStaticPlot(input, y_label, plotTitle, nr):
+def makeStaticPlot(path, header, input, y_label, plotTitle):
 	fig = plt.figure()
-        x = []
-        y = []
-        for i in range(len(header)-1,0,-1):
-                x.append(header[i])
+	x = []
+	y = []
+	for i in range(len(header)-1,0,-1):
+		x.append(header[i])
 	if ('GC%' in y_label) | ('N per' in y_label):
-	        for i in range(len(input)-1,(len(input)-len(header)),-1):
-        	        y.append(float(input[i]))
+		for i in range(len(input)-1,(len(input)-len(header)),-1):
+			y.append(float(input[i]))
 	else:
 		for i in range(len(input)-1,(len(input)-len(header)),-1):
-                        y.append(int(input[i]))
-
-        x_pos = np.arange(len(x))
-	ax = plt.subplot(311)
-        for i in range(0,len(x)):
-                #plt.bar(x_pos[i], y[i], color=colorSet[i], align='center')
-        	#plt.text(x_pos[i], y[i]/2., str(y[i]), rotation=90., ha="center", va="center", bbox=dict(boxstyle="square",color=colorSet[i], alpha=0.5))
-		ax.bar(x_pos[i], y[i], align='center', color=colorSet[i], label=str(y[i]))
-	box = ax.get_position()
-	ax.set_position([box.x0, box.y0, box.width * 0.5, box.height])
-	plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+			y.append(int(input[i]))
+	x_pos = np.arange(len(x))
+	for i in range(0,len(x)):
+		plt.bar(x_pos[i], y[i], align='center')
+		plt.text(x_pos[i], 2.0, str(y[i]), rotation=90., ha="center", va="bottom", bbox=dict(boxstyle="square", alpha=0.5))
 	plt.xticks(x_pos, x, rotation=80)
-        plt.ylabel(y_label)
-        plt.title(plotTitle)
-       	#fig.tight_layout()
-        plt.savefig(os.getcwd().split("galaxy-dist")[0]+"galaxy-dist/"+plotPrefix+str(nr)+'.jpeg')
-	nr += 1
+	plt.ylabel(y_label)
+	plt.title(plotTitle)
+	fig.tight_layout()
+	plt.savefig(path+'/latestBARplot.jpeg')
 	plt.close()
 
-def createTable(stat):
+def makeScatterPlot(path, header, xval, yval, xlabel, ylabel, plotTitle):
+	tmp = plt.scatter(xval, yval)
+	plt.axis([0, max(xval)+5, 0, max(yval)+5])
+	plt.xlabel(xlabel)
+	plt.ylabel(ylabel)
+	plt.title(plotTitle)
+	#plt.legend(tmp, header, scatterpoints=1, loc='lower left', ncol=3, fontsize=10)
+	plt.savefig(path+'/latestXYplot.jpeg')
+	plt.close()
+
+def addTopResult(assembly, result, title):
+	result += title
+	for rank in sorted(assembly, key=assembly.get, reverse=True):
+		#result += '&#09;'
+		result += rank
+		result += ' ('
+		result += str(assembly[rank])
+		result += ' point)   '
+	result += '<br>'
+	return result
+
+def getTopThree(assembly, data, topnumber, label):
+	# Bigger is better
+	top = 0
+	for x in range(topnumber):
+		last = top
+		top = max(data)
+		position = data.index(top)
+		#Add points
+		assembly[label[position]] += 3-x
+		#If same result give same
+		if (x != 0) & (top == last):
+			assembly[label[position]] += 1
+		#Make sure same max value won't show up
+		data[position] = top*-1
+       	return assembly
+
+def getBottomThree(assembly, data, topnumber, label):
+	# Smaller is better
+	bottom = 0
+	for x in range(topnumber):
+		last = bottom
+		bottom = min(i for i in data)
+		position = data.index(bottom)
+		#Add points
+		assembly[label[position]] += 3-x
+		#If same result give same
+		if (x != 0) & (bottom == last):
+			assembly[label[position]] += 1
+		#Make sure same min value won't show up
+		data[position] = bottom+max(data)+1
+	return assembly
+
+def assessOutput(quastfile, ref, path):
+	#Assemblies
+	assembly = {}
+	basicAsm = {}
+	misassembliesAsm = {}
+	unalignedAsm = {}
+	mismatchAsm = {}
+	geneAsm = {}
+	#remove first two line
+	#quastfile.readline();quastfile.readline()
+	with open(quastfile) as data_file:
+		data = json.load(data_file)
+		label = data['assembliesNames']
+		report = data['report']
+		pprint(data)
+	#label = quastfile.readline().split()
+	#label.pop(0)
+	for l in label:
+		assembly[l] = 0
+		basicAsm[l] = 0
+		misassembliesAsm[l] = 0
+		unalignedAsm[l] = 0
+		mismatchAsm[l] = 0
+		geneAsm[l] = 0	
+	
+	topnumber = len(label) if len(label) < 3 else 3
+	result = "Rank 1 - 3p, Rank 2 - 2p, Rank 3 - 1p"
+	ddl = []
+	for line in report:
+		title = line[0]
+		for field in line[1]:
+			ddl.append(field['metricName']) 
+			if field['metricName'] != '# genes':
+				values = [float(x) for x in field['values']]
+				if field['quality'] == 'Less is better':
+					basicAsm = getBottomThree(basicAsm, values, topnumber, label)
+					assembly = getBottomThree(assembly, values, topnumber, label)
+				elif field['quality'] == 'More is better':
+					basicAsm = getTopThree(basicAsm, values, topnumber, label)
+					assembly = getTopThree(assembly, values, topnumber, label)
+				else:
+					for l in label:
+						basicAsm[l] += 1
+						assembly[l] += 1
+		result = addTopResult(basicAsm, result, '\n'+title+'\t')
+		for l in label:
+			basicAsm[l] = 0;
+	result = addTopResult(assembly, result, '\nOverall\t')
+	result += createddl(ddl, path)
+	return result
+def makePlot(path):
+	header = 'A B C D E F'
+	header = header.split(' ')
+	x = [10, 5, 20, 30, 40,]
+	
+	y = [1.0, 4.5, 6, 7, 25]
+	
+	makeStaticPlot(path, header, x, 'Ylabel', 'Test plot')
+def createddl(option, path):
+	ddl = '<select name="ddl1">'
+	ddl += '  <option value="def">--- Select ---</option>'
+	ddl2 = '<select name="ddl2">'
+        ddl2 += '  <option value="def">--- Select ---</option>'
+	ddl3 = '<select name="ddl3">'
+        ddl3 += '  <option value="def">--- Select ---</option>'
+	for opt in option:
+		ddl += '  <option value="'+opt+'">'+opt+'</option>'
+		ddl2 += '  <option value="'+opt+'">'+opt+'</option>'
+		ddl3 += '  <option value="'+opt+'">'+opt+'</option>'
+	ddl += '</select>'
+	ddl2 += '</select>'
+	ddl3 += '</select>'
+	ddl2 += ddl3
+	ddl += '<button name="btn1" type="button" onClick="javascript:createBarPlot();">Create plot</button>'
+	ddl += '\t<a href="latestBARplot.jpeg" target="_blank">Latest barplot here</a><br>'
+	ddl2 += '<button name="btn2" type="button" onClick="javascript:createScatterPlot();">Create plot</button>'
+	ddl2 += '\t<a href="latestXYplot.jpeg" target="_blank">Latest scatterplot here</a>'
+	ddl += ddl2
+	return ddl
+def createTable():
 	tblHeader = True
 	table = ['<TABLE BORDER="0">']
 	first = True
@@ -75,27 +212,18 @@ def createTable(stat):
 	table.append('</TABLE>')
 	return ''.join(table)  
 
-def createStyleSheet():
-	css = open('plot_stylesheet.css', 'w')
-
-	#Hide all pictures
-	hideall = "#plot1 {\n \
-	    display:none;}\n"
-
-	#Default body style
-	bodyStyle = "body {\n \
-	    background-color=grey;}\n"
-
-	#Write to css-file
-	write(bodyStyle)
-	write(hideall)
-
-	css.close()
-
 def getScript():
-	script = "function toggleImg(id){ \n \
-		var img = document.getElementById(id);\n \
-	        img.style.display = (img.style.display=='none' ? 'block' : 'none');}"
+	#function toggleImg(id){ \n \
+	#var img = document.getElementById(id);\n \
+	#img.style.display = (img.style.display=='none' ? 'block' : 'none');}\n \
+	
+	script = '<SCRIPT type="text/javascript">\n \
+	function createBarPlot(){\n \
+	   window.open(\'latestBARplot.jpeg\', \'blank\').focus();}\n \
+	</SCRIPT>\n<SCRIPT type="text/javascript">\n \
+	function createScatterPlot(){\n \
+	   window.open(\'latestXYplot.jpeg\', \'blank\').focus();}\n \
+	</SCRIPT>'
 	return script
 
 def createHtml(nr, table):
@@ -124,7 +252,7 @@ def getColorSet():
 	color = ['red', 'blue', 'green', 'yellow', 'pink', 'purple', 'grey', 'orange', 'indigo', 'fuchshia']
 	return color
 
-if __name__ == '__main__':
+def oldMain():
 	try:
 		filename = sys.argv[1]
 	except:
@@ -203,3 +331,6 @@ if __name__ == '__main__':
 	except:
 		print "Unexpected error:", sys.exc_info()[0]
 		raise
+
+#print "This is the file"
+#print assessOutput(open(sys.argv[1], 'r'), True)

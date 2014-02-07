@@ -53,11 +53,12 @@ def makeStaticPlot(path, header, input, y_label, plotTitle):
 	plt.savefig(path+'/latestBARplot.jpeg')
 	plt.close()
 
-def makeScatterPlot(path, header, xval, yval, xlabel, ylabel):
+def makeScatterPlot(path, header, xval, yval, xlabel, ylabel, plotTitle):
 	tmp = plt.scatter(xval, yval)
 	plt.axis([0, max(xval)+5, 0, max(yval)+5])
 	plt.xlabel(xlabel)
 	plt.ylabel(ylabel)
+	plt.title(plotTitle)
 	#plt.legend(tmp, header, scatterpoints=1, loc='lower left', ncol=3, fontsize=10)
 	plt.savefig(path+'/latestXYplot.jpeg')
 	plt.close()
@@ -105,7 +106,7 @@ def getBottomThree(assembly, data, topnumber, label):
 		data[position] = bottom+max(data)+1
 	return assembly
 
-def assessOutput(quastfile, ref):
+def assessOutput(quastfile, ref, path):
 	#Assemblies
 	assembly = {}
 	basicAsm = {}
@@ -132,9 +133,11 @@ def assessOutput(quastfile, ref):
 	
 	topnumber = len(label) if len(label) < 3 else 3
 	result = "Rank 1 - 3p, Rank 2 - 2p, Rank 3 - 1p"
+	ddl = []
 	for line in report:
 		title = line[0]
 		for field in line[1]:
+			ddl.append(field['metricName']) 
 			if field['metricName'] != '# genes':
 				values = [float(x) for x in field['values']]
 				if field['quality'] == 'Less is better':
@@ -151,9 +154,37 @@ def assessOutput(quastfile, ref):
 		for l in label:
 			basicAsm[l] = 0;
 	result = addTopResult(assembly, result, '\nOverall\t')
+	result += createddl(ddl, path)
 	return result
-def createTable(stat):
-	return null
+def makePlot(path):
+	header = 'A B C D E F'
+	header = header.split(' ')
+	x = [10, 5, 20, 30, 40,]
+	
+	y = [1.0, 4.5, 6, 7, 25]
+	
+	makeStaticPlot(path, header, x, 'Ylabel', 'Test plot')
+def createddl(option, path):
+	ddl = '<select name="ddl1">'
+	ddl += '  <option value="">--- Select ---</option>'
+	ddl2 = '<select name="ddl2">'
+        ddl2 += '  <option value="">--- Select ---</option>'
+	ddl3 = '<select name="ddl3">'
+        ddl3 += '  <option value="">--- Select ---</option>'
+	for opt in option:
+		ddl += '  <option value="'+opt+'">'+opt+'</option>'
+		ddl2 += '  <option value="'+opt+'">'+opt+'</option>'
+		ddl3 += '  <option value="'+opt+'">'+opt+'</option>'
+	ddl += '</select>'
+	ddl2 += '</select>'
+	ddl3 += '</select>'
+	ddl2 += ddl3
+	ddl += '<button name="btn1" type="button" onClick="javascript:createBarPlot();">Create plot</button>'
+	ddl += '\t<a href="latestBARplot.jpeg" target="_blank">Latest barplot here</a><br>'
+	ddl2 += '<button name="btn2" type="button" onClick="javascript:createScatterPlot();">Create plot</button>'
+	ddl2 += '\t<a href="latestXYplot.jpeg" target="_blank">Latest scatterplot here</a>'
+	ddl += ddl2
+	return ddl
 def createTable():
 	tblHeader = True
 	table = ['<TABLE BORDER="0">']
@@ -182,9 +213,19 @@ def createTable():
 	return ''.join(table)  
 
 def getScript():
-	script = "function toggleImg(id){ \n \
-		var img = document.getElementById(id);\n \
-	        img.style.display = (img.style.display=='none' ? 'block' : 'none');}"
+	#function toggleImg(id){ \n \
+	#var img = document.getElementById(id);\n \
+	#img.style.display = (img.style.display=='none' ? 'block' : 'none');}\n \
+	
+	script = '<SCRIPT type="text/javascript">\n \
+	function createBarPlot(){\n \
+	   $
+	   window.open(\'latestBARplot.jpeg\', \'blank\').focus();}\n \
+	</SCRIPT>\n<SCRIPT type="text/javascript">\n \
+	function createScatterPlot(){\n \
+	   <?php exec(\'python barplot.py\', $output, $return); ?>
+	   window.open(\'latestXYplot.jpeg\', \'blank\').focus();}\n \
+	</SCRIPT>'
 	return script
 
 def createHtml(nr, table):

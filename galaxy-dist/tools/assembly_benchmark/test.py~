@@ -1,7 +1,7 @@
 #!/usr/bin/python
 from matplotlib.mlab import PCA
 
-data = [['speed',{1,2,3}],['test',{2,3,4}],['plotdata',{3,4,5}],['last',{6,7,8}]]
+data = [[1,2,3],[2,3,4],[3,4,5],[6,7,8]]
 PCA(data)
 
 exit(0)
