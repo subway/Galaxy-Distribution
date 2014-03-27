@@ -1,0 +1,66 @@
+##gff-version 3
+#!gff-spec-version 1.20
+#!processor NCBI annotwriter
+##sequence-region NC_010063.1 1 27041
+##species http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=451516
+NC_010063.1	RefSeq	region	1	27041	.	+	.	ID=id0;Dbxref=taxon:451516;Is_circular=true;gbkey=Src;genome=plasmid;mol_type=genomic DNA;note=derived from methicillin-resistant clonal population USA300;plasmid-name=pUSA300HOUMR;strain=TCH1516;sub-species=aureus
+NC_010063.1	RefSeq	gene	232	1215	.	+	.	ID=gene0;Name=repA;Dbxref=GeneID:5774802;gbkey=Gene;gene=repA;locus_tag=USA300HOU_pUSA300HOUMR0001
+NC_010063.1	RefSeq	CDS	232	1215	.	+	0	ID=cds0;Name=YP_001569048.1;Parent=gene0;Dbxref=Genbank:YP_001569048.1,GeneID:5774802;gbkey=CDS;product=replication protein A;protein_id=YP_001569048.1;transl_table=11
+NC_010063.1	RefSeq	gene	1235	1516	.	+	.	ID=gene1;Name=replication protein;Dbxref=GeneID:5774826;description=replication protein;gbkey=Gene;gene=replication protein;locus_tag=USA300HOU_pUSA300HOUMR0002;pseudo=true
+NC_010063.1	RefSeq	gene	2071	2220	.	+	.	ID=gene2;Name=USA300HOU_pUSA300HOUMR0003;Dbxref=GeneID:5774823;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0003
+NC_010063.1	RefSeq	CDS	2071	2220	.	+	0	ID=cds1;Name=YP_001569049.1;Parent=gene2;Dbxref=Genbank:YP_001569049.1,GeneID:5774823;gbkey=CDS;product=hypothetical protein;protein_id=YP_001569049.1;transl_table=11
+NC_010063.1	RefSeq	gene	2388	3080	.	-	.	ID=gene3;Name=USA300HOU_pUSA300HOUMR0004;Dbxref=GeneID:5774829;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0004
+NC_010063.1	RefSeq	CDS	2388	3080	.	-	0	ID=cds2;Name=YP_001569050.1;Parent=gene3;Dbxref=Genbank:YP_001569050.1,GeneID:5774829;gbkey=CDS;product=hypothetical protein;protein_id=YP_001569050.1;transl_table=11
+NC_010063.1	RefSeq	gene	3190	3384	.	+	.	ID=gene4;Name=USA300HOU_pUSA300HOUMR0005;Dbxref=GeneID:5774804;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0005
+NC_010063.1	RefSeq	CDS	3190	3384	.	+	0	ID=cds3;Name=YP_001569051.1;Parent=gene4;Dbxref=Genbank:YP_001569051.1,GeneID:5774804;gbkey=CDS;product=hypothetical protein;protein_id=YP_001569051.1;transl_table=11
+NC_010063.1	RefSeq	gene	3868	4035	.	+	.	ID=gene5;Name=USA300HOU_pUSA300HOUMR0006;Dbxref=GeneID:5774801;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0006
+NC_010063.1	RefSeq	CDS	3868	4035	.	+	0	ID=cds4;Name=YP_001569052.1;Parent=gene5;Dbxref=Genbank:YP_001569052.1,GeneID:5774801;gbkey=CDS;product=hypothetical protein;protein_id=YP_001569052.1;transl_table=11
+NC_010063.1	RefSeq	gene	4500	5117	.	+	.	ID=gene6;Name=cadR;Dbxref=GeneID:5774812;gbkey=Gene;gene=cadR;locus_tag=USA300HOU_pUSA300HOUMR0007
+NC_010063.1	RefSeq	CDS	4500	5117	.	+	0	ID=cds5;Name=YP_001569053.1;Parent=gene6;Dbxref=Genbank:YP_001569053.1,GeneID:5774812;gbkey=CDS;product=cadmium binding protein;protein_id=YP_001569053.1;transl_table=11
+NC_010063.1	RefSeq	gene	5136	5483	.	+	.	ID=gene7;Name=cadX;Dbxref=GeneID:5774809;gbkey=Gene;gene=cadX;locus_tag=USA300HOU_pUSA300HOUMR0008
+NC_010063.1	RefSeq	CDS	5136	5483	.	+	0	ID=cds6;Name=YP_001569054.1;Parent=gene7;Dbxref=Genbank:YP_001569054.1,GeneID:5774809;gbkey=CDS;product=cadmium efflux regulator;protein_id=YP_001569054.1;transl_table=11
+NC_010063.1	RefSeq	gene	5904	6847	.	-	.	ID=gene8;Name=frameshift of alcohol dehydrogenase;Dbxref=GeneID:5774810;description=frameshift of alcohol dehydrogenase;gbkey=Gene;gene=frameshift of alcohol dehydrogenase;locus_tag=USA300HOU_pUSA300HOUMR0009;pseudo=true
+NC_010063.1	RefSeq	gene	6971	7390	.	+	.	ID=gene9;Name=USA300HOU_pUSA300HOUMR0010;Dbxref=GeneID:5774815;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0010
+NC_010063.1	RefSeq	CDS	6971	7390	.	+	0	ID=cds7;Name=YP_001569055.1;Parent=gene9;Dbxref=Genbank:YP_001569055.1,GeneID:5774815;gbkey=CDS;product=MarR family transcriptional regulator;protein_id=YP_001569055.1;transl_table=11
+NC_010063.1	RefSeq	gene	7916	8761	.	-	.	ID=gene10;Name=blaZ;Dbxref=GeneID:5774822;gbkey=Gene;gene=blaZ;locus_tag=USA300HOU_pUSA300HOUMR0011
+NC_010063.1	RefSeq	CDS	7916	8761	.	-	0	ID=cds8;Name=YP_001569056.1;Parent=gene10;Dbxref=Genbank:YP_001569056.1,GeneID:5774822;gbkey=CDS;product=beta-lactamase;protein_id=YP_001569056.1;transl_table=11
+NC_010063.1	RefSeq	gene	8868	10625	.	+	.	ID=gene11;Name=blaR;Dbxref=GeneID:5774818;gbkey=Gene;gene=blaR;locus_tag=USA300HOU_pUSA300HOUMR0012
+NC_010063.1	RefSeq	CDS	8868	10625	.	+	0	ID=cds9;Name=YP_001569057.1;Parent=gene11;Dbxref=Genbank:YP_001569057.1,GeneID:5774818;gbkey=CDS;product=beta-lactamase regulator BlaR;protein_id=YP_001569057.1;transl_table=11
+NC_010063.1	RefSeq	gene	10615	10995	.	+	.	ID=gene12;Name=blaI;Dbxref=GeneID:5774813;gbkey=Gene;gene=blaI;locus_tag=USA300HOU_pUSA300HOUMR0013
+NC_010063.1	RefSeq	CDS	10615	10995	.	+	0	ID=cds10;Name=YP_001569058.1;Parent=gene12;Dbxref=Genbank:YP_001569058.1,GeneID:5774813;gbkey=CDS;product=beta-lactamase regulator BlaI;protein_id=YP_001569058.1;transl_table=11
+NC_010063.1	RefSeq	gene	11259	11837	.	+	.	ID=gene13;Name=USA300HOU_pUSA300HOUMR0014;Dbxref=GeneID:5774800;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0014
+NC_010063.1	RefSeq	CDS	11259	11837	.	+	0	ID=cds11;Name=YP_001569059.1;Parent=gene13;Dbxref=Genbank:YP_001569059.1,GeneID:5774800;gbkey=CDS;product=recombinase;protein_id=YP_001569059.1;transl_table=11
+NC_010063.1	RefSeq	gene	12060	12245	.	-	.	ID=gene14;Name=USA300HOU_pUSA300HOUMR0015;Dbxref=GeneID:5774808;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0015
+NC_010063.1	RefSeq	CDS	12060	12245	.	-	0	ID=cds12;Name=YP_001569060.1;Parent=gene14;Dbxref=Genbank:YP_001569060.1,GeneID:5774808;gbkey=CDS;product=hypothetical protein;protein_id=YP_001569060.1;transl_table=11
+NC_010063.1	RefSeq	gene	12507	13181	.	+	.	ID=gene15;Name=USA300HOU_pUSA300HOUMR0016;Dbxref=GeneID:5774798;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0016
+NC_010063.1	RefSeq	CDS	12507	13181	.	+	0	ID=cds13;Name=YP_001569061.1;Parent=gene15;Dbxref=Genbank:YP_001569061.1,GeneID:5774798;gbkey=CDS;product=IS257 transposase;protein_id=YP_001569061.1;transl_table=11
+NC_010063.1	RefSeq	gene	13350	13921	.	-	.	ID=gene16;Name=hypothetical protein;Dbxref=GeneID:5774817;description=hypothetical protein;gbkey=Gene;gene=hypothetical protein;locus_tag=USA300HOU_pUSA300HOUMR0017;pseudo=true
+NC_010063.1	RefSeq	gene	14197	14991	.	-	.	ID=gene17;Name=USA300HOU_pUSA300HOUMR0018;Dbxref=GeneID:5774811;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0018
+NC_010063.1	RefSeq	CDS	14197	14991	.	-	0	ID=cds14;Name=YP_001569062.1;Parent=gene17;Dbxref=Genbank:YP_001569062.1,GeneID:5774811;gbkey=CDS;product=3%27%2C5%27 aminoglycoside phosphotransferase;protein_id=YP_001569062.1;transl_table=11
+NC_010063.1	RefSeq	gene	15084	15614	.	-	.	ID=gene18;Name=USA300HOU_pUSA300HOUMR0019;Dbxref=GeneID:5774825;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0019
+NC_010063.1	RefSeq	CDS	15084	15614	.	-	0	ID=cds15;Name=YP_001569063.1;Parent=gene18;Dbxref=Genbank:YP_001569063.1,GeneID:5774825;gbkey=CDS;product=strepthothricin acetyltransferase;protein_id=YP_001569063.1;transl_table=11
+NC_010063.1	RefSeq	gene	15611	16246	.	-	.	ID=gene19;Name=aminoglycoside adenyltransferase;Dbxref=GeneID:5774824;description=aminoglycoside adenyltransferase;gbkey=Gene;gene=aminoglycoside adenyltransferase;locus_tag=USA300HOU_pUSA300HOUMR0020;pseudo=true
+NC_010063.1	RefSeq	gene	16387	17061	.	-	.	ID=gene20;Name=USA300HOU_pUSA300HOUMR0021;Dbxref=GeneID:5774828;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0021
+NC_010063.1	RefSeq	CDS	16387	17061	.	-	0	ID=cds16;Name=YP_001569064.1;Parent=gene20;Dbxref=Genbank:YP_001569064.1,GeneID:5774828;gbkey=CDS;product=IS431 mec transposase;protein_id=YP_001569064.1;transl_table=11
+NC_010063.1	RefSeq	gene	17091	17294	.	-	.	ID=gene21;Name=bacitracin resistance protein;Dbxref=GeneID:5774814;description=bacitracin resistance protein;gbkey=Gene;gene=bacitracin resistance protein;locus_tag=USA300HOU_pUSA300HOUMR0022;pseudo=true
+NC_010063.1	RefSeq	gene	17308	18045	.	-	.	ID=gene22;Name=USA300HOU_pUSA300HOUMR0023;Dbxref=GeneID:5774799;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0023
+NC_010063.1	RefSeq	CDS	17308	18045	.	-	0	ID=cds17;Name=YP_001569065.1;Parent=gene22;Dbxref=Genbank:YP_001569065.1,GeneID:5774799;gbkey=CDS;product=bacitracin ABC ATP binding cassette transporter%2C membrane protein;protein_id=YP_001569065.1;transl_table=11
+NC_010063.1	RefSeq	gene	18038	18958	.	-	.	ID=gene23;Name=USA300HOU_pUSA300HOUMR0024;Dbxref=GeneID:5774830;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0024
+NC_010063.1	RefSeq	CDS	18038	18958	.	-	0	ID=cds18;Name=YP_001569066.1;Parent=gene23;Dbxref=Genbank:YP_001569066.1,GeneID:5774830;gbkey=CDS;product=bacitracin ABC ATP binding cassette transporter%2C ABC protein;protein_id=YP_001569066.1;transl_table=11
+NC_010063.1	RefSeq	gene	19083	19964	.	-	.	ID=gene24;Name=sensor histidine kinase;Dbxref=GeneID:5774827;description=sensor histidine kinase;gbkey=Gene;gene=sensor histidine kinase;locus_tag=USA300HOU_pUSA300HOUMR0025;pseudo=true
+NC_010063.1	RefSeq	gene	19961	20326	.	+	.	ID=gene25;Name=response regulator;Dbxref=GeneID:5774803;description=response regulator;gbkey=Gene;gene=response regulator;locus_tag=USA300HOU_pUSA300HOUMR0026;pseudo=true
+NC_010063.1	RefSeq	gene	20396	21070	.	-	.	ID=gene26;Name=USA300HOU_pUSA300HOUMR0027;Dbxref=GeneID:5774819;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0027
+NC_010063.1	RefSeq	CDS	20396	21070	.	-	0	ID=cds19;Name=YP_001569067.1;Parent=gene26;Dbxref=Genbank:YP_001569067.1,GeneID:5774819;gbkey=CDS;product=IS431mec transposase;protein_id=YP_001569067.1;transl_table=11
+NC_010063.1	RefSeq	gene	21544	23010	.	+	.	ID=gene27;Name=USA300HOU_pUSA300HOUMR0028;Dbxref=GeneID:5774816;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0028
+NC_010063.1	RefSeq	CDS	21544	23010	.	+	0	ID=cds20;Name=YP_001569068.1;Parent=gene27;Dbxref=Genbank:YP_001569068.1,GeneID:5774816;gbkey=CDS;product=macrolide transporter;protein_id=YP_001569068.1;transl_table=11
+NC_010063.1	RefSeq	gene	23109	24008	.	+	.	ID=gene28;Name=USA300HOU_pUSA300HOUMR0029;Dbxref=GeneID:5774820;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0029
+NC_010063.1	RefSeq	CDS	23109	24008	.	+	0	ID=cds21;Name=YP_001569069.1;Parent=gene28;Dbxref=Genbank:YP_001569069.1,GeneID:5774820;gbkey=CDS;product=macrolide 2%27-phosphotransferase;protein_id=YP_001569069.1;transl_table=11
+NC_010063.1	RefSeq	gene	24494	25102	.	+	.	ID=gene29;Name=USA300HOU_pUSA300HOUMR0030;Dbxref=GeneID:5774805;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0030
+NC_010063.1	RefSeq	CDS	24494	25102	.	+	0	ID=cds22;Name=YP_001569070.1;Parent=gene29;Dbxref=Genbank:YP_001569070.1,GeneID:5774805;gbkey=CDS;product=Sin recombinase;protein_id=YP_001569070.1;transl_table=11
+NC_010063.1	RefSeq	gene	25348	25680	.	+	.	ID=gene30;Name=USA300HOU_pUSA300HOUMR0031;Dbxref=GeneID:5774807;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0031
+NC_010063.1	RefSeq	CDS	25348	25680	.	+	0	ID=cds23;Name=YP_001569071.1;Parent=gene30;Dbxref=Genbank:YP_001569071.1,GeneID:5774807;gbkey=CDS;product=hypothetical protein;protein_id=YP_001569071.1;transl_table=11
+NC_010063.1	RefSeq	gene	25692	25877	.	+	.	ID=gene31;Name=USA300HOU_pUSA300HOUMR0032;Dbxref=GeneID:5774806;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0032
+NC_010063.1	RefSeq	CDS	25692	25877	.	+	0	ID=cds24;Name=YP_001569072.1;Parent=gene31;Dbxref=Genbank:YP_001569072.1,GeneID:5774806;gbkey=CDS;product=transcriptional regulator;protein_id=YP_001569072.1;transl_table=11
+NC_010063.1	RefSeq	gene	26104	26847	.	-	.	ID=gene32;Name=USA300HOU_pUSA300HOUMR0033;Dbxref=GeneID:5774821;gbkey=Gene;locus_tag=USA300HOU_pUSA300HOUMR0033
+NC_010063.1	RefSeq	CDS	26104	26847	.	-	0	ID=cds25;Name=YP_001569073.1;Parent=gene32;Dbxref=Genbank:YP_001569073.1,GeneID:5774821;gbkey=CDS;product=partitioning protein;protein_id=YP_001569073.1;transl_table=11
+###
