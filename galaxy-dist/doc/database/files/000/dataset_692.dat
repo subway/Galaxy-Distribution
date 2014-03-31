@@ -1,0 +1,179 @@
+##gff-version 3
+#!gff-spec-version 1.20
+#!processor NCBI annotwriter
+##sequence-region NC_007489.1 1 105284
+##species http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=272943
+NC_007489.1	RefSeq	region	1	105284	.	+	.	ID=id0;Name=C;Dbxref=ATCC:BAA-808,taxon:272943;Is_circular=true;gbkey=Src;genome=plasmid;mol_type=genomic DNA;plasmid-name=C;strain=2.4.1%3B ATCC BAA-808
+NC_007489.1	RefSeq	gene	44	373	.	-	.	ID=gene0;Name=y4bF;Dbxref=GeneID:3711919;gbkey=Gene;gene=y4bF;locus_tag=RSP_4137;pseudo=true
+NC_007489.1	RefSeq	gene	503	1423	.	-	.	ID=gene1;Name=RSP_7258;Dbxref=GeneID:3711920;gbkey=Gene;locus_tag=RSP_7258;pseudo=true
+NC_007489.1	RefSeq	gene	2476	2976	.	+	.	ID=gene2;Name=RSP_4051;Dbxref=GeneID:3711921;gbkey=Gene;locus_tag=RSP_4051
+NC_007489.1	RefSeq	CDS	2476	2976	.	+	0	ID=cds0;Name=YP_345267.1;Parent=gene2;Dbxref=Genbank:YP_345267.1,GeneID:3711921;gbkey=CDS;product=hypothetical protein;protein_id=YP_345267.1;transl_table=11
+NC_007489.1	RefSeq	gene	3046	4455	.	-	.	ID=gene3;Name=noeK;Dbxref=GeneID:3711922;gbkey=Gene;gene=noeK;locus_tag=RSP_4052
+NC_007489.1	RefSeq	CDS	3046	4455	.	-	0	ID=cds1;Name=YP_345268.1;Parent=gene3;Note=Citation: Freiberg%2C C. et. al. %281997%29 Nature 387:394-401.;Dbxref=Genbank:YP_345268.1,GeneID:3711922;gbkey=CDS;gene=noeK;product=phosphoglucomutase%2Fphosphomannomutase;protein_id=YP_345268.1;transl_table=11
+NC_007489.1	RefSeq	gene	4457	5884	.	-	.	ID=gene4;Name=xanB;Dbxref=GeneID:3711923;gbkey=Gene;gene=xanB;locus_tag=RSP_4053
+NC_007489.1	RefSeq	CDS	4457	5884	.	-	0	ID=cds2;Name=YP_345269.1;Parent=gene4;Note=Citation: Vorholter%2C F. J. et. al. %282000%29 Mol. Genet. Genomics 266: 79-95.  Koplin%2C R. et. al. %281992%29 J. Bacteriol. 174:191-199.;Dbxref=Genbank:YP_345269.1,GeneID:3711923;gbkey=CDS;gene=xanB;product=mannose-1-phosphate guanylyltransferase %28GDP%29;protein_id=YP_345269.1;transl_table=11
+NC_007489.1	RefSeq	gene	6369	7601	.	-	.	ID=gene5;Name=RSP_4054;Dbxref=GeneID:3711924;gbkey=Gene;locus_tag=RSP_4054
+NC_007489.1	RefSeq	CDS	6369	7601	.	-	0	ID=cds3;Name=YP_345270.1;Parent=gene5;Dbxref=Genbank:YP_345270.1,GeneID:3711924;gbkey=CDS;product=aldo%2Fketo reductase;protein_id=YP_345270.1;transl_table=11
+NC_007489.1	RefSeq	gene	8155	8469	.	+	.	ID=gene6;Name=RSP_7372;Dbxref=GeneID:3711925;gbkey=Gene;locus_tag=RSP_7372
+NC_007489.1	RefSeq	CDS	8155	8469	.	+	0	ID=cds4;Name=YP_345271.1;Parent=gene6;Note=COG2916;Dbxref=Genbank:YP_345271.1,GeneID:3711925;gbkey=CDS;product=H-NS family DNA-binding protein;protein_id=YP_345271.1;transl_table=11
+NC_007489.1	RefSeq	gene	9069	9386	.	+	.	ID=gene7;Name=spb;Dbxref=GeneID:3711926;gbkey=Gene;gene=spb;locus_tag=RSP_4056
+NC_007489.1	RefSeq	CDS	9069	9386	.	+	0	ID=cds5;Name=YP_345272.1;Parent=gene7;Note=Citation: Shimada%2C H. et al. %281996%29 Plant Cell Physiol. 37: 515-522.  Buggy%2C J. J. %281994%29 J. Bacteriol. 176: 6936-6943.;Dbxref=Genbank:YP_345272.1,GeneID:3711926;gbkey=CDS;gene=spb;product=histone-like nucleoid-structuring protein H-NS;protein_id=YP_345272.1;transl_table=11
+NC_007489.1	RefSeq	gene	9659	10177	.	-	.	ID=gene8;Name=RSP_7254;Dbxref=GeneID:3711927;gbkey=Gene;locus_tag=RSP_7254
+NC_007489.1	RefSeq	CDS	9659	10177	.	-	0	ID=cds6;Name=YP_345273.1;Parent=gene8;Dbxref=Genbank:YP_345273.1,GeneID:3711927;gbkey=CDS;product=hypothetical protein;protein_id=YP_345273.1;transl_table=11
+NC_007489.1	RefSeq	gene	10616	11194	.	+	.	ID=gene9;Name=efu-2;Dbxref=GeneID:3711928;gbkey=Gene;gene=efu-2;locus_tag=RSP_7183
+NC_007489.1	RefSeq	CDS	10616	11194	.	+	0	ID=cds7;Name=YP_345274.1;Parent=gene9;Dbxref=Genbank:YP_345274.1,GeneID:3711928;gbkey=CDS;gene=efu-2;product=translation initiation factor 2 GTPase;protein_id=YP_345274.1;transl_table=11
+NC_007489.1	RefSeq	gene	11594	12100	.	-	.	ID=gene10;Name=RSP_4057;Dbxref=GeneID:3711929;gbkey=Gene;locus_tag=RSP_4057
+NC_007489.1	RefSeq	CDS	11594	12100	.	-	0	ID=cds8;Name=YP_345275.1;Parent=gene10;Dbxref=Genbank:YP_345275.1,GeneID:3711929;gbkey=CDS;product=hypothetical protein;protein_id=YP_345275.1;transl_table=11
+NC_007489.1	RefSeq	gene	12163	13518	.	+	.	ID=gene11;Name=hipA;Dbxref=GeneID:3711930;gbkey=Gene;gene=hipA;locus_tag=RSP_4059
+NC_007489.1	RefSeq	CDS	12163	13518	.	+	0	ID=cds9;Name=YP_345276.1;Parent=gene11;Note=Citation: Salanoubat%2C M. et. al. %282002%29 Nature 415: 497-502.;Dbxref=Genbank:YP_345276.1,GeneID:3711930;gbkey=CDS;gene=hipA;product=hypothetical protein;protein_id=YP_345276.1;transl_table=11
+NC_007489.1	RefSeq	gene	13749	14153	.	+	.	ID=gene12;Name=blrA;Dbxref=GeneID:3711931;gbkey=Gene;gene=blrA;locus_tag=RSP_4060
+NC_007489.1	RefSeq	CDS	13749	14153	.	+	0	ID=cds10;Name=YP_345277.1;Parent=gene12;Note=Citation: Gomelsky%2C M.%26 G. Klug. Trends in Biochemical Sciences 2002%2C 27: 497-500;Dbxref=Genbank:YP_345277.1,GeneID:3711931;gbkey=CDS;gene=blrA;product=blue-light receptor BLUF domain-containing protein;protein_id=YP_345277.1;transl_table=11
+NC_007489.1	RefSeq	gene	14239	14508	.	-	.	ID=gene13;Name=RSP_7373;Dbxref=GeneID:3711932;gbkey=Gene;locus_tag=RSP_7373;pseudo=true
+NC_007489.1	RefSeq	gene	15136	15645	.	+	.	ID=gene14;Name=RSP_4062;Dbxref=GeneID:3711933;gbkey=Gene;locus_tag=RSP_4062
+NC_007489.1	RefSeq	CDS	15136	15645	.	+	0	ID=cds11;Name=YP_345278.1;Parent=gene14;Dbxref=Genbank:YP_345278.1,GeneID:3711933;gbkey=CDS;product=hypothetical protein;protein_id=YP_345278.1;transl_table=11
+NC_007489.1	RefSeq	gene	15762	17840	.	+	.	ID=gene15;Name=RSP_4063;Dbxref=GeneID:3711934;gbkey=Gene;locus_tag=RSP_4063
+NC_007489.1	RefSeq	CDS	15762	17840	.	+	0	ID=cds12;Name=YP_345279.1;Parent=gene15;Dbxref=Genbank:YP_345279.1,GeneID:3711934;gbkey=CDS;product=hypothetical protein;protein_id=YP_345279.1;transl_table=11
+NC_007489.1	RefSeq	gene	17858	18229	.	+	.	ID=gene16;Name=RSP_4064;Dbxref=GeneID:3711935;gbkey=Gene;locus_tag=RSP_4064
+NC_007489.1	RefSeq	CDS	17858	18229	.	+	0	ID=cds13;Name=YP_345280.1;Parent=gene16;Dbxref=Genbank:YP_345280.1,GeneID:3711935;gbkey=CDS;product=hypothetical protein;protein_id=YP_345280.1;transl_table=11
+NC_007489.1	RefSeq	gene	18360	18833	.	-	.	ID=gene17;Name=RSP_7252;Dbxref=GeneID:3711936;gbkey=Gene;locus_tag=RSP_7252
+NC_007489.1	RefSeq	CDS	18360	18833	.	-	0	ID=cds14;Name=YP_345281.1;Parent=gene17;Dbxref=Genbank:YP_345281.1,GeneID:3711936;gbkey=CDS;product=hypothetical protein;protein_id=YP_345281.1;transl_table=11
+NC_007489.1	RefSeq	gene	19452	20072	.	+	.	ID=gene18;Name=RSP_4065;Dbxref=GeneID:3711937;gbkey=Gene;locus_tag=RSP_4065
+NC_007489.1	RefSeq	CDS	19452	20072	.	+	0	ID=cds15;Name=YP_345282.1;Parent=gene18;Dbxref=Genbank:YP_345282.1,GeneID:3711937;gbkey=CDS;product=hypothetical protein;protein_id=YP_345282.1;transl_table=11
+NC_007489.1	RefSeq	gene	20088	21032	.	-	.	ID=gene19;Name=RSP_4066;Dbxref=GeneID:3711938;gbkey=Gene;locus_tag=RSP_4066
+NC_007489.1	RefSeq	CDS	20088	21032	.	-	0	ID=cds16;Name=YP_345283.1;Parent=gene19;Dbxref=Genbank:YP_345283.1,GeneID:3711938;gbkey=CDS;product=hypothetical protein;protein_id=YP_345283.1;transl_table=11
+NC_007489.1	RefSeq	gene	21115	21852	.	+	.	ID=gene20;Name=RSP_7190;Dbxref=GeneID:3711939;gbkey=Gene;locus_tag=RSP_7190
+NC_007489.1	RefSeq	CDS	21115	21852	.	+	0	ID=cds17;Name=YP_345284.1;Parent=gene20;Dbxref=Genbank:YP_345284.1,GeneID:3711939;gbkey=CDS;product=hypothetical protein;protein_id=YP_345284.1;transl_table=11
+NC_007489.1	RefSeq	gene	21897	22943	.	+	.	ID=gene21;Name=RSP_7191;Dbxref=GeneID:3711940;gbkey=Gene;locus_tag=RSP_7191
+NC_007489.1	RefSeq	CDS	21897	22943	.	+	0	ID=cds18;Name=YP_345285.1;Parent=gene21;Dbxref=Genbank:YP_345285.1,GeneID:3711940;gbkey=CDS;product=hypothetical protein;protein_id=YP_345285.1;transl_table=11
+NC_007489.1	RefSeq	gene	23211	23603	.	+	.	ID=gene22;Name=RSP_4067;Dbxref=GeneID:3711941;gbkey=Gene;locus_tag=RSP_4067
+NC_007489.1	RefSeq	CDS	23211	23603	.	+	0	ID=cds19;Name=YP_345286.1;Parent=gene22;Dbxref=Genbank:YP_345286.1,GeneID:3711941;gbkey=CDS;product=hypothetical protein;protein_id=YP_345286.1;transl_table=11
+NC_007489.1	RefSeq	gene	23611	24192	.	+	.	ID=gene23;Name=RSP_4068;Dbxref=GeneID:3711942;gbkey=Gene;locus_tag=RSP_4068
+NC_007489.1	RefSeq	CDS	23611	24192	.	+	0	ID=cds20;Name=YP_345287.1;Parent=gene23;Dbxref=Genbank:YP_345287.1,GeneID:3711942;gbkey=CDS;product=hypothetical protein;protein_id=YP_345287.1;transl_table=11
+NC_007489.1	RefSeq	gene	24208	25656	.	+	.	ID=gene24;Name=RSP_4069;Dbxref=GeneID:3711943;gbkey=Gene;locus_tag=RSP_4069
+NC_007489.1	RefSeq	CDS	24208	25656	.	+	0	ID=cds21;Name=YP_345288.1;Parent=gene24;Dbxref=Genbank:YP_345288.1,GeneID:3711943;gbkey=CDS;product=caspase-1%2C p20;protein_id=YP_345288.1;transl_table=11
+NC_007489.1	RefSeq	gene	26071	26421	.	+	.	ID=gene25;Name=RSP_4070;Dbxref=GeneID:3711944;gbkey=Gene;locus_tag=RSP_4070
+NC_007489.1	RefSeq	CDS	26071	26421	.	+	0	ID=cds22;Name=YP_345289.1;Parent=gene25;Note=Citation: Salanoubat%2C M. et. al. %282002%29 Nature 415: 497-502.;Dbxref=Genbank:YP_345289.1,GeneID:3711944;gbkey=CDS;product=signal peptide protein;protein_id=YP_345289.1;transl_table=11
+NC_007489.1	RefSeq	gene	26520	27608	.	-	.	ID=gene26;Name=RSP_4071;Dbxref=GeneID:3711945;gbkey=Gene;locus_tag=RSP_4071
+NC_007489.1	RefSeq	CDS	26520	27608	.	-	0	ID=cds23;Name=YP_345290.1;Parent=gene26;Dbxref=Genbank:YP_345290.1,GeneID:3711945;gbkey=CDS;product=hypothetical protein;protein_id=YP_345290.1;transl_table=11
+NC_007489.1	RefSeq	gene	27605	28492	.	-	.	ID=gene27;Name=RSP_4072;Dbxref=GeneID:3711946;gbkey=Gene;locus_tag=RSP_4072
+NC_007489.1	RefSeq	CDS	27605	28492	.	-	0	ID=cds24;Name=YP_345291.1;Parent=gene27;Dbxref=Genbank:YP_345291.1,GeneID:3711946;gbkey=CDS;product=viral aspartic protease;protein_id=YP_345291.1;transl_table=11
+NC_007489.1	RefSeq	gene	29055	29480	.	-	.	ID=gene28;Name=RSP_4073;Dbxref=GeneID:3711947;gbkey=Gene;locus_tag=RSP_4073
+NC_007489.1	RefSeq	CDS	29055	29480	.	-	0	ID=cds25;Name=YP_345292.1;Parent=gene28;Dbxref=Genbank:YP_345292.1,GeneID:3711947;gbkey=CDS;product=XRE family transcriptional regulator;protein_id=YP_345292.1;transl_table=11
+NC_007489.1	RefSeq	gene	29768	30193	.	+	.	ID=gene29;Name=RSP_4074;Dbxref=GeneID:3711948;gbkey=Gene;locus_tag=RSP_4074
+NC_007489.1	RefSeq	CDS	29768	30193	.	+	0	ID=cds26;Name=YP_345293.1;Parent=gene29;Dbxref=Genbank:YP_345293.1,GeneID:3711948;gbkey=CDS;product=hypothetical protein;protein_id=YP_345293.1;transl_table=11
+NC_007489.1	RefSeq	gene	30331	31239	.	+	.	ID=gene30;Name=RSP_7197;Dbxref=GeneID:3711949;gbkey=Gene;locus_tag=RSP_7197
+NC_007489.1	RefSeq	CDS	30331	31239	.	+	0	ID=cds27;Name=YP_345294.1;Parent=gene30;Dbxref=Genbank:YP_345294.1,GeneID:3711949;gbkey=CDS;product=hypothetical protein;protein_id=YP_345294.1;transl_table=11
+NC_007489.1	RefSeq	gene	31628	31858	.	+	.	ID=gene31;Name=mvpT;Dbxref=GeneID:3711950;gbkey=Gene;gene=mvpT;locus_tag=RSP_7374
+NC_007489.1	RefSeq	CDS	31628	31858	.	+	0	ID=cds28;Name=YP_345295.1;Parent=gene31;Dbxref=Genbank:YP_345295.1,GeneID:3711950;gbkey=CDS;gene=mvpT;product=plasmid maintenance protein MvpT;protein_id=YP_345295.1;transl_table=11
+NC_007489.1	RefSeq	gene	31858	32265	.	+	.	ID=gene32;Name=mvpA;Dbxref=GeneID:3711951;gbkey=Gene;gene=mvpA;locus_tag=RSP_4076
+NC_007489.1	RefSeq	CDS	31858	32265	.	+	0	ID=cds29;Name=YP_345296.1;Parent=gene32;Note=Citation: Glasser%2C P. et al.  Mol. Micribiol. 38: 760-771%3B virulence associated protein;Dbxref=Genbank:YP_345296.1,GeneID:3711951;gbkey=CDS;gene=mvpA;product=plamid maintenance protein;protein_id=YP_345296.1;transl_table=11
+NC_007489.1	RefSeq	gene	32587	32745	.	+	.	ID=gene33;Name=RSP_4077;Dbxref=GeneID:3711952;gbkey=Gene;locus_tag=RSP_4077;pseudo=true
+NC_007489.1	RefSeq	gene	32742	35378	.	+	.	ID=gene34;Name=RSP_4078;Dbxref=GeneID:3711953;gbkey=Gene;locus_tag=RSP_4078
+NC_007489.1	RefSeq	CDS	32742	35378	.	+	0	ID=cds30;Name=YP_345297.1;Parent=gene34;Dbxref=Genbank:YP_345297.1,GeneID:3711953;gbkey=CDS;product=H%2B transporting ATPase%2C proton pump;protein_id=YP_345297.1;transl_table=11
+NC_007489.1	RefSeq	gene	35883	37580	.	-	.	ID=gene35;Name=RSP_4080;Dbxref=GeneID:3711954;gbkey=Gene;locus_tag=RSP_4080
+NC_007489.1	RefSeq	CDS	35883	37580	.	-	0	ID=cds31;Name=YP_345298.1;Parent=gene35;Dbxref=Genbank:YP_345298.1,GeneID:3711954;gbkey=CDS;product=TPR repeat-containing SPINDLY family protein;protein_id=YP_345298.1;transl_table=11
+NC_007489.1	RefSeq	gene	37901	38356	.	+	.	ID=gene36;Name=RSP_4081;Dbxref=GeneID:3711955;gbkey=Gene;locus_tag=RSP_4081
+NC_007489.1	RefSeq	CDS	37901	38356	.	+	0	ID=cds32;Name=YP_345299.1;Parent=gene36;Dbxref=Genbank:YP_345299.1,GeneID:3711955;gbkey=CDS;product=hypothetical protein;protein_id=YP_345299.1;transl_table=11
+NC_007489.1	RefSeq	gene	38353	39060	.	+	.	ID=gene37;Name=RSP_4082;Dbxref=GeneID:3711956;gbkey=Gene;locus_tag=RSP_4082
+NC_007489.1	RefSeq	CDS	38353	39060	.	+	0	ID=cds33;Name=YP_345300.1;Parent=gene37;Dbxref=Genbank:YP_345300.1,GeneID:3711956;gbkey=CDS;product=hypothetical protein;protein_id=YP_345300.1;transl_table=11
+NC_007489.1	RefSeq	gene	40375	41439	.	-	.	ID=gene38;Name=RSP_7246;Dbxref=GeneID:3711957;gbkey=Gene;locus_tag=RSP_7246
+NC_007489.1	RefSeq	CDS	40375	41439	.	-	0	ID=cds34;Name=YP_345301.1;Parent=gene38;Dbxref=Genbank:YP_345301.1,GeneID:3711957;gbkey=CDS;product=acyltransferase;protein_id=YP_345301.1;transl_table=11
+NC_007489.1	RefSeq	gene	41895	42329	.	+	.	ID=gene39;Name=RSP_7203;Dbxref=GeneID:3711958;gbkey=Gene;locus_tag=RSP_7203
+NC_007489.1	RefSeq	CDS	41895	42329	.	+	0	ID=cds35;Name=YP_345302.1;Parent=gene39;Dbxref=Genbank:YP_345302.1,GeneID:3711958;gbkey=CDS;product=hypothetical protein;protein_id=YP_345302.1;transl_table=11
+NC_007489.1	RefSeq	gene	42792	44993	.	-	.	ID=gene40;Name=RSP_4084;Dbxref=GeneID:3711959;gbkey=Gene;locus_tag=RSP_4084
+NC_007489.1	RefSeq	CDS	42792	44993	.	-	0	ID=cds36;Name=YP_345303.1;Parent=gene40;Dbxref=Genbank:YP_345303.1,GeneID:3711959;gbkey=CDS;product=acetyltransferase;protein_id=YP_345303.1;transl_table=11
+NC_007489.1	RefSeq	gene	44990	45439	.	-	.	ID=gene41;Name=RSP_4085;Dbxref=GeneID:3711960;gbkey=Gene;locus_tag=RSP_4085
+NC_007489.1	RefSeq	CDS	44990	45439	.	-	0	ID=cds37;Name=YP_345304.1;Parent=gene41;Dbxref=Genbank:YP_345304.1,GeneID:3711960;gbkey=CDS;product=protein phosphatase;protein_id=YP_345304.1;transl_table=11
+NC_007489.1	RefSeq	gene	45443	46525	.	-	.	ID=gene42;Name=RSP_4086;Dbxref=GeneID:3711961;gbkey=Gene;locus_tag=RSP_4086
+NC_007489.1	RefSeq	CDS	45443	46525	.	-	0	ID=cds38;Name=YP_345305.1;Parent=gene42;Note=Citation: Kim%2C Y. R. et. al. %282003%29%2C Infect. Immuno%2C 71: 5461-5471.;Dbxref=Genbank:YP_345305.1,GeneID:3711961;gbkey=CDS;product=sugar transporter;protein_id=YP_345305.1;transl_table=11
+NC_007489.1	RefSeq	gene	47967	48521	.	-	.	ID=gene43;Name=RSP_7375;Dbxref=GeneID:3711962;gbkey=Gene;locus_tag=RSP_7375
+NC_007489.1	RefSeq	CDS	47967	48521	.	-	0	ID=cds39;Name=YP_345306.1;Parent=gene43;Note=acetyltransferase believed to catalyze the addition of the acetyl group that is attached through an O linkage to the first fucosyl residue of the colanic acid repetitive unit %28E unit%29;Dbxref=Genbank:YP_345306.1,GeneID:3711962;gbkey=CDS;product=colanic acid biosynthesis acetyltransferase WcaF;protein_id=YP_345306.1;transl_table=11
+NC_007489.1	RefSeq	gene	49257	49529	.	+	.	ID=gene44;Name=RSP_4091;Dbxref=GeneID:3711963;gbkey=Gene;locus_tag=RSP_4091;pseudo=true
+NC_007489.1	RefSeq	gene	49550	50038	.	+	.	ID=gene45;Name=RSP_4092;Dbxref=GeneID:3711964;gbkey=Gene;locus_tag=RSP_4092;pseudo=true
+NC_007489.1	RefSeq	gene	50102	51238	.	-	.	ID=gene46;Name=RSP_4093;Dbxref=GeneID:3711965;gbkey=Gene;locus_tag=RSP_4093
+NC_007489.1	RefSeq	CDS	50102	51238	.	-	0	ID=cds40;Name=YP_345307.1;Parent=gene46;Dbxref=Genbank:YP_345307.1,GeneID:3711965;gbkey=CDS;product=glycosyl transferase family 1;protein_id=YP_345307.1;transl_table=11
+NC_007489.1	RefSeq	gene	51336	52625	.	-	.	ID=gene47;Name=RSP_7376;Dbxref=GeneID:3711966;gbkey=Gene;locus_tag=RSP_7376
+NC_007489.1	RefSeq	CDS	51336	52625	.	-	0	ID=cds41;Name=YP_345308.1;Parent=gene47;Dbxref=Genbank:YP_345308.1,GeneID:3711966;gbkey=CDS;product=hypothetical protein;protein_id=YP_345308.1;transl_table=11
+NC_007489.1	RefSeq	gene	52627	53214	.	-	.	ID=gene48;Name=RSP_7377;Dbxref=GeneID:3711967;gbkey=Gene;locus_tag=RSP_7377
+NC_007489.1	RefSeq	CDS	52627	53214	.	-	0	ID=cds42;Name=YP_345309.1;Parent=gene48;Dbxref=Genbank:YP_345309.1,GeneID:3711967;gbkey=CDS;product=acetyltransferase;protein_id=YP_345309.1;transl_table=11
+NC_007489.1	RefSeq	gene	53315	54514	.	-	.	ID=gene49;Name=RSP_7378;Dbxref=GeneID:3711847;gbkey=Gene;locus_tag=RSP_7378
+NC_007489.1	RefSeq	CDS	53315	54514	.	-	0	ID=cds43;Name=YP_345310.1;Parent=gene49;Note=similar to CapF protein;Dbxref=Genbank:YP_345310.1,GeneID:3711847;gbkey=CDS;product=capsular polysaccharide biosynthesis protein;protein_id=YP_345310.1;transl_table=11
+NC_007489.1	RefSeq	gene	54571	55299	.	-	.	ID=gene50;Name=RSP_7379;Dbxref=GeneID:3711848;gbkey=Gene;locus_tag=RSP_7379
+NC_007489.1	RefSeq	CDS	54571	55299	.	-	0	ID=cds44;Name=YP_345311.1;Parent=gene50;Note=COG0500;Dbxref=Genbank:YP_345311.1,GeneID:3711848;gbkey=CDS;product=SAM-dependent methyltransferase;protein_id=YP_345311.1;transl_table=11
+NC_007489.1	RefSeq	gene	55599	56489	.	-	.	ID=gene51;Name=RSP_4099;Dbxref=GeneID:3711849;gbkey=Gene;locus_tag=RSP_4099;pseudo=true
+NC_007489.1	RefSeq	gene	56618	56944	.	-	.	ID=gene52;Name=tISRso9;Dbxref=GeneID:3711850;gbkey=Gene;gene=tISRso9;locus_tag=RSP_4100;pseudo=true
+NC_007489.1	RefSeq	gene	57522	57875	.	-	.	ID=gene53;Name=RSP_4102;Dbxref=GeneID:3711851;gbkey=Gene;locus_tag=RSP_4102
+NC_007489.1	RefSeq	CDS	57522	57875	.	-	0	ID=cds45;Name=YP_345312.1;Parent=gene53;Dbxref=Genbank:YP_345312.1,GeneID:3711851;gbkey=CDS;product=glycoside hydrolase;protein_id=YP_345312.1;transl_table=11
+NC_007489.1	RefSeq	gene	57958	59379	.	-	.	ID=gene54;Name=RSP_4103;Dbxref=GeneID:3711852;gbkey=Gene;locus_tag=RSP_4103
+NC_007489.1	RefSeq	CDS	57958	59379	.	-	0	ID=cds46;Name=YP_345313.1;Parent=gene54;Dbxref=Genbank:YP_345313.1,GeneID:3711852;gbkey=CDS;product=hypothetical protein;protein_id=YP_345313.1;transl_table=11
+NC_007489.1	RefSeq	gene	59916	60491	.	+	.	ID=gene55;Name=RSP_4104;Dbxref=GeneID:3711853;gbkey=Gene;locus_tag=RSP_4104
+NC_007489.1	RefSeq	CDS	59916	60491	.	+	0	ID=cds47;Name=YP_345314.1;Parent=gene55;Dbxref=Genbank:YP_345314.1,GeneID:3711853;gbkey=CDS;product=hypothetical protein;protein_id=YP_345314.1;transl_table=11
+NC_007489.1	RefSeq	gene	60548	60982	.	+	.	ID=gene56;Name=RSP_4105;Dbxref=GeneID:3711854;gbkey=Gene;locus_tag=RSP_4105
+NC_007489.1	RefSeq	CDS	60548	60982	.	+	0	ID=cds48;Name=YP_345315.1;Parent=gene56;Dbxref=Genbank:YP_345315.1,GeneID:3711854;gbkey=CDS;product=hypothetical protein;protein_id=YP_345315.1;transl_table=11
+NC_007489.1	RefSeq	gene	61354	62016	.	+	.	ID=gene57;Name=RSP_4106;Dbxref=GeneID:3711855;gbkey=Gene;locus_tag=RSP_4106
+NC_007489.1	RefSeq	CDS	61354	62016	.	+	0	ID=cds49;Name=YP_345316.1;Parent=gene57;Dbxref=Genbank:YP_345316.1,GeneID:3711855;gbkey=CDS;product=hypothetical protein;protein_id=YP_345316.1;transl_table=11
+NC_007489.1	RefSeq	gene	62031	63725	.	+	.	ID=gene58;Name=RSP_4107;Dbxref=GeneID:3711856;gbkey=Gene;locus_tag=RSP_4107
+NC_007489.1	RefSeq	CDS	62031	63725	.	+	0	ID=cds50;Name=YP_345317.1;Parent=gene58;Dbxref=Genbank:YP_345317.1,GeneID:3711856;gbkey=CDS;product=site-specific recombinase;protein_id=YP_345317.1;transl_table=11
+NC_007489.1	RefSeq	gene	63942	64904	.	-	.	ID=gene59;Name=wcaG;Dbxref=GeneID:3711857;gbkey=Gene;gene=wcaG;locus_tag=RSP_4108
+NC_007489.1	RefSeq	CDS	63942	64904	.	-	0	ID=cds51;Name=YP_345318.1;Parent=gene59;Note=Citation: Rizzi%2C M. et. al. %281998%29 Structure%2C 6: 1453-1465.;Dbxref=Genbank:YP_345318.1,GeneID:3711857;gbkey=CDS;gene=wcaG;product=nucleotide di-P-sugar epimerase or dehydratase;protein_id=YP_345318.1;transl_table=11
+NC_007489.1	RefSeq	gene	64908	66029	.	-	.	ID=gene60;Name=gmd;Dbxref=GeneID:3711858;gbkey=Gene;gene=gmd;locus_tag=RSP_4109
+NC_007489.1	RefSeq	CDS	64908	66029	.	-	0	ID=cds52;Name=YP_345319.1;Parent=gene60;Note=Citation: Yamasaki%2C S. et. al. %281999%29 Gene%2C 237: 321-332.;Dbxref=Genbank:YP_345319.1,GeneID:3711858;gbkey=CDS;gene=gmd;product=NAD-dependent epimerase%2Fdehydratase;protein_id=YP_345319.1;transl_table=11
+NC_007489.1	RefSeq	gene	66026	66787	.	-	.	ID=gene61;Name=wbyL;Dbxref=GeneID:3711859;gbkey=Gene;gene=wbyL;locus_tag=RSP_4110
+NC_007489.1	RefSeq	CDS	66026	66787	.	-	0	ID=cds53;Name=YP_345320.1;Parent=gene61;Note=Citation: Skurnik%2C M. et. al. %282000%29 Mol.Microbiol. 37: 316-330.;Dbxref=Genbank:YP_345320.1,GeneID:3711859;gbkey=CDS;gene=wbyL;product=glycosyl transferase;protein_id=YP_345320.1;transl_table=11
+NC_007489.1	RefSeq	gene	68117	68509	.	-	.	ID=gene62;Name=RSP_7380;Dbxref=GeneID:3711860;gbkey=Gene;locus_tag=RSP_7380
+NC_007489.1	RefSeq	CDS	68117	68509	.	-	0	ID=cds54;Name=YP_345321.1;Parent=gene62;Dbxref=Genbank:YP_345321.1,GeneID:3711860;gbkey=CDS;product=nucleic acid-binding protein;protein_id=YP_345321.1;transl_table=11
+NC_007489.1	RefSeq	gene	70337	71047	.	-	.	ID=gene63;Name=RSP_2484;Dbxref=GeneID:3711861;gbkey=Gene;locus_tag=RSP_2484
+NC_007489.1	RefSeq	CDS	70337	71047	.	-	0	ID=cds55;Name=YP_345322.1;Parent=gene63;Dbxref=Genbank:YP_345322.1,GeneID:3711861;gbkey=CDS;product=hypothetical protein;protein_id=YP_345322.1;transl_table=11
+NC_007489.1	RefSeq	gene	71408	72715	.	+	.	ID=gene64;Name=repA;Dbxref=GeneID:3711862;gbkey=Gene;gene=repA;locus_tag=RSP_2483
+NC_007489.1	RefSeq	CDS	71408	72715	.	+	0	ID=cds56;Name=YP_345323.1;Parent=gene64;Note=similar to RepA of pSD20 %28Reugeria sp. PR1b%2C NP_861976%29%7ECitation: Zhong%2C Z. et. al. %282003%29 Plasmid%2C 49: 233-252.;Dbxref=Genbank:YP_345323.1,GeneID:3711862;gbkey=CDS;gene=repA;product=RepA partitioning protein%2FATPase%2C ParA type;protein_id=YP_345323.1;transl_table=11
+NC_007489.1	RefSeq	gene	72715	73767	.	+	.	ID=gene65;Name=repB;Dbxref=GeneID:3711863;gbkey=Gene;gene=repB;locus_tag=RSP_7211
+NC_007489.1	RefSeq	CDS	72715	73767	.	+	0	ID=cds57;Name=YP_345324.1;Parent=gene65;Note=similar to RepB of pSD20 %28NP_861977%29%7ECitation: Zhong%2C Z. et. al. %282003%29 Plasmid%2C 49: 233-252.;Dbxref=Genbank:YP_345324.1,GeneID:3711863;gbkey=CDS;gene=repB;product=RepB partitioning protein%2FParB-like protein;protein_id=YP_345324.1;transl_table=11
+NC_007489.1	RefSeq	gene	74176	75060	.	-	.	ID=gene66;Name=RSP_2482;Dbxref=GeneID:3711864;gbkey=Gene;locus_tag=RSP_2482
+NC_007489.1	RefSeq	CDS	74176	75060	.	-	0	ID=cds58;Name=YP_345325.1;Parent=gene66;Note=Citation: Zhong%2C Z. et. al. %282003%29 Plasmid%2C 49: 233-252.;Dbxref=Genbank:YP_345325.1,GeneID:3711864;gbkey=CDS;product=TonB-dependent receptor protein;protein_id=YP_345325.1;transl_table=11
+NC_007489.1	RefSeq	gene	75572	76366	.	+	.	ID=gene67;Name=RSP_7212;Dbxref=GeneID:3711865;gbkey=Gene;locus_tag=RSP_7212
+NC_007489.1	RefSeq	CDS	75572	76366	.	+	0	ID=cds59;Name=YP_345326.1;Parent=gene67;Note=Citation: White%2C O. et. al. %281999%29 Science 286: 1571-1577.;Dbxref=Genbank:YP_345326.1,GeneID:3711865;gbkey=CDS;product=Heme oxygenase;protein_id=YP_345326.1;transl_table=11
+NC_007489.1	RefSeq	gene	76434	79229	.	+	.	ID=gene68;Name=bhpP;Dbxref=GeneID:3711866;gbkey=Gene;gene=bhpP;locus_tag=RSP_4111
+NC_007489.1	RefSeq	CDS	76434	79229	.	+	0	ID=cds60;Name=YP_345327.1;Parent=gene68;Note=Citation: Bhoo%2C S. H. et. al. %282001%29 Nature%2C 414: 776-779.;Dbxref=Genbank:YP_345327.1,GeneID:3711866;gbkey=CDS;gene=bhpP;product=diguanylate cyclase%2Fphosphodiesterase with phytochrome %28GAF%29 sensor;protein_id=YP_345327.1;transl_table=11
+NC_007489.1	RefSeq	gene	79574	79807	.	+	.	ID=gene69;Name=RSP_4112;Dbxref=GeneID:3711828;gbkey=Gene;locus_tag=RSP_4112
+NC_007489.1	RefSeq	CDS	79574	79807	.	+	0	ID=cds61;Name=YP_345328.1;Parent=gene69;Dbxref=Genbank:YP_345328.1,GeneID:3711828;gbkey=CDS;product=hypothetical protein;protein_id=YP_345328.1;transl_table=11
+NC_007489.1	RefSeq	gene	79818	80000	.	+	.	ID=gene70;Name=napE;Dbxref=GeneID:3711829;gbkey=Gene;gene=napE;locus_tag=RSP_4113
+NC_007489.1	RefSeq	CDS	79818	80000	.	+	0	ID=cds62;Name=YP_345329.1;Parent=gene70;Note=Citation: Berks%2C B. C. et. al. %281995%29 Biochem. J. 309: 983-992.;Dbxref=Genbank:YP_345329.1,GeneID:3711829;gbkey=CDS;gene=napE;product=NapE component of periplasmic nitrate reductase;protein_id=YP_345329.1;transl_table=11
+NC_007489.1	RefSeq	gene	80006	80488	.	+	.	ID=gene71;Name=napF;Dbxref=GeneID:3711830;gbkey=Gene;gene=napF;locus_tag=RSP_4114
+NC_007489.1	RefSeq	CDS	80006	80488	.	+	0	ID=cds63;Name=YP_345330.1;Parent=gene71;Note=Citation: Berks%2C B. C. et. al. %281995%29 Biochem.  J. %2C 309: 983-992.;Dbxref=Genbank:YP_345330.1,GeneID:3711830;gbkey=CDS;gene=napF;product=periplasmic nitrate reductase maturation protein NapF;protein_id=YP_345330.1;transl_table=11
+NC_007489.1	RefSeq	gene	80481	80747	.	+	.	ID=gene72;Name=napD;Dbxref=GeneID:3711831;gbkey=Gene;gene=napD;locus_tag=RSP_4115
+NC_007489.1	RefSeq	CDS	80481	80747	.	+	0	ID=cds64;Name=YP_345331.1;Parent=gene72;Note=Citation: Berks%2C B. C. et. al. %281995%29 Biochem. J.%2C 309: 983-992.;Dbxref=Genbank:YP_345331.1,GeneID:3711831;gbkey=CDS;gene=napD;product=NapD;protein_id=YP_345331.1;transl_table=11
+NC_007489.1	RefSeq	gene	80744	83239	.	+	.	ID=gene73;Name=napA;Dbxref=GeneID:3711832;gbkey=Gene;gene=napA;locus_tag=RSP_4116
+NC_007489.1	RefSeq	CDS	80744	83239	.	+	0	ID=cds65;Name=YP_345332.1;Parent=gene73;Note=periplasmic%3B catalytic subunit%3B with NapBC catalyzes the reduction of nitrate to nitrite%3B NapAB receives electrons from NapC;Dbxref=Genbank:YP_345332.1,GeneID:3711832;gbkey=CDS;gene=napA;product=nitrate reductase catalytic subunit;protein_id=YP_345332.1;transl_table=11
+NC_007489.1	RefSeq	gene	83242	83706	.	+	.	ID=gene74;Name=napB;Dbxref=GeneID:3711833;gbkey=Gene;gene=napB;locus_tag=RSP_4117
+NC_007489.1	RefSeq	CDS	83242	83706	.	+	0	ID=cds66;Name=YP_345333.1;Parent=gene74;Note=Citation: Reyes%2C F. et. al. %281996%29 Mol. Microbiol. 19: 1307-1318.;Dbxref=Genbank:YP_345333.1,GeneID:3711833;gbkey=CDS;gene=napB;product=periplasmic nitrate reductase subunit NapB;protein_id=YP_345333.1;transl_table=11
+NC_007489.1	RefSeq	gene	83708	84391	.	+	.	ID=gene75;Name=napC;Dbxref=GeneID:3711834;gbkey=Gene;gene=napC;locus_tag=RSP_4118
+NC_007489.1	RefSeq	CDS	83708	84391	.	+	0	ID=cds67;Name=YP_345334.1;Parent=gene75;Note=Citation: Reyes%2C F. et. al. %281996%29 Mo. Microbiol. 19:1307-1318.;Dbxref=Genbank:YP_345334.1,GeneID:3711834;gbkey=CDS;gene=napC;product=periplasmic nitrate reductase subunit NapC;protein_id=YP_345334.1;transl_table=11
+NC_007489.1	RefSeq	gene	84532	84993	.	-	.	ID=gene76;Name=RSP_4119;Dbxref=GeneID:3711835;gbkey=Gene;locus_tag=RSP_4119
+NC_007489.1	RefSeq	CDS	84532	84993	.	-	0	ID=cds68;Name=YP_345335.1;Parent=gene76;Dbxref=Genbank:YP_345335.1,GeneID:3711835;gbkey=CDS;product=hypothetical protein;protein_id=YP_345335.1;transl_table=11
+NC_007489.1	RefSeq	gene	85057	86430	.	-	.	ID=gene77;Name=yapH;Dbxref=GeneID:3711836;gbkey=Gene;gene=yapH;locus_tag=RSP_4120
+NC_007489.1	RefSeq	CDS	85057	86430	.	-	0	ID=cds69;Name=YP_345336.1;Parent=gene77;Dbxref=Genbank:YP_345336.1,GeneID:3711836;gbkey=CDS;gene=yapH;product=hypothetical protein;protein_id=YP_345336.1;transl_table=11
+NC_007489.1	RefSeq	gene	87038	87844	.	-	.	ID=gene78;Name=RSP_4121;Dbxref=GeneID:3711837;gbkey=Gene;locus_tag=RSP_4121
+NC_007489.1	RefSeq	CDS	87038	87844	.	-	0	ID=cds70;Name=YP_345337.1;Parent=gene78;Note=very weak homology to nodD;Dbxref=Genbank:YP_345337.1,GeneID:3711837;gbkey=CDS;product=hypothetical protein;protein_id=YP_345337.1;transl_table=11
+NC_007489.1	RefSeq	gene	88117	90816	.	+	.	ID=gene79;Name=RSP_4122;Dbxref=GeneID:3711838;gbkey=Gene;locus_tag=RSP_4122
+NC_007489.1	RefSeq	CDS	88117	90816	.	+	0	ID=cds71;Name=YP_345338.1;Parent=gene79;Note=Citation: kaneko%2C T. et. al. %282002%29 DNA Res. 9: 225-256.;Dbxref=Genbank:YP_345338.1,GeneID:3711838;gbkey=CDS;product=hypothetical protein;protein_id=YP_345338.1;transl_table=11
+NC_007489.1	RefSeq	gene	92368	93411	.	+	.	ID=gene80;Name=RSP_4124;Dbxref=GeneID:3711839;gbkey=Gene;locus_tag=RSP_4124
+NC_007489.1	RefSeq	CDS	92368	93411	.	+	0	ID=cds72;Name=YP_345339.1;Parent=gene80;Dbxref=Genbank:YP_345339.1,GeneID:3711839;gbkey=CDS;product=hypothetical protein;protein_id=YP_345339.1;transl_table=11
+NC_007489.1	RefSeq	gene	93528	94307	.	-	.	ID=gene81;Name=RSP_4125;Dbxref=GeneID:3711840;gbkey=Gene;locus_tag=RSP_4125
+NC_007489.1	RefSeq	CDS	93528	94307	.	-	0	ID=cds73;Name=YP_345340.1;Parent=gene81;Dbxref=Genbank:YP_345340.1,GeneID:3711840;gbkey=CDS;product=hypothetical protein;protein_id=YP_345340.1;transl_table=11
+NC_007489.1	RefSeq	gene	95448	96629	.	+	.	ID=gene82;Name=RSP_4127;Dbxref=GeneID:3711841;gbkey=Gene;locus_tag=RSP_4127
+NC_007489.1	RefSeq	CDS	95448	96629	.	+	0	ID=cds74;Name=YP_345341.1;Parent=gene82;Dbxref=Genbank:YP_345341.1,GeneID:3711841;gbkey=CDS;product=ATP dependent lon ATPase;protein_id=YP_345341.1;transl_table=11
+NC_007489.1	RefSeq	gene	99311	100063	.	+	.	ID=gene83;Name=omp31-1;Dbxref=GeneID:3711842;gbkey=Gene;gene=omp31-1;locus_tag=RSP_4129
+NC_007489.1	RefSeq	CDS	99311	100063	.	+	0	ID=cds75;Name=YP_345342.1;Parent=gene83;Dbxref=Genbank:YP_345342.1,GeneID:3711842;gbkey=CDS;gene=omp31-1;product=outer membrane protein;protein_id=YP_345342.1;transl_table=11
+NC_007489.1	RefSeq	gene	100068	100622	.	-	.	ID=gene84;Name=RSP_4130;Dbxref=GeneID:3711843;gbkey=Gene;locus_tag=RSP_4130
+NC_007489.1	RefSeq	CDS	100068	100622	.	-	0	ID=cds76;Name=YP_345343.1;Parent=gene84;Dbxref=Genbank:YP_345343.1,GeneID:3711843;gbkey=CDS;product=hypothetical protein;protein_id=YP_345343.1;transl_table=11
+NC_007489.1	RefSeq	gene	101538	102200	.	+	.	ID=gene85;Name=flcA;Dbxref=GeneID:3711844;gbkey=Gene;gene=flcA;locus_tag=RSP_4131
+NC_007489.1	RefSeq	CDS	101538	102200	.	+	0	ID=cds77;Name=YP_345344.1;Parent=gene85;Note=Citation: Pereg-Gerk%2C L. et. al. %281998%29 Mol. Plant Microbe Interaction%2C 11: 177-187.;Dbxref=Genbank:YP_345344.1,GeneID:3711844;gbkey=CDS;gene=flcA;product=LuxR family transcriptional regulator;protein_id=YP_345344.1;transl_table=11
+NC_007489.1	RefSeq	gene	102413	102679	.	-	.	ID=gene86;Name=RSP_4132;Dbxref=GeneID:3711845;gbkey=Gene;locus_tag=RSP_4132
+NC_007489.1	RefSeq	CDS	102413	102679	.	-	0	ID=cds78;Name=YP_345345.1;Parent=gene86;Dbxref=Genbank:YP_345345.1,GeneID:3711845;gbkey=CDS;product=hypothetical protein;protein_id=YP_345345.1;transl_table=11
+NC_007489.1	RefSeq	gene	102713	103435	.	-	.	ID=gene87;Name=RSP_4133;Dbxref=GeneID:3711846;gbkey=Gene;locus_tag=RSP_4133
+NC_007489.1	RefSeq	CDS	102713	103435	.	-	0	ID=cds79;Name=YP_345346.1;Parent=gene87;Dbxref=Genbank:YP_345346.1,GeneID:3711846;gbkey=CDS;product=two component LuxR family transcriptional regulator;protein_id=YP_345346.1;transl_table=11
+NC_007489.1	RefSeq	gene	103644	104285	.	-	.	ID=gene88;Name=RSP_7381;Dbxref=GeneID:3711826;gbkey=Gene;locus_tag=RSP_7381
+NC_007489.1	RefSeq	CDS	103644	104285	.	-	0	ID=cds80;Name=YP_345347.1;Parent=gene88;Note=COG2771;Dbxref=Genbank:YP_345347.1,GeneID:3711826;gbkey=CDS;product=DNA-binding HTH domain-containing proteins;protein_id=YP_345347.1;transl_table=11
+NC_007489.1	RefSeq	gene	104650	105135	.	+	.	ID=gene89;Name=RSP_7382;Dbxref=GeneID:3711827;gbkey=Gene;locus_tag=RSP_7382
+NC_007489.1	RefSeq	CDS	104650	105135	.	+	0	ID=cds81;Name=YP_345348.1;Parent=gene89;Note=similar to SPO3714 from Silicibacter pomeroyi;Dbxref=Genbank:YP_345348.1,GeneID:3711827;gbkey=CDS;product=hypothetical protein;protein_id=YP_345348.1;transl_table=11
+###

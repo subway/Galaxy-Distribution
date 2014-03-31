@@ -1,0 +1,49 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/682/dataset_719_files -l velvet /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_390.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-02-11 18:39:28
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/682/dataset_719_files/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_390.dat ==> velvet
+
+2014-02-11 18:39:30
+Running Basic statistics processor...
+  Contig files: 
+    velvet
+  Calculating N50 and L50...
+    velvet, N50 = 92036, L50 = 15, Total length = 3944260, GC % = 47.52, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/682/dataset_719_files/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/682/dataset_719_files/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/682/dataset_719_files/basic_stats/Nx_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-02-11 18:39:31
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/682/dataset_719_files/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/682/dataset_719_files/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/682/dataset_719_files/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/682/dataset_719_files/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/682/dataset_719_files/quast.log
+
+Finished: 2014-02-11 18:39:31
+Elapsed time: 0:00:03.434530

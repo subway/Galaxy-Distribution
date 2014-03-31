@@ -1,0 +1,10 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                          VC-H-Abyss  VC-M-Abyss  VC-H-Cabog  VC-M-Cabog  VC-H-Mira  VC-M-Mira  VC-H-Msrca  VC-M-Msrca  VC-H-Sga  VC-M-Sga  VC-H-Soap  VC-M-Soap  VC-H-Spades  VC-M-Spades  VC-H-Velvet  VC-M-Velvet
+# fully unaligned contigs         60          99          75          121         49         68         19          58          193       166       33         90         42           75           102          58         
+Fully unaligned length            2055249     2895073     1932711     2111435     1389455    1152344    534574      1433311     2790373   2719046   1272459    1868996    1347944      367337       2299924      1433869    
+# partially unaligned contigs     12          0           17          30          23         28         18          27          9         16        11         12         23           14           16           21         
+    # with misassembly            1           0           1           1           4          6          6           3           0         1         4          3          2            6            1            5          
+    # both parts are significant  1           0           3           5           4          5          8           5           0         0         1          1          0            5            2            5          
+Partially unaligned length        936969      0           935406      814161      1520126    1793338    2383810     1516357     102308    195476    1632619    1035465    1557501      2605794      596697       1476067    
+# N's                             4125        0           0           0           198        70         0           0           0         0         0          0          0            209          0            0          

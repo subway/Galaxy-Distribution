@@ -1,0 +1,158 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [NC_005707]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 208369
+Analyzing contigs...
+CONTIG: 1605_69698_2826918_1170+_..._677+ (69698bp)
+Top Length: 69698  Top ID: 99.98
+		Marking as insignificant: 189123 189312 | 69507 69698 | 190 192 | 96.88 | NC_005707 1605_69698_2826918_1170+_..._677+
+		One align captures most of this contig: 119425 189122 | 1 69698 | 69698 69698 | 99.98 | NC_005707 1605_69698_2826918_1170+_..._677+
+
+CONTIG: 1557_23179_1171693_157-_..._1348- (23179bp)
+Top Length: 14381  Top ID: 99.99
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 2: 189265 193915 | 23179 18529 | 4651 4651 | 99.94 | NC_005707 1557_23179_1171693_157-_..._1348-
+			  Overlap between these two alignments (local misassembly). Inconsistency = -26
+			Real Alignment 3: 193989 208369 | 18429 4049 | 14381 14381 | 99.99 | NC_005707 1557_23179_1171693_157-_..._1348-
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 1: 1 4489 | 4489 1 | 4489 4489 | 100.0 | NC_005707 1557_23179_1171693_157-_..._1348-
+
+CONTIG: 1598_39488_1783257_989-_..._1020- (39488bp)
+Top Length: 27569  Top ID: 99.78
+		Skipping redundant alignment 108386 108454 | 33673 33605 | 69 69 | 100.0 | NC_005707 1598_39488_1783257_989-_..._1020-
+		Skipping redundant alignment 81384 81486 | 33807 33705 | 103 103 | 100.0 | NC_005707 1598_39488_1783257_989-_..._1020-
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 4895 16972 | 1 12071 | 12078 12071 | 99.57 | NC_005707 1598_39488_1783257_989-_..._1020-
+			  Gap between these two alignments (local misassembly). Inconsistency = 90
+			Real Alignment 2: 16911 44498 | 11920 39488 | 27588 27569 | 99.78 | NC_005707 1598_39488_1783257_989-_..._1020-
+
+CONTIG: 1607_7299_417531_1212+_1245+ (7299bp)
+Top Length: 7299  Top ID: 100.0
+		One align captures most of this contig: 44732 52030 | 1 7299 | 7299 7299 | 100.0 | NC_005707 1607_7299_417531_1212+_1245+
+
+CONTIG: 1609_4975_307648_1245+_1337+ (4975bp)
+Top Length: 4975  Top ID: 100.0
+		One align captures most of this contig: 50584 55558 | 1 4975 | 4975 4975 | 100.0 | NC_005707 1609_4975_307648_1245+_1337+
+
+CONTIG: 1568_6651_438825_400+_468- (6651bp)
+Top Length: 6651  Top ID: 99.98
+		One align captures most of this contig: 74781 81431 | 6651 1 | 6651 6651 | 99.98 | NC_005707 1568_6651_438825_400+_468-
+
+CONTIG: 1574_21379_1082003_468-_113+ (21379bp)
+Top Length: 21379  Top ID: 99.99
+		One align captures most of this contig: 55779 77157 | 21379 1 | 21379 21379 | 99.99 | NC_005707 1574_21379_1082003_468-_113+
+
+CONTIG: 1617_30543_1505248_1388+_..._975- (30543bp)
+Top Length: 30543  Top ID: 99.43
+		Marking as insignificant: 38615 38683 | 26918 26850 | 69 69 | 100.0 | NC_005707 1617_30543_1505248_1388+_..._975-
+		Marking as insignificant: 81374 81591 | 1615 1833 | 218 219 | 95.43 | NC_005707 1617_30543_1505248_1388+_..._975-
+		One align captures most of this contig: 81509 112079 | 1 30543 | 30571 30543 | 99.43 | NC_005707 1617_30543_1505248_1388+_..._975-
+
+CONTIG: 1597_10187_648470_975-_1201+ (10187bp)
+Top Length: 10187  Top ID: 99.99
+		One align captures most of this contig: 109195 119380 | 1 10187 | 10186 10187 | 99.99 | NC_005707 1597_10187_648470_975-_1201+
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/929/dataset_1012_files/NC_005707_quast_output/contigs_reports/nucmer_output/dataset_497.dat.used_snps
+	Reference NC_005707: 12 total alignments. 1 total regions.
+		Region: 1 to 208369 (208369 bp)
+			Align 1: 1 4489 1557_23179_1171693_157-_..._1348- 4489 1
+				Gap between this and next alignment: 4489 to 4895 (405 bp)
+				Next Alignment: 4895 16972 1598_39488_1783257_989-_..._1020- 1 12071
+
+			Align 2: 4895 16972 1598_39488_1783257_989-_..._1020- 1 12071
+				Negative gap (overlap) between this and next alignment: 16972 to 16911 (-61 bp)
+				Next Alignment: 16911 44498 1598_39488_1783257_989-_..._1020- 11920 39488
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 11920 to 11982.
+			Align 3: 16973 44498 1598_39488_1783257_989-_..._1020- 11982 39488
+				Gap between this and next alignment: 44498 to 44732 (233 bp)
+				Next Alignment: 44732 52030 1607_7299_417531_1212+_1245+ 1 7299
+
+			Align 4: 44732 52030 1607_7299_417531_1212+_1245+ 1 7299
+				Negative gap (overlap) between this and next alignment: 52030 to 50584 (-1446 bp)
+				Next Alignment: 50584 55558 1609_4975_307648_1245+_1337+ 1 4975
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 1448.
+			Align 5: 52031 55558 1609_4975_307648_1245+_1337+ 1448 4975
+				Gap between this and next alignment: 55558 to 55779 (220 bp)
+				Next Alignment: 55779 77157 1574_21379_1082003_468-_113+ 21379 1
+
+			Align 6: 55779 77157 1574_21379_1082003_468-_113+ 21379 1
+				Negative gap (overlap) between this and next alignment: 77157 to 74781 (-2376 bp)
+				Next Alignment: 74781 81431 1568_6651_438825_400+_468- 6651 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 6651 to 4274.
+			Align 7: 77158 81431 1568_6651_438825_400+_468- 4274 1
+				Gap between this and next alignment: 81431 to 81509 (77 bp)
+				Next Alignment: 81509 112079 1617_30543_1505248_1388+_..._975- 1 30543
+
+			Align 8: 81509 112079 1617_30543_1505248_1388+_..._975- 1 30543
+				Negative gap (overlap) between this and next alignment: 112079 to 109195 (-2884 bp)
+				Next Alignment: 109195 119380 1597_10187_648470_975-_1201+ 1 10187
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 2886.
+			Align 9: 112080 119380 1597_10187_648470_975-_1201+ 2886 10187
+				Gap between this and next alignment: 119380 to 119425 (44 bp)
+				Next Alignment: 119425 189122 1605_69698_2826918_1170+_..._677+ 1 69698
+
+			Align 10: 119425 189122 1605_69698_2826918_1170+_..._677+ 1 69698
+				Gap between this and next alignment: 189122 to 189265 (142 bp)
+				Next Alignment: 189265 193915 1557_23179_1171693_157-_..._1348- 23179 18529
+
+			Align 11: 189265 193915 1557_23179_1171693_157-_..._1348- 23179 18529
+				Gap between this and next alignment: 193915 to 193989 (73 bp)
+				Next Alignment: 193989 208369 1557_23179_1171693_157-_..._1348- 18429 4049
+
+			Align 12: 193989 208369 1557_23179_1171693_157-_..._1348- 18429 4049
+			END in current alignment.  Modifying 208369 to 208369.
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/929/dataset_1012_files/NC_005707_quast_output/contigs_reports/nucmer_output/dataset_497.dat.used_snps
+
+Results:
+	Local Misassemblies: 2
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassmblies Inter-Contig Overlap: 152
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 0 part
+Partially Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 0
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 207175
+
+	SNPs: 12
+	Insertions: 18
+	Deletions: 71
+
+	Positive Gaps: 7
+		Internal Gaps:  1
+		External Gaps:  6
+		External Gap Total:  1121
+		External Gap Average: 187
+	Negative Gaps: 4
+		Internal Overlaps:  1
+		External Overlaps:  3
+		External Overlaps Total: -6706
+		External Overlaps Average: -2235
+	Contigs with Redundant Alignments: 0 (0)

@@ -1,0 +1,163 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_676.dat -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_677.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_480.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_482.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_483.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_484.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_485.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_486.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_487.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_488.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-02-26 02:20:37
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_676.dat ==> dataset_676
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_480.dat ==> dataset_480.dat
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_482.dat ==> dataset_482.dat
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_483.dat ==> dataset_483.dat
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_484.dat ==> dataset_484.dat
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_485.dat ==> dataset_485.dat
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_486.dat ==> dataset_486.dat
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_487.dat ==> dataset_487.dat
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_488.dat ==> dataset_488.dat
+
+2014-02-26 02:20:45
+Running Basic statistics processor...
+  Reference genome:
+    dataset_676.dat, Reference length = 4744448, Reference GC % = 61.55
+  Contig files: 
+    1  dataset_480.dat
+    2  dataset_482.dat
+    3  dataset_483.dat
+    4  dataset_484.dat
+    5  dataset_485.dat
+    6  dataset_486.dat
+    7  dataset_487.dat
+    8  dataset_488.dat
+  Calculating N50 and L50...
+    1  dataset_480.dat, N50 = 237457, L50 = 7, Total length = 4969260, GC % = 61.53, # N's per 100 kbp =  1.83
+    2  dataset_482.dat, N50 = 278382, L50 = 6, Total length = 5004541, GC % = 61.60, # N's per 100 kbp =  0.00
+    3  dataset_483.dat, N50 = 244066, L50 = 10, Total length = 4958807, GC % = 61.57, # N's per 100 kbp =  4.21
+    4  dataset_484.dat, N50 = 828647, L50 = 3, Total length = 4914380, GC % = 61.61, # N's per 100 kbp =  0.00
+    5  dataset_485.dat, N50 = 67129, L50 = 25, Total length = 4869935, GC % = 61.62, # N's per 100 kbp =  0.00
+    6  dataset_486.dat, N50 = 243851, L50 = 8, Total length = 4888841, GC % = 61.61, # N's per 100 kbp =  0.00
+    7  dataset_487.dat, N50 = 379681, L50 = 5, Total length = 4929385, GC % = 61.54, # N's per 100 kbp =  1.28
+    8  dataset_488.dat, N50 = 180361, L50 = 9, Total length = 4886581, GC % = 61.61, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/basic_stats/NGx_plot.pdf
+Done.
+
+2014-02-26 02:20:51
+Running Contig analyzer...
+  1  dataset_480.dat
+  2  dataset_482.dat
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/contigs_report_dataset_480.stdout and contigs_report_dataset_480.stderr...
+  3  dataset_483.dat
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/contigs_report_dataset_482.stdout and contigs_report_dataset_482.stderr...
+  4  dataset_484.dat
+  1  Running Nucmer... 
+  3  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/contigs_report_dataset_483.stdout and contigs_report_dataset_483.stderr...
+  4  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/contigs_report_dataset_484.stdout and contigs_report_dataset_484.stderr...
+  2  Running Nucmer... 
+  3  Running Nucmer... 
+  4  Running Nucmer... 
+  5  dataset_485.dat
+  5  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/contigs_report_dataset_485.stdout and contigs_report_dataset_485.stderr...
+  5  Running Nucmer... 
+  6  dataset_486.dat
+  6  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/contigs_report_dataset_486.stdout and contigs_report_dataset_486.stderr...
+  7  dataset_487.dat
+  8  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/contigs_report_dataset_488.stdout and contigs_report_dataset_488.stderr...
+  6  Running Nucmer... 
+  7  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/contigs_report_dataset_487.stdout and contigs_report_dataset_487.stderr...
+  8  Running Nucmer... 
+  7  Running Nucmer... 
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/alignments_dataset_486.tsv
+  18231 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/alignments_dataset_480.tsv
+  20244 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/alignments_dataset_484.tsv
+  19461 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/alignments_dataset_483.tsv
+  51 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/alignments_dataset_487.tsv
+  19293 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/alignments_dataset_488.tsv
+  19131 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/alignments_dataset_482.tsv
+  20486 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/alignments_dataset_485.tsv
+  44510 Analysis is finished.
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-02-26 02:21:48
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    1  dataset_480.dat, Largest alignment = 52419, NA50 = None, NGA50 = None, LA50 = None, LGA50 = None
+    2  dataset_482.dat, Largest alignment = 52397, NA50 = None, NGA50 = None, LA50 = None, LGA50 = None
+    3  dataset_483.dat, Largest alignment = 52419, NA50 = None, NGA50 = None, LA50 = None, LGA50 = None
+    4  dataset_484.dat, Largest alignment = 52419, NA50 = None, NGA50 = None, LA50 = None, LGA50 = None
+    5  dataset_485.dat, Largest alignment = 52419, NA50 = None, NGA50 = None, LA50 = None, LGA50 = None
+    6  dataset_486.dat, Largest alignment = 52419, NA50 = None, NGA50 = None, LA50 = None, LGA50 = None
+    7  dataset_487.dat, Largest alignment = 52419, NA50 = None, NGA50 = None, LA50 = None, LGA50 = None
+    8  dataset_488.dat, Largest alignment = 52419, NA50 = None, NGA50 = None, LA50 = None, LGA50 = None
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-02-26 02:21:50
+Running Genome analyzer...
+  Loaded 4284 genes
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  1  dataset_480.dat
+  2  dataset_482.dat
+  3  dataset_483.dat
+  4  dataset_484.dat
+  5  dataset_485.dat
+  6  dataset_486.dat
+  7  dataset_487.dat
+  8  dataset_488.dat
+  Drawing genes cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-02-26 02:22:09
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/712/dataset_749_files/quast.log
+
+Finished: 2014-02-26 02:22:09
+Elapsed time: 0:01:31.991986

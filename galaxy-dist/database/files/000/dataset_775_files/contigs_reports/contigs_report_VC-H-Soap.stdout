@@ -1,0 +1,1450 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 1072315
+Analyzing contigs...
+CONTIG: scaffold26_20.6_1 (1774bp)
+Top Length: 1774  Top ID: 100.0
+		One align captures most of this contig: 396282 398055 | 1774 1 | 1774 1774 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold26_20.6_1
+
+CONTIG: scaffold13_39.1_1 (102918bp)
+Top Length: 2062  Top ID: 95.42
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 102918 and total length of all aligns is 2190
+		Alignment: 157395 157522 | 11789 11662 | 128 128 | 98.44 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold13_39.1_1
+		Alignment: 558169 560244 | 79931 77870 | 2076 2062 | 95.42 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold13_39.1_1
+		Unaligned bases: 100728
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scaffold4_42.6_1 (4660bp)
+		This contig is unaligned. (4660 bp)
+		Unaligned bases: 4660  total: 4660
+
+CONTIG: C2287_28.0_1 (977bp)
+Top Length: 977  Top ID: 100.0
+		One align captures most of this contig: 430890 431866 | 1 977 | 977 977 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2287_28.0_1
+
+CONTIG: scaffold27_30.0_3 (125939bp)
+		This contig is unaligned. (125939 bp)
+		Unaligned bases: 125939  total: 130599
+
+CONTIG: C2251_45.0_1 (772bp)
+		This contig is unaligned. (772 bp)
+		Unaligned bases: 772  total: 131371
+
+CONTIG: scaffold54_30.9_2 (10244bp)
+Top Length: 10244  Top ID: 99.99
+		One align captures most of this contig: 436593 446836 | 10244 1 | 10244 10244 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold54_30.9_2
+
+CONTIG: scaffold54_30.9_1 (61219bp)
+Top Length: 61176  Top ID: 99.99
+		One align captures most of this contig: 446822 507997 | 61219 44 | 61176 61176 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold54_30.9_1
+
+CONTIG: scaffold18_25.7_1 (10139bp)
+Top Length: 7005  Top ID: 100.0
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [302746][304023] redundant alignment 302746 304023 | 1 1284 | 1278 1284 | 99.53 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold18_25.7_1
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 302746 304023 | 1 1278 | 1278 1278 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold18_25.7_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -498
+			Real Alignment 2: 303939 310943 | 1692 8696 | 7005 7005 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold18_25.7_1
+			  Extensive misassembly ( relocation, inconsistency = 1376 ) between these two alignments
+			Real Alignment 3: 312311 313762 | 8688 10139 | 1452 1452 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold18_25.7_1
+
+CONTIG: C2249_43.0_1 (772bp)
+Top Length: 772  Top ID: 100.0
+		One align captures most of this contig: 20444 21215 | 772 1 | 772 772 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2249_43.0_1
+
+CONTIG: scaffold46_32.1_1 (2243bp)
+Top Length: 2243  Top ID: 100.0
+		Marking as insignificant: 360941 361065 | 1278 1401 | 125 124 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold46_32.1_1
+		Marking as insignificant: 327878 328002 | 1280 1403 | 125 124 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold46_32.1_1
+		Marking as insignificant: 388856 388979 | 1278 1401 | 124 124 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold46_32.1_1
+		Marking as insignificant: 317910 318034 | 1278 1401 | 125 124 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold46_32.1_1
+		Marking as insignificant: 430845 430970 | 1277 1402 | 126 126 | 95.24 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold46_32.1_1
+		Marking as insignificant: 361997 362123 | 1278 1403 | 127 126 | 95.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold46_32.1_1
+		Marking as insignificant: 330251 330377 | 1276 1401 | 127 126 | 95.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold46_32.1_1
+		Marking as insignificant: 391297 391422 | 1278 1403 | 126 126 | 96.03 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold46_32.1_1
+		Marking as insignificant: 383779 383904 | 1278 1403 | 126 126 | 96.03 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold46_32.1_1
+		Marking as insignificant: 329719 329844 | 1278 1403 | 126 126 | 97.62 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold46_32.1_1
+		One align captures most of this contig: 314659 316901 | 1 2243 | 2243 2243 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold46_32.1_1
+
+CONTIG: scaffold9_28.6_1 (848bp)
+Top Length: 848  Top ID: 99.06
+		Marking as insignificant: 415579 415701 | 243 366 | 123 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_1
+		One align captures most of this contig: 331576 332423 | 1 848 | 848 848 | 99.06 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_1
+
+CONTIG: scaffold9_28.6_2 (2530bp)
+Top Length: 2530  Top ID: 99.14
+		Marking as insignificant: 329721 329842 | 2 123 | 122 122 | 95.08 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 360420 360542 | 2 123 | 123 122 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 410603 410724 | 2 123 | 122 122 | 95.9 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 368048 368169 | 2 123 | 122 122 | 95.9 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 366021 366144 | 1 123 | 124 123 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 323356 323479 | 1 123 | 124 123 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 338183 338306 | 2 125 | 124 124 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 413225 413348 | 1 123 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 390660 390783 | 1 123 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 331180 331303 | 1 123 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 364264 364388 | 2 125 | 125 124 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 425436 425560 | 1400 1524 | 125 125 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 381280 381404 | 1 125 | 125 125 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 373430 373555 | 2 127 | 126 126 | 95.24 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 432360 432484 | 1 124 | 125 124 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 327284 327408 | 1 124 | 125 124 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 348948 349072 | 1 125 | 125 125 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		Marking as insignificant: 407511 407638 | 1 127 | 128 127 | 95.31 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+		One align captures most of this contig: 332356 334907 | 1 2530 | 2552 2530 | 99.14 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold9_28.6_2
+
+CONTIG: scaffold29_41.6_1 (2255bp)
+Top Length: 2255  Top ID: 97.14
+		Marking as insignificant: 343097 343193 | 2108 2012 | 97 97 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 379619 379741 | 813 692 | 123 122 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 434909 435031 | 813 692 | 123 122 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 423460 423582 | 813 692 | 123 122 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 370560 370682 | 163 42 | 123 122 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 343101 343223 | 813 692 | 123 122 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 341813 341936 | 813 691 | 124 123 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 395088 395210 | 2104 1982 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 370560 370682 | 2104 1982 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 377944 378067 | 1571 1448 | 124 124 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 395088 395211 | 163 41 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 370559 370682 | 814 692 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 341813 341935 | 1571 1449 | 123 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 337033 337154 | 1571 1449 | 122 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 377944 378066 | 813 692 | 123 122 | 97.56 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 395087 395211 | 814 691 | 125 124 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 341811 341936 | 165 41 | 126 125 | 95.24 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 396246 396369 | 2105 1982 | 124 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 338832 338955 | 1572 1449 | 124 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 396247 396369 | 1571 1449 | 123 123 | 97.56 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 385467 385590 | 2104 1981 | 124 124 | 97.58 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 337032 337154 | 2105 1982 | 123 124 | 97.58 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 385466 385590 | 1572 1448 | 125 125 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 377942 378066 | 165 42 | 125 124 | 97.6 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 377941 378067 | 2107 1981 | 127 127 | 96.06 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 379619 379742 | 1571 1448 | 124 124 | 98.39 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 423459 423585 | 2105 1979 | 127 127 | 96.85 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 338829 338955 | 2108 1982 | 127 127 | 96.85 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 423460 423585 | 1571 1446 | 126 126 | 97.62 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 379617 379742 | 2106 1981 | 126 126 | 97.62 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 341809 341935 | 2108 1982 | 127 127 | 97.64 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 434905 435032 | 2108 1981 | 128 128 | 98.44 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 434902 435032 | 1578 1448 | 131 131 | 97.71 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 431823 431953 | 2105 1975 | 131 131 | 98.47 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 323874 324013 | 2122 1982 | 140 141 | 97.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 393903 394675 | 814 42 | 773 773 | 97.03 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		Marking as insignificant: 343094 343980 | 1578 692 | 887 887 | 99.32 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+		One align captures most of this contig: 432155 434463 | 2255 1 | 2309 2255 | 97.14 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold29_41.6_1
+
+CONTIG: C2171_11.0_1 (539bp)
+Top Length: 539  Top ID: 100.0
+		One align captures most of this contig: 334967 335505 | 1 539 | 539 539 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2171_11.0_1
+
+CONTIG: scaffold5_28.2_1 (1220bp)
+Top Length: 1220  Top ID: 99.92
+		Marking as insignificant: 395088 395152 | 1156 1220 | 65 65 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 385467 385531 | 1156 1220 | 65 65 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 370560 370624 | 1156 1220 | 65 65 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 338833 338897 | 1156 1220 | 65 65 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 396246 396311 | 1155 1220 | 66 66 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 337032 337097 | 1155 1220 | 66 66 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 322044 322109 | 1155 1220 | 66 66 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 434907 434973 | 1154 1220 | 67 67 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 377942 378008 | 1154 1220 | 67 67 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 343099 343165 | 1154 1220 | 67 67 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 341811 341877 | 1154 1220 | 67 67 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 434298 434365 | 1153 1220 | 68 68 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 379614 379683 | 1151 1220 | 70 70 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 432883 432958 | 1147 1220 | 76 74 | 96.05 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 370560 370682 | 727 849 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 338833 338955 | 727 849 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 385467 385590 | 727 850 | 124 124 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 337032 337154 | 726 849 | 123 124 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 377943 378067 | 726 850 | 125 125 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 432894 433018 | 727 852 | 125 126 | 96.03 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 396246 396369 | 726 849 | 124 124 | 97.58 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 395088 395214 | 727 854 | 127 128 | 95.31 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 379618 379742 | 726 850 | 125 125 | 97.6 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 434908 435032 | 726 850 | 125 125 | 98.4 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 343100 343226 | 726 852 | 127 127 | 98.43 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		Marking as insignificant: 341804 341935 | 718 849 | 132 132 | 95.45 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+		One align captures most of this contig: 422734 423953 | 1 1220 | 1220 1220 | 99.92 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_1
+
+CONTIG: scaffold5_28.2_2 (4891bp)
+Top Length: 4379  Top ID: 99.98
+		Skipping redundant alignment 333777 333901 | 2062 2186 | 125 125 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_2
+		Skipping redundant alignment 372501 373162 | 3955 4617 | 662 663 | 96.53 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_2
+		Skipping redundant alignment 325086 325211 | 4495 4620 | 126 126 | 96.03 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_2
+		Skipping redundant alignment 318449 318572 | 4495 4618 | 124 124 | 97.58 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_2
+		Skipping redundant alignment 326749 326871 | 4495 4618 | 123 124 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_2
+		Skipping redundant alignment 376129 376250 | 4495 4617 | 122 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_2
+		Skipping redundant alignment 384466 384588 | 4495 4617 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_2
+		Skipping redundant alignment 414260 414381 | 4495 4617 | 122 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_2
+		Skipping redundant alignment 414769 414891 | 4495 4617 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_2
+		Skipping redundant alignment 422646 422767 | 4495 4617 | 122 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_2
+		This contig is misassembled. 12 total aligns.
+			Real Alignment 1: 423887 424524 | 1 638 | 638 638 | 98.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_2
+			  Overlap between these two alignments (local misassembly). Inconsistency = -512
+			Real Alignment 2: 423887 428265 | 513 4891 | 4379 4379 | 99.98 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold5_28.2_2
+
+CONTIG: scaffold25_46.0_1 (6090bp)
+Top Length: 75  Top ID: 100.0
+		This contig is partially unaligned. (75 out of 6090)
+		Alignment: 494884 494958 | 5752 5826 | 75 75 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold25_46.0_1
+		Unaligned bases: 1 to 5751 (5751)
+		Unaligned bases: 5827 to 6090 (264)
+
+CONTIG: C2317_56.0_1 (1197bp)
+Top Length: 1197  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 301600 302796 | 1 1197 | 1197 1197 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2317_56.0_1
+		Skipping alignment  416455 417651 | 1197 1 | 1197 1197 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2317_56.0_1
+
+CONTIG: scaffold1_32.5_3 (425556bp)
+Top Length: 145  Top ID: 98.62
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 425556 and total length of all aligns is 346
+		Alignment: 27771 27915 | 409280 409136 | 145 145 | 98.62 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold1_32.5_3
+		Alignment: 157395 157522 | 409183 409056 | 128 128 | 97.66 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold1_32.5_3
+		Alignment: 699659 699776 | 66849 66969 | 118 121 | 95.08 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold1_32.5_3
+		Unaligned bases: 425210
+CONTIG: scaffold1_32.5_2 (135118bp)
+Top Length: 128  Top ID: 98.44
+		This contig is partially unaligned. (128 out of 135118)
+		Alignment: 157395 157522 | 116621 116494 | 128 128 | 98.44 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold1_32.5_2
+		Unaligned bases: 1 to 116493 (116493)
+		Unaligned bases: 116622 to 135118 (18497)
+
+CONTIG: scaffold1_32.5_1 (13646bp)
+		This contig is unaligned. (13646 bp)
+		Unaligned bases: 13646  total: 145017
+
+CONTIG: scaffold19_34.2_2 (62739bp)
+		This contig is unaligned. (62739 bp)
+		Unaligned bases: 62739  total: 207756
+
+CONTIG: scaffold19_34.2_3 (50198bp)
+		This contig is unaligned. (50198 bp)
+		Unaligned bases: 50198  total: 257954
+
+CONTIG: scaffold19_34.2_1 (163193bp)
+Top Length: 128  Top ID: 98.44
+		This contig is partially unaligned. (128 out of 163193)
+		Alignment: 157395 157522 | 10751 10878 | 128 128 | 98.44 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold19_34.2_1
+		Unaligned bases: 1 to 10750 (10750)
+		Unaligned bases: 10879 to 163193 (152315)
+
+CONTIG: scaffold19_34.2_4 (104744bp)
+		This contig is unaligned. (104744 bp)
+		Unaligned bases: 104744  total: 362698
+
+CONTIG: scaffold19_34.2_5 (11959bp)
+		This contig is unaligned. (11959 bp)
+		Unaligned bases: 11959  total: 374657
+
+CONTIG: scaffold8_45.8_1 (77508bp)
+		This contig is unaligned. (77508 bp)
+		Unaligned bases: 77508  total: 452165
+
+CONTIG: scaffold20_41.8_1 (246183bp)
+Top Length: 128  Top ID: 97.66
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 246183 and total length of all aligns is 259
+		Alignment: 157395 157522 | 25859 25732 | 128 128 | 97.66 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold20_41.8_1
+		Alignment: 961976 962106 | 203794 203924 | 131 131 | 95.42 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold20_41.8_1
+		Unaligned bases: 245924
+CONTIG: scaffold32_39.7_1 (1119bp)
+Top Length: 1119  Top ID: 100.0
+		Marking as insignificant: 427869 427994 | 505 380 | 126 126 | 96.03 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold32_39.7_1
+		Marking as insignificant: 414256 414381 | 509 383 | 126 127 | 96.85 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold32_39.7_1
+		Marking as insignificant: 343859 344362 | 505 1 | 504 505 | 96.04 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold32_39.7_1
+		Marking as insignificant: 398505 399010 | 506 1 | 506 506 | 96.25 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold32_39.7_1
+		Marking as insignificant: 377941 378448 | 508 1 | 508 508 | 96.46 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold32_39.7_1
+		Marking as insignificant: 383852 384588 | 1119 383 | 737 737 | 99.59 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold32_39.7_1
+		One align captures most of this contig: 324472 325590 | 1119 1 | 1119 1119 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold32_39.7_1
+
+CONTIG: C2793_42.0_1 (25317bp)
+		This contig is unaligned. (25317 bp)
+		Unaligned bases: 25317  total: 477482
+
+CONTIG: scaffold44_31.8_1 (54370bp)
+Top Length: 35567  Top ID: 99.99
+		Skipping redundant alignment 878509 878705 | 11208 11012 | 197 197 | 95.43 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold44_31.8_1
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 237442 273007 | 1 35567 | 35566 35567 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold44_31.8_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 438
+			Real Alignment 2: 273008 292249 | 35130 54370 | 19242 19241 | 99.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold44_31.8_1
+
+CONTIG: C2463_55.0_1 (3981bp)
+		This contig is unaligned. (3981 bp)
+		Unaligned bases: 3981  total: 481463
+
+CONTIG: C2299_54.0_1 (1060bp)
+Top Length: 1060  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 395237 396296 | 1 1060 | 1060 1060 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2299_54.0_1
+		Skipping alignment  336023 337082 | 1 1060 | 1060 1060 | 99.91 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2299_54.0_1
+
+CONTIG: scaffold30_31.3_5 (31275bp)
+		This contig is unaligned. (31275 bp)
+		Unaligned bases: 31275  total: 512738
+
+CONTIG: scaffold30_31.3_4 (20682bp)
+		This contig is unaligned. (20682 bp)
+		Unaligned bases: 20682  total: 533420
+
+CONTIG: scaffold30_31.3_3 (2821bp)
+		This contig is unaligned. (2821 bp)
+		Unaligned bases: 2821  total: 536241
+
+CONTIG: scaffold30_31.3_2 (82359bp)
+		This contig is unaligned. (82359 bp)
+		Unaligned bases: 82359  total: 618600
+
+CONTIG: scaffold30_31.3_1 (31069bp)
+		This contig is unaligned. (31069 bp)
+		Unaligned bases: 31069  total: 649669
+
+CONTIG: C2163_37.0_1 (528bp)
+Top Length: 528  Top ID: 100.0
+		One align captures most of this contig: 361016 361543 | 1 528 | 528 528 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2163_37.0_1
+
+CONTIG: C2561_35.0_1 (7622bp)
+		This contig is unaligned. (7622 bp)
+		Unaligned bases: 7622  total: 657291
+
+CONTIG: scaffold7_27.9_1 (869bp)
+Top Length: 869  Top ID: 99.88
+		One align captures most of this contig: 344525 345392 | 869 1 | 868 869 | 99.88 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold7_27.9_1
+
+CONTIG: scaffold49_32.4_1 (55239bp)
+Top Length: 55239  Top ID: 99.99
+		One align captures most of this contig: 102253 157492 | 55239 1 | 55240 55239 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold49_32.4_1
+
+CONTIG: scaffold42_31.7_1 (62256bp)
+Top Length: 32051  Top ID: 99.99
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 157588 187896 | 1 30307 | 30309 30307 | 99.98 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold42_31.7_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -36
+			Real Alignment 2: 187759 219809 | 30206 62256 | 32051 32051 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold42_31.7_1
+
+CONTIG: scaffold52_21.7_1 (3743bp)
+Top Length: 3743  Top ID: 99.95
+		Marking as insignificant: 311326 312316 | 3743 2753 | 991 991 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold52_21.7_1
+		One align captures most of this contig: 352701 356442 | 3743 1 | 3742 3743 | 99.95 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold52_21.7_1
+
+CONTIG: scaffold6_29.0_1 (5206bp)
+Top Length: 5206  Top ID: 99.96
+		Marking as insignificant: 386792 386914 | 2797 2675 | 123 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 398506 398628 | 2797 2675 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 371466 371588 | 2797 2675 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 348413 348535 | 2797 2675 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 432360 432483 | 2798 2675 | 124 124 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 399165 399288 | 2798 2675 | 124 124 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 327284 327407 | 2798 2675 | 124 124 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 376129 376250 | 4145 4024 | 122 122 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 399882 400004 | 4145 4023 | 123 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 420535 420657 | 2796 2674 | 123 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 322548 322670 | 2797 2675 | 123 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 360420 360543 | 2797 2674 | 124 124 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 329721 329843 | 2797 2674 | 123 124 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 414769 414891 | 4145 4024 | 123 122 | 97.56 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 427869 427992 | 4145 4023 | 124 123 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 410603 410725 | 2797 2674 | 123 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 388220 388343 | 2797 2674 | 124 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 368048 368170 | 2797 2674 | 123 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 323892 324014 | 2797 2674 | 123 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 431824 431946 | 2797 2675 | 123 123 | 97.56 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 389418 389540 | 4682 4560 | 123 123 | 97.56 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 364264 364386 | 2797 2675 | 123 123 | 97.56 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 349509 349631 | 4682 4560 | 123 123 | 97.56 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 327878 328000 | 4682 4560 | 123 123 | 97.56 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 315936 316059 | 4684 4560 | 124 125 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 348946 349070 | 2800 2675 | 125 126 | 95.24 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 422645 422767 | 4146 4024 | 123 123 | 97.58 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 407509 407634 | 2800 2675 | 126 126 | 96.03 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 391296 391420 | 4685 4560 | 125 126 | 96.03 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 402356 402479 | 4682 4559 | 124 124 | 97.58 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 390660 390784 | 2798 2674 | 125 125 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 323356 323480 | 2798 2674 | 125 125 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 413223 413349 | 2800 2674 | 127 127 | 95.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 331178 331304 | 2800 2674 | 127 127 | 95.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 388855 388980 | 4685 4559 | 126 127 | 96.06 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 430846 430969 | 4684 4560 | 124 125 | 97.6 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 366022 366144 | 4682 4560 | 123 123 | 99.19 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 323357 323479 | 4682 4560 | 123 123 | 99.19 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 366021 366147 | 2798 2672 | 127 127 | 96.85 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 361997 362121 | 4684 4560 | 125 125 | 98.4 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 383778 383902 | 4685 4560 | 125 126 | 98.41 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 339366 339491 | 4684 4559 | 126 126 | 98.41 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 330253 330378 | 4684 4559 | 126 126 | 98.41 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		Marking as insignificant: 413226 413872 | 5206 4560 | 647 647 | 98.45 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+		One align captures most of this contig: 317388 322594 | 5206 1 | 5207 5206 | 99.96 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold6_29.0_1
+
+CONTIG: scaffold47_30.6_1 (1597bp)
+Top Length: 1597  Top ID: 100.0
+		Marking as insignificant: 390699 390785 | 1 87 | 87 87 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+		Marking as insignificant: 370560 370682 | 755 877 | 123 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+		Marking as insignificant: 395088 395211 | 755 878 | 124 124 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+		Marking as insignificant: 396246 396369 | 754 877 | 124 124 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+		Marking as insignificant: 337032 337155 | 754 878 | 124 125 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+		Marking as insignificant: 434299 434423 | 753 878 | 125 126 | 95.24 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+		Marking as insignificant: 377941 378066 | 752 877 | 126 126 | 95.24 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+		Marking as insignificant: 432894 433015 | 755 877 | 122 123 | 98.37 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+		Marking as insignificant: 385467 385589 | 755 877 | 123 123 | 98.37 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+		Marking as insignificant: 379617 379741 | 753 877 | 125 125 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+		Marking as insignificant: 338828 338956 | 750 878 | 129 129 | 96.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+		Marking as insignificant: 434905 435031 | 751 877 | 127 127 | 97.64 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+		Marking as insignificant: 343097 343223 | 751 877 | 127 127 | 97.64 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+		Marking as insignificant: 423451 423582 | 746 877 | 132 132 | 95.45 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+		One align captures most of this contig: 341059 342655 | 1 1597 | 1597 1597 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold47_30.6_1
+
+CONTIG: scaffold38_45.1_1 (92214bp)
+		This contig is unaligned. (92214 bp)
+		Unaligned bases: 92214  total: 749505
+
+CONTIG: scaffold39_33.8_1 (1991bp)
+Top Length: 1991  Top ID: 99.6
+		Marking as insignificant: 399882 400003 | 255 377 | 122 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold39_33.8_1
+		Marking as insignificant: 427869 427991 | 255 377 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold39_33.8_1
+		Marking as insignificant: 326749 326870 | 255 377 | 122 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold39_33.8_1
+		Marking as insignificant: 318449 318571 | 255 377 | 123 123 | 98.37 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold39_33.8_1
+		Marking as insignificant: 422646 422769 | 255 379 | 124 125 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold39_33.8_1
+		Marking as insignificant: 376121 376251 | 247 378 | 131 132 | 96.21 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold39_33.8_1
+		One align captures most of this contig: 414515 416505 | 1 1991 | 1991 1991 | 99.6 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold39_33.8_1
+
+CONTIG: scaffold34_30.2_1 (1689bp)
+Top Length: 1689  Top ID: 99.94
+		Marking as insignificant: 339368 339490 | 1171 1049 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold34_30.2_1
+		Marking as insignificant: 315938 316061 | 1171 1047 | 124 125 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold34_30.2_1
+		Marking as insignificant: 360943 361065 | 1171 1049 | 123 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold34_30.2_1
+		Marking as insignificant: 317912 318034 | 1171 1049 | 123 123 | 97.56 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold34_30.2_1
+		Marking as insignificant: 349508 349633 | 1172 1047 | 126 126 | 95.24 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold34_30.2_1
+		Marking as insignificant: 391299 391423 | 1171 1046 | 125 126 | 96.03 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold34_30.2_1
+		Marking as insignificant: 361999 362123 | 1171 1047 | 125 125 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold34_30.2_1
+		Marking as insignificant: 330255 330381 | 1171 1045 | 127 127 | 95.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold34_30.2_1
+		Marking as insignificant: 388858 388983 | 1171 1045 | 126 127 | 96.06 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold34_30.2_1
+		Marking as insignificant: 383781 383906 | 1171 1045 | 126 127 | 96.06 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold34_30.2_1
+		Marking as insignificant: 331276 331615 | 340 1 | 340 340 | 96.47 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold34_30.2_1
+		One align captures most of this contig: 327360 329048 | 1689 1 | 1689 1689 | 99.94 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold34_30.2_1
+
+CONTIG: C2189_47.0_1 (577bp)
+Top Length: 576  Top ID: 100.0
+		One align captures most of this contig: 356648 357223 | 2 577 | 576 576 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2189_47.0_1
+
+CONTIG: scaffold15_63.0_1 (1717bp)
+		This contig is unaligned. (1717 bp)
+		Unaligned bases: 1717  total: 751222
+
+CONTIG: scaffold48_30.6_1 (56065bp)
+Top Length: 32129  Top ID: 99.99
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 508079 540209 | 1 32129 | 32131 32129 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold48_30.6_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 58
+			Real Alignment 2: 540208 564202 | 32070 56065 | 23995 23996 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold48_30.6_1
+
+CONTIG: scaffold55_31.6_2 (5299bp)
+Top Length: 5299  Top ID: 99.98
+		One align captures most of this contig: 292773 298070 | 5299 1 | 5298 5299 | 99.98 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold55_31.6_2
+
+CONTIG: scaffold55_31.6_1 (3590bp)
+Top Length: 3590  Top ID: 99.94
+		One align captures most of this contig: 298059 301650 | 3590 1 | 3592 3590 | 99.94 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold55_31.6_1
+
+CONTIG: scaffold43_36.6_2 (10654bp)
+		This contig is unaligned. (10654 bp)
+		Unaligned bases: 10654  total: 761876
+
+CONTIG: scaffold43_36.6_1 (42301bp)
+		This contig is unaligned. (42301 bp)
+		Unaligned bases: 42301  total: 804177
+
+CONTIG: scaffold36_37.4_1 (2332bp)
+Top Length: 1891  Top ID: 99.47
+		Skipping redundant alignment 348948 349075 | 568 441 | 128 128 | 95.31 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 407511 407636 | 568 444 | 126 125 | 95.24 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 332356 332480 | 568 444 | 125 125 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 364264 364388 | 567 444 | 125 124 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 373430 373553 | 567 444 | 124 124 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 327284 327408 | 568 445 | 125 124 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 432360 432484 | 568 445 | 125 124 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 348413 348536 | 567 445 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 386792 386915 | 567 445 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 390657 390783 | 571 446 | 127 126 | 95.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 331180 331303 | 568 446 | 124 123 | 97.58 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 413225 413348 | 568 446 | 124 123 | 97.58 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 366021 366144 | 568 446 | 124 123 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 410603 410724 | 567 446 | 122 122 | 95.9 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 360420 360542 | 567 446 | 123 122 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 364262 364388 | 1219 1094 | 127 126 | 95.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 373430 373553 | 1217 1094 | 124 124 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 386786 386915 | 1223 1095 | 130 129 | 95.38 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 348413 348536 | 1217 1095 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 327285 327408 | 1217 1095 | 124 123 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 432361 432484 | 1217 1095 | 124 123 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 331170 331303 | 1228 1096 | 134 133 | 95.56 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 413215 413348 | 1228 1096 | 134 133 | 95.56 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 366022 366144 | 1217 1096 | 123 122 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 390661 390783 | 1217 1096 | 123 122 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		Skipping redundant alignment 417951 418075 | 1857 1732 | 125 126 | 96.03 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+		This contig is misassembled. 28 total aligns.
+			Real Alignment 1: 337068 338959 | 2332 442 | 1892 1891 | 99.47 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -651
+			Real Alignment 2: 338183 338749 | 567 1 | 567 567 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold36_37.4_1
+
+CONTIG: C2309_30.0_1 (1125bp)
+Top Length: 1125  Top ID: 100.0
+		One align captures most of this contig: 429124 430248 | 1125 1 | 1125 1125 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2309_30.0_1
+
+CONTIG: scaffold2_28.2_1 (10165bp)
+Top Length: 3888  Top ID: 99.97
+		Skipping redundant alignment 330255 330378 | 582 459 | 124 124 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 339368 339491 | 582 459 | 124 124 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 349508 349631 | 583 460 | 124 124 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 361999 362121 | 582 460 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 391299 391420 | 582 460 | 122 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 383781 383902 | 582 460 | 122 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 385467 385592 | 1029 904 | 126 126 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 379611 379742 | 1037 906 | 132 132 | 96.21 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 343099 343224 | 1031 906 | 126 126 | 97.62 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 434907 435032 | 1031 906 | 126 126 | 97.62 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 423459 423583 | 1030 906 | 125 125 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 432894 433016 | 1029 906 | 123 124 | 97.58 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 341811 341935 | 1031 907 | 125 125 | 97.6 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 396246 396369 | 1030 907 | 124 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 338833 338955 | 1029 907 | 123 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 373430 373558 | 1666 1538 | 129 129 | 96.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 413226 413351 | 1666 1542 | 126 125 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 329713 329844 | 1674 1543 | 132 132 | 96.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 360412 360544 | 1674 1543 | 133 132 | 95.49 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 323890 324015 | 1668 1543 | 126 126 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 323357 323481 | 1666 1543 | 125 124 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 412223 412347 | 1666 1543 | 125 124 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 319798 319921 | 1666 1544 | 124 123 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 366022 366145 | 1666 1544 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 379511 379741 | 1774 1545 | 231 230 | 96.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 364262 364386 | 1668 1545 | 125 124 | 97.6 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 322546 322670 | 1668 1545 | 125 124 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 386790 386914 | 1668 1545 | 125 124 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 431823 431946 | 1667 1545 | 124 123 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 398505 398628 | 1667 1545 | 124 123 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 348949 349070 | 1666 1545 | 122 122 | 97.54 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 327285 327407 | 1666 1545 | 123 122 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 371466 371588 | 1666 1545 | 123 122 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 432361 432483 | 1666 1545 | 123 122 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 332357 332478 | 1666 1545 | 122 122 | 95.9 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 381281 381402 | 1666 1545 | 122 122 | 95.9 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 379140 379613 | 2247 1775 | 474 473 | 97.89 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 331178 331313 | 4863 4728 | 136 136 | 95.59 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 360415 360550 | 4864 4731 | 136 134 | 95.59 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 386792 386919 | 4860 4732 | 128 129 | 96.9 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 373430 373555 | 4860 4734 | 126 127 | 95.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 364264 364388 | 4860 4736 | 125 125 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 398506 398630 | 4860 4736 | 125 125 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 348413 348536 | 4860 4737 | 124 124 | 97.58 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 371466 371589 | 4860 4737 | 124 124 | 97.58 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 322548 322671 | 4860 4737 | 124 124 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 368043 368169 | 4864 4738 | 127 127 | 95.31 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 413223 413348 | 4863 4738 | 126 126 | 97.62 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 319795 319920 | 4863 4738 | 126 126 | 96.03 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 323356 323479 | 4861 4738 | 124 124 | 98.39 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 366021 366144 | 4861 4738 | 124 124 | 98.39 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 399165 399288 | 4861 4738 | 124 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 427329 427451 | 4860 4738 | 123 123 | 97.56 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 323892 324013 | 4860 4738 | 122 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 331178 331308 | 5396 5268 | 131 129 | 96.18 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 410603 410729 | 5393 5268 | 127 126 | 95.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 371466 371591 | 5393 5269 | 126 125 | 96.03 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 386792 386916 | 5393 5270 | 125 124 | 97.6 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 322548 322671 | 5393 5271 | 124 123 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 398506 398629 | 5393 5271 | 124 123 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 373430 373552 | 5393 5271 | 123 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 364264 364387 | 5393 5271 | 124 123 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 329716 329842 | 5397 5272 | 127 126 | 96.06 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 360415 360542 | 5397 5272 | 128 126 | 95.31 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 413223 413348 | 5396 5272 | 126 125 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 323356 323479 | 5394 5272 | 124 123 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 366021 366144 | 5394 5272 | 124 123 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 399165 399288 | 5394 5272 | 124 123 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 323892 324013 | 5393 5272 | 122 122 | 95.08 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 348948 349079 | 6230 6099 | 132 132 | 96.21 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 323356 323483 | 6230 6104 | 128 127 | 96.88 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 412222 412349 | 6230 6104 | 128 127 | 95.31 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 329721 329846 | 6229 6104 | 126 126 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 323892 324017 | 6229 6104 | 126 126 | 95.24 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 390658 390785 | 6232 6106 | 128 127 | 95.31 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 331180 331305 | 6230 6106 | 126 125 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 413225 413350 | 6230 6106 | 126 125 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 360420 360544 | 6229 6106 | 125 124 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 368048 368171 | 6229 6106 | 124 124 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 410603 410726 | 6229 6106 | 124 124 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 366021 366145 | 6230 6107 | 125 124 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 386786 386914 | 6235 6108 | 129 128 | 96.9 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 399163 399288 | 6232 6108 | 126 125 | 95.24 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 327284 327407 | 6230 6108 | 124 123 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 407511 407634 | 6230 6108 | 124 123 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 432360 432483 | 6230 6108 | 124 123 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 332356 332478 | 6230 6108 | 123 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 406979 407100 | 6229 6108 | 122 122 | 99.18 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 322548 322670 | 6229 6108 | 123 122 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 398506 398628 | 6229 6108 | 123 122 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 373430 373551 | 6229 6108 | 122 122 | 96.72 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 348413 348535 | 6229 6108 | 123 122 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 371466 371588 | 6229 6108 | 123 122 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		Skipping redundant alignment 431824 431946 | 6229 6108 | 123 122 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+		This contig is misassembled. 100 total aligns.
+			Real Alignment 1: 376611 377267 | 5393 4738 | 657 656 | 95.13 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+			  Extensive misassembly ( relocation, inconsistency = 30603 ) between these two alignments
+			Real Alignment 2: 402443 406329 | 10165 6278 | 3887 3888 | 99.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -114
+			Real Alignment 3: 406214 406994 | 6279 5499 | 781 781 | 99.49 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -121
+			Real Alignment 4: 406995 410597 | 5377 1775 | 3603 3603 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 533
+			Real Alignment 5: 407407 407635 | 5498 5271 | 229 228 | 98.25 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -637
+			Real Alignment 6: 410495 412268 | 1774 1 | 1774 1774 | 99.94 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold2_28.2_1
+
+CONTIG: scaffold21_30.4_1 (3401bp)
+Top Length: 1656  Top ID: 99.03
+		Skipping redundant alignment 342494 342996 | 743 1245 | 503 503 | 96.22 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 375041 375450 | 836 1245 | 410 410 | 97.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 434395 434804 | 836 1245 | 410 410 | 97.32 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 375335 375674 | 1245 1584 | 340 340 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 389418 389539 | 1465 1584 | 122 120 | 96.72 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 402356 402477 | 1465 1584 | 122 120 | 96.72 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 387462 387582 | 1465 1584 | 121 120 | 96.69 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 393370 393490 | 1465 1584 | 121 120 | 96.69 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 360417 360544 | 2201 2327 | 128 127 | 97.66 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 374373 375070 | 2205 2902 | 698 698 | 97.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 323358 323481 | 2205 2327 | 124 123 | 99.19 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 375556 375677 | 2205 2327 | 122 123 | 97.56 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 412224 412347 | 2205 2327 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 366023 366145 | 2205 2326 | 123 122 | 99.19 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 387463 387584 | 2205 2326 | 122 122 | 97.54 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 393371 393491 | 2205 2325 | 121 121 | 99.17 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 348414 348535 | 2205 2325 | 122 121 | 98.36 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 399167 399288 | 2205 2325 | 122 121 | 97.54 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 401797 401917 | 2205 2325 | 121 121 | 96.69 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 388215 388344 | 2773 2902 | 130 130 | 96.15 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 368046 368171 | 2776 2902 | 126 127 | 96.85 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 323890 324015 | 2776 2902 | 126 127 | 96.06 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 329719 329844 | 2776 2902 | 126 127 | 96.06 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 360418 360544 | 2776 2902 | 127 127 | 96.06 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 410601 410726 | 2776 2902 | 126 127 | 95.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 364262 364386 | 2776 2900 | 125 125 | 97.6 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 322546 322670 | 2776 2900 | 125 125 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 386790 386914 | 2776 2900 | 125 125 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 431823 431946 | 2777 2900 | 124 124 | 97.58 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 398505 398628 | 2777 2900 | 124 124 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 323357 323481 | 2778 2902 | 125 125 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 390661 390785 | 2778 2902 | 125 125 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 331181 331305 | 2778 2902 | 125 125 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 413226 413350 | 2778 2902 | 125 125 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 319798 319921 | 2778 2901 | 124 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 366022 366145 | 2778 2901 | 124 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 348413 348535 | 2778 2900 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 407512 407634 | 2778 2900 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 327285 327407 | 2778 2900 | 123 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 348949 349070 | 2778 2900 | 122 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 371466 371588 | 2778 2900 | 123 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 399166 399288 | 2778 2900 | 123 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignment 432361 432483 | 2778 2900 | 123 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [374372][374995] redundant alignment 374372 374995 | 2778 3401 | 624 624 | 98.72 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+		This contig is misassembled. 47 total aligns.
+			Real Alignment 1: 418446 419690 | 1 1245 | 1245 1245 | 99.52 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -115
+			Real Alignment 2: 419575 421230 | 1245 2900 | 1656 1656 | 99.03 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -574
+			Real Alignment 3: 420535 421157 | 2779 3401 | 623 623 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold21_30.4_1
+
+CONTIG: C2273_43.0_1 (859bp)
+		This contig is unaligned. (859 bp)
+		Unaligned bases: 859  total: 805036
+
+CONTIG: C2289_55.0_1 (986bp)
+Top Length: 986  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 325821 326806 | 1 986 | 986 986 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2289_55.0_1
+		Skipping alignment  421718 422703 | 1 986 | 986 986 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2289_55.0_1
+
+CONTIG: scaffold27_30.0_1 (33920bp)
+		This contig is unaligned. (33920 bp)
+		Unaligned bases: 33920  total: 838956
+
+CONTIG: scaffold57_41.1_1 (71336bp)
+		This contig is unaligned. (71336 bp)
+		Unaligned bases: 71336  total: 910292
+
+CONTIG: scaffold27_30.0_2 (77426bp)
+Top Length: 130  Top ID: 96.92
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 77426 and total length of all aligns is 258
+		Alignment: 456796 456923 | 30021 30148 | 128 128 | 95.31 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold27_30.0_2
+		Alignment: 961978 962107 | 11553 11682 | 130 130 | 96.92 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold27_30.0_2
+		Unaligned bases: 77168
+CONTIG: scaffold28_35.9_1 (6043bp)
+Top Length: 2589  Top ID: 97.37
+		Skipping redundant alignment 423460 423587 | 200 74 | 128 127 | 95.31 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 338832 338956 | 201 77 | 125 125 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 434301 434423 | 200 77 | 123 124 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 341813 341936 | 200 77 | 124 124 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 432887 433015 | 207 78 | 129 130 | 95.38 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 377944 378066 | 200 78 | 123 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 343101 343223 | 200 78 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 434909 435031 | 200 78 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 379619 379741 | 200 78 | 123 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 363767 363893 | 1558 1432 | 127 127 | 96.06 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 350238 350362 | 1557 1432 | 125 126 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 344408 344639 | 2186 1955 | 232 232 | 95.26 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 384930 385053 | 4093 3969 | 124 125 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 382628 382755 | 4731 4604 | 128 128 | 98.44 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 433650 433775 | 4729 4604 | 126 126 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 379139 379265 | 4729 4604 | 127 126 | 95.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 341018 341145 | 4731 4605 | 128 127 | 98.44 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 382069 382192 | 4730 4607 | 124 124 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 343858 343980 | 4729 4607 | 123 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 358616 358738 | 4728 4607 | 123 122 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 389928 390048 | 4728 4607 | 121 122 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 427329 427451 | 4728 4607 | 123 122 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 316853 316975 | 4728 4607 | 123 122 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 343859 343991 | 5460 5327 | 133 134 | 96.27 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 389927 390051 | 5461 5336 | 125 126 | 96.85 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 382071 382195 | 5460 5336 | 125 125 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 358614 358739 | 5462 5338 | 126 125 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 316852 316976 | 5461 5338 | 125 124 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 427328 427451 | 5461 5339 | 124 123 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 391765 391887 | 5461 5339 | 123 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 341021 341143 | 5460 5339 | 123 122 | 98.37 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 382631 382752 | 5460 5339 | 122 122 | 98.36 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 433651 433772 | 5460 5339 | 122 122 | 96.72 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 372501 372622 | 5460 5339 | 122 122 | 95.9 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		Skipping redundant alignment 379140 379262 | 5460 5339 | 123 122 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+		This contig is misassembled. 40 total aligns.
+			Real Alignment 1: 325636 325868 | 2186 1954 | 233 233 | 96.14 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+			  Extensive misassembly ( relocation, inconsistency = 44316 ) between these two alignments
+			Real Alignment 2: 366095 368681 | 6043 3455 | 2587 2589 | 97.37 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+			  Extensive misassembly ( relocation, inconsistency = -1274 ) between these two alignments
+			Real Alignment 3: 367410 368676 | 3452 2186 | 1267 1267 | 99.29 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -102
+			Real Alignment 4: 368681 370682 | 2079 78 | 2002 2002 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+			  Extensive misassembly ( relocation, inconsistency = 24517 ) between these two alignments
+			Real Alignment 5: 394648 395287 | 629 1 | 640 629 | 97.81 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold28_35.9_1
+
+CONTIG: scaffold22_37.2_1 (622bp)
+Top Length: 622  Top ID: 100.0
+		Marking as insignificant: 432361 432483 | 164 43 | 123 122 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 407512 407634 | 164 43 | 123 122 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 348413 348535 | 164 43 | 123 122 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 327285 327407 | 164 43 | 123 122 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 371466 371588 | 164 43 | 123 122 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 420535 420658 | 163 41 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 366022 366145 | 164 42 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 413226 413350 | 164 41 | 125 124 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 331181 331305 | 164 41 | 125 124 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 319798 319921 | 164 42 | 124 123 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 348949 349074 | 164 39 | 126 126 | 95.24 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 431823 431946 | 165 43 | 124 123 | 97.58 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 360418 360544 | 166 41 | 127 126 | 95.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 364261 364386 | 167 43 | 126 125 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 410601 410726 | 166 41 | 126 126 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 322544 322670 | 168 43 | 127 126 | 96.85 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 323357 323484 | 164 38 | 128 127 | 96.09 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 368046 368171 | 166 41 | 126 126 | 97.62 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 388218 388344 | 166 41 | 127 126 | 97.64 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 390657 390785 | 168 41 | 129 128 | 96.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		Marking as insignificant: 329719 329859 | 166 27 | 141 140 | 95.74 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+		One align captures most of this contig: 323434 324055 | 622 1 | 622 622 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold22_37.2_1
+
+CONTIG: scaffold11_40.0_1 (20800bp)
+		This contig is unaligned. (20800 bp)
+		Unaligned bases: 20800  total: 931092
+
+CONTIG: scaffold50_33.8_1 (65780bp)
+Top Length: 65779  Top ID: 99.99
+		One align captures most of this contig: 736972 802747 | 1 65779 | 65776 65779 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold50_33.8_1
+
+CONTIG: scaffold24_37.3_2 (135888bp)
+		This contig is unaligned. (135888 bp)
+		Unaligned bases: 135888  total: 1066980
+
+CONTIG: scaffold16_25.3_1 (1993bp)
+Top Length: 1862  Top ID: 99.89
+		Skipping redundant alignment 327285 327410 | 1764 1639 | 126 126 | 99.21 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold16_25.3_1
+		Skipping redundant alignment 366676 366800 | 1766 1641 | 125 126 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold16_25.3_1
+		Skipping redundant alignment 432361 432484 | 1764 1641 | 124 124 | 99.19 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold16_25.3_1
+		Skipping redundant alignment 343859 343981 | 1764 1641 | 123 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold16_25.3_1
+		Skipping redundant alignment 382071 382193 | 1764 1641 | 123 124 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold16_25.3_1
+		Skipping redundant alignment 427324 427451 | 1769 1642 | 128 128 | 96.88 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold16_25.3_1
+		Skipping redundant alignment 433651 433772 | 1764 1642 | 122 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold16_25.3_1
+		Skipping redundant alignment 341021 341143 | 1764 1642 | 123 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold16_25.3_1
+		Skipping redundant alignment 372501 372622 | 1764 1642 | 122 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold16_25.3_1
+		Skipping redundant alignment 382631 382752 | 1764 1642 | 122 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold16_25.3_1
+		This contig is misassembled. 12 total aligns.
+			Real Alignment 1: 358387 360248 | 1993 132 | 1862 1862 | 99.89 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold16_25.3_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -125
+			Real Alignment 2: 360134 360254 | 121 1 | 121 121 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold16_25.3_1
+
+CONTIG: scaffold51_29.4_2 (5643bp)
+Top Length: 5643  Top ID: 99.96
+		One align captures most of this contig: 564184 569826 | 5643 1 | 5643 5643 | 99.96 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold51_29.4_2
+
+CONTIG: scaffold51_29.4_1 (166008bp)
+Top Length: 166005  Top ID: 99.99
+		One align captures most of this contig: 569811 735812 | 166005 1 | 166002 166005 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold51_29.4_1
+
+CONTIG: scaffold23_38.0_1 (531bp)
+Top Length: 531  Top ID: 100.0
+		Marking as insignificant: 421109 421231 | 145 22 | 123 124 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold23_38.0_1
+		Marking as insignificant: 429050 429174 | 147 22 | 125 126 | 97.62 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold23_38.0_1
+		One align captures most of this contig: 339442 339972 | 531 1 | 531 531 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold23_38.0_1
+
+CONTIG: scaffold56_32.0_1 (17154bp)
+Top Length: 17154  Top ID: 100.0
+		One align captures most of this contig: 220333 237486 | 17154 1 | 17154 17154 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold56_32.0_1
+
+CONTIG: scaffold50_33.8_5 (1573bp)
+Top Length: 1569  Top ID: 100.0
+		One align captures most of this contig: 18132 19700 | 5 1573 | 1569 1569 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold50_33.8_5
+
+CONTIG: C2247_58.0_1 (762bp)
+Top Length: 762  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 322642 323403 | 1 762 | 762 762 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2247_58.0_1
+		Skipping alignment  365307 366068 | 1 762 | 762 762 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2247_58.0_1
+
+CONTIG: C2727_43.0_1 (18541bp)
+		This contig is unaligned. (18541 bp)
+		Unaligned bases: 18541  total: 1085521
+
+CONTIG: scaffold37_38.5_1 (44001bp)
+Top Length: 128  Top ID: 96.88
+		This contig is partially unaligned. (128 out of 44001)
+		Alignment: 157395 157522 | 8222 8095 | 128 128 | 96.88 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold37_38.5_1
+		Unaligned bases: 1 to 8094 (8094)
+		Unaligned bases: 8223 to 44001 (35779)
+
+CONTIG: C2177_41.0_1 (551bp)
+		This contig is unaligned. (551 bp)
+		Unaligned bases: 551  total: 1086072
+
+CONTIG: scaffold37_38.5_2 (156464bp)
+Top Length: 126  Top ID: 97.62
+		This contig is partially unaligned. (126 out of 156464)
+		Alignment: 556916 557041 | 141513 141638 | 126 126 | 97.62 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold37_38.5_2
+		Unaligned bases: 1 to 141512 (141512)
+		Unaligned bases: 141639 to 156464 (14826)
+
+CONTIG: scaffold3_63.6_1 (3068bp)
+		This contig is unaligned. (3068 bp)
+		Unaligned bases: 3068  total: 1089140
+
+CONTIG: C2283_69.0_1 (932bp)
+		This contig is unaligned. (932 bp)
+		Unaligned bases: 932  total: 1090072
+
+CONTIG: C2233_31.0_1 (695bp)
+Top Length: 695  Top ID: 100.0
+		One align captures most of this contig: 430198 430892 | 695 1 | 695 695 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2233_31.0_1
+
+CONTIG: scaffold41_25.1_1 (2096bp)
+Top Length: 2096  Top ID: 100.0
+		Marking as insignificant: 414769 414891 | 1414 1293 | 123 122 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold41_25.1_1
+		Marking as insignificant: 414260 414381 | 1414 1293 | 122 122 | 95.9 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold41_25.1_1
+		Marking as insignificant: 422646 422767 | 1414 1293 | 122 122 | 96.72 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold41_25.1_1
+		Marking as insignificant: 376129 376250 | 1414 1293 | 122 122 | 97.54 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold41_25.1_1
+		Marking as insignificant: 326749 326871 | 1414 1292 | 123 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold41_25.1_1
+		Marking as insignificant: 318449 318572 | 1414 1292 | 124 123 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold41_25.1_1
+		One align captures most of this contig: 399200 401295 | 2096 1 | 2096 2096 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold41_25.1_1
+
+CONTIG: scaffold45_34.8_1 (80998bp)
+Top Length: 80998  Top ID: 99.99
+		One align captures most of this contig: 21251 102249 | 1 80998 | 80999 80998 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold45_34.8_1
+
+CONTIG: C2313_63.0_1 (1183bp)
+Top Length: 1183  Top ID: 100.0
+		This contig has 3 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 357176 358358 | 1183 1 | 1183 1183 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2313_63.0_1
+		Skipping alignment  435458 436640 | 1 1183 | 1183 1183 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2313_63.0_1
+		Skipping alignment  735763 736945 | 1183 1 | 1183 1183 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2313_63.0_1
+
+CONTIG: C2187_53.0_1 (568bp)
+Top Length: 568  Top ID: 100.0
+		This contig has 3 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 340470 341037 | 1 568 | 568 568 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2187_53.0_1
+		Skipping alignment  390110 390677 | 1 568 | 568 568 | 99.47 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2187_53.0_1
+		Skipping alignment  401245 401812 | 1 568 | 568 568 | 99.3 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence C2187_53.0_1
+
+CONTIG: C2207_31.0_1 (629bp)
+		This contig is unaligned. (629 bp)
+		Unaligned bases: 629  total: 1090701
+
+CONTIG: scaffold50_33.8_2 (7848bp)
+Top Length: 7825  Top ID: 99.99
+		One align captures most of this contig: 802737 810561 | 1 7825 | 7825 7825 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold50_33.8_2
+
+CONTIG: scaffold50_33.8_3 (55624bp)
+Top Length: 55622  Top ID: 99.99
+		One align captures most of this contig: 810512 866133 | 1 55622 | 55622 55622 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold50_33.8_3
+
+CONTIG: scaffold50_33.8_4 (224349bp)
+Top Length: 206201  Top ID: 99.98
+		Skipping redundant alignment 248453 248649 | 12591 12395 | 197 197 | 95.43 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold50_33.8_4
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 2: 866116 1072315 | 1 206201 | 206200 206201 | 99.98 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold50_33.8_4
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 1: 1 18146 | 206202 224346 | 18146 18145 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold50_33.8_4
+
+CONTIG: scaffold24_37.3_1 (649bp)
+		This contig is unaligned. (649 bp)
+		Unaligned bases: 649  total: 1091350
+
+CONTIG: scaffold14_32.6_1 (3218bp)
+Top Length: 2658  Top ID: 100.0
+		Skipping redundant alignment 350977 351488 | 2146 2657 | 512 512 | 95.51 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 371465 371589 | 2534 2658 | 125 125 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 331181 331413 | 2535 2767 | 233 233 | 95.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 407512 407644 | 2535 2667 | 133 133 | 96.24 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 364264 364388 | 2535 2659 | 125 125 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 338183 338306 | 2535 2659 | 124 125 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 398506 398630 | 2535 2659 | 125 125 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 348949 349072 | 2535 2659 | 124 125 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 381281 381404 | 2535 2659 | 124 125 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 327285 327408 | 2535 2658 | 124 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 386792 386915 | 2535 2658 | 124 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 431824 431947 | 2535 2658 | 124 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 432361 432484 | 2535 2658 | 124 124 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 323357 323479 | 2535 2657 | 123 123 | 99.19 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 363768 363890 | 2535 2657 | 123 123 | 99.19 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 366022 366144 | 2535 2657 | 123 123 | 99.19 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 360420 360542 | 2535 2657 | 123 123 | 98.37 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 413226 413348 | 2535 2657 | 123 123 | 98.37 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 399166 399288 | 2535 2657 | 123 123 | 97.56 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 319798 319920 | 2535 2657 | 123 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 323892 324013 | 2535 2657 | 122 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 329721 329842 | 2535 2657 | 122 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		Skipping redundant alignment 412223 412345 | 2535 2657 | 123 123 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+		This contig is misassembled. 26 total aligns.
+			Real Alignment 1: 337545 337777 | 2535 2767 | 233 233 | 97.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+			  Extensive misassembly ( relocation, inconsistency = 10868 ) between these two alignments
+			Real Alignment 2: 345879 348536 | 1 2658 | 2658 2658 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -99
+			Real Alignment 3: 348546 348997 | 2767 3218 | 452 452 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_1
+
+CONTIG: scaffold35_39.7_1 (166721bp)
+Top Length: 192  Top ID: 97.93
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [292638][292829] redundant alignment 292638 292829 | 61933 62124 | 192 192 | 97.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold35_39.7_1
+		Skipping [428210][428399] redundant alignment 428210 428399 | 62123 61933 | 190 191 | 97.91 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold35_39.7_1
+		This contig is partially unaligned. (192 out of 166721)
+		Alignment: 220198 220387 | 61933 62123 | 190 191 | 98.43 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold35_39.7_1
+		Unaligned bases: 1 to 61932 (61932)
+		Unaligned bases: 62124 to 166721 (104598)
+
+CONTIG: scaffold12_39.1_1 (181109bp)
+		This contig is unaligned. (181109 bp)
+		Unaligned bases: 181109  total: 1272459
+
+CONTIG: scaffold14_32.6_2 (3499bp)
+Top Length: 2664  Top ID: 100.0
+		Skipping redundant alignment 327284 327408 | 483 606 | 125 124 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 432360 432484 | 483 606 | 125 124 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 323356 323479 | 483 605 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 331180 331303 | 483 605 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 366021 366144 | 483 605 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 413225 413348 | 483 605 | 124 123 | 95.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 319797 319920 | 483 605 | 124 123 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 338183 338307 | 484 608 | 125 125 | 95.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 373430 373553 | 484 607 | 124 124 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 431824 431947 | 484 606 | 124 123 | 96.77 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 348413 348536 | 484 606 | 124 123 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 386792 386915 | 484 606 | 124 123 | 95.16 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 410603 410724 | 484 605 | 122 122 | 97.54 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 388220 388342 | 484 605 | 123 122 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 329721 329842 | 484 605 | 122 122 | 96.72 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 368048 368169 | 484 605 | 122 122 | 96.72 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 360420 360542 | 484 605 | 123 122 | 95.12 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 363768 363893 | 1421 1545 | 126 125 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 369203 369328 | 1421 1545 | 126 125 | 96.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 348024 348535 | 2160 2671 | 512 512 | 95.51 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignment 373129 373551 | 2248 2671 | 423 424 | 95.06 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [322544][322671] redundant alignment 322544 322671 | 480 606 | 128 127 | 95.31 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping [323888][324013] redundant alignment 323888 324013 | 480 605 | 126 126 | 95.24 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping [332356][332480] redundant alignment 332356 332480 | 483 607 | 125 125 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping [364264][364388] redundant alignment 364264 364388 | 484 607 | 125 124 | 96.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping [390657][390783] redundant alignment 390657 390783 | 480 605 | 127 126 | 96.85 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping [398506][398632] redundant alignment 398506 398632 | 484 609 | 127 126 | 95.28 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		Skipping [407511][407636] redundant alignment 407511 407636 | 483 607 | 126 125 | 96.03 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+		This contig is misassembled. 30 total aligns.
+			Real Alignment 1: 348948 349073 | 483 608 | 126 126 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+			  Gap between these two alignments (local misassembly). Inconsistency = 352
+			Real Alignment 2: 349653 352316 | 836 3499 | 2664 2664 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold14_32.6_2
+
+CONTIG: scaffold40_39.0_1 (3388bp)
+Top Length: 2299  Top ID: 99.44
+		Skipping redundant alignment 428849 429173 | 1495 1819 | 325 325 | 97.54 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		Skipping redundant alignment 318984 319106 | 1697 1819 | 123 123 | 96.75 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		Skipping redundant alignment 429048 429158 | 2189 2299 | 111 111 | 98.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		Skipping redundant alignment 374945 375053 | 2191 2299 | 109 109 | 96.33 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		Skipping redundant alignment 421107 421215 | 2191 2299 | 109 109 | 96.33 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		Skipping redundant alignment 339828 339935 | 2193 2299 | 108 107 | 98.15 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		Skipping redundant alignment 389933 390050 | 2300 2419 | 118 120 | 97.5 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		Skipping redundant alignment 431829 431947 | 2300 2418 | 119 119 | 98.32 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		Skipping redundant alignment 322553 322671 | 2300 2418 | 119 119 | 97.48 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		Skipping redundant alignment 390666 390783 | 2300 2417 | 118 118 | 98.32 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		Skipping redundant alignment 329726 329842 | 2300 2417 | 117 118 | 98.31 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		Skipping redundant alignment 319803 319920 | 2300 2417 | 118 118 | 97.46 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		Skipping redundant alignment 388225 388342 | 2300 2417 | 118 118 | 97.46 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		Skipping redundant alignment 420539 420656 | 2300 2417 | 118 118 | 97.46 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		Skipping redundant alignment 323897 324013 | 2300 2417 | 117 118 | 96.61 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+		This contig is misassembled. 17 total aligns.
+			Real Alignment 1: 362071 364371 | 1 2299 | 2301 2299 | 99.44 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -103
+			Real Alignment 2: 364269 365357 | 2300 3388 | 1089 1089 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold40_39.0_1
+
+CONTIG: scaffold53_29.0_1 (112992bp)
+Top Length: 214  Top ID: 97.2
+		Skipping redundant alignment 961979 962106 | 14201 14074 | 128 128 | 97.66 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold53_29.0_1
+		This contig is partially unaligned. (214 out of 112992)
+		Alignment: 157394 157607 | 14073 14286 | 214 214 | 97.2 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence scaffold53_29.0_1
+		Unaligned bases: 1 to 14072 (14072)
+		Unaligned bases: 14287 to 112992 (98706)
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/738/dataset_775_files/contigs_reports/nucmer_output/VC-H-Soap.used_snps
+	Reference gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence: 87 total alignments. 1 total regions.
+		Region: 1 to 1072315 (1072315 bp)
+			Align 1: 1 18146 scaffold50_33.8_4 206202 224346
+				Negative gap (overlap) between this and next alignment: 18146 to 18132 (-14 bp)
+				Next Alignment: 18132 19700 scaffold50_33.8_5 5 1573
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5 to 20.
+			Align 2: 18147 19700 scaffold50_33.8_5 20 1573
+				Gap between this and next alignment: 19700 to 20444 (743 bp)
+				Next Alignment: 20444 21215 C2249_43.0_1 772 1
+
+			Align 3: 20444 21215 C2249_43.0_1 772 1
+				Gap between this and next alignment: 21215 to 21251 (35 bp)
+				Next Alignment: 21251 102249 scaffold45_34.8_1 1 80998
+
+			Align 4: 21251 102249 scaffold45_34.8_1 1 80998
+				Gap between this and next alignment: 102249 to 102253 (3 bp)
+				Next Alignment: 102253 157492 scaffold49_32.4_1 55239 1
+
+			Align 5: 102253 157492 scaffold49_32.4_1 55239 1
+				Negative gap (overlap) between this and next alignment: 157492 to 157394 (-98 bp)
+				Next Alignment: 157394 157607 scaffold53_29.0_1 14073 14286
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 14073 to 14172.
+			Align 6: 157493 157607 scaffold53_29.0_1 14172 14286
+				The next alignment (157395 157522 scaffold1_32.5_2 116621 116494) is redundant. Skipping.
+				The next alignment (157395 157522 scaffold19_34.2_1 10751 10878) is redundant. Skipping.
+				The next alignment (157395 157522 scaffold37_38.5_1 8222 8095) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 157607 to 157588 (-19 bp)
+				Next Alignment: 157588 187896 scaffold42_31.7_1 1 30307
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 21.
+			Align 10: 157608 187896 scaffold42_31.7_1 21 30307
+				Negative gap (overlap) between this and next alignment: 187896 to 187759 (-137 bp)
+				Next Alignment: 187759 219809 scaffold42_31.7_1 30206 62256
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 30206 to 30344.
+			Align 11: 187897 219809 scaffold42_31.7_1 30344 62256
+				Gap between this and next alignment: 219809 to 220198 (388 bp)
+				Next Alignment: 220198 220387 scaffold35_39.7_1 61933 62123
+
+			Align 12: 220198 220387 scaffold35_39.7_1 61933 62123
+				Negative gap (overlap) between this and next alignment: 220387 to 220333 (-54 bp)
+				Next Alignment: 220333 237486 scaffold56_32.0_1 17154 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 17154 to 17099.
+			Align 13: 220388 237486 scaffold56_32.0_1 17099 1
+				Negative gap (overlap) between this and next alignment: 237486 to 237442 (-44 bp)
+				Next Alignment: 237442 273007 scaffold44_31.8_1 1 35567
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 46.
+			Align 14: 237487 273007 scaffold44_31.8_1 46 35567
+				Next Alignment: 273008 292249 scaffold44_31.8_1 35130 54370
+
+			Align 15: 273008 292249 scaffold44_31.8_1 35130 54370
+				Gap between this and next alignment: 292249 to 292773 (523 bp)
+				Next Alignment: 292773 298070 scaffold55_31.6_2 5299 1
+
+			Align 16: 292773 298070 scaffold55_31.6_2 5299 1
+				Negative gap (overlap) between this and next alignment: 298070 to 298059 (-11 bp)
+				Next Alignment: 298059 301650 scaffold55_31.6_1 3590 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3590 to 3578.
+			Align 17: 298071 301650 scaffold55_31.6_1 3578 1
+				Negative gap (overlap) between this and next alignment: 301650 to 301600 (-50 bp)
+				Next Alignment: 301600 302796 C2317_56.0_1 1 1197
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 52.
+			Align 18: 301651 302796 C2317_56.0_1 52 1197
+				Negative gap (overlap) between this and next alignment: 302796 to 302746 (-50 bp)
+				Next Alignment: 302746 304023 scaffold18_25.7_1 1 1278
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 52.
+			Align 19: 302797 304023 scaffold18_25.7_1 52 1278
+				Negative gap (overlap) between this and next alignment: 304023 to 303939 (-84 bp)
+				Next Alignment: 303939 310943 scaffold18_25.7_1 1692 8696
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1692 to 1777.
+			Align 20: 304024 310943 scaffold18_25.7_1 1777 8696
+				Gap between this and next alignment: 310943 to 312311 (1367 bp)
+				Next Alignment: 312311 313762 scaffold18_25.7_1 8688 10139
+
+			Align 21: 312311 313762 scaffold18_25.7_1 8688 10139
+				Gap between this and next alignment: 313762 to 314659 (896 bp)
+				Next Alignment: 314659 316901 scaffold46_32.1_1 1 2243
+
+			Align 22: 314659 316901 scaffold46_32.1_1 1 2243
+				Gap between this and next alignment: 316901 to 317388 (486 bp)
+				Next Alignment: 317388 322594 scaffold6_29.0_1 5206 1
+
+			Align 23: 317388 322594 scaffold6_29.0_1 5206 1
+				Gap between this and next alignment: 322594 to 322642 (47 bp)
+				Next Alignment: 322642 323403 C2247_58.0_1 1 762
+
+			Align 24: 322642 323403 C2247_58.0_1 1 762
+				Gap between this and next alignment: 323403 to 323434 (30 bp)
+				Next Alignment: 323434 324055 scaffold22_37.2_1 622 1
+
+			Align 25: 323434 324055 scaffold22_37.2_1 622 1
+				Gap between this and next alignment: 324055 to 324472 (416 bp)
+				Next Alignment: 324472 325590 scaffold32_39.7_1 1119 1
+
+			Align 26: 324472 325590 scaffold32_39.7_1 1119 1
+				Gap between this and next alignment: 325590 to 325636 (45 bp)
+				Next Alignment: 325636 325868 scaffold28_35.9_1 2186 1954
+
+			Align 27: 325636 325868 scaffold28_35.9_1 2186 1954
+				Negative gap (overlap) between this and next alignment: 325868 to 325821 (-47 bp)
+				Next Alignment: 325821 326806 C2289_55.0_1 1 986
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 49.
+			Align 28: 325869 326806 C2289_55.0_1 49 986
+				Gap between this and next alignment: 326806 to 327360 (553 bp)
+				Next Alignment: 327360 329048 scaffold34_30.2_1 1689 1
+
+			Align 29: 327360 329048 scaffold34_30.2_1 1689 1
+				Gap between this and next alignment: 329048 to 331576 (2527 bp)
+				Next Alignment: 331576 332423 scaffold9_28.6_1 1 848
+
+			Align 30: 331576 332423 scaffold9_28.6_1 1 848
+				Negative gap (overlap) between this and next alignment: 332423 to 332356 (-67 bp)
+				Next Alignment: 332356 334907 scaffold9_28.6_2 1 2530
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 69.
+			Align 31: 332424 334907 scaffold9_28.6_2 69 2530
+				Gap between this and next alignment: 334907 to 334967 (59 bp)
+				Next Alignment: 334967 335505 C2171_11.0_1 1 539
+
+			Align 32: 334967 335505 C2171_11.0_1 1 539
+				Gap between this and next alignment: 335505 to 337068 (1562 bp)
+				Next Alignment: 337068 338959 scaffold36_37.4_1 2332 442
+
+			Align 33: 337068 338959 scaffold36_37.4_1 2332 442
+				The next alignment (337545 337777 scaffold14_32.6_1 2535 2767) is redundant. Skipping.
+				The next alignment (338183 338749 scaffold36_37.4_1 567 1) is redundant. Skipping.
+				Gap between this and next alignment: 338959 to 339442 (482 bp)
+				Next Alignment: 339442 339972 scaffold23_38.0_1 531 1
+
+			Align 36: 339442 339972 scaffold23_38.0_1 531 1
+				Gap between this and next alignment: 339972 to 340470 (497 bp)
+				Next Alignment: 340470 341037 C2187_53.0_1 1 568
+
+			Align 37: 340470 341037 C2187_53.0_1 1 568
+				Gap between this and next alignment: 341037 to 341059 (21 bp)
+				Next Alignment: 341059 342655 scaffold47_30.6_1 1 1597
+
+			Align 38: 341059 342655 scaffold47_30.6_1 1 1597
+				Gap between this and next alignment: 342655 to 344525 (1869 bp)
+				Next Alignment: 344525 345392 scaffold7_27.9_1 869 1
+
+			Align 39: 344525 345392 scaffold7_27.9_1 869 1
+				Gap between this and next alignment: 345392 to 345879 (486 bp)
+				Next Alignment: 345879 348536 scaffold14_32.6_1 1 2658
+
+			Align 40: 345879 348536 scaffold14_32.6_1 1 2658
+				Gap between this and next alignment: 348536 to 348546 (9 bp)
+				Next Alignment: 348546 348997 scaffold14_32.6_1 2767 3218
+
+			Align 41: 348546 348997 scaffold14_32.6_1 2767 3218
+				Negative gap (overlap) between this and next alignment: 348997 to 348948 (-49 bp)
+				Next Alignment: 348948 349073 scaffold14_32.6_2 483 608
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 483 to 533.
+			Align 42: 348998 349073 scaffold14_32.6_2 533 608
+				Gap between this and next alignment: 349073 to 349653 (579 bp)
+				Next Alignment: 349653 352316 scaffold14_32.6_2 836 3499
+
+			Align 43: 349653 352316 scaffold14_32.6_2 836 3499
+				Gap between this and next alignment: 352316 to 352701 (384 bp)
+				Next Alignment: 352701 356442 scaffold52_21.7_1 3743 1
+
+			Align 44: 352701 356442 scaffold52_21.7_1 3743 1
+				Gap between this and next alignment: 356442 to 356648 (205 bp)
+				Next Alignment: 356648 357223 C2189_47.0_1 2 577
+
+			Align 45: 356648 357223 C2189_47.0_1 2 577
+				Negative gap (overlap) between this and next alignment: 357223 to 357176 (-47 bp)
+				Next Alignment: 357176 358358 C2313_63.0_1 1183 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1183 to 1135.
+			Align 46: 357224 358358 C2313_63.0_1 1135 1
+				Gap between this and next alignment: 358358 to 358387 (28 bp)
+				Next Alignment: 358387 360248 scaffold16_25.3_1 1993 132
+
+			Align 47: 358387 360248 scaffold16_25.3_1 1993 132
+				Negative gap (overlap) between this and next alignment: 360248 to 360134 (-114 bp)
+				Next Alignment: 360134 360254 scaffold16_25.3_1 121 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 121 to 6.
+			Align 48: 360249 360254 scaffold16_25.3_1 6 1
+				Gap between this and next alignment: 360254 to 361016 (761 bp)
+				Next Alignment: 361016 361543 C2163_37.0_1 1 528
+
+			Align 49: 361016 361543 C2163_37.0_1 1 528
+				Gap between this and next alignment: 361543 to 362071 (527 bp)
+				Next Alignment: 362071 364371 scaffold40_39.0_1 1 2299
+
+			Align 50: 362071 364371 scaffold40_39.0_1 1 2299
+				Negative gap (overlap) between this and next alignment: 364371 to 364269 (-102 bp)
+				Next Alignment: 364269 365357 scaffold40_39.0_1 2300 3388
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2300 to 2402.
+			Align 51: 364372 365357 scaffold40_39.0_1 2402 3388
+				Gap between this and next alignment: 365357 to 366095 (737 bp)
+				Next Alignment: 366095 368681 scaffold28_35.9_1 6043 3455
+
+			Align 52: 366095 368681 scaffold28_35.9_1 6043 3455
+				The next alignment (367410 368676 scaffold28_35.9_1 3452 2186) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 368681 to 368681 (0 bp)
+				Next Alignment: 368681 370682 scaffold28_35.9_1 2079 78
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2079 to 2078.
+			Align 54: 368682 370682 scaffold28_35.9_1 2078 78
+				Gap between this and next alignment: 370682 to 376611 (5928 bp)
+				Next Alignment: 376611 377267 scaffold2_28.2_1 5393 4738
+
+			Align 55: 376611 377267 scaffold2_28.2_1 5393 4738
+				Gap between this and next alignment: 377267 to 394648 (17380 bp)
+				Next Alignment: 394648 395287 scaffold28_35.9_1 629 1
+
+			Align 56: 394648 395287 scaffold28_35.9_1 629 1
+				Negative gap (overlap) between this and next alignment: 395287 to 395237 (-50 bp)
+				Next Alignment: 395237 396296 C2299_54.0_1 1 1060
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 52.
+			Align 57: 395288 396296 C2299_54.0_1 52 1060
+				Negative gap (overlap) between this and next alignment: 396296 to 396282 (-14 bp)
+				Next Alignment: 396282 398055 scaffold26_20.6_1 1774 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1774 to 1759.
+			Align 58: 396297 398055 scaffold26_20.6_1 1759 1
+				Gap between this and next alignment: 398055 to 399200 (1144 bp)
+				Next Alignment: 399200 401295 scaffold41_25.1_1 2096 1
+
+			Align 59: 399200 401295 scaffold41_25.1_1 2096 1
+				Gap between this and next alignment: 401295 to 402443 (1147 bp)
+				Next Alignment: 402443 406329 scaffold2_28.2_1 10165 6278
+
+			Align 60: 402443 406329 scaffold2_28.2_1 10165 6278
+				Negative gap (overlap) between this and next alignment: 406329 to 406214 (-115 bp)
+				Next Alignment: 406214 406994 scaffold2_28.2_1 6279 5499
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 6279 to 6163.
+			Align 61: 406330 406994 scaffold2_28.2_1 6163 5499
+				Next Alignment: 406995 410597 scaffold2_28.2_1 5377 1775
+
+			Align 62: 406995 410597 scaffold2_28.2_1 5377 1775
+				The next alignment (407407 407635 scaffold2_28.2_1 5498 5271) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 410597 to 410495 (-102 bp)
+				Next Alignment: 410495 412268 scaffold2_28.2_1 1774 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1774 to 1671.
+			Align 64: 410598 412268 scaffold2_28.2_1 1671 1
+				Gap between this and next alignment: 412268 to 414515 (2246 bp)
+				Next Alignment: 414515 416505 scaffold39_33.8_1 1 1991
+
+			Align 65: 414515 416505 scaffold39_33.8_1 1 1991
+				Gap between this and next alignment: 416505 to 418446 (1940 bp)
+				Next Alignment: 418446 419690 scaffold21_30.4_1 1 1245
+
+			Align 66: 418446 419690 scaffold21_30.4_1 1 1245
+				Negative gap (overlap) between this and next alignment: 419690 to 419575 (-115 bp)
+				Next Alignment: 419575 421230 scaffold21_30.4_1 1245 2900
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1245 to 1361.
+			Align 67: 419691 421230 scaffold21_30.4_1 1361 2900
+				The next alignment (420535 421157 scaffold21_30.4_1 2779 3401) is redundant. Skipping.
+				Gap between this and next alignment: 421230 to 422734 (1503 bp)
+				Next Alignment: 422734 423953 scaffold5_28.2_1 1 1220
+
+			Align 69: 422734 423953 scaffold5_28.2_1 1 1220
+				Negative gap (overlap) between this and next alignment: 423953 to 423887 (-66 bp)
+				Next Alignment: 423887 424524 scaffold5_28.2_2 1 638
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 68.
+			Align 70: 423954 424524 scaffold5_28.2_2 68 638
+				Negative gap (overlap) between this and next alignment: 424524 to 423887 (-637 bp)
+				Next Alignment: 423887 428265 scaffold5_28.2_2 513 4891
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 513 to 1151.
+			Align 71: 424525 428265 scaffold5_28.2_2 1151 4891
+				Gap between this and next alignment: 428265 to 429124 (858 bp)
+				Next Alignment: 429124 430248 C2309_30.0_1 1125 1
+
+			Align 72: 429124 430248 C2309_30.0_1 1125 1
+				Negative gap (overlap) between this and next alignment: 430248 to 430198 (-50 bp)
+				Next Alignment: 430198 430892 C2233_31.0_1 695 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 695 to 644.
+			Align 73: 430249 430892 C2233_31.0_1 644 1
+				Negative gap (overlap) between this and next alignment: 430892 to 430890 (-2 bp)
+				Next Alignment: 430890 431866 C2287_28.0_1 1 977
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 4.
+			Align 74: 430893 431866 C2287_28.0_1 4 977
+				Gap between this and next alignment: 431866 to 432155 (288 bp)
+				Next Alignment: 432155 434463 scaffold29_41.6_1 2255 1
+
+			Align 75: 432155 434463 scaffold29_41.6_1 2255 1
+				Gap between this and next alignment: 434463 to 436593 (2129 bp)
+				Next Alignment: 436593 446836 scaffold54_30.9_2 10244 1
+
+			Align 76: 436593 446836 scaffold54_30.9_2 10244 1
+				Negative gap (overlap) between this and next alignment: 446836 to 446822 (-14 bp)
+				Next Alignment: 446822 507997 scaffold54_30.9_1 61219 44
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 61219 to 61204.
+			Align 77: 446837 507997 scaffold54_30.9_1 61204 44
+				The next alignment (494884 494958 scaffold25_46.0_1 5752 5826) is redundant. Skipping.
+				Gap between this and next alignment: 507997 to 508079 (81 bp)
+				Next Alignment: 508079 540209 scaffold48_30.6_1 1 32129
+
+			Align 79: 508079 540209 scaffold48_30.6_1 1 32129
+				Negative gap (overlap) between this and next alignment: 540209 to 540208 (-1 bp)
+				Next Alignment: 540208 564202 scaffold48_30.6_1 32070 56065
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 32070 to 32072.
+			Align 80: 540210 564202 scaffold48_30.6_1 32072 56065
+				The next alignment (556916 557041 scaffold37_38.5_2 141513 141638) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 564202 to 564184 (-18 bp)
+				Next Alignment: 564184 569826 scaffold51_29.4_2 5643 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5643 to 5624.
+			Align 82: 564203 569826 scaffold51_29.4_2 5624 1
+				Negative gap (overlap) between this and next alignment: 569826 to 569811 (-15 bp)
+				Next Alignment: 569811 735812 scaffold51_29.4_1 166005 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 166005 to 165989.
+			Align 83: 569827 735812 scaffold51_29.4_1 165989 1
+				Gap between this and next alignment: 735812 to 736972 (1159 bp)
+				Next Alignment: 736972 802747 scaffold50_33.8_1 1 65779
+
+			Align 84: 736972 802747 scaffold50_33.8_1 1 65779
+				Negative gap (overlap) between this and next alignment: 802747 to 802737 (-10 bp)
+				Next Alignment: 802737 810561 scaffold50_33.8_2 1 7825
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 12.
+			Align 85: 802748 810561 scaffold50_33.8_2 12 7825
+				Negative gap (overlap) between this and next alignment: 810561 to 810512 (-49 bp)
+				Next Alignment: 810512 866133 scaffold50_33.8_3 1 55622
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 51.
+			Align 86: 810562 866133 scaffold50_33.8_3 51 55622
+				Negative gap (overlap) between this and next alignment: 866133 to 866116 (-17 bp)
+				Next Alignment: 866116 1072315 scaffold50_33.8_4 1 206201
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 19.
+			Align 87: 866134 1072315 scaffold50_33.8_4 19 206201
+			END in current alignment.  Modifying 1072315 to 1072315.
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/738/dataset_775_files/contigs_reports/nucmer_output/VC-H-Soap.used_snps
+
+Results:
+	Local Misassemblies: 17
+	Misassemblies: 6
+		Relocations: 6
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 4
+	Misassembled Contig Bases: 29565
+	Misassmblies Inter-Contig Overlap: 1769
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 33 + 11 part
+Partially Unaligned Contigs with Misassemblies: 4
+Unaligned Contig Bases: 2905078
+
+Ambiguously Mapped Contigs: 6
+Total Bases in Ambiguously Mapped Contigs: 5756
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 1020247
+
+	SNPs: 241
+	Insertions: 40
+	Deletions: 120
+
+	Positive Gaps: 41
+		Internal Gaps:  3
+		External Gaps:  38
+		External Gap Total:  50113
+		External Gap Average: 1319
+	Negative Gaps: 33
+		Internal Overlaps:  10
+		External Overlaps:  23
+		External Overlaps Total: -855
+		External Overlaps Average: -37
+	Contigs with Redundant Alignments: 7 (3504)

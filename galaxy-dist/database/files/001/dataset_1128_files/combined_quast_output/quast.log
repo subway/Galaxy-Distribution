@@ -1,0 +1,80 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.pyc --meta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/corrected_input/V_cholerae_MiSeq_cabog_scf.fasta -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/corrected_input/combined_reference.fasta -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output --labels V_cholerae_MiSeq_cabog_scf.fasta
+
+Started: 2014-03-25 09:11:58
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/quast.log
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/corrected_input/combined_reference.fasta ==> combined_reference
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/corrected_input/V_cholerae_MiSeq_cabog_scf.fasta ==> V_cholerae_MiSeq_cabog_scf.fasta
+
+2014-03-25 09:12:00
+Running Basic statistics processor...
+  Reference genome:
+    combined_reference.fasta, Reference length = 4033464, Reference GC % = 47.49
+  Contig files: 
+    V_cholerae_MiSeq_cabog_scf.fasta
+  Calculating N50 and L50...
+    V_cholerae_MiSeq_cabog_scf.fasta, N50 = 33710, L50 = 34, Total length = 3953298, GC % = 47.52, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/basic_stats/NGx_plot.pdf
+Done.
+
+2014-03-25 09:12:02
+Running Contig analyzer...
+  V_cholerae_MiSeq_cabog_scf.fasta
+  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/contigs_reports/contigs_report_V_cholerae_MiSeq_cabog_scf.fasta.stdout and contigs_report_V_cholerae_MiSeq_cabog_scf.fasta.stderr...
+  Running Nucmer... 
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/contigs_reports/alignments_V_cholerae_MiSeq_cabog_scf.fasta.tsv
+  Analysis is finished.
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-03-25 09:12:18
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    V_cholerae_MiSeq_cabog_scf.fasta, Largest alignment = 140691, NA50 = 33710, NGA50 = 32784, LA50 = 34, LGA50 = 35
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-03-25 09:12:19
+Running Genome analyzer...
+  NOTICE: Annotated genes file was not provided. Use -G option to specify it.
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  V_cholerae_MiSeq_cabog_scf.fasta
+  Drawing Genome fraction, % histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-03-25 09:12:22
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/quast.log
+
+Finished: 2014-03-25 09:12:22
+Elapsed time: 0:00:23.207824

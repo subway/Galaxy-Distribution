@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <body>
+    <a name="top"><h1>Assembly Benchmark</h1></a>
+    <p><h2>Content</h2>
+    <dl>
+    <dt><a href="#combined_quast_output"><strong><font color="black">combined_quast_output</font></strong></a></dt>
+<dd>    <a href="#combined_quast_output-aligned_stats"><font color="black">aligned_stats</font></a><br>
+    <a href="#combined_quast_output-basic_stats"><font color="black">basic_stats</font></a><br>
+    <a href="#combined_quast_output-contigs_reports"><font color="black">contigs_reports</font></a><br>
+    <a href="#combined_quast_output-genome_stats"><font color="black">genome_stats</font></a><br>
+    <a href="#combined_quast_output-json"><font color="black">json</font></a><br>
+    </dd><br>
+    <dt><a href="#NC_003909_quast_output"><strong><font color="black">NC_003909_quast_output</font></strong></a></dt>
+<dd>    <a href="#NC_003909_quast_output-aligned_stats"><font color="black">aligned_stats</font></a><br>
+    <a href="#NC_003909_quast_output-basic_stats"><font color="black">basic_stats</font></a><br>
+    <a href="#NC_003909_quast_output-contigs_reports"><font color="black">contigs_reports</font></a><br>
+    <a href="#NC_003909_quast_output-genome_stats"><font color="black">genome_stats</font></a><br>
+    <a href="#NC_003909_quast_output-json"><font color="black">json</font></a><br>
+    </dd><br>
+    <dt><a href="#NC_005707_quast_output"><strong><font color="black">NC_005707_quast_output</font></strong></a></dt>
+<dd>    <a href="#NC_005707_quast_output-aligned_stats"><font color="black">aligned_stats</font></a><br>
+    <a href="#NC_005707_quast_output-basic_stats"><font color="black">basic_stats</font></a><br>
+    <a href="#NC_005707_quast_output-contigs_reports"><font color="black">contigs_reports</font></a><br>
+    <a href="#NC_005707_quast_output-genome_stats"><font color="black">genome_stats</font></a><br>
+    <a href="#NC_005707_quast_output-json"><font color="black">json</font></a><br>
+    </dd><br>
+    <dt><a href="#not_aligned_quast_output"><strong><font color="black">not_aligned_quast_output</font></strong></a></dt>
+<dd>    <a href="#not_aligned_quast_output-basic_stats"><font color="black">basic_stats</font></a><br>
+    <a href="#not_aligned_quast_output-json"><font color="black">json</font></a><br>
+    </dd><br>
+    </dl>
+    <hr>
+    <a name="combined_quast_output"><h3>combined_quast_output</h3></a><ul>
+    <li>Result/Report (<a href="combined_quast_output/report.html">html</a>)<br>
+    <li>Result/Report (<a href="combined_quast_output/report.txt">txt</a>)<br>
+    <li>Result/Report (<a href="combined_quast_output/transposed_report.txt">transposed txt</a>)</ul></p>
+   <p><a name="combined_quast_output-aligned_stats"><strong>aligned_stats</strong></a><ul>
+    <li><a href="combined_quast_output/aligned_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="combined_quast_output/aligned_stats/NAx_plot.pdf">NAx_plot.pdf</a><br>
+    <li><a href="combined_quast_output/aligned_stats/NGAx_plot.pdf">NGAx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="combined_quast_output-basic_stats"><strong>basic_stats</strong></a><ul>
+    <li><a href="combined_quast_output/basic_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="combined_quast_output/basic_stats/GC_content_plot.pdf">GC_content_plot.pdf</a><br>
+    <li><a href="combined_quast_output/basic_stats/NGx_plot.pdf">NGx_plot.pdf</a><br>
+    <li><a href="combined_quast_output/basic_stats/Nx_plot.pdf">Nx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="combined_quast_output-contigs_reports"><strong>contigs_reports</strong></a><ul>
+    <li><a href="combined_quast_output/contigs_reports/alignments_BC-M-Abyss.tsv">alignments_BC-M-Abyss.tsv</a><br>
+    <li><a href="combined_quast_output/contigs_reports/alignments_BC-M-Cabog.tsv">alignments_BC-M-Cabog.tsv</a><br>
+    <li><a href="combined_quast_output/contigs_reports/alignments_BC-M-Mira.tsv">alignments_BC-M-Mira.tsv</a><br>
+    <li><a href="combined_quast_output/contigs_reports/alignments_BC-M-Msrca.tsv">alignments_BC-M-Msrca.tsv</a><br>
+    <li><a href="combined_quast_output/contigs_reports/alignments_BC-M-Sga.tsv">alignments_BC-M-Sga.tsv</a><br>
+    <li><a href="combined_quast_output/contigs_reports/alignments_BC-M-Soap.tsv">alignments_BC-M-Soap.tsv</a><br>
+    <li><a href="combined_quast_output/contigs_reports/alignments_BC-M-Spades.tsv">alignments_BC-M-Spades.tsv</a><br>
+    <li><a href="combined_quast_output/contigs_reports/alignments_BC-M-Velvet.tsv">alignments_BC-M-Velvet.tsv</a><br>
+    <li><a href="combined_quast_output/contigs_reports/BC-M-Abyss.mis_contigs.fa">BC-M-Abyss.mis_contigs.fa</a><br>
+    <li><a href="combined_quast_output/contigs_reports/BC-M-Cabog.mis_contigs.fa">BC-M-Cabog.mis_contigs.fa</a><br>
+    <li><a href="combined_quast_output/contigs_reports/BC-M-Mira.mis_contigs.fa">BC-M-Mira.mis_contigs.fa</a><br>
+    <li><a href="combined_quast_output/contigs_reports/BC-M-Msrca.mis_contigs.fa">BC-M-Msrca.mis_contigs.fa</a><br>
+    <li><a href="combined_quast_output/contigs_reports/BC-M-Sga.mis_contigs.fa">BC-M-Sga.mis_contigs.fa</a><br>
+    <li><a href="combined_quast_output/contigs_reports/BC-M-Soap.mis_contigs.fa">BC-M-Soap.mis_contigs.fa</a><br>
+    <li><a href="combined_quast_output/contigs_reports/BC-M-Spades.mis_contigs.fa">BC-M-Spades.mis_contigs.fa</a><br>
+    <li><a href="combined_quast_output/contigs_reports/BC-M-Velvet.mis_contigs.fa">BC-M-Velvet.mis_contigs.fa</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Abyss.stderr">contigs_report_BC-M-Abyss.stderr</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Abyss.stdout">contigs_report_BC-M-Abyss.stdout</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Cabog.stderr">contigs_report_BC-M-Cabog.stderr</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Cabog.stdout">contigs_report_BC-M-Cabog.stdout</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Mira.stderr">contigs_report_BC-M-Mira.stderr</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Mira.stdout">contigs_report_BC-M-Mira.stdout</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Msrca.stderr">contigs_report_BC-M-Msrca.stderr</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Msrca.stdout">contigs_report_BC-M-Msrca.stdout</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Sga.stderr">contigs_report_BC-M-Sga.stderr</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Sga.stdout">contigs_report_BC-M-Sga.stdout</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Soap.stderr">contigs_report_BC-M-Soap.stderr</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Soap.stdout">contigs_report_BC-M-Soap.stdout</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Spades.stderr">contigs_report_BC-M-Spades.stderr</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Spades.stdout">contigs_report_BC-M-Spades.stdout</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Velvet.stderr">contigs_report_BC-M-Velvet.stderr</a><br>
+    <li><a href="combined_quast_output/contigs_reports/contigs_report_BC-M-Velvet.stdout">contigs_report_BC-M-Velvet.stdout</a><br>
+    <li><a href="combined_quast_output/contigs_reports/misassemblies_report.tex">misassemblies_report.tex</a><br>
+    <li><a href="combined_quast_output/contigs_reports/misassemblies_report.tsv">misassemblies_report.tsv</a><br>
+    <li><a href="combined_quast_output/contigs_reports/misassemblies_report.txt">misassemblies_report.txt</a><br>
+    <li><a href="combined_quast_output/contigs_reports/unaligned_report.tex">unaligned_report.tex</a><br>
+    <li><a href="combined_quast_output/contigs_reports/unaligned_report.tsv">unaligned_report.tsv</a><br>
+    <li><a href="combined_quast_output/contigs_reports/unaligned_report.txt">unaligned_report.txt</a><br>
+    </ul></p>
+   <p><a name="combined_quast_output-genome_stats"><strong>genome_stats</strong></a><ul>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Abyss_gaps.txt">BC-M-Abyss_gaps.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Abyss_genes.txt">BC-M-Abyss_genes.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Cabog_gaps.txt">BC-M-Cabog_gaps.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Cabog_genes.txt">BC-M-Cabog_genes.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Mira_gaps.txt">BC-M-Mira_gaps.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Mira_genes.txt">BC-M-Mira_genes.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Msrca_gaps.txt">BC-M-Msrca_gaps.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Msrca_genes.txt">BC-M-Msrca_genes.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Sga_gaps.txt">BC-M-Sga_gaps.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Sga_genes.txt">BC-M-Sga_genes.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Soap_gaps.txt">BC-M-Soap_gaps.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Soap_genes.txt">BC-M-Soap_genes.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Spades_gaps.txt">BC-M-Spades_gaps.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Spades_genes.txt">BC-M-Spades_genes.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Velvet_gaps.txt">BC-M-Velvet_gaps.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/BC-M-Velvet_genes.txt">BC-M-Velvet_genes.txt</a><br>
+    <li><a href="combined_quast_output/genome_stats/complete_genes_histogram.pdf">complete_genes_histogram.pdf</a><br>
+    <li><a href="combined_quast_output/genome_stats/genes_cumulative_plot.pdf">genes_cumulative_plot.pdf</a><br>
+    <li><a href="combined_quast_output/genome_stats/genome_fraction_histogram.pdf">genome_fraction_histogram.pdf</a><br>
+    <li><a href="combined_quast_output/genome_stats/genome_info.txt">genome_info.txt</a><br>
+    </ul></p>
+   <p><a name="combined_quast_output-json"><strong>json</strong></a><ul>
+    <li><a href="combined_quast_output/json/aligned_contigs_lengths.json">aligned_contigs_lengths.json</a><br>
+    <li><a href="combined_quast_output/json/assemblies_lengths.json">assemblies_lengths.json</a><br>
+    <li><a href="combined_quast_output/json/contigs_lengths.json">contigs_lengths.json</a><br>
+    <li><a href="combined_quast_output/json/gc.json">gc.json</a><br>
+    <li><a href="combined_quast_output/json/genes_in_contigs.json">genes_in_contigs.json</a><br>
+    <li><a href="combined_quast_output/json/ref_length.json">ref_length.json</a><br>
+    <li><a href="combined_quast_output/json/report.json">report.json</a><br>
+    </ul></p>
+    <a href="#top"><font color="black">[To the top]</font></a><br>    <hr>
+    <a name="NC_003909_quast_output"><h3>NC_003909_quast_output</h3></a><ul>
+    <li>Result/Report (<a href="NC_003909_quast_output/report.html">html</a>)<br>
+    <li>Result/Report (<a href="NC_003909_quast_output/report.txt">txt</a>)<br>
+    <li>Result/Report (<a href="NC_003909_quast_output/transposed_report.txt">transposed txt</a>)</ul></p>
+   <p><a name="NC_003909_quast_output-aligned_stats"><strong>aligned_stats</strong></a><ul>
+    <li><a href="NC_003909_quast_output/aligned_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="NC_003909_quast_output/aligned_stats/NAx_plot.pdf">NAx_plot.pdf</a><br>
+    <li><a href="NC_003909_quast_output/aligned_stats/NGAx_plot.pdf">NGAx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="NC_003909_quast_output-basic_stats"><strong>basic_stats</strong></a><ul>
+    <li><a href="NC_003909_quast_output/basic_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="NC_003909_quast_output/basic_stats/GC_content_plot.pdf">GC_content_plot.pdf</a><br>
+    <li><a href="NC_003909_quast_output/basic_stats/NGx_plot.pdf">NGx_plot.pdf</a><br>
+    <li><a href="NC_003909_quast_output/basic_stats/Nx_plot.pdf">Nx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="NC_003909_quast_output-contigs_reports"><strong>contigs_reports</strong></a><ul>
+    <li><a href="NC_003909_quast_output/contigs_reports/alignments_BC-M-Abyss.tsv">alignments_BC-M-Abyss.tsv</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/alignments_BC-M-Cabog.tsv">alignments_BC-M-Cabog.tsv</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/alignments_BC-M-Mira.tsv">alignments_BC-M-Mira.tsv</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/alignments_BC-M-Msrca.tsv">alignments_BC-M-Msrca.tsv</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/alignments_BC-M-Sga.tsv">alignments_BC-M-Sga.tsv</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/alignments_BC-M-Soap.tsv">alignments_BC-M-Soap.tsv</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/alignments_BC-M-Spades.tsv">alignments_BC-M-Spades.tsv</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/alignments_BC-M-Velvet.tsv">alignments_BC-M-Velvet.tsv</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/BC-M-Abyss.mis_contigs.fa">BC-M-Abyss.mis_contigs.fa</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/BC-M-Cabog.mis_contigs.fa">BC-M-Cabog.mis_contigs.fa</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/BC-M-Mira.mis_contigs.fa">BC-M-Mira.mis_contigs.fa</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/BC-M-Msrca.mis_contigs.fa">BC-M-Msrca.mis_contigs.fa</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/BC-M-Sga.mis_contigs.fa">BC-M-Sga.mis_contigs.fa</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/BC-M-Soap.mis_contigs.fa">BC-M-Soap.mis_contigs.fa</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/BC-M-Spades.mis_contigs.fa">BC-M-Spades.mis_contigs.fa</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/BC-M-Velvet.mis_contigs.fa">BC-M-Velvet.mis_contigs.fa</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Abyss.stderr">contigs_report_BC-M-Abyss.stderr</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Abyss.stdout">contigs_report_BC-M-Abyss.stdout</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Cabog.stderr">contigs_report_BC-M-Cabog.stderr</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Cabog.stdout">contigs_report_BC-M-Cabog.stdout</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Mira.stderr">contigs_report_BC-M-Mira.stderr</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Mira.stdout">contigs_report_BC-M-Mira.stdout</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Msrca.stderr">contigs_report_BC-M-Msrca.stderr</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Msrca.stdout">contigs_report_BC-M-Msrca.stdout</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Sga.stderr">contigs_report_BC-M-Sga.stderr</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Sga.stdout">contigs_report_BC-M-Sga.stdout</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Soap.stderr">contigs_report_BC-M-Soap.stderr</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Soap.stdout">contigs_report_BC-M-Soap.stdout</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Spades.stderr">contigs_report_BC-M-Spades.stderr</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Spades.stdout">contigs_report_BC-M-Spades.stdout</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Velvet.stderr">contigs_report_BC-M-Velvet.stderr</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/contigs_report_BC-M-Velvet.stdout">contigs_report_BC-M-Velvet.stdout</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/misassemblies_report.tex">misassemblies_report.tex</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/misassemblies_report.tsv">misassemblies_report.tsv</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/misassemblies_report.txt">misassemblies_report.txt</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/unaligned_report.tex">unaligned_report.tex</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/unaligned_report.tsv">unaligned_report.tsv</a><br>
+    <li><a href="NC_003909_quast_output/contigs_reports/unaligned_report.txt">unaligned_report.txt</a><br>
+    </ul></p>
+   <p><a name="NC_003909_quast_output-genome_stats"><strong>genome_stats</strong></a><ul>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Abyss_gaps.txt">BC-M-Abyss_gaps.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Abyss_genes.txt">BC-M-Abyss_genes.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Cabog_gaps.txt">BC-M-Cabog_gaps.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Cabog_genes.txt">BC-M-Cabog_genes.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Mira_gaps.txt">BC-M-Mira_gaps.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Mira_genes.txt">BC-M-Mira_genes.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Msrca_gaps.txt">BC-M-Msrca_gaps.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Msrca_genes.txt">BC-M-Msrca_genes.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Sga_gaps.txt">BC-M-Sga_gaps.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Sga_genes.txt">BC-M-Sga_genes.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Soap_gaps.txt">BC-M-Soap_gaps.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Soap_genes.txt">BC-M-Soap_genes.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Spades_gaps.txt">BC-M-Spades_gaps.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Spades_genes.txt">BC-M-Spades_genes.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Velvet_gaps.txt">BC-M-Velvet_gaps.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/BC-M-Velvet_genes.txt">BC-M-Velvet_genes.txt</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/complete_genes_histogram.pdf">complete_genes_histogram.pdf</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/genes_cumulative_plot.pdf">genes_cumulative_plot.pdf</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/genome_fraction_histogram.pdf">genome_fraction_histogram.pdf</a><br>
+    <li><a href="NC_003909_quast_output/genome_stats/genome_info.txt">genome_info.txt</a><br>
+    </ul></p>
+   <p><a name="NC_003909_quast_output-json"><strong>json</strong></a><ul>
+    <li><a href="NC_003909_quast_output/json/aligned_contigs_lengths.json">aligned_contigs_lengths.json</a><br>
+    <li><a href="NC_003909_quast_output/json/assemblies_lengths.json">assemblies_lengths.json</a><br>
+    <li><a href="NC_003909_quast_output/json/contigs_lengths.json">contigs_lengths.json</a><br>
+    <li><a href="NC_003909_quast_output/json/gc.json">gc.json</a><br>
+    <li><a href="NC_003909_quast_output/json/genes_in_contigs.json">genes_in_contigs.json</a><br>
+    <li><a href="NC_003909_quast_output/json/ref_length.json">ref_length.json</a><br>
+    <li><a href="NC_003909_quast_output/json/report.json">report.json</a><br>
+    </ul></p>
+    <a href="#top"><font color="black">[To the top]</font></a><br>    <hr>
+    <a name="NC_005707_quast_output"><h3>NC_005707_quast_output</h3></a><ul>
+    <li>Result/Report (<a href="NC_005707_quast_output/report.html">html</a>)<br>
+    <li>Result/Report (<a href="NC_005707_quast_output/report.txt">txt</a>)<br>
+    <li>Result/Report (<a href="NC_005707_quast_output/transposed_report.txt">transposed txt</a>)</ul></p>
+   <p><a name="NC_005707_quast_output-aligned_stats"><strong>aligned_stats</strong></a><ul>
+    <li><a href="NC_005707_quast_output/aligned_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="NC_005707_quast_output/aligned_stats/NAx_plot.pdf">NAx_plot.pdf</a><br>
+    <li><a href="NC_005707_quast_output/aligned_stats/NGAx_plot.pdf">NGAx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="NC_005707_quast_output-basic_stats"><strong>basic_stats</strong></a><ul>
+    <li><a href="NC_005707_quast_output/basic_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="NC_005707_quast_output/basic_stats/GC_content_plot.pdf">GC_content_plot.pdf</a><br>
+    <li><a href="NC_005707_quast_output/basic_stats/NGx_plot.pdf">NGx_plot.pdf</a><br>
+    <li><a href="NC_005707_quast_output/basic_stats/Nx_plot.pdf">Nx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="NC_005707_quast_output-contigs_reports"><strong>contigs_reports</strong></a><ul>
+    <li><a href="NC_005707_quast_output/contigs_reports/alignments_BC-M-Abyss.tsv">alignments_BC-M-Abyss.tsv</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/alignments_BC-M-Cabog.tsv">alignments_BC-M-Cabog.tsv</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/alignments_BC-M-Mira.tsv">alignments_BC-M-Mira.tsv</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/alignments_BC-M-Msrca.tsv">alignments_BC-M-Msrca.tsv</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/alignments_BC-M-Sga.tsv">alignments_BC-M-Sga.tsv</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/alignments_BC-M-Soap.tsv">alignments_BC-M-Soap.tsv</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/alignments_BC-M-Spades.tsv">alignments_BC-M-Spades.tsv</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/alignments_BC-M-Velvet.tsv">alignments_BC-M-Velvet.tsv</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/BC-M-Abyss.mis_contigs.fa">BC-M-Abyss.mis_contigs.fa</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/BC-M-Cabog.mis_contigs.fa">BC-M-Cabog.mis_contigs.fa</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/BC-M-Mira.mis_contigs.fa">BC-M-Mira.mis_contigs.fa</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/BC-M-Msrca.mis_contigs.fa">BC-M-Msrca.mis_contigs.fa</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/BC-M-Sga.mis_contigs.fa">BC-M-Sga.mis_contigs.fa</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/BC-M-Soap.mis_contigs.fa">BC-M-Soap.mis_contigs.fa</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/BC-M-Spades.mis_contigs.fa">BC-M-Spades.mis_contigs.fa</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/BC-M-Velvet.mis_contigs.fa">BC-M-Velvet.mis_contigs.fa</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Abyss.stderr">contigs_report_BC-M-Abyss.stderr</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Abyss.stdout">contigs_report_BC-M-Abyss.stdout</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Cabog.stderr">contigs_report_BC-M-Cabog.stderr</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Cabog.stdout">contigs_report_BC-M-Cabog.stdout</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Mira.stderr">contigs_report_BC-M-Mira.stderr</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Mira.stdout">contigs_report_BC-M-Mira.stdout</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Msrca.stderr">contigs_report_BC-M-Msrca.stderr</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Msrca.stdout">contigs_report_BC-M-Msrca.stdout</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Sga.stderr">contigs_report_BC-M-Sga.stderr</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Sga.stdout">contigs_report_BC-M-Sga.stdout</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Soap.stderr">contigs_report_BC-M-Soap.stderr</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Soap.stdout">contigs_report_BC-M-Soap.stdout</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Spades.stderr">contigs_report_BC-M-Spades.stderr</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Spades.stdout">contigs_report_BC-M-Spades.stdout</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Velvet.stderr">contigs_report_BC-M-Velvet.stderr</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/contigs_report_BC-M-Velvet.stdout">contigs_report_BC-M-Velvet.stdout</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/misassemblies_report.tex">misassemblies_report.tex</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/misassemblies_report.tsv">misassemblies_report.tsv</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/misassemblies_report.txt">misassemblies_report.txt</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/unaligned_report.tex">unaligned_report.tex</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/unaligned_report.tsv">unaligned_report.tsv</a><br>
+    <li><a href="NC_005707_quast_output/contigs_reports/unaligned_report.txt">unaligned_report.txt</a><br>
+    </ul></p>
+   <p><a name="NC_005707_quast_output-genome_stats"><strong>genome_stats</strong></a><ul>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Abyss_gaps.txt">BC-M-Abyss_gaps.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Abyss_genes.txt">BC-M-Abyss_genes.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Cabog_gaps.txt">BC-M-Cabog_gaps.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Cabog_genes.txt">BC-M-Cabog_genes.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Mira_gaps.txt">BC-M-Mira_gaps.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Mira_genes.txt">BC-M-Mira_genes.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Msrca_gaps.txt">BC-M-Msrca_gaps.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Msrca_genes.txt">BC-M-Msrca_genes.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Sga_gaps.txt">BC-M-Sga_gaps.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Sga_genes.txt">BC-M-Sga_genes.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Soap_gaps.txt">BC-M-Soap_gaps.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Soap_genes.txt">BC-M-Soap_genes.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Spades_gaps.txt">BC-M-Spades_gaps.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Spades_genes.txt">BC-M-Spades_genes.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Velvet_gaps.txt">BC-M-Velvet_gaps.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/BC-M-Velvet_genes.txt">BC-M-Velvet_genes.txt</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/complete_genes_histogram.pdf">complete_genes_histogram.pdf</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/genes_cumulative_plot.pdf">genes_cumulative_plot.pdf</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/genome_fraction_histogram.pdf">genome_fraction_histogram.pdf</a><br>
+    <li><a href="NC_005707_quast_output/genome_stats/genome_info.txt">genome_info.txt</a><br>
+    </ul></p>
+   <p><a name="NC_005707_quast_output-json"><strong>json</strong></a><ul>
+    <li><a href="NC_005707_quast_output/json/aligned_contigs_lengths.json">aligned_contigs_lengths.json</a><br>
+    <li><a href="NC_005707_quast_output/json/assemblies_lengths.json">assemblies_lengths.json</a><br>
+    <li><a href="NC_005707_quast_output/json/contigs_lengths.json">contigs_lengths.json</a><br>
+    <li><a href="NC_005707_quast_output/json/gc.json">gc.json</a><br>
+    <li><a href="NC_005707_quast_output/json/genes_in_contigs.json">genes_in_contigs.json</a><br>
+    <li><a href="NC_005707_quast_output/json/ref_length.json">ref_length.json</a><br>
+    <li><a href="NC_005707_quast_output/json/report.json">report.json</a><br>
+    </ul></p>
+    <a href="#top"><font color="black">[To the top]</font></a><br>    <hr>
+    <a name="not_aligned_quast_output"><h3>not_aligned_quast_output</h3></a><ul>
+    <li>Result/Report (<a href="not_aligned_quast_output/report.html">html</a>)<br>
+    <li>Result/Report (<a href="not_aligned_quast_output/report.txt">txt</a>)<br>
+    <li>Result/Report (<a href="not_aligned_quast_output/transposed_report.txt">transposed txt</a>)</ul></p>
+   <p><a name="not_aligned_quast_output-basic_stats"><strong>basic_stats</strong></a><ul>
+    <li><a href="not_aligned_quast_output/basic_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="not_aligned_quast_output/basic_stats/GC_content_plot.pdf">GC_content_plot.pdf</a><br>
+    <li><a href="not_aligned_quast_output/basic_stats/Nx_plot.pdf">Nx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="not_aligned_quast_output-json"><strong>json</strong></a><ul>
+    <li><a href="not_aligned_quast_output/json/contigs_lengths.json">contigs_lengths.json</a><br>
+    <li><a href="not_aligned_quast_output/json/gc.json">gc.json</a><br>
+    <li><a href="not_aligned_quast_output/json/report.json">report.json</a><br>
+    </ul></p>
+    <a href="#top"><font color="black">[To the top]</font></a><br>    </body>
+</html>

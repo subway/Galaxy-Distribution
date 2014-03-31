@@ -1,0 +1,52 @@
+/cluster/home/sabbai/Master/galaxy-dist/tools/assembly_benchmark/quast/quast.py -o /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-202119 /cluster/home/sabbai/Master/galaxy-dist/database/files/000/dataset_180.dat /cluster/home/sabbai/Master/galaxy-dist/database/files/000/dataset_180.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2013-12-03 20:21:21
+
+Logging to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-202119/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Contigs:
+  /cluster/home/sabbai/Master/galaxy-dist/database/files/000/dataset_180.dat ==> 000_dataset_180.dat
+  /cluster/home/sabbai/Master/galaxy-dist/database/files/000/dataset_180.dat ==> 000_dataset_180.dat 1
+
+2013-12-03 20:21:39
+Running Basic statistics processor...
+  Contig files: 
+    1  000_dataset_180.dat
+    2  000_dataset_180.dat 1
+  Calculating N50 and L50...
+    1  000_dataset_180.dat, N50 = 57089, L50 = 20, Total length = 3848582, GC % = 47.54, # N's per 100 kbp =  0.00
+    2  000_dataset_180.dat 1, N50 = 57089, L50 = 20, Total length = 3848582, GC % = 47.54, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-202119/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-202119/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-202119/basic_stats/Nx_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2013-12-03 20:21:47
+Summarizing...
+  Creating total report...
+    saved to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-202119/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-202119/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-202119/report.html
+  All pdf files are merged to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-202119/plots.pdf
+Log saved to /usit/abel/u1/sabbai/Master/galaxy-dist/static/stat/03122013-202119/quast.log
+
+Finished: 2013-12-03 20:21:48
+Elapsed time: 0:00:26.631655

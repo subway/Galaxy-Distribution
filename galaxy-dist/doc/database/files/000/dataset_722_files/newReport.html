@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+	    <script type="text/javascript">google.load('visualization', '1.0', {'packages':['corechart']});</script>
+
+	    <script type="text/javascript" src="report_html_aux/scripts/draw_custom_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="report_html_aux/flot/jquery.flot.min.js"></script>
+    <script type="text/javascript" src="report_html_aux/flot/jquery.flot.dashes.js"></script>
+    <!–[if lte IE 8]><script type="text/javascript" src="report_html_aux/flot/excanvas.min.js"></script><![endif]–>
+
+    <script type="text/javascript" src="report_html_aux/dragtable.js"></script>
+
+    <script type="text/javascript" src="report_html_aux/scripts/hsvToRgb.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/utils.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/build_total_report.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/draw_cumulative_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/draw_nx_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/draw_gc_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/draw_genes_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/build_report.js"></script>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="report_html_aux/ie_html5.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        $(function() {
+            buildReport();
+            $('#contigs_are_ordered').show();
+        });
+    </script>
+
+    <style type="text/css">
+        body {
+            padding-bottom: 30px;
+        }
+        .content {
+            margin-left: 120px;
+            padding-top: 50px;
+            clear: both;
+        }
+        #header {
+            display: block;
+            width: 100%;
+            margin-bottom: 1em;
+        }
+        #subheader { /* not used in Quast html report */
+            margin-top: -13px;
+            margin-bottom: 20px;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="report_html_aux/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="report_html_aux/common.css" />
+    <link rel="stylesheet" type="text/css" href="report_html_aux/report.css" />
+</head>
+
+<body>
+<div class="content">
+    <div id='header'>
+        <span style='font-size: 1.5em;'><span class='smallcapitals'>QUAST</span> report</span><br><br>

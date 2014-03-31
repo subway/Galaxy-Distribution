@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+ 	<script type="text/javascript">google.load('visualization', '1.0', {'packages':['corechart']});</script>
+ 	<script type="text/javascript" src="report_html_aux/scripts/draw_custom_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="report_html_aux/flot/jquery.flot.min.js"></script>
+    <script type="text/javascript" src="report_html_aux/flot/jquery.flot.dashes.js"></script>
+    <!–[if lte IE 8]><script type="text/javascript" src="report_html_aux/flot/excanvas.min.js"></script><![endif]–>
+
+    <script type="text/javascript" src="report_html_aux/dragtable.js"></script>
+
+    <script type="text/javascript" src="report_html_aux/scripts/hsvToRgb.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/utils.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/build_total_report.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/draw_cumulative_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/draw_nx_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/draw_gc_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/draw_genes_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/build_report.js"></script>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="report_html_aux/ie_html5.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        $(function() {
+            buildReport();
+            $('#contigs_are_ordered').show();
+        });
+    </script>
+
+    <style type="text/css">
+        body {
+            padding-bottom: 30px;
+        }
+        .content {
+            margin-left: 120px;
+            padding-top: 50px;
+            clear: both;
+        }
+        #header {
+            display: block;
+            width: 100%;
+            margin-bottom: 1em;
+        }
+        #subheader { /* not used in Quast html report */
+            margin-top: -13px;
+            margin-bottom: 20px;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="report_html_aux/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="report_html_aux/common.css" />
+    <link rel="stylesheet" type="text/css" href="report_html_aux/report.css" />
+</head>
+
+<body>
+<div class="content">
+    <div id='header'>
+        <span style='font-size: 1.5em;'><span class='smallcapitals'>QUAST</span> report</span><br><br>
+        <span id='subheader'></span>
+
+<select id="ddl1">
+  <option value="">--- Select ---</option>
+  <option value="# contigs"># contigs</option>
+  <option value="# contigs (>= 0 bp)"># contigs (>= 0 bp)</option>
+  <option value="# contigs (>= 1000 bp)"># contigs (>= 1000 bp)</option>
+  <option value="Largest contig">Largest contig</option>
+  <option value="Total length">Total length</option>
+  <option value="Total length (>= 0 bp)">Total length (>= 0 bp)</option>
+  <option value="Total length (>= 1000 bp)">Total length (>= 1000 bp)</option>
+  <option value="N50">N50</option>
+  <option value="N75">N75</option>
+  <option value="L50">L50</option>
+  <option value="L75">L75</option>
+  <option value="GC (%)">GC (%)</option>
+  <option value="# misassemblies"># misassemblies</option>
+  <option value="    # relocations">    # relocations</option>
+  <option value="    # translocations">    # translocations</option>
+  <option value="    # inversions">    # inversions</option>
+  <option value="# misassembled contigs"># misassembled contigs</option>
+  <option value="Misassembled contigs length">Misassembled contigs length</option>
+  <option value="# local misassemblies"># local misassemblies</option>
+  <option value="# fully unaligned contigs"># fully unaligned contigs</option>
+  <option value="Fully unaligned length">Fully unaligned length</option>
+  <option value="# partially unaligned contigs"># partially unaligned contigs</option>
+  <option value="    # with misassembly">    # with misassembly</option>
+  <option value="    # both parts are significant">    # both parts are significant</option>
+  <option value="Partially unaligned length">Partially unaligned length</option>
+  <option value="# mismatches"># mismatches</option>
+  <option value="# indels"># indels</option>
+  <option value="Indels length">Indels length</option>
+  <option value="# mismatches per 100 kbp"># mismatches per 100 kbp</option>
+  <option value="# indels per 100 kbp"># indels per 100 kbp</option>
+  <option value="    # short indels (<= 5 bp)">    # short indels (<= 5 bp)</option>
+  <option value="    # long indels (> 5 bp)">    # long indels (> 5 bp)</option>
+  <option value="# N's"># N's</option>
+  <option value="# N's per 100 kbp"># N's per 100 kbp</option>
+  <option value="Genome fraction (%)">Genome fraction (%)</option>
+  <option value="Duplication ratio">Duplication ratio</option>
+  <option value="# genes"># genes</option>
+  <option value="Largest alignment">Largest alignment</option>
+  <option value="NG50">NG50</option>
+  <option value="NG75">NG75</option>
+  <option value="NA50">NA50</option>
+  <option value="NA75">NA75</option>
+  <option value="NGA50">NGA50</option>
+  <option value="NGA75">NGA75</option>
+  <option value="LG50">LG50</option>
+  <option value="LG75">LG75</option>
+  <option value="LA50">LA50</option>
+  <option value="LA75">LA75</option>
+  <option value="LGA50">LGA50</option>
+  <option value="LGA75">LGA75</option>
+  <option value="Reference length">Reference length</option>
+  <option value="Reference GC (%)">Reference GC (%)</option>
+  <option value="Reference genes">Reference genes</option>
+  <option value="Reference operons">Reference operons</option>
+</select>
+<button name="btn1" type="button" onClick="javascript:drawColumnChart();">Create bar chart</button><br>
+<select id="ddl2">
+  <option value="">--- Select ---</option>
+  <option value="# contigs"># contigs</option>
+  <option value="# contigs (>= 0 bp)"># contigs (>= 0 bp)</option>
+  <option value="# contigs (>= 1000 bp)"># contigs (>= 1000 bp)</option>
+  <option value="Largest contig">Largest contig</option>
+  <option value="Total length">Total length</option>
+  <option value="Total length (>= 0 bp)">Total length (>= 0 bp)</option>
+  <option value="Total length (>= 1000 bp)">Total length (>= 1000 bp)</option>
+  <option value="N50">N50</option>
+  <option value="N75">N75</option>
+  <option value="L50">L50</option>
+  <option value="L75">L75</option>
+  <option value="GC (%)">GC (%)</option>
+  <option value="# misassemblies"># misassemblies</option>
+  <option value="    # relocations">    # relocations</option>
+  <option value="    # translocations">    # translocations</option>
+  <option value="    # inversions">    # inversions</option>
+  <option value="# misassembled contigs"># misassembled contigs</option>
+  <option value="Misassembled contigs length">Misassembled contigs length</option>
+  <option value="# local misassemblies"># local misassemblies</option>
+  <option value="# fully unaligned contigs"># fully unaligned contigs</option>
+  <option value="Fully unaligned length">Fully unaligned length</option>
+  <option value="# partially unaligned contigs"># partially unaligned contigs</option>
+  <option value="    # with misassembly">    # with misassembly</option>
+  <option value="    # both parts are significant">    # both parts are significant</option>
+  <option value="Partially unaligned length">Partially unaligned length</option>
+  <option value="# mismatches"># mismatches</option>
+  <option value="# indels"># indels</option>
+  <option value="Indels length">Indels length</option>
+  <option value="# mismatches per 100 kbp"># mismatches per 100 kbp</option>
+  <option value="# indels per 100 kbp"># indels per 100 kbp</option>
+  <option value="    # short indels (<= 5 bp)">    # short indels (<= 5 bp)</option>
+  <option value="    # long indels (> 5 bp)">    # long indels (> 5 bp)</option>
+  <option value="# N's"># N's</option>
+  <option value="# N's per 100 kbp"># N's per 100 kbp</option>
+  <option value="Genome fraction (%)">Genome fraction (%)</option>
+  <option value="Duplication ratio">Duplication ratio</option>
+  <option value="# genes"># genes</option>
+  <option value="Largest alignment">Largest alignment</option>
+  <option value="NG50">NG50</option>
+  <option value="NG75">NG75</option>
+  <option value="NA50">NA50</option>
+  <option value="NA75">NA75</option>
+  <option value="NGA50">NGA50</option>
+  <option value="NGA75">NGA75</option>
+  <option value="LG50">LG50</option>
+  <option value="LG75">LG75</option>
+  <option value="LA50">LA50</option>
+  <option value="LA75">LA75</option>
+  <option value="LGA50">LGA50</option>
+  <option value="LGA75">LGA75</option>
+  <option value="Reference length">Reference length</option>
+  <option value="Reference GC (%)">Reference GC (%)</option>
+  <option value="Reference genes">Reference genes</option>
+  <option value="Reference operons">Reference operons</option>
+</select>
+<select id="ddl3">
+  <option value="">--- Select ---</option>
+  <option value="# contigs"># contigs</option>
+  <option value="# contigs (>= 0 bp)"># contigs (>= 0 bp)</option>
+  <option value="# contigs (>= 1000 bp)"># contigs (>= 1000 bp)</option>
+  <option value="Largest contig">Largest contig</option>
+  <option value="Total length">Total length</option>
+  <option value="Total length (>= 0 bp)">Total length (>= 0 bp)</option>
+  <option value="Total length (>= 1000 bp)">Total length (>= 1000 bp)</option>
+  <option value="N50">N50</option>
+  <option value="N75">N75</option>
+  <option value="L50">L50</option>
+  <option value="L75">L75</option>
+  <option value="GC (%)">GC (%)</option>
+  <option value="# misassemblies"># misassemblies</option>
+  <option value="    # relocations">    # relocations</option>
+  <option value="    # translocations">    # translocations</option>
+  <option value="    # inversions">    # inversions</option>
+  <option value="# misassembled contigs"># misassembled contigs</option>
+  <option value="Misassembled contigs length">Misassembled contigs length</option>
+  <option value="# local misassemblies"># local misassemblies</option>
+  <option value="# fully unaligned contigs"># fully unaligned contigs</option>
+  <option value="Fully unaligned length">Fully unaligned length</option>
+  <option value="# partially unaligned contigs"># partially unaligned contigs</option>
+  <option value="    # with misassembly">    # with misassembly</option>
+  <option value="    # both parts are significant">    # both parts are significant</option>
+  <option value="Partially unaligned length">Partially unaligned length</option>
+  <option value="# mismatches"># mismatches</option>
+  <option value="# indels"># indels</option>
+  <option value="Indels length">Indels length</option>
+  <option value="# mismatches per 100 kbp"># mismatches per 100 kbp</option>
+  <option value="# indels per 100 kbp"># indels per 100 kbp</option>
+  <option value="    # short indels (<= 5 bp)">    # short indels (<= 5 bp)</option>
+  <option value="    # long indels (> 5 bp)">    # long indels (> 5 bp)</option>
+  <option value="# N's"># N's</option>
+  <option value="# N's per 100 kbp"># N's per 100 kbp</option>
+  <option value="Genome fraction (%)">Genome fraction (%)</option>
+  <option value="Duplication ratio">Duplication ratio</option>
+  <option value="# genes"># genes</option>
+  <option value="Largest alignment">Largest alignment</option>
+  <option value="NG50">NG50</option>
+  <option value="NG75">NG75</option>
+  <option value="NA50">NA50</option>
+  <option value="NA75">NA75</option>
+  <option value="NGA50">NGA50</option>
+  <option value="NGA75">NGA75</option>
+  <option value="LG50">LG50</option>
+  <option value="LG75">LG75</option>
+  <option value="LA50">LA50</option>
+  <option value="LA75">LA75</option>
+  <option value="LGA50">LGA50</option>
+  <option value="LGA75">LGA75</option>
+  <option value="Reference length">Reference length</option>
+  <option value="Reference GC (%)">Reference GC (%)</option>
+  <option value="Reference genes">Reference genes</option>
+  <option value="Reference operons">Reference operons</option>
+</select>
+<button name="btn2" type="button" onClick="javascript:drawScatterPlot();">Create scatter plot</button><br>
+<!--Div that will hold the chart-->
+ 	<a id="hideplot" href="javascript:toggleImg()" style="display:none"><b>Hide plot</b></a>
+ 	<div id="chart_div" style="display:none"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <span id='mincontig'>Loading...</span>
+        <span id="extended_link"></span>
+    </div>
+
+    <noscript>
+        <div style="margin-left: 0px;">
+            Unfortunately, <span style="font-weight: bold">JavaScript</span> in your
+            browser <span style="font-weight: bold">is disabled</span> or is not supported.</br>
+            We need JavaScript to build report and plots.
+        </div>
+    </noscript>
+
+    <div class='report-and-plots'>
+        <div id='report'>
+        </div>
+
+        <div class='plots'>
+            <table style='margin: -3px;'>
+                <tr id='all-switches'>
+                    <td>
+                        <div id='plots-switches'></div>
+                    </td>
+                    <td style='text-align: right; padding-right: 22px;'>
+                        <span id='scale-placeholder'></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div id='plot-placeholder' style=''></div>
+                    </td>
+                    <td>
+                        <div id='legend-placeholder'></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="contigs_are_ordered">Contigs are ordered from largest (contig #1) to smallest.</p>
+                        <p id="gc_info">Contigs are broken into nonoverlapping 100<span class="rhs">&nbsp;</span>bp windows.
+                            Plot shows numbers of windows for each GC percentage.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div style="clear: left"></div>
+        <div style="clear: right"></div>
+
+        <div class='json-code'>
+            <div id='total-report-json'>
+                {"date":"26 February 2014, Wednesday, 05:53:46","report":[["Statistics without reference",[{"values":[149,136,174,109,281,149,110,142],"quality":"Less is better","isMain":true,"metricName":"# contigs"},{"values":[168,138,542,119,2291,402,151,246],"quality":"Less is better","isMain":false,"metricName":"# contigs (>= 0 bp)"},{"values":[141,136,109,102,233,118,86,120],"quality":"Less is better","isMain":false,"metricName":"# contigs (>= 1000 bp)"},{"values":[419237,363813,378585,391846,188622,384109,534462,286976],"quality":"More is better","isMain":true,"metricName":"Largest contig"},{"values":[7036707,5213908,5340833,5392427,5209075,5262789,5319487,5261270],"quality":"More is better","isMain":true,"metricName":"Total length"},{"values":[7041280,5214282,5433200,5396385,5508253,5314517,5332156,5289907],"quality":"More is better","isMain":false,"metricName":"Total length (>= 0 bp)"},{"values":[7031322,5213908,5299150,5386876,5177435,5241412,5302376,5246405],"quality":"More is better","isMain":false,"metricName":"Total length (>= 1000 bp)"},{"values":[106769,95840,134263,158716,45047,125627,157732,125214],"quality":"More is better","isMain":true,"metricName":"N50"},{"values":[56017,42294,84346,74628,26391,58562,86371,59460],"quality":"More is better","isMain":false,"metricName":"N75"},{"values":[19,18,12,11,38,14,10,14],"quality":"Less is better","isMain":false,"metricName":"L50"},{"values":[42,38,24,23,76,30,22,29],"quality":"Less is better","isMain":false,"metricName":"L75"},{"values":["43.43","43.41","43.47","43.45","43.45","43.47","43.47","43.46"],"quality":"Equal","isMain":false,"metricName":"GC (%)"}]],["Misassemblies",[{"values":[154,102,115,119,65,92,104,98],"quality":"Less is better","isMain":true,"metricName":"# misassemblies"},{"values":[144,96,108,108,65,92,100,94],"quality":"Less is better","isMain":false,"metricName":"    # relocations"},{"values":[0,0,0,0,0,0,0,0],"quality":"Less is better","isMain":false,"metricName":"    # translocations"},{"values":[10,6,7,11,0,0,4,4],"quality":"Less is better","isMain":false,"metricName":"    # inversions"},{"values":[64,48,42,45,45,37,30,33],"quality":"Less is better","isMain":false,"metricName":"# misassembled contigs"},{"values":[5508098,3570138,4218273,4167060,2145331,3785868,3997256,3745674],"quality":"Less is better","isMain":true,"metricName":"Misassembled contigs length"},{"values":[53,48,50,50,39,46,50,46],"quality":"Less is better","isMain":false,"metricName":"# local misassemblies"}]],["Unaligned",[{"values":[34,24,88,19,75,59,46,63],"quality":"Less is better","isMain":false,"metricName":"# fully unaligned contigs"},{"values":[335943,277939,269971,221693,339100,253980,253522,257196],"quality":"Less is better","isMain":false,"metricName":"Fully unaligned length"},{"values":[28,25,27,17,52,21,18,18],"quality":"Less is better","isMain":false,"metricName":"# partially unaligned contigs"},{"values":[9,6,6,2,8,5,3,6],"quality":"Less is better","isMain":false,"metricName":"    # with misassembly"},{"values":[22,13,9,12,31,13,12,13],"quality":"Less is better","isMain":false,"metricName":"    # both parts are significant"},{"values":[347720,198312,248800,217963,339945,263522,232326,230190],"quality":"Less is better","isMain":false,"metricName":"Partially unaligned length"}]],["Mismatches",[{"values":[28510,28116,28784,29482,27275,28301,28649,28262],"quality":"Less is better","isMain":false,"metricName":"# mismatches"},{"values":[1601,2721,1353,1271,1117,1239,1397,1333],"quality":"Less is better","isMain":false,"metricName":"# indels"},{"values":[2749,4086,2690,2748,2267,2509,2651,2553],"quality":"Less is better","isMain":false,"metricName":"Indels length"},{"values":["661.17","659.26","669.71","684.22","641.35","660.86","666.63","660.05"],"quality":"Less is better","isMain":true,"metricName":"# mismatches per 100 kbp"},{"values":["37.13","63.80","31.48","29.50","26.27","28.93","32.51","31.13"],"quality":"Less is better","isMain":true,"metricName":"# indels per 100 kbp"},{"values":[1528,2631,1266,1173,1043,1154,1315,1252],"quality":"Less is better","isMain":false,"metricName":"    # short indels (<= 5 bp)"},{"values":[73,90,87,98,74,85,82,81],"quality":"Less is better","isMain":false,"metricName":"    # long indels (> 5 bp)"},{"values":[239,0,131,0,0,0,439,0],"quality":"Less is better","isMain":false,"metricName":"# N's"},{"values":["3.40","0.00","2.45","0.00","0.00","0.00","8.25","0.00"],"quality":"Less is better","isMain":true,"metricName":"# N's per 100 kbp"}]],["Genome statistics",[{"values":["80.626","79.582","80.390","80.517","79.584","80.132","80.382","80.117"],"quality":"More is better","isMain":true,"metricName":"Genome fraction (%)"},{"values":["1.467","1.109","1.117","1.146","1.060","1.103","1.120","1.109"],"quality":"Less is better","isMain":true,"metricName":"Duplication ratio"},{"values":["3391 + 102 part","3301 + 156 part","3373 + 107 part","3377 + 105 part","3303 + 134 part","3360 + 111 part","3373 + 103 part","3363 + 106 part"],"quality":"More is better","isMain":true,"metricName":"# genes"},{"values":[186153,182457,188970,185930,133449,185821,185423,185610],"quality":"More is better","isMain":false,"metricName":"Largest alignment"},{"values":[146158,94207,134263,158716,41244,116105,157732,125214],"quality":"More is better","isMain":false,"metricName":"NG50"},{"values":[92833,41281,84346,74628,24099,56336,86371,59261],"quality":"More is better","isMain":false,"metricName":"NG75"},{"values":[38481,33716,43533,42218,27630,42686,43492,42686],"quality":"More is better","isMain":false,"metricName":"NA50"},{"values":[12492,9866,13208,11177,7687,12745,14057,13480],"quality":"More is better","isMain":false,"metricName":"NA75"},{"values":[50798,30567,43533,42218,27083,41464,42951,41192],"quality":"More is better","isMain":true,"metricName":"NGA50"},{"values":[30333,7076,13166,11607,6225,11178,13166,11607],"quality":"More is better","isMain":false,"metricName":"NGA75"},{"values":[13,19,12,11,40,15,10,14],"quality":"Less is better","isMain":false,"metricName":"LG50"},{"values":[25,41,24,23,81,32,22,30],"quality":"Less is better","isMain":false,"metricName":"LG75"},{"values":[54,41,36,37,58,38,37,37],"quality":"Less is better","isMain":false,"metricName":"LA50"},{"values":[132,107,88,93,140,92,87,89],"quality":"Less is better","isMain":false,"metricName":"LA75"},{"values":[35,44,36,37,61,39,38,39],"quality":"Less is better","isMain":false,"metricName":"LGA50"},{"values":[69,121,90,92,157,99,90,96],"quality":"Less is better","isMain":false,"metricName":"LGA75"}]],["Predicted genes",[]],["Reference statistics",[{"values":[5373121,5373121,5373121,5373121,5373121,5373121,5373121,5373121],"quality":"Equal","isMain":false,"metricName":"Reference length"},{"values":["43.42","43.42","43.42","43.42","43.42","43.42","43.42","43.42"],"quality":"Equal","isMain":false,"metricName":"Reference GC (%)"},{"values":[4416,4416,4416,4416,4416,4416,4416,4416],"quality":"Equal","isMain":false,"metricName":"Reference genes"},{"values":[0,0,0,0,0,0,0,0],"quality":"Equal","isMain":false,"metricName":"Reference operons"}]]],"minContig":500,"assembliesNames":["BF-H-Abyss","BF-H-Cabog","BF-H-Mira","BF-H-Msrca","BF-H-Sga","BF-H-Soap","BF-H-Spades","BF-H-Velvet"]}
+            </div>
+            <div id='qualities-json'>
+                {{ qualities }}
+            </div>
+            <div id='main-metrics-json'>
+                {{ mainMetrics }}
+            </div>
+
+            <div id="contigs-lengths-json">
+                {"lists_of_lengths":[[419237,288760,278484,266749,205929,188684,175928,171021,171021,165300,153231,148712,146158,137767,134623,131790,117862,116263,106769,105477,102554,99699,98599,98572,92833,88628,87107,87107,83290,74562,74215,73620,65486,62661,60678,60619,59788,58781,58781,58191,56529,56017,54868,53550,51913,51913,51695,49732,49053,49053,48833,47937,42370,41214,40185,39369,39369,39326,36312,35124,34744,33948,33279,32983,29737,28451,28165,26380,24884,24605,23878,22637,22637,19801,17898,17898,15625,15116,15078,14518,14452,14452,14439,14187,13557,13557,13274,13274,12990,12639,12615,12286,12286,11932,11279,10577,10175,9958,9939,9203,8508,8202,7874,7712,7703,7618,7459,7188,7187,6591,6152,6036,6018,5997,5527,5470,5382,5320,4664,4610,4151,3999,3948,3891,3666,3629,3628,3542,3541,3505,3423,3308,3147,2743,2349,1823,1521,1439,1390,1161,1069,886,734,716,707,656,586,586,514],[363813,183490,172118,170474,157920,157150,153432,135368,134106,132025,130459,127310,116879,116083,112079,104431,96925,95840,94207,92459,89754,88584,82442,72057,69965,67196,59509,57899,57899,56643,53291,53111,50260,47426,46428,43377,43233,42294,42098,41458,41281,38564,37048,34774,34095,33549,33504,32297,30063,29044,28356,28240,27169,26387,26232,25551,25056,24981,24846,24425,23179,22890,21578,21401,19862,19847,19107,17078,16641,15745,15699,15456,15283,15168,13207,12995,12834,11933,11829,11528,11505,11003,10831,10429,9835,9629,7830,7388,7096,7048,6892,6865,6628,6329,6224,6195,5855,5684,5574,5551,5344,5330,5328,5195,5169,5168,5022,4747,4727,4319,4035,3639,3621,3388,3161,2974,2955,2691,2444,2376,2307,2300,2187,2017,1940,1916,1860,1747,1745,1585,1570,1430,1384,1346,1293,1043],[378585,375708,368216,315898,221328,185711,174839,163551,157699,141884,141646,134263,132739,126499,118905,116677,116565,113274,104921,98245,89670,89207,87176,84346,74422,70993,63867,63442,62604,59503,59138,53584,53183,53135,48965,41226,40126,34599,32819,30647,29271,28616,26292,26204,21715,19832,16744,16303,14417,13787,13300,12996,11729,10769,10478,10323,9323,7255,6227,6100,6090,5976,4779,4150,3859,3831,3212,2931,2818,2813,2811,2798,2488,2444,2392,2370,2332,2300,2221,2104,2096,2063,1978,1931,1913,1883,1828,1793,1687,1686,1634,1563,1517,1409,1378,1314,1289,1284,1277,1275,1236,1229,1206,1143,1089,1086,1079,1053,1026,985,936,926,833,826,820,814,809,796,793,783,778,756,740,727,720,714,710,687,680,679,673,671,665,660,651,647,625,613,611,606,606,601,590,587,586,586,583,583,577,572,569,564,562,560,560,553,551,543,542,540,540,538,536,533,532,531,531,529,525,517,509,507,505,501],[391846,309306,305048,283040,280085,234690,213368,204192,195008,187353,158716,156483,152976,130530,115382,114453,109095,108023,98412,87314,82479,80096,74628,74349,73703,65697,64005,63250,55033,53826,51759,48931,43728,41324,36527,35413,34788,34221,33476,31836,31596,28939,28615,27153,26346,25111,23989,21590,17241,15636,15391,12216,12045,11876,11414,11075,10849,10518,8533,8509,7730,6617,6304,5989,5344,4146,4073,3908,3765,3638,3536,2993,2993,2747,2556,2520,2245,2143,2135,2048,2047,2047,2047,2047,2047,2047,2047,2047,2047,2047,2045,1748,1638,1487,1349,1291,1183,1063,1056,1056,1024,1005,992,906,876,851,810,592,524],[188622,137379,126463,108407,105779,98005,87987,86902,83032,81080,79080,77135,62582,61976,59477,58301,57684,56941,56425,55814,55656,53794,53721,53468,53350,53185,52849,52441,51632,51439,49960,48528,48285,46963,46208,45852,45774,45047,43545,41244,41205,40815,40320,39725,38763,38383,37869,37867,37601,37208,37056,35214,34845,34265,34155,33777,32590,32463,32294,32124,31586,31288,31040,30533,30518,30245,29804,29680,29134,28532,28394,28345,28232,28206,27282,26391,25528,25316,25068,24644,24099,23970,23457,23366,21873,21752,21294,21014,20501,19935,19909,19189,18856,18677,18377,18334,16651,16173,16108,15415,15130,15061,14773,14265,14184,13894,13603,13373,13112,13023,12721,12583,11961,11915,11723,11633,11541,11537,11419,11378,11222,11147,11057,10766,10577,10326,10171,9861,9850,9774,9744,9731,9444,9421,9374,8726,8219,7876,7844,7841,7825,7687,7588,7494,7280,7239,7130,7001,6624,6493,6308,6272,6097,5952,5825,5734,5645,5610,5430,5322,5304,4916,4888,4657,4587,4253,4235,4119,4101,3991,3853,3726,3680,3679,3395,3356,3194,3151,3134,3092,3063,2976,2968,2943,2885,2566,2552,2484,2421,2409,2401,2387,2356,2328,2326,2293,2220,2217,2207,2006,2006,1973,1886,1850,1843,1813,1778,1737,1707,1692,1690,1595,1588,1517,1402,1306,1300,1282,1211,1210,1153,1146,1131,1129,1126,1120,1096,1076,1071,1036,1015,1007,1001,998,979,914,909,902,879,825,804,791,766,766,744,738,738,732,714,710,707,677,676,641,638,593,581,579,576,575,573,572,569,569,568,567,566,560,558,551,547,545,543,542,535,535,534,521,520,508,505],[384109,279757,277601,209679,205933,186834,170842,153243,148648,141306,135414,132255,130112,125627,116105,113004,98581,97964,91077,87238,86898,76030,74193,73417,65357,63684,60952,60345,60212,58562,56991,56336,55356,53382,52942,52713,51718,48235,41007,39645,39166,37881,35035,34396,32583,30515,28236,28211,27530,26690,26112,26003,23931,21894,21304,16209,15941,14273,14099,13352,13093,13037,12486,11588,11500,10192,10102,9958,9800,8766,7386,7238,6471,5870,5831,5813,5807,5753,5541,4918,4889,4601,4426,4313,3972,3442,3151,2868,2836,2574,2518,2466,2071,2061,2057,1998,1987,1951,1951,1935,1909,1850,1790,1776,1595,1526,1504,1495,1371,1357,1338,1238,1227,1159,1104,1104,1094,1093,989,900,894,894,870,869,869,863,795,760,750,711,673,673,666,666,665,665,625,584,581,573,573,569,566,547,534,534,509,508,502],[534462,383746,378518,278484,225931,191176,187954,185465,174843,157732,141610,134097,134062,131803,118895,116695,113037,105708,105490,98154,87141,86371,74588,63925,63855,60620,59801,53927,53576,52653,48434,47375,42396,39893,39715,36312,34428,33974,32996,28626,26337,26243,25142,23859,21105,20529,15318,14750,14346,13097,11532,10718,10435,10325,8119,7062,6602,6178,5845,5700,5646,5571,5038,4472,4424,4338,4338,3934,3679,3518,3405,3056,2965,2961,2937,2591,2590,2435,2429,2239,1827,1827,1174,1174,1049,1049,926,926,920,905,876,825,796,796,781,743,729,701,701,678,638,626,601,601,599,582,566,553,526,516],[286976,279743,277528,264720,209869,186616,185462,162138,153367,151491,141564,133996,132248,125214,116422,112990,112885,108000,99802,97949,96790,86884,86140,74179,70735,63670,60945,60198,59460,59261,58548,57630,55428,53262,52944,52731,48551,40993,39566,39159,38986,37663,34837,34382,34258,32569,30501,28222,28204,26105,25989,21268,18478,13345,13023,12973,12712,12694,12488,12134,11890,11486,10178,9953,9793,9721,8858,7715,7064,5879,5856,5817,5799,5539,5326,4167,4006,3456,3428,3151,3112,2849,2788,2618,2469,2412,2387,2368,2365,2347,2145,2063,2047,2023,1973,1858,1807,1762,1688,1595,1565,1560,1560,1519,1388,1388,1365,1352,1302,1297,1238,1237,1220,1197,1128,1128,1121,1093,1086,1018,880,880,866,793,760,747,735,687,687,679,669,651,648,648,610,605,587,587,559,547,520,520]],"filenames":["BF-H-Abyss","BF-H-Cabog","BF-H-Mira","BF-H-Msrca","BF-H-Sga","BF-H-Soap","BF-H-Spades","BF-H-Velvet"]}
+            </div>
+            <div id='aligned-contigs-lengths-json'>
+                {"lists_of_lengths":[[186153,139774,133856,101120,99210,90396,88274,87499,84191,83840,81964,79075,75215,73557,73469,71016,70840,70821,70117,68882,68882,68882,68697,61494,59720,59491,58326,56548,56548,56529,54408,54408,53546,52887,50798,48502,48315,47661,46622,46568,45459,45290,44907,44100,44100,44100,44083,43464,43464,42686,41650,41192,39610,38481,37696,37284,35124,33783,33783,33783,33716,33166,33166,33166,32221,30573,30573,30344,30333,30129,29999,29999,29922,29785,29762,28162,27791,27083,26017,25707,25551,25057,24784,24784,24453,24377,24140,24058,23789,23331,23240,22267,22267,22267,21047,20936,20500,19318,19047,19024,18702,17921,17600,17196,17009,16950,16511,16339,16069,16069,16011,15078,14652,14408,14334,14334,14283,14057,13978,13594,13327,13281,13281,13208,13166,13166,13166,12990,12633,12615,12504,12492,12492,12152,12128,11648,11607,10617,10577,10263,10263,9906,9764,8581,8465,8146,7764,7701,7643,7608,7449,7347,7130,7080,6709,6678,6212,6212,6212,6212,5805,5719,5678,5550,5550,5550,5470,5422,5382,5320,5059,5059,4957,4930,4851,4847,4116,4116,4116,3948,3735,3660,3642,3473,3473,3473,2743,2720,2697,2586,2543,2543,2543,2543,2518,2518,2492,2455,2344,2341,2341,2314,2236,1925,1925,1908,1900,1863,1855,1850,1834,1826,1788,1621,1549,1521,1511,1467,1439,1439,1423,1361,1338,1309,1309,1294,1268,1265,1262,1218,1185,1185,1150,1079,1079,1079,1065,1065,1045,1043,847,742,734,707,681,586,514,505,503,500,458,442,427,420,397,389,363,353,341,337,337,327,316,312,261,258,228,223,223,222,195,195,190,166,166,144,94,94,88,60],[182457,145717,133793,123608,87463,84154,83559,83447,79189,79033,75184,71827,70798,70082,69143,65186,59703,57844,57740,54472,51591,50776,50082,46916,45264,44504,44084,44062,43423,42668,41944,41179,39592,39033,38746,38564,38467,37679,37048,33775,33716,33154,31556,30567,30299,30279,30214,30143,30063,28923,28152,26862,26104,25693,24902,24362,24149,24123,23955,23784,23632,23234,22890,22881,22619,22163,21037,20931,20798,19833,19790,19774,19471,19291,19104,18697,18630,17912,17597,17188,17053,16723,16332,16064,16007,15806,15422,15283,15066,14652,14402,14277,14276,14128,13521,13198,13185,13162,12705,11604,11526,10769,10664,10318,10231,10147,9866,9760,9397,9290,9151,8574,8464,8144,7640,7424,7346,7330,7110,7108,7076,6678,6602,6554,6329,6305,6210,6210,6195,5965,5801,5684,5624,5618,5593,5547,5330,5296,5195,5183,5022,4845,4684,4682,4319,4112,4047,3844,3781,3656,3608,3509,3472,3161,2971,2955,2904,2827,2735,2697,2577,2570,2491,2454,2300,2275,2079,1940,1900,1834,1834,1798,1745,1721,1656,1621,1585,1548,1517,1472,1384,1366,1309,1272,1272,1241,1150,1081,1044,940,928,846,684,593,533,522,470,441,415,397,361,344,337,296,290,273,261,258,249,231,204,187,187,166,157,124,106,104,99,97,95,76,65],[188970,144824,133856,123650,103403,101120,88274,87499,84191,83840,80297,79075,77285,75142,73563,71852,70821,70117,69167,68882,68697,59720,58326,57694,57418,54695,53981,53546,50798,48666,48315,46622,45671,44100,44083,43533,43464,42686,41562,41192,39610,38477,37696,37284,33783,33725,33166,33030,32076,30452,30311,29762,29221,28415,27083,26017,25707,25551,25057,24910,24377,24017,24014,23789,23696,23240,22737,21047,20936,18702,17921,17658,17600,17196,17009,16938,16916,16355,16069,15995,14652,14408,14283,13677,13521,13391,13342,13208,13172,13166,11896,11648,11607,10694,10099,9987,9764,9292,8581,8465,8146,7953,7347,7291,7080,6678,6227,6212,6212,5978,5805,5678,5646,5550,5161,5117,5012,4909,4847,4395,4116,3831,3735,3660,3473,2997,2953,2742,2697,2552,2543,2455,1909,1900,1895,1841,1834,1621,1549,1309,1268,1251,1185,1021,847,827,774,662,645,618,613,599,589,586,586,582,577,564,560,537,529,505,503,503,494,493,482,472,462,455,442,441,438,427,397,380,379,345,327,278,267,261,258,254,245,242,238,214,205,205,188,187,168,161,160,140,139,134,112,108,98,93,89,76,76,72,70,70,68],[185930,146541,133856,123650,103404,101120,91738,88274,87499,84191,83845,79075,75219,74782,74349,71852,70821,70117,69167,68882,68697,59720,58326,56584,53546,48729,48315,46955,46802,46629,44907,44670,44518,44100,44083,42686,42218,41905,39010,38481,37696,37284,34788,33783,33725,33476,33321,33167,32890,30344,30185,29762,29148,28340,27331,27083,26017,25741,25707,25549,25175,25056,24377,24313,24017,23789,23696,23264,21047,20936,20500,20099,18702,17921,17600,17394,17195,17009,16339,16069,16011,15724,15078,14497,14408,14283,13208,12842,11977,11876,11648,11607,11177,10939,10789,10694,10605,10518,9800,9764,9292,8886,8597,8465,8146,7953,7344,7146,7105,7080,6678,6212,6212,5805,5678,5550,5071,4909,4847,4480,4116,3735,3730,3660,3638,3473,2993,2958,2834,2744,2742,2697,2647,2641,2581,2554,2543,2455,2047,2047,2046,2033,2032,1962,1909,1900,1889,1863,1857,1855,1834,1826,1788,1776,1771,1747,1621,1549,1547,1482,1482,1479,1467,1349,1339,1319,1309,1268,1185,1183,1179,1131,1096,1065,1056,1013,1004,992,977,893,876,851,847,777,748,730,719,708,707,608,592,566,557,547,505,502,464,397,359,291,268,261,258,187,144,143,135,93,82,69,59,57],[133449,108316,84191,81857,79080,68882,62422,59629,56628,55493,55138,55117,53721,51163,49852,46963,46663,45935,45852,44771,44412,44100,44083,42837,42822,41244,41208,41205,40320,38689,37831,37696,37647,37449,37259,37251,36667,35374,35214,34155,33783,33777,33716,33166,32124,32021,31968,30573,30344,29999,29887,29577,29299,28532,28134,28071,27796,27630,27360,27119,27083,26331,26017,25707,25316,24800,24557,24363,24012,23466,23457,23434,23366,22612,22377,22309,22267,22258,21047,20939,19045,18702,18570,18522,18334,17600,17196,17008,16410,16367,16173,16069,16011,15977,15588,15574,15130,15061,14773,14512,14408,14265,13867,13266,13208,13166,12856,12528,12492,12481,11961,11633,11607,11378,11162,11018,10766,10577,10384,10326,10231,10171,10105,10075,10067,9790,9764,9744,9731,9444,9374,8982,8828,8581,8465,8146,7825,7780,7709,7687,7588,7494,7371,7347,7284,7181,7094,7080,6919,6785,6746,6725,6721,6705,6678,6285,6225,6212,6050,5805,5734,5678,5608,5550,5352,5304,5247,5223,5059,5058,4916,4912,4863,4408,4165,4123,4116,4101,3991,3685,3660,3489,3473,3400,3356,3194,3134,3092,2954,2936,2768,2697,2684,2566,2552,2543,2484,2455,2445,2421,2401,2326,2271,2220,2217,2207,2079,1985,1973,1900,1850,1843,1834,1788,1752,1707,1638,1621,1583,1549,1517,1383,1344,1331,1323,1309,1306,1260,1185,1148,1096,1065,1045,1041,1001,979,927,922,909,847,825,738,732,714,710,707,645,590,569,567,558,545,521,508,505,463,426,399,397,258,245,234,196,176,167,165,159,155,149,146,137,120,112,97,90,89,87,85,83,82,65],[185821,144711,133856,101120,99214,90018,88274,84191,83840,80200,79075,77991,73562,70840,70117,69167,68882,68697,62242,59720,58326,56335,54405,53546,52557,51015,50798,48315,48235,47138,46622,45459,44907,44100,44083,43464,43184,42686,41464,41208,38481,37696,37284,33783,33716,33166,32185,31873,30344,30185,29999,28771,28159,28134,27083,26017,25707,25551,25057,24781,24430,24377,24012,23892,23789,23696,23384,23240,22685,22258,21047,20936,20090,19047,18702,17921,17600,17196,17009,16784,16339,16069,16011,14512,14408,14283,13429,13317,13266,13208,13166,12745,12492,12485,12152,11648,11607,11564,11178,10694,10023,9903,9764,9292,8597,8465,8146,7953,7347,7160,7104,7080,6798,6678,6212,6212,5870,5805,5678,5592,5550,5062,4958,4918,4847,4779,4426,4302,4116,3864,3735,3660,3473,3119,2836,2742,2697,2543,2518,2487,2455,1900,1850,1834,1788,1621,1549,1495,1357,1336,1309,1268,1185,1150,1093,1079,1065,1045,900,863,847,584,573,573,515,511,508,505,503,502,493,420,397,383,334,321,279,261,258,230,225,204,172,144,91,79,79,27],[185423,133856,123650,103403,101120,90869,88274,87499,84191,83840,80216,79075,76901,74987,71852,70821,70117,69167,68882,68697,59720,58326,57694,57418,54421,53927,53546,50798,48434,48315,47661,46622,44958,44907,44100,44083,43492,42951,42686,41498,41192,39610,39059,38481,37696,37284,34538,33783,33725,33166,31905,30418,30344,30311,29785,29762,28324,27083,26017,25707,25551,25057,24852,24377,24140,23908,23789,23696,23240,22721,21047,20936,20500,19874,18702,17921,17600,17196,17009,16800,16355,16069,16011,14652,14408,14283,14057,13208,13202,13166,12492,11648,11607,10694,10023,10018,9764,9292,8597,8465,8146,8119,7660,7347,7080,6678,6400,6212,6212,5805,5700,5678,5608,5550,5422,5339,5012,4930,4909,4847,4472,4116,3735,3660,3642,3473,2834,2742,2697,2601,2543,2543,2493,2455,1900,1895,1863,1855,1834,1621,1549,1309,1268,1185,1150,920,876,847,743,689,638,627,599,505,500,469,442,436,402,402,397,329,305,261,258,241,240,231,223,187,182,158,100,95],[185610,144704,133856,101120,99045,88274,87100,84191,83840,80193,79075,76900,74987,71852,70821,70117,69167,68882,68697,59720,58326,57418,56555,54591,53546,51015,50798,48551,48315,47131,46622,45459,44907,44100,44083,43209,42686,41457,41192,38982,38481,37696,37284,34448,33783,33725,33166,31994,31859,30965,30344,30322,30189,29762,28764,28152,28134,27083,26017,25707,25551,25057,24774,24423,24377,24012,23885,23789,23240,22678,22267,21047,20936,18702,17921,17600,17271,17196,17009,16777,16355,16242,16069,16011,15078,14440,14408,14283,13480,13208,13166,12492,12487,12117,11648,11607,11178,10694,9896,9764,8581,8465,8146,7953,7715,7347,7080,6974,6706,6678,6587,6212,6212,5856,5805,5702,5678,5585,5550,4996,4847,4846,4295,4167,4116,3864,3735,3660,3473,3112,2849,2742,2697,2586,2543,2455,2447,2412,1900,1895,1834,1621,1565,1560,1560,1549,1429,1309,1302,1268,1185,1150,1121,1093,1065,1045,847,605,508,505,504,503,493,442,413,397,383,379,327,327,261,258,223,218,209,204,187,137,129,92,84,79,72,72]],"filenames":["BF-H-Abyss","BF-H-Cabog","BF-H-Mira","BF-H-Msrca","BF-H-Sga","BF-H-Soap","BF-H-Spades","BF-H-Velvet"]}
+            </div>
+            <div id='assemblies-lengths-json'>
+                {"assemblies_lengths":[7036707,5213908,5340833,5392427,5209075,5262789,5319487,5261270],"filenames":["BF-H-Abyss","BF-H-Cabog","BF-H-Mira","BF-H-Msrca","BF-H-Sga","BF-H-Soap","BF-H-Spades","BF-H-Velvet"]}
+            </div>
+            <div id='reference-length-json'>
+                {"reflen":5373121}
+            </div>
+            <div id='genes-in-contigs-json'>
+                {"ref_genes_number":4416,"genes_in_contigs":{"BF-H-Mira":[284,254,223,237,157,140,105,103,99,107,88,94,101,89,76,96,79,57,79,21,66,73,67,63,51,57,44,22,35,31,35,40,38,34,41,0,27,27,0,0,3,18,20,20,1,16,14,0,7,1,0,0,0,0,6,8,2,0,1,5,5,2,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"BF-H-Msrca":[239,215,231,183,149,171,151,152,151,134,108,102,96,88,95,57,72,75,21,67,52,54,51,64,44,22,44,37,34,41,37,41,0,27,18,27,35,0,19,0,19,18,22,22,20,3,0,18,0,0,1,0,4,7,5,2,6,8,1,0,0,0,5,0,0,0,2,0,0,3,1,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0],"BF-H-Velvet":[190,182,208,187,153,134,140,95,138,96,107,93,101,82,96,57,76,75,63,21,48,67,70,51,57,44,43,35,37,31,35,40,22,40,34,38,41,0,27,20,27,28,27,27,22,0,0,18,22,20,20,1,16,1,0,0,0,0,10,7,3,0,6,3,0,1,2,9,0,0,1,5,2,0,0,2,0,0,0,1,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0],"BF-H-Cabog":[225,132,139,104,99,88,124,81,94,101,95,76,72,96,78,83,18,99,66,55,57,67,62,57,36,55,31,53,37,39,40,38,34,28,29,0,31,32,30,32,0,35,38,20,0,28,24,0,26,18,22,22,18,20,4,16,14,20,20,3,8,21,7,16,14,0,13,10,2,1,11,0,14,1,0,11,0,0,8,0,7,0,9,3,4,3,9,2,6,4,0,6,4,6,2,3,2,6,0,0,0,1,2,3,1,1,1,3,0,2,0,1,0,0,1,1,1,0,0,0,0,3,0,1,1,1,0,1,0,0,0,0,0,0,0,2],"BF-H-Soap":[238,182,208,153,148,134,136,94,137,88,72,101,88,91,96,57,65,21,71,71,67,53,51,59,50,44,43,34,35,35,37,47,22,40,34,38,28,41,0,27,20,28,27,27,0,0,18,22,3,19,20,20,20,5,18,0,16,2,0,1,0,0,10,7,0,6,8,3,0,2,1,3,0,1,5,2,0,0,0,1,0,0,2,0,0,0,1,0,2,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"BF-H-Sga":[117,74,89,87,74,21,54,67,63,62,64,46,55,43,48,40,41,49,33,65,51,33,43,35,36,35,42,40,52,34,29,29,12,38,24,33,32,35,25,30,32,23,35,30,27,13,26,24,23,30,17,34,27,13,30,31,0,24,0,30,0,19,27,0,27,0,26,26,23,18,19,23,22,18,23,17,19,29,21,14,20,18,16,21,25,8,1,12,1,17,8,17,10,15,6,17,11,12,10,3,8,7,14,7,2,12,3,1,0,13,4,12,12,3,2,10,0,2,0,7,10,0,10,7,9,10,5,4,8,0,3,5,6,0,8,2,0,7,6,6,3,6,8,4,3,1,3,0,0,0,0,0,5,3,5,2,0,2,0,5,1,1,0,0,4,1,0,0,3,2,0,3,2,1,0,2,4,1,1,2,0,0,0,0,0,1,2,1,1,0,4,0,0,1,1,1,1,2,0,0,0,2,1,1,1,0,1,0,1,0,0,0,0,3,2,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"BF-H-Abyss":[153,191,210,37,148,135,142,0,0,101,96,137,108,73,101,88,79,96,51,79,21,63,65,48,71,67,0,0,67,51,59,44,39,35,0,0,35,1,0,38,47,22,38,40,34,0,28,30,0,0,34,28,0,32,27,20,0,0,22,25,27,0,3,0,24,18,20,20,0,0,20,1,0,3,1,0,0,1,12,6,2,0,0,0,0,0,0,0,15,10,7,2,0,0,0,0,0,0,3,6,6,2,0,0,2,0,1,0,0,0,5,0,0,0,0,1,5,0,0,0,0,0,3,0,0,0,0,0,0,1,0,1,2,1,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0],"BF-H-Spades":[377,238,284,210,139,121,134,138,105,99,107,93,100,88,76,96,57,64,79,21,67,70,51,44,22,35,35,43,40,38,41,28,0,27,32,23,27,0,0,18,20,20,3,2,18,0,1,0,7,0,0,2,6,8,3,0,0,5,2,5,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"filenames":["BF-H-Abyss","BF-H-Cabog","BF-H-Mira","BF-H-Msrca","BF-H-Sga","BF-H-Soap","BF-H-Spades","BF-H-Velvet"]}
+            </div>
+            <div id='operons-in-contigs-json'>
+                {{ operonsInContigs }}
+            </div>
+            <div id='gc-json'>
+                {"list_of_GC_distributions":[[[0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0,18.0,19.0,20.0,21.0,22.0,23.0,24.0,25.0,26.0,27.0,28.0,29.0,30.0,31.0,32.0,33.0,34.0,35.0,36.0,37.0,38.0,39.0,40.0,41.0,42.0,43.0,44.0,45.0,46.0,47.0,48.0,49.0,50.0,51.0,52.0,53.0,54.0,55.0,56.0,57.0,58.0,59.0,60.0,61.0,62.0,63.0,64.0,65.0,66.0,67.0,68.0,69.0,70.0,71.0,72.0,73.0,74.0,75.0,76.0,77.0,78.0,79.0,80.0,81.0,82.0,83.0,84.0,85.0,86.0,87.0,88.0,89.0,90.0,91.0,92.0,93.0,94.0,95.0,96.0,97.0,98.0,99.0,100.0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,8,13,21,38,68,97,139,180,231,322,413,524,682,723,893,955,1189,1334,1518,1725,1934,2035,2465,2615,2905,3117,3430,3611,3697,3818,3834,3712,3617,3152,2941,2485,2204,1851,1491,1155,919,704,532,343,262,178,105,72,40,34,13,8,5,2,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],[[0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0,18.0,19.0,20.0,21.0,22.0,23.0,24.0,25.0,26.0,27.0,28.0,29.0,30.0,31.0,32.0,33.0,34.0,35.0,36.0,37.0,38.0,39.0,40.0,41.0,42.0,43.0,44.0,45.0,46.0,47.0,48.0,49.0,50.0,51.0,52.0,53.0,54.0,55.0,56.0,57.0,58.0,59.0,60.0,61.0,62.0,63.0,64.0,65.0,66.0,67.0,68.0,69.0,70.0,71.0,72.0,73.0,74.0,75.0,76.0,77.0,78.0,79.0,80.0,81.0,82.0,83.0,84.0,85.0,86.0,87.0,88.0,89.0,90.0,91.0,92.0,93.0,94.0,95.0,96.0,97.0,98.0,99.0,100.0],[0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,4,2,6,24,23,39,70,77,146,161,231,302,377,465,516,670,767,853,979,1118,1289,1405,1618,1843,1988,2213,2357,2560,2712,2786,2839,2744,2751,2483,2370,2141,1905,1617,1371,1134,860,630,539,389,254,157,127,81,57,43,16,12,5,1,1,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],[[0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0,18.0,19.0,20.0,21.0,22.0,23.0,24.0,25.0,26.0,27.0,28.0,29.0,30.0,31.0,32.0,33.0,34.0,35.0,36.0,37.0,38.0,39.0,40.0,41.0,42.0,43.0,44.0,45.0,46.0,47.0,48.0,49.0,50.0,51.0,52.0,53.0,54.0,55.0,56.0,57.0,58.0,59.0,60.0,61.0,62.0,63.0,64.0,65.0,66.0,67.0,68.0,69.0,70.0,71.0,72.0,73.0,74.0,75.0,76.0,77.0,78.0,79.0,80.0,81.0,82.0,83.0,84.0,85.0,86.0,87.0,88.0,89.0,90.0,91.0,92.0,93.0,94.0,95.0,96.0,97.0,98.0,99.0,100.0],[0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,1,5,9,21,24,44,55,89,150,196,220,324,384,491,525,688,770,873,1024,1155,1280,1416,1623,1943,2041,2216,2363,2523,2761,2828,2976,2841,2686,2588,2485,2266,1851,1695,1401,1157,897,715,501,427,306,172,139,97,55,42,27,14,9,8,1,0,2,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],[[0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0,18.0,19.0,20.0,21.0,22.0,23.0,24.0,25.0,26.0,27.0,28.0,29.0,30.0,31.0,32.0,33.0,34.0,35.0,36.0,37.0,38.0,39.0,40.0,41.0,42.0,43.0,44.0,45.0,46.0,47.0,48.0,49.0,50.0,51.0,52.0,53.0,54.0,55.0,56.0,57.0,58.0,59.0,60.0,61.0,62.0,63.0,64.0,65.0,66.0,67.0,68.0,69.0,70.0,71.0,72.0,73.0,74.0,75.0,76.0,77.0,78.0,79.0,80.0,81.0,82.0,83.0,84.0,85.0,86.0,87.0,88.0,89.0,90.0,91.0,92.0,93.0,94.0,95.0,96.0,97.0,98.0,99.0,100.0],[0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,1,4,11,19,23,42,66,118,142,182,253,306,407,454,566,674,794,894,1020,1096,1306,1510,1588,1874,2048,2270,2437,2695,2769,2869,2771,2840,2837,2741,2488,2202,1968,1691,1393,1172,872,650,584,394,301,175,146,83,66,42,21,11,13,7,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],[[0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0,18.0,19.0,20.0,21.0,22.0,23.0,24.0,25.0,26.0,27.0,28.0,29.0,30.0,31.0,32.0,33.0,34.0,35.0,36.0,37.0,38.0,39.0,40.0,41.0,42.0,43.0,44.0,45.0,46.0,47.0,48.0,49.0,50.0,51.0,52.0,53.0,54.0,55.0,56.0,57.0,58.0,59.0,60.0,61.0,62.0,63.0,64.0,65.0,66.0,67.0,68.0,69.0,70.0,71.0,72.0,73.0,74.0,75.0,76.0,77.0,78.0,79.0,80.0,81.0,82.0,83.0,84.0,85.0,86.0,87.0,88.0,89.0,90.0,91.0,92.0,93.0,94.0,95.0,96.0,97.0,98.0,99.0,100.0],[0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,1,3,9,17,26,27,59,95,137,187,242,284,390,455,549,626,772,829,990,1121,1267,1388,1625,1873,1962,2149,2354,2485,2708,2757,2880,2721,2723,2581,2465,2140,1828,1649,1383,1130,890,668,489,364,258,172,154,82,40,33,24,10,8,4,2,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],[[0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0,18.0,19.0,20.0,21.0,22.0,23.0,24.0,25.0,26.0,27.0,28.0,29.0,30.0,31.0,32.0,33.0,34.0,35.0,36.0,37.0,38.0,39.0,40.0,41.0,42.0,43.0,44.0,45.0,46.0,47.0,48.0,49.0,50.0,51.0,52.0,53.0,54.0,55.0,56.0,57.0,58.0,59.0,60.0,61.0,62.0,63.0,64.0,65.0,66.0,67.0,68.0,69.0,70.0,71.0,72.0,73.0,74.0,75.0,76.0,77.0,78.0,79.0,80.0,81.0,82.0,83.0,84.0,85.0,86.0,87.0,88.0,89.0,90.0,91.0,92.0,93.0,94.0,95.0,96.0,97.0,98.0,99.0,100.0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,4,10,19,17,33,63,79,126,186,227,301,396,478,590,627,749,896,1047,1110,1278,1378,1582,1852,1965,2141,2312,2580,2777,2729,2923,2809,2816,2623,2385,2227,1868,1617,1379,1076,894,716,490,406,270,192,149,82,58,37,28,19,4,2,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],[[0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0,18.0,19.0,20.0,21.0,22.0,23.0,24.0,25.0,26.0,27.0,28.0,29.0,30.0,31.0,32.0,33.0,34.0,35.0,36.0,37.0,38.0,39.0,40.0,41.0,42.0,43.0,44.0,45.0,46.0,47.0,48.0,49.0,50.0,51.0,52.0,53.0,54.0,55.0,56.0,57.0,58.0,59.0,60.0,61.0,62.0,63.0,64.0,65.0,66.0,67.0,68.0,69.0,70.0,71.0,72.0,73.0,74.0,75.0,76.0,77.0,78.0,79.0,80.0,81.0,82.0,83.0,84.0,85.0,86.0,87.0,88.0,89.0,90.0,91.0,92.0,93.0,94.0,95.0,96.0,97.0,98.0,99.0,100.0],[0,0,0,0,0,0,0,0,0,0,0,0,1,0,3,2,5,10,21,19,38,56,96,136,185,246,312,394,454,517,670,769,894,1001,1073,1357,1392,1637,1916,1997,2223,2462,2574,2743,2854,2834,2768,2807,2562,2461,2258,1831,1717,1383,1115,906,694,554,398,289,193,127,88,60,33,16,18,9,3,3,3,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],[[0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0,18.0,19.0,20.0,21.0,22.0,23.0,24.0,25.0,26.0,27.0,28.0,29.0,30.0,31.0,32.0,33.0,34.0,35.0,36.0,37.0,38.0,39.0,40.0,41.0,42.0,43.0,44.0,45.0,46.0,47.0,48.0,49.0,50.0,51.0,52.0,53.0,54.0,55.0,56.0,57.0,58.0,59.0,60.0,61.0,62.0,63.0,64.0,65.0,66.0,67.0,68.0,69.0,70.0,71.0,72.0,73.0,74.0,75.0,76.0,77.0,78.0,79.0,80.0,81.0,82.0,83.0,84.0,85.0,86.0,87.0,88.0,89.0,90.0,91.0,92.0,93.0,94.0,95.0,96.0,97.0,98.0,99.0,100.0],[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,7,6,20,25,42,48,84,137,188,220,322,384,460,597,627,786,860,994,1117,1268,1408,1623,1845,2004,2215,2324,2519,2762,2764,2918,2735,2711,2668,2328,2151,1988,1650,1347,1149,870,656,551,376,304,189,127,83,70,28,28,14,5,6,4,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]],"lists_of_gc_info":null,"filenames":["BF-H-Abyss","BF-H-Cabog","BF-H-Mira","BF-H-Msrca","BF-H-Sga","BF-H-Soap","BF-H-Spades","BF-H-Velvet"]}
+            </div>
+        </div>
+    </div>
+
+    <div class='json-code'>
+        <div id='glossary-json'>
+            {
+    "# contigs"                     : "<span>is the total number of contigs in the assembly.</span>",
+    "Largest contig"                : "<span>is the length of the longest contig in the assembly.</span>",
+    "Total length"                  : "<span>is the total number of bases in the assembly.</span>",
+    "Reference length"              : "<span>is the total number of bases in the reference.</span>",
+
+    "N50"                           : "<span>is the contig length such that using longer or equal length contigs produces half (50%) of the bases of the assembly. Usually there is no value that produces exactly 50%, so the technical definition is the maximum length x such that using contigs of length at least x accounts for at least 50% of the total assembly length.</span>",
+    "NG50"                          : "<span>is the contig length such that using longer or equal length contigs produces half (50%) of the bases of the reference genome. This metric is computed only if a reference genome is provided.</span>",
+    "N75"                           : "<span>is the contig length such that using longer or equal length contigs produces 75% of the bases of the assembly. Usually there is no value that produces exactly 75%, so the technical definition is the maximum length x such that using contigs of length at least x accounts for at least 75% of the total assembly length.</span>",
+    "NG75"                          : "<span>is the contig length such that using longer or equal length contigs produces 75% of the bases of the reference genome. This metric is computed only if a reference genome is provided.</span>",
+
+    "L50"                           : "<span>is the minimum number of contigs that produce half (50%) of the bases of the assembly. In other words, it's the number of contigs of length at least N50.</span>",
+    "LG50"                          : "<span>is the minimum number of contigs that produce half (50%) of the bases of the reference genome. In other words, it's the number of contigs of length at least NG50. This metric is computed only if a reference genome is provided.</span>",
+    "L75"                           : "<span>is the minimum number of contigs that produce 75% of the bases of the assembly. In other words, it's the number of contigs of length at least N75.</span>",
+    "LG75"                          : "<span>is the minimum number of contigs that produce 75% of the bases of the reference genome. In other words, it's the number of contigs of length at least NG75. This metric is computed only if a reference genome is provided.</span>",
+
+    "NA50"                          : "<span>is N50 where the lengths of aligned blocks are counted instead of contig lengths. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces. This metric is computed only if a reference genome is provided.</span>",
+    "NGA50"                         : "<span>is NG50 where the lengths of aligned blocks are counted instead of contig lengths. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces. This metric is computed only if a reference genome is provided.</span>",
+    "NA75"                          : "<span>is N75 where the lengths of aligned blocks are counted instead of contig lengths. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces. This metric is computed only if a reference genome is provided.</span>",
+    "NGA75"                         : "<span>is NG75 where the lengths of aligned blocks are counted instead of contig lengths. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces. This metric is computed only if a reference genome is provided.</span>",
+
+    "LA50"                          : "<span>is L50 where aligned blocks are counted instead of contigs. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces.</span>",
+    "LGA50"                         : "<span>is LG50 where aligned blocks are counted instead of contigs. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces.</span>",
+    "LA75"                          : "<span>is L75 where aligned blocks are counted instead of contigs. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces.</span>",
+    "LGA75"                         : "<span>is LG75 where aligned blocks are counted instead of contigs. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces.</span>",
+
+    "Average %IDY"                  : "<span>is the average of alignment identity percent (Nucmer measure of alignment accuracy) among all contigs.</span>",
+    "# misassemblies"               : "<span>is the number of positions in the assembled contigs where the left flanking sequence aligns over 1 kbp away from the right flanking sequence on the reference (<i>relocation</i>) or they overlap on more than 1 kbp (<i>relocation</i>) or flanking sequences align on different strands (<i>inversion</i>) or different chromosomes (<i>translocation</i>).</span>",
+    "# misassembled contigs"        : "<span>is the number of contigs that contain misassembly events.</span>",
+    "Misassembled contigs length"   : "<span>is the number of total bases contained in all contigs that have one or more misassemblies.</span>",
+
+    "# relocations"                 : "<span>is the number of relocation events among all misassembly events. Relocation is a misassembly where the left flanking sequence aligns over 1 kbp away from the right flanking sequence on the reference, or they overlap by more than 1 kbp and both flanking sequences align on the same chromosome.</span>",
+    "# translocations"              : "<span>is the number of translocation events among all misassembly events. Translocation is a misassembly where the flanking sequences align on different chromosomes.</span>",
+    "# inversions"                  : "<span>is the number of inversion events among all misassembly events. Inversion is a misassembly where it is not a <i>relocation</i> and the flanking sequences align on opposite strands of the same chromosome.</span>",
+    "# local misassemblies"         : "<span>is the number of local misassemblies. We define a local misassembly breakpoint as a breakpoint that satisfies these conditions: <ol> <li>Two or more distinct alignments cover the breakpoint.</li> <li>The gap between left and right flanking sequences is less than 1 kbp.</li> <li>The left and right flanking sequences both are on the same strand of the same chromosome of the reference genome.</li> </ol> </span>",
+
+    "# fully unaligned contigs"     : "<span>is the number of contigs that have no alignment to the reference sequence.</span>",
+    "Fully unaligned length"        : "<span>is the total number of bases contained in all fully unaligned contigs.</span>",
+    "# partially unaligned contigs" : "<span>is the number of contigs that are not fully unaligned ones but have fragments with no alignment to the reference.</span>",
+    "# with misassembly"            : "<span>is the number of partially unaligned contigs that contain misassembly events in their aligned fragment. Note that such misassemblies are not counted in <i># misassemblies</i> and other <i>misassemblies</i> statistics.</span>",
+    "# both parts are significant"  : "<span>is the number of partially unaligned contigs that contain both aligned and unaligned fragments of length &ge; <i>min-contig threshold</i>.</span>",
+    "Partially unaligned length"    : "<span>is the total number of unaligned bases in all partially unaligned contigs.</span>",
+
+    "# ambiguous contigs"           : "<span>is the number of contigs that have reference alignments of equal quality in multiple locations on the reference.</span>",
+    "Ambiguous contigs length"      : "<span>is the total number of bases contained in all ambiguous contigs.</span>",
+
+    "Genome fraction (%)"           : "<span>is the total number of aligned bases in the reference, divided by the genome size. A base in the reference genome is counted as aligned if there is at least one contig with at least one alignment to this base. Contigs from repeat regions may map to multiple places, and thus may be counted multiple times in this quantity.</span>",
+    "GC (%)"                        : "<span>is the total number of G and C nucleotides in the assembly, divided by the total length of the assembly.</span>",
+    "Reference GC (%)"              : "<span>is the total number of G and C nucleotides in the reference, divided by the total length of the reference.</span>",
+
+    "# mismatches per 100 kbp"      : "<span>is the average number of mismatches per 100000 aligned bases.</span>",
+    "# mismatches"                  : "<span>is the number of mismatches in all aligned bases.</span>",
+    "# indels per 100 kbp"          : "<span>is the average number of indels per 100000 aligned bases.</span>",
+    "# indels"                      : "<span>is the number of indels in all aligned bases</span>",
+    "# short indels (<= 5 bp)"      : "<span>is the number of indels of length &le; 5 bp</span>",
+    "# long indels (> 5 bp)"        : "<span>is the number of indels of length &gt; 5 bp</span>",
+    "Indels length"                 : "<span>is the number of total bases contained in all indels</span>",
+
+    "# genes"                       : "<span>is the number of genes in the assembly (complete and partial), based on a user-provided annotated list of gene positions in the reference genome. A gene counts as 'partially covered' if the assembly contains at least 100 bp of this gene but not the whole gene.</span>",
+    "# operons"                     : "<span>is the number of operons in the assembly (complete and partial), based on a user-provided annotated list of operon positions in the reference genome. An operon counts as 'partially covered' if the assembly contains at least 100 bp of this operon but not the whole operon.</span>",
+
+    "Cumulative length"             : "<span>plot shows the growth of assembly contig lengths. On the x-axis, contigs are ordered from largest (contig #1) to smallest. The y-axis gives the size of the x largest contigs in the assembly.</span>",
+    "Nx"                            : "<span>plot shows the Nx metric value as x varies from 0 to 100.</span>  <span>Nx is the minimum contig length <b>y</b> such that using contigs of length at least <b>y</b> accounts for at least x% of the total assembly length.</span>",
+    "NGx"                           : "<span>plot shows the NGx metric value as x varies from 0 to 100.</span> <span>NGx is the minimum contig length <b>y</b> such that using contigs of length at least <b>y</b> accounts for at least x% of the bases of the reference genome. This metric is computed only if a reference genome is provided.</span>",
+    "NAx"                           : "<span>plot shows the NAx metric value as x varies from 0 to 100.</span> <span>NAx is computed similarly to Nx, but based on lengths of aligned blocks instead of contig lengths. Contigs are broken into aligned blocks at misassembly breakpoints. NAx is the minimum block length <b>y</b> such that using blocks of length at least <b>y</b> accounts for at least x% of the bases of the assembly. This metric is computed only if a reference genome is provided.</span>",
+    "NGAx"                          : "<span>plot shows the NGAx metric value as x varies from 0 to 100.</span><span>NGAx is computed similarly to NGx, but based on lengths of aligned blocks instead of contig lengths. Contigs are broken at misassembly breakpoints. NGAx is the minimum block length <b>y</b> such that using blocks of length at least <b>y</b> accounts for at least x% of the bases of the reference genome. This metric is computed only if a reference genome is provided.</span>",
+    "GC content"                    : "<span>plot shows the distribution of GC percentage among the contigs, i.e., the total number of bases in contigs with such GC content. Typically, the distribution is approximately Gaussian. However, for some genomes it is not Gaussian. For assembly projects with contaminants, the GC distribution of the contaminants often differs from the reference genome and may give a superposition of multiple curves with different peaks.</span>",
+
+    "Duplication ratio"             : "<span>is the total number of aligned bases in the assembly (i.e. <i>Total length</i> - <i>Unaligned contigs length</i>), divided by the total number of aligned bases in the reference (see the <b>Genome fraction (%)</b> metric). If the assembly contains many contigs that cover the same regions of the reference, its <i>Duplication ratio</i> may be much larger than 1. This may occur due to overestimating repeat multiplicities and due to small overlaps between contigs, among other reasons.</span>",
+    "Largest alignment"             : "<span>is the length of the largest continuous alignment in the assembly. This metric is always equal to the <i>Largest contig</i> metric but it can be smaller if the largest contig of the assembly contains a misassembly event.</span>",
+
+    "# N's"                         : "<span>is the total number of uncalled bases (N's) in the assembly.</span>",
+    "# N's per 100 kbp"             : "<span>is the average number of uncalled bases (N's) per 100000 assembly bases.</span>"
+}
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="report_html_aux/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="report_html_aux/bootstrap/bootstrap-tooltip-vlad.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("[rel=tooltip]").tooltip({
+                animation: false,
+            });
+        });
+    </script>
+</div>
+</body>
+</html>

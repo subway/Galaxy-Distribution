@@ -1,0 +1,39 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1043/dataset_1126_files -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_002505.fna,/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_002506.fna -l V_cholerae_MiSeq_abyss_scf /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/001/dataset_1125.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-03-25 09:07:45
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1043/dataset_1126_files/metaquast.log
+
+References:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_002505.fna ==> NC_002505
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_002506.fna ==> NC_002506
+  All references combined in combined_reference.fasta
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/001/dataset_1125.dat ==> V_cholerae_MiSeq_abyss_scf
+
+Starting quast.py for the combined reference...
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1043/dataset_1126_files/combined_quast_output/quast.log)
+
+Starting quast.py for the contigs aligned to NC_002506
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1043/dataset_1126_files/NC_002506_quast_output/quast.log)
+
+Starting quast.py for the contigs aligned to NC_002505
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1043/dataset_1126_files/NC_002505_quast_output/quast.log)
+
+Starting quast.py for the contigs not alined anywhere...
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1043/dataset_1126_files/not_aligned_quast_output/quast.log)
+
+MetaQUAST finished.
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1043/dataset_1126_files/metaquast.log
+
+Finished: 2014-03-25 09:08:28
+Elapsed time: 0:00:43.018759

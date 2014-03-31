@@ -1,0 +1,490 @@
+##gff-version 3
+#!gff-spec-version 1.20
+#!processor NCBI annotwriter
+##sequence-region NC_005707.1 1 208369
+##species http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=222523
+NC_005707.1	RefSeq	region	1	208369	.	+	.	ID=id0;Dbxref=ATCC:10987,taxon:222523;Is_circular=true;gbkey=Src;genome=plasmid;mol_type=genomic DNA;plasmid-name=pBc10987;strain=ATCC 10987
+NC_005707.1	RefSeq	gene	207497	209056	.	+	.	ID=gene0;Name=BCE_A0242;Dbxref=GeneID:2753198;gbkey=Gene;locus_tag=BCE_A0242;old_locus_tag=BCEA0242
+NC_005707.1	RefSeq	CDS	207497	209056	.	+	0	ID=cds0;Name=NP_982007.1;Parent=gene0;Note=identified by similarity to SP:P06696%3B match to protein family HMM PF02899;Dbxref=Genbank:NP_982007.1,GeneID:2753198;gbkey=CDS;product=Tn554-related%2C transposase A;protein_id=NP_982007.1;transl_table=11
+NC_005707.1	RefSeq	gene	750	2804	.	+	.	ID=gene1;Name=BCE_A0001;Dbxref=GeneID:2753210;gbkey=Gene;locus_tag=BCE_A0001;old_locus_tag=BCEA0001
+NC_005707.1	RefSeq	CDS	750	2804	.	+	0	ID=cds1;Name=NP_982008.1;Parent=gene1;Note=identified by similarity to SP:P06697%3B match to protein family HMM PF00589;Dbxref=Genbank:NP_982008.1,GeneID:2753210;gbkey=CDS;product=Tn554-related%2C transposase B;protein_id=NP_982008.1;transl_table=11
+NC_005707.1	RefSeq	gene	2797	3177	.	+	.	ID=gene2;Name=BCE_A0002;Dbxref=GeneID:2753209;gbkey=Gene;locus_tag=BCE_A0002;old_locus_tag=BCEA0002
+NC_005707.1	RefSeq	CDS	2797	3177	.	+	0	ID=cds2;Name=NP_982009.1;Parent=gene2;Note=identified by similarity to SP:P06698;Dbxref=Genbank:NP_982009.1,GeneID:2753209;gbkey=CDS;product=Tn554-related%2C transposase C;protein_id=NP_982009.1;transl_table=11
+NC_005707.1	RefSeq	gene	3346	3444	.	-	.	ID=gene3;Name=BCE_A0003;Dbxref=GeneID:2753207;gbkey=Gene;locus_tag=BCE_A0003;old_locus_tag=BCEA0003
+NC_005707.1	RefSeq	CDS	3346	3444	.	-	0	ID=cds3;Name=NP_982010.1;Parent=gene3;Dbxref=Genbank:NP_982010.1,GeneID:2753207;gbkey=CDS;product=hypothetical protein;protein_id=NP_982010.1;transl_table=11
+NC_005707.1	RefSeq	gene	3506	4213	.	+	.	ID=gene4;Name=BCE_A0004;Dbxref=GeneID:2753208;gbkey=Gene;locus_tag=BCE_A0004;old_locus_tag=BCEA0004
+NC_005707.1	RefSeq	CDS	3506	4213	.	+	0	ID=cds4;Name=NP_982011.1;Parent=gene4;Dbxref=Genbank:NP_982011.1,GeneID:2753208;gbkey=CDS;product=hypothetical protein;protein_id=NP_982011.1;transl_table=11
+NC_005707.1	RefSeq	gene	4340	5383	.	+	.	ID=gene5;Name=BCE_A0005;Dbxref=GeneID:2753211;gbkey=Gene;locus_tag=BCE_A0005;old_locus_tag=BCEA0005
+NC_005707.1	RefSeq	CDS	4340	5383	.	+	0	ID=cds5;Name=NP_982012.1;Parent=gene5;Note=identified by match to protein family HMM PF01391;Dbxref=Genbank:NP_982012.1,GeneID:2753211;gbkey=CDS;product=BclA protein;protein_id=NP_982012.1;transl_table=11
+NC_005707.1	RefSeq	gene	5493	5840	.	+	.	ID=gene6;Name=BCE_A0006;Dbxref=GeneID:2753205;gbkey=Gene;locus_tag=BCE_A0006;old_locus_tag=BCEA0006
+NC_005707.1	RefSeq	CDS	5493	5840	.	+	0	ID=cds6;Name=NP_982013.1;Parent=gene6;Dbxref=Genbank:NP_982013.1,GeneID:2753205;gbkey=CDS;product=hypothetical protein;protein_id=NP_982013.1;transl_table=11
+NC_005707.1	RefSeq	gene	5937	6227	.	+	.	ID=gene7;Name=BCE_A0007;Dbxref=GeneID:2753206;gbkey=Gene;locus_tag=BCE_A0007;old_locus_tag=BCEA0007
+NC_005707.1	RefSeq	CDS	5937	6227	.	+	0	ID=cds7;Name=NP_982014.1;Parent=gene7;Dbxref=Genbank:NP_982014.1,GeneID:2753206;gbkey=CDS;product=hypothetical protein;protein_id=NP_982014.1;transl_table=11
+NC_005707.1	RefSeq	gene	6403	7992	.	+	.	ID=gene8;Name=BCE_A0008;Dbxref=GeneID:2753203;gbkey=Gene;locus_tag=BCE_A0008;old_locus_tag=BCEA0008
+NC_005707.1	RefSeq	CDS	6403	7992	.	+	0	ID=cds8;Name=NP_982015.1;Parent=gene8;Dbxref=Genbank:NP_982015.1,GeneID:2753203;gbkey=CDS;product=hypothetical protein;protein_id=NP_982015.1;transl_table=11
+NC_005707.1	RefSeq	gene	8591	8770	.	+	.	ID=gene9;Name=BCE_A0009;Dbxref=GeneID:2753204;gbkey=Gene;locus_tag=BCE_A0009;old_locus_tag=BCEA0009
+NC_005707.1	RefSeq	CDS	8591	8770	.	+	0	ID=cds9;Name=NP_982016.1;Parent=gene9;Dbxref=Genbank:NP_982016.1,GeneID:2753204;gbkey=CDS;product=hypothetical protein;protein_id=NP_982016.1;transl_table=11
+NC_005707.1	RefSeq	gene	8815	9987	.	-	.	ID=gene10;Name=BCE_A0010;Dbxref=GeneID:2752982;gbkey=Gene;locus_tag=BCE_A0010;old_locus_tag=BCEA0010
+NC_005707.1	RefSeq	CDS	8815	9987	.	-	0	ID=cds10;Name=NP_982017.1;Parent=gene10;Dbxref=Genbank:NP_982017.1,GeneID:2752982;gbkey=CDS;product=hypothetical protein;protein_id=NP_982017.1;transl_table=11
+NC_005707.1	RefSeq	gene	10251	11387	.	-	.	ID=gene11;Name=BCE_A0011;Dbxref=GeneID:2752983;gbkey=Gene;locus_tag=BCE_A0011;old_locus_tag=BCEA0011
+NC_005707.1	RefSeq	CDS	10251	11387	.	-	0	ID=cds11;Name=NP_982018.1;Parent=gene11;Dbxref=Genbank:NP_982018.1,GeneID:2752983;gbkey=CDS;product=hypothetical protein;protein_id=NP_982018.1;transl_table=11
+NC_005707.1	RefSeq	gene	11371	12738	.	-	.	ID=gene12;Name=BCE_A0012;Dbxref=GeneID:2753005;gbkey=Gene;locus_tag=BCE_A0012;old_locus_tag=BCEA0012
+NC_005707.1	RefSeq	CDS	11371	12738	.	-	0	ID=cds12;Name=NP_982019.1;Parent=gene12;Dbxref=Genbank:NP_982019.1,GeneID:2753005;gbkey=CDS;product=ParB-like nuclease domain-containing protein;protein_id=NP_982019.1;transl_table=11
+NC_005707.1	RefSeq	gene	12735	13244	.	-	.	ID=gene13;Name=BCE_A0013;Dbxref=GeneID:2753006;gbkey=Gene;locus_tag=BCE_A0013;old_locus_tag=BCEA0013
+NC_005707.1	RefSeq	CDS	12735	13244	.	-	0	ID=cds13;Name=NP_982020.1;Parent=gene13;Dbxref=Genbank:NP_982020.1,GeneID:2753006;gbkey=CDS;product=hypothetical protein;protein_id=NP_982020.1;transl_table=11
+NC_005707.1	RefSeq	gene	14101	14583	.	+	.	ID=gene14;Name=BCE_A0014;Dbxref=GeneID:2753016;gbkey=Gene;locus_tag=BCE_A0014;old_locus_tag=BCEA0014
+NC_005707.1	RefSeq	CDS	14101	14583	.	+	0	ID=cds14;Name=NP_982021.1;Parent=gene14;Dbxref=Genbank:NP_982021.1,GeneID:2753016;gbkey=CDS;product=hypothetical protein;protein_id=NP_982021.1;transl_table=11
+NC_005707.1	RefSeq	gene	14623	15768	.	+	.	ID=gene15;Name=BCE_A0015;Dbxref=GeneID:2753017;gbkey=Gene;locus_tag=BCE_A0015;old_locus_tag=BCEA0015
+NC_005707.1	RefSeq	CDS	14623	15768	.	+	0	ID=cds15;Name=NP_982022.1;Parent=gene15;Note=identified by match to protein family HMM PF04171%3B match to protein family HMM PF04235;Dbxref=Genbank:NP_982022.1,GeneID:2753017;gbkey=CDS;product=hypothetical protein;protein_id=NP_982022.1;transl_table=11
+NC_005707.1	RefSeq	gene	16379	17251	.	-	.	ID=gene16;Name=BCE_A0016;Dbxref=GeneID:2753200;gbkey=Gene;locus_tag=BCE_A0016;old_locus_tag=BCEA0016
+NC_005707.1	RefSeq	CDS	16379	17251	.	-	0	ID=cds16;Name=NP_982023.1;Parent=gene16;Dbxref=Genbank:NP_982023.1,GeneID:2753200;gbkey=CDS;product=hypothetical protein;protein_id=NP_982023.1;transl_table=11
+NC_005707.1	RefSeq	gene	17431	18114	.	-	.	ID=gene17;Name=BCE_A0017;Dbxref=GeneID:2753201;gbkey=Gene;locus_tag=BCE_A0017;old_locus_tag=BCEA0017
+NC_005707.1	RefSeq	CDS	17431	18114	.	-	0	ID=cds17;Name=NP_982024.1;Parent=gene17;Note=identified by match to protein family HMM PF02517;Dbxref=Genbank:NP_982024.1,GeneID:2753201;gbkey=CDS;product=CAAX amino terminal protease family protein;protein_id=NP_982024.1;transl_table=11
+NC_005707.1	RefSeq	gene	18176	18364	.	-	.	ID=gene18;Name=BCE_A0018;Dbxref=GeneID:2753202;gbkey=Gene;locus_tag=BCE_A0018;old_locus_tag=BCEA0018
+NC_005707.1	RefSeq	CDS	18176	18364	.	-	0	ID=cds18;Name=NP_982025.1;Parent=gene18;Dbxref=Genbank:NP_982025.1,GeneID:2753202;gbkey=CDS;product=hypothetical protein;protein_id=NP_982025.1;transl_table=11
+NC_005707.1	RefSeq	gene	18396	18500	.	-	.	ID=gene19;Name=BCE_A0019;Dbxref=GeneID:2752970;gbkey=Gene;locus_tag=BCE_A0019;old_locus_tag=BCEA0019
+NC_005707.1	RefSeq	CDS	18396	18500	.	-	0	ID=cds19;Name=NP_982026.1;Parent=gene19;Dbxref=Genbank:NP_982026.1,GeneID:2752970;gbkey=CDS;product=hypothetical protein;protein_id=NP_982026.1;transl_table=11
+NC_005707.1	RefSeq	gene	18586	18885	.	-	.	ID=gene20;Name=BCE_A0020;Dbxref=GeneID:2752971;gbkey=Gene;locus_tag=BCE_A0020;old_locus_tag=BCEA0020
+NC_005707.1	RefSeq	CDS	18586	18885	.	-	0	ID=cds20;Name=NP_982027.1;Parent=gene20;Dbxref=Genbank:NP_982027.1,GeneID:2752971;gbkey=CDS;product=hypothetical protein;protein_id=NP_982027.1;transl_table=11
+NC_005707.1	RefSeq	gene	18882	19265	.	-	.	ID=gene21;Name=BCE_A0021;Dbxref=GeneID:2752972;gbkey=Gene;locus_tag=BCE_A0021;old_locus_tag=BCEA0021
+NC_005707.1	RefSeq	CDS	18882	19265	.	-	0	ID=cds21;Name=NP_982028.1;Parent=gene21;Dbxref=Genbank:NP_982028.1,GeneID:2752972;gbkey=CDS;product=hypothetical protein;protein_id=NP_982028.1;transl_table=11
+NC_005707.1	RefSeq	gene	19430	20005	.	-	.	ID=gene22;Name=BCE_A0022;Dbxref=GeneID:2752973;gbkey=Gene;locus_tag=BCE_A0022;old_locus_tag=BCEA0022
+NC_005707.1	RefSeq	CDS	19430	20005	.	-	0	ID=cds22;Name=NP_982029.1;Parent=gene22;Dbxref=Genbank:NP_982029.1,GeneID:2752973;gbkey=CDS;product=hypothetical protein;protein_id=NP_982029.1;transl_table=11
+NC_005707.1	RefSeq	gene	20022	22229	.	-	.	ID=gene23;Name=BCE_A0023;Dbxref=GeneID:2752974;gbkey=Gene;locus_tag=BCE_A0023;old_locus_tag=BCEA0023
+NC_005707.1	RefSeq	CDS	20022	22229	.	-	0	ID=cds23;Name=NP_982030.1;Parent=gene23;Note=identified by match to protein family HMM PF00877%3B match to protein family HMM PF01551;Dbxref=Genbank:NP_982030.1,GeneID:2752974;gbkey=CDS;product=peptidase%2C M23%2FM37 family protein;protein_id=NP_982030.1;transl_table=11
+NC_005707.1	RefSeq	gene	22226	26206	.	-	.	ID=gene24;Name=BCE_A0024;Dbxref=GeneID:2752975;gbkey=Gene;locus_tag=BCE_A0024;old_locus_tag=BCEA0024
+NC_005707.1	RefSeq	CDS	22226	26206	.	-	0	ID=cds24;Name=NP_982031.1;Parent=gene24;Note=identified by match to protein family HMM TIGR01612;Dbxref=Genbank:NP_982031.1,GeneID:2752975;gbkey=CDS;product=hypothetical protein;protein_id=NP_982031.1;transl_table=11
+NC_005707.1	RefSeq	gene	26237	28336	.	-	.	ID=gene25;Name=BCE_A0025;Dbxref=GeneID:2752976;gbkey=Gene;locus_tag=BCE_A0025;old_locus_tag=BCEA0025
+NC_005707.1	RefSeq	CDS	26237	28336	.	-	0	ID=cds25;Name=NP_982032.1;Parent=gene25;Dbxref=Genbank:NP_982032.1,GeneID:2752976;gbkey=CDS;product=hypothetical protein;protein_id=NP_982032.1;transl_table=11
+NC_005707.1	RefSeq	gene	28339	29253	.	-	.	ID=gene26;Name=BCE_A0026;Dbxref=GeneID:2752977;gbkey=Gene;locus_tag=BCE_A0026;old_locus_tag=BCEA0026
+NC_005707.1	RefSeq	CDS	28339	29253	.	-	0	ID=cds26;Name=NP_982033.1;Parent=gene26;Dbxref=Genbank:NP_982033.1,GeneID:2752977;gbkey=CDS;product=hypothetical protein;protein_id=NP_982033.1;transl_table=11
+NC_005707.1	RefSeq	gene	29254	29604	.	-	.	ID=gene27;Name=BCE_A0027;Dbxref=GeneID:2752978;gbkey=Gene;locus_tag=BCE_A0027;old_locus_tag=BCEA0027
+NC_005707.1	RefSeq	CDS	29254	29604	.	-	0	ID=cds27;Name=NP_982034.1;Parent=gene27;Dbxref=Genbank:NP_982034.1,GeneID:2752978;gbkey=CDS;product=hypothetical protein;protein_id=NP_982034.1;transl_table=11
+NC_005707.1	RefSeq	gene	29671	30006	.	-	.	ID=gene28;Name=BCE_A0028;Dbxref=GeneID:2752979;gbkey=Gene;locus_tag=BCE_A0028;old_locus_tag=BCEA0028
+NC_005707.1	RefSeq	CDS	29671	30006	.	-	0	ID=cds28;Name=NP_982035.1;Parent=gene28;Dbxref=Genbank:NP_982035.1,GeneID:2752979;gbkey=CDS;product=hypothetical protein;protein_id=NP_982035.1;transl_table=11
+NC_005707.1	RefSeq	gene	30241	30429	.	-	.	ID=gene29;Name=BCE_A0029;Dbxref=GeneID:2752980;gbkey=Gene;locus_tag=BCE_A0029;old_locus_tag=BCEA0029
+NC_005707.1	RefSeq	CDS	30241	30429	.	-	0	ID=cds29;Name=NP_982036.1;Parent=gene29;Dbxref=Genbank:NP_982036.1,GeneID:2752980;gbkey=CDS;product=hypothetical protein;protein_id=NP_982036.1;transl_table=11
+NC_005707.1	RefSeq	gene	30426	30566	.	-	.	ID=gene30;Name=BCE_A0030;Dbxref=GeneID:2752981;gbkey=Gene;locus_tag=BCE_A0030;old_locus_tag=BCEA0030
+NC_005707.1	RefSeq	CDS	30426	30566	.	-	0	ID=cds30;Name=NP_982037.1;Parent=gene30;Dbxref=Genbank:NP_982037.1,GeneID:2752981;gbkey=CDS;product=hypothetical protein;protein_id=NP_982037.1;transl_table=11
+NC_005707.1	RefSeq	gene	30638	31561	.	-	.	ID=gene31;Name=BCE_A0031;Dbxref=GeneID:2752984;gbkey=Gene;locus_tag=BCE_A0031;old_locus_tag=BCEA0031
+NC_005707.1	RefSeq	CDS	30638	31561	.	-	0	ID=cds31;Name=NP_982038.1;Parent=gene31;Note=identified by match to protein family HMM TIGR01784;Dbxref=Genbank:NP_982038.1,GeneID:2752984;gbkey=CDS;product=hypothetical protein;protein_id=NP_982038.1;transl_table=11
+NC_005707.1	RefSeq	gene	31668	31844	.	-	.	ID=gene32;Name=BCE_A0032;Dbxref=GeneID:2752985;gbkey=Gene;locus_tag=BCE_A0032;old_locus_tag=BCEA0032
+NC_005707.1	RefSeq	CDS	31668	31844	.	-	0	ID=cds32;Name=NP_982039.1;Parent=gene32;Dbxref=Genbank:NP_982039.1,GeneID:2752985;gbkey=CDS;product=hypothetical protein;protein_id=NP_982039.1;transl_table=11
+NC_005707.1	RefSeq	gene	31966	32889	.	-	.	ID=gene33;Name=BCE_A0033;Dbxref=GeneID:2752986;gbkey=Gene;locus_tag=BCE_A0033;old_locus_tag=BCEA0033
+NC_005707.1	RefSeq	CDS	31966	32889	.	-	0	ID=cds33;Name=NP_982040.1;Parent=gene33;Dbxref=Genbank:NP_982040.1,GeneID:2752986;gbkey=CDS;product=hypothetical protein;protein_id=NP_982040.1;transl_table=11
+NC_005707.1	RefSeq	gene	32973	34856	.	-	.	ID=gene34;Name=BCE_A0034;Dbxref=GeneID:2752987;gbkey=Gene;locus_tag=BCE_A0034;old_locus_tag=BCEA0034
+NC_005707.1	RefSeq	CDS	32973	34856	.	-	0	ID=cds34;Name=NP_982041.1;Parent=gene34;Note=identified by match to protein family HMM PF00078%3B match to protein family HMM PF01844;Dbxref=Genbank:NP_982041.1,GeneID:2752987;gbkey=CDS;product=group II intron reverse transcriptase%2Fmaturase;protein_id=NP_982041.1;transl_table=11
+NC_005707.1	RefSeq	gene	35133	35264	.	-	.	ID=gene35;Name=BCE_A0035;Dbxref=GeneID:2752988;gbkey=Gene;locus_tag=BCE_A0035;old_locus_tag=BCEA0035
+NC_005707.1	RefSeq	CDS	35133	35264	.	-	0	ID=cds35;Name=NP_982042.1;Parent=gene35;Dbxref=Genbank:NP_982042.1,GeneID:2752988;gbkey=CDS;product=hypothetical protein;protein_id=NP_982042.1;transl_table=11
+NC_005707.1	RefSeq	gene	35592	36122	.	-	.	ID=gene36;Name=BCE_A0036;Dbxref=GeneID:2752989;gbkey=Gene;locus_tag=BCE_A0036;old_locus_tag=BCEA0036
+NC_005707.1	RefSeq	CDS	35592	36122	.	-	0	ID=cds36;Name=NP_982043.1;Parent=gene36;Dbxref=Genbank:NP_982043.1,GeneID:2752989;gbkey=CDS;product=hypothetical protein;protein_id=NP_982043.1;transl_table=11
+NC_005707.1	RefSeq	gene	36112	37842	.	-	.	ID=gene37;Name=BCE_A0037;Dbxref=GeneID:2752990;gbkey=Gene;locus_tag=BCE_A0037;old_locus_tag=BCEA0037
+NC_005707.1	RefSeq	CDS	36112	37842	.	-	0	ID=cds37;Name=NP_982044.1;Parent=gene37;Dbxref=Genbank:NP_982044.1,GeneID:2752990;gbkey=CDS;product=hypothetical protein;protein_id=NP_982044.1;transl_table=11
+NC_005707.1	RefSeq	gene	38000	38551	.	-	.	ID=gene38;Name=BCE_A0038;Dbxref=GeneID:2752991;gbkey=Gene;locus_tag=BCE_A0038;old_locus_tag=BCEA0038
+NC_005707.1	RefSeq	CDS	38000	38551	.	-	0	ID=cds38;Name=NP_982045.1;Parent=gene38;Dbxref=Genbank:NP_982045.1,GeneID:2752991;gbkey=CDS;product=hypothetical protein;protein_id=NP_982045.1;transl_table=11
+NC_005707.1	RefSeq	gene	38951	39058	.	-	.	ID=gene39;Name=BCE_A0039;Dbxref=GeneID:2752992;gbkey=Gene;locus_tag=BCE_A0039;old_locus_tag=BCEA0039
+NC_005707.1	RefSeq	CDS	38951	39058	.	-	0	ID=cds39;Name=NP_982046.1;Parent=gene39;Dbxref=Genbank:NP_982046.1,GeneID:2752992;gbkey=CDS;product=hypothetical protein;protein_id=NP_982046.1;transl_table=11
+NC_005707.1	RefSeq	gene	39048	39209	.	-	.	ID=gene40;Name=BCE_A0040;Dbxref=GeneID:2752993;gbkey=Gene;locus_tag=BCE_A0040;old_locus_tag=BCEA0040
+NC_005707.1	RefSeq	CDS	39048	39209	.	-	0	ID=cds40;Name=NP_982047.1;Parent=gene40;Dbxref=Genbank:NP_982047.1,GeneID:2752993;gbkey=CDS;product=hypothetical protein;protein_id=NP_982047.1;transl_table=11
+NC_005707.1	RefSeq	gene	39202	39339	.	-	.	ID=gene41;Name=BCE_A0041;Dbxref=GeneID:2752994;gbkey=Gene;locus_tag=BCE_A0041;old_locus_tag=BCEA0041
+NC_005707.1	RefSeq	CDS	39202	39339	.	-	0	ID=cds41;Name=NP_982048.1;Parent=gene41;Dbxref=Genbank:NP_982048.1,GeneID:2752994;gbkey=CDS;product=hypothetical protein;protein_id=NP_982048.1;transl_table=11
+NC_005707.1	RefSeq	gene	39321	39863	.	-	.	ID=gene42;Name=BCE_A0042;Dbxref=GeneID:2752995;gbkey=Gene;locus_tag=BCE_A0042;old_locus_tag=BCEA0042
+NC_005707.1	RefSeq	CDS	39321	39863	.	-	0	ID=cds42;Name=NP_982049.1;Parent=gene42;Dbxref=Genbank:NP_982049.1,GeneID:2752995;gbkey=CDS;product=hypothetical protein;protein_id=NP_982049.1;transl_table=11
+NC_005707.1	RefSeq	gene	39941	40486	.	-	.	ID=gene43;Name=BCE_A0043;Dbxref=GeneID:2752996;gbkey=Gene;locus_tag=BCE_A0043;old_locus_tag=BCEA0043
+NC_005707.1	RefSeq	CDS	39941	40486	.	-	0	ID=cds43;Name=NP_982050.1;Parent=gene43;Dbxref=Genbank:NP_982050.1,GeneID:2752996;gbkey=CDS;product=hypothetical protein;protein_id=NP_982050.1;transl_table=11
+NC_005707.1	RefSeq	gene	40525	42465	.	-	.	ID=gene44;Name=BCE_A0044;Dbxref=GeneID:2752997;gbkey=Gene;locus_tag=BCE_A0044;old_locus_tag=BCEA0044
+NC_005707.1	RefSeq	CDS	40525	42465	.	-	0	ID=cds44;Name=NP_982051.1;Parent=gene44;Dbxref=Genbank:NP_982051.1,GeneID:2752997;gbkey=CDS;product=putative lipoprotein;protein_id=NP_982051.1;transl_table=11
+NC_005707.1	RefSeq	gene	42482	43567	.	-	.	ID=gene45;Name=BCE_A0045;Dbxref=GeneID:2752998;gbkey=Gene;locus_tag=BCE_A0045;old_locus_tag=BCEA0045
+NC_005707.1	RefSeq	CDS	42482	43567	.	-	0	ID=cds45;Name=NP_982052.1;Parent=gene45;Dbxref=Genbank:NP_982052.1,GeneID:2752998;gbkey=CDS;product=hypothetical protein;protein_id=NP_982052.1;transl_table=11
+NC_005707.1	RefSeq	gene	43638	44243	.	-	.	ID=gene46;Name=BCE_A0046;Dbxref=GeneID:2752999;gbkey=Gene;locus_tag=BCE_A0046;old_locus_tag=BCEA0046
+NC_005707.1	RefSeq	CDS	43638	44243	.	-	0	ID=cds46;Name=NP_982053.1;Parent=gene46;Dbxref=Genbank:NP_982053.1,GeneID:2752999;gbkey=CDS;product=hypothetical protein;protein_id=NP_982053.1;transl_table=11
+NC_005707.1	RefSeq	gene	44315	44521	.	-	.	ID=gene47;Name=BCE_A0047;Dbxref=GeneID:2753000;gbkey=Gene;locus_tag=BCE_A0047;old_locus_tag=BCEA0047
+NC_005707.1	RefSeq	CDS	44315	44521	.	-	0	ID=cds47;Name=NP_982054.1;Parent=gene47;Dbxref=Genbank:NP_982054.1,GeneID:2753000;gbkey=CDS;product=hypothetical protein;protein_id=NP_982054.1;transl_table=11
+NC_005707.1	RefSeq	gene	44594	44797	.	-	.	ID=gene48;Name=BCE_A0048;Dbxref=GeneID:2753001;gbkey=Gene;locus_tag=BCE_A0048;old_locus_tag=BCEA0048
+NC_005707.1	RefSeq	CDS	44594	44797	.	-	0	ID=cds48;Name=NP_982055.1;Parent=gene48;Dbxref=Genbank:NP_982055.1,GeneID:2753001;gbkey=CDS;product=hypothetical protein;protein_id=NP_982055.1;transl_table=11
+NC_005707.1	RefSeq	gene	44863	45069	.	-	.	ID=gene49;Name=BCE_A0049;Dbxref=GeneID:2753002;gbkey=Gene;locus_tag=BCE_A0049;old_locus_tag=BCEA0049
+NC_005707.1	RefSeq	CDS	44863	45069	.	-	0	ID=cds49;Name=NP_982056.1;Parent=gene49;Dbxref=Genbank:NP_982056.1,GeneID:2753002;gbkey=CDS;product=hypothetical protein;protein_id=NP_982056.1;transl_table=11
+NC_005707.1	RefSeq	gene	45112	45942	.	-	.	ID=gene50;Name=BCE_A0050;Dbxref=GeneID:2753003;gbkey=Gene;locus_tag=BCE_A0050;old_locus_tag=BCEA0050
+NC_005707.1	RefSeq	CDS	45112	45942	.	-	0	ID=cds50;Name=NP_982057.1;Parent=gene50;Dbxref=Genbank:NP_982057.1,GeneID:2753003;gbkey=CDS;product=hypothetical protein;protein_id=NP_982057.1;transl_table=11
+NC_005707.1	RefSeq	gene	45980	46912	.	-	.	ID=gene51;Name=BCE_A0051;Dbxref=GeneID:2753004;gbkey=Gene;locus_tag=BCE_A0051;old_locus_tag=BCEA0051
+NC_005707.1	RefSeq	CDS	45980	46912	.	-	0	ID=cds51;Name=NP_982058.1;Parent=gene51;Dbxref=Genbank:NP_982058.1,GeneID:2753004;gbkey=CDS;product=hypothetical protein;protein_id=NP_982058.1;transl_table=11
+NC_005707.1	RefSeq	gene	46905	48341	.	-	.	ID=gene52;Name=BCE_A0052;Dbxref=GeneID:2753007;gbkey=Gene;locus_tag=BCE_A0052;old_locus_tag=BCEA0052
+NC_005707.1	RefSeq	CDS	46905	48341	.	-	0	ID=cds52;Name=NP_982059.1;Parent=gene52;Note=identified by match to protein family HMM PF00437;Dbxref=Genbank:NP_982059.1,GeneID:2753007;gbkey=CDS;product=type II secretion system protein%2C putative;protein_id=NP_982059.1;transl_table=11
+NC_005707.1	RefSeq	gene	48357	49178	.	-	.	ID=gene53;Name=BCE_A0053;Dbxref=GeneID:2753008;gbkey=Gene;locus_tag=BCE_A0053;old_locus_tag=BCEA0053
+NC_005707.1	RefSeq	CDS	48357	49178	.	-	0	ID=cds53;Name=NP_982060.1;Parent=gene53;Dbxref=Genbank:NP_982060.1,GeneID:2753008;gbkey=CDS;product=hypothetical protein;protein_id=NP_982060.1;transl_table=11
+NC_005707.1	RefSeq	gene	49195	50055	.	-	.	ID=gene54;Name=BCE_A0054;Dbxref=GeneID:2753009;gbkey=Gene;locus_tag=BCE_A0054;old_locus_tag=BCEA0054
+NC_005707.1	RefSeq	CDS	49195	50055	.	-	0	ID=cds54;Name=NP_982061.1;Parent=gene54;Dbxref=Genbank:NP_982061.1,GeneID:2753009;gbkey=CDS;product=hypothetical protein;protein_id=NP_982061.1;transl_table=11
+NC_005707.1	RefSeq	gene	50385	50678	.	+	.	ID=gene55;Name=BCE_A0055;Dbxref=GeneID:2753010;gbkey=Gene;locus_tag=BCE_A0055;old_locus_tag=BCEA0055
+NC_005707.1	RefSeq	CDS	50385	50678	.	+	0	ID=cds55;Name=NP_982062.1;Parent=gene55;Dbxref=Genbank:NP_982062.1,GeneID:2753010;gbkey=CDS;product=hypothetical protein;protein_id=NP_982062.1;transl_table=11
+NC_005707.1	RefSeq	gene	50614	51417	.	-	.	ID=gene56;Name=BCE_A0056;Dbxref=GeneID:2753011;gbkey=Gene;locus_tag=BCE_A0056;old_locus_tag=BCEA0056
+NC_005707.1	RefSeq	CDS	50614	51417	.	-	0	ID=cds56;Name=NP_982063.1;Parent=gene56;Note=identified by match to protein family HMM PF00665;Dbxref=Genbank:NP_982063.1,GeneID:2753011;gbkey=CDS;product=IS3 family transposase OrfB;protein_id=NP_982063.1;transl_table=11
+NC_005707.1	RefSeq	gene	51453	51974	.	-	.	ID=gene57;Name=BCE_A0057;Dbxref=GeneID:2753012;gbkey=Gene;locus_tag=BCE_A0057;old_locus_tag=BCEA0057
+NC_005707.1	RefSeq	CDS	51453	51974	.	-	0	ID=cds57;Name=NP_982064.1;Parent=gene57;Dbxref=Genbank:NP_982064.1,GeneID:2753012;gbkey=CDS;product=IS3 family transposase OrfA;protein_id=NP_982064.1;transl_table=11
+NC_005707.1	RefSeq	gene	52252	52413	.	-	.	ID=gene58;Name=BCE_A0058;Dbxref=GeneID:2753013;gbkey=Gene;locus_tag=BCE_A0058;old_locus_tag=BCEA0058
+NC_005707.1	RefSeq	CDS	52252	52413	.	-	0	ID=cds58;Name=NP_982065.1;Parent=gene58;Dbxref=Genbank:NP_982065.1,GeneID:2753013;gbkey=CDS;product=hypothetical protein;protein_id=NP_982065.1;transl_table=11
+NC_005707.1	RefSeq	gene	52545	54890	.	-	.	ID=gene59;Name=BCE_A0059;Dbxref=GeneID:2753014;gbkey=Gene;locus_tag=BCE_A0059;old_locus_tag=BCEA0059
+NC_005707.1	RefSeq	CDS	52545	54890	.	-	0	ID=cds59;Name=NP_982066.1;Parent=gene59;Dbxref=Genbank:NP_982066.1,GeneID:2753014;gbkey=CDS;product=hypothetical protein;protein_id=NP_982066.1;transl_table=11
+NC_005707.1	RefSeq	gene	55039	56493	.	-	.	ID=gene60;Name=BCE_A0060;Dbxref=GeneID:2753015;gbkey=Gene;locus_tag=BCE_A0060;old_locus_tag=BCEA0060
+NC_005707.1	RefSeq	CDS	55039	56493	.	-	0	ID=cds60;Name=NP_982067.1;Parent=gene60;Note=identified by match to protein family HMM PF00395;Dbxref=Genbank:NP_982067.1,GeneID:2753015;gbkey=CDS;product=surface layer protein;protein_id=NP_982067.1;transl_table=11
+NC_005707.1	RefSeq	gene	56749	57144	.	-	.	ID=gene61;Name=BCE_A0061;Dbxref=GeneID:2753018;gbkey=Gene;locus_tag=BCE_A0061;old_locus_tag=BCEA0061
+NC_005707.1	RefSeq	CDS	56749	57144	.	-	0	ID=cds61;Name=NP_982068.1;Parent=gene61;Dbxref=Genbank:NP_982068.1,GeneID:2753018;gbkey=CDS;product=hypothetical protein;protein_id=NP_982068.1;transl_table=11
+NC_005707.1	RefSeq	gene	57170	57619	.	-	.	ID=gene62;Name=BCE_A0062;Dbxref=GeneID:2753019;gbkey=Gene;locus_tag=BCE_A0062;old_locus_tag=BCEA0062
+NC_005707.1	RefSeq	CDS	57170	57619	.	-	0	ID=cds62;Name=NP_982069.1;Parent=gene62;Dbxref=Genbank:NP_982069.1,GeneID:2753019;gbkey=CDS;product=putative lipoprotein;protein_id=NP_982069.1;transl_table=11
+NC_005707.1	RefSeq	gene	57636	59135	.	-	.	ID=gene63;Name=BCE_A0063;Dbxref=GeneID:2753020;gbkey=Gene;locus_tag=BCE_A0063;old_locus_tag=BCEA0063
+NC_005707.1	RefSeq	CDS	57636	59135	.	-	0	ID=cds63;Name=NP_982070.1;Parent=gene63;Dbxref=Genbank:NP_982070.1,GeneID:2753020;gbkey=CDS;product=hypothetical protein;protein_id=NP_982070.1;transl_table=11
+NC_005707.1	RefSeq	gene	59155	60108	.	-	.	ID=gene64;Name=BCE_A0064;Dbxref=GeneID:2753021;gbkey=Gene;locus_tag=BCE_A0064;old_locus_tag=BCEA0064
+NC_005707.1	RefSeq	CDS	59155	60108	.	-	0	ID=cds64;Name=NP_982071.1;Parent=gene64;Dbxref=Genbank:NP_982071.1,GeneID:2753021;gbkey=CDS;product=hypothetical protein;protein_id=NP_982071.1;transl_table=11
+NC_005707.1	RefSeq	gene	60818	61954	.	-	.	ID=gene65;Name=BCE_A0065;Dbxref=GeneID:2753022;gbkey=Gene;locus_tag=BCE_A0065;old_locus_tag=BCEA0065
+NC_005707.1	RefSeq	CDS	60818	61954	.	-	0	ID=cds65;Name=NP_982072.1;Parent=gene65;Dbxref=Genbank:NP_982072.1,GeneID:2753022;gbkey=CDS;product=hypothetical protein;protein_id=NP_982072.1;transl_table=11
+NC_005707.1	RefSeq	gene	62858	62968	.	+	.	ID=gene66;Name=BCE_A0066;Dbxref=GeneID:2753023;gbkey=Gene;locus_tag=BCE_A0066;old_locus_tag=BCEA0066
+NC_005707.1	RefSeq	CDS	62858	62968	.	+	0	ID=cds66;Name=NP_982073.1;Parent=gene66;Dbxref=Genbank:NP_982073.1,GeneID:2753023;gbkey=CDS;product=transposase%2C truncation;protein_id=NP_982073.1;transl_table=11
+NC_005707.1	RefSeq	gene	62980	64092	.	+	.	ID=gene67;Name=BCE_A0067;Dbxref=GeneID:2753024;gbkey=Gene;locus_tag=BCE_A0067;old_locus_tag=BCEA0067
+NC_005707.1	RefSeq	CDS	62980	64092	.	+	0	ID=cds67;Name=NP_982074.1;Parent=gene67;Note=identified by match to protein family HMM PF01385%3B match to protein family HMM TIGR01766;Dbxref=Genbank:NP_982074.1,GeneID:2753024;gbkey=CDS;product=IS605 family transposase OrfB;protein_id=NP_982074.1;transl_table=11
+NC_005707.1	RefSeq	gene	64410	65015	.	-	.	ID=gene68;Name=BCE_A0068;Dbxref=GeneID:2753025;gbkey=Gene;locus_tag=BCE_A0068;old_locus_tag=BCEA0068
+NC_005707.1	RefSeq	CDS	64410	65015	.	-	0	ID=cds68;Name=NP_982075.1;Parent=gene68;Dbxref=Genbank:NP_982075.1,GeneID:2753025;gbkey=CDS;product=hypothetical protein;protein_id=NP_982075.1;transl_table=11
+NC_005707.1	RefSeq	gene	65578	65937	.	+	.	ID=gene69;Name=BCE_A0069;Dbxref=GeneID:2753026;gbkey=Gene;locus_tag=BCE_A0069;old_locus_tag=BCEA0069
+NC_005707.1	RefSeq	CDS	65578	65937	.	+	0	ID=cds69;Name=NP_982076.1;Parent=gene69;Dbxref=Genbank:NP_982076.1,GeneID:2753026;gbkey=CDS;product=hypothetical protein;protein_id=NP_982076.1;transl_table=11
+NC_005707.1	RefSeq	gene	65964	67271	.	+	.	ID=gene70;Name=BCE_A0070;Dbxref=GeneID:2753027;gbkey=Gene;locus_tag=BCE_A0070;old_locus_tag=BCEA0070
+NC_005707.1	RefSeq	CDS	65964	67271	.	+	0	ID=cds70;Name=NP_982077.1;Parent=gene70;Note=identified by match to protein family HMM PF00091;Dbxref=Genbank:NP_982077.1,GeneID:2753027;gbkey=CDS;product=tubulin%2FFtsZ domain-containing protein;protein_id=NP_982077.1;transl_table=11
+NC_005707.1	RefSeq	gene	67708	68994	.	+	.	ID=gene71;Name=BCE_A0071;Dbxref=GeneID:2753028;gbkey=Gene;locus_tag=BCE_A0071;old_locus_tag=BCEA0071
+NC_005707.1	RefSeq	CDS	67708	68994	.	+	0	ID=cds71;Name=NP_982078.1;Parent=gene71;Dbxref=Genbank:NP_982078.1,GeneID:2753028;gbkey=CDS;product=hypothetical protein;protein_id=NP_982078.1;transl_table=11
+NC_005707.1	RefSeq	gene	69186	69572	.	+	.	ID=gene72;Name=BCE_A0072;Dbxref=GeneID:2753029;gbkey=Gene;locus_tag=BCE_A0072;old_locus_tag=BCEA0072
+NC_005707.1	RefSeq	CDS	69186	69572	.	+	0	ID=cds72;Name=NP_982079.1;Parent=gene72;Dbxref=Genbank:NP_982079.1,GeneID:2753029;gbkey=CDS;product=hypothetical protein;protein_id=NP_982079.1;transl_table=11
+NC_005707.1	RefSeq	gene	69590	73090	.	+	.	ID=gene73;Name=BCE_A0073;Dbxref=GeneID:2753030;gbkey=Gene;locus_tag=BCE_A0073;old_locus_tag=BCEA0073
+NC_005707.1	RefSeq	CDS	69590	73090	.	+	0	ID=cds73;Name=NP_982080.1;Parent=gene73;Note=identified by match to protein family HMM TIGR01612;Dbxref=Genbank:NP_982080.1,GeneID:2753030;gbkey=CDS;product=TraG%2FTraD family protein;protein_id=NP_982080.1;transl_table=11
+NC_005707.1	RefSeq	gene	73262	74644	.	+	.	ID=gene74;Name=BCE_A0074;Dbxref=GeneID:2753031;gbkey=Gene;locus_tag=BCE_A0074;old_locus_tag=BCEA0074
+NC_005707.1	RefSeq	CDS	73262	74644	.	+	0	ID=cds74;Name=NP_982081.1;Parent=gene74;Note=identified by similarity to SP:P12249%3B match to protein family HMM PF01609;Dbxref=Genbank:NP_982081.1,GeneID:2753031;gbkey=CDS;product=IS231-related transposase;protein_id=NP_982081.1;transl_table=11
+NC_005707.1	RefSeq	gene	74897	76543	.	-	.	ID=gene75;Name=BCE_A0075;Dbxref=GeneID:2753032;gbkey=Gene;locus_tag=BCE_A0075;old_locus_tag=BCEA0075
+NC_005707.1	RefSeq	CDS	74897	76543	.	-	0	ID=cds75;Name=NP_982082.1;Parent=gene75;Note=identified by match to protein family HMM PF00078;Dbxref=Genbank:NP_982082.1,GeneID:2753032;gbkey=CDS;product=reverse transcriptase%2Fendonuclease protein;protein_id=NP_982082.1;transl_table=11
+NC_005707.1	RefSeq	gene	77263	78213	.	-	.	ID=gene76;Name=BCE_A0076;Dbxref=GeneID:2753033;gbkey=Gene;locus_tag=BCE_A0076;old_locus_tag=BCEA0076
+NC_005707.1	RefSeq	CDS	77263	78213	.	-	0	ID=cds76;Name=NP_982083.1;Parent=gene76;Note=identified by match to protein family HMM PF01156;Dbxref=Genbank:NP_982083.1,GeneID:2753033;gbkey=CDS;product=inosine-uridine preferring nucleoside hydrolase family protein;protein_id=NP_982083.1;transl_table=11
+NC_005707.1	RefSeq	gene	78817	79800	.	+	.	ID=gene77;Name=BCE_A0077;Dbxref=GeneID:2753034;gbkey=Gene;locus_tag=BCE_A0077;old_locus_tag=BCEA0077
+NC_005707.1	RefSeq	CDS	78817	79800	.	+	0	ID=cds77;Name=NP_982084.1;Parent=gene77;Dbxref=Genbank:NP_982084.1,GeneID:2753034;gbkey=CDS;product=hypothetical protein;protein_id=NP_982084.1;transl_table=11
+NC_005707.1	RefSeq	gene	79804	80736	.	+	.	ID=gene78;Name=BCE_A0078;Dbxref=GeneID:2753035;gbkey=Gene;locus_tag=BCE_A0078;old_locus_tag=BCEA0078
+NC_005707.1	RefSeq	CDS	79804	80736	.	+	0	ID=cds78;Name=NP_982085.1;Parent=gene78;Dbxref=Genbank:NP_982085.1,GeneID:2753035;gbkey=CDS;product=hypothetical protein;protein_id=NP_982085.1;transl_table=11
+NC_005707.1	RefSeq	gene	80830	80925	.	-	.	ID=gene79;Name=BCE_A0079;Dbxref=GeneID:2753036;gbkey=Gene;locus_tag=BCE_A0079;old_locus_tag=BCEA0079
+NC_005707.1	RefSeq	CDS	80830	80925	.	-	0	ID=cds79;Name=NP_982086.1;Parent=gene79;Dbxref=Genbank:NP_982086.1,GeneID:2753036;gbkey=CDS;product=hypothetical protein;protein_id=NP_982086.1;transl_table=11
+NC_005707.1	RefSeq	gene	80985	81248	.	+	.	ID=gene80;Name=BCE_A0080;Dbxref=GeneID:2753037;gbkey=Gene;locus_tag=BCE_A0080;old_locus_tag=BCEA0080
+NC_005707.1	RefSeq	CDS	80985	81248	.	+	0	ID=cds80;Name=NP_982087.1;Parent=gene80;Dbxref=Genbank:NP_982087.1,GeneID:2753037;gbkey=CDS;product=hypothetical protein;protein_id=NP_982087.1;transl_table=11
+NC_005707.1	RefSeq	gene	81687	81959	.	+	.	ID=gene81;Name=BCE_A0081;Dbxref=GeneID:2753038;gbkey=Gene;locus_tag=BCE_A0081;old_locus_tag=BCEA0081
+NC_005707.1	RefSeq	CDS	81687	81959	.	+	0	ID=cds81;Name=NP_982088.1;Parent=gene81;Dbxref=Genbank:NP_982088.1,GeneID:2753038;gbkey=CDS;product=hypothetical protein;protein_id=NP_982088.1;transl_table=11
+NC_005707.1	RefSeq	gene	81978	82202	.	+	.	ID=gene82;Name=BCE_A0082;Dbxref=GeneID:2753039;gbkey=Gene;locus_tag=BCE_A0082;old_locus_tag=BCEA0082
+NC_005707.1	RefSeq	CDS	81978	82202	.	+	0	ID=cds82;Name=NP_982089.1;Parent=gene82;Dbxref=Genbank:NP_982089.1,GeneID:2753039;gbkey=CDS;product=hypothetical protein;protein_id=NP_982089.1;transl_table=11
+NC_005707.1	RefSeq	gene	82463	82747	.	+	.	ID=gene83;Name=BCE_A0083;Dbxref=GeneID:2753040;gbkey=Gene;locus_tag=BCE_A0083;old_locus_tag=BCEA0083
+NC_005707.1	RefSeq	CDS	82463	82747	.	+	0	ID=cds83;Name=NP_982090.1;Parent=gene83;Dbxref=Genbank:NP_982090.1,GeneID:2753040;gbkey=CDS;product=hypothetical protein;protein_id=NP_982090.1;transl_table=11
+NC_005707.1	RefSeq	gene	82815	82997	.	+	.	ID=gene84;Name=BCE_A0084;Dbxref=GeneID:2753041;gbkey=Gene;locus_tag=BCE_A0084;old_locus_tag=BCEA0084
+NC_005707.1	RefSeq	CDS	82815	82997	.	+	0	ID=cds84;Name=NP_982091.1;Parent=gene84;Dbxref=Genbank:NP_982091.1,GeneID:2753041;gbkey=CDS;product=hypothetical protein;protein_id=NP_982091.1;transl_table=11
+NC_005707.1	RefSeq	gene	83397	83792	.	+	.	ID=gene85;Name=BCE_A0085;Dbxref=GeneID:2753042;gbkey=Gene;locus_tag=BCE_A0085;old_locus_tag=BCEA0085
+NC_005707.1	RefSeq	CDS	83397	83792	.	+	0	ID=cds85;Name=NP_982092.1;Parent=gene85;Dbxref=Genbank:NP_982092.1,GeneID:2753042;gbkey=CDS;product=hypothetical protein;protein_id=NP_982092.1;transl_table=11
+NC_005707.1	RefSeq	gene	83815	84171	.	+	.	ID=gene86;Name=BCE_A0086;Dbxref=GeneID:2753043;gbkey=Gene;locus_tag=BCE_A0086;old_locus_tag=BCEA0086
+NC_005707.1	RefSeq	CDS	83815	84171	.	+	0	ID=cds86;Name=NP_982093.1;Parent=gene86;Dbxref=Genbank:NP_982093.1,GeneID:2753043;gbkey=CDS;product=prophage protein;protein_id=NP_982093.1;transl_table=11
+NC_005707.1	RefSeq	gene	84433	84573	.	+	.	ID=gene87;Name=BCE_A0087;Dbxref=GeneID:2753044;gbkey=Gene;locus_tag=BCE_A0087;old_locus_tag=BCEA0087
+NC_005707.1	RefSeq	CDS	84433	84573	.	+	0	ID=cds87;Name=NP_982094.1;Parent=gene87;Dbxref=Genbank:NP_982094.1,GeneID:2753044;gbkey=CDS;product=hypothetical protein;protein_id=NP_982094.1;transl_table=11
+NC_005707.1	RefSeq	gene	84595	84735	.	+	.	ID=gene88;Name=BCE_A0088;Dbxref=GeneID:2753045;gbkey=Gene;locus_tag=BCE_A0088;old_locus_tag=BCEA0088
+NC_005707.1	RefSeq	CDS	84595	84735	.	+	0	ID=cds88;Name=NP_982095.1;Parent=gene88;Dbxref=Genbank:NP_982095.1,GeneID:2753045;gbkey=CDS;product=hypothetical protein;protein_id=NP_982095.1;transl_table=11
+NC_005707.1	RefSeq	gene	84933	86831	.	+	.	ID=gene89;Name=BCE_A0089;Dbxref=GeneID:2753046;gbkey=Gene;locus_tag=BCE_A0089;old_locus_tag=BCEA0089
+NC_005707.1	RefSeq	CDS	84933	86831	.	+	0	ID=cds89;Name=NP_982096.1;Parent=gene89;Note=identified by match to protein family HMM PF00078;Dbxref=Genbank:NP_982096.1,GeneID:2753046;gbkey=CDS;product=reverse transcriptase;protein_id=NP_982096.1;transl_table=11
+NC_005707.1	RefSeq	gene	86909	87436	.	+	.	ID=gene90;Name=BCE_A0090;Dbxref=GeneID:2753047;gbkey=Gene;locus_tag=BCE_A0090;old_locus_tag=BCEA0090
+NC_005707.1	RefSeq	CDS	86909	87436	.	+	0	ID=cds90;Name=NP_982097.1;Parent=gene90;Dbxref=Genbank:NP_982097.1,GeneID:2753047;gbkey=CDS;product=hypothetical protein;protein_id=NP_982097.1;transl_table=11
+NC_005707.1	RefSeq	gene	87517	88629	.	+	.	ID=gene91;Name=dnaN;Dbxref=GeneID:2753048;gbkey=Gene;gene=dnaN;locus_tag=BCE_A0091;old_locus_tag=BCEA0091
+NC_005707.1	RefSeq	CDS	87517	88629	.	+	0	ID=cds91;Name=NP_982098.1;Parent=gene91;Note=identified by similarity to SP:P05649%3B match to protein family HMM PF00712%3B match to protein family HMM PF02767%3B match to protein family HMM PF02768%3B match to protein family HMM TIGR00663;Dbxref=Genbank:NP_982098.1,GeneID:2753048;gbkey=CDS;product=DNA polymerase III%2C beta subunit;protein_id=NP_982098.1;transl_table=11
+NC_005707.1	RefSeq	gene	88642	88971	.	+	.	ID=gene92;Name=BCE_A0092;Dbxref=GeneID:2753049;gbkey=Gene;locus_tag=BCE_A0092;old_locus_tag=BCEA0092
+NC_005707.1	RefSeq	CDS	88642	88971	.	+	0	ID=cds92;Name=NP_982099.1;Parent=gene92;Dbxref=Genbank:NP_982099.1,GeneID:2753049;gbkey=CDS;product=hypothetical protein;protein_id=NP_982099.1;transl_table=11
+NC_005707.1	RefSeq	gene	88985	89512	.	+	.	ID=gene93;Name=BCE_A0093;Dbxref=GeneID:2753050;gbkey=Gene;locus_tag=BCE_A0093;old_locus_tag=BCEA0093
+NC_005707.1	RefSeq	CDS	88985	89512	.	+	0	ID=cds93;Name=NP_982100.1;Parent=gene93;Dbxref=Genbank:NP_982100.1,GeneID:2753050;gbkey=CDS;product=hypothetical protein;protein_id=NP_982100.1;transl_table=11
+NC_005707.1	RefSeq	gene	89509	90321	.	+	.	ID=gene94;Name=BCE_A0094;Dbxref=GeneID:2753051;gbkey=Gene;locus_tag=BCE_A0094;old_locus_tag=BCEA0094
+NC_005707.1	RefSeq	CDS	89509	90321	.	+	0	ID=cds94;Name=NP_982101.1;Parent=gene94;Dbxref=Genbank:NP_982101.1,GeneID:2753051;gbkey=CDS;product=hypothetical protein;protein_id=NP_982101.1;transl_table=11
+NC_005707.1	RefSeq	gene	90338	91159	.	+	.	ID=gene95;Name=BCE_A0095;Dbxref=GeneID:2753052;gbkey=Gene;locus_tag=BCE_A0095;old_locus_tag=BCEA0095
+NC_005707.1	RefSeq	CDS	90338	91159	.	+	0	ID=cds95;Name=NP_982102.1;Parent=gene95;Dbxref=Genbank:NP_982102.1,GeneID:2753052;gbkey=CDS;product=hypothetical protein;protein_id=NP_982102.1;transl_table=11
+NC_005707.1	RefSeq	gene	91137	91781	.	+	.	ID=gene96;Name=BCE_A0096;Dbxref=GeneID:2753053;gbkey=Gene;locus_tag=BCE_A0096;old_locus_tag=BCEA0096
+NC_005707.1	RefSeq	CDS	91137	91781	.	+	0	ID=cds96;Name=NP_982103.1;Parent=gene96;Dbxref=Genbank:NP_982103.1,GeneID:2753053;gbkey=CDS;product=hypothetical protein;protein_id=NP_982103.1;transl_table=11
+NC_005707.1	RefSeq	gene	91898	92068	.	+	.	ID=gene97;Name=BCE_A0097;Dbxref=GeneID:2753054;gbkey=Gene;locus_tag=BCE_A0097;old_locus_tag=BCEA0097
+NC_005707.1	RefSeq	CDS	91898	92068	.	+	0	ID=cds97;Name=NP_982104.1;Parent=gene97;Dbxref=Genbank:NP_982104.1,GeneID:2753054;gbkey=CDS;product=hypothetical protein;protein_id=NP_982104.1;transl_table=11
+NC_005707.1	RefSeq	gene	92134	93099	.	+	.	ID=gene98;Name=BCE_A0098;Dbxref=GeneID:2753055;gbkey=Gene;locus_tag=BCE_A0098;old_locus_tag=BCEA0098
+NC_005707.1	RefSeq	CDS	92134	93099	.	+	0	ID=cds98;Name=NP_982105.1;Parent=gene98;Dbxref=Genbank:NP_982105.1,GeneID:2753055;gbkey=CDS;product=hypothetical protein;protein_id=NP_982105.1;transl_table=11
+NC_005707.1	RefSeq	gene	93150	93560	.	+	.	ID=gene99;Name=BCE_A0099;Dbxref=GeneID:2753056;gbkey=Gene;locus_tag=BCE_A0099;old_locus_tag=BCEA0099
+NC_005707.1	RefSeq	CDS	93150	93560	.	+	0	ID=cds99;Name=NP_982106.1;Parent=gene99;Dbxref=Genbank:NP_982106.1,GeneID:2753056;gbkey=CDS;product=hypothetical protein;protein_id=NP_982106.1;transl_table=11
+NC_005707.1	RefSeq	gene	93563	94411	.	+	.	ID=gene100;Name=BCE_A0100;Dbxref=GeneID:2753057;gbkey=Gene;locus_tag=BCE_A0100;old_locus_tag=BCEA0100
+NC_005707.1	RefSeq	CDS	93563	94411	.	+	0	ID=cds100;Name=NP_982107.1;Parent=gene100;Dbxref=Genbank:NP_982107.1,GeneID:2753057;gbkey=CDS;product=hypothetical protein;protein_id=NP_982107.1;transl_table=11
+NC_005707.1	RefSeq	gene	94431	94802	.	+	.	ID=gene101;Name=BCE_A0101;Dbxref=GeneID:2753058;gbkey=Gene;locus_tag=BCE_A0101;old_locus_tag=BCEA0101
+NC_005707.1	RefSeq	CDS	94431	94802	.	+	0	ID=cds101;Name=NP_982108.1;Parent=gene101;Dbxref=Genbank:NP_982108.1,GeneID:2753058;gbkey=CDS;product=hypothetical protein;protein_id=NP_982108.1;transl_table=11
+NC_005707.1	RefSeq	gene	94824	95210	.	+	.	ID=gene102;Name=BCE_A0102;Dbxref=GeneID:2753059;gbkey=Gene;locus_tag=BCE_A0102;old_locus_tag=BCEA0102
+NC_005707.1	RefSeq	CDS	94824	95210	.	+	0	ID=cds102;Name=NP_982109.1;Parent=gene102;Note=identified by match to protein family HMM PF01909;Dbxref=Genbank:NP_982109.1,GeneID:2753059;gbkey=CDS;product=nucleotidyltransferase domain-containing protein;protein_id=NP_982109.1;transl_table=11
+NC_005707.1	RefSeq	gene	95197	95610	.	+	.	ID=gene103;Name=BCE_A0103;Dbxref=GeneID:2753060;gbkey=Gene;locus_tag=BCE_A0103;old_locus_tag=BCEA0103
+NC_005707.1	RefSeq	CDS	95197	95610	.	+	0	ID=cds103;Name=NP_982110.1;Parent=gene103;Note=identified by match to protein family HMM PF05168;Dbxref=Genbank:NP_982110.1,GeneID:2753060;gbkey=CDS;product=hypothetical protein;protein_id=NP_982110.1;transl_table=11
+NC_005707.1	RefSeq	gene	95705	97507	.	+	.	ID=gene104;Name=BCE_A0104;Dbxref=GeneID:2753061;gbkey=Gene;locus_tag=BCE_A0104;old_locus_tag=BCEA0104
+NC_005707.1	RefSeq	CDS	95705	97507	.	+	0	ID=cds104;Name=NP_982111.1;Parent=gene104;Dbxref=Genbank:NP_982111.1,GeneID:2753061;gbkey=CDS;product=hypothetical protein;protein_id=NP_982111.1;transl_table=11
+NC_005707.1	RefSeq	gene	97550	97720	.	+	.	ID=gene105;Name=BCE_A0105;Dbxref=GeneID:2753062;gbkey=Gene;locus_tag=BCE_A0105;old_locus_tag=BCEA0105
+NC_005707.1	RefSeq	CDS	97550	97720	.	+	0	ID=cds105;Name=NP_982112.1;Parent=gene105;Dbxref=Genbank:NP_982112.1,GeneID:2753062;gbkey=CDS;product=hypothetical protein;protein_id=NP_982112.1;transl_table=11
+NC_005707.1	RefSeq	gene	97782	98102	.	+	.	ID=gene106;Name=BCE_A0106;Dbxref=GeneID:2753063;gbkey=Gene;locus_tag=BCE_A0106;old_locus_tag=BCEA0106
+NC_005707.1	RefSeq	CDS	97782	98102	.	+	0	ID=cds106;Name=NP_982113.1;Parent=gene106;Dbxref=Genbank:NP_982113.1,GeneID:2753063;gbkey=CDS;product=hypothetical protein;protein_id=NP_982113.1;transl_table=11
+NC_005707.1	RefSeq	gene	98199	98534	.	-	.	ID=gene107;Name=BCE_A0107;Dbxref=GeneID:2753064;gbkey=Gene;locus_tag=BCE_A0107;old_locus_tag=BCEA0107
+NC_005707.1	RefSeq	CDS	98199	98534	.	-	0	ID=cds107;Name=NP_982114.1;Parent=gene107;Dbxref=Genbank:NP_982114.1,GeneID:2753064;gbkey=CDS;product=hypothetical protein;protein_id=NP_982114.1;transl_table=11
+NC_005707.1	RefSeq	gene	98589	99554	.	-	.	ID=gene108;Name=BCE_A0108;Dbxref=GeneID:2753065;gbkey=Gene;locus_tag=BCE_A0108;old_locus_tag=BCEA0108
+NC_005707.1	RefSeq	CDS	98589	99554	.	-	0	ID=cds108;Name=NP_982115.1;Parent=gene108;Note=identified by match to protein family HMM PF00589%3B match to protein family HMM PF02899;Dbxref=Genbank:NP_982115.1,GeneID:2753065;gbkey=CDS;product=phage integrase family protein;protein_id=NP_982115.1;transl_table=11
+NC_005707.1	RefSeq	gene	99686	99829	.	-	.	ID=gene109;Name=BCE_A0109;Dbxref=GeneID:2753066;gbkey=Gene;locus_tag=BCE_A0109;old_locus_tag=BCEA0109
+NC_005707.1	RefSeq	CDS	99686	99829	.	-	0	ID=cds109;Name=NP_982116.1;Parent=gene109;Dbxref=Genbank:NP_982116.1,GeneID:2753066;gbkey=CDS;product=hypthetical protein;protein_id=NP_982116.1;transl_table=11
+NC_005707.1	RefSeq	gene	100771	102480	.	-	.	ID=gene110;Name=BCE_A0110;Dbxref=GeneID:2753067;gbkey=Gene;locus_tag=BCE_A0110;old_locus_tag=BCEA0110
+NC_005707.1	RefSeq	CDS	100771	102480	.	-	0	ID=cds110;Name=NP_982117.1;Parent=gene110;Dbxref=Genbank:NP_982117.1,GeneID:2753067;gbkey=CDS;product=hypothetical protein;protein_id=NP_982117.1;transl_table=11
+NC_005707.1	RefSeq	gene	103020	103169	.	+	.	ID=gene111;Name=BCE_A0111;Dbxref=GeneID:2753068;gbkey=Gene;locus_tag=BCE_A0111;old_locus_tag=BCEA0111
+NC_005707.1	RefSeq	CDS	103020	103169	.	+	0	ID=cds111;Name=NP_982118.1;Parent=gene111;Dbxref=Genbank:NP_982118.1,GeneID:2753068;gbkey=CDS;product=hypothetical protein;protein_id=NP_982118.1;transl_table=11
+NC_005707.1	RefSeq	gene	103200	103382	.	+	.	ID=gene112;Name=BCE_A0112;Dbxref=GeneID:2753069;gbkey=Gene;locus_tag=BCE_A0112;old_locus_tag=BCEA0112
+NC_005707.1	RefSeq	CDS	103200	103382	.	+	0	ID=cds112;Name=NP_982119.1;Parent=gene112;Dbxref=Genbank:NP_982119.1,GeneID:2753069;gbkey=CDS;product=hypothetical protein;protein_id=NP_982119.1;transl_table=11
+NC_005707.1	RefSeq	gene	103570	104049	.	+	.	ID=gene113;Name=BCE_A0113;Dbxref=GeneID:2753070;gbkey=Gene;locus_tag=BCE_A0113;old_locus_tag=BCEA0113
+NC_005707.1	RefSeq	CDS	103570	104049	.	+	0	ID=cds113;Name=NP_982120.1;Parent=gene113;Dbxref=Genbank:NP_982120.1,GeneID:2753070;gbkey=CDS;product=CAAX amino terminal protease family protein;protein_id=NP_982120.1;transl_table=11
+NC_005707.1	RefSeq	gene	104540	106234	.	+	.	ID=gene114;Name=BCE_A0114;Dbxref=GeneID:2753071;gbkey=Gene;locus_tag=BCE_A0114;old_locus_tag=BCEA0114
+NC_005707.1	RefSeq	CDS	104540	106234	.	+	0	ID=cds114;Name=NP_982121.1;Parent=gene114;Dbxref=Genbank:NP_982121.1,GeneID:2753071;gbkey=CDS;product=hypothetical protein;protein_id=NP_982121.1;transl_table=11
+NC_005707.1	RefSeq	gene	106274	107122	.	+	.	ID=gene115;Name=BCE_A0115;Dbxref=GeneID:2753072;gbkey=Gene;locus_tag=BCE_A0115;old_locus_tag=BCEA0115
+NC_005707.1	RefSeq	CDS	106274	107122	.	+	0	ID=cds115;Name=NP_982122.1;Parent=gene115;Dbxref=Genbank:NP_982122.1,GeneID:2753072;gbkey=CDS;product=hypothetical protein;protein_id=NP_982122.1;transl_table=11
+NC_005707.1	RefSeq	gene	107344	107997	.	+	.	ID=gene116;Name=BCE_A0116;Dbxref=GeneID:2753073;gbkey=Gene;locus_tag=BCE_A0116;old_locus_tag=BCEA0116
+NC_005707.1	RefSeq	CDS	107344	107997	.	+	0	ID=cds116;Name=NP_982123.1;Parent=gene116;Dbxref=Genbank:NP_982123.1,GeneID:2753073;gbkey=CDS;product=hypothetical protein;protein_id=NP_982123.1;transl_table=11
+NC_005707.1	RefSeq	gene	108517	108930	.	+	.	ID=gene117;Name=BCE_A0117;Dbxref=GeneID:2753074;gbkey=Gene;locus_tag=BCE_A0117;old_locus_tag=BCEA0117
+NC_005707.1	RefSeq	CDS	108517	108930	.	+	0	ID=cds117;Name=NP_982124.1;Parent=gene117;Dbxref=Genbank:NP_982124.1,GeneID:2753074;gbkey=CDS;product=hypothetical protein;protein_id=NP_982124.1;transl_table=11
+NC_005707.1	RefSeq	gene	108952	109089	.	+	.	ID=gene118;Name=BCE_A0118;Dbxref=GeneID:2753075;gbkey=Gene;locus_tag=BCE_A0118;old_locus_tag=BCEA0118
+NC_005707.1	RefSeq	CDS	108952	109089	.	+	0	ID=cds118;Name=NP_982125.1;Parent=gene118;Dbxref=Genbank:NP_982125.1,GeneID:2753075;gbkey=CDS;product=hypothetical protein;protein_id=NP_982125.1;transl_table=11
+NC_005707.1	RefSeq	gene	109774	109887	.	+	.	ID=gene119;Name=BCE_A0119;Dbxref=GeneID:2753076;gbkey=Gene;locus_tag=BCE_A0119;old_locus_tag=BCEA0119
+NC_005707.1	RefSeq	CDS	109774	109887	.	+	0	ID=cds119;Name=NP_982126.1;Parent=gene119;Dbxref=Genbank:NP_982126.1,GeneID:2753076;gbkey=CDS;product=hypothetical protein;protein_id=NP_982126.1;transl_table=11
+NC_005707.1	RefSeq	gene	109971	111899	.	+	.	ID=gene120;Name=BCE_A0120;Dbxref=GeneID:2753077;gbkey=Gene;locus_tag=BCE_A0120;old_locus_tag=BCEA0120
+NC_005707.1	RefSeq	CDS	109971	111899	.	+	0	ID=cds120;Name=NP_982127.1;Parent=gene120;Note=identified by match to protein family HMM PF00078%3B match to protein family HMM PF01844;Dbxref=Genbank:NP_982127.1,GeneID:2753077;gbkey=CDS;product=reverse transcriptase;protein_id=NP_982127.1;transl_table=11
+NC_005707.1	RefSeq	gene	112044	113165	.	+	.	ID=gene121;Name=BCE_A0121;Dbxref=GeneID:2753078;gbkey=Gene;locus_tag=BCE_A0121;old_locus_tag=BCEA0121
+NC_005707.1	RefSeq	CDS	112044	113165	.	+	0	ID=cds121;Name=NP_982128.1;Parent=gene121;Dbxref=Genbank:NP_982128.1,GeneID:2753078;gbkey=CDS;product=hypothetical protein;protein_id=NP_982128.1;transl_table=11
+NC_005707.1	RefSeq	gene	113181	113408	.	+	.	ID=gene122;Name=BCE_A0122;Dbxref=GeneID:2753079;gbkey=Gene;locus_tag=BCE_A0122;old_locus_tag=BCEA0122
+NC_005707.1	RefSeq	CDS	113181	113408	.	+	0	ID=cds122;Name=NP_982129.1;Parent=gene122;Dbxref=Genbank:NP_982129.1,GeneID:2753079;gbkey=CDS;product=hypothetical protein;protein_id=NP_982129.1;transl_table=11
+NC_005707.1	RefSeq	gene	113480	115273	.	+	.	ID=gene123;Name=BCE_A0123;Dbxref=GeneID:2753080;gbkey=Gene;locus_tag=BCE_A0123;old_locus_tag=BCEA0123
+NC_005707.1	RefSeq	CDS	113480	115273	.	+	0	ID=cds123;Name=NP_982130.1;Parent=gene123;Dbxref=Genbank:NP_982130.1,GeneID:2753080;gbkey=CDS;product=hypothetical protein;protein_id=NP_982130.1;transl_table=11
+NC_005707.1	RefSeq	gene	115267	116775	.	+	.	ID=gene124;Name=BCE_A0124;Dbxref=GeneID:2753081;gbkey=Gene;locus_tag=BCE_A0124;old_locus_tag=BCEA0124
+NC_005707.1	RefSeq	CDS	115267	116775	.	+	0	ID=cds124;Name=NP_982131.1;Parent=gene124;Dbxref=Genbank:NP_982131.1,GeneID:2753081;gbkey=CDS;product=hypothetical protein;protein_id=NP_982131.1;transl_table=11
+NC_005707.1	RefSeq	gene	116792	117505	.	+	.	ID=gene125;Name=BCE_A0125;Dbxref=GeneID:2753082;gbkey=Gene;locus_tag=BCE_A0125;old_locus_tag=BCEA0125
+NC_005707.1	RefSeq	CDS	116792	117505	.	+	0	ID=cds125;Name=NP_982132.1;Parent=gene125;Dbxref=Genbank:NP_982132.1,GeneID:2753082;gbkey=CDS;product=hypothetical protein;protein_id=NP_982132.1;transl_table=11
+NC_005707.1	RefSeq	gene	117838	118467	.	+	.	ID=gene126;Name=BCE_A0126;Dbxref=GeneID:2753083;gbkey=Gene;locus_tag=BCE_A0126;old_locus_tag=BCEA0126
+NC_005707.1	RefSeq	CDS	117838	118467	.	+	0	ID=cds126;Name=NP_982133.1;Parent=gene126;Dbxref=Genbank:NP_982133.1,GeneID:2753083;gbkey=CDS;product=hypothetical protein;protein_id=NP_982133.1;transl_table=11
+NC_005707.1	RefSeq	gene	118467	119102	.	+	.	ID=gene127;Name=BCE_A0127;Dbxref=GeneID:2753084;gbkey=Gene;locus_tag=BCE_A0127;old_locus_tag=BCEA0127
+NC_005707.1	RefSeq	CDS	118467	119102	.	+	0	ID=cds127;Name=NP_982134.1;Parent=gene127;Dbxref=Genbank:NP_982134.1,GeneID:2753084;gbkey=CDS;product=hypothetical protein;protein_id=NP_982134.1;transl_table=11
+NC_005707.1	RefSeq	gene	119153	119731	.	-	.	ID=gene128;Name=BCE_A0128;Dbxref=GeneID:2753085;gbkey=Gene;locus_tag=BCE_A0128;old_locus_tag=BCEA0128
+NC_005707.1	RefSeq	CDS	119153	119731	.	-	0	ID=cds128;Name=NP_982135.1;Parent=gene128;Dbxref=Genbank:NP_982135.1,GeneID:2753085;gbkey=CDS;product=hypothetical protein;protein_id=NP_982135.1;transl_table=11
+NC_005707.1	RefSeq	gene	119751	120341	.	-	.	ID=gene129;Name=BCE_A0129;Dbxref=GeneID:2753086;gbkey=Gene;locus_tag=BCE_A0129;old_locus_tag=BCEA0129
+NC_005707.1	RefSeq	CDS	119751	120341	.	-	0	ID=cds129;Name=NP_982136.1;Parent=gene129;Dbxref=Genbank:NP_982136.1,GeneID:2753086;gbkey=CDS;product=hypothetical protein;protein_id=NP_982136.1;transl_table=11
+NC_005707.1	RefSeq	gene	120467	120850	.	+	.	ID=gene130;Name=BCE_A0130;Dbxref=GeneID:2753087;gbkey=Gene;locus_tag=BCE_A0130;old_locus_tag=BCEA0130
+NC_005707.1	RefSeq	CDS	120467	120850	.	+	0	ID=cds130;Name=NP_982137.1;Parent=gene130;Dbxref=Genbank:NP_982137.1,GeneID:2753087;gbkey=CDS;product=hypothetical protein;protein_id=NP_982137.1;transl_table=11
+NC_005707.1	RefSeq	gene	120867	121505	.	+	.	ID=gene131;Name=BCE_A0131;Dbxref=GeneID:2753088;gbkey=Gene;locus_tag=BCE_A0131;old_locus_tag=BCEA0131
+NC_005707.1	RefSeq	CDS	120867	121505	.	+	0	ID=cds131;Name=NP_982138.1;Parent=gene131;Dbxref=Genbank:NP_982138.1,GeneID:2753088;gbkey=CDS;product=hypothetical protein;protein_id=NP_982138.1;transl_table=11
+NC_005707.1	RefSeq	gene	121525	121638	.	+	.	ID=gene132;Name=BCE_A0132;Dbxref=GeneID:2753089;gbkey=Gene;locus_tag=BCE_A0132;old_locus_tag=BCEA0132
+NC_005707.1	RefSeq	CDS	121525	121638	.	+	0	ID=cds132;Name=NP_982139.1;Parent=gene132;Dbxref=Genbank:NP_982139.1,GeneID:2753089;gbkey=CDS;product=hypothetical protein;protein_id=NP_982139.1;transl_table=11
+NC_005707.1	RefSeq	gene	121854	122174	.	+	.	ID=gene133;Name=BCE_A0133;Dbxref=GeneID:2753090;gbkey=Gene;locus_tag=BCE_A0133;old_locus_tag=BCEA0133
+NC_005707.1	RefSeq	CDS	121854	122174	.	+	0	ID=cds133;Name=NP_982140.1;Parent=gene133;Dbxref=Genbank:NP_982140.1,GeneID:2753090;gbkey=CDS;product=hypothetical protein;protein_id=NP_982140.1;transl_table=11
+NC_005707.1	RefSeq	gene	122188	122403	.	+	.	ID=gene134;Name=BCE_A0134;Dbxref=GeneID:2753091;gbkey=Gene;locus_tag=BCE_A0134;old_locus_tag=BCEA0134
+NC_005707.1	RefSeq	CDS	122188	122403	.	+	0	ID=cds134;Name=NP_982141.1;Parent=gene134;Dbxref=Genbank:NP_982141.1,GeneID:2753091;gbkey=CDS;product=hypothetical protein;protein_id=NP_982141.1;transl_table=11
+NC_005707.1	RefSeq	gene	122460	122885	.	+	.	ID=gene135;Name=BCE_A0135;Dbxref=GeneID:2753092;gbkey=Gene;locus_tag=BCE_A0135;old_locus_tag=BCEA0135
+NC_005707.1	RefSeq	CDS	122460	122885	.	+	0	ID=cds135;Name=NP_982142.1;Parent=gene135;Dbxref=Genbank:NP_982142.1,GeneID:2753092;gbkey=CDS;product=hypothetical protein;protein_id=NP_982142.1;transl_table=11
+NC_005707.1	RefSeq	gene	122927	123322	.	+	.	ID=gene136;Name=BCE_A0136;Dbxref=GeneID:2753093;gbkey=Gene;locus_tag=BCE_A0136;old_locus_tag=BCEA0136
+NC_005707.1	RefSeq	CDS	122927	123322	.	+	0	ID=cds136;Name=NP_982143.1;Parent=gene136;Dbxref=Genbank:NP_982143.1,GeneID:2753093;gbkey=CDS;product=hypothetical protein;protein_id=NP_982143.1;transl_table=11
+NC_005707.1	RefSeq	gene	123327	123587	.	+	.	ID=gene137;Name=BCE_A0137;Dbxref=GeneID:2753094;gbkey=Gene;locus_tag=BCE_A0137;old_locus_tag=BCEA0137
+NC_005707.1	RefSeq	CDS	123327	123587	.	+	0	ID=cds137;Name=NP_982144.1;Parent=gene137;Dbxref=Genbank:NP_982144.1,GeneID:2753094;gbkey=CDS;product=hypothetical protein;protein_id=NP_982144.1;transl_table=11
+NC_005707.1	RefSeq	gene	123679	123942	.	+	.	ID=gene138;Name=BCE_A0138;Dbxref=GeneID:2753095;gbkey=Gene;locus_tag=BCE_A0138;old_locus_tag=BCEA0138
+NC_005707.1	RefSeq	CDS	123679	123942	.	+	0	ID=cds138;Name=NP_982145.1;Parent=gene138;Dbxref=Genbank:NP_982145.1,GeneID:2753095;gbkey=CDS;product=hypothetical protein;protein_id=NP_982145.1;transl_table=11
+NC_005707.1	RefSeq	gene	124165	124584	.	+	.	ID=gene139;Name=BCE_A0139;Dbxref=GeneID:2753096;gbkey=Gene;locus_tag=BCE_A0139;old_locus_tag=BCEA0139
+NC_005707.1	RefSeq	CDS	124165	124584	.	+	0	ID=cds139;Name=NP_982146.1;Parent=gene139;Dbxref=Genbank:NP_982146.1,GeneID:2753096;gbkey=CDS;product=hypothetical protein;protein_id=NP_982146.1;transl_table=11
+NC_005707.1	RefSeq	gene	124877	127540	.	+	.	ID=gene140;Name=BCE_A0140;Dbxref=GeneID:2753097;gbkey=Gene;locus_tag=BCE_A0140;old_locus_tag=BCEA0140
+NC_005707.1	RefSeq	CDS	124877	127540	.	+	0	ID=cds140;Name=NP_982147.1;Parent=gene140;Note=identified by similarity to SP:P40114%3B match to protein family HMM PF01131%3B match to protein family HMM PF01396%3B match to protein family HMM PF01751;Dbxref=Genbank:NP_982147.1,GeneID:2753097;gbkey=CDS;product=DNA topoisomerase I;protein_id=NP_982147.1;transl_table=11
+NC_005707.1	RefSeq	gene	127731	128375	.	+	.	ID=gene141;Name=BCE_A0141;Dbxref=GeneID:2753098;gbkey=Gene;locus_tag=BCE_A0141;old_locus_tag=BCEA0141
+NC_005707.1	RefSeq	CDS	127731	128375	.	+	0	ID=cds141;Name=NP_982148.1;Parent=gene141;Note=identified by match to protein family HMM PF00565;Dbxref=Genbank:NP_982148.1,GeneID:2753098;gbkey=CDS;product=thermonuclease family protein;protein_id=NP_982148.1;transl_table=11
+NC_005707.1	RefSeq	gene	128409	128609	.	+	.	ID=gene142;Name=BCE_A0142;Dbxref=GeneID:2753099;gbkey=Gene;locus_tag=BCE_A0142;old_locus_tag=BCEA0142
+NC_005707.1	RefSeq	CDS	128409	128609	.	+	0	ID=cds142;Name=NP_982149.1;Parent=gene142;Dbxref=Genbank:NP_982149.1,GeneID:2753099;gbkey=CDS;product=hypothetical protein;protein_id=NP_982149.1;transl_table=11
+NC_005707.1	RefSeq	gene	128686	128973	.	+	.	ID=gene143;Name=BCE_A0143;Dbxref=GeneID:2753100;gbkey=Gene;locus_tag=BCE_A0143;old_locus_tag=BCEA0143
+NC_005707.1	RefSeq	CDS	128686	128973	.	+	0	ID=cds143;Name=NP_982150.1;Parent=gene143;Dbxref=Genbank:NP_982150.1,GeneID:2753100;gbkey=CDS;product=hypothetical protein;protein_id=NP_982150.1;transl_table=11
+NC_005707.1	RefSeq	gene	129050	129469	.	+	.	ID=gene144;Name=BCE_A0144;Dbxref=GeneID:2753101;gbkey=Gene;locus_tag=BCE_A0144;old_locus_tag=BCEA0144
+NC_005707.1	RefSeq	CDS	129050	129469	.	+	0	ID=cds144;Name=NP_982151.1;Parent=gene144;Note=identified by match to protein family HMM PF02600;Dbxref=Genbank:NP_982151.1,GeneID:2753101;gbkey=CDS;product=disulfide bond formation protein%2C DsbB family protein;protein_id=NP_982151.1;transl_table=11
+NC_005707.1	RefSeq	gene	129566	129859	.	+	.	ID=gene145;Name=BCE_A0145;Dbxref=GeneID:2753102;gbkey=Gene;locus_tag=BCE_A0145;old_locus_tag=BCEA0145
+NC_005707.1	RefSeq	CDS	129566	129859	.	+	0	ID=cds145;Name=NP_982152.1;Parent=gene145;Note=identified by match to protein family HMM PF01022;Dbxref=Genbank:NP_982152.1,GeneID:2753102;gbkey=CDS;product=transcriptional repressor PagR%2C putative;protein_id=NP_982152.1;transl_table=11
+NC_005707.1	RefSeq	gene	130165	130350	.	-	.	ID=gene146;Name=hfq;Dbxref=GeneID:2753103;gbkey=Gene;gene=hfq;locus_tag=BCE_A0146;old_locus_tag=BCEA0146
+NC_005707.1	RefSeq	CDS	130165	130350	.	-	0	ID=cds146;Name=NP_982153.1;Parent=gene146;Note=identified by similarity to SP:Q43971%3B match to protein family HMM PF01423%3B match to protein family HMM PF03329;Dbxref=Genbank:NP_982153.1,GeneID:2753103;gbkey=CDS;product=hfq protein;protein_id=NP_982153.1;transl_table=11
+NC_005707.1	RefSeq	gene	130526	130666	.	-	.	ID=gene147;Name=BCE_A0147;Dbxref=GeneID:2753104;gbkey=Gene;locus_tag=BCE_A0147;old_locus_tag=BCEA0147
+NC_005707.1	RefSeq	CDS	130526	130666	.	-	0	ID=cds147;Name=NP_982154.1;Parent=gene147;Dbxref=Genbank:NP_982154.1,GeneID:2753104;gbkey=CDS;product=hypothetical protein;protein_id=NP_982154.1;transl_table=11
+NC_005707.1	RefSeq	gene	130663	131757	.	-	.	ID=gene148;Name=BCE_A0148;Dbxref=GeneID:2753105;gbkey=Gene;locus_tag=BCE_A0148;old_locus_tag=BCEA0148
+NC_005707.1	RefSeq	CDS	130663	131757	.	-	0	ID=cds148;Name=NP_982155.1;Parent=gene148;Note=identified by match to protein family HMM PF00515;Dbxref=Genbank:NP_982155.1,GeneID:2753105;gbkey=CDS;product=response regulator%2C putative;protein_id=NP_982155.1;transl_table=11
+NC_005707.1	RefSeq	gene	132105	132500	.	+	.	ID=gene149;Name=BCE_A0149;Dbxref=GeneID:2753106;gbkey=Gene;locus_tag=BCE_A0149;old_locus_tag=BCEA0149
+NC_005707.1	RefSeq	CDS	132105	132500	.	+	0	ID=cds149;Name=NP_982156.1;Parent=gene149;Dbxref=Genbank:NP_982156.1,GeneID:2753106;gbkey=CDS;product=hypothetical protein;protein_id=NP_982156.1;transl_table=11
+NC_005707.1	RefSeq	gene	132677	133003	.	+	.	ID=gene150;Name=BCE_A0150;Dbxref=GeneID:2753107;gbkey=Gene;locus_tag=BCE_A0150;old_locus_tag=BCEA0150
+NC_005707.1	RefSeq	CDS	132677	133003	.	+	0	ID=cds150;Name=NP_982157.1;Parent=gene150;Dbxref=Genbank:NP_982157.1,GeneID:2753107;gbkey=CDS;product=hypothetical protein;protein_id=NP_982157.1;transl_table=11
+NC_005707.1	RefSeq	gene	133075	134160	.	-	.	ID=gene151;Name=xerS;Dbxref=GeneID:2753108;gbkey=Gene;gene=xerS;locus_tag=BCE_A0151;old_locus_tag=BCEA0151
+NC_005707.1	RefSeq	CDS	133075	134160	.	-	0	ID=cds151;Name=NP_982158.1;Parent=gene151;Note=site-specific tyrosine recombinase which cuts and rejoins DNA molecules%3B binds cooperatively to specific DNA consensus sites%3B essential to convert chromosome dimers to monomers during cell division and functions during plasmid segregation%3B cell division protein FtsK may regulate the XerS;Dbxref=Genbank:NP_982158.1,GeneID:2753108;gbkey=CDS;product=site-specific tyrosine recombinase XerS;protein_id=NP_982158.1;transl_table=11
+NC_005707.1	RefSeq	gene	134188	135261	.	-	.	ID=gene152;Name=BCE_A0152;Dbxref=GeneID:2753109;gbkey=Gene;locus_tag=BCE_A0152;old_locus_tag=BCEA0152
+NC_005707.1	RefSeq	CDS	134188	135261	.	-	0	ID=cds152;Name=NP_982159.1;Parent=gene152;Dbxref=Genbank:NP_982159.1,GeneID:2753109;gbkey=CDS;product=hypothetical protein;protein_id=NP_982159.1;transl_table=11
+NC_005707.1	RefSeq	gene	135461	135865	.	-	.	ID=gene153;Name=BCE_A0153;Dbxref=GeneID:2753110;gbkey=Gene;locus_tag=BCE_A0153;old_locus_tag=BCEA0153
+NC_005707.1	RefSeq	CDS	135461	135865	.	-	0	ID=cds153;Name=NP_982160.1;Parent=gene153;Dbxref=Genbank:NP_982160.1,GeneID:2753110;gbkey=CDS;product=hypothetical protein;protein_id=NP_982160.1;transl_table=11
+NC_005707.1	RefSeq	gene	136209	136634	.	-	.	ID=gene154;Name=BCE_A0154;Dbxref=GeneID:2753111;gbkey=Gene;locus_tag=BCE_A0154;old_locus_tag=BCEA0154
+NC_005707.1	RefSeq	CDS	136209	136634	.	-	0	ID=cds154;Name=NP_982161.1;Parent=gene154;Dbxref=Genbank:NP_982161.1,GeneID:2753111;gbkey=CDS;product=hypothetical protein;protein_id=NP_982161.1;transl_table=11
+NC_005707.1	RefSeq	gene	136661	136942	.	-	.	ID=gene155;Name=BCE_A0155;Dbxref=GeneID:2753112;gbkey=Gene;locus_tag=BCE_A0155;old_locus_tag=BCEA0155
+NC_005707.1	RefSeq	CDS	136661	136942	.	-	0	ID=cds155;Name=NP_982162.1;Parent=gene155;Note=identified by match to protein family HMM PF01521;Dbxref=Genbank:NP_982162.1,GeneID:2753112;gbkey=CDS;product=HesB-like domain-containing protein;protein_id=NP_982162.1;transl_table=11
+NC_005707.1	RefSeq	gene	136981	138741	.	-	.	ID=gene156;Name=BCE_A0156;Dbxref=GeneID:2753113;gbkey=Gene;locus_tag=BCE_A0156;old_locus_tag=BCEA0156
+NC_005707.1	RefSeq	CDS	136981	138741	.	-	0	ID=cds156;Name=NP_982163.1;Parent=gene156;Note=identified by similarity to SP:P08690%3B match to protein family HMM PF02374%3B match to protein family HMM TIGR00345;Dbxref=Genbank:NP_982163.1,GeneID:2753113;gbkey=CDS;product=arsenite-translocating ATPase ArsA;protein_id=NP_982163.1;transl_table=11
+NC_005707.1	RefSeq	gene	138760	139119	.	-	.	ID=gene157;Name=BCE_A0157;Dbxref=GeneID:2753114;gbkey=Gene;locus_tag=BCE_A0157;old_locus_tag=BCEA0157
+NC_005707.1	RefSeq	CDS	138760	139119	.	-	0	ID=cds157;Name=NP_982164.1;Parent=gene157;Note=identified by similarity to GP:2879918;Dbxref=Genbank:NP_982164.1,GeneID:2753114;gbkey=CDS;product=arsenical resistence operon repressor ArsD;protein_id=NP_982164.1;transl_table=11
+NC_005707.1	RefSeq	gene	139184	139588	.	-	.	ID=gene158;Name=arsC;Dbxref=GeneID:2753115;gbkey=Gene;gene=arsC;locus_tag=BCE_A0158;old_locus_tag=BCEA0158
+NC_005707.1	RefSeq	CDS	139184	139588	.	-	0	ID=cds158;Name=NP_982165.1;Parent=gene158;Note=catalyzes the reduction of arsenate to arsenite%3B also can dephosphorylate tyrosine phosphorylated proteins%2C aryl phosphates%2C and acyl phosphates;Dbxref=Genbank:NP_982165.1,GeneID:2753115;gbkey=CDS;product=arsenate reductase;protein_id=NP_982165.1;transl_table=11
+NC_005707.1	RefSeq	gene	139615	140670	.	-	.	ID=gene159;Name=BCE_A0159;Dbxref=GeneID:2753116;gbkey=Gene;locus_tag=BCE_A0159;old_locus_tag=BCEA0159
+NC_005707.1	RefSeq	CDS	139615	140670	.	-	0	ID=cds159;Name=NP_982166.1;Parent=gene159;Note=identified by match to protein family HMM PF01758%3B match to protein family HMM TIGR00832;Dbxref=Genbank:NP_982166.1,GeneID:2753116;gbkey=CDS;product=arsenite efflux transporter ArsB;protein_id=NP_982166.1;transl_table=11
+NC_005707.1	RefSeq	gene	140700	141047	.	-	.	ID=gene160;Name=BCE_A0160;Dbxref=GeneID:2753117;gbkey=Gene;locus_tag=BCE_A0160;old_locus_tag=BCEA0160
+NC_005707.1	RefSeq	CDS	140700	141047	.	-	0	ID=cds160;Name=NP_982167.1;Parent=gene160;Note=identified by similarity to SP:P37309%3B match to protein family HMM PF01022;Dbxref=Genbank:NP_982167.1,GeneID:2753117;gbkey=CDS;product=arsenical resistence operon repressor ArsR;protein_id=NP_982167.1;transl_table=11
+NC_005707.1	RefSeq	gene	141290	141508	.	-	.	ID=gene161;Name=BCE_A0161;Dbxref=GeneID:2753118;gbkey=Gene;locus_tag=BCE_A0161;old_locus_tag=BCEA0161
+NC_005707.1	RefSeq	CDS	141290	141508	.	-	0	ID=cds161;Name=NP_982168.1;Parent=gene161;Dbxref=Genbank:NP_982168.1,GeneID:2753118;gbkey=CDS;product=hypothetical protein;protein_id=NP_982168.1;transl_table=11
+NC_005707.1	RefSeq	gene	141531	142025	.	-	.	ID=gene162;Name=BCE_A0162;Dbxref=GeneID:2753119;gbkey=Gene;locus_tag=BCE_A0162;old_locus_tag=BCEA0162
+NC_005707.1	RefSeq	CDS	141531	142025	.	-	0	ID=cds162;Name=NP_982169.1;Parent=gene162;Note=identified by match to protein family HMM PF00583;Dbxref=Genbank:NP_982169.1,GeneID:2753119;gbkey=CDS;product=acetyltransferase%2C GNAT family protein;protein_id=NP_982169.1;transl_table=11
+NC_005707.1	RefSeq	gene	142113	142493	.	-	.	ID=gene163;Name=BCE_A0163;Dbxref=GeneID:2753120;gbkey=Gene;locus_tag=BCE_A0163;old_locus_tag=BCEA0163
+NC_005707.1	RefSeq	CDS	142113	142493	.	-	0	ID=cds163;Name=NP_982170.1;Parent=gene163;Dbxref=Genbank:NP_982170.1,GeneID:2753120;gbkey=CDS;product=hypothetical protein;protein_id=NP_982170.1;transl_table=11
+NC_005707.1	RefSeq	gene	142507	143616	.	-	.	ID=gene164;Name=BCE_A0164;Dbxref=GeneID:2753121;gbkey=Gene;locus_tag=BCE_A0164;old_locus_tag=BCEA0164
+NC_005707.1	RefSeq	CDS	142507	143616	.	-	0	ID=cds164;Name=NP_982171.1;Parent=gene164;Note=identified by match to protein family HMM PF02492;Dbxref=Genbank:NP_982171.1,GeneID:2753121;gbkey=CDS;product=cobalamin synthesis protein%2FP47K family protein;protein_id=NP_982171.1;transl_table=11
+NC_005707.1	RefSeq	gene	143636	144358	.	-	.	ID=gene165;Name=BCE_A0165;Dbxref=GeneID:2753122;gbkey=Gene;locus_tag=BCE_A0165;old_locus_tag=BCEA0165
+NC_005707.1	RefSeq	CDS	143636	144358	.	-	0	ID=cds165;Name=NP_982172.1;Parent=gene165;Note=identified by match to protein family HMM PF00230%3B match to protein family HMM TIGR00861;Dbxref=Genbank:NP_982172.1,GeneID:2753122;gbkey=CDS;product=MIP family channel protein;protein_id=NP_982172.1;transl_table=11
+NC_005707.1	RefSeq	gene	144375	145649	.	-	.	ID=gene166;Name=BCE_A0166;Dbxref=GeneID:2753123;gbkey=Gene;locus_tag=BCE_A0166;old_locus_tag=BCEA0166
+NC_005707.1	RefSeq	CDS	144375	145649	.	-	0	ID=cds166;Name=NP_982173.1;Parent=gene166;Note=identified by match to protein family HMM PF04055;Dbxref=Genbank:NP_982173.1,GeneID:2753123;gbkey=CDS;product=radical SAM domain-containing protein;protein_id=NP_982173.1;transl_table=11
+NC_005707.1	RefSeq	gene	146029	147294	.	+	.	ID=gene167;Name=BCE_A0167;Dbxref=GeneID:2753124;gbkey=Gene;locus_tag=BCE_A0167;old_locus_tag=BCEA0167
+NC_005707.1	RefSeq	CDS	146029	147294	.	+	0	ID=cds167;Name=NP_982174.1;Parent=gene167;Note=identified by match to protein family HMM PF00515%3B match to protein family HMM PF01381;Dbxref=Genbank:NP_982174.1,GeneID:2753124;gbkey=CDS;product=helix-turn-helix%2FTPR domain-containing protein;protein_id=NP_982174.1;transl_table=11
+NC_005707.1	RefSeq	gene	147390	148583	.	-	.	ID=gene168;Name=BCE_A0168;Dbxref=GeneID:2753125;gbkey=Gene;locus_tag=BCE_A0168;old_locus_tag=BCEA0168
+NC_005707.1	RefSeq	CDS	147390	148583	.	-	0	ID=cds168;Name=NP_982175.1;Parent=gene168;Note=identified by match to protein family HMM PF01384;Dbxref=Genbank:NP_982175.1,GeneID:2753125;gbkey=CDS;product=phosphate transporter family protein;protein_id=NP_982175.1;transl_table=11
+NC_005707.1	RefSeq	gene	148683	148976	.	-	.	ID=gene169;Name=BCE_A0169;Dbxref=GeneID:2753126;gbkey=Gene;locus_tag=BCE_A0169;old_locus_tag=BCEA0169
+NC_005707.1	RefSeq	CDS	148683	148976	.	-	0	ID=cds169;Name=NP_982176.1;Parent=gene169;Note=identified by match to protein family HMM PF01022;Dbxref=Genbank:NP_982176.1,GeneID:2753126;gbkey=CDS;product=transcription regulator ArsR family protein;protein_id=NP_982176.1;transl_table=11
+NC_005707.1	RefSeq	gene	148983	150206	.	-	.	ID=gene170;Name=BCE_A0170;Dbxref=GeneID:2753127;gbkey=Gene;locus_tag=BCE_A0170;old_locus_tag=BCEA0170
+NC_005707.1	RefSeq	CDS	148983	150206	.	-	0	ID=cds170;Name=NP_982177.1;Parent=gene170;Dbxref=Genbank:NP_982177.1,GeneID:2753127;gbkey=CDS;product=phosphoribosylglycinamide synthetase ATP-grasp domain-containing protein;protein_id=NP_982177.1;transl_table=11
+NC_005707.1	RefSeq	gene	150218	150511	.	-	.	ID=gene171;Name=BCE_A0171;Dbxref=GeneID:2753128;gbkey=Gene;locus_tag=BCE_A0171;old_locus_tag=BCEA0171
+NC_005707.1	RefSeq	CDS	150218	150511	.	-	0	ID=cds171;Name=NP_982178.1;Parent=gene171;Dbxref=Genbank:NP_982178.1,GeneID:2753128;gbkey=CDS;product=hypothetical protein;protein_id=NP_982178.1;transl_table=11
+NC_005707.1	RefSeq	gene	150735	151190	.	+	.	ID=gene172;Name=BCE_A0172;Dbxref=GeneID:2753129;gbkey=Gene;locus_tag=BCE_A0172;old_locus_tag=BCEA0172
+NC_005707.1	RefSeq	CDS	150735	151190	.	+	0	ID=cds172;Name=NP_982179.1;Parent=gene172;Note=identified by match to protein family HMM PF01047;Dbxref=Genbank:NP_982179.1,GeneID:2753129;gbkey=CDS;product=transcriptional regulator%2C MarR family protein;protein_id=NP_982179.1;transl_table=11
+NC_005707.1	RefSeq	gene	151268	152170	.	+	.	ID=gene173;Name=BCE_A0173;Dbxref=GeneID:2753130;gbkey=Gene;locus_tag=BCE_A0173;old_locus_tag=BCEA0173
+NC_005707.1	RefSeq	CDS	151268	152170	.	+	0	ID=cds173;Name=NP_982180.1;Parent=gene173;Note=identified by match to protein family HMM PF03773;Dbxref=Genbank:NP_982180.1,GeneID:2753130;gbkey=CDS;product=hypothetical protein;protein_id=NP_982180.1;transl_table=11
+NC_005707.1	RefSeq	gene	152186	152326	.	+	.	ID=gene174;Name=BCE_A0174;Dbxref=GeneID:2753131;gbkey=Gene;locus_tag=BCE_A0174;old_locus_tag=BCEA0174
+NC_005707.1	RefSeq	CDS	152186	152326	.	+	0	ID=cds174;Name=NP_982181.1;Parent=gene174;Dbxref=Genbank:NP_982181.1,GeneID:2753131;gbkey=CDS;product=hypothetical protein;protein_id=NP_982181.1;transl_table=11
+NC_005707.1	RefSeq	gene	152646	152777	.	-	.	ID=gene175;Name=BCE_A0175;Dbxref=GeneID:2753132;gbkey=Gene;locus_tag=BCE_A0175;old_locus_tag=BCEA0175
+NC_005707.1	RefSeq	CDS	152646	152777	.	-	0	ID=cds175;Name=NP_982182.1;Parent=gene175;Dbxref=Genbank:NP_982182.1,GeneID:2753132;gbkey=CDS;product=hypothetical protein;protein_id=NP_982182.1;transl_table=11
+NC_005707.1	RefSeq	gene	152875	154401	.	-	.	ID=gene176;Name=BCE_A0176;Dbxref=GeneID:2753133;gbkey=Gene;locus_tag=BCE_A0176;old_locus_tag=BCEA0176
+NC_005707.1	RefSeq	CDS	152875	154401	.	-	0	ID=cds176;Name=NP_982183.1;Parent=gene176;Dbxref=Genbank:NP_982183.1,GeneID:2753133;gbkey=CDS;product=hypothetical protein;protein_id=NP_982183.1;transl_table=11
+NC_005707.1	RefSeq	gene	154440	155441	.	-	.	ID=gene177;Name=BCE_A0177;Dbxref=GeneID:2753134;gbkey=Gene;locus_tag=BCE_A0177;old_locus_tag=BCEA0177
+NC_005707.1	RefSeq	CDS	154440	155441	.	-	0	ID=cds177;Name=NP_982184.1;Parent=gene177;Dbxref=Genbank:NP_982184.1,GeneID:2753134;gbkey=CDS;product=hypothetical protein;protein_id=NP_982184.1;transl_table=11
+NC_005707.1	RefSeq	gene	155457	157436	.	-	.	ID=gene178;Name=BCE_A0178;Dbxref=GeneID:2753135;gbkey=Gene;locus_tag=BCE_A0178;old_locus_tag=BCEA0178
+NC_005707.1	RefSeq	CDS	155457	157436	.	-	0	ID=cds178;Name=NP_982185.1;Parent=gene178;Dbxref=Genbank:NP_982185.1,GeneID:2753135;gbkey=CDS;product=hypothetical protein;protein_id=NP_982185.1;transl_table=11
+NC_005707.1	RefSeq	gene	157429	158079	.	-	.	ID=gene179;Name=BCE_A0179;Dbxref=GeneID:2753136;gbkey=Gene;locus_tag=BCE_A0179;old_locus_tag=BCEA0179
+NC_005707.1	RefSeq	CDS	157429	158079	.	-	0	ID=cds179;Name=NP_982186.1;Parent=gene179;Dbxref=Genbank:NP_982186.1,GeneID:2753136;gbkey=CDS;product=S-layer-like domain-containing protein;protein_id=NP_982186.1;transl_table=11
+NC_005707.1	RefSeq	gene	158310	158582	.	-	.	ID=gene180;Name=BCE_A0180;Dbxref=GeneID:2753137;gbkey=Gene;locus_tag=BCE_A0180;old_locus_tag=BCEA0180
+NC_005707.1	RefSeq	CDS	158310	158582	.	-	0	ID=cds180;Name=NP_982187.1;Parent=gene180;Dbxref=Genbank:NP_982187.1,GeneID:2753137;gbkey=CDS;product=ThiS family protein;protein_id=NP_982187.1;transl_table=11
+NC_005707.1	RefSeq	gene	158808	159011	.	-	.	ID=gene181;Name=BCE_A0181;Dbxref=GeneID:2753138;gbkey=Gene;locus_tag=BCE_A0181;old_locus_tag=BCEA0181
+NC_005707.1	RefSeq	CDS	158808	159011	.	-	0	ID=cds181;Name=NP_982188.1;Parent=gene181;Note=identified by match to protein family HMM PF00403%3B match to protein family HMM TIGR00003;Dbxref=Genbank:NP_982188.1,GeneID:2753138;gbkey=CDS;product=copper ion binding protein;protein_id=NP_982188.1;transl_table=11
+NC_005707.1	RefSeq	gene	159032	161428	.	-	.	ID=gene182;Name=BCE_A0182;Dbxref=GeneID:2753139;gbkey=Gene;locus_tag=BCE_A0182;old_locus_tag=BCEA0182
+NC_005707.1	RefSeq	CDS	159032	161428	.	-	0	ID=cds182;Name=NP_982189.1;Parent=gene182;Note=identified by similarity to SP:P32113%3B match to protein family HMM PF00122%3B match to protein family HMM PF00403%3B match to protein family HMM PF00702%3B match to protein family HMM TIGR00003%3B match to protein family HMM TIGR01494%3B match to protein family HMM TIGR01511%3B match to protein family HMM TIGR01525;Dbxref=Genbank:NP_982189.1,GeneID:2753139;gbkey=CDS;product=copper-translocating P-type ATPase;protein_id=NP_982189.1;transl_table=11
+NC_005707.1	RefSeq	gene	161441	161752	.	-	.	ID=gene183;Name=BCE_A0183;Dbxref=GeneID:2753140;gbkey=Gene;locus_tag=BCE_A0183;old_locus_tag=BCEA0183
+NC_005707.1	RefSeq	CDS	161441	161752	.	-	0	ID=cds183;Name=NP_982190.1;Parent=gene183;Note=identified by match to protein family HMM PF02583;Dbxref=Genbank:NP_982190.1,GeneID:2753140;gbkey=CDS;product=hypothetical protein;protein_id=NP_982190.1;transl_table=11
+NC_005707.1	RefSeq	gene	162030	162983	.	-	.	ID=gene184;Name=BCE_A0184;Dbxref=GeneID:2753141;gbkey=Gene;locus_tag=BCE_A0184;old_locus_tag=BCEA0184
+NC_005707.1	RefSeq	CDS	162030	162983	.	-	0	ID=cds184;Name=NP_982191.1;Parent=gene184;Note=identified by similarity to OMNI:SAG1234%3B match to protein family HMM PF01297;Dbxref=Genbank:NP_982191.1,GeneID:2753141;gbkey=CDS;product=laminin-binding surface protein;protein_id=NP_982191.1;transl_table=11
+NC_005707.1	RefSeq	gene	163193	163744	.	+	.	ID=gene185;Name=BCE_A0185;Dbxref=GeneID:2753142;gbkey=Gene;locus_tag=BCE_A0185;old_locus_tag=BCEA0185
+NC_005707.1	RefSeq	CDS	163193	163744	.	+	0	ID=cds185;Name=NP_982192.1;Parent=gene185;Dbxref=Genbank:NP_982192.1,GeneID:2753142;gbkey=CDS;product=hypothetical protein;protein_id=NP_982192.1;transl_table=11
+NC_005707.1	RefSeq	gene	163845	165137	.	-	.	ID=gene186;Name=BCE_A0186;Dbxref=GeneID:2753143;gbkey=Gene;locus_tag=BCE_A0186;old_locus_tag=BCEA0186
+NC_005707.1	RefSeq	CDS	163845	165137	.	-	0	ID=cds186;Name=NP_982193.1;Parent=gene186;Dbxref=Genbank:NP_982193.1,GeneID:2753143;gbkey=CDS;product=transcriptional regulator%2C ArsR family protein;protein_id=NP_982193.1;transl_table=11
+NC_005707.1	RefSeq	gene	165256	165375	.	-	.	ID=gene187;Name=BCE_A0187;Dbxref=GeneID:2753144;gbkey=Gene;locus_tag=BCE_A0187;old_locus_tag=BCEA0187
+NC_005707.1	RefSeq	CDS	165256	165375	.	-	0	ID=cds187;Name=NP_982194.1;Parent=gene187;Dbxref=Genbank:NP_982194.1,GeneID:2753144;gbkey=CDS;product=hypothetical protein;protein_id=NP_982194.1;transl_table=11
+NC_005707.1	RefSeq	gene	165470	165655	.	-	.	ID=gene188;Name=BCE_A0188;Dbxref=GeneID:2753145;gbkey=Gene;locus_tag=BCE_A0188;old_locus_tag=BCEA0188
+NC_005707.1	RefSeq	CDS	165470	165655	.	-	0	ID=cds188;Name=NP_982195.1;Parent=gene188;Dbxref=Genbank:NP_982195.1,GeneID:2753145;gbkey=CDS;product=putative lipoprotein;protein_id=NP_982195.1;transl_table=11
+NC_005707.1	RefSeq	gene	165748	165879	.	+	.	ID=gene189;Name=BCE_A0189;Dbxref=GeneID:2753146;gbkey=Gene;locus_tag=BCE_A0189;old_locus_tag=BCEA0189
+NC_005707.1	RefSeq	CDS	165748	165879	.	+	0	ID=cds189;Name=NP_982196.1;Parent=gene189;Dbxref=Genbank:NP_982196.1,GeneID:2753146;gbkey=CDS;product=hypothetical protein;protein_id=NP_982196.1;transl_table=11
+NC_005707.1	RefSeq	gene	165892	166497	.	+	.	ID=gene190;Name=BCE_A0190;Dbxref=GeneID:2753147;gbkey=Gene;locus_tag=BCE_A0190;old_locus_tag=BCEA0190
+NC_005707.1	RefSeq	CDS	165892	166497	.	+	0	ID=cds190;Name=NP_982197.1;Parent=gene190;Note=identified by similarity to SP:P35160;Dbxref=Genbank:NP_982197.1,GeneID:2753147;gbkey=CDS;product=cytochrome c biogenesis protein%2C putative;protein_id=NP_982197.1;transl_table=11
+NC_005707.1	RefSeq	gene	166507	167340	.	+	.	ID=gene191;Name=lgt;Dbxref=GeneID:2753148;gbkey=Gene;gene=lgt;locus_tag=BCE_A0191;old_locus_tag=BCEA0191
+NC_005707.1	RefSeq	CDS	166507	167340	.	+	0	ID=cds191;Name=NP_982198.1;Parent=gene191;Note=transfers the N-acyl diglyceride moiety to the prospective N-terminal cysteine in prolipoprotein;Dbxref=Genbank:NP_982198.1,GeneID:2753148;gbkey=CDS;product=prolipoprotein diacylglyceryl transferase;protein_id=NP_982198.1;transl_table=11
+NC_005707.1	RefSeq	gene	167363	167458	.	-	.	ID=gene192;Name=BCE_A0192;Dbxref=GeneID:2753149;gbkey=Gene;locus_tag=BCE_A0192;old_locus_tag=BCEA0192
+NC_005707.1	RefSeq	CDS	167363	167458	.	-	0	ID=cds192;Name=NP_982199.1;Parent=gene192;Dbxref=Genbank:NP_982199.1,GeneID:2753149;gbkey=CDS;product=hypothetical protein;protein_id=NP_982199.1;transl_table=11
+NC_005707.1	RefSeq	gene	167615	167941	.	+	.	ID=gene193;Name=BCE_A0193;Dbxref=GeneID:2753150;gbkey=Gene;locus_tag=BCE_A0193;old_locus_tag=BCEA0193
+NC_005707.1	RefSeq	CDS	167615	167941	.	+	0	ID=cds193;Name=NP_982200.1;Parent=gene193;Note=identified by match to protein family HMM PF03860;Dbxref=Genbank:NP_982200.1,GeneID:2753150;gbkey=CDS;product=hypothetical protein;protein_id=NP_982200.1;transl_table=11
+NC_005707.1	RefSeq	gene	167944	168108	.	-	.	ID=gene194;Name=BCE_A0194;Dbxref=GeneID:2753199;gbkey=Gene;locus_tag=BCE_A0194;old_locus_tag=BCEA0194
+NC_005707.1	RefSeq	CDS	167944	168108	.	-	0	ID=cds194;Name=NP_982201.1;Parent=gene194;Dbxref=Genbank:NP_982201.1,GeneID:2753199;gbkey=CDS;product=hypothetical protein;protein_id=NP_982201.1;transl_table=11
+NC_005707.1	RefSeq	gene	168372	168638	.	-	.	ID=gene195;Name=BCE_A0195;Dbxref=GeneID:2753151;gbkey=Gene;locus_tag=BCE_A0195;old_locus_tag=BCEA0195
+NC_005707.1	RefSeq	CDS	168372	168638	.	-	0	ID=cds195;Name=NP_982202.1;Parent=gene195;Dbxref=Genbank:NP_982202.1,GeneID:2753151;gbkey=CDS;product=hypothetical protein;protein_id=NP_982202.1;transl_table=11
+NC_005707.1	RefSeq	gene	168806	168985	.	-	.	ID=gene196;Name=BCE_A0196;Dbxref=GeneID:2753152;gbkey=Gene;locus_tag=BCE_A0196;old_locus_tag=BCEA0196
+NC_005707.1	RefSeq	CDS	168806	168985	.	-	0	ID=cds196;Name=NP_982203.1;Parent=gene196;Dbxref=Genbank:NP_982203.1,GeneID:2753152;gbkey=CDS;product=hypothetical protein;protein_id=NP_982203.1;transl_table=11
+NC_005707.1	RefSeq	gene	169195	170199	.	+	.	ID=gene197;Name=BCE_A0197;Dbxref=GeneID:2753153;gbkey=Gene;locus_tag=BCE_A0197;old_locus_tag=BCEA0197
+NC_005707.1	RefSeq	CDS	169195	170199	.	+	0	ID=cds197;Name=NP_982204.1;Parent=gene197;Note=identified by match to protein family HMM PF02012;Dbxref=Genbank:NP_982204.1,GeneID:2753153;gbkey=CDS;product=putative lipoprotein;protein_id=NP_982204.1;transl_table=11
+NC_005707.1	RefSeq	gene	170306	171001	.	+	.	ID=gene198;Name=BCE_A0198;Dbxref=GeneID:2753154;gbkey=Gene;locus_tag=BCE_A0198;old_locus_tag=BCEA0198
+NC_005707.1	RefSeq	CDS	170306	171001	.	+	0	ID=cds198;Name=NP_982205.1;Parent=gene198;Note=identified by match to protein family HMM PF02683;Dbxref=Genbank:NP_982205.1,GeneID:2753154;gbkey=CDS;product=hypothetical protein;protein_id=NP_982205.1;transl_table=11
+NC_005707.1	RefSeq	gene	171064	171201	.	+	.	ID=gene199;Name=BCE_A0199;Dbxref=GeneID:2753155;gbkey=Gene;locus_tag=BCE_A0199;old_locus_tag=BCEA0199
+NC_005707.1	RefSeq	CDS	171064	171201	.	+	0	ID=cds199;Name=NP_982206.1;Parent=gene199;Dbxref=Genbank:NP_982206.1,GeneID:2753155;gbkey=CDS;product=hypothetical protein;protein_id=NP_982206.1;transl_table=11
+NC_005707.1	RefSeq	gene	171444	172274	.	-	.	ID=gene200;Name=BCE_A0200;Dbxref=GeneID:2753156;gbkey=Gene;locus_tag=BCE_A0200;old_locus_tag=BCEA0200
+NC_005707.1	RefSeq	CDS	171444	172274	.	-	0	ID=cds200;Name=NP_982207.1;Parent=gene200;Dbxref=Genbank:NP_982207.1,GeneID:2753156;gbkey=CDS;product=hypothetical protein;protein_id=NP_982207.1;transl_table=11
+NC_005707.1	RefSeq	gene	172274	172915	.	-	.	ID=gene201;Name=BCE_A0201;Dbxref=GeneID:2753157;gbkey=Gene;locus_tag=BCE_A0201;old_locus_tag=BCEA0201
+NC_005707.1	RefSeq	CDS	172274	172915	.	-	0	ID=cds201;Name=NP_982208.1;Parent=gene201;Dbxref=Genbank:NP_982208.1,GeneID:2753157;gbkey=CDS;product=hypothetical protein;protein_id=NP_982208.1;transl_table=11
+NC_005707.1	RefSeq	gene	173128	173367	.	+	.	ID=gene202;Name=BCE_A0202;Dbxref=GeneID:2753158;gbkey=Gene;locus_tag=BCE_A0202;old_locus_tag=BCEA0202
+NC_005707.1	RefSeq	CDS	173128	173367	.	+	0	ID=cds202;Name=NP_982209.1;Parent=gene202;Dbxref=Genbank:NP_982209.1,GeneID:2753158;gbkey=CDS;product=hypothetical protein;protein_id=NP_982209.1;transl_table=11
+NC_005707.1	RefSeq	gene	174270	176081	.	-	.	ID=gene203;Name=BCE_A0203;Dbxref=GeneID:2753159;gbkey=Gene;locus_tag=BCE_A0203;old_locus_tag=BCEA0203
+NC_005707.1	RefSeq	CDS	174270	176081	.	-	0	ID=cds203;Name=NP_982210.1;Parent=gene203;Note=identified by match to protein family HMM PF01551;Dbxref=Genbank:NP_982210.1,GeneID:2753159;gbkey=CDS;product=enterotoxin%2C putative;protein_id=NP_982210.1;transl_table=11
+NC_005707.1	RefSeq	gene	176426	176524	.	+	.	ID=gene204;Name=BCE_A0204;Dbxref=GeneID:2753160;gbkey=Gene;locus_tag=BCE_A0204;old_locus_tag=BCEA0204
+NC_005707.1	RefSeq	CDS	176426	176524	.	+	0	ID=cds204;Name=NP_982211.1;Parent=gene204;Dbxref=Genbank:NP_982211.1,GeneID:2753160;gbkey=CDS;product=hypothetical protein;protein_id=NP_982211.1;transl_table=11
+NC_005707.1	RefSeq	gene	176853	177179	.	-	.	ID=gene205;Name=BCE_A0205;Dbxref=GeneID:2753161;gbkey=Gene;locus_tag=BCE_A0205;old_locus_tag=BCEA0205
+NC_005707.1	RefSeq	CDS	176853	177179	.	-	0	ID=cds205;Name=NP_982212.1;Parent=gene205;Note=identified by match to protein family HMM PF00085;Dbxref=Genbank:NP_982212.1,GeneID:2753161;gbkey=CDS;product=thioredoxin%2C putative;protein_id=NP_982212.1;transl_table=11
+NC_005707.1	RefSeq	gene	177223	177852	.	-	.	ID=gene206;Name=BCE_A0206;Dbxref=GeneID:2753162;gbkey=Gene;locus_tag=BCE_A0206;old_locus_tag=BCEA0206
+NC_005707.1	RefSeq	CDS	177223	177852	.	-	0	ID=cds206;Name=NP_982213.1;Parent=gene206;Dbxref=Genbank:NP_982213.1,GeneID:2753162;gbkey=CDS;product=hypothetical protein;protein_id=NP_982213.1;transl_table=11
+NC_005707.1	RefSeq	gene	178574	178675	.	+	.	ID=gene207;Name=BCE_A0207;Dbxref=GeneID:2753163;gbkey=Gene;locus_tag=BCE_A0207;old_locus_tag=BCEA0207
+NC_005707.1	RefSeq	CDS	178574	178675	.	+	0	ID=cds207;Name=NP_982214.1;Parent=gene207;Dbxref=Genbank:NP_982214.1,GeneID:2753163;gbkey=CDS;product=hypothetical protein;protein_id=NP_982214.1;transl_table=11
+NC_005707.1	RefSeq	gene	178870	179643	.	+	.	ID=gene208;Name=BCE_A0208;Dbxref=GeneID:2753164;gbkey=Gene;locus_tag=BCE_A0208;old_locus_tag=BCEA0208
+NC_005707.1	RefSeq	CDS	178870	179643	.	+	0	ID=cds208;Name=NP_982215.1;Parent=gene208;Note=identified by match to protein family HMM PF00497;Dbxref=Genbank:NP_982215.1,GeneID:2753164;gbkey=CDS;product=amino acid ABC transporter%2C amino acid-binding protein;protein_id=NP_982215.1;transl_table=11
+NC_005707.1	RefSeq	gene	179710	180369	.	+	.	ID=gene209;Name=BCE_A0209;Dbxref=GeneID:2753165;gbkey=Gene;locus_tag=BCE_A0209;old_locus_tag=BCEA0209
+NC_005707.1	RefSeq	CDS	179710	180369	.	+	0	ID=cds209;Name=NP_982216.1;Parent=gene209;Note=identified by match to protein family HMM PF00528%3B match to protein family HMM TIGR01726;Dbxref=Genbank:NP_982216.1,GeneID:2753165;gbkey=CDS;product=amino acid ABC transporter%2C permease protein;protein_id=NP_982216.1;transl_table=11
+NC_005707.1	RefSeq	gene	180385	181131	.	+	.	ID=gene210;Name=BCE_A0210;Dbxref=GeneID:2753166;gbkey=Gene;locus_tag=BCE_A0210;old_locus_tag=BCEA0210
+NC_005707.1	RefSeq	CDS	180385	181131	.	+	0	ID=cds210;Name=NP_982217.1;Parent=gene210;Note=identified by match to protein family HMM PF00005;Dbxref=Genbank:NP_982217.1,GeneID:2753166;gbkey=CDS;product=amino acid ABC transporter%2C ATP-binding protein;protein_id=NP_982217.1;transl_table=11
+NC_005707.1	RefSeq	gene	181595	182338	.	-	.	ID=gene211;Name=BCE_A0211;Dbxref=GeneID:2753167;gbkey=Gene;locus_tag=BCE_A0211;old_locus_tag=BCEA0211
+NC_005707.1	RefSeq	CDS	181595	182338	.	-	0	ID=cds211;Name=NP_982218.1;Parent=gene211;Note=identified by similarity to SP:P07524%3B match to protein family HMM PF00264;Dbxref=Genbank:NP_982218.1,GeneID:2753167;gbkey=CDS;product=tyrosinase;protein_id=NP_982218.1;transl_table=11
+NC_005707.1	RefSeq	gene	182546	184210	.	-	.	ID=gene212;Name=BCE_A0212;Dbxref=GeneID:2753168;gbkey=Gene;locus_tag=BCE_A0212;old_locus_tag=BCEA0212
+NC_005707.1	RefSeq	CDS	182546	184210	.	-	0	ID=cds212;Name=NP_982219.1;Parent=gene212;Note=identified by match to protein family HMM PF00394;Dbxref=Genbank:NP_982219.1,GeneID:2753168;gbkey=CDS;product=copper resistance protein%2C putative;protein_id=NP_982219.1;transl_table=11
+NC_005707.1	RefSeq	gene	184375	185058	.	+	.	ID=gene213;Name=BCE_A0213;Dbxref=GeneID:2753169;gbkey=Gene;locus_tag=BCE_A0213;old_locus_tag=BCEA0213
+NC_005707.1	RefSeq	CDS	184375	185058	.	+	0	ID=cds213;Name=NP_982220.1;Parent=gene213;Note=identified by similarity to GP:3687663%3B match to protein family HMM PF00072%3B match to protein family HMM PF00486;Dbxref=Genbank:NP_982220.1,GeneID:2753169;gbkey=CDS;product=DNA-binding response regulator;protein_id=NP_982220.1;transl_table=11
+NC_005707.1	RefSeq	gene	185095	186462	.	+	.	ID=gene214;Name=BCE_A0214;Dbxref=GeneID:2753170;gbkey=Gene;locus_tag=BCE_A0214;old_locus_tag=BCEA0214
+NC_005707.1	RefSeq	CDS	185095	186462	.	+	0	ID=cds214;Name=NP_982221.1;Parent=gene214;Note=identified by similarity to GP:3687664%3B match to protein family HMM PF00512%3B match to protein family HMM PF00672%3B match to protein family HMM PF02518;Dbxref=Genbank:NP_982221.1,GeneID:2753170;gbkey=CDS;product=sensor histidine kinase;protein_id=NP_982221.1;transl_table=11
+NC_005707.1	RefSeq	gene	186558	186698	.	+	.	ID=gene215;Name=BCE_A0215;Dbxref=GeneID:2753171;gbkey=Gene;locus_tag=BCE_A0215;old_locus_tag=BCEA0215
+NC_005707.1	RefSeq	CDS	186558	186698	.	+	0	ID=cds215;Name=NP_982222.1;Parent=gene215;Dbxref=Genbank:NP_982222.1,GeneID:2753171;gbkey=CDS;product=hypothetical protein;protein_id=NP_982222.1;transl_table=11
+NC_005707.1	RefSeq	gene	186823	187032	.	+	.	ID=gene216;Name=BCE_A0216;Dbxref=GeneID:2753172;gbkey=Gene;locus_tag=BCE_A0216;old_locus_tag=BCEA0216
+NC_005707.1	RefSeq	CDS	186823	187032	.	+	0	ID=cds216;Name=NP_982223.1;Parent=gene216;Dbxref=Genbank:NP_982223.1,GeneID:2753172;gbkey=CDS;product=hypothetical protein;protein_id=NP_982223.1;transl_table=11
+NC_005707.1	RefSeq	gene	187034	187174	.	-	.	ID=gene217;Name=BCE_A0217;Dbxref=GeneID:2753173;gbkey=Gene;locus_tag=BCE_A0217;old_locus_tag=BCEA0217
+NC_005707.1	RefSeq	CDS	187034	187174	.	-	0	ID=cds217;Name=NP_982224.1;Parent=gene217;Dbxref=Genbank:NP_982224.1,GeneID:2753173;gbkey=CDS;product=hypothetical protein;protein_id=NP_982224.1;transl_table=11
+NC_005707.1	RefSeq	gene	187200	188324	.	+	.	ID=gene218;Name=spoIIP;Dbxref=GeneID:2753174;gbkey=Gene;gene=spoIIP;locus_tag=BCE_A0218;old_locus_tag=BCEA0218
+NC_005707.1	RefSeq	CDS	187200	188324	.	+	0	ID=cds218;Name=NP_982225.1;Parent=gene218;Note=identified by similarity to SP:P37968;Dbxref=Genbank:NP_982225.1,GeneID:2753174;gbkey=CDS;product=stage II sporulation protein p;protein_id=NP_982225.1;transl_table=11
+NC_005707.1	RefSeq	gene	188802	189050	.	-	.	ID=gene219;Name=BCE_A0219;Dbxref=GeneID:2753175;gbkey=Gene;locus_tag=BCE_A0219;old_locus_tag=BCEA0219
+NC_005707.1	RefSeq	CDS	188802	189050	.	-	0	ID=cds219;Name=NP_982226.1;Parent=gene219;Dbxref=Genbank:NP_982226.1,GeneID:2753175;gbkey=CDS;product=hypothetical protein;protein_id=NP_982226.1;transl_table=11
+NC_005707.1	RefSeq	gene	189237	189479	.	-	.	ID=gene220;Name=BCE_A0220;Note=identified by Glimmer2%3B putative%2C point mutation;Dbxref=GeneID:2753176;gbkey=Gene;locus_tag=BCE_A0220;old_locus_tag=BCEA0220;pseudo=true
+NC_005707.1	RefSeq	gene	189716	190015	.	-	.	ID=gene221;Name=BCE_A0221;Dbxref=GeneID:2753177;gbkey=Gene;locus_tag=BCE_A0221;old_locus_tag=BCEA0221
+NC_005707.1	RefSeq	CDS	189716	190015	.	-	0	ID=cds220;Name=NP_982227.1;Parent=gene221;Note=identified by match to protein family HMM PF01022;Dbxref=Genbank:NP_982227.1,GeneID:2753177;gbkey=CDS;product=ArsR family transcriptional regulator;protein_id=NP_982227.1;transl_table=11
+NC_005707.1	RefSeq	gene	190508	190720	.	+	.	ID=gene222;Name=BCE_A0222;Dbxref=GeneID:2753178;gbkey=Gene;locus_tag=BCE_A0222;old_locus_tag=BCEA0222
+NC_005707.1	RefSeq	CDS	190508	190720	.	+	0	ID=cds221;Name=NP_982228.1;Parent=gene222;Dbxref=Genbank:NP_982228.1,GeneID:2753178;gbkey=CDS;product=hypothetical protein;protein_id=NP_982228.1;transl_table=11
+NC_005707.1	RefSeq	gene	190872	192086	.	-	.	ID=gene223;Name=BCE_A0223;Dbxref=GeneID:2753179;gbkey=Gene;locus_tag=BCE_A0223;old_locus_tag=BCEA0223
+NC_005707.1	RefSeq	CDS	190872	192086	.	-	0	ID=cds222;Name=NP_982229.1;Parent=gene223;Dbxref=Genbank:NP_982229.1,GeneID:2753179;gbkey=CDS;product=hypothetical protein;protein_id=NP_982229.1;transl_table=11
+NC_005707.1	RefSeq	gene	192741	193121	.	+	.	ID=gene224;Name=BCE_A0224;Dbxref=GeneID:2753180;gbkey=Gene;locus_tag=BCE_A0224;old_locus_tag=BCEA0224
+NC_005707.1	RefSeq	CDS	192741	193121	.	+	0	ID=cds223;Name=NP_982230.1;Parent=gene224;Dbxref=Genbank:NP_982230.1,GeneID:2753180;gbkey=CDS;product=lumazine binding domain-containing protein;protein_id=NP_982230.1;transl_table=11
+NC_005707.1	RefSeq	gene	193161	193610	.	-	.	ID=gene225;Name=BCE_A0225;Dbxref=GeneID:2753181;gbkey=Gene;locus_tag=BCE_A0225;old_locus_tag=BCEA0225
+NC_005707.1	RefSeq	CDS	193161	193610	.	-	0	ID=cds224;Name=NP_982231.1;Parent=gene225;Dbxref=Genbank:NP_982231.1,GeneID:2753181;gbkey=CDS;product=hypothetical protein;protein_id=NP_982231.1;transl_table=11
+NC_005707.1	RefSeq	gene	193623	194873	.	-	.	ID=gene226;Name=BCE_A0226;Dbxref=GeneID:2753182;gbkey=Gene;locus_tag=BCE_A0226;old_locus_tag=BCEA0226
+NC_005707.1	RefSeq	CDS	193623	194873	.	-	0	ID=cds225;Name=NP_982232.1;Parent=gene226;Dbxref=Genbank:NP_982232.1,GeneID:2753182;gbkey=CDS;product=hypothetical protein;protein_id=NP_982232.1;transl_table=11
+NC_005707.1	RefSeq	gene	194988	196712	.	-	.	ID=gene227;Name=BCE_A0227;Dbxref=GeneID:2753183;gbkey=Gene;locus_tag=BCE_A0227;old_locus_tag=BCEA0227
+NC_005707.1	RefSeq	CDS	194988	196712	.	-	0	ID=cds226;Name=NP_982233.1;Parent=gene227;Dbxref=Genbank:NP_982233.1,GeneID:2753183;gbkey=CDS;product=hypothetical protein;protein_id=NP_982233.1;transl_table=11
+NC_005707.1	RefSeq	gene	196978	197133	.	-	.	ID=gene228;Name=BCE_A0228;Dbxref=GeneID:2753184;gbkey=Gene;locus_tag=BCE_A0228;old_locus_tag=BCEA0228
+NC_005707.1	RefSeq	CDS	196978	197133	.	-	0	ID=cds227;Name=NP_982234.1;Parent=gene228;Dbxref=Genbank:NP_982234.1,GeneID:2753184;gbkey=CDS;product=hypothetical protein;protein_id=NP_982234.1;transl_table=11
+NC_005707.1	RefSeq	gene	197485	197739	.	+	.	ID=gene229;Name=BCE_A0229;Dbxref=GeneID:2753185;gbkey=Gene;locus_tag=BCE_A0229;old_locus_tag=BCEA0229
+NC_005707.1	RefSeq	CDS	197485	197739	.	+	0	ID=cds228;Name=NP_982235.1;Parent=gene229;Dbxref=Genbank:NP_982235.1,GeneID:2753185;gbkey=CDS;product=transcriptional regulator%2C lacI family protein;protein_id=NP_982235.1;transl_table=11
+NC_005707.1	RefSeq	gene	198028	198540	.	-	.	ID=gene230;Name=BCE_A0230;Dbxref=GeneID:2753186;gbkey=Gene;locus_tag=BCE_A0230;old_locus_tag=BCEA0230
+NC_005707.1	RefSeq	CDS	198028	198540	.	-	0	ID=cds229;Name=NP_982236.1;Parent=gene230;Dbxref=Genbank:NP_982236.1,GeneID:2753186;gbkey=CDS;product=hypothetical protein;protein_id=NP_982236.1;transl_table=11
+NC_005707.1	RefSeq	gene	198562	198912	.	-	.	ID=gene231;Name=BCE_A0231;Dbxref=GeneID:2753187;gbkey=Gene;locus_tag=BCE_A0231;old_locus_tag=BCEA0231
+NC_005707.1	RefSeq	CDS	198562	198912	.	-	0	ID=cds230;Name=NP_982237.1;Parent=gene231;Dbxref=Genbank:NP_982237.1,GeneID:2753187;gbkey=CDS;product=hypothetical protein;protein_id=NP_982237.1;transl_table=11
+NC_005707.1	RefSeq	gene	199142	200185	.	+	.	ID=gene232;Name=BCE_A0232;Dbxref=GeneID:2753188;gbkey=Gene;locus_tag=BCE_A0232;old_locus_tag=BCEA0232
+NC_005707.1	RefSeq	CDS	199142	200185	.	+	0	ID=cds231;Name=NP_982238.1;Parent=gene232;Note=identified by match to protein family HMM PF00589%3B match to protein family HMM PF02899;Dbxref=Genbank:NP_982238.1,GeneID:2753188;gbkey=CDS;product=integrase%2Frecombinase%2C putative;protein_id=NP_982238.1;transl_table=11
+NC_005707.1	RefSeq	gene	200177	200278	.	-	.	ID=gene233;Name=BCE_A0233;Dbxref=GeneID:2753189;gbkey=Gene;locus_tag=BCE_A0233;old_locus_tag=BCEA0233
+NC_005707.1	RefSeq	CDS	200177	200278	.	-	0	ID=cds232;Name=NP_982239.1;Parent=gene233;Dbxref=Genbank:NP_982239.1,GeneID:2753189;gbkey=CDS;product=hypothetical protein;protein_id=NP_982239.1;transl_table=11
+NC_005707.1	RefSeq	gene	200324	200650	.	+	.	ID=gene234;Name=BCE_A0234;Dbxref=GeneID:2753190;gbkey=Gene;locus_tag=BCE_A0234;old_locus_tag=BCEA0234
+NC_005707.1	RefSeq	CDS	200324	200650	.	+	0	ID=cds233;Name=NP_982240.1;Parent=gene234;Note=identified by match to protein family HMM PF01381;Dbxref=Genbank:NP_982240.1,GeneID:2753190;gbkey=CDS;product=transcriptional regulator;protein_id=NP_982240.1;transl_table=11
+NC_005707.1	RefSeq	gene	201242	201520	.	-	.	ID=gene235;Name=BCE_A0235;Dbxref=GeneID:2753191;gbkey=Gene;locus_tag=BCE_A0235;old_locus_tag=BCEA0235
+NC_005707.1	RefSeq	CDS	201242	201520	.	-	0	ID=cds234;Name=NP_982241.1;Parent=gene235;Note=identified by similarity to SP:P08874%3B match to protein family HMM PF04014%3B match to protein family HMM TIGR01439;Dbxref=Genbank:NP_982241.1,GeneID:2753191;gbkey=CDS;product=transition state regulatory protein%2C AbrB;protein_id=NP_982241.1;transl_table=11
+NC_005707.1	RefSeq	gene	201588	201932	.	-	.	ID=gene236;Name=BCE_A0236;Dbxref=GeneID:2753192;gbkey=Gene;locus_tag=BCE_A0236;old_locus_tag=BCEA0236
+NC_005707.1	RefSeq	CDS	201588	201932	.	-	0	ID=cds235;Name=NP_982242.1;Parent=gene236;Dbxref=Genbank:NP_982242.1,GeneID:2753192;gbkey=CDS;product=hypothetical protein;protein_id=NP_982242.1;transl_table=11
+NC_005707.1	RefSeq	gene	202355	202675	.	-	.	ID=gene237;Name=BCE_A0237;Dbxref=GeneID:2753193;gbkey=Gene;locus_tag=BCE_A0237;old_locus_tag=BCEA0237
+NC_005707.1	RefSeq	CDS	202355	202675	.	-	0	ID=cds236;Name=NP_982243.1;Parent=gene237;Dbxref=Genbank:NP_982243.1,GeneID:2753193;gbkey=CDS;product=hypothetical protein;protein_id=NP_982243.1;transl_table=11
+NC_005707.1	RefSeq	gene	202829	203416	.	-	.	ID=gene238;Name=BCE_A0238;Dbxref=GeneID:2753194;gbkey=Gene;locus_tag=BCE_A0238;old_locus_tag=BCEA0238
+NC_005707.1	RefSeq	CDS	202829	203416	.	-	0	ID=cds237;Name=NP_982244.1;Parent=gene238;Dbxref=Genbank:NP_982244.1,GeneID:2753194;gbkey=CDS;product=hypothetical protein;protein_id=NP_982244.1;transl_table=11
+NC_005707.1	RefSeq	gene	204133	204891	.	-	.	ID=gene239;Name=BCE_A0239;Dbxref=GeneID:2753195;gbkey=Gene;locus_tag=BCE_A0239;old_locus_tag=BCEA0239
+NC_005707.1	RefSeq	CDS	204133	204891	.	-	0	ID=cds238;Name=NP_982245.1;Parent=gene239;Dbxref=Genbank:NP_982245.1,GeneID:2753195;gbkey=CDS;product=hypothetical protein;protein_id=NP_982245.1;transl_table=11
+NC_005707.1	RefSeq	gene	204953	205651	.	-	.	ID=gene240;Name=BCE_A0240;Dbxref=GeneID:2753196;gbkey=Gene;locus_tag=BCE_A0240;old_locus_tag=BCEA0240
+NC_005707.1	RefSeq	CDS	204953	205651	.	-	0	ID=cds239;Name=NP_982246.1;Parent=gene240;Dbxref=Genbank:NP_982246.1,GeneID:2753196;gbkey=CDS;product=FUR family transcriptional regulator;protein_id=NP_982246.1;transl_table=11
+NC_005707.1	RefSeq	gene	205969	207234	.	+	.	ID=gene241;Name=BCE_A0241;Dbxref=GeneID:2753197;gbkey=Gene;locus_tag=BCE_A0241;old_locus_tag=BCEA0241
+NC_005707.1	RefSeq	CDS	205969	207234	.	+	0	ID=cds240;Name=NP_982247.1;Parent=gene241;Note=identified by match to protein family HMM PF00817;Dbxref=Genbank:NP_982247.1,GeneID:2753197;gbkey=CDS;product=ImpB%2FMucB%2FSamB family protein;protein_id=NP_982247.1;transl_table=11
+###

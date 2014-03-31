@@ -1,0 +1,42 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.pyc --meta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/corrected_input/A_not_aligned_anywhere.fasta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/corrected_input/B_not_aligned_anywhere.fasta -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/not_aligned_quast_output --labels "A.hydrophila, B.cereus"
+
+Started: 2014-03-24 15:20:45
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/not_aligned_quast_output/quast.log
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/corrected_input/A_not_aligned_anywhere.fasta ==> A.hydrophila
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/corrected_input/B_not_aligned_anywhere.fasta ==> B.cereus
+
+2014-03-24 15:20:46
+Running Basic statistics processor...
+  Contig files: 
+    1  A.hydrophila
+    2  B.cereus
+  Calculating N50 and L50...
+    1  A.hydrophila, N50 = 379681, L50 = 5, Total length = 4511609, GC % = 61.54, # N's per 100 kbp =  0.93
+    2  B.cereus, N50 = 101608, L50 = 10, Total length = 4390404, GC % = 35.33, # N's per 100 kbp =  15.76
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/not_aligned_quast_output/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/not_aligned_quast_output/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/not_aligned_quast_output/basic_stats/Nx_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-03-24 15:20:47
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/not_aligned_quast_output/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/not_aligned_quast_output/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/not_aligned_quast_output/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/not_aligned_quast_output/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/not_aligned_quast_output/quast.log
+
+Finished: 2014-03-24 15:20:47
+Elapsed time: 0:00:02.303573

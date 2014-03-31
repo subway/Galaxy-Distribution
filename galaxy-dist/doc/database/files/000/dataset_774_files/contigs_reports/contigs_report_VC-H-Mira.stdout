@@ -1,0 +1,1485 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 2961149
+Analyzing contigs...
+CONTIG: pvcho_c58 (37940bp)
+Top Length: 1726  Top ID: 99.83
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 37940 and total length of all aligns is 1879
+		Alignment: 1563964 1564135 | 36062 36233 | 172 172 | 96.51 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c58
+		Alignment: 1566842 1568567 | 36215 37940 | 1726 1726 | 99.83 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c58
+		Unaligned bases: 36061
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: pvcho_c59 (16655bp)
+Top Length: 137  Top ID: 99.27
+		This contig is partially unaligned. (137 out of 16655)
+		Alignment: 936283 936419 | 1 137 | 137 137 | 99.27 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c59
+		Unaligned bases: 138 to 16655 (16518)
+
+CONTIG: pvcho_rep_c551 (762bp)
+		This contig is unaligned. (762 bp)
+		Unaligned bases: 762  total: 762
+
+CONTIG: pvcho_rep_c552 (1116bp)
+Top Length: 741  Top ID: 98.92
+		Skipping redundant alignment 2331384 2331796 | 337 748 | 413 412 | 99.52 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c552
+		Skipping redundant alignment 2330905 2331106 | 337 532 | 202 196 | 95.54 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c552
+		Skipping redundant alignment 2332480 2332687 | 536 743 | 208 208 | 97.6 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c552
+		Skipping redundant alignment 2331233 2331313 | 540 621 | 81 82 | 98.78 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c552
+		Skipping redundant alignment 2331384 2331736 | 765 1116 | 353 352 | 99.43 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c552
+		Skipping redundant alignment 2330905 2331106 | 765 960 | 202 196 | 95.54 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c552
+		Skipping redundant alignment 2332480 2332632 | 964 1116 | 153 153 | 96.73 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c552
+		Skipping redundant alignment 2331233 2331313 | 968 1049 | 81 82 | 98.78 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c552
+		This contig is misassembled. 10 total aligns.
+			Real Alignment 1: 2331704 2332446 | 1 741 | 743 741 | 98.92 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c552
+			  Overlap between these two alignments (local misassembly). Inconsistency = -430
+			Real Alignment 2: 2331815 2332393 | 540 1116 | 579 577 | 96.37 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c552
+
+CONTIG: pvcho_c52 (89511bp)
+		This contig is unaligned. (89511 bp)
+		Unaligned bases: 89511  total: 90273
+
+CONTIG: pvcho_c53 (64443bp)
+Top Length: 64443  Top ID: 99.99
+		Marking as insignificant: 262290 262428 | 64305 64443 | 139 139 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c53
+		One align captures most of this contig: 1938630 2003073 | 64443 1 | 64444 64443 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c53
+
+CONTIG: pvcho_c50 (4681bp)
+Top Length: 4681  Top ID: 99.96
+		Marking as insignificant: 2933412 2933481 | 4681 4612 | 70 70 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c50
+		Marking as insignificant: 150872 150945 | 4607 4681 | 74 75 | 98.67 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c50
+		Marking as insignificant: 762410 762642 | 4450 4681 | 233 232 | 97.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c50
+		One align captures most of this contig: 2681532 2686212 | 4681 1 | 4681 4681 | 99.96 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c50
+
+CONTIG: pvcho_c51 (29499bp)
+Top Length: 29499  Top ID: 99.99
+		One align captures most of this contig: 1799388 1828886 | 29499 1 | 29499 29499 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c51
+
+CONTIG: pvcho_c56 (27978bp)
+		This contig is unaligned. (27978 bp)
+		Unaligned bases: 27978  total: 118251
+
+CONTIG: pvcho_c57 (5397bp)
+Top Length: 165  Top ID: 98.79
+		Skipping redundant alignment 260428 260588 | 161 1 | 161 161 | 97.53 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c57
+		This contig is partially unaligned. (165 out of 5397)
+		Alignment: 935786 935950 | 165 1 | 165 165 | 98.79 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c57
+		Unaligned bases: 166 to 5397 (5232)
+
+CONTIG: pvcho_c54 (51525bp)
+Top Length: 164  Top ID: 95.73
+		Skipping redundant alignment 1573612 1573770 | 51332 51174 | 159 159 | 96.86 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c54
+		This contig is misassembled. 4 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 51525 and total length of all aligns is 351
+		Alignment: 335050 335124 | 38073 38147 | 75 75 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c54
+		Alignment: 1566696 1566859 | 51332 51169 | 164 164 | 95.73 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c54
+		Alignment: 1763595 1763706 | 1 112 | 112 112 | 95.54 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c54
+		Unaligned bases: 51174
+CONTIG: pvcho_c55 (52881bp)
+Top Length: 139  Top ID: 97.86
+		Skipping redundant alignment 260429 260563 | 52748 52881 | 135 134 | 97.78 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c55
+		This contig is partially unaligned. (139 out of 52881)
+		Alignment: 935786 935925 | 52743 52881 | 140 139 | 97.86 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c55
+		Unaligned bases: 1 to 52742 (52742)
+
+CONTIG: pvcho_c139 (605bp)
+		This contig is unaligned. (605 bp)
+		Unaligned bases: 605  total: 118856
+
+CONTIG: pvcho_c136 (603bp)
+		This contig is unaligned. (603 bp)
+		Unaligned bases: 603  total: 119459
+
+CONTIG: pvcho_c137 (686bp)
+		This contig is unaligned. (686 bp)
+		Unaligned bases: 686  total: 120145
+
+CONTIG: pvcho_c133 (674bp)
+		This contig is unaligned. (674 bp)
+		Unaligned bases: 674  total: 120819
+
+CONTIG: pvcho_c131 (2216bp)
+Top Length: 115  Top ID: 100.0
+		Skipping redundant alignment 1938657 1938768 | 1 112 | 112 112 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c131
+		This contig is partially unaligned. (115 out of 2216)
+		Alignment: 262287 262401 | 115 1 | 115 115 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c131
+		Unaligned bases: 116 to 2216 (2101)
+
+CONTIG: pvcho_rep_c542 (688bp)
+Top Length: 685  Top ID: 98.98
+		One align captures most of this contig: 1509501 1510185 | 685 1 | 685 685 | 98.98 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c542
+
+CONTIG: pvcho_rep_c541 (639bp)
+Top Length: 637  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1579142 1579778 | 637 1 | 637 637 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c541
+		Skipping alignment  1574293 1574927 | 635 1 | 635 635 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c541
+
+CONTIG: pvcho_rep_c547 (803bp)
+		This contig is unaligned. (803 bp)
+		Unaligned bases: 803  total: 121622
+
+CONTIG: pvcho_c69 (3750bp)
+		This contig is unaligned. (3750 bp)
+		Unaligned bases: 3750  total: 125372
+
+CONTIG: pvcho_c68 (2392bp)
+		This contig is unaligned. (2392 bp)
+		Unaligned bases: 2392  total: 127764
+
+CONTIG: pvcho_c67 (16558bp)
+Top Length: 16558  Top ID: 99.99
+		One align captures most of this contig: 976646 993203 | 16558 1 | 16558 16558 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c67
+
+CONTIG: pvcho_c66 (10335bp)
+Top Length: 140  Top ID: 100.0
+		Skipping redundant alignment 263411 263547 | 10335 10199 | 137 137 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c66
+		Skipping redundant alignment 1584254 1584390 | 10335 10199 | 137 137 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c66
+		This contig is partially unaligned. (140 out of 10335)
+		Alignment: 1937508 1937647 | 10196 10335 | 140 140 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c66
+		Unaligned bases: 1 to 10195 (10195)
+
+CONTIG: pvcho_c65 (20786bp)
+Top Length: 20786  Top ID: 100.0
+		Marking as insignificant: 334929 335017 | 20607 20519 | 89 89 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c65
+		Marking as insignificant: 334929 335020 | 20776 20685 | 92 92 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c65
+		Marking as insignificant: 2484247 2484370 | 124 1 | 124 124 | 97.58 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c65
+		Marking as insignificant: 569614 569737 | 1 124 | 124 124 | 98.39 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c65
+		Marking as insignificant: 2320636 2320759 | 124 1 | 124 124 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c65
+		Marking as insignificant: 1379316 1379440 | 1 125 | 125 125 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c65
+		Marking as insignificant: 1100022 1100206 | 2016 1832 | 185 185 | 95.14 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c65
+		Marking as insignificant: 973506 973773 | 20519 20785 | 268 267 | 98.13 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c65
+		Marking as insignificant: 973337 973604 | 20519 20786 | 268 268 | 98.88 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c65
+		One align captures most of this contig: 952650 973435 | 1 20786 | 20786 20786 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c65
+
+CONTIG: pvcho_c64 (10101bp)
+Top Length: 127  Top ID: 95.28
+		This contig is partially unaligned. (127 out of 10101)
+		Alignment: 1763579 1763705 | 9975 10101 | 127 127 | 95.28 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c64
+		Unaligned bases: 1 to 9974 (9974)
+
+CONTIG: pvcho_c63 (4542bp)
+Top Length: 4542  Top ID: 99.91
+		Marking as insignificant: 335327 335490 | 164 1 | 164 164 | 99.39 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c63
+		One align captures most of this contig: 377383 381924 | 4542 1 | 4542 4542 | 99.91 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c63
+
+CONTIG: pvcho_c62 (1317bp)
+Top Length: 1317  Top ID: 99.92
+		One align captures most of this contig: 1568709 1570025 | 1317 1 | 1317 1317 | 99.92 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c62
+
+CONTIG: pvcho_c61 (3197bp)
+Top Length: 3180  Top ID: 99.97
+		Marking as insignificant: 334929 335018 | 233 144 | 90 90 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c61
+		Marking as insignificant: 973363 973656 | 1 294 | 294 294 | 95.95 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c61
+		One align captures most of this contig: 973532 976711 | 1 3180 | 3180 3180 | 99.97 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c61
+
+CONTIG: pvcho_c60 (504bp)
+Top Length: 504  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1574756 1575259 | 504 1 | 504 504 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c60
+		Skipping alignment  1579607 1580110 | 504 1 | 504 504 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c60
+
+CONTIG: pvcho_c128 (546bp)
+		This contig is unaligned. (546 bp)
+		Unaligned bases: 546  total: 128310
+
+CONTIG: pvcho_c125 (562bp)
+Top Length: 562  Top ID: 100.0
+		One align captures most of this contig: 1570658 1571219 | 562 1 | 562 562 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c125
+
+CONTIG: pvcho_rep_c593 (625bp)
+		This contig is unaligned. (625 bp)
+		Unaligned bases: 625  total: 128935
+
+CONTIG: pvcho_c127 (1838bp)
+		This contig is unaligned. (1838 bp)
+		Unaligned bases: 1838  total: 130773
+
+CONTIG: pvcho_c121 (2015bp)
+		This contig is unaligned. (2015 bp)
+		Unaligned bases: 2015  total: 132788
+
+CONTIG: pvcho_c122 (1212bp)
+		This contig is unaligned. (1212 bp)
+		Unaligned bases: 1212  total: 134000
+
+CONTIG: pvcho_rep_c545 (724bp)
+Top Length: 632  Top ID: 99.53
+		Skipping redundant alignment 260429 260619 | 23 212 | 191 190 | 97.91 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c545
+		This contig is partially unaligned. (632 out of 724)
+		Alignment: 935792 936423 | 23 654 | 632 632 | 99.53 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c545
+		Unaligned bases: 1 to 22 (22)
+		Unaligned bases: 655 to 724 (70)
+
+CONTIG: pvcho_c70 (8947bp)
+Top Length: 8947  Top ID: 99.99
+		Marking as insignificant: 1737346 1737459 | 119 7 | 114 113 | 96.49 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c70
+		Marking as insignificant: 1738720 1738838 | 119 1 | 119 119 | 97.48 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c70
+		Marking as insignificant: 1738036 1738154 | 119 1 | 119 119 | 97.48 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c70
+		Marking as insignificant: 1738378 1738496 | 119 1 | 119 119 | 98.32 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c70
+		Marking as insignificant: 1737694 1737812 | 119 1 | 119 119 | 98.32 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c70
+		Marking as insignificant: 1737004 1737122 | 119 1 | 119 119 | 98.32 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c70
+		One align captures most of this contig: 1727834 1736780 | 8947 1 | 8947 8947 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c70
+
+CONTIG: pvcho_c71 (1677bp)
+Top Length: 207  Top ID: 98.55
+		This contig is partially unaligned. (207 out of 1677)
+		Alignment: 1509440 1509646 | 1471 1677 | 207 207 | 98.55 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c71
+		Unaligned bases: 1 to 1470 (1470)
+
+CONTIG: pvcho_c72 (619bp)
+		This contig is unaligned. (619 bp)
+		Unaligned bases: 619  total: 134619
+
+CONTIG: pvcho_c73 (2267bp)
+		This contig is unaligned. (2267 bp)
+		Unaligned bases: 2267  total: 136886
+
+CONTIG: pvcho_c74 (4656bp)
+Top Length: 4656  Top ID: 99.98
+		One align captures most of this contig: 544058 548713 | 1 4656 | 4656 4656 | 99.98 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c74
+
+CONTIG: pvcho_c76 (1502bp)
+Top Length: 1502  Top ID: 100.0
+		One align captures most of this contig: 133997 135498 | 1 1502 | 1502 1502 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c76
+
+CONTIG: pvcho_c77 (9983bp)
+		This contig is unaligned. (9983 bp)
+		Unaligned bases: 9983  total: 146869
+
+CONTIG: pvcho_c78 (629bp)
+		This contig is unaligned. (629 bp)
+		Unaligned bases: 629  total: 147498
+
+CONTIG: pvcho_c79 (1278bp)
+		This contig is unaligned. (1278 bp)
+		Unaligned bases: 1278  total: 148776
+
+CONTIG: pvcho_c110 (943bp)
+		This contig is unaligned. (943 bp)
+		Unaligned bases: 943  total: 149719
+
+CONTIG: pvcho_c111 (672bp)
+		This contig is unaligned. (672 bp)
+		Unaligned bases: 672  total: 150391
+
+CONTIG: pvcho_c112 (1870bp)
+		This contig is unaligned. (1870 bp)
+		Unaligned bases: 1870  total: 152261
+
+CONTIG: pvcho_rep_c532 (1124bp)
+Top Length: 1124  Top ID: 99.47
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 335335 336458 | 1 1124 | 1124 1124 | 99.47 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c532
+		Skipping alignment  381772 382892 | 4 1124 | 1121 1121 | 99.73 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c532
+
+CONTIG: pvcho_c115 (2005bp)
+		This contig is unaligned. (2005 bp)
+		Unaligned bases: 2005  total: 154266
+
+CONTIG: pvcho_c116 (850bp)
+Top Length: 850  Top ID: 100.0
+		Marking as insignificant: 1579144 1579306 | 163 1 | 163 163 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c116
+		Marking as insignificant: 1566690 1566857 | 850 683 | 168 168 | 99.4 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c116
+		One align captures most of this contig: 1573606 1574455 | 850 1 | 850 850 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c116
+
+CONTIG: pvcho_rep_c531 (1473bp)
+Top Length: 1379  Top ID: 99.85
+		Skipping redundant alignment 262290 263552 | 122 1384 | 1263 1263 | 99.92 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c531
+		Skipping redundant alignment 1578272 1578363 | 1382 1473 | 92 92 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c531
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1583124 1584484 | 122 1473 | 1361 1352 | 99.27 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c531
+			  Extensive misassembly ( relocation, inconsistency = 353121 ) between these two alignments
+			Real Alignment 2: 1937511 1938889 | 1379 1 | 1379 1379 | 99.85 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c531
+
+CONTIG: pvcho_c118 (506bp)
+		This contig is unaligned. (506 bp)
+		Unaligned bases: 506  total: 154772
+
+CONTIG: pvcho_c119 (2482bp)
+		This contig is unaligned. (2482 bp)
+		Unaligned bases: 2482  total: 157254
+
+CONTIG: pvcho_rep_c539 (1338bp)
+		This contig is unaligned. (1338 bp)
+		Unaligned bases: 1338  total: 158592
+
+CONTIG: pvcho_rep_c561 (915bp)
+		This contig is unaligned. (915 bp)
+		Unaligned bases: 915  total: 159507
+
+CONTIG: pvcho_c106 (882bp)
+		This contig is unaligned. (882 bp)
+		Unaligned bases: 882  total: 160389
+
+CONTIG: pvcho_rep_c527 (5849bp)
+Top Length: 5757  Top ID: 99.1
+		Skipping redundant alignment 762417 764364 | 1 1928 | 1948 1928 | 98.2 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c527
+		Skipping redundant alignment 53542 59023 | 77 5624 | 5482 5548 | 97.33 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c527
+		Skipping redundant alignment 2937411 2939262 | 1928 77 | 1852 1852 | 98.55 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c527
+		Skipping redundant alignment 150872 152648 | 151 1928 | 1777 1778 | 99.61 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c527
+		Skipping redundant alignment 2931690 2933481 | 1928 156 | 1792 1773 | 98.66 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c527
+		Skipping redundant alignment 2927661 2931395 | 5752 2021 | 3735 3732 | 99.06 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c527
+		Skipping redundant alignment 764451 768060 | 2094 5654 | 3610 3561 | 98.28 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c527
+		Skipping redundant alignment 152735 156165 | 2094 5523 | 3431 3430 | 99.74 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c527
+		Skipping redundant alignment 2933645 2937013 | 5517 2150 | 3369 3368 | 99.58 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c527
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [323861][329636] redundant alignment 323861 329636 | 72 5828 | 5776 5757 | 99.1 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c527
+		This contig is misassembled. 12 total aligns.
+			Real Alignment 1: 401484 407208 | 72 5794 | 5725 5723 | 99.23 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c527
+			  Extensive misassembly ( relocation, inconsistency = 2269294 ) between these two alignments
+			Real Alignment 2: 2676233 2681756 | 5525 1 | 5524 5525 | 99.82 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c527
+
+CONTIG: pvcho_c104 (3927bp)
+		This contig is unaligned. (3927 bp)
+		Unaligned bases: 3927  total: 164316
+
+CONTIG: pvcho_c103 (641bp)
+Top Length: 155  Top ID: 100.0
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1938615][1938769] redundant alignment 1938615 1938769 | 1 155 | 155 155 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c103
+		This contig is partially unaligned. (155 out of 641)
+		Alignment: 262290 262443 | 154 1 | 154 154 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c103
+		Unaligned bases: 155 to 641 (487)
+
+CONTIG: pvcho_c102 (1211bp)
+Top Length: 1211  Top ID: 96.2
+		One align captures most of this contig: 501748 502958 | 1211 1 | 1211 1211 | 96.2 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c102
+
+CONTIG: pvcho_c101 (1494bp)
+		This contig is unaligned. (1494 bp)
+		Unaligned bases: 1494  total: 165810
+
+CONTIG: pvcho_c100 (2874bp)
+		This contig is unaligned. (2874 bp)
+		Unaligned bases: 2874  total: 168684
+
+CONTIG: pvcho_rep_c529 (3414bp)
+Top Length: 2575  Top ID: 99.88
+		Skipping redundant alignment 1571395 1573608 | 2211 1 | 2214 2211 | 99.64 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c529
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1572920][1573773] redundant alignment 1572920 1573773 | 3414 2561 | 854 854 | 99.77 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c529
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1564118 1566692 | 2575 1 | 2575 2575 | 99.88 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c529
+			  Extensive misassembly ( relocation, inconsistency = 2725 ) between these two alignments
+			Real Alignment 2: 1566004 1566860 | 3414 2558 | 857 857 | 99.88 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c529
+
+CONTIG: pvcho_rep_c528 (674bp)
+Top Length: 674  Top ID: 99.85
+		Marking as insignificant: 1738720 1739072 | 619 267 | 353 353 | 98.87 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c528
+		Marking as insignificant: 1737346 1737970 | 619 1 | 625 619 | 97.92 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c528
+		Marking as insignificant: 1737004 1737628 | 619 1 | 625 619 | 97.92 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c528
+		Marking as insignificant: 1738378 1738996 | 619 1 | 619 619 | 99.52 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c528
+		Marking as insignificant: 1738036 1738654 | 619 1 | 619 619 | 99.52 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c528
+		Marking as insignificant: 1737694 1738312 | 619 1 | 619 619 | 99.52 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c528
+		One align captures most of this contig: 1736607 1737280 | 674 1 | 674 674 | 99.85 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c528
+
+CONTIG: pvcho_c109 (1144bp)
+		This contig is unaligned. (1144 bp)
+		Unaligned bases: 1144  total: 169828
+
+CONTIG: pvcho_rep_c549 (719bp)
+		This contig is unaligned. (719 bp)
+		Unaligned bases: 719  total: 170547
+
+CONTIG: pvcho_c16 (56477bp)
+Top Length: 42455  Top ID: 99.99
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 501700 544155 | 14023 56477 | 42456 42455 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c16
+			  Extensive misassembly ( relocation, inconsistency = 2160887 ) between these two alignments
+			Real Alignment 2: 2661335 2661460 | 12770 12895 | 126 126 | 97.62 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c16
+
+CONTIG: pvcho_c17 (92000bp)
+Top Length: 92000  Top ID: 99.99
+		Marking as insignificant: 1374806 1374930 | 81058 81182 | 125 125 | 95.2 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c17
+		Marking as insignificant: 2420145 2420269 | 83819 83695 | 125 125 | 96.8 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c17
+		Marking as insignificant: 1379312 1379439 | 75524 75651 | 128 128 | 96.88 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c17
+		Marking as insignificant: 2320635 2320763 | 75652 75524 | 129 129 | 96.9 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c17
+		Marking as insignificant: 569608 569739 | 75522 75653 | 132 132 | 96.97 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c17
+		Marking as insignificant: 952641 952773 | 75518 75651 | 133 134 | 96.27 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c17
+		One align captures most of this contig: 2467898 2559896 | 92000 1 | 91999 92000 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c17
+
+CONTIG: pvcho_c14 (87069bp)
+Top Length: 87069  Top ID: 99.99
+		Marking as insignificant: 362925 363014 | 79793 79702 | 90 92 | 96.74 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c14
+		Marking as insignificant: 2933201 2933481 | 1 281 | 281 281 | 99.64 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c14
+		One align captures most of this contig: 675785 762853 | 87069 1 | 87069 87069 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c14
+
+CONTIG: pvcho_c15 (83846bp)
+Top Length: 83846  Top ID: 99.99
+		One align captures most of this contig: 2559736 2643579 | 1 83846 | 83844 83846 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c15
+
+CONTIG: pvcho_c12 (81165bp)
+Top Length: 129  Top ID: 98.45
+		Skipping redundant alignment 2707358 2707485 | 62192 62319 | 128 128 | 97.66 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c12
+		Skipping redundant alignment 2484247 2484374 | 62192 62319 | 128 128 | 96.88 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c12
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [952645][952773] redundant alignment 952645 952773 | 62320 62192 | 129 129 | 98.45 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c12
+		Skipping [1379312][1379439] redundant alignment 1379312 1379439 | 62319 62192 | 128 128 | 98.44 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c12
+		Skipping [2320636][2320763] redundant alignment 2320636 2320763 | 62192 62319 | 128 128 | 98.44 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c12
+		This contig is partially unaligned. (129 out of 81165)
+		Alignment: 569610 569737 | 62319 62192 | 128 128 | 98.44 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c12
+		Unaligned bases: 1 to 62191 (62191)
+		Unaligned bases: 62320 to 81165 (18846)
+
+CONTIG: pvcho_c13 (137185bp)
+Top Length: 137183  Top ID: 99.99
+		Marking as insignificant: 260434 260594 | 160 1 | 161 160 | 98.14 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c13
+		One align captures most of this contig: 798777 935956 | 137183 1 | 137180 137183 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c13
+
+CONTIG: pvcho_c10 (140059bp)
+Top Length: 140059  Top ID: 99.99
+		Marking as insignificant: 767933 768060 | 46 173 | 128 128 | 99.22 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c10
+		Marking as insignificant: 58881 59023 | 1 143 | 143 143 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c10
+		Marking as insignificant: 329290 329560 | 1 272 | 271 272 | 96.32 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c10
+		Marking as insignificant: 406896 407166 | 1 272 | 271 272 | 97.06 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c10
+		One align captures most of this contig: 2787875 2927932 | 140059 1 | 140058 140059 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c10
+
+CONTIG: pvcho_c11 (25052bp)
+Top Length: 25052  Top ID: 100.0
+		One align captures most of this contig: 2762846 2787897 | 1 25052 | 25052 25052 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c11
+
+CONTIG: pvcho_rep_c534 (1086bp)
+		This contig is unaligned. (1086 bp)
+		Unaligned bases: 1086  total: 171633
+
+CONTIG: pvcho_c18 (135726bp)
+Top Length: 135726  Top ID: 99.99
+		Marking as insignificant: 2476079 2476203 | 47770 47646 | 125 125 | 96.8 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c18
+		One align captures most of this contig: 2332191 2467914 | 135726 1 | 135724 135726 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c18
+
+CONTIG: pvcho_c19 (94845bp)
+Top Length: 94845  Top ID: 99.99
+		Marking as insignificant: 334818 334896 | 71538 71460 | 79 79 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c19
+		Marking as insignificant: 334818 334896 | 71733 71655 | 79 79 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c19
+		Marking as insignificant: 329424 329602 | 1 179 | 179 179 | 97.77 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c19
+		One align captures most of this contig: 407030 501876 | 1 94845 | 94847 94845 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c19
+
+CONTIG: pvcho_rep_c693 (576bp)
+		This contig is unaligned. (576 bp)
+		Unaligned bases: 576  total: 172209
+
+CONTIG: pvcho_c89 (2002bp)
+		This contig is unaligned. (2002 bp)
+		Unaligned bases: 2002  total: 174211
+
+CONTIG: pvcho_c88 (1151bp)
+		This contig is unaligned. (1151 bp)
+		Unaligned bases: 1151  total: 175362
+
+CONTIG: pvcho_c85 (1005bp)
+		This contig is unaligned. (1005 bp)
+		Unaligned bases: 1005  total: 176367
+
+CONTIG: pvcho_c84 (1997bp)
+		This contig is unaligned. (1997 bp)
+		Unaligned bases: 1997  total: 178364
+
+CONTIG: pvcho_c87 (3468bp)
+		This contig is unaligned. (3468 bp)
+		Unaligned bases: 3468  total: 181832
+
+CONTIG: pvcho_c86 (1007bp)
+		This contig is unaligned. (1007 bp)
+		Unaligned bases: 1007  total: 182839
+
+CONTIG: pvcho_c81 (1012bp)
+		This contig is unaligned. (1012 bp)
+		Unaligned bases: 1012  total: 183851
+
+CONTIG: pvcho_c80 (1107bp)
+Top Length: 1107  Top ID: 100.0
+		One align captures most of this contig: 1510008 1511114 | 1107 1 | 1107 1107 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c80
+
+CONTIG: pvcho_c83 (1201bp)
+		This contig is unaligned. (1201 bp)
+		Unaligned bases: 1201  total: 185052
+
+CONTIG: pvcho_c82 (4341bp)
+		This contig is unaligned. (4341 bp)
+		Unaligned bases: 4341  total: 189393
+
+CONTIG: pvcho_rep_c665 (628bp)
+Top Length: 628  Top ID: 100.0
+		Marking as insignificant: 2931182 2931266 | 628 544 | 85 85 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+		Marking as insignificant: 2679523 2679607 | 628 544 | 85 85 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+		Marking as insignificant: 764507 764591 | 544 628 | 85 85 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+		Marking as insignificant: 403564 403648 | 544 628 | 85 85 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+		Marking as insignificant: 325958 326042 | 544 628 | 85 85 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+		Marking as insignificant: 152791 152875 | 544 628 | 85 85 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+		Marking as insignificant: 55549 55633 | 544 628 | 85 85 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+		Marking as insignificant: 2679829 2679974 | 146 1 | 146 146 | 97.95 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+		Marking as insignificant: 325591 325736 | 1 146 | 146 146 | 98.63 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+		Marking as insignificant: 403196 403341 | 1 146 | 146 146 | 99.32 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+		Marking as insignificant: 55267 55412 | 1 146 | 146 146 | 99.32 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+		Marking as insignificant: 764219 764454 | 1 236 | 236 236 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+		Marking as insignificant: 152503 152738 | 1 236 | 236 236 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+		Marking as insignificant: 2931400 2931835 | 436 1 | 436 436 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+		One align captures most of this contig: 2936929 2937556 | 628 1 | 628 628 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c665
+
+CONTIG: pvcho_c8 (211915bp)
+Top Length: 128  Top ID: 98.44
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1745112][1745241] redundant alignment 1745112 1745241 | 83427 83556 | 130 130 | 96.92 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c8
+		Skipping [2885419][2885549] redundant alignment 2885419 2885549 | 83425 83555 | 131 131 | 95.42 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c8
+		This contig is partially unaligned. (128 out of 211915)
+		Alignment: 1683879 1684006 | 83428 83555 | 128 128 | 98.44 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c8
+		Unaligned bases: 1 to 83427 (83427)
+		Unaligned bases: 83556 to 211915 (128360)
+
+CONTIG: pvcho_c9 (43352bp)
+Top Length: 43338  Top ID: 99.88
+		One align captures most of this contig: 1510064 1553400 | 1 43338 | 43337 43338 | 99.88 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c9
+
+CONTIG: pvcho_c4 (99825bp)
+Top Length: 60340  Top ID: 99.99
+		Skipping redundant alignment 935797 935981 | 37635 37820 | 185 186 | 98.39 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c4
+		Skipping redundant alignment 401282 401508 | 99599 99825 | 227 227 | 96.92 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c4
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 222800 262290 | 1 39491 | 39491 39491 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c4
+			  Extensive misassembly ( relocation, inconsistency = 1261 ) between these two alignments
+			Real Alignment 2: 263546 323885 | 39486 99825 | 60340 60340 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c4
+
+CONTIG: pvcho_c5 (55736bp)
+Top Length: 53916  Top ID: 99.99
+		Skipping redundant alignment 323866 324240 | 375 1 | 375 375 | 96.29 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c5
+		Skipping redundant alignment 2933186 2933481 | 1 296 | 296 296 | 99.33 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c5
+		Skipping redundant alignment 1310926 1311053 | 17918 17791 | 128 128 | 96.88 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c5
+		Skipping redundant alignment 1374806 1374925 | 37243 37124 | 120 120 | 96.67 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c5
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 2: 2959330 2961149 | 55736 53917 | 1820 1820 | 99.95 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c5
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 1: 1 53916 | 53916 1 | 53916 53916 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c5
+
+CONTIG: pvcho_c6 (76878bp)
+Top Length: 76878  Top ID: 99.99
+		Marking as insignificant: 569610 569738 | 21411 21283 | 129 129 | 97.67 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c6
+		One align captures most of this contig: 2686075 2762951 | 1 76878 | 76877 76878 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c6
+
+CONTIG: pvcho_c7 (2808bp)
+Top Length: 2801  Top ID: 100.0
+		Marking as insignificant: 478684 478762 | 2207 2129 | 79 79 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c7
+		Marking as insignificant: 478489 478567 | 2207 2129 | 79 79 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c7
+		Marking as insignificant: 973168 973256 | 2328 2240 | 89 89 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c7
+		Marking as insignificant: 973675 973764 | 2329 2240 | 90 90 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c7
+		Marking as insignificant: 973503 973594 | 2331 2240 | 92 92 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c7
+		Marking as insignificant: 973334 973425 | 2331 2240 | 92 92 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c7
+		Marking as insignificant: 381761 381931 | 2638 2808 | 171 171 | 99.42 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c7
+		One align captures most of this contig: 332697 335497 | 8 2808 | 2801 2801 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c7
+
+CONTIG: pvcho_c1 (59304bp)
+Top Length: 59298  Top ID: 99.99
+		Marking as insignificant: 1100009 1100206 | 35227 35030 | 198 198 | 95.45 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c1
+		Marking as insignificant: 581355 581729 | 1 373 | 375 373 | 95.74 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c1
+		One align captures most of this contig: 581636 640929 | 1 59298 | 59294 59298 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c1
+
+CONTIG: pvcho_c2 (48063bp)
+Top Length: 48063  Top ID: 99.99
+		One align captures most of this contig: 174773 222835 | 1 48063 | 48063 48063 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c2
+
+CONTIG: pvcho_c3 (75190bp)
+Top Length: 75190  Top ID: 99.99
+		Marking as insignificant: 767933 768030 | 56 153 | 98 98 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c3
+		Marking as insignificant: 2927790 2927942 | 153 1 | 153 153 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c3
+		Marking as insignificant: 406886 407038 | 1 153 | 153 153 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c3
+		Marking as insignificant: 329280 329432 | 1 153 | 153 153 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c3
+		One align captures most of this contig: 58871 134060 | 1 75190 | 75190 75190 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c3
+
+CONTIG: pvcho_rep_c536 (516bp)
+Top Length: 516  Top ID: 100.0
+		One align captures most of this contig: 1568384 1568899 | 516 1 | 516 516 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c536
+
+CONTIG: pvcho_c98 (5191bp)
+Top Length: 122  Top ID: 99.18
+		This contig is partially unaligned. (122 out of 5191)
+		Alignment: 1936727 1936848 | 5070 5191 | 122 122 | 99.18 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c98
+		Unaligned bases: 1 to 5069 (5069)
+
+CONTIG: pvcho_c99 (1264bp)
+		This contig is unaligned. (1264 bp)
+		Unaligned bases: 1264  total: 190657
+
+CONTIG: pvcho_c96 (1732bp)
+		This contig is unaligned. (1732 bp)
+		Unaligned bases: 1732  total: 192389
+
+CONTIG: pvcho_c97 (627bp)
+		This contig is unaligned. (627 bp)
+		Unaligned bases: 627  total: 193016
+
+CONTIG: pvcho_c94 (1062bp)
+		This contig is unaligned. (1062 bp)
+		Unaligned bases: 1062  total: 194078
+
+CONTIG: pvcho_c95 (5258bp)
+		This contig is unaligned. (5258 bp)
+		Unaligned bases: 5258  total: 199336
+
+CONTIG: pvcho_c92 (2944bp)
+		This contig is unaligned. (2944 bp)
+		Unaligned bases: 2944  total: 202280
+
+CONTIG: pvcho_c93 (4284bp)
+		This contig is unaligned. (4284 bp)
+		Unaligned bases: 4284  total: 206564
+
+CONTIG: pvcho_c90 (2039bp)
+		This contig is unaligned. (2039 bp)
+		Unaligned bases: 2039  total: 208603
+
+CONTIG: pvcho_c91 (1346bp)
+		This contig is unaligned. (1346 bp)
+		Unaligned bases: 1346  total: 209949
+
+CONTIG: pvcho_rep_c533 (816bp)
+Top Length: 816  Top ID: 100.0
+		One align captures most of this contig: 1569848 1570663 | 1 816 | 816 816 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_rep_c533
+
+CONTIG: pvcho_rep_c576 (722bp)
+		This contig is unaligned. (722 bp)
+		Unaligned bases: 722  total: 210671
+
+CONTIG: pvcho_rep_c575 (794bp)
+		This contig is unaligned. (794 bp)
+		Unaligned bases: 794  total: 211465
+
+CONTIG: pvcho_c157 (556bp)
+Top Length: 177  Top ID: 97.75
+		Skipping redundant alignment 935797 935968 | 385 556 | 172 172 | 99.42 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c157
+		This contig is partially unaligned. (177 out of 556)
+		Alignment: 260429 260606 | 380 556 | 178 177 | 97.75 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c157
+		Unaligned bases: 1 to 379 (379)
+
+CONTIG: pvcho_c151 (1230bp)
+		This contig is unaligned. (1230 bp)
+		Unaligned bases: 1230  total: 212695
+
+CONTIG: pvcho_c152 (652bp)
+		This contig is unaligned. (652 bp)
+		Unaligned bases: 652  total: 213347
+
+CONTIG: pvcho_c153 (799bp)
+		This contig is unaligned. (799 bp)
+		Unaligned bases: 799  total: 214146
+
+CONTIG: pvcho_rep_c544 (800bp)
+		This contig is unaligned. (800 bp)
+		Unaligned bases: 800  total: 214946
+
+CONTIG: pvcho_c29 (12693bp)
+Top Length: 12693  Top ID: 99.98
+		Marking as insignificant: 2331588 2331669 | 402 322 | 82 81 | 98.78 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c29
+		Marking as insignificant: 2484246 2484374 | 11000 10872 | 129 129 | 96.9 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c29
+		Marking as insignificant: 569610 569738 | 10872 11000 | 129 129 | 98.45 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c29
+		Marking as insignificant: 952646 952773 | 10872 10999 | 128 128 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c29
+		Marking as insignificant: 1379311 1379439 | 10871 10999 | 129 129 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c29
+		Marking as insignificant: 2332040 2332235 | 730 529 | 196 202 | 95.54 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c29
+		Marking as insignificant: 2332040 2332289 | 251 1 | 250 251 | 99.2 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c29
+		One align captures most of this contig: 2318942 2331634 | 12693 1 | 12693 12693 | 99.98 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c29
+
+CONTIG: pvcho_c28 (62690bp)
+Top Length: 62673  Top ID: 99.99
+		One align captures most of this contig: 2256360 2319033 | 10 62682 | 62674 62673 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c28
+
+CONTIG: pvcho_c23 (28397bp)
+Top Length: 26318  Top ID: 99.97
+		Skipping redundant alignment 2484245 2484376 | 7245 7376 | 132 132 | 96.97 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c23
+		Skipping redundant alignment 2320635 2320763 | 7246 7374 | 129 129 | 98.45 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c23
+		Skipping redundant alignment 2707357 2707485 | 7246 7374 | 129 129 | 97.67 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c23
+		Skipping redundant alignment 952646 952773 | 7374 7247 | 128 128 | 98.44 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c23
+		Skipping redundant alignment 1379312 1379439 | 7374 7247 | 128 128 | 98.44 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c23
+		This contig is misassembled. 7 total aligns.
+			Real Alignment 1: 548636 574944 | 28357 2040 | 26309 26318 | 99.97 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c23
+			  Gap between these two alignments (local misassembly). Inconsistency = 8
+			Real Alignment 2: 554954 576983 | 22038 1 | 22030 22038 | 99.96 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c23
+
+CONTIG: pvcho_c22 (19262bp)
+Top Length: 19262  Top ID: 99.98
+		Marking as insignificant: 2933366 2933481 | 1 116 | 116 116 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c22
+		Marking as insignificant: 150876 150991 | 116 1 | 116 116 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c22
+		Marking as insignificant: 53542 53735 | 195 1 | 194 195 | 95.41 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c22
+		Marking as insignificant: 2939068 2939262 | 1 195 | 195 195 | 96.43 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c22
+		Marking as insignificant: 323659 324060 | 402 1 | 402 402 | 97.51 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c22
+		Marking as insignificant: 335988 336511 | 19262 18739 | 524 524 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c22
+		One align captures most of this contig: 382422 401683 | 19262 1 | 19262 19262 | 99.98 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c22
+
+CONTIG: pvcho_c21 (15609bp)
+Top Length: 15609  Top ID: 99.95
+		Marking as insignificant: 2939071 2939183 | 1 113 | 113 113 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c21
+		Marking as insignificant: 401568 401680 | 113 1 | 113 113 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c21
+		Marking as insignificant: 323945 324057 | 113 1 | 113 113 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c21
+		Marking as insignificant: 2933369 2933483 | 1 115 | 115 115 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c21
+		Marking as insignificant: 762568 762685 | 117 1 | 118 117 | 98.31 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c21
+		Marking as insignificant: 2661337 2661458 | 9935 10056 | 122 122 | 95.08 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c21
+		Marking as insignificant: 1745119 1745240 | 9935 10056 | 122 122 | 95.08 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c21
+		Marking as insignificant: 2681489 2681606 | 1 117 | 118 117 | 99.15 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c21
+		One align captures most of this contig: 135374 150988 | 15609 1 | 15615 15609 | 99.95 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c21
+
+CONTIG: pvcho_c20 (176605bp)
+Top Length: 942  Top ID: 95.12
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1584249][1584391] redundant alignment 1584249 1584391 | 1 143 | 143 143 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c20
+		Skipping [1937511][1937652] redundant alignment 1937511 1937652 | 142 1 | 142 142 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c20
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 176605 and total length of all aligns is 1203
+		Alignment: 263406 263548 | 1 143 | 143 143 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c20
+		Alignment: 502834 503761 | 176605 175664 | 928 942 | 95.12 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c20
+		Alignment: 1294098 1294218 | 36129 36246 | 121 118 | 95.08 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c20
+		Unaligned bases: 175402
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: pvcho_c27 (102671bp)
+Top Length: 102661  Top ID: 99.99
+		One align captures most of this contig: 2002991 2105649 | 102663 3 | 102659 102661 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c27
+
+CONTIG: pvcho_c26 (12058bp)
+Top Length: 12058  Top ID: 100.0
+		Marking as insignificant: 2933366 2933481 | 12058 11943 | 116 116 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c26
+		Marking as insignificant: 150876 150991 | 11943 12058 | 116 116 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c26
+		Marking as insignificant: 323866 324060 | 11864 12058 | 195 195 | 95.92 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c26
+		Marking as insignificant: 401489 401683 | 11864 12058 | 195 195 | 96.43 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c26
+		Marking as insignificant: 53448 53735 | 11770 12058 | 288 289 | 96.89 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c26
+		One align captures most of this contig: 2939068 2951125 | 12058 1 | 12058 12058 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c26
+
+CONTIG: pvcho_c25 (32841bp)
+Top Length: 32841  Top ID: 99.99
+		Marking as insignificant: 140933 141054 | 17903 17782 | 122 122 | 95.08 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c25
+		Marking as insignificant: 1745113 1745240 | 17776 17903 | 128 128 | 95.31 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c25
+		Marking as insignificant: 2933645 2933801 | 32685 32841 | 157 157 | 99.36 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c25
+		Marking as insignificant: 156003 156161 | 32841 32683 | 159 159 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c25
+		Marking as insignificant: 767717 767877 | 32841 32681 | 161 161 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c25
+		Marking as insignificant: 2927889 2928053 | 32678 32841 | 165 164 | 98.79 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c25
+		Marking as insignificant: 406775 406939 | 32841 32678 | 165 164 | 99.39 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c25
+		Marking as insignificant: 329169 329333 | 32841 32678 | 165 164 | 99.39 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c25
+		Marking as insignificant: 58760 58924 | 32841 32678 | 165 164 | 99.39 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c25
+		One align captures most of this contig: 2643557 2676396 | 1 32841 | 32840 32841 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c25
+
+CONTIG: pvcho_c24 (35052bp)
+Top Length: 35052  Top ID: 99.99
+		One align captures most of this contig: 640842 675893 | 1 35052 | 35052 35052 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c24
+
+CONTIG: pvcho_c49 (40919bp)
+Top Length: 26443  Top ID: 99.99
+		Skipping redundant alignment 382853 382945 | 1 93 | 93 93 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c49
+		Skipping redundant alignment 1293989 1294069 | 25443 25523 | 81 81 | 98.77 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c49
+		Skipping redundant alignment 1294227 1294302 | 25444 25519 | 76 76 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c49
+		Skipping redundant alignment 1293989 1294069 | 25553 25633 | 81 81 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c49
+		Skipping redundant alignment 1294227 1294305 | 25554 25632 | 79 79 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c49
+		Skipping redundant alignment 1293989 1294065 | 25785 25861 | 77 77 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c49
+		Skipping redundant alignment 1294227 1294302 | 25786 25861 | 76 76 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c49
+		Skipping redundant alignment 362805 362887 | 25896 25978 | 83 83 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c49
+		Skipping redundant alignment 1293989 1294071 | 26011 26093 | 83 83 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c49
+		Skipping redundant alignment 1294227 1294305 | 26012 26090 | 79 79 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c49
+		This contig is misassembled. 12 total aligns.
+			Real Alignment 1: 336419 362860 | 1 26443 | 26442 26443 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c49
+			  Gap between these two alignments (local misassembly). Inconsistency = 119
+			Real Alignment 2: 362887 377455 | 26351 40919 | 14569 14569 | 99.97 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c49
+
+CONTIG: pvcho_c48 (60575bp)
+Top Length: 49665  Top ID: 99.98
+		Skipping redundant alignment 2661331 2661458 | 54373 54246 | 128 128 | 95.31 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c48
+		Skipping redundant alignment 140933 141054 | 54246 54367 | 122 122 | 95.08 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c48
+		Skipping redundant alignment 1736853 1737014 | 60575 60414 | 162 162 | 99.38 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c48
+		Skipping redundant alignment 1737195 1737356 | 60575 60414 | 162 162 | 99.38 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c48
+		Skipping redundant alignment 1737543 1737704 | 60575 60414 | 162 162 | 99.38 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c48
+		Skipping redundant alignment 1737885 1738046 | 60575 60414 | 162 162 | 99.38 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c48
+		Skipping redundant alignment 1738227 1738388 | 60575 60414 | 162 162 | 99.38 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c48
+		Skipping redundant alignment 1738569 1738730 | 60575 60414 | 162 162 | 99.38 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c48
+		This contig is misassembled. 10 total aligns.
+			Real Alignment 1: 1738911 1788564 | 60575 10911 | 49654 49665 | 99.98 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c48
+			  Gap between these two alignments (local misassembly). Inconsistency = 10
+			Real Alignment 2: 1768521 1799474 | 30964 1 | 30954 30964 | 99.97 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c48
+
+CONTIG: pvcho_c41 (30855bp)
+Top Length: 30841  Top ID: 99.99
+		Marking as insignificant: 58948 59023 | 30855 30780 | 76 76 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c41
+		Marking as insignificant: 2927760 2927865 | 30750 30855 | 106 106 | 99.06 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c41
+		Marking as insignificant: 406963 407068 | 30855 30750 | 106 106 | 99.06 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c41
+		Marking as insignificant: 329357 329462 | 30855 30750 | 106 106 | 99.06 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c41
+		One align captures most of this contig: 767955 798795 | 30855 15 | 30841 30841 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c41
+
+CONTIG: pvcho_c40 (4508bp)
+Top Length: 4508  Top ID: 99.98
+		Marking as insignificant: 581764 581842 | 4131 4209 | 79 79 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c40
+		Marking as insignificant: 581482 581560 | 4131 4209 | 79 79 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c40
+		Marking as insignificant: 581629 581750 | 4387 4508 | 122 122 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c40
+		One align captures most of this contig: 576962 581469 | 1 4508 | 4508 4508 | 99.98 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c40
+
+CONTIG: pvcho_c43 (8410bp)
+Top Length: 8410  Top ID: 100.0
+		One align captures most of this contig: 2950959 2959368 | 1 8410 | 8410 8410 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c43
+
+CONTIG: pvcho_c42 (3395bp)
+Top Length: 3395  Top ID: 99.97
+		Marking as insignificant: 407002 407208 | 1 207 | 207 207 | 98.07 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c42
+		One align captures most of this contig: 329396 332790 | 1 3395 | 3395 3395 | 99.97 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c42
+
+CONTIG: pvcho_c45 (12594bp)
+		This contig is unaligned. (12594 bp)
+		Unaligned bases: 12594  total: 227540
+
+CONTIG: pvcho_c44 (14430bp)
+Top Length: 14430  Top ID: 99.99
+		Marking as insignificant: 16674 16793 | 439 320 | 120 120 | 96.67 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c44
+		Marking as insignificant: 2478716 2478840 | 315 439 | 125 125 | 95.2 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c44
+		One align captures most of this contig: 1360815 1375244 | 14430 1 | 14430 14430 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c44
+
+CONTIG: pvcho_c47 (78902bp)
+Top Length: 78884  Top ID: 99.99
+		One align captures most of this contig: 993115 1071997 | 78884 1 | 78883 78884 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c47
+
+CONTIG: pvcho_c46 (7141bp)
+Top Length: 7141  Top ID: 99.99
+		Marking as insignificant: 2199483 2199611 | 6944 6813 | 129 132 | 95.45 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c46
+		Marking as insignificant: 2933645 2933796 | 6990 7141 | 152 152 | 99.34 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c46
+		Marking as insignificant: 2676238 2676391 | 6988 7141 | 154 154 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c46
+		Marking as insignificant: 767722 767875 | 7141 6988 | 154 154 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c46
+		Marking as insignificant: 2927891 2928048 | 6984 7141 | 158 158 | 99.37 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c46
+		Marking as insignificant: 406780 406937 | 7141 6984 | 158 158 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c46
+		Marking as insignificant: 329174 329331 | 7141 6984 | 158 158 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c46
+		Marking as insignificant: 58765 58922 | 7141 6984 | 158 158 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c46
+		One align captures most of this contig: 156008 163148 | 7141 1 | 7141 7141 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c46
+
+CONTIG: pvcho_c140 (505bp)
+		This contig is unaligned. (505 bp)
+		Unaligned bases: 505  total: 228045
+
+CONTIG: pvcho_c147 (1365bp)
+		This contig is unaligned. (1365 bp)
+		Unaligned bases: 1365  total: 229410
+
+CONTIG: pvcho_c146 (973bp)
+Top Length: 355  Top ID: 98.87
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1572485][1572839] redundant alignment 1572485 1572839 | 973 619 | 355 355 | 98.87 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c146
+		Skipping [1573283][1573447] redundant alignment 1573283 1573447 | 165 1 | 165 165 | 99.39 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c146
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1565569 1565923 | 973 619 | 355 355 | 98.87 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c146
+			  Overlap between these two alignments (local misassembly). Inconsistency = -10
+			Real Alignment 2: 1566367 1566531 | 165 1 | 165 165 | 99.39 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c146
+
+CONTIG: pvcho_c38 (11930bp)
+Top Length: 11930  Top ID: 99.97
+		Marking as insignificant: 2375624 2375701 | 4488 4411 | 78 78 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c38
+		One align captures most of this contig: 163025 174954 | 1 11930 | 11930 11930 | 99.97 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c38
+
+CONTIG: pvcho_c39 (108623bp)
+Top Length: 108623  Top ID: 99.99
+		One align captures most of this contig: 1828842 1937459 | 108623 1 | 108618 108623 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c39
+
+CONTIG: pvcho_c34 (10753bp)
+Top Length: 10510  Top ID: 99.91
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1484631 1484713 | 10510 10592 | 83 83 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c34
+			  Extensive misassembly ( relocation, inconsistency = 79244 ) between these two alignments
+			Real Alignment 2: 1553366 1563874 | 1 10510 | 10509 10510 | 99.91 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c34
+			  Extensive misassembly ( relocation, inconsistency = 1104654 ) between these two alignments
+			Real Alignment 3: 2668597 2668771 | 10579 10753 | 175 175 | 98.29 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c34
+
+CONTIG: pvcho_c35 (316666bp)
+Top Length: 171619  Top ID: 99.99
+		Skipping redundant alignment 1581436 1583124 | 1 1689 | 1689 1689 | 99.94 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c35
+		Skipping redundant alignment 1310925 1311053 | 73338 73210 | 129 129 | 97.67 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c35
+		Skipping redundant alignment 361971 362049 | 161845 161767 | 79 79 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c35
+		Skipping redundant alignment 362429 362507 | 161845 161767 | 79 79 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c35
+		Skipping redundant alignment 361861 361936 | 161845 161770 | 76 76 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c35
+		Skipping redundant alignment 362203 362278 | 161845 161770 | 76 76 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c35
+		Skipping redundant alignment 362428 362510 | 162083 162001 | 83 83 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c35
+		Skipping redundant alignment 361970 362050 | 162083 162003 | 81 81 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c35
+		Skipping redundant alignment 361860 361940 | 162083 162003 | 81 81 | 98.77 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c35
+		Skipping redundant alignment 362202 362278 | 162083 162007 | 77 77 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c35
+		This contig is misassembled. 14 total aligns.
+			Real Alignment 1: 1139437 1311053 | 316637 145019 | 171617 171619 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c35
+			  Extensive misassembly ( relocation, inconsistency = 120514 ) between these two alignments
+			Real Alignment 2: 1576585 1579135 | 1 2551 | 2551 2551 | 99.88 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c35
+			  Extensive misassembly ( relocation, inconsistency = 6121 ) between these two alignments
+			Real Alignment 3: 1584391 1712303 | 1686 129601 | 127913 127916 | 99.98 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c35
+			  Gap between these two alignments (local misassembly). Inconsistency = 98
+			Real Alignment 4: 1712404 1727946 | 129604 145146 | 15543 15543 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c35
+
+CONTIG: pvcho_c36 (16529bp)
+Top Length: 16529  Top ID: 99.99
+		Marking as insignificant: 2484252 2484380 | 16513 16386 | 129 128 | 96.9 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c36
+		Marking as insignificant: 569610 569737 | 16391 16518 | 128 128 | 97.66 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c36
+		Marking as insignificant: 2320636 2320763 | 16518 16391 | 128 128 | 99.22 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c36
+		Marking as insignificant: 1379312 1379440 | 16391 16519 | 129 129 | 99.22 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c36
+		One align captures most of this contig: 936256 952784 | 1 16529 | 16529 16529 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c36
+
+CONTIG: pvcho_c37 (49911bp)
+Top Length: 49911  Top ID: 99.99
+		Marking as insignificant: 35999 36126 | 5 132 | 128 128 | 96.88 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c37
+		Marking as insignificant: 1655914 1656042 | 132 4 | 129 129 | 97.67 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c37
+		One align captures most of this contig: 1310922 1360833 | 1 49911 | 49912 49911 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c37
+
+CONTIG: pvcho_c30 (129237bp)
+Top Length: 125  Top ID: 100.0
+		Skipping redundant alignment 1938646 1938768 | 129237 129115 | 123 123 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c30
+		This contig is partially unaligned. (125 out of 129237)
+		Alignment: 262288 262412 | 129113 129237 | 125 125 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c30
+		Unaligned bases: 1 to 129112 (129112)
+
+CONTIG: pvcho_c31 (67536bp)
+Top Length: 55943  Top ID: 99.99
+		Skipping redundant alignment 616664 616861 | 28169 27972 | 198 198 | 95.45 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c31
+		Skipping redundant alignment 954481 954665 | 28169 27985 | 185 185 | 95.14 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c31
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1071926 1083850 | 8 11932 | 11925 11925 | 99.77 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c31
+			  Gap between these two alignments (local misassembly). Inconsistency = 120
+			Real Alignment 2: 1083573 1139514 | 11535 67477 | 55942 55943 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c31
+
+CONTIG: pvcho_c32 (134542bp)
+Top Length: 134529  Top ID: 99.99
+		Marking as insignificant: 2484247 2484374 | 130250 130377 | 128 128 | 96.88 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c32
+		Marking as insignificant: 569610 569737 | 130377 130250 | 128 128 | 98.44 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c32
+		Marking as insignificant: 2320636 2320764 | 130250 130378 | 129 129 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c32
+		Marking as insignificant: 952646 952774 | 130377 130249 | 129 129 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c32
+		One align captures most of this contig: 1375160 1509684 | 134529 1 | 134525 134529 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c32
+
+CONTIG: pvcho_c33 (150873bp)
+Top Length: 150873  Top ID: 99.99
+		Marking as insignificant: 156205 156336 | 93905 94033 | 132 129 | 95.45 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c33
+		One align captures most of this contig: 2105580 2256451 | 1 150873 | 150872 150873 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence pvcho_c33
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/737/dataset_774_files/contigs_reports/nucmer_output/VC-H-Mira.used_snps
+	Reference gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence: 103 total alignments. 1 total regions.
+		Region: 1 to 2961149 (2961149 bp)
+			Align 1: 1 53916 pvcho_c5 53916 1
+				Gap between this and next alignment: 53916 to 58871 (4954 bp)
+				Next Alignment: 58871 134060 pvcho_c3 1 75190
+
+			Align 2: 58871 134060 pvcho_c3 1 75190
+				Negative gap (overlap) between this and next alignment: 134060 to 133997 (-63 bp)
+				Next Alignment: 133997 135498 pvcho_c76 1 1502
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 65.
+			Align 3: 134061 135498 pvcho_c76 65 1502
+				Negative gap (overlap) between this and next alignment: 135498 to 135374 (-124 bp)
+				Next Alignment: 135374 150988 pvcho_c21 15609 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 15609 to 15484.
+			Align 4: 135499 150988 pvcho_c21 15484 1
+				Gap between this and next alignment: 150988 to 156008 (5019 bp)
+				Next Alignment: 156008 163148 pvcho_c46 7141 1
+
+			Align 5: 156008 163148 pvcho_c46 7141 1
+				Negative gap (overlap) between this and next alignment: 163148 to 163025 (-123 bp)
+				Next Alignment: 163025 174954 pvcho_c38 1 11930
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 125.
+			Align 6: 163149 174954 pvcho_c38 125 11930
+				Negative gap (overlap) between this and next alignment: 174954 to 174773 (-181 bp)
+				Next Alignment: 174773 222835 pvcho_c2 1 48063
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 183.
+			Align 7: 174955 222835 pvcho_c2 183 48063
+				Negative gap (overlap) between this and next alignment: 222835 to 222800 (-35 bp)
+				Next Alignment: 222800 262290 pvcho_c4 1 39491
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 37.
+			Align 8: 222836 262290 pvcho_c4 37 39491
+				The next alignment (260429 260606 pvcho_c157 380 556) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 262290 to 262287 (-3 bp)
+				Next Alignment: 262287 262401 pvcho_c131 115 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 115 to 111.
+			Align 10: 262291 262401 pvcho_c131 111 1
+				Negative gap (overlap) between this and next alignment: 262401 to 262288 (-113 bp)
+				Next Alignment: 262288 262412 pvcho_c30 129113 129237
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 129113 to 129227.
+			Align 11: 262402 262412 pvcho_c30 129227 129237
+				Negative gap (overlap) between this and next alignment: 262412 to 262290 (-122 bp)
+				Next Alignment: 262290 262443 pvcho_c103 154 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 154 to 31.
+			Align 12: 262413 262443 pvcho_c103 31 1
+				Gap between this and next alignment: 262443 to 263546 (1102 bp)
+				Next Alignment: 263546 323885 pvcho_c4 39486 99825
+
+			Align 13: 263546 323885 pvcho_c4 39486 99825
+				Gap between this and next alignment: 323885 to 329396 (5510 bp)
+				Next Alignment: 329396 332790 pvcho_c42 1 3395
+
+			Align 14: 329396 332790 pvcho_c42 1 3395
+				Negative gap (overlap) between this and next alignment: 332790 to 332697 (-93 bp)
+				Next Alignment: 332697 335497 pvcho_c7 8 2808
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 8 to 102.
+			Align 15: 332791 335497 pvcho_c7 102 2808
+				Negative gap (overlap) between this and next alignment: 335497 to 335335 (-162 bp)
+				Next Alignment: 335335 336458 pvcho_rep_c532 1 1124
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 164.
+			Align 16: 335498 336458 pvcho_rep_c532 164 1124
+				Negative gap (overlap) between this and next alignment: 336458 to 336419 (-39 bp)
+				Next Alignment: 336419 362860 pvcho_c49 1 26443
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 41.
+			Align 17: 336459 362860 pvcho_c49 41 26443
+				Gap between this and next alignment: 362860 to 362887 (26 bp)
+				Next Alignment: 362887 377455 pvcho_c49 26351 40919
+
+			Align 18: 362887 377455 pvcho_c49 26351 40919
+				Negative gap (overlap) between this and next alignment: 377455 to 377383 (-72 bp)
+				Next Alignment: 377383 381924 pvcho_c63 4542 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4542 to 4469.
+			Align 19: 377456 381924 pvcho_c63 4469 1
+				Gap between this and next alignment: 381924 to 382422 (497 bp)
+				Next Alignment: 382422 401683 pvcho_c22 19262 1
+
+			Align 20: 382422 401683 pvcho_c22 19262 1
+				Negative gap (overlap) between this and next alignment: 401683 to 401484 (-199 bp)
+				Next Alignment: 401484 407208 pvcho_rep_c527 72 5794
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 72 to 272.
+			Align 21: 401684 407208 pvcho_rep_c527 272 5794
+				Negative gap (overlap) between this and next alignment: 407208 to 407030 (-178 bp)
+				Next Alignment: 407030 501876 pvcho_c19 1 94845
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 180.
+			Align 22: 407209 501876 pvcho_c19 180 94845
+				Negative gap (overlap) between this and next alignment: 501876 to 501700 (-176 bp)
+				Next Alignment: 501700 544155 pvcho_c16 14023 56477
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 14023 to 14200.
+			Align 23: 501877 544155 pvcho_c16 14200 56477
+				The next alignment (501748 502958 pvcho_c102 1211 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 544155 to 544058 (-97 bp)
+				Next Alignment: 544058 548713 pvcho_c74 1 4656
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 99.
+			Align 25: 544156 548713 pvcho_c74 99 4656
+				Negative gap (overlap) between this and next alignment: 548713 to 548636 (-77 bp)
+				Next Alignment: 548636 574944 pvcho_c23 28357 2040
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 28357 to 28279.
+			Align 26: 548714 574944 pvcho_c23 28279 2040
+				Negative gap (overlap) between this and next alignment: 574944 to 554954 (-19990 bp)
+				Next Alignment: 554954 576983 pvcho_c23 22038 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 22038 to 2031.
+			Align 27: 574945 576983 pvcho_c23 2031 1
+				The next alignment (569610 569737 pvcho_c12 62319 62192) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 576983 to 576962 (-21 bp)
+				Next Alignment: 576962 581469 pvcho_c40 1 4508
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 23.
+			Align 29: 576984 581469 pvcho_c40 23 4508
+				Gap between this and next alignment: 581469 to 581636 (166 bp)
+				Next Alignment: 581636 640929 pvcho_c1 1 59298
+
+			Align 30: 581636 640929 pvcho_c1 1 59298
+				Negative gap (overlap) between this and next alignment: 640929 to 640842 (-87 bp)
+				Next Alignment: 640842 675893 pvcho_c24 1 35052
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 89.
+			Align 31: 640930 675893 pvcho_c24 89 35052
+				Negative gap (overlap) between this and next alignment: 675893 to 675785 (-108 bp)
+				Next Alignment: 675785 762853 pvcho_c14 87069 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 87069 to 86960.
+			Align 32: 675894 762853 pvcho_c14 86960 1
+				Gap between this and next alignment: 762853 to 767955 (5101 bp)
+				Next Alignment: 767955 798795 pvcho_c41 30855 15
+
+			Align 33: 767955 798795 pvcho_c41 30855 15
+				Negative gap (overlap) between this and next alignment: 798795 to 798777 (-18 bp)
+				Next Alignment: 798777 935956 pvcho_c13 137183 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 137183 to 137164.
+			Align 34: 798796 935956 pvcho_c13 137164 1
+				The next alignment (935786 935950 pvcho_c57 165 1) is redundant. Skipping.
+				The next alignment (935786 935925 pvcho_c55 52743 52881) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 935956 to 935792 (-164 bp)
+				Next Alignment: 935792 936423 pvcho_rep_c545 23 654
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 23 to 188.
+			Align 37: 935957 936423 pvcho_rep_c545 188 654
+				Negative gap (overlap) between this and next alignment: 936423 to 936256 (-167 bp)
+				Next Alignment: 936256 952784 pvcho_c36 1 16529
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 169.
+			Align 38: 936424 952784 pvcho_c36 169 16529
+				The next alignment (936283 936419 pvcho_c59 1 137) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 952784 to 952650 (-134 bp)
+				Next Alignment: 952650 973435 pvcho_c65 1 20786
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 136.
+			Align 40: 952785 973435 pvcho_c65 136 20786
+				Gap between this and next alignment: 973435 to 973532 (96 bp)
+				Next Alignment: 973532 976711 pvcho_c61 1 3180
+
+			Align 41: 973532 976711 pvcho_c61 1 3180
+				Negative gap (overlap) between this and next alignment: 976711 to 976646 (-65 bp)
+				Next Alignment: 976646 993203 pvcho_c67 16558 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 16558 to 16492.
+			Align 42: 976712 993203 pvcho_c67 16492 1
+				Negative gap (overlap) between this and next alignment: 993203 to 993115 (-88 bp)
+				Next Alignment: 993115 1071997 pvcho_c47 78884 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 78884 to 78795.
+			Align 43: 993204 1071997 pvcho_c47 78795 1
+				Negative gap (overlap) between this and next alignment: 1071997 to 1071926 (-71 bp)
+				Next Alignment: 1071926 1083850 pvcho_c31 8 11932
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 8 to 80.
+			Align 44: 1071998 1083850 pvcho_c31 80 11932
+				Negative gap (overlap) between this and next alignment: 1083850 to 1083573 (-277 bp)
+				Next Alignment: 1083573 1139514 pvcho_c31 11535 67477
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 11535 to 11813.
+			Align 45: 1083851 1139514 pvcho_c31 11813 67477
+				Negative gap (overlap) between this and next alignment: 1139514 to 1139437 (-77 bp)
+				Next Alignment: 1139437 1311053 pvcho_c35 316637 145019
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 316637 to 316559.
+			Align 46: 1139515 1311053 pvcho_c35 316559 145019
+				Negative gap (overlap) between this and next alignment: 1311053 to 1310922 (-131 bp)
+				Next Alignment: 1310922 1360833 pvcho_c37 1 49911
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 133.
+			Align 47: 1311054 1360833 pvcho_c37 133 49911
+				Negative gap (overlap) between this and next alignment: 1360833 to 1360815 (-18 bp)
+				Next Alignment: 1360815 1375244 pvcho_c44 14430 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 14430 to 14411.
+			Align 48: 1360834 1375244 pvcho_c44 14411 1
+				Negative gap (overlap) between this and next alignment: 1375244 to 1375160 (-84 bp)
+				Next Alignment: 1375160 1509684 pvcho_c32 134529 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 134529 to 134444.
+			Align 49: 1375245 1509684 pvcho_c32 134444 1
+				The next alignment (1484631 1484713 pvcho_c34 10510 10592) is redundant. Skipping.
+				The next alignment (1509440 1509646 pvcho_c71 1471 1677) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1509684 to 1509501 (-183 bp)
+				Next Alignment: 1509501 1510185 pvcho_rep_c542 685 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 685 to 501.
+			Align 52: 1509685 1510185 pvcho_rep_c542 501 1
+				Negative gap (overlap) between this and next alignment: 1510185 to 1510008 (-177 bp)
+				Next Alignment: 1510008 1511114 pvcho_c80 1107 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1107 to 929.
+			Align 53: 1510186 1511114 pvcho_c80 929 1
+				Negative gap (overlap) between this and next alignment: 1511114 to 1510064 (-1050 bp)
+				Next Alignment: 1510064 1553400 pvcho_c9 1 43338
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 1052.
+			Align 54: 1511115 1553400 pvcho_c9 1052 43338
+				Negative gap (overlap) between this and next alignment: 1553400 to 1553366 (-34 bp)
+				Next Alignment: 1553366 1563874 pvcho_c34 1 10510
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 36.
+			Align 55: 1553401 1563874 pvcho_c34 36 10510
+				Gap between this and next alignment: 1563874 to 1564118 (243 bp)
+				Next Alignment: 1564118 1566692 pvcho_rep_c529 2575 1
+
+			Align 56: 1564118 1566692 pvcho_rep_c529 2575 1
+				The next alignment (1565569 1565923 pvcho_c146 973 619) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1566692 to 1566004 (-688 bp)
+				Next Alignment: 1566004 1566860 pvcho_rep_c529 3414 2558
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3414 to 2725.
+			Align 58: 1566693 1566860 pvcho_rep_c529 2725 2558
+				The next alignment (1566367 1566531 pvcho_c146 165 1) is redundant. Skipping.
+				Gap between this and next alignment: 1566860 to 1568384 (1523 bp)
+				Next Alignment: 1568384 1568899 pvcho_rep_c536 516 1
+
+			Align 60: 1568384 1568899 pvcho_rep_c536 516 1
+				Negative gap (overlap) between this and next alignment: 1568899 to 1568709 (-190 bp)
+				Next Alignment: 1568709 1570025 pvcho_c62 1317 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1317 to 1126.
+			Align 61: 1568900 1570025 pvcho_c62 1126 1
+				Negative gap (overlap) between this and next alignment: 1570025 to 1569848 (-177 bp)
+				Next Alignment: 1569848 1570663 pvcho_rep_c533 1 816
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 179.
+			Align 62: 1570026 1570663 pvcho_rep_c533 179 816
+				Negative gap (overlap) between this and next alignment: 1570663 to 1570658 (-5 bp)
+				Next Alignment: 1570658 1571219 pvcho_c125 562 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 562 to 556.
+			Align 63: 1570664 1571219 pvcho_c125 556 1
+				Gap between this and next alignment: 1571219 to 1573606 (2386 bp)
+				Next Alignment: 1573606 1574455 pvcho_c116 850 1
+
+			Align 64: 1573606 1574455 pvcho_c116 850 1
+				Gap between this and next alignment: 1574455 to 1574756 (300 bp)
+				Next Alignment: 1574756 1575259 pvcho_c60 504 1
+
+			Align 65: 1574756 1575259 pvcho_c60 504 1
+				Gap between this and next alignment: 1575259 to 1576585 (1325 bp)
+				Next Alignment: 1576585 1579135 pvcho_c35 1 2551
+
+			Align 66: 1576585 1579135 pvcho_c35 1 2551
+				Gap between this and next alignment: 1579135 to 1579142 (6 bp)
+				Next Alignment: 1579142 1579778 pvcho_rep_c541 637 1
+
+			Align 67: 1579142 1579778 pvcho_rep_c541 637 1
+				Gap between this and next alignment: 1579778 to 1583124 (3345 bp)
+				Next Alignment: 1583124 1584484 pvcho_rep_c531 122 1473
+
+			Align 68: 1583124 1584484 pvcho_rep_c531 122 1473
+				Negative gap (overlap) between this and next alignment: 1584484 to 1584391 (-93 bp)
+				Next Alignment: 1584391 1712303 pvcho_c35 1686 129601
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1686 to 1780.
+			Align 69: 1584485 1712303 pvcho_c35 1780 129601
+				The next alignment (1683879 1684006 pvcho_c8 83428 83555) is redundant. Skipping.
+				Gap between this and next alignment: 1712303 to 1712404 (100 bp)
+				Next Alignment: 1712404 1727946 pvcho_c35 129604 145146
+
+			Align 71: 1712404 1727946 pvcho_c35 129604 145146
+				Negative gap (overlap) between this and next alignment: 1727946 to 1727834 (-112 bp)
+				Next Alignment: 1727834 1736780 pvcho_c70 8947 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 8947 to 8834.
+			Align 72: 1727947 1736780 pvcho_c70 8834 1
+				Negative gap (overlap) between this and next alignment: 1736780 to 1736607 (-173 bp)
+				Next Alignment: 1736607 1737280 pvcho_rep_c528 674 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 674 to 500.
+			Align 73: 1736781 1737280 pvcho_rep_c528 500 1
+				Gap between this and next alignment: 1737280 to 1738911 (1630 bp)
+				Next Alignment: 1738911 1788564 pvcho_c48 60575 10911
+
+			Align 74: 1738911 1788564 pvcho_c48 60575 10911
+				The next alignment (1763579 1763705 pvcho_c64 9975 10101) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1788564 to 1768521 (-20043 bp)
+				Next Alignment: 1768521 1799474 pvcho_c48 30964 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 30964 to 10900.
+			Align 76: 1788565 1799474 pvcho_c48 10900 1
+				Negative gap (overlap) between this and next alignment: 1799474 to 1799388 (-86 bp)
+				Next Alignment: 1799388 1828886 pvcho_c51 29499 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 29499 to 29412.
+			Align 77: 1799475 1828886 pvcho_c51 29412 1
+				Negative gap (overlap) between this and next alignment: 1828886 to 1828842 (-44 bp)
+				Next Alignment: 1828842 1937459 pvcho_c39 108623 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 108623 to 108578.
+			Align 78: 1828887 1937459 pvcho_c39 108578 1
+				The next alignment (1936727 1936848 pvcho_c98 5070 5191) is redundant. Skipping.
+				Gap between this and next alignment: 1937459 to 1937508 (48 bp)
+				Next Alignment: 1937508 1937647 pvcho_c66 10196 10335
+
+			Align 80: 1937508 1937647 pvcho_c66 10196 10335
+				Negative gap (overlap) between this and next alignment: 1937647 to 1937511 (-136 bp)
+				Next Alignment: 1937511 1938889 pvcho_rep_c531 1379 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1379 to 1242.
+			Align 81: 1937648 1938889 pvcho_rep_c531 1242 1
+				Negative gap (overlap) between this and next alignment: 1938889 to 1938630 (-259 bp)
+				Next Alignment: 1938630 2003073 pvcho_c53 64443 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 64443 to 64183.
+			Align 82: 1938890 2003073 pvcho_c53 64183 1
+				Negative gap (overlap) between this and next alignment: 2003073 to 2002991 (-82 bp)
+				Next Alignment: 2002991 2105649 pvcho_c27 102663 3
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 102663 to 102580.
+			Align 83: 2003074 2105649 pvcho_c27 102580 3
+				Negative gap (overlap) between this and next alignment: 2105649 to 2105580 (-69 bp)
+				Next Alignment: 2105580 2256451 pvcho_c33 1 150873
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 71.
+			Align 84: 2105650 2256451 pvcho_c33 71 150873
+				Negative gap (overlap) between this and next alignment: 2256451 to 2256360 (-91 bp)
+				Next Alignment: 2256360 2319033 pvcho_c28 10 62682
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 10 to 102.
+			Align 85: 2256452 2319033 pvcho_c28 102 62682
+				Negative gap (overlap) between this and next alignment: 2319033 to 2318942 (-91 bp)
+				Next Alignment: 2318942 2331634 pvcho_c29 12693 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 12693 to 12601.
+			Align 86: 2319034 2331634 pvcho_c29 12601 1
+				Gap between this and next alignment: 2331634 to 2331704 (69 bp)
+				Next Alignment: 2331704 2332446 pvcho_rep_c552 1 741
+
+			Align 87: 2331704 2332446 pvcho_rep_c552 1 741
+				The next alignment (2331815 2332393 pvcho_rep_c552 540 1116) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2332446 to 2332191 (-255 bp)
+				Next Alignment: 2332191 2467914 pvcho_c18 135726 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 135726 to 135470.
+			Align 89: 2332447 2467914 pvcho_c18 135470 1
+				Negative gap (overlap) between this and next alignment: 2467914 to 2467898 (-16 bp)
+				Next Alignment: 2467898 2559896 pvcho_c17 92000 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 92000 to 91983.
+			Align 90: 2467915 2559896 pvcho_c17 91983 1
+				Negative gap (overlap) between this and next alignment: 2559896 to 2559736 (-160 bp)
+				Next Alignment: 2559736 2643579 pvcho_c15 1 83846
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 162.
+			Align 91: 2559897 2643579 pvcho_c15 162 83846
+				Negative gap (overlap) between this and next alignment: 2643579 to 2643557 (-22 bp)
+				Next Alignment: 2643557 2676396 pvcho_c25 1 32841
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 24.
+			Align 92: 2643580 2676396 pvcho_c25 24 32841
+				The next alignment (2661335 2661460 pvcho_c16 12770 12895) is redundant. Skipping.
+				The next alignment (2668597 2668771 pvcho_c34 10579 10753) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2676396 to 2676233 (-163 bp)
+				Next Alignment: 2676233 2681756 pvcho_rep_c527 5525 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5525 to 5360.
+			Align 95: 2676397 2681756 pvcho_rep_c527 5360 1
+				Negative gap (overlap) between this and next alignment: 2681756 to 2681532 (-224 bp)
+				Next Alignment: 2681532 2686212 pvcho_c50 4681 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4681 to 4456.
+			Align 96: 2681757 2686212 pvcho_c50 4456 1
+				Negative gap (overlap) between this and next alignment: 2686212 to 2686075 (-137 bp)
+				Next Alignment: 2686075 2762951 pvcho_c6 1 76878
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 139.
+			Align 97: 2686213 2762951 pvcho_c6 139 76878
+				Negative gap (overlap) between this and next alignment: 2762951 to 2762846 (-105 bp)
+				Next Alignment: 2762846 2787897 pvcho_c11 1 25052
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 107.
+			Align 98: 2762952 2787897 pvcho_c11 107 25052
+				Negative gap (overlap) between this and next alignment: 2787897 to 2787875 (-22 bp)
+				Next Alignment: 2787875 2927932 pvcho_c10 140059 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 140059 to 140036.
+			Align 99: 2787898 2927932 pvcho_c10 140036 1
+				Gap between this and next alignment: 2927932 to 2936929 (8996 bp)
+				Next Alignment: 2936929 2937556 pvcho_rep_c665 628 1
+
+			Align 100: 2936929 2937556 pvcho_rep_c665 628 1
+				Gap between this and next alignment: 2937556 to 2939068 (1511 bp)
+				Next Alignment: 2939068 2951125 pvcho_c26 12058 1
+
+			Align 101: 2939068 2951125 pvcho_c26 12058 1
+				Negative gap (overlap) between this and next alignment: 2951125 to 2950959 (-166 bp)
+				Next Alignment: 2950959 2959368 pvcho_c43 1 8410
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 168.
+			Align 102: 2951126 2959368 pvcho_c43 168 8410
+				Negative gap (overlap) between this and next alignment: 2959368 to 2959330 (-38 bp)
+				Next Alignment: 2959330 2961149 pvcho_c5 55736 53917
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 55736 to 55697.
+			Align 103: 2959369 2961149 pvcho_c5 55697 53917
+			END in current alignment.  Modifying 2961149 to 2961149.
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/737/dataset_774_files/contigs_reports/nucmer_output/VC-H-Mira.used_snps
+
+Results:
+	Local Misassemblies: 7
+	Misassemblies: 9
+		Relocations: 9
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 7
+	Misassembled Contig Bases: 494457
+	Misassmblies Inter-Contig Overlap: 48349
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 63 + 17 part
+Partially Unaligned Contigs with Misassemblies: 3
+Unaligned Contig Bases: 1018242
+
+Ambiguously Mapped Contigs: 3
+Total Bases in Ambiguously Mapped Contigs: 2265
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 2917196
+
+	SNPs: 163
+	Insertions: 72
+	Deletions: 34
+
+	Positive Gaps: 22
+		Internal Gaps:  2
+		External Gaps:  20
+		External Gap Total:  43827
+		External Gap Average: 2191
+	Negative Gaps: 64
+		Internal Overlaps:  4
+		External Overlaps:  60
+		External Overlaps Total: -7450
+		External Overlaps Average: -124
+	Contigs with Redundant Alignments: 12 (4026)

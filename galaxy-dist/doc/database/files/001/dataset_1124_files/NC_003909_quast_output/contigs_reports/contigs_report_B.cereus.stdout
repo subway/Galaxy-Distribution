@@ -1,0 +1,856 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [NC_003909]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 5224283
+Analyzing contigs...
+CONTIG: NODE_771_length_73575_cov_26.4516 (73575bp)
+Top Length: 2675  Top ID: 97.38
+		This contig is partially unaligned. (2675 out of 73575)
+		Alignment: 3015458 3018132 | 12725 10051 | 2675 2675 | 97.38 | NC_003909 NODE_771_length_73575_cov_26.4516
+		Unaligned bases: 1 to 10050 (10050)
+		Unaligned bases: 12726 to 73575 (60850)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_880_length_6929_cov_86.4059 (6929bp)
+Top Length: 125  Top ID: 96.8
+		Skipping redundant alignment 305362 305471 | 6929 6820 | 110 110 | 98.18 | NC_003909 NODE_880_length_6929_cov_86.4059
+		Skipping redundant alignment 14246 14322 | 6929 6853 | 77 77 | 100.0 | NC_003909 NODE_880_length_6929_cov_86.4059
+		Skipping redundant alignment 34020 34096 | 6929 6853 | 77 77 | 100.0 | NC_003909 NODE_880_length_6929_cov_86.4059
+		Skipping redundant alignment 327671 327745 | 6929 6855 | 75 75 | 100.0 | NC_003909 NODE_880_length_6929_cov_86.4059
+		Skipping redundant alignment 335489 335563 | 6929 6855 | 75 75 | 100.0 | NC_003909 NODE_880_length_6929_cov_86.4059
+		Skipping redundant alignment 609694 609768 | 6929 6855 | 75 75 | 97.33 | NC_003909 NODE_880_length_6929_cov_86.4059
+		Skipping redundant alignment 822902 822976 | 6929 6855 | 75 75 | 97.33 | NC_003909 NODE_880_length_6929_cov_86.4059
+		Skipping redundant alignment 4650884 4650958 | 6855 6929 | 75 75 | 97.33 | NC_003909 NODE_880_length_6929_cov_86.4059
+		Skipping redundant alignment 284310 284382 | 6929 6857 | 73 73 | 100.0 | NC_003909 NODE_880_length_6929_cov_86.4059
+		Skipping redundant alignment 150243 150312 | 6929 6860 | 70 70 | 98.57 | NC_003909 NODE_880_length_6929_cov_86.4059
+		This contig is partially unaligned. (125 out of 6929)
+		Alignment: 318570 318694 | 6929 6805 | 125 125 | 96.8 | NC_003909 NODE_880_length_6929_cov_86.4059
+		Unaligned bases: 1 to 6804 (6804)
+
+CONTIG: NODE_834_length_714_cov_258.509 (714bp)
+Top Length: 714  Top ID: 98.18
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2564947 2565660 | 1 714 | 714 714 | 98.18 | NC_003909 NODE_834_length_714_cov_258.509
+		Skipping alignment  5141176 5141889 | 714 1 | 714 714 | 98.18 | NC_003909 NODE_834_length_714_cov_258.509
+
+CONTIG: NODE_872_length_511_cov_75.7844 (511bp)
+Top Length: 511  Top ID: 98.83
+		Marking as insignificant: 4248304 4248374 | 362 432 | 71 71 | 100.0 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 615179 615249 | 432 362 | 71 71 | 100.0 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 4649260 4649333 | 359 432 | 74 74 | 100.0 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 4650168 4650242 | 437 511 | 75 75 | 100.0 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 823704 823778 | 511 437 | 75 75 | 100.0 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 29012 29366 | 354 1 | 355 354 | 97.75 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 9239 9592 | 354 1 | 354 354 | 97.75 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 818065 818422 | 358 1 | 358 358 | 98.33 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 4655438 4655797 | 1 359 | 360 359 | 98.06 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 604857 605215 | 359 1 | 359 359 | 98.06 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 82351 82710 | 359 1 | 360 359 | 98.06 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 330703 331061 | 359 1 | 359 359 | 98.33 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 322885 323243 | 359 1 | 359 359 | 98.33 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 300575 300933 | 359 1 | 359 359 | 98.33 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 145420 145778 | 359 1 | 359 359 | 98.33 | NC_003909 NODE_872_length_511_cov_75.7844
+		Marking as insignificant: 313786 314144 | 359 1 | 359 359 | 98.61 | NC_003909 NODE_872_length_511_cov_75.7844
+		One align captures most of this contig: 279373 279883 | 511 1 | 511 511 | 98.83 | NC_003909 NODE_872_length_511_cov_75.7844
+
+CONTIG: NODE_849_length_7548_cov_28.2342 (7548bp)
+Top Length: 270  Top ID: 99.26
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [5140981][5141250] redundant alignment 5140981 5141250 | 270 1 | 270 270 | 99.26 | NC_003909 NODE_849_length_7548_cov_28.2342
+		This contig is partially unaligned. (270 out of 7548)
+		Alignment: 2565586 2565855 | 1 270 | 270 270 | 99.26 | NC_003909 NODE_849_length_7548_cov_28.2342
+		Unaligned bases: 271 to 7548 (7278)
+
+CONTIG: NODE_960_length_3800_cov_61.454 (3800bp)
+Top Length: 280  Top ID: 97.14
+		Skipping redundant alignment 5140980 5141250 | 271 1 | 271 271 | 97.42 | NC_003909 NODE_960_length_3800_cov_61.454
+		This contig is partially unaligned. (280 out of 3800)
+		Alignment: 2565586 2565865 | 1 280 | 280 280 | 97.14 | NC_003909 NODE_960_length_3800_cov_61.454
+		Unaligned bases: 281 to 3800 (3520)
+
+CONTIG: NODE_886_length_1300_cov_82.1559 (1300bp)
+Top Length: 254  Top ID: 97.65
+		Skipping redundant alignment 609958 610031 | 74 1 | 74 74 | 100.0 | NC_003909 NODE_886_length_1300_cov_82.1559
+		Skipping redundant alignment 824721 824792 | 72 1 | 72 72 | 100.0 | NC_003909 NODE_886_length_1300_cov_82.1559
+		Skipping redundant alignment 5203886 5203957 | 1 72 | 72 72 | 100.0 | NC_003909 NODE_886_length_1300_cov_82.1559
+		Skipping redundant alignment 64526 64596 | 71 1 | 71 71 | 100.0 | NC_003909 NODE_886_length_1300_cov_82.1559
+		Skipping redundant alignment 824640 824721 | 255 174 | 82 82 | 100.0 | NC_003909 NODE_886_length_1300_cov_82.1559
+		This contig is partially unaligned. (254 out of 1300)
+		Alignment: 4648919 4649173 | 1 254 | 255 254 | 97.65 | NC_003909 NODE_886_length_1300_cov_82.1559
+		Unaligned bases: 255 to 1300 (1046)
+
+CONTIG: NODE_1120_length_179516_cov_38.4301 (179516bp)
+Top Length: 426  Top ID: 98.12
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1109474][1109899] redundant alignment 1109474 1109899 | 179516 179091 | 426 426 | 98.12 | NC_003909 NODE_1120_length_179516_cov_38.4301
+		Skipping [3234967][3235391] redundant alignment 3234967 3235391 | 179516 179092 | 425 425 | 98.12 | NC_003909 NODE_1120_length_179516_cov_38.4301
+		This contig is partially unaligned. (426 out of 179516)
+		Alignment: 1109474 1109899 | 179516 179091 | 426 426 | 98.12 | NC_003909 NODE_1120_length_179516_cov_38.4301
+		Unaligned bases: 1 to 179090 (179090)
+
+CONTIG: NODE_947_length_561_cov_43.7922 (561bp)
+Top Length: 560  Top ID: 98.21
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2564198 2564757 | 560 1 | 560 560 | 98.21 | NC_003909 NODE_947_length_561_cov_43.7922
+		Skipping alignment  5142079 5142634 | 1 556 | 556 556 | 98.38 | NC_003909 NODE_947_length_561_cov_43.7922
+
+CONTIG: NODE_1119_length_19815_cov_48.6919 (19815bp)
+Top Length: 294  Top ID: 96.6
+		Skipping redundant alignment 5140981 5141250 | 19546 19815 | 270 270 | 97.41 | NC_003909 NODE_1119_length_19815_cov_48.6919
+		This contig is partially unaligned. (294 out of 19815)
+		Alignment: 2565586 2565879 | 19815 19522 | 294 294 | 96.6 | NC_003909 NODE_1119_length_19815_cov_48.6919
+		Unaligned bases: 1 to 19521 (19521)
+
+CONTIG: NODE_943_length_4099_cov_53.4891 (4099bp)
+Top Length: 570  Top ID: 98.25
+		Skipping redundant alignment 5142079 5142636 | 1 558 | 558 558 | 98.39 | NC_003909 NODE_943_length_4099_cov_53.4891
+		This contig is partially unaligned. (570 out of 4099)
+		Alignment: 2564188 2564757 | 570 1 | 570 570 | 98.25 | NC_003909 NODE_943_length_4099_cov_53.4891
+		Unaligned bases: 571 to 4099 (3529)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_854_length_628_cov_67.0886 (628bp)
+Top Length: 628  Top ID: 96.99
+		Marking as insignificant: 151066 151138 | 627 555 | 73 73 | 100.0 | NC_003909 NODE_854_length_628_cov_67.0886
+		Marking as insignificant: 30849 30923 | 628 554 | 75 75 | 100.0 | NC_003909 NODE_854_length_628_cov_67.0886
+		Marking as insignificant: 11075 11149 | 628 554 | 75 75 | 100.0 | NC_003909 NODE_854_length_628_cov_67.0886
+		Marking as insignificant: 64437 64512 | 536 461 | 76 76 | 100.0 | NC_003909 NODE_854_length_628_cov_67.0886
+		Marking as insignificant: 823793 823874 | 628 548 | 82 81 | 98.78 | NC_003909 NODE_854_length_628_cov_67.0886
+		Marking as insignificant: 278778 278863 | 164 79 | 86 86 | 100.0 | NC_003909 NODE_854_length_628_cov_67.0886
+		Marking as insignificant: 21771 21863 | 360 268 | 93 93 | 97.85 | NC_003909 NODE_854_length_628_cov_67.0886
+		Marking as insignificant: 284919 285092 | 246 76 | 174 171 | 97.7 | NC_003909 NODE_854_length_628_cov_67.0886
+		Marking as insignificant: 284386 284560 | 249 76 | 175 174 | 98.86 | NC_003909 NODE_854_length_628_cov_67.0886
+		Marking as insignificant: 610118 610379 | 260 1 | 262 260 | 97.71 | NC_003909 NODE_854_length_628_cov_67.0886
+		Marking as insignificant: 824031 824390 | 360 1 | 360 360 | 97.78 | NC_003909 NODE_854_length_628_cov_67.0886
+		One align captures most of this contig: 4649524 4650153 | 1 628 | 630 628 | 96.99 | NC_003909 NODE_854_length_628_cov_67.0886
+
+CONTIG: NODE_865_length_813_cov_140.377 (813bp)
+Top Length: 813  Top ID: 96.08
+		Marking as insignificant: 64526 64596 | 71 1 | 71 71 | 100.0 | NC_003909 NODE_865_length_813_cov_140.377
+		Marking as insignificant: 824721 824792 | 72 1 | 72 72 | 100.0 | NC_003909 NODE_865_length_813_cov_140.377
+		Marking as insignificant: 4648919 4648991 | 1 73 | 73 73 | 100.0 | NC_003909 NODE_865_length_813_cov_140.377
+		Marking as insignificant: 278579 278651 | 73 1 | 73 73 | 100.0 | NC_003909 NODE_865_length_813_cov_140.377
+		Marking as insignificant: 609958 610031 | 74 1 | 74 74 | 100.0 | NC_003909 NODE_865_length_813_cov_140.377
+		Marking as insignificant: 5203886 5203969 | 1 83 | 84 83 | 97.62 | NC_003909 NODE_865_length_813_cov_140.377
+		One align captures most of this contig: 149761 150571 | 813 1 | 811 813 | 96.08 | NC_003909 NODE_865_length_813_cov_140.377
+
+CONTIG: NODE_881_length_2497_cov_80.8803 (2497bp)
+Top Length: 125  Top ID: 96.8
+		Skipping redundant alignment 305362 305471 | 2497 2388 | 110 110 | 98.18 | NC_003909 NODE_881_length_2497_cov_80.8803
+		Skipping redundant alignment 14246 14322 | 2497 2421 | 77 77 | 100.0 | NC_003909 NODE_881_length_2497_cov_80.8803
+		Skipping redundant alignment 34020 34096 | 2497 2421 | 77 77 | 100.0 | NC_003909 NODE_881_length_2497_cov_80.8803
+		Skipping redundant alignment 327671 327745 | 2497 2423 | 75 75 | 100.0 | NC_003909 NODE_881_length_2497_cov_80.8803
+		Skipping redundant alignment 335489 335563 | 2497 2423 | 75 75 | 100.0 | NC_003909 NODE_881_length_2497_cov_80.8803
+		Skipping redundant alignment 609694 609768 | 2497 2423 | 75 75 | 97.33 | NC_003909 NODE_881_length_2497_cov_80.8803
+		Skipping redundant alignment 822902 822976 | 2497 2423 | 75 75 | 97.33 | NC_003909 NODE_881_length_2497_cov_80.8803
+		Skipping redundant alignment 4650884 4650958 | 2423 2497 | 75 75 | 97.33 | NC_003909 NODE_881_length_2497_cov_80.8803
+		Skipping redundant alignment 284310 284382 | 2497 2425 | 73 73 | 100.0 | NC_003909 NODE_881_length_2497_cov_80.8803
+		Skipping redundant alignment 150243 150312 | 2497 2428 | 70 70 | 98.57 | NC_003909 NODE_881_length_2497_cov_80.8803
+		This contig is partially unaligned. (125 out of 2497)
+		Alignment: 318570 318694 | 2497 2373 | 125 125 | 96.8 | NC_003909 NODE_881_length_2497_cov_80.8803
+		Unaligned bases: 1 to 2372 (2372)
+
+CONTIG: NODE_856_length_15828_cov_90.4448 (15828bp)
+Top Length: 615  Top ID: 95.61
+		Skipping redundant alignment 4649598 4649775 | 15574 15753 | 178 180 | 95.58 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 610134 610304 | 15747 15576 | 171 172 | 98.26 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 278778 278862 | 15665 15581 | 85 85 | 100.0 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 5203783 5203864 | 15582 15662 | 82 81 | 98.78 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 824140 824309 | 15753 15583 | 170 171 | 98.83 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 609692 609774 | 15828 15747 | 83 82 | 95.18 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 150241 150317 | 15828 15752 | 77 77 | 97.4 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 14244 14318 | 15828 15754 | 75 75 | 100.0 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 34018 34092 | 15828 15754 | 75 75 | 100.0 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 87135 87209 | 15828 15754 | 75 75 | 100.0 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 305360 305434 | 15828 15754 | 75 75 | 100.0 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 318568 318642 | 15828 15754 | 75 75 | 100.0 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 327669 327743 | 15828 15754 | 75 75 | 100.0 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 335487 335561 | 15828 15754 | 75 75 | 100.0 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 822900 822971 | 15828 15757 | 72 72 | 98.61 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Skipping redundant alignment 4650889 4650960 | 15757 15828 | 72 72 | 98.61 | NC_003909 NODE_856_length_15828_cov_90.4448
+		This contig is partially unaligned. (615 out of 15828)
+		Alignment: 284308 284921 | 15828 15214 | 614 615 | 95.61 | NC_003909 NODE_856_length_15828_cov_90.4448
+		Unaligned bases: 1 to 15213 (15213)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_867_length_822_cov_93.2557 (822bp)
+Top Length: 654  Top ID: 95.74
+		Skipping redundant alignment 609958 610031 | 74 1 | 74 74 | 100.0 | NC_003909 NODE_867_length_822_cov_93.2557
+		Skipping redundant alignment 278579 278651 | 73 1 | 73 73 | 100.0 | NC_003909 NODE_867_length_822_cov_93.2557
+		Skipping redundant alignment 4648919 4648991 | 1 73 | 73 73 | 100.0 | NC_003909 NODE_867_length_822_cov_93.2557
+		Skipping redundant alignment 824721 824792 | 72 1 | 72 72 | 100.0 | NC_003909 NODE_867_length_822_cov_93.2557
+		Skipping redundant alignment 64526 64596 | 71 1 | 71 71 | 100.0 | NC_003909 NODE_867_length_822_cov_93.2557
+		Skipping redundant alignment 4650886 4651456 | 254 822 | 571 569 | 95.27 | NC_003909 NODE_867_length_822_cov_93.2557
+		This contig is misassembled. 8 total aligns.
+			Real Alignment 1: 609197 609851 | 822 169 | 655 654 | 95.74 | NC_003909 NODE_867_length_822_cov_93.2557
+			  Extensive misassembly ( relocation, inconsistency = 4593867 ) between these two alignments
+			Real Alignment 2: 5203886 5203969 | 1 83 | 84 83 | 97.62 | NC_003909 NODE_867_length_822_cov_93.2557
+
+CONTIG: NODE_895_length_4030_cov_782.863 (4030bp)
+Top Length: 4030  Top ID: 99.06
+		Marking as insignificant: 29394 30702 | 4030 2722 | 1309 1309 | 98.93 | NC_003909 NODE_895_length_4030_cov_782.863
+		Marking as insignificant: 9620 10928 | 4030 2722 | 1309 1309 | 98.93 | NC_003909 NODE_895_length_4030_cov_782.863
+		Marking as insignificant: 11171 13875 | 2704 1 | 2705 2704 | 99.08 | NC_003909 NODE_895_length_4030_cov_782.863
+		Marking as insignificant: 30945 33649 | 2704 1 | 2705 2704 | 99.11 | NC_003909 NODE_895_length_4030_cov_782.863
+		This contig has 10 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 314172 318199 | 4030 1 | 4028 4030 | 99.06 | NC_003909 NODE_895_length_4030_cov_782.863
+		Skipping alignment  331089 335118 | 4030 1 | 4030 4030 | 99.06 | NC_003909 NODE_895_length_4030_cov_782.863
+		Skipping alignment  4651382 4655410 | 1 4030 | 4029 4030 | 99.06 | NC_003909 NODE_895_length_4030_cov_782.863
+		Skipping alignment  145806 149835 | 4030 1 | 4030 4030 | 99.03 | NC_003909 NODE_895_length_4030_cov_782.863
+		Skipping alignment  279911 283939 | 4030 1 | 4029 4030 | 99.03 | NC_003909 NODE_895_length_4030_cov_782.863
+		Skipping alignment  82738 86766 | 4030 1 | 4029 4030 | 98.98 | NC_003909 NODE_895_length_4030_cov_782.863
+		Skipping alignment  605243 609271 | 4030 1 | 4029 4030 | 98.98 | NC_003909 NODE_895_length_4030_cov_782.863
+		Skipping alignment  818450 822478 | 4030 1 | 4029 4030 | 98.98 | NC_003909 NODE_895_length_4030_cov_782.863
+		Skipping alignment  300961 304991 | 4030 1 | 4031 4030 | 98.91 | NC_003909 NODE_895_length_4030_cov_782.863
+		Skipping alignment  323271 327300 | 4030 1 | 4030 4030 | 98.91 | NC_003909 NODE_895_length_4030_cov_782.863
+
+CONTIG: NODE_942_length_647_cov_56.8269 (647bp)
+Top Length: 570  Top ID: 98.25
+		Skipping redundant alignment 5142079 5142636 | 1 558 | 558 558 | 98.39 | NC_003909 NODE_942_length_647_cov_56.8269
+		This contig is partially unaligned. (570 out of 647)
+		Alignment: 2564188 2564757 | 570 1 | 570 570 | 98.25 | NC_003909 NODE_942_length_647_cov_56.8269
+		Unaligned bases: 571 to 647 (77)
+
+CONTIG: NODE_933_length_6519_cov_44.4154 (6519bp)
+Top Length: 1004  Top ID: 95.72
+		This contig is partially unaligned. (1004 out of 6519)
+		Alignment: 3118711 3119714 | 1 1004 | 1004 1004 | 95.72 | NC_003909 NODE_933_length_6519_cov_44.4154
+		Unaligned bases: 1005 to 6519 (5515)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_1106_length_30765_cov_20.9728 (30765bp)
+Top Length: 121  Top ID: 97.52
+		Skipping redundant alignment 2367411 2367522 | 25609 25720 | 112 112 | 98.21 | NC_003909 NODE_1106_length_30765_cov_20.9728
+		This contig is partially unaligned. (121 out of 30765)
+		Alignment: 2367411 2367531 | 25600 25720 | 121 121 | 97.52 | NC_003909 NODE_1106_length_30765_cov_20.9728
+		Unaligned bases: 1 to 25599 (25599)
+		Unaligned bases: 25721 to 30765 (5045)
+
+CONTIG: NODE_1121_length_173084_cov_64.8198 (173084bp)
+Top Length: 1404  Top ID: 95.3
+		This contig is partially unaligned. (1404 out of 173084)
+		Alignment: 4190254 4191657 | 108196 106793 | 1404 1404 | 95.3 | NC_003909 NODE_1121_length_173084_cov_64.8198
+		Unaligned bases: 1 to 106792 (106792)
+		Unaligned bases: 108197 to 173084 (64888)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_911_length_19663_cov_22.1437 (19663bp)
+Top Length: 157  Top ID: 98.1
+		This contig is partially unaligned. (157 out of 19663)
+		Alignment: 3233471 3233628 | 157 1 | 158 157 | 98.1 | NC_003909 NODE_911_length_19663_cov_22.1437
+		Unaligned bases: 158 to 19663 (19506)
+
+CONTIG: NODE_873_length_15170_cov_84.0212 (15170bp)
+Top Length: 483  Top ID: 97.52
+		Skipping redundant alignment 313696 314144 | 452 1 | 449 452 | 96.25 | NC_003909 NODE_873_length_15170_cov_84.0212
+		Skipping redundant alignment 322795 323243 | 452 1 | 449 452 | 96.25 | NC_003909 NODE_873_length_15170_cov_84.0212
+		Skipping redundant alignment 330613 331061 | 452 1 | 449 452 | 96.25 | NC_003909 NODE_873_length_15170_cov_84.0212
+		Skipping redundant alignment 300485 300933 | 452 1 | 449 452 | 96.03 | NC_003909 NODE_873_length_15170_cov_84.0212
+		Skipping redundant alignment 82309 82710 | 402 1 | 402 402 | 95.53 | NC_003909 NODE_873_length_15170_cov_84.0212
+		Skipping redundant alignment 279525 279883 | 359 1 | 359 359 | 98.33 | NC_003909 NODE_873_length_15170_cov_84.0212
+		Skipping redundant alignment 9239 9592 | 354 1 | 354 354 | 97.75 | NC_003909 NODE_873_length_15170_cov_84.0212
+		Skipping redundant alignment 29012 29366 | 354 1 | 355 354 | 97.75 | NC_003909 NODE_873_length_15170_cov_84.0212
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [604733][605215] redundant alignment 604733 605215 | 484 1 | 483 484 | 96.7 | NC_003909 NODE_873_length_15170_cov_84.0212
+		This contig is partially unaligned. (483 out of 15170)
+		Alignment: 145296 145778 | 483 1 | 483 483 | 97.52 | NC_003909 NODE_873_length_15170_cov_84.0212
+		Unaligned bases: 484 to 15170 (14687)
+
+CONTIG: NODE_870_length_519_cov_293.446 (519bp)
+Top Length: 519  Top ID: 99.04
+		This contig has 8 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 335044 335563 | 519 1 | 520 519 | 99.04 | NC_003909 NODE_870_length_519_cov_293.446
+		Skipping alignment  13801 14320 | 519 1 | 520 519 | 98.85 | NC_003909 NODE_870_length_519_cov_293.446
+		Skipping alignment  33575 34094 | 519 1 | 520 519 | 98.85 | NC_003909 NODE_870_length_519_cov_293.446
+		Skipping alignment  86692 87211 | 519 1 | 520 519 | 98.65 | NC_003909 NODE_870_length_519_cov_293.446
+		Skipping alignment  327226 327745 | 519 1 | 520 519 | 98.65 | NC_003909 NODE_870_length_519_cov_293.446
+		Skipping alignment  283865 284382 | 519 3 | 518 517 | 99.03 | NC_003909 NODE_870_length_519_cov_293.446
+		Skipping alignment  304917 305436 | 519 1 | 520 519 | 98.46 | NC_003909 NODE_870_length_519_cov_293.446
+		Skipping alignment  318125 318644 | 519 1 | 520 519 | 98.46 | NC_003909 NODE_870_length_519_cov_293.446
+
+CONTIG: NODE_963_length_27119_cov_25.9607 (27119bp)
+Top Length: 290  Top ID: 96.55
+		Skipping redundant alignment 5140980 5141250 | 271 1 | 271 271 | 97.42 | NC_003909 NODE_963_length_27119_cov_25.9607
+		This contig is partially unaligned. (290 out of 27119)
+		Alignment: 2565586 2565875 | 1 290 | 290 290 | 96.55 | NC_003909 NODE_963_length_27119_cov_25.9607
+		Unaligned bases: 291 to 27119 (26829)
+
+CONTIG: NODE_948_length_3718_cov_43.2811 (3718bp)
+Top Length: 560  Top ID: 98.21
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2564198][2564757] redundant alignment 2564198 2564757 | 560 1 | 560 560 | 98.21 | NC_003909 NODE_948_length_3718_cov_43.2811
+		This contig is partially unaligned. (560 out of 3718)
+		Alignment: 2564198 2564757 | 560 1 | 560 560 | 98.21 | NC_003909 NODE_948_length_3718_cov_43.2811
+		Unaligned bases: 561 to 3718 (3158)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_944_length_6390_cov_53.8396 (6390bp)
+Top Length: 559  Top ID: 98.39
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2564199][2564757] redundant alignment 2564199 2564757 | 559 1 | 559 559 | 98.39 | NC_003909 NODE_944_length_6390_cov_53.8396
+		This contig is partially unaligned. (559 out of 6390)
+		Alignment: 2564199 2564757 | 559 1 | 559 559 | 98.39 | NC_003909 NODE_944_length_6390_cov_53.8396
+		Unaligned bases: 560 to 6390 (5831)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_949_length_17114_cov_72.1012 (17114bp)
+Top Length: 560  Top ID: 98.21
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2564198][2564757] redundant alignment 2564198 2564757 | 560 1 | 560 560 | 98.21 | NC_003909 NODE_949_length_17114_cov_72.1012
+		This contig is partially unaligned. (560 out of 17114)
+		Alignment: 2564198 2564757 | 560 1 | 560 560 | 98.21 | NC_003909 NODE_949_length_17114_cov_72.1012
+		Unaligned bases: 561 to 17114 (16554)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_951_length_3442_cov_41.5447 (3442bp)
+Top Length: 568  Top ID: 99.47
+		Skipping redundant alignment 5142079 5142636 | 1 558 | 558 558 | 99.82 | NC_003909 NODE_951_length_3442_cov_41.5447
+		This contig is partially unaligned. (568 out of 3442)
+		Alignment: 2564190 2564757 | 568 1 | 568 568 | 99.47 | NC_003909 NODE_951_length_3442_cov_41.5447
+		Unaligned bases: 569 to 3442 (2874)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_844_length_871_cov_27.1985 (871bp)
+Top Length: 280  Top ID: 96.07
+		Skipping redundant alignment 5140981 5141250 | 602 871 | 270 270 | 97.04 | NC_003909 NODE_844_length_871_cov_27.1985
+		This contig is partially unaligned. (280 out of 871)
+		Alignment: 2565586 2565865 | 871 592 | 280 280 | 96.07 | NC_003909 NODE_844_length_871_cov_27.1985
+		Unaligned bases: 1 to 591 (591)
+
+CONTIG: NODE_1113_length_90150_cov_78.4315 (90150bp)
+Top Length: 158  Top ID: 96.2
+		Skipping redundant alignment 150498 150572 | 1 75 | 75 75 | 100.0 | NC_003909 NODE_1113_length_90150_cov_78.4315
+		Skipping redundant alignment 609958 610032 | 1 75 | 75 75 | 100.0 | NC_003909 NODE_1113_length_90150_cov_78.4315
+		Skipping redundant alignment 278579 278652 | 2 75 | 74 74 | 100.0 | NC_003909 NODE_1113_length_90150_cov_78.4315
+		Skipping redundant alignment 5203884 5203957 | 76 3 | 74 74 | 100.0 | NC_003909 NODE_1113_length_90150_cov_78.4315
+		Skipping redundant alignment 64526 64608 | 4 88 | 83 85 | 97.65 | NC_003909 NODE_1113_length_90150_cov_78.4315
+		This contig is partially unaligned. (158 out of 90150)
+		Alignment: 150498 150572 | 1 75 | 75 75 | 100.0 | NC_003909 NODE_1113_length_90150_cov_78.4315
+		Unaligned bases: 76 to 90150 (90075)
+
+CONTIG: NODE_908_length_39635_cov_29.0532 (39635bp)
+Top Length: 691  Top ID: 95.37
+		This contig is partially unaligned. (691 out of 39635)
+		Alignment: 2599598 2600288 | 17423 16733 | 691 691 | 95.37 | NC_003909 NODE_908_length_39635_cov_29.0532
+		Unaligned bases: 1 to 16732 (16732)
+		Unaligned bases: 17424 to 39635 (22212)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_905_length_80219_cov_25.4265 (80219bp)
+Top Length: 94  Top ID: 96.81
+		This contig is partially unaligned. (94 out of 80219)
+		Alignment: 1985283 1985376 | 12864 12957 | 94 94 | 96.81 | NC_003909 NODE_905_length_80219_cov_25.4265
+		Unaligned bases: 1 to 12863 (12863)
+		Unaligned bases: 12958 to 80219 (67262)
+
+CONTIG: NODE_894_length_48839_cov_71.7212 (48839bp)
+Top Length: 603  Top ID: 95.22
+		Skipping redundant alignment 4655438 4655921 | 1 484 | 484 484 | 95.05 | NC_003909 NODE_894_length_48839_cov_71.7212
+		Skipping redundant alignment 82329 82710 | 382 1 | 382 382 | 96.87 | NC_003909 NODE_894_length_48839_cov_71.7212
+		Skipping redundant alignment 279526 279883 | 358 1 | 358 358 | 98.33 | NC_003909 NODE_894_length_48839_cov_71.7212
+		Skipping redundant alignment 9239 9592 | 354 1 | 354 354 | 97.75 | NC_003909 NODE_894_length_48839_cov_71.7212
+		Skipping redundant alignment 29012 29366 | 354 1 | 355 354 | 97.75 | NC_003909 NODE_894_length_48839_cov_71.7212
+		This contig is partially unaligned. (603 out of 48839)
+		Alignment: 817818 818422 | 603 1 | 605 603 | 95.22 | NC_003909 NODE_894_length_48839_cov_71.7212
+		Unaligned bases: 604 to 48839 (48236)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_899_length_56032_cov_69.3319 (56032bp)
+Top Length: 5197  Top ID: 95.56
+		This contig is partially unaligned. (5197 out of 56032)
+		Alignment: 4375336 4380532 | 30911 25715 | 5197 5197 | 95.56 | NC_003909 NODE_899_length_56032_cov_69.3319
+		Unaligned bases: 1 to 25714 (25714)
+		Unaligned bases: 30912 to 56032 (25121)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_846_length_640_cov_68.6513 (640bp)
+Top Length: 271  Top ID: 99.63
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [5140980][5141250] redundant alignment 5140980 5141250 | 370 640 | 271 271 | 99.63 | NC_003909 NODE_846_length_640_cov_68.6513
+		This contig is partially unaligned. (271 out of 640)
+		Alignment: 2565586 2565856 | 640 370 | 271 271 | 99.63 | NC_003909 NODE_846_length_640_cov_68.6513
+		Unaligned bases: 1 to 369 (369)
+
+CONTIG: NODE_833_length_714_cov_329.158 (714bp)
+Top Length: 714  Top ID: 98.32
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2564947 2565660 | 1 714 | 714 714 | 98.32 | NC_003909 NODE_833_length_714_cov_329.158
+		Skipping alignment  5141176 5141889 | 714 1 | 714 714 | 98.32 | NC_003909 NODE_833_length_714_cov_329.158
+
+CONTIG: NODE_912_length_24540_cov_35.5812 (24540bp)
+Top Length: 572  Top ID: 96.68
+		Skipping redundant alignment 1107979 1108550 | 572 1 | 572 572 | 95.63 | NC_003909 NODE_912_length_24540_cov_35.5812
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [3233471][3234043] redundant alignment 3233471 3234043 | 572 1 | 573 572 | 95.81 | NC_003909 NODE_912_length_24540_cov_35.5812
+		This contig is partially unaligned. (572 out of 24540)
+		Alignment: 2993724 2994295 | 572 1 | 572 572 | 96.68 | NC_003909 NODE_912_length_24540_cov_35.5812
+		Unaligned bases: 573 to 24540 (23968)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_859_length_4258_cov_482.401 (4258bp)
+Top Length: 4258  Top ID: 99.06
+		Marking as insignificant: 151066 151138 | 2800 2728 | 73 73 | 100.0 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 4650079 4650152 | 2727 2800 | 74 74 | 100.0 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 823794 823867 | 2800 2727 | 74 74 | 100.0 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 4649174 4649255 | 2809 2890 | 82 82 | 100.0 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 824558 824643 | 2890 2805 | 86 86 | 98.84 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 818450 819757 | 4258 2949 | 1308 1310 | 99.31 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 605243 606550 | 4258 2949 | 1308 1310 | 99.31 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 323271 324579 | 4258 2949 | 1309 1310 | 99.31 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 314172 315479 | 4258 2949 | 1308 1310 | 99.31 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 300961 302269 | 4258 2949 | 1309 1310 | 99.31 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 145806 147114 | 4258 2949 | 1309 1310 | 99.31 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 4654103 4655410 | 2949 4258 | 1308 1310 | 99.39 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 331089 332397 | 4258 2949 | 1309 1310 | 99.39 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 279911 281218 | 4258 2949 | 1308 1310 | 99.39 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 82738 84045 | 4258 2949 | 1308 1310 | 99.39 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 324597 327300 | 2705 1 | 2704 2705 | 98.96 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 302287 304991 | 2705 1 | 2705 2705 | 98.97 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 84063 86766 | 2705 1 | 2704 2705 | 99.04 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 819775 822478 | 2705 1 | 2704 2705 | 99.08 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 606568 609271 | 2705 1 | 2704 2705 | 99.08 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 281236 283939 | 2705 1 | 2704 2705 | 99.11 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 4651382 4654085 | 1 2705 | 2704 2705 | 99.15 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 332415 335118 | 2705 1 | 2704 2705 | 99.15 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 147132 149835 | 2705 1 | 2704 2705 | 99.15 | NC_003909 NODE_859_length_4258_cov_482.401
+		Marking as insignificant: 315497 318199 | 2705 1 | 2703 2705 | 99.19 | NC_003909 NODE_859_length_4258_cov_482.401
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 29394 33649 | 4258 1 | 4256 4258 | 99.06 | NC_003909 NODE_859_length_4258_cov_482.401
+		Skipping alignment  9620 13875 | 4258 1 | 4256 4258 | 99.04 | NC_003909 NODE_859_length_4258_cov_482.401
+
+CONTIG: NODE_866_length_824_cov_148.927 (824bp)
+Top Length: 732  Top ID: 98.5
+		Skipping redundant alignment 822404 823056 | 824 173 | 653 652 | 97.56 | NC_003909 NODE_866_length_824_cov_148.927
+		Skipping redundant alignment 278657 278736 | 252 173 | 80 80 | 100.0 | NC_003909 NODE_866_length_824_cov_148.927
+		Skipping redundant alignment 150581 150657 | 249 173 | 77 77 | 100.0 | NC_003909 NODE_866_length_824_cov_148.927
+		Skipping redundant alignment 610040 610116 | 249 173 | 77 77 | 100.0 | NC_003909 NODE_866_length_824_cov_148.927
+		Skipping redundant alignment 609197 609769 | 824 252 | 573 573 | 96.35 | NC_003909 NODE_866_length_824_cov_148.927
+		This contig is partially unaligned. (732 out of 824)
+		Alignment: 4650725 4651456 | 93 824 | 732 732 | 98.5 | NC_003909 NODE_866_length_824_cov_148.927
+		Unaligned bases: 1 to 92 (92)
+
+CONTIG: NODE_1094_length_665_cov_111.259 (665bp)
+Top Length: 665  Top ID: 96.99
+		One align captures most of this contig: 3118711 3119375 | 1 665 | 665 665 | 96.99 | NC_003909 NODE_1094_length_665_cov_111.259
+
+CONTIG: NODE_871_length_584_cov_85.9686 (584bp)
+Top Length: 584  Top ID: 97.79
+		Marking as insignificant: 64526 64596 | 71 1 | 71 71 | 100.0 | NC_003909 NODE_871_length_584_cov_85.9686
+		Marking as insignificant: 5203886 5203957 | 1 72 | 72 72 | 100.0 | NC_003909 NODE_871_length_584_cov_85.9686
+		Marking as insignificant: 824721 824792 | 72 1 | 72 72 | 100.0 | NC_003909 NODE_871_length_584_cov_85.9686
+		Marking as insignificant: 615178 615249 | 411 340 | 72 72 | 100.0 | NC_003909 NODE_871_length_584_cov_85.9686
+		Marking as insignificant: 4248304 4248376 | 340 412 | 73 73 | 100.0 | NC_003909 NODE_871_length_584_cov_85.9686
+		Marking as insignificant: 609958 610031 | 74 1 | 74 74 | 100.0 | NC_003909 NODE_871_length_584_cov_85.9686
+		Marking as insignificant: 279452 279525 | 410 337 | 74 74 | 100.0 | NC_003909 NODE_871_length_584_cov_85.9686
+		Marking as insignificant: 610400 610474 | 584 510 | 75 75 | 100.0 | NC_003909 NODE_871_length_584_cov_85.9686
+		Marking as insignificant: 30758 30843 | 340 255 | 86 86 | 98.84 | NC_003909 NODE_871_length_584_cov_85.9686
+		Marking as insignificant: 10984 11069 | 340 255 | 86 86 | 98.84 | NC_003909 NODE_871_length_584_cov_85.9686
+		Marking as insignificant: 824558 824721 | 336 174 | 164 163 | 99.39 | NC_003909 NODE_871_length_584_cov_85.9686
+		Marking as insignificant: 278399 278651 | 254 1 | 253 254 | 97.27 | NC_003909 NODE_871_length_584_cov_85.9686
+		One align captures most of this contig: 4648919 4649507 | 1 584 | 589 584 | 97.79 | NC_003909 NODE_871_length_584_cov_85.9686
+
+CONTIG: NODE_868_length_606_cov_73.3522 (606bp)
+Top Length: 527  Top ID: 95.65
+		Skipping redundant alignment 278945 279098 | 154 2 | 154 153 | 98.05 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 610808 610884 | 154 78 | 77 77 | 100.0 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 610039 610119 | 335 255 | 81 81 | 100.0 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 278660 278737 | 334 257 | 78 78 | 100.0 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 327624 327747 | 459 336 | 124 124 | 96.77 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 335442 335565 | 459 336 | 124 124 | 96.77 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 14199 14320 | 459 338 | 122 122 | 96.72 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 33973 34094 | 459 338 | 122 122 | 96.72 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 87090 87211 | 459 338 | 122 122 | 96.72 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 305317 305436 | 457 338 | 120 120 | 96.67 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 318525 318644 | 457 338 | 120 120 | 96.67 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 150198 150315 | 457 340 | 118 118 | 100.0 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 284263 284379 | 459 343 | 117 117 | 97.44 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 822902 822978 | 606 530 | 77 77 | 97.4 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 4650883 4650958 | 531 606 | 76 76 | 97.37 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 14246 14320 | 606 532 | 75 75 | 100.0 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 34020 34094 | 606 532 | 75 75 | 100.0 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 87137 87211 | 606 532 | 75 75 | 100.0 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 305362 305436 | 606 532 | 75 75 | 100.0 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 318570 318644 | 606 532 | 75 75 | 100.0 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 609694 609768 | 606 532 | 75 75 | 97.33 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 284310 284382 | 606 534 | 73 73 | 100.0 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignment 150243 150312 | 606 537 | 70 70 | 98.57 | NC_003909 NODE_868_length_606_cov_73.3522
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [327671][327749] redundant alignment 327671 327749 | 606 528 | 79 79 | 100.0 | NC_003909 NODE_868_length_606_cov_73.3522
+		This contig is misassembled. 26 total aligns.
+			Real Alignment 1: 335489 335567 | 606 528 | 79 79 | 100.0 | NC_003909 NODE_868_length_606_cov_73.3522
+			  Extensive misassembly ( relocation, inconsistency = 487217 ) between these two alignments
+			Real Alignment 2: 822785 823312 | 527 1 | 528 527 | 95.65 | NC_003909 NODE_868_length_606_cov_73.3522
+
+CONTIG: NODE_869_length_519_cov_444.151 (519bp)
+Top Length: 519  Top ID: 99.42
+		This contig has 8 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 283865 284382 | 519 1 | 518 519 | 99.42 | NC_003909 NODE_869_length_519_cov_444.151
+		Skipping alignment  304917 305434 | 519 1 | 518 519 | 99.42 | NC_003909 NODE_869_length_519_cov_444.151
+		Skipping alignment  318125 318642 | 519 1 | 518 519 | 99.42 | NC_003909 NODE_869_length_519_cov_444.151
+		Skipping alignment  327226 327743 | 519 1 | 518 519 | 99.42 | NC_003909 NODE_869_length_519_cov_444.151
+		Skipping alignment  335044 335561 | 519 1 | 518 519 | 99.42 | NC_003909 NODE_869_length_519_cov_444.151
+		Skipping alignment  13801 14318 | 519 1 | 518 519 | 99.23 | NC_003909 NODE_869_length_519_cov_444.151
+		Skipping alignment  33575 34092 | 519 1 | 518 519 | 99.23 | NC_003909 NODE_869_length_519_cov_444.151
+		Skipping alignment  86692 87209 | 519 1 | 518 519 | 99.04 | NC_003909 NODE_869_length_519_cov_444.151
+
+CONTIG: NODE_910_length_8484_cov_26.7138 (8484bp)
+Top Length: 157  Top ID: 98.1
+		This contig is partially unaligned. (157 out of 8484)
+		Alignment: 3233471 3233628 | 157 1 | 158 157 | 98.1 | NC_003909 NODE_910_length_8484_cov_26.7138
+		Unaligned bases: 158 to 8484 (8327)
+
+CONTIG: NODE_897_length_80497_cov_27.0483 (80497bp)
+Top Length: 157  Top ID: 96.18
+		Skipping redundant alignment 1080078 1080148 | 5052 5122 | 71 71 | 100.0 | NC_003909 NODE_897_length_80497_cov_27.0483
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1021776][1021933] redundant alignment 1021776 1021933 | 4966 5122 | 158 157 | 95.57 | NC_003909 NODE_897_length_80497_cov_27.0483
+		This contig is partially unaligned. (157 out of 80497)
+		Alignment: 1021776 1021933 | 4966 5122 | 158 157 | 95.57 | NC_003909 NODE_897_length_80497_cov_27.0483
+		Unaligned bases: 1 to 4965 (4965)
+		Unaligned bases: 5123 to 80497 (75375)
+
+CONTIG: NODE_950_length_75744_cov_29.1301 (75744bp)
+Top Length: 560  Top ID: 98.21
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2564198][2564757] redundant alignment 2564198 2564757 | 560 1 | 560 560 | 98.21 | NC_003909 NODE_950_length_75744_cov_29.1301
+		This contig is partially unaligned. (560 out of 75744)
+		Alignment: 2564198 2564757 | 560 1 | 560 560 | 98.21 | NC_003909 NODE_950_length_75744_cov_29.1301
+		Unaligned bases: 561 to 75744 (75184)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_1123_length_139050_cov_31.1449 (139050bp)
+Top Length: 69  Top ID: 100.0
+		This contig is partially unaligned. (69 out of 139050)
+		Alignment: 1080080 1080148 | 125168 125100 | 69 69 | 100.0 | NC_003909 NODE_1123_length_139050_cov_31.1449
+		Unaligned bases: 1 to 125099 (125099)
+		Unaligned bases: 125169 to 139050 (13882)
+
+CONTIG: NODE_945_length_833_cov_83.0462 (833bp)
+Top Length: 569  Top ID: 98.07
+		Skipping redundant alignment 5142079 5142636 | 1 558 | 558 558 | 98.39 | NC_003909 NODE_945_length_833_cov_83.0462
+		Skipping redundant alignment 5140980 5141250 | 563 833 | 271 271 | 97.42 | NC_003909 NODE_945_length_833_cov_83.0462
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 2564189 2564757 | 569 1 | 569 569 | 98.07 | NC_003909 NODE_945_length_833_cov_83.0462
+			  Extensive misassembly ( relocation, inconsistency = 1661 ) between these two alignments
+			Real Alignment 2: 2565586 2565879 | 833 540 | 294 294 | 95.92 | NC_003909 NODE_945_length_833_cov_83.0462
+
+CONTIG: NODE_955_length_1891_cov_53.1267 (1891bp)
+Top Length: 211  Top ID: 97.63
+		This contig is partially unaligned. (211 out of 1891)
+		Alignment: 3118165 3118375 | 12 222 | 211 211 | 97.63 | NC_003909 NODE_955_length_1891_cov_53.1267
+		Unaligned bases: 1 to 11 (11)
+		Unaligned bases: 223 to 1891 (1669)
+
+CONTIG: NODE_938_length_725_cov_54.6385 (725bp)
+Top Length: 408  Top ID: 95.34
+		Skipping redundant alignment 5140980 5141250 | 455 725 | 271 271 | 97.42 | NC_003909 NODE_938_length_725_cov_54.6385
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2565586 2565865 | 725 446 | 280 280 | 97.14 | NC_003909 NODE_938_length_725_cov_54.6385
+			  Extensive misassembly ( relocation, inconsistency = 552991 ) between these two alignments
+			Real Alignment 2: 3119301 3119708 | 1 408 | 408 408 | 95.34 | NC_003909 NODE_938_length_725_cov_54.6385
+
+CONTIG: NODE_964_length_12747_cov_31.081 (12747bp)
+Top Length: 427  Top ID: 97.89
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1109474][1109900] redundant alignment 1109474 1109900 | 1 427 | 427 427 | 97.89 | NC_003909 NODE_964_length_12747_cov_31.081
+		Skipping [3234967][3235391] redundant alignment 3234967 3235391 | 1 425 | 425 425 | 97.88 | NC_003909 NODE_964_length_12747_cov_31.081
+		This contig is partially unaligned. (427 out of 12747)
+		Alignment: 1109474 1109900 | 1 427 | 427 427 | 97.89 | NC_003909 NODE_964_length_12747_cov_31.081
+		Unaligned bases: 428 to 12747 (12320)
+
+CONTIG: NODE_952_length_8640_cov_39.1238 (8640bp)
+Top Length: 185  Top ID: 96.81
+		This contig is partially unaligned. (185 out of 8640)
+		Alignment: 3118374 3118561 | 1 185 | 188 185 | 96.81 | NC_003909 NODE_952_length_8640_cov_39.1238
+		Unaligned bases: 186 to 8640 (8455)
+
+CONTIG: NODE_858_length_739_cov_80.4157 (739bp)
+Top Length: 668  Top ID: 98.21
+		Skipping redundant alignment 823617 823776 | 156 1 | 160 156 | 96.25 | NC_003909 NODE_858_length_739_cov_80.4157
+		Skipping redundant alignment 4650170 4650329 | 1 156 | 160 156 | 96.25 | NC_003909 NODE_858_length_739_cov_80.4157
+		Skipping redundant alignment 150822 150976 | 502 348 | 155 155 | 99.35 | NC_003909 NODE_858_length_739_cov_80.4157
+		Skipping redundant alignment 823158 823311 | 502 348 | 154 155 | 98.06 | NC_003909 NODE_858_length_739_cov_80.4157
+		Skipping redundant alignment 610803 610885 | 506 424 | 83 83 | 100.0 | NC_003909 NODE_858_length_739_cov_80.4157
+		Skipping redundant alignment 284930 285087 | 739 584 | 158 156 | 98.1 | NC_003909 NODE_858_length_739_cov_80.4157
+		Skipping redundant alignment 4649607 4649759 | 585 739 | 153 155 | 97.42 | NC_003909 NODE_858_length_739_cov_80.4157
+		Skipping redundant alignment 5203783 5203864 | 585 665 | 82 81 | 98.78 | NC_003909 NODE_858_length_739_cov_80.4157
+		Skipping redundant alignment 824156 824309 | 739 586 | 154 154 | 99.35 | NC_003909 NODE_858_length_739_cov_80.4157
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [610145][610301] redundant alignment 610145 610301 | 739 583 | 157 157 | 99.36 | NC_003909 NODE_858_length_739_cov_80.4157
+		This contig is misassembled. 12 total aligns.
+			Real Alignment 1: 278778 279445 | 668 1 | 668 668 | 98.21 | NC_003909 NODE_858_length_739_cov_80.4157
+			  Extensive misassembly ( relocation, inconsistency = 5693 ) between these two alignments
+			Real Alignment 2: 284400 284555 | 739 584 | 156 156 | 99.36 | NC_003909 NODE_858_length_739_cov_80.4157
+
+CONTIG: NODE_946_length_561_cov_45.9424 (561bp)
+Top Length: 560  Top ID: 98.21
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2564198 2564757 | 560 1 | 560 560 | 98.21 | NC_003909 NODE_946_length_561_cov_45.9424
+		Skipping alignment  5142079 5142634 | 1 556 | 556 556 | 98.38 | NC_003909 NODE_946_length_561_cov_45.9424
+
+CONTIG: NODE_962_length_33205_cov_30.9384 (33205bp)
+Top Length: 270  Top ID: 97.04
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [5140981][5141250] redundant alignment 5140981 5141250 | 270 1 | 270 270 | 97.04 | NC_003909 NODE_962_length_33205_cov_30.9384
+		This contig is partially unaligned. (270 out of 33205)
+		Alignment: 2565586 2565855 | 1 270 | 270 270 | 97.04 | NC_003909 NODE_962_length_33205_cov_30.9384
+		Unaligned bases: 271 to 33205 (32935)
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/contigs_reports/nucmer_output/B.cereus.used_snps
+	Reference NC_003909: 61 total alignments. 1 total regions.
+		Region: 1 to 5224283 (5224283 bp)
+			START in gap: 1 to 29394 (29393 bp)
+			Align 1: 29394 33649 NODE_859_length_4258_cov_482.401 4258 1
+				Gap between this and next alignment: 33649 to 145296 (111646 bp)
+				Next Alignment: 145296 145778 NODE_873_length_15170_cov_84.0212 483 1
+
+			Align 2: 145296 145778 NODE_873_length_15170_cov_84.0212 483 1
+				Gap between this and next alignment: 145778 to 149761 (3982 bp)
+				Next Alignment: 149761 150571 NODE_865_length_813_cov_140.377 813 1
+
+			Align 3: 149761 150571 NODE_865_length_813_cov_140.377 813 1
+				Negative gap (overlap) between this and next alignment: 150571 to 150498 (-73 bp)
+				Next Alignment: 150498 150572 NODE_1113_length_90150_cov_78.4315 1 75
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 75.
+			Align 4: 150572 150572 NODE_1113_length_90150_cov_78.4315 75 75
+				Gap between this and next alignment: 150572 to 278778 (128205 bp)
+				Next Alignment: 278778 279445 NODE_858_length_739_cov_80.4157 668 1
+
+			Align 5: 278778 279445 NODE_858_length_739_cov_80.4157 668 1
+				Negative gap (overlap) between this and next alignment: 279445 to 279373 (-72 bp)
+				Next Alignment: 279373 279883 NODE_872_length_511_cov_75.7844 511 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 511 to 438.
+			Align 6: 279446 279883 NODE_872_length_511_cov_75.7844 438 1
+				Gap between this and next alignment: 279883 to 283865 (3981 bp)
+				Next Alignment: 283865 284382 NODE_869_length_519_cov_444.151 519 1
+
+			Align 7: 283865 284382 NODE_869_length_519_cov_444.151 519 1
+				Negative gap (overlap) between this and next alignment: 284382 to 284308 (-74 bp)
+				Next Alignment: 284308 284921 NODE_856_length_15828_cov_90.4448 15828 15214
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 15828 to 15753.
+			Align 8: 284383 284921 NODE_856_length_15828_cov_90.4448 15753 15214
+				The next alignment (284400 284555 NODE_858_length_739_cov_80.4157 739 584) is redundant. Skipping.
+				Gap between this and next alignment: 284921 to 314172 (29250 bp)
+				Next Alignment: 314172 318199 NODE_895_length_4030_cov_782.863 4030 1
+
+			Align 10: 314172 318199 NODE_895_length_4030_cov_782.863 4030 1
+				Gap between this and next alignment: 318199 to 318570 (370 bp)
+				Next Alignment: 318570 318694 NODE_880_length_6929_cov_86.4059 6929 6805
+
+			Align 11: 318570 318694 NODE_880_length_6929_cov_86.4059 6929 6805
+				The next alignment (318570 318694 NODE_881_length_2497_cov_80.8803 2497 2373) is redundant. Skipping.
+				Gap between this and next alignment: 318694 to 335044 (16349 bp)
+				Next Alignment: 335044 335563 NODE_870_length_519_cov_293.446 519 1
+
+			Align 13: 335044 335563 NODE_870_length_519_cov_293.446 519 1
+				Negative gap (overlap) between this and next alignment: 335563 to 335489 (-74 bp)
+				Next Alignment: 335489 335567 NODE_868_length_606_cov_73.3522 606 528
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 606 to 531.
+			Align 14: 335564 335567 NODE_868_length_606_cov_73.3522 531 528
+				Gap between this and next alignment: 335567 to 609197 (273629 bp)
+				Next Alignment: 609197 609851 NODE_867_length_822_cov_93.2557 822 169
+
+			Align 15: 609197 609851 NODE_867_length_822_cov_93.2557 822 169
+				Gap between this and next alignment: 609851 to 817818 (207966 bp)
+				Next Alignment: 817818 818422 NODE_894_length_48839_cov_71.7212 603 1
+
+			Align 16: 817818 818422 NODE_894_length_48839_cov_71.7212 603 1
+				Gap between this and next alignment: 818422 to 822785 (4362 bp)
+				Next Alignment: 822785 823312 NODE_868_length_606_cov_73.3522 527 1
+
+			Align 17: 822785 823312 NODE_868_length_606_cov_73.3522 527 1
+				Gap between this and next alignment: 823312 to 1021776 (198463 bp)
+				Next Alignment: 1021776 1021933 NODE_897_length_80497_cov_27.0483 4966 5122
+
+			Align 18: 1021776 1021933 NODE_897_length_80497_cov_27.0483 4966 5122
+				Gap between this and next alignment: 1021933 to 1080080 (58146 bp)
+				Next Alignment: 1080080 1080148 NODE_1123_length_139050_cov_31.1449 125168 125100
+
+			Align 19: 1080080 1080148 NODE_1123_length_139050_cov_31.1449 125168 125100
+				Gap between this and next alignment: 1080148 to 1109474 (29325 bp)
+				Next Alignment: 1109474 1109899 NODE_1120_length_179516_cov_38.4301 179516 179091
+
+			Align 20: 1109474 1109899 NODE_1120_length_179516_cov_38.4301 179516 179091
+				Negative gap (overlap) between this and next alignment: 1109899 to 1109474 (-425 bp)
+				Next Alignment: 1109474 1109900 NODE_964_length_12747_cov_31.081 1 427
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 427.
+			Align 21: 1109900 1109900 NODE_964_length_12747_cov_31.081 427 427
+				Gap between this and next alignment: 1109900 to 1985283 (875382 bp)
+				Next Alignment: 1985283 1985376 NODE_905_length_80219_cov_25.4265 12864 12957
+
+			Align 22: 1985283 1985376 NODE_905_length_80219_cov_25.4265 12864 12957
+				Gap between this and next alignment: 1985376 to 2367411 (382034 bp)
+				Next Alignment: 2367411 2367531 NODE_1106_length_30765_cov_20.9728 25600 25720
+
+			Align 23: 2367411 2367531 NODE_1106_length_30765_cov_20.9728 25600 25720
+				Gap between this and next alignment: 2367531 to 2564188 (196656 bp)
+				Next Alignment: 2564188 2564757 NODE_943_length_4099_cov_53.4891 570 1
+
+			Align 24: 2564188 2564757 NODE_943_length_4099_cov_53.4891 570 1
+				The next alignment (2564188 2564757 NODE_942_length_647_cov_56.8269 570 1) is redundant. Skipping.
+				The next alignment (2564189 2564757 NODE_945_length_833_cov_83.0462 569 1) is redundant. Skipping.
+				The next alignment (2564190 2564757 NODE_951_length_3442_cov_41.5447 568 1) is redundant. Skipping.
+				The next alignment (2564198 2564757 NODE_947_length_561_cov_43.7922 560 1) is redundant. Skipping.
+				The next alignment (2564198 2564757 NODE_948_length_3718_cov_43.2811 560 1) is redundant. Skipping.
+				The next alignment (2564198 2564757 NODE_949_length_17114_cov_72.1012 560 1) is redundant. Skipping.
+				The next alignment (2564198 2564757 NODE_950_length_75744_cov_29.1301 560 1) is redundant. Skipping.
+				The next alignment (2564198 2564757 NODE_946_length_561_cov_45.9424 560 1) is redundant. Skipping.
+				The next alignment (2564199 2564757 NODE_944_length_6390_cov_53.8396 559 1) is redundant. Skipping.
+				Gap between this and next alignment: 2564757 to 2564947 (189 bp)
+				Next Alignment: 2564947 2565660 NODE_834_length_714_cov_258.509 1 714
+
+			Align 34: 2564947 2565660 NODE_834_length_714_cov_258.509 1 714
+				The next alignment (2564947 2565660 NODE_833_length_714_cov_329.158 1 714) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2565660 to 2565586 (-74 bp)
+				Next Alignment: 2565586 2565855 NODE_849_length_7548_cov_28.2342 1 270
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 76.
+			Align 36: 2565661 2565855 NODE_849_length_7548_cov_28.2342 76 270
+				Negative gap (overlap) between this and next alignment: 2565855 to 2565586 (-269 bp)
+				Next Alignment: 2565586 2565865 NODE_960_length_3800_cov_61.454 1 280
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 271.
+			Align 37: 2565856 2565865 NODE_960_length_3800_cov_61.454 271 280
+				Negative gap (overlap) between this and next alignment: 2565865 to 2565586 (-279 bp)
+				Next Alignment: 2565586 2565879 NODE_1119_length_19815_cov_48.6919 19815 19522
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 19815 to 19535.
+			Align 38: 2565866 2565879 NODE_1119_length_19815_cov_48.6919 19535 19522
+				The next alignment (2565586 2565875 NODE_963_length_27119_cov_25.9607 1 290) is redundant. Skipping.
+				The next alignment (2565586 2565865 NODE_844_length_871_cov_27.1985 871 592) is redundant. Skipping.
+				The next alignment (2565586 2565856 NODE_846_length_640_cov_68.6513 640 370) is redundant. Skipping.
+				The next alignment (2565586 2565879 NODE_945_length_833_cov_83.0462 833 540) is redundant. Skipping.
+				The next alignment (2565586 2565865 NODE_938_length_725_cov_54.6385 725 446) is redundant. Skipping.
+				The next alignment (2565586 2565855 NODE_962_length_33205_cov_30.9384 1 270) is redundant. Skipping.
+				Gap between this and next alignment: 2565879 to 2599598 (33718 bp)
+				Next Alignment: 2599598 2600288 NODE_908_length_39635_cov_29.0532 17423 16733
+
+			Align 45: 2599598 2600288 NODE_908_length_39635_cov_29.0532 17423 16733
+				Gap between this and next alignment: 2600288 to 2993724 (393435 bp)
+				Next Alignment: 2993724 2994295 NODE_912_length_24540_cov_35.5812 572 1
+
+			Align 46: 2993724 2994295 NODE_912_length_24540_cov_35.5812 572 1
+				Gap between this and next alignment: 2994295 to 3015458 (21162 bp)
+				Next Alignment: 3015458 3018132 NODE_771_length_73575_cov_26.4516 12725 10051
+
+			Align 47: 3015458 3018132 NODE_771_length_73575_cov_26.4516 12725 10051
+				Gap between this and next alignment: 3018132 to 3118165 (100032 bp)
+				Next Alignment: 3118165 3118375 NODE_955_length_1891_cov_53.1267 12 222
+
+			Align 48: 3118165 3118375 NODE_955_length_1891_cov_53.1267 12 222
+				Negative gap (overlap) between this and next alignment: 3118375 to 3118374 (-1 bp)
+				Next Alignment: 3118374 3118561 NODE_952_length_8640_cov_39.1238 1 185
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 3.
+			Align 49: 3118376 3118561 NODE_952_length_8640_cov_39.1238 3 185
+				Gap between this and next alignment: 3118561 to 3118711 (149 bp)
+				Next Alignment: 3118711 3119714 NODE_933_length_6519_cov_44.4154 1 1004
+
+			Align 50: 3118711 3119714 NODE_933_length_6519_cov_44.4154 1 1004
+				The next alignment (3118711 3119375 NODE_1094_length_665_cov_111.259 1 665) is redundant. Skipping.
+				The next alignment (3119301 3119708 NODE_938_length_725_cov_54.6385 1 408) is redundant. Skipping.
+				Gap between this and next alignment: 3119714 to 3233471 (113756 bp)
+				Next Alignment: 3233471 3233628 NODE_911_length_19663_cov_22.1437 157 1
+
+			Align 53: 3233471 3233628 NODE_911_length_19663_cov_22.1437 157 1
+				The next alignment (3233471 3233628 NODE_910_length_8484_cov_26.7138 157 1) is redundant. Skipping.
+				Gap between this and next alignment: 3233628 to 4190254 (956625 bp)
+				Next Alignment: 4190254 4191657 NODE_1121_length_173084_cov_64.8198 108196 106793
+
+			Align 55: 4190254 4191657 NODE_1121_length_173084_cov_64.8198 108196 106793
+				Gap between this and next alignment: 4191657 to 4375336 (183678 bp)
+				Next Alignment: 4375336 4380532 NODE_899_length_56032_cov_69.3319 30911 25715
+
+			Align 56: 4375336 4380532 NODE_899_length_56032_cov_69.3319 30911 25715
+				Gap between this and next alignment: 4380532 to 4648919 (268386 bp)
+				Next Alignment: 4648919 4649173 NODE_886_length_1300_cov_82.1559 1 254
+
+			Align 57: 4648919 4649173 NODE_886_length_1300_cov_82.1559 1 254
+				Negative gap (overlap) between this and next alignment: 4649173 to 4648919 (-254 bp)
+				Next Alignment: 4648919 4649507 NODE_871_length_584_cov_85.9686 1 584
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 255.
+			Align 58: 4649174 4649507 NODE_871_length_584_cov_85.9686 255 584
+				Gap between this and next alignment: 4649507 to 4649524 (16 bp)
+				Next Alignment: 4649524 4650153 NODE_854_length_628_cov_67.0886 1 628
+
+			Align 59: 4649524 4650153 NODE_854_length_628_cov_67.0886 1 628
+				Gap between this and next alignment: 4650153 to 4650725 (571 bp)
+				Next Alignment: 4650725 4651456 NODE_866_length_824_cov_148.927 93 824
+
+			Align 60: 4650725 4651456 NODE_866_length_824_cov_148.927 93 824
+				Gap between this and next alignment: 4651456 to 5203886 (552429 bp)
+				Next Alignment: 5203886 5203969 NODE_867_length_822_cov_93.2557 1 83
+
+			Align 61: 5203886 5203969 NODE_867_length_822_cov_93.2557 1 83
+			END in gap: 5203969 to 5224283 (20314 bp)
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/contigs_reports/nucmer_output/B.cereus.used_snps
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 5
+		Relocations: 5
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 5
+	Misassembled Contig Bases: 3725
+	Misassmblies Inter-Contig Overlap: 115
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 38 part
+Partially Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 1298085
+
+Ambiguously Mapped Contigs: 8
+Total Bases in Ambiguously Mapped Contigs: 11874
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 30684
+
+	SNPs: 712
+	Insertions: 26
+	Deletions: 36
+
+	Positive Gaps: 31
+		Internal Gaps:  0
+		External Gaps:  31
+		External Gap Total:  5193599
+		External Gap Average: 167535
+	Negative Gaps: 10
+		Internal Overlaps:  0
+		External Overlaps:  10
+		External Overlaps Total: -1595
+		External Overlaps Average: -160
+	Contigs with Redundant Alignments: 7 (8977)

@@ -1,0 +1,60 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.pyc -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/result.gff --meta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Abyss_not_aligned_anywhere.fasta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Cabog_not_aligned_anywhere.fasta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Mira_not_aligned_anywhere.fasta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Msrca_not_aligned_anywhere.fasta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Sga_not_aligned_anywhere.fasta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Soap_not_aligned_anywhere.fasta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Spades_not_aligned_anywhere.fasta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Velvet_not_aligned_anywhere.fasta -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/not_aligned_quast_output --labels "BC-M-Abyss, BC-M-Cabog, BC-M-Mira, BC-M-Msrca, BC-M-Sga, BC-M-Soap, BC-M-Spades, BC-M-Velvet"
+
+Started: 2014-03-24 11:52:12
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/not_aligned_quast_output/quast.log
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Abyss_not_aligned_anywhere.fasta ==> BC-M-Abyss
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Cabog_not_aligned_anywhere.fasta ==> BC-M-Cabog
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Mira_not_aligned_anywhere.fasta ==> BC-M-Mira
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Msrca_not_aligned_anywhere.fasta ==> BC-M-Msrca
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Sga_not_aligned_anywhere.fasta ==> BC-M-Sga
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Soap_not_aligned_anywhere.fasta ==> BC-M-Soap
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Spades_not_aligned_anywhere.fasta ==> BC-M-Spades
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/corrected_input/BC-M-Velvet_not_aligned_anywhere.fasta ==> BC-M-Velvet
+
+2014-03-24 11:52:12
+Running Basic statistics processor...
+  Contig files: 
+    1  BC-M-Abyss
+    2  BC-M-Cabog
+    3  BC-M-Mira
+    4  BC-M-Msrca
+    5  BC-M-Sga
+    6  BC-M-Soap
+    7  BC-M-Spades
+    8  BC-M-Velvet
+  Calculating N50 and L50...
+    1  BC-M-Abyss, N50 = 3185, L50 = 1, Total length = 3185, GC % = 38.60, # N's per 100 kbp =  1507.06
+    2  BC-M-Cabog, N50 = 3949, L50 = 1, Total length = 3949, GC % = 40.85, # N's per 100 kbp =  0.00
+    3  BC-M-Mira, N50 = 2901, L50 = 1, Total length = 4765, GC % = 44.86, # N's per 100 kbp =  734.52
+    4  BC-M-Msrca, N50 = 3374, L50 = 1, Total length = 3374, GC % = 38.20, # N's per 100 kbp =  0.00
+    5  BC-M-Sga, N50 = 2471, L50 = 1, Total length = 2471, GC % = 33.83, # N's per 100 kbp =  0.00
+    6  BC-M-Soap, N50 = 2316, L50 = 1, Total length = 2316, GC % = 33.25, # N's per 100 kbp =  0.00
+    7  BC-M-Spades, N50 = 2438, L50 = 1, Total length = 3704, GC % = 40.39, # N's per 100 kbp =  0.00
+    8  BC-M-Velvet, N50 = 2330, L50 = 1, Total length = 2330, GC % = 33.22, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/not_aligned_quast_output/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/not_aligned_quast_output/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/not_aligned_quast_output/basic_stats/Nx_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-03-24 11:52:13
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/not_aligned_quast_output/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/not_aligned_quast_output/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/not_aligned_quast_output/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/not_aligned_quast_output/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1020/dataset_1103_files/not_aligned_quast_output/quast.log
+
+Finished: 2014-03-24 11:52:13
+Elapsed time: 0:00:01.263187

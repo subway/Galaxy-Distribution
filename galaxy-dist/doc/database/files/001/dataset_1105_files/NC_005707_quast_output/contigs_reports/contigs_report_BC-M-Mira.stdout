@@ -1,0 +1,217 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [NC_005707]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 208369
+Analyzing contigs...
+CONTIG: mira_c86 (9981bp)
+Top Length: 9981  Top ID: 99.98
+		Marking as insignificant: 38615 38815 | 8801 8599 | 201 203 | 95.57 | NC_005707 mira_c86
+		Marking as insignificant: 83135 83339 | 8599 8804 | 205 206 | 95.63 | NC_005707 mira_c86
+		One align captures most of this contig: 99654 109634 | 1 9981 | 9981 9981 | 99.98 | NC_005707 mira_c86
+
+CONTIG: mira_c85 (10465bp)
+Top Length: 10465  Top ID: 99.98
+		One align captures most of this contig: 89204 99668 | 1 10465 | 10465 10465 | 99.98 | NC_005707 mira_c85
+
+CONTIG: mira_c81 (12504bp)
+Top Length: 12504  Top ID: 100.0
+		Marking as insignificant: 38615 38816 | 5891 6093 | 202 203 | 96.55 | NC_005707 mira_c81
+		Marking as insignificant: 108252 108457 | 6092 5888 | 206 205 | 95.63 | NC_005707 mira_c81
+		Marking as insignificant: 38615 38817 | 7641 7843 | 203 203 | 97.04 | NC_005707 mira_c81
+		One align captures most of this contig: 76723 89226 | 12504 1 | 12504 12504 | 100.0 | NC_005707 mira_c81
+
+CONTIG: mira_c51 (14041bp)
+Top Length: 14041  Top ID: 100.0
+		Marking as insignificant: 108252 108454 | 11986 12186 | 203 201 | 95.57 | NC_005707 mira_c51
+		Marking as insignificant: 83134 83336 | 11985 12186 | 203 202 | 96.55 | NC_005707 mira_c51
+		Marking as insignificant: 81384 81586 | 11984 12186 | 203 203 | 97.04 | NC_005707 mira_c51
+		One align captures most of this contig: 36760 50800 | 14041 1 | 14041 14041 | 100.0 | NC_005707 mira_c51
+
+CONTIG: mira_c15 (126165bp)
+Top Length: 25853  Top ID: 99.97
+		This contig is partially unaligned. (25853 out of 126165)
+		Alignment: 51321 77173 | 126165 100313 | 25853 25853 | 99.97 | NC_005707 mira_c15
+		Unaligned bases: 1 to 100312 (100312)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c29 (64895bp)
+Top Length: 14429  Top ID: 99.99
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 64895 and total length of all aligns is 19922
+		Alignment: 1 5934 | 50907 44974 | 5934 5934 | 99.92 | NC_005707 mira_c29
+		Alignment: 193941 208369 | 64895 50467 | 14429 14429 | 99.99 | NC_005707 mira_c29
+		Unaligned bases: 44973
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: mira_c88 (8476bp)
+Top Length: 8476  Top ID: 100.0
+		One align captures most of this contig: 5691 14166 | 8476 1 | 8476 8476 | 100.0 | NC_005707 mira_c88
+
+CONTIG: mira_c77 (7969bp)
+Top Length: 7969  Top ID: 99.99
+		One align captures most of this contig: 111436 119403 | 1 7969 | 7968 7969 | 99.99 | NC_005707 mira_c77
+
+CONTIG: mira_rep_c125 (769bp)
+Top Length: 554  Top ID: 99.64
+		Skipping redundant alignment 4673 4780 | 1 108 | 108 108 | 96.3 | NC_005707 mira_rep_c125
+		Skipping redundant alignment 4691 4778 | 307 394 | 88 88 | 95.45 | NC_005707 mira_rep_c125
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 4511 4689 | 1 179 | 179 179 | 99.44 | NC_005707 mira_rep_c125
+			  Gap between these two alignments (local misassembly). Inconsistency = 54
+			Real Alignment 2: 4780 5333 | 216 769 | 554 554 | 99.64 | NC_005707 mira_rep_c125
+
+CONTIG: mira_rep_c103 (604bp)
+Top Length: 604  Top ID: 99.83
+		One align captures most of this contig: 76653 77256 | 604 1 | 604 604 | 99.83 | NC_005707 mira_rep_c103
+
+CONTIG: mira_c56 (74370bp)
+Top Length: 69736  Top ID: 99.99
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 119387 189122 | 74370 4635 | 69736 69736 | 99.99 | NC_005707 mira_c56
+			  Gap between these two alignments (local misassembly). Inconsistency = 192
+			Real Alignment 2: 189123 193946 | 4826 1 | 4824 4826 | 99.81 | NC_005707 mira_c56
+
+CONTIG: mira_rep_c117 (868bp)
+Top Length: 868  Top ID: 100.0
+		One align captures most of this contig: 111200 112067 | 1 868 | 868 868 | 100.0 | NC_005707 mira_rep_c117
+
+CONTIG: mira_c150 (577bp)
+Top Length: 387  Top ID: 98.19
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 188929 189312 | 47 433 | 384 387 | 98.19 | NC_005707 mira_c150
+			  Overlap between these two alignments (local misassembly). Inconsistency = -189
+			Real Alignment 2: 188932 189264 | 242 577 | 333 336 | 97.92 | NC_005707 mira_c150
+
+CONTIG: mira_c78 (22654bp)
+Top Length: 22654  Top ID: 100.0
+		One align captures most of this contig: 14127 36780 | 22654 1 | 22654 22654 | 100.0 | NC_005707 mira_c78
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1022/dataset_1105_files/NC_005707_quast_output/contigs_reports/nucmer_output/BC-M-Mira.used_snps
+	Reference NC_005707: 16 total alignments. 1 total regions.
+		Region: 1 to 208369 (208369 bp)
+			START in gap: 1 to 4511 (4510 bp)
+			Align 1: 4511 4689 mira_rep_c125 1 179
+				Gap between this and next alignment: 4689 to 4780 (90 bp)
+				Next Alignment: 4780 5333 mira_rep_c125 216 769
+
+			Align 2: 4780 5333 mira_rep_c125 216 769
+				Gap between this and next alignment: 5333 to 5691 (357 bp)
+				Next Alignment: 5691 14166 mira_c88 8476 1
+
+			Align 3: 5691 14166 mira_c88 8476 1
+				Negative gap (overlap) between this and next alignment: 14166 to 14127 (-39 bp)
+				Next Alignment: 14127 36780 mira_c78 22654 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 22654 to 22614.
+			Align 4: 14167 36780 mira_c78 22614 1
+				Negative gap (overlap) between this and next alignment: 36780 to 36760 (-20 bp)
+				Next Alignment: 36760 50800 mira_c51 14041 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 14041 to 14020.
+			Align 5: 36781 50800 mira_c51 14020 1
+				Gap between this and next alignment: 50800 to 51321 (520 bp)
+				Next Alignment: 51321 77173 mira_c15 126165 100313
+
+			Align 6: 51321 77173 mira_c15 126165 100313
+				Negative gap (overlap) between this and next alignment: 77173 to 76653 (-520 bp)
+				Next Alignment: 76653 77256 mira_rep_c103 604 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 604 to 83.
+			Align 7: 77174 77256 mira_rep_c103 83 1
+				Negative gap (overlap) between this and next alignment: 77256 to 76723 (-533 bp)
+				Next Alignment: 76723 89226 mira_c81 12504 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 12504 to 11970.
+			Align 8: 77257 89226 mira_c81 11970 1
+				Negative gap (overlap) between this and next alignment: 89226 to 89204 (-22 bp)
+				Next Alignment: 89204 99668 mira_c85 1 10465
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 24.
+			Align 9: 89227 99668 mira_c85 24 10465
+				Negative gap (overlap) between this and next alignment: 99668 to 99654 (-14 bp)
+				Next Alignment: 99654 109634 mira_c86 1 9981
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 16.
+			Align 10: 99669 109634 mira_c86 16 9981
+				Gap between this and next alignment: 109634 to 111200 (1565 bp)
+				Next Alignment: 111200 112067 mira_rep_c117 1 868
+
+			Align 11: 111200 112067 mira_rep_c117 1 868
+				Negative gap (overlap) between this and next alignment: 112067 to 111436 (-631 bp)
+				Next Alignment: 111436 119403 mira_c77 1 7969
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 633.
+			Align 12: 112068 119403 mira_c77 633 7969
+				Negative gap (overlap) between this and next alignment: 119403 to 119387 (-16 bp)
+				Next Alignment: 119387 189122 mira_c56 74370 4635
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 74370 to 74353.
+			Align 13: 119404 189122 mira_c56 74353 4635
+				Negative gap (overlap) between this and next alignment: 189122 to 188929 (-193 bp)
+				Next Alignment: 188929 189312 mira_c150 47 433
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 47 to 243.
+			Align 14: 189123 189312 mira_c150 243 433
+				The next alignment (188932 189264 mira_c150 242 577) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 189312 to 189123 (-189 bp)
+				Next Alignment: 189123 193946 mira_c56 4826 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4826 to 4634.
+			Align 16: 189313 193946 mira_c56 4634 1
+			END in gap: 193946 to 208369 (14423 bp)
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1022/dataset_1105_files/NC_005707_quast_output/contigs_reports/nucmer_output/BC-M-Mira.used_snps
+
+Results:
+	Local Misassemblies: 3
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassmblies Inter-Contig Overlap: 384
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 2 part
+Partially Unaligned Contigs with Misassemblies: 1
+Unaligned Contig Bases: 145285
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 186904
+
+	SNPs: 8
+	Insertions: 4
+	Deletions: 1
+
+	Positive Gaps: 6
+		Internal Gaps:  1
+		External Gaps:  5
+		External Gap Total:  21375
+		External Gap Average: 4275
+	Negative Gaps: 10
+		Internal Overlaps:  0
+		External Overlaps:  10
+		External Overlaps Total: -2177
+		External Overlaps Average: -218
+	Contigs with Redundant Alignments: 1 (333)

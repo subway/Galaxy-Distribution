@@ -1,0 +1,69 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.py test_data/meta_contigs_1.fasta test_data/meta_contigs_2.fasta -R test_data/meta_ref_1.fasta test_data/meta_ref_2.fasta test_data/meta_ref_3.fasta
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-03-12 18:19:03
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_12_18_19_03/quast.log
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  test_data/meta_ref_1.fasta ==> meta_ref_1
+
+Contigs:
+  test_data/meta_contigs_1.fasta ==> meta_contigs_1
+  test_data/meta_contigs_2.fasta ==> meta_contigs_2
+  test_data/meta_ref_2.fasta ==> meta_ref_2
+  test_data/meta_ref_3.fasta ==> meta_ref_3
+
+2014-03-12 18:19:08
+Running Basic statistics processor...
+  Reference genome:
+    meta_ref_1.fasta, Reference length = 54999, Reference GC % = 45.96
+  Contig files: 
+    1  meta_contigs_1
+    2  meta_contigs_2
+    3  meta_ref_2
+    4  meta_ref_3
+  Calculating N50 and L50...
+    1  meta_contigs_1, N50 = 49658, L50 = 2, Total length = 180875, GC % = 45.35, # N's per 100 kbp =  7.74
+    2  meta_contigs_2, N50 = 49658, L50 = 2, Total length = 172255, GC % = 45.38, # N's per 100 kbp =  0.00
+    3  meta_ref_2, N50 = 59999, L50 = 1, Total length = 59999, GC % = 50.25, # N's per 100 kbp =  0.00
+    4  meta_ref_3, N50 = 64999, L50 = 1, Total length = 64999, GC % = 40.73, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_12_18_19_03/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_12_18_19_03/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_12_18_19_03/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_12_18_19_03/basic_stats/NGx_plot.pdf
+Done.
+
+2014-03-12 18:19:09
+Running Contig analyzer...
+  1  meta_contigs_1
+  2  meta_contigs_2
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_12_18_19_03/contigs_reports/contigs_report_meta_contigs_1.stdout and contigs_report_meta_contigs_1.stderr...
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_12_18_19_03/contigs_reports/contigs_report_meta_contigs_2.stdout and contigs_report_meta_contigs_2.stderr...
+  1  Running Nucmer... 
+  2  Running Nucmer... 
+  3  meta_ref_2
+  4  meta_ref_3
+  3  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_12_18_19_03/contigs_reports/contigs_report_meta_ref_2.stdout and contigs_report_meta_ref_2.stderr...
+  4  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_12_18_19_03/contigs_reports/contigs_report_meta_ref_3.stdout and contigs_report_meta_ref_3.stderr...
+  3  Running Nucmer... 
+  4  Running Nucmer... 
+  4  Nucmer: nothing aligned for 'meta_ref_3'.
+  3  Nucmer: nothing aligned for 'meta_ref_2'.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_12_18_19_03/contigs_reports/alignments_meta_contigs_2.tsv
+  49660 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_12_18_19_03/contigs_reports/alignments_meta_contigs_1.tsv
+  49660 Analysis is finished.

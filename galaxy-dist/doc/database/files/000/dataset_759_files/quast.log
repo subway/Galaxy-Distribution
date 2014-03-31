@@ -1,0 +1,220 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_680.dat -l BC-H-Abyss, BC-M-Abyss, BC-H-Cabog, BC-M-Cabog, BC-H-Mira, BC-M-Mira, BC-H-Msrca, BC-M-Msrca, BC-H-Sga, BC-M-Sga, BC-H-Soap, BC-M-Soap, BC-H-Spades, BC-M-Spades, BC-H-Velvet, BC-M-Velvet -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_681.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_489.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_497.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_490.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_498.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_491.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_499.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_492.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_500.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_493.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_501.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_494.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_502.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_495.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_503.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_496.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_504.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-02-26 05:46:31
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_680.dat ==> dataset_680
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_489.dat ==> BC-H-Abyss
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_497.dat ==> BC-M-Abyss
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_490.dat ==> BC-H-Cabog
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_498.dat ==> BC-M-Cabog
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_491.dat ==> BC-H-Mira
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_499.dat ==> BC-M-Mira
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_492.dat ==> BC-H-Msrca
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_500.dat ==> BC-M-Msrca
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_493.dat ==> BC-H-Sga
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_501.dat ==> BC-M-Sga
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_494.dat ==> BC-H-Soap
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_502.dat ==> BC-M-Soap
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_495.dat ==> BC-H-Spades
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_503.dat ==> BC-M-Spades
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_496.dat ==> BC-H-Velvet
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_504.dat ==> BC-M-Velvet
+
+2014-02-26 05:46:42
+Running Basic statistics processor...
+  Reference genome:
+    dataset_680.dat, Reference length = 208369, Reference GC % = 33.44
+  Contig files: 
+    1  BC-H-Abyss
+    2  BC-M-Abyss
+    3  BC-H-Cabog
+    4  BC-M-Cabog
+    5  BC-H-Mira
+    6  BC-M-Mira
+    7  BC-H-Msrca
+    8  BC-M-Msrca
+    9  BC-H-Sga
+    10  BC-M-Sga
+    11 BC-H-Soap
+    12 BC-M-Soap
+    13 BC-H-Spades
+    14 BC-M-Spades
+    15 BC-H-Velvet
+    16 BC-M-Velvet
+  Calculating N50 and L50...
+    1  BC-H-Abyss, N50 = 42572, L50 = 38, Total length = 5805336, GC % = 35.20, # N's per 100 kbp =  0.00
+    2  BC-M-Abyss, N50 = 130570, L50 = 12, Total length = 5380960, GC % = 35.30, # N's per 100 kbp =  102.42
+    3  BC-H-Cabog, N50 = 79405, L50 = 17, Total length = 4796994, GC % = 34.96, # N's per 100 kbp =  0.00
+    4  BC-M-Cabog, N50 = 155352, L50 = 13, Total length = 5419570, GC % = 35.41, # N's per 100 kbp =  0.00
+    5  BC-H-Mira, N50 = 43373, L50 = 28, Total length = 5641826, GC % = 35.21, # N's per 100 kbp =  4.54
+    6  BC-M-Mira, N50 = 116480, L50 = 14, Total length = 5413818, GC % = 35.42, # N's per 100 kbp =  3.53
+    7  BC-H-Msrca, N50 = 97165, L50 = 16, Total length = 5624071, GC % = 35.21, # N's per 100 kbp =  0.00
+    8  BC-M-Msrca, N50 = 246697, L50 = 6, Total length = 5432639, GC % = 35.39, # N's per 100 kbp =  0.00
+    9  BC-H-Sga, N50 = 23397, L50 = 69, Total length = 5471145, GC % = 35.18, # N's per 100 kbp =  0.00
+    10  BC-M-Sga, N50 = 25767, L50 = 64, Total length = 5368062, GC % = 35.30, # N's per 100 kbp =  0.00
+    11 BC-H-Soap, N50 = 57780, L50 = 30, Total length = 5599263, GC % = 35.19, # N's per 100 kbp =  0.00
+    12 BC-M-Soap, N50 = 246346, L50 = 6, Total length = 5341631, GC % = 35.28, # N's per 100 kbp =  0.00
+    13 BC-H-Spades, N50 = 94312, L50 = 15, Total length = 5729752, GC % = 35.26, # N's per 100 kbp =  16.04
+    14 BC-M-Spades, N50 = 103691, L50 = 17, Total length = 5395402, GC % = 35.36, # N's per 100 kbp =  4.10
+    15 BC-H-Velvet, N50 = 44126, L50 = 33, Total length = 4966856, GC % = 35.48, # N's per 100 kbp =  0.00
+    16 BC-M-Velvet, N50 = 24786, L50 = 65, Total length = 5310336, GC % = 35.29, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/basic_stats/NGx_plot.pdf
+Done.
+
+2014-02-26 05:46:51
+Running Contig analyzer...
+  1  BC-H-Abyss
+  2  BC-M-Abyss
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-H-Abyss.stdout and contigs_report_BC-H-Abyss.stderr...
+  3  BC-H-Cabog
+  1  Running Nucmer... 
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-M-Abyss.stdout and contigs_report_BC-M-Abyss.stderr...
+  3  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-H-Cabog.stdout and contigs_report_BC-H-Cabog.stderr...
+  4  BC-M-Cabog
+  2  Running Nucmer... 
+  3  Running Nucmer... 
+  4  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-M-Cabog.stdout and contigs_report_BC-M-Cabog.stderr...
+  5  BC-H-Mira
+  5  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-H-Mira.stdout and contigs_report_BC-H-Mira.stderr...
+  4  Running Nucmer... 
+  5  Running Nucmer... 
+  6  BC-M-Mira
+  7  BC-H-Msrca
+  6  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-M-Mira.stdout and contigs_report_BC-M-Mira.stderr...
+  7  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-H-Msrca.stdout and contigs_report_BC-H-Msrca.stderr...
+  6  Running Nucmer... 
+  7  Running Nucmer... 
+  8  BC-M-Msrca
+  8  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-M-Msrca.stdout and contigs_report_BC-M-Msrca.stderr...
+  8  Running Nucmer... 
+  9  BC-H-Sga
+  9  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-H-Sga.stdout and contigs_report_BC-H-Sga.stderr...
+  9  Running Nucmer... 
+  10  BC-M-Sga
+  10  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-M-Sga.stdout and contigs_report_BC-M-Sga.stderr...
+  11 BC-H-Soap
+  10  Running Nucmer... 
+  11 Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-H-Soap.stdout and contigs_report_BC-H-Soap.stderr...
+  12 BC-M-Soap
+  11 Running Nucmer... 
+  12 Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-M-Soap.stdout and contigs_report_BC-M-Soap.stderr...
+  13 BC-H-Spades
+  12 Running Nucmer... 
+  14 BC-M-Spades
+  13 Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-H-Spades.stdout and contigs_report_BC-H-Spades.stderr...
+  13 Running Nucmer... 
+  14 Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-M-Spades.stdout and contigs_report_BC-M-Spades.stderr...
+  15 BC-H-Velvet
+  14 Running Nucmer... 
+  15 Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-H-Velvet.stdout and contigs_report_BC-H-Velvet.stderr...
+  15 Running Nucmer... 
+  16 BC-M-Velvet
+  16 Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/contigs_report_BC-M-Velvet.stdout and contigs_report_BC-M-Velvet.stderr...
+  16 Running Nucmer... 
+  15 Nucmer: nothing aligned for 'BC-H-Velvet'.
+  3  Nucmer: nothing aligned for 'BC-H-Cabog'.
+  9  Nucmer: nothing aligned for 'BC-H-Sga'.
+  7  Nucmer: nothing aligned for 'BC-H-Msrca'.
+  11 Nucmer: nothing aligned for 'BC-H-Soap'.
+  5  Nucmer: nothing aligned for 'BC-H-Mira'.
+  1  Nucmer: nothing aligned for 'BC-H-Abyss'.
+  13 Nucmer: nothing aligned for 'BC-H-Spades'.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/alignments_BC-M-Velvet.tsv
+  1087 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/alignments_BC-M-Cabog.tsv
+  13532 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/alignments_BC-M-Sga.tsv
+  4872 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/alignments_BC-M-Msrca.tsv
+  14431 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/alignments_BC-M-Soap.tsv
+  5093 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/alignments_BC-M-Spades.tsv
+  23142 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/alignments_BC-M-Abyss.tsv
+  18431 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/alignments_BC-M-Mira.tsv
+  247 Analysis is finished.
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done for 8out of 16. For the rest, only basic stats are going to be evaluated.
+
+2014-02-26 05:47:00
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    1  BC-M-Abyss, Largest alignment = 69698, NA50 = None, NGA50 = 39488, LA50 = None, LGA50 = 2
+    2  BC-M-Cabog, Largest alignment = 74529, NA50 = None, NGA50 = 22638, LA50 = None, LGA50 = 3
+    3  BC-M-Mira, Largest alignment = 74370, NA50 = None, NGA50 = 22654, LA50 = None, LGA50 = 3
+    4  BC-M-Msrca, Largest alignment = 84617, NA50 = None, NGA50 = 46705, LA50 = None, LGA50 = 2
+    5  BC-M-Sga, Largest alignment = 48739, NA50 = None, NGA50 = 19255, LA50 = None, LGA50 = 4
+    6  BC-M-Soap, Largest alignment = 46937, NA50 = None, NGA50 = 19586, LA50 = None, LGA50 = 4
+    7  BC-M-Spades, Largest alignment = 103897, NA50 = None, NGA50 = 46136, LA50 = None, LGA50 = 2
+    8  BC-M-Velvet, Largest alignment = 24180, NA50 = None, NGA50 = 7949, LA50 = None, LGA50 = 8
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-02-26 05:47:01
+Running Genome analyzer...
+  Loaded 242 genes
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  1  BC-M-Abyss
+  2  BC-M-Cabog
+  3  BC-M-Mira
+  4  BC-M-Msrca
+  5  BC-M-Sga
+  6  BC-M-Soap
+  7  BC-M-Spades
+  8  BC-M-Velvet
+  Drawing genes cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-02-26 05:47:04
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/722/dataset_759_files/quast.log
+
+Finished: 2014-02-26 05:47:04
+Elapsed time: 0:00:33.343479

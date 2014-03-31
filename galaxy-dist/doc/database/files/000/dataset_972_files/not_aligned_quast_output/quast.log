@@ -1,0 +1,39 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.pyc --meta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/889/dataset_972_files/corrected_input/dataset_497_not_aligned_anywhere.fasta -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/889/dataset_972_files/not_aligned_quast_output --labels dataset_497.dat
+
+Started: 2014-03-23 22:15:08
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/889/dataset_972_files/not_aligned_quast_output/quast.log
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/889/dataset_972_files/corrected_input/dataset_497_not_aligned_anywhere.fasta ==> dataset_497.dat
+
+2014-03-23 22:15:08
+Running Basic statistics processor...
+  Contig files: 
+    dataset_497.dat
+  Calculating N50 and L50...
+    dataset_497.dat, N50 = 3185, L50 = 1, Total length = 3185, GC % = 38.60, # N's per 100 kbp =  1507.06
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/889/dataset_972_files/not_aligned_quast_output/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/889/dataset_972_files/not_aligned_quast_output/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/889/dataset_972_files/not_aligned_quast_output/basic_stats/Nx_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-03-23 22:15:09
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/889/dataset_972_files/not_aligned_quast_output/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/889/dataset_972_files/not_aligned_quast_output/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/889/dataset_972_files/not_aligned_quast_output/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/889/dataset_972_files/not_aligned_quast_output/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/889/dataset_972_files/not_aligned_quast_output/quast.log
+
+Finished: 2014-03-23 22:15:09
+Elapsed time: 0:00:00.827770

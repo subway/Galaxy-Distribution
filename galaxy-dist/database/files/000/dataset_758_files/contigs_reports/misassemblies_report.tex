@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{16}{|r}|}
+\hline
+Assembly & BC-H-Abyss & BC-M-Abyss & BC-H-Cabog & BC-M-Cabog & BC-H-Mira & BC-M-Mira & BC-H-Msrca & BC-M-Msrca & BC-H-Sga & BC-M-Sga & BC-H-Soap & BC-M-Soap & BC-H-Spades & BC-M-Spades & BC-H-Velvet & BC-M-Velvet \\ \hline
+\# misassemblies & 5 & 1 & {\bf 0} & 3 & 1 & 7 & 4 & 8 & {\bf 0} & 1 & 1 & {\bf 0} & 5 & 4 & {\bf 0} & 2 \\ \hline
+\hspace{5mm}\# relocations & 5 & 1 & {\bf 0} & 3 & 1 & 7 & 4 & 8 & {\bf 0} & 1 & 1 & {\bf 0} & 5 & 4 & {\bf 0} & 2 \\ \hline
+\hspace{5mm}\# translocations & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# inversions & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# misassembled contigs & 4 & 1 & {\bf 0} & 3 & 1 & 6 & 3 & 8 & {\bf 0} & 1 & 1 & {\bf 0} & 5 & 3 & {\bf 0} & 2 \\ \hline
+Misassembled contigs length & 3003 & 29730 & {\bf 0} & 316206 & 995 & 467784 & 3269 & 274719 & {\bf 0} & 508 & 503 & {\bf 0} & 3725 & 1999 & {\bf 0} & 66858 \\ \hline
+\# local misassemblies & 2 & 23 & {\bf 0} & 6 & {\bf 0} & 12 & 1 & 11 & {\bf 0} & 1 & 1 & 20 & {\bf 0} & 12 & {\bf 0} & 9 \\ \hline
+\# mismatches & 971 & 339 & 606 & 257 & 2593 & 253 & 645 & 484 & 1041 & {\bf 45} & 824 & 473 & 722 & 673 & 1027 & 313 \\ \hline
+\# indels & 60 & 417 & 53 & 124 & 90 & 114 & 46 & 188 & 31 & 103 & {\bf 30} & 153 & 55 & 151 & 35 & 162 \\ \hline
+\hspace{5mm}\# short indels ($\leq$ 5 bp) & 59 & 330 & 53 & 120 & 90 & 110 & 45 & 184 & 31 & 97 & {\bf 30} & 145 & 55 & 137 & 35 & 155 \\ \hline
+\hspace{5mm}\# long indels ($>$ 5 bp) & 1 & 87 & {\bf 0} & 4 & {\bf 0} & 4 & 1 & 4 & {\bf 0} & 6 & {\bf 0} & 8 & {\bf 0} & 14 & {\bf 0} & 7 \\ \hline
+Indels length & 75 & 2711 & 56 & 251 & 103 & 230 & 63 & 329 & {\bf 33} & 256 & 34 & 377 & 62 & 525 & 39 & 414 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

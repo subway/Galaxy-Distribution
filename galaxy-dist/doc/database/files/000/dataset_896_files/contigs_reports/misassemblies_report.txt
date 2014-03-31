@@ -1,0 +1,15 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                      BC-H-Abyss  BC-M-Abyss  BC-H-Cabog  BC-M-Cabog  BC-H-Mira  BC-M-Mira  BC-H-Msrca  BC-M-Msrca  BC-H-Sga  BC-M-Sga  BC-H-Soap  BC-M-Soap  BC-H-Spades  BC-M-Spades  BC-H-Velvet  BC-M-Velvet
+# misassemblies               5           2           0           4           1          8          4           9           0         1         1          0          5            5            0            3          
+    # relocations             5           1           0           3           1          6          4           8           0         1         1          0          5            4            0            3          
+    # translocations          0           1           0           1           0          2          0           1           0         0         0          0          0            1            0            0          
+    # inversions              0           0           0           0           0          0          0           0           0         0         0          0          0            0            0            0          
+# misassembled contigs        4           2           0           4           1          7          3           9           0         1         1          0          5            4            0            3          
+Misassembled contigs length   3003        52909       0           541451      995        532679     3269        289559      0         508       503        0          3725         105455       0            72913      
+# local misassemblies         2           25          0           6           0          14         1           11          0         1         1          21         0            14           0            11         
+# mismatches                  971         351         606         259         2593       261        645         489         1041      43        824        478        722          687          1027         328        
+# indels                      60          428         53          130         90         119        46          193         31        109       30         159        55           157          35           166        
+    # short indels (<= 5 bp)  59          337         53          125         90         115        45          189         31        102       30         150        55           142          35           159        
+    # long indels (> 5 bp)    1           91          0           5           0          4          1           4           0         7         0          9          0            15           0            7          
+Indels length                 75          2800        56          274         103        235        63          334         33        306       34         427        62           575          39           418        

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<HTML><HEAD>
+ 		<SCRIPT type="text/javascript">function toggleImg(id){ 
+ 		var img = document.getElementById(id);
+ 	        img.style.display = (img.style.display=='none' ? 'block' : 'none');}</SCRIPT> 	    	<H3>All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+</H3></HEAD>
+<BODY><P><TABLE BORDER="0"><TR><TD>Assembly</TD><TD>dataset_10.dat</TD><TD>dataset_9.dat</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot1');"># contigs (>= 0 bp) </A></TD>
+<TD>177</TD><TD>177</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot2');"># contigs (>= 1000 bp) </A></TD>
+<TD>108</TD><TD>108</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot3');">Total length (>= 0 bp) </A></TD>
+<TD>3905444</TD><TD>3905444</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot4');">Total length (>= 1000 bp) </A></TD>
+<TD>3875057</TD><TD>3875057</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot5');"># contigs </A></TD>
+<TD>133</TD><TD>133</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot6');">Total length </A></TD>
+<TD>3892321</TD><TD>3892321</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot7');">Largest contig </A></TD>
+<TD>246346</TD><TD>246346</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot8');">Reference length </A></TD>
+<TD>2961149</TD><TD>2961149</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot9');">GC (%) </A></TD>
+<TD>47.69</TD><TD>47.69</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot10');">Reference GC (%) </A></TD>
+<TD>47.70</TD><TD>47.70</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot11');">N50 </A></TD>
+<TD>105176</TD><TD>105176</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot12');">NG50 </A></TD>
+<TD>131915</TD><TD>131915</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot13');">N75 </A></TD>
+<TD>43442</TD><TD>43442</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot14');">NG75 </A></TD>
+<TD>93025</TD><TD>93025</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot15');">L50 </A></TD>
+<TD>12</TD><TD>12</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot16');">LG50 </A></TD>
+<TD>8</TD><TD>8</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot17');">L75 </A></TD>
+<TD>26</TD><TD>26</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot18');">LG75 </A></TD>
+<TD>14</TD><TD>14</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot19');"># misassemblies </A></TD>
+<TD>3</TD><TD>3</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot20');">Misassembled contigs length </A></TD>
+<TD>17058</TD><TD>17058</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot21');"># local misassemblies </A></TD>
+<TD>2</TD><TD>2</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot22');"># unaligned contigs 52 + 16 part 52 + </A></TD>
+<TD>part</TD><TD>16</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot23');">Unaligned contigs length </A></TD>
+<TD>1011794</TD><TD>1011794</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot24');">Genome fraction (%) </A></TD>
+<TD>97.074</TD><TD>97.074</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot25');">Duplication ratio </A></TD>
+<TD>1.010</TD><TD>1.010</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot26');"># N's per 100 kbp </A></TD>
+<TD>1.28</TD><TD>1.28</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot27');"># mismatches per 100 kbp </A></TD>
+<TD>4.07</TD><TD>4.07</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot28');"># indels per 100 kbp </A></TD>
+<TD>1.88</TD><TD>1.88</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot29');">Largest alignment </A></TD>
+<TD>246346</TD><TD>246346</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot30');">NA50 </A></TD>
+<TD>77000</TD><TD>77000</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot31');">NGA50 </A></TD>
+<TD>118025</TD><TD>118025</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot32');">NGA75 </A></TD>
+<TD>49571</TD><TD>49571</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot33');">LA50 </A></TD>
+<TD>13</TD><TD>13</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot34');">LGA50 </A></TD>
+<TD>8</TD><TD>8</TD></TR>
+<TR><TD><A HREF="javascript:toggleImg('plot35');">LGA75 </A></TD>
+<TD>17</TD><TD>17</TD></TR>
+</TABLE></BR><img style="display:none;" id="plot1" src="/static/plots/15012014-124920/plot1.jpeg" alt="Plot 1"/>
+<img style="display:none;" id="plot2" src="/static/plots/15012014-124920/plot2.jpeg" alt="Plot 2"/>
+<img style="display:none;" id="plot3" src="/static/plots/15012014-124920/plot3.jpeg" alt="Plot 3"/>
+<img style="display:none;" id="plot4" src="/static/plots/15012014-124920/plot4.jpeg" alt="Plot 4"/>
+<img style="display:none;" id="plot5" src="/static/plots/15012014-124920/plot5.jpeg" alt="Plot 5"/>
+<img style="display:none;" id="plot6" src="/static/plots/15012014-124920/plot6.jpeg" alt="Plot 6"/>
+<img style="display:none;" id="plot7" src="/static/plots/15012014-124920/plot7.jpeg" alt="Plot 7"/>
+<img style="display:none;" id="plot8" src="/static/plots/15012014-124920/plot8.jpeg" alt="Plot 8"/>
+<img style="display:none;" id="plot9" src="/static/plots/15012014-124920/plot9.jpeg" alt="Plot 9"/>
+<img style="display:none;" id="plot10" src="/static/plots/15012014-124920/plot10.jpeg" alt="Plot 10"/>
+<img style="display:none;" id="plot11" src="/static/plots/15012014-124920/plot11.jpeg" alt="Plot 11"/>
+<img style="display:none;" id="plot12" src="/static/plots/15012014-124920/plot12.jpeg" alt="Plot 12"/>
+<img style="display:none;" id="plot13" src="/static/plots/15012014-124920/plot13.jpeg" alt="Plot 13"/>
+<img style="display:none;" id="plot14" src="/static/plots/15012014-124920/plot14.jpeg" alt="Plot 14"/>
+</BODY></HTML>

@@ -1,0 +1,10 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                          BC-M-Abyss  BC-M-Cabog  BC-M-Mira  BC-M-Msrca  BC-M-Sga  BC-M-Soap  BC-M-Spades  BC-M-Velvet
+# fully unaligned contigs         0           0           3          0           0         1          2            1          
+Fully unaligned length            0           0           1864       0           0         2316       1266         2330       
+# partially unaligned contigs     1           1           4          1           2         0          1            3          
+    # with misassembly            1           1           1          1           1         0          1            0          
+    # both parts are significant  1           1           1          1           0         0          0            0          
+Partially unaligned length        2338        2142        3505       2142        2237      0          2140         266        
+# N's                             5511        0           191        0           0         0          221          0          

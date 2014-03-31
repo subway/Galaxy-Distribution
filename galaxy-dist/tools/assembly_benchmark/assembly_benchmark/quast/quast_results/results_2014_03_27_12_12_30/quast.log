@@ -1,0 +1,70 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.py --scaffold -R ../reference/refGen/NC_003909.fna -G ../reference/genefiles/NC_003909.gff abyss_scf.fasta
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-03-27 12:12:30
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_27_12_12_30/quast.log
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  ../reference/refGen/NC_003909.fna ==> NC_003909
+
+Contigs:
+  abyss_scf.fasta ==> abyss_scf
+  breaking scaffolds into contigs:
+      2389 scaffolds (abyss_scf) were broken into 167 contigs (abyss_scf_broken)
+
+2014-03-27 12:16:14
+Running Basic statistics processor...
+  Reference genome:
+    NC_003909.fna, Reference length = 5224283, Reference GC % = 35.58
+  Contig files: 
+    1  abyss_scf broken
+    2  abyss_scf
+  Calculating N50 and L50...
+    1  abyss_scf broken, N50 = 237457, L50 = 7, Total length = 4967765, GC % = 61.54, # N's per 100 kbp =  0.02
+    2  abyss_scf, N50 = 268392, L50 = 6, Total length = 4969781, GC % = 61.53, # N's per 100 kbp =  9.88
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_27_12_12_30/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_27_12_12_30/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_27_12_12_30/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_27_12_12_30/basic_stats/NGx_plot.pdf
+Done.
+
+2014-03-27 12:16:20
+Running Contig analyzer...
+  1  abyss_scf broken
+  2  abyss_scf
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_27_12_12_30/contigs_reports/contigs_report_abyss_scf_broken.stdout and contigs_report_abyss_scf_broken.stderr...
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_27_12_12_30/contigs_reports/contigs_report_abyss_scf.stdout and contigs_report_abyss_scf.stderr...
+  1  Running Nucmer... 
+  2  Running Nucmer... 
+  1  Nucmer: nothing aligned for 'abyss_scf_broken'.
+  2  Nucmer: nothing aligned for 'abyss_scf'.
+Failed aligning the contigs for all the assemblies. Only basic stats are going to be evaluated.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-03-27 12:16:31
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_27_12_12_30/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_27_12_12_30/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_27_12_12_30/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_27_12_12_30/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_27_12_12_30/quast.log
+
+Finished: 2014-03-27 12:16:32
+Elapsed time: 0:04:01.174966

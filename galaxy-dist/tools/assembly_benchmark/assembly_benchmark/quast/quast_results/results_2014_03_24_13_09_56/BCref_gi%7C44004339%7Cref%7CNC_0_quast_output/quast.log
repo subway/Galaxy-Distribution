@@ -1,0 +1,48 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.pyc --meta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/corrected_input/abyss_to_BCref_gi|44004339|ref|NC_0.fasta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/corrected_input/cabog_to_BCref_gi|44004339|ref|NC_0.fasta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/corrected_input/mira_to_BCref_gi|44004339|ref|NC_0.fasta -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/corrected_input/BCref_gi|44004339|ref|NC_0.fna -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/BCref_gi|44004339|ref|NC_0_quast_output --labels "abyss, cabog, mira"
+
+Started: 2014-03-24 13:14:17
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/BCref_gi|44004339|ref|NC_0_quast_output/quast.log
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/corrected_input/BCref_gi|44004339|ref|NC_0.fna ==> BCref_gi|44004339|ref|NC_0
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/corrected_input/abyss_to_BCref_gi|44004339|ref|NC_0.fasta ==> abyss
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/corrected_input/cabog_to_BCref_gi|44004339|ref|NC_0.fasta ==> cabog
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/corrected_input/mira_to_BCref_gi|44004339|ref|NC_0.fasta ==> mira
+
+2014-03-24 13:14:17
+Running Basic statistics processor...
+  Reference genome:
+    BCref_gi|44004339|ref|NC_0.fna, Reference length = 208369, Reference GC % = 33.44
+  Contig files: 
+    1  abyss
+    2  cabog
+    3  mira
+  Calculating N50 and L50...
+    1  abyss, N50 = 39488, L50 = 2, Total length = 213399, GC % = 33.56, # N's per 100 kbp =  141.05
+    2  cabog, N50 = 225245, L50 = 1, Total length = 425241, GC % = 33.96, # N's per 100 kbp =  0.00
+    3  mira, N50 = 74370, L50 = 2, Total length = 354338, GC % = 33.83, # N's per 100 kbp =  3.39
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/BCref_gi|44004339|ref|NC_0_quast_output/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/BCref_gi|44004339|ref|NC_0_quast_output/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/BCref_gi|44004339|ref|NC_0_quast_output/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/BCref_gi|44004339|ref|NC_0_quast_output/basic_stats/NGx_plot.pdf
+Done.
+
+2014-03-24 13:14:18
+Running Contig analyzer...
+  1  abyss
+  2  cabog
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/BCref_gi|44004339|ref|NC_0_quast_output/contigs_reports/contigs_report_abyss.stdout and contigs_report_abyss.stderr...
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/BCref_gi|44004339|ref|NC_0_quast_output/contigs_reports/contigs_report_cabog.stdout and contigs_report_cabog.stderr...
+  2  Running Nucmer... 
+  3  mira
+  3  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_09_56/BCref_gi|44004339|ref|NC_0_quast_output/contigs_reports/contigs_report_mira.stdout and contigs_report_mira.stderr...
+  3  Running Nucmer... 

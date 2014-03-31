@@ -1,0 +1,296 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/001/dataset_1111.dat -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_901.dat -l BC-M-Abyss, BC-M-Cabog, BC-M-Mira, BC-M-Msrca, BC-M-Sga, BC-M-Soap, BC-M-Spades, BC-M-Velvet /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_497.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_498.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_499.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_500.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_501.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_502.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_503.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_504.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-03-24 14:35:08
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/metaquast.log
+
+References:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/001/dataset_1111.dat:
+    dataset_1111
+
+    dataset_1111
+
+  All references combined in combined_reference.fasta
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_497.dat ==> BC-M-Abyss
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_498.dat ==> BC-M-Cabog
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_499.dat ==> BC-M-Mira
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_500.dat ==> BC-M-Msrca
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_501.dat ==> BC-M-Sga
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_502.dat ==> BC-M-Soap
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_503.dat ==> BC-M-Spades
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_504.dat ==> BC-M-Velvet
+
+Starting quast.py for the combined reference...
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/quast.log)
+
+JoblibIndexError
+___________________________________________________________________________
+Multiprocessing exception:
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py in <module>()
+    506     logger.finish_up()
+    507 
+    508 
+    509 if __name__ == '__main__':
+    510     try:
+--> 511         return_code = main(sys.argv[1:])
+    512         exit(return_code)
+    513     except Exception, e:
+    514         logger.exception(e)
+    515 
+
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py in main(args=['-o', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...job_working_directory/001/1035/dataset_1118_files', '-R', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/001/dataset_1111.dat', '-G', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_901.dat', '-l', 'BC-M-Abyss, BC-M-Cabog, BC-M-Mira, BC-M-Msrca, BC-M-Sga, BC-M-Soap, BC-M-Spades, BC-M-Velvet', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_497.dat', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_498.dat', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_499.dat', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_500.dat', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_501.dat', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_502.dat', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_503.dat', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_504.dat'])
+    463     logger.info('Starting quast.py ' + run_name + '...')
+    464 
+    465     _start_quast_main(run_name, quast_py_args,
+    466         assemblies=assemblies,
+    467         reference_fpath=combined_ref_fpath,
+--> 468         output_dirpath=os.path.join(output_dirpath, 'combined_quast_output'))
+        output_dirpath = '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files'
+    469 
+    470     # Partitioning contigs into bins aligned to each reference
+    471     assemblies_by_reference, not_aligned_assemblies = _partition_contigs(
+    472         assemblies, ref_fpaths, corrected_dirpath,
+
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py in _start_quast_main(name='for the combined reference', args=['-G', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_901.dat', '--meta', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...035/dataset_1118_files/corrected_input/BC-M-Abyss', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...035/dataset_1118_files/corrected_input/BC-M-Cabog', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...1035/dataset_1118_files/corrected_input/BC-M-Mira', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...035/dataset_1118_files/corrected_input/BC-M-Msrca', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d.../1035/dataset_1118_files/corrected_input/BC-M-Sga', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...1035/dataset_1118_files/corrected_input/BC-M-Soap', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...35/dataset_1118_files/corrected_input/BC-M-Spades', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...35/dataset_1118_files/corrected_input/BC-M-Velvet', '-R', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...18_files/corrected_input/combined_reference.fasta', '-o', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...001/1035/dataset_1118_files/combined_quast_output', '--labels', '"BC-M-Abyss, BC-M-Cabog, BC-M-Mira, BC-M-Msrca, BC-M-Sga, BC-M-Soap, BC-M-Spades, BC-M-Velvet"'], assemblies=[<__main__.Assembly instance>, <__main__.Assembly instance>, <__main__.Assembly instance>, <__main__.Assembly instance>, <__main__.Assembly instance>, <__main__.Assembly instance>, <__main__.Assembly instance>, <__main__.Assembly instance>], reference_fpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d...18_files/corrected_input/combined_reference.fasta', output_dirpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d...001/1035/dataset_1118_files/combined_quast_output', exit_on_exception=True)
+    154 
+    155     logger.info_to_file('(logging to ' +
+    156                         os.path.join(output_dirpath,
+    157                                      qconfig.LOGGER_DEFAULT_NAME + '.log)'))
+    158     # try:
+--> 159     return quast.main(args)
+        quast.main = <function main at 0xf71a488>
+        args = ['-G', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_901.dat', '--meta', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Abyss', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Cabog', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Mira', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Msrca', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Sga', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Soap', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Spades', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Velvet', '-R', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/combined_reference.fasta', '-o', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output', '--labels', '"BC-M-Abyss, BC-M-Cabog, BC-M-Mira, BC-M-Msrca, BC-M-Sga, BC-M-Soap, BC-M-Spades, BC-M-Velvet"']
+    160 
+    161     # except Exception, (errno, strerror):
+    162     #     if exit_on_exception:
+    163     #         logger.exception(e)
+
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.py in main(args=['-G', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_901.dat', '--meta', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...035/dataset_1118_files/corrected_input/BC-M-Abyss', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...035/dataset_1118_files/corrected_input/BC-M-Cabog', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...1035/dataset_1118_files/corrected_input/BC-M-Mira', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...035/dataset_1118_files/corrected_input/BC-M-Msrca', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d.../1035/dataset_1118_files/corrected_input/BC-M-Sga', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...1035/dataset_1118_files/corrected_input/BC-M-Soap', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...35/dataset_1118_files/corrected_input/BC-M-Spades', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...35/dataset_1118_files/corrected_input/BC-M-Velvet', '-R', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...18_files/corrected_input/combined_reference.fasta', '-o', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...001/1035/dataset_1118_files/combined_quast_output', '--labels', '"BC-M-Abyss, BC-M-Cabog, BC-M-Mira, BC-M-Msrca, BC-M-Sga, BC-M-Soap, BC-M-Spades, BC-M-Velvet"'])
+    648         ########################################################################
+    649         ### former PLANTAKOLYA, PLANTAGORA
+    650         ########################################################################
+    651         from libs import contigs_analyzer
+    652         nucmer_statuses, aligned_lengths_per_fpath = contigs_analyzer.do(
+--> 653             ref_fpath, contigs_fpaths, qconfig.prokaryote, os.path.join(output_dirpath, 'contigs_reports'))
+        ref_fpath = '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/combined_reference.fasta'
+        contigs_fpaths = ['/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Abyss', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Cabog', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Mira', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Msrca', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Sga', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Soap', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Spades', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Velvet']
+        output_dirpath = '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output'
+    654         for contigs_fpath in contigs_fpaths:
+    655             if nucmer_statuses[contigs_fpath] == contigs_analyzer.NucmerStatus.OK:
+    656                 aligned_fpaths.append(contigs_fpath)
+    657                 aligned_lengths_lists.append(aligned_lengths_per_fpath[contigs_fpath])
+
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/libs/contigs_analyzer.py in do(reference='/usit/invitro/data/galaxy/master/sabbai/galaxy-d...t_output/corrected_input/combined_reference.fasta', contigs_fpaths=['/usit/invitro/data/galaxy/master/sabbai/galaxy-d.../combined_quast_output/corrected_input/BC-M-Abyss', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d.../combined_quast_output/corrected_input/BC-M-Cabog', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...s/combined_quast_output/corrected_input/BC-M-Mira', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d.../combined_quast_output/corrected_input/BC-M-Msrca', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...es/combined_quast_output/corrected_input/BC-M-Sga', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...s/combined_quast_output/corrected_input/BC-M-Soap', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...combined_quast_output/corrected_input/BC-M-Spades', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...combined_quast_output/corrected_input/BC-M-Velvet'], cyclic=True, output_dir='/usit/invitro/data/galaxy/master/sabbai/galaxy-d..._1118_files/combined_quast_output/contigs_reports')
+   1265 
+   1266     n_jobs = min(len(contigs_fpaths), qconfig.max_threads)
+   1267     from joblib import Parallel, delayed
+   1268     statuses_results_lengths_tuples = Parallel(n_jobs=n_jobs)(delayed(plantakolya_process)(
+   1269         cyclic, nucmer_output_dir, fname, id, myenv, output_dir, reference)
+-> 1270           for id, fname in enumerate(contigs_fpaths))
+        id = undefined
+        contigs_fpaths = ['/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Abyss', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Cabog', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Mira', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Msrca', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Sga', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Soap', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Spades', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Velvet']
+   1271     # unzipping
+   1272     statuses, results, aligned_lengths = [x[0] for x in statuses_results_lengths_tuples], \
+   1273                                          [x[1] for x in statuses_results_lengths_tuples], \
+   1274                                          [x[2] for x in statuses_results_lengths_tuples]
+
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/libs/site_packages/joblib/parallel.py in __call__(self=Parallel(n_jobs=8), iterable=<generator object <genexpr>>)
+    480         self.n_dispatched = 0
+    481         try:
+    482             for function, args, kwargs in iterable:
+    483                 self.dispatch(function, args, kwargs)
+    484 
+--> 485             self.retrieve()
+        self.retrieve = <bound method Parallel.retrieve of Parallel(n_jobs=8)>
+    486             # Make sure that we get a last message telling us we are done
+    487             elapsed_time = time.time() - self._start_time
+    488             self._print('Done %3i out of %3i | elapsed: %s finished',
+    489                         (len(self._output),
+
+---------------------------------------------------------------------------
+Sub-process traceback:
+---------------------------------------------------------------------------
+IndexError                                         Mon Mar 24 14:35:40 2014
+PID: 1109            Python 2.7: /site/VERSIONS/python-2.7.gcc45/bin/python
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/libs/contigs_analyzer.pyc in plantakolya_process(cyclic=True, nucmer_output_dirpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d...mbined_quast_output/contigs_reports/nucmer_output', contigs_fpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d.../combined_quast_output/corrected_input/BC-M-Abyss', i=0, myenv={'CPLUS_INCLUDE_PATH': '/site/VERSIONS/gcc-4.5.1/include', 'CVS_RSH': 'ssh', 'C_INCLUDE_PATH': '/site/VERSIONS/gcc-4.5.1/include', 'EDITOR': 'emacs', 'GALAXY_SLOTS': '1', 'G_BROKEN_FILENAMES': '1', 'HISTSIZE': '100', 'HOME': '/usit/abel/u1/sabbai', 'HOST': 'invitro.titan.uio.no', 'HOSTNAME': 'invitro.titan.uio.no', ...}, output_dirpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d..._1118_files/combined_quast_output/contigs_reports', ref_fpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d...t_output/corrected_input/combined_reference.fasta')
+   1214                         i, myenv, output_dirpath, ref_fpath):
+   1215     assembly_name = qutils.name_from_fpath(contigs_fpath)
+   1216 
+   1217     nucmer_fname = os.path.join(nucmer_output_dirpath, assembly_name)
+   1218     nucmer_is_ok, result, aligned_lengths = plantakolya(
+-> 1219         cyclic, i, contigs_fpath, nucmer_fname, myenv, output_dirpath, ref_fpath)
+   1220 
+   1221     clear_files(contigs_fpath, nucmer_fname)
+   1222     return nucmer_is_ok, result, aligned_lengths
+   1223 
+
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/libs/contigs_analyzer.pyc in plantakolya(cyclic=True, i=0, contigs_fpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d.../combined_quast_output/corrected_input/BC-M-Abyss', nucmer_fpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d...t_output/contigs_reports/nucmer_output/BC-M-Abyss', myenv={'CPLUS_INCLUDE_PATH': '/site/VERSIONS/gcc-4.5.1/include', 'CVS_RSH': 'ssh', 'C_INCLUDE_PATH': '/site/VERSIONS/gcc-4.5.1/include', 'EDITOR': 'emacs', 'GALAXY_SLOTS': '1', 'G_BROKEN_FILENAMES': '1', 'HISTSIZE': '100', 'HOME': '/usit/abel/u1/sabbai', 'HOST': 'invitro.titan.uio.no', 'HOSTNAME': 'invitro.titan.uio.no', ...}, output_dirpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d..._1118_files/combined_quast_output/contigs_reports', ref_fpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d...t_output/corrected_input/combined_reference.fasta')
+    200         tmp_coords_file = open(tmp_coords_fpath)
+    201         for line in tmp_coords_file:
+    202             header.append(line)
+    203             if line.startswith('====='):
+    204                 break
+--> 205         coords_file.write(header[-2])
+    206         coords_file.write(header[-1])
+    207         for line in tmp_coords_file:
+    208             coords_file.write(line)
+    209         coords_file.close()
+
+IndexError: list index out of range
+___________________________________________________________________________
+Traceback (most recent call last):
+  File "/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py", line 511, in <module>
+    return_code = main(sys.argv[1:])
+  File "/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py", line 468, in main
+    output_dirpath=os.path.join(output_dirpath, 'combined_quast_output'))
+  File "/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py", line 159, in _start_quast_main
+    return quast.main(args)
+  File "/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.py", line 653, in main
+    ref_fpath, contigs_fpaths, qconfig.prokaryote, os.path.join(output_dirpath, 'contigs_reports'))
+  File "/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/libs/contigs_analyzer.py", line 1270, in do
+    for id, fname in enumerate(contigs_fpaths))
+  File "/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/libs/site_packages/joblib/parallel.py", line 485, in __call__
+    self.retrieve()
+  File "/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/libs/site_packages/joblib/parallel.py", line 437, in retrieve
+    raise exception_type(report)
+JoblibIndexError: JoblibIndexError
+___________________________________________________________________________
+Multiprocessing exception:
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py in <module>()
+    506     logger.finish_up()
+    507 
+    508 
+    509 if __name__ == '__main__':
+    510     try:
+--> 511         return_code = main(sys.argv[1:])
+    512         exit(return_code)
+    513     except Exception, e:
+    514         logger.exception(e)
+    515 
+
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py in main(args=['-o', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...job_working_directory/001/1035/dataset_1118_files', '-R', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/001/dataset_1111.dat', '-G', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_901.dat', '-l', 'BC-M-Abyss, BC-M-Cabog, BC-M-Mira, BC-M-Msrca, BC-M-Sga, BC-M-Soap, BC-M-Spades, BC-M-Velvet', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_497.dat', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_498.dat', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_499.dat', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_500.dat', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_501.dat', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_502.dat', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_503.dat', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_504.dat'])
+    463     logger.info('Starting quast.py ' + run_name + '...')
+    464 
+    465     _start_quast_main(run_name, quast_py_args,
+    466         assemblies=assemblies,
+    467         reference_fpath=combined_ref_fpath,
+--> 468         output_dirpath=os.path.join(output_dirpath, 'combined_quast_output'))
+        output_dirpath = '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files'
+    469 
+    470     # Partitioning contigs into bins aligned to each reference
+    471     assemblies_by_reference, not_aligned_assemblies = _partition_contigs(
+    472         assemblies, ref_fpaths, corrected_dirpath,
+
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py in _start_quast_main(name='for the combined reference', args=['-G', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_901.dat', '--meta', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...035/dataset_1118_files/corrected_input/BC-M-Abyss', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...035/dataset_1118_files/corrected_input/BC-M-Cabog', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...1035/dataset_1118_files/corrected_input/BC-M-Mira', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...035/dataset_1118_files/corrected_input/BC-M-Msrca', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d.../1035/dataset_1118_files/corrected_input/BC-M-Sga', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...1035/dataset_1118_files/corrected_input/BC-M-Soap', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...35/dataset_1118_files/corrected_input/BC-M-Spades', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...35/dataset_1118_files/corrected_input/BC-M-Velvet', '-R', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...18_files/corrected_input/combined_reference.fasta', '-o', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...001/1035/dataset_1118_files/combined_quast_output', '--labels', '"BC-M-Abyss, BC-M-Cabog, BC-M-Mira, BC-M-Msrca, BC-M-Sga, BC-M-Soap, BC-M-Spades, BC-M-Velvet"'], assemblies=[<__main__.Assembly instance>, <__main__.Assembly instance>, <__main__.Assembly instance>, <__main__.Assembly instance>, <__main__.Assembly instance>, <__main__.Assembly instance>, <__main__.Assembly instance>, <__main__.Assembly instance>], reference_fpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d...18_files/corrected_input/combined_reference.fasta', output_dirpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d...001/1035/dataset_1118_files/combined_quast_output', exit_on_exception=True)
+    154 
+    155     logger.info_to_file('(logging to ' +
+    156                         os.path.join(output_dirpath,
+    157                                      qconfig.LOGGER_DEFAULT_NAME + '.log)'))
+    158     # try:
+--> 159     return quast.main(args)
+        quast.main = <function main at 0xf71a488>
+        args = ['-G', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_901.dat', '--meta', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Abyss', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Cabog', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Mira', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Msrca', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Sga', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Soap', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Spades', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/BC-M-Velvet', '-R', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/corrected_input/combined_reference.fasta', '-o', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output', '--labels', '"BC-M-Abyss, BC-M-Cabog, BC-M-Mira, BC-M-Msrca, BC-M-Sga, BC-M-Soap, BC-M-Spades, BC-M-Velvet"']
+    160 
+    161     # except Exception, (errno, strerror):
+    162     #     if exit_on_exception:
+    163     #         logger.exception(e)
+
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.py in main(args=['-G', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_901.dat', '--meta', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...035/dataset_1118_files/corrected_input/BC-M-Abyss', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...035/dataset_1118_files/corrected_input/BC-M-Cabog', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...1035/dataset_1118_files/corrected_input/BC-M-Mira', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...035/dataset_1118_files/corrected_input/BC-M-Msrca', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d.../1035/dataset_1118_files/corrected_input/BC-M-Sga', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...1035/dataset_1118_files/corrected_input/BC-M-Soap', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...35/dataset_1118_files/corrected_input/BC-M-Spades', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...35/dataset_1118_files/corrected_input/BC-M-Velvet', '-R', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...18_files/corrected_input/combined_reference.fasta', '-o', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...001/1035/dataset_1118_files/combined_quast_output', '--labels', '"BC-M-Abyss, BC-M-Cabog, BC-M-Mira, BC-M-Msrca, BC-M-Sga, BC-M-Soap, BC-M-Spades, BC-M-Velvet"'])
+    648         ########################################################################
+    649         ### former PLANTAKOLYA, PLANTAGORA
+    650         ########################################################################
+    651         from libs import contigs_analyzer
+    652         nucmer_statuses, aligned_lengths_per_fpath = contigs_analyzer.do(
+--> 653             ref_fpath, contigs_fpaths, qconfig.prokaryote, os.path.join(output_dirpath, 'contigs_reports'))
+        ref_fpath = '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/combined_reference.fasta'
+        contigs_fpaths = ['/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Abyss', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Cabog', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Mira', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Msrca', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Sga', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Soap', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Spades', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Velvet']
+        output_dirpath = '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output'
+    654         for contigs_fpath in contigs_fpaths:
+    655             if nucmer_statuses[contigs_fpath] == contigs_analyzer.NucmerStatus.OK:
+    656                 aligned_fpaths.append(contigs_fpath)
+    657                 aligned_lengths_lists.append(aligned_lengths_per_fpath[contigs_fpath])
+
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/libs/contigs_analyzer.py in do(reference='/usit/invitro/data/galaxy/master/sabbai/galaxy-d...t_output/corrected_input/combined_reference.fasta', contigs_fpaths=['/usit/invitro/data/galaxy/master/sabbai/galaxy-d.../combined_quast_output/corrected_input/BC-M-Abyss', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d.../combined_quast_output/corrected_input/BC-M-Cabog', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...s/combined_quast_output/corrected_input/BC-M-Mira', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d.../combined_quast_output/corrected_input/BC-M-Msrca', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...es/combined_quast_output/corrected_input/BC-M-Sga', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...s/combined_quast_output/corrected_input/BC-M-Soap', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...combined_quast_output/corrected_input/BC-M-Spades', '/usit/invitro/data/galaxy/master/sabbai/galaxy-d...combined_quast_output/corrected_input/BC-M-Velvet'], cyclic=True, output_dir='/usit/invitro/data/galaxy/master/sabbai/galaxy-d..._1118_files/combined_quast_output/contigs_reports')
+   1265 
+   1266     n_jobs = min(len(contigs_fpaths), qconfig.max_threads)
+   1267     from joblib import Parallel, delayed
+   1268     statuses_results_lengths_tuples = Parallel(n_jobs=n_jobs)(delayed(plantakolya_process)(
+   1269         cyclic, nucmer_output_dir, fname, id, myenv, output_dir, reference)
+-> 1270           for id, fname in enumerate(contigs_fpaths))
+        id = undefined
+        contigs_fpaths = ['/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Abyss', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Cabog', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Mira', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Msrca', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Sga', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Soap', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Spades', '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1035/dataset_1118_files/combined_quast_output/corrected_input/BC-M-Velvet']
+   1271     # unzipping
+   1272     statuses, results, aligned_lengths = [x[0] for x in statuses_results_lengths_tuples], \
+   1273                                          [x[1] for x in statuses_results_lengths_tuples], \
+   1274                                          [x[2] for x in statuses_results_lengths_tuples]
+
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/libs/site_packages/joblib/parallel.py in __call__(self=Parallel(n_jobs=8), iterable=<generator object <genexpr>>)
+    480         self.n_dispatched = 0
+    481         try:
+    482             for function, args, kwargs in iterable:
+    483                 self.dispatch(function, args, kwargs)
+    484 
+--> 485             self.retrieve()
+        self.retrieve = <bound method Parallel.retrieve of Parallel(n_jobs=8)>
+    486             # Make sure that we get a last message telling us we are done
+    487             elapsed_time = time.time() - self._start_time
+    488             self._print('Done %3i out of %3i | elapsed: %s finished',
+    489                         (len(self._output),
+
+---------------------------------------------------------------------------
+Sub-process traceback:
+---------------------------------------------------------------------------
+IndexError                                         Mon Mar 24 14:35:40 2014
+PID: 1109            Python 2.7: /site/VERSIONS/python-2.7.gcc45/bin/python
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/libs/contigs_analyzer.pyc in plantakolya_process(cyclic=True, nucmer_output_dirpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d...mbined_quast_output/contigs_reports/nucmer_output', contigs_fpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d.../combined_quast_output/corrected_input/BC-M-Abyss', i=0, myenv={'CPLUS_INCLUDE_PATH': '/site/VERSIONS/gcc-4.5.1/include', 'CVS_RSH': 'ssh', 'C_INCLUDE_PATH': '/site/VERSIONS/gcc-4.5.1/include', 'EDITOR': 'emacs', 'GALAXY_SLOTS': '1', 'G_BROKEN_FILENAMES': '1', 'HISTSIZE': '100', 'HOME': '/usit/abel/u1/sabbai', 'HOST': 'invitro.titan.uio.no', 'HOSTNAME': 'invitro.titan.uio.no', ...}, output_dirpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d..._1118_files/combined_quast_output/contigs_reports', ref_fpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d...t_output/corrected_input/combined_reference.fasta')
+   1214                         i, myenv, output_dirpath, ref_fpath):
+   1215     assembly_name = qutils.name_from_fpath(contigs_fpath)
+   1216 
+   1217     nucmer_fname = os.path.join(nucmer_output_dirpath, assembly_name)
+   1218     nucmer_is_ok, result, aligned_lengths = plantakolya(
+-> 1219         cyclic, i, contigs_fpath, nucmer_fname, myenv, output_dirpath, ref_fpath)
+   1220 
+   1221     clear_files(contigs_fpath, nucmer_fname)
+   1222     return nucmer_is_ok, result, aligned_lengths
+   1223 
+
+...........................................................................
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/libs/contigs_analyzer.pyc in plantakolya(cyclic=True, i=0, contigs_fpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d.../combined_quast_output/corrected_input/BC-M-Abyss', nucmer_fpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d...t_output/contigs_reports/nucmer_output/BC-M-Abyss', myenv={'CPLUS_INCLUDE_PATH': '/site/VERSIONS/gcc-4.5.1/include', 'CVS_RSH': 'ssh', 'C_INCLUDE_PATH': '/site/VERSIONS/gcc-4.5.1/include', 'EDITOR': 'emacs', 'GALAXY_SLOTS': '1', 'G_BROKEN_FILENAMES': '1', 'HISTSIZE': '100', 'HOME': '/usit/abel/u1/sabbai', 'HOST': 'invitro.titan.uio.no', 'HOSTNAME': 'invitro.titan.uio.no', ...}, output_dirpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d..._1118_files/combined_quast_output/contigs_reports', ref_fpath='/usit/invitro/data/galaxy/master/sabbai/galaxy-d...t_output/corrected_input/combined_reference.fasta')
+    200         tmp_coords_file = open(tmp_coords_fpath)
+    201         for line in tmp_coords_file:
+    202             header.append(line)
+    203             if line.startswith('====='):
+    204                 break
+--> 205         coords_file.write(header[-2])
+    206         coords_file.write(header[-1])
+    207         for line in tmp_coords_file:
+    208             coords_file.write(line)
+    209         coords_file.close()
+
+IndexError: list index out of range
+___________________________________________________________________________

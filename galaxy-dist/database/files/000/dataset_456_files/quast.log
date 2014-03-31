@@ -1,0 +1,123 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_395.dat -l velvet, cabog, abyss, msrca -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_397.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_390.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_391.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_392.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_393.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-01-28 15:42:09
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_395.dat ==> dataset_395
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_390.dat ==> velvet
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_391.dat ==> cabog
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_392.dat ==> abyss
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_393.dat ==> msrca
+
+2014-01-28 15:42:12
+Running Basic statistics processor...
+  Reference genome:
+    dataset_395.dat, Reference length = 1072315, Reference GC % = 46.91
+  Contig files: 
+    1  velvet
+    2  cabog
+    3  abyss
+    4  msrca
+  Calculating N50 and L50...
+    1  velvet, N50 = 92036, L50 = 15, Total length = 3944260, GC % = 47.52, # N's per 100 kbp =  0.00
+    2  cabog, N50 = 33710, L50 = 34, Total length = 3953298, GC % = 47.52, # N's per 100 kbp =  0.00
+    3  abyss, N50 = 60973, L50 = 21, Total length = 3904784, GC % = 47.56, # N's per 100 kbp =  0.00
+    4  msrca, N50 = 76131, L50 = 16, Total length = 4030761, GC % = 47.47, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/basic_stats/NGx_plot.pdf
+Done.
+
+2014-01-28 15:42:15
+Running Contig analyzer...
+  1  velvet
+  2  cabog
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/contigs_reports/contigs_report_velvet.stdout and contigs_report_velvet.stderr...
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/contigs_reports/contigs_report_cabog.stdout and contigs_report_cabog.stderr...
+  1  Running Nucmer... 
+  3  abyss
+  3  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/contigs_reports/contigs_report_abyss.stdout and contigs_report_abyss.stderr...
+  4  msrca
+  3  Running Nucmer... 
+  4  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/contigs_reports/contigs_report_msrca.stdout and contigs_report_msrca.stderr...
+  4  Running Nucmer... 
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/contigs_reports/alignments_abyss.tsv
+  110290 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/contigs_reports/alignments_cabog.tsv
+  33359 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/contigs_reports/alignments_velvet.tsv
+  100012 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/contigs_reports/alignments_msrca.tsv
+  100002 Analysis is finished.
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-01-28 15:42:27
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    1  velvet, Largest alignment = 140621, NA50 = None, NGA50 = 47047, LA50 = None, LGA50 = 8
+    2  cabog, Largest alignment = 110049, NA50 = None, NGA50 = 20733, LA50 = None, LGA50 = 14
+    3  abyss, Largest alignment = 110288, NA50 = None, NGA50 = 45047, LA50 = None, LGA50 = 8
+    4  msrca, Largest alignment = 105536, NA50 = None, NGA50 = 63983, LA50 = None, LGA50 = 7
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-01-28 15:42:28
+Running Genome analyzer...
+  Loaded 1003 genes
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  1  velvet
+  2  cabog
+  3  abyss
+  4  msrca
+  Drawing genes cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-01-28 15:42:32
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/455/dataset_456_files/quast.log
+
+Finished: 2014-01-28 15:42:32
+Elapsed time: 0:00:22.967068

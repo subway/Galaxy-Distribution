@@ -1,0 +1,64 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1138/dataset_1221_files/S_aureus_USA300_TCH151.fna -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/S_aureus_USA300_TCH151.fna -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/genefiles/S_aureus_USA300_TCH151.gff -l Velvet /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_390.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-03-29 05:36:33
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1138/dataset_1221_files/S_aureus_USA300_TCH151.fna/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/S_aureus_USA300_TCH151.fna ==> S_aureus_USA300_TCH151
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_390.dat ==> Velvet
+
+2014-03-29 05:36:51
+Running Basic statistics processor...
+  Reference genome:
+    S_aureus_USA300_TCH151.fna, Reference length = 2903081, Reference GC % = 32.73
+  Contig files: 
+    Velvet
+  Calculating N50 and L50...
+    Velvet, N50 = 92036, L50 = 15, Total length = 3944260, GC % = 47.52, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1138/dataset_1221_files/S_aureus_USA300_TCH151.fna/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1138/dataset_1221_files/S_aureus_USA300_TCH151.fna/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1138/dataset_1221_files/S_aureus_USA300_TCH151.fna/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1138/dataset_1221_files/S_aureus_USA300_TCH151.fna/basic_stats/NGx_plot.pdf
+Done.
+
+2014-03-29 05:36:53
+Running Contig analyzer...
+  Velvet
+  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1138/dataset_1221_files/S_aureus_USA300_TCH151.fna/contigs_reports/contigs_report_Velvet.stdout and contigs_report_Velvet.stderr...
+  Running Nucmer... 
+  Nucmer: nothing aligned for 'Velvet'.
+Failed aligning the contigs for all the assemblies. Only basic stats are going to be evaluated.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-03-29 05:36:58
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1138/dataset_1221_files/S_aureus_USA300_TCH151.fna/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1138/dataset_1221_files/S_aureus_USA300_TCH151.fna/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1138/dataset_1221_files/S_aureus_USA300_TCH151.fna/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1138/dataset_1221_files/S_aureus_USA300_TCH151.fna/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1138/dataset_1221_files/S_aureus_USA300_TCH151.fna/quast.log
+
+Finished: 2014-03-29 05:36:58
+Elapsed time: 0:00:25.454176

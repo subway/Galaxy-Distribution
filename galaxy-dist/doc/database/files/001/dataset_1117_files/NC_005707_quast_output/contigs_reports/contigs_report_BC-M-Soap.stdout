@@ -1,0 +1,177 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [NC_005707]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 208369
+Analyzing contigs...
+CONTIG: contig29 (46937bp)
+Top Length: 46937  Top ID: 99.99
+		One align captures most of this contig: 131498 178434 | 46937 1 | 46937 46937 | 99.99 | NC_005707 contig29
+
+CONTIG: contig7 (3073bp)
+Top Length: 3073  Top ID: 99.93
+		One align captures most of this contig: 185859 188931 | 3073 1 | 3073 3073 | 99.93 | NC_005707 contig7
+
+CONTIG: contig6 (5052bp)
+Top Length: 4832  Top ID: 99.81
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 188712 189122 | 5052 4641 | 411 412 | 99.76 | NC_005707 contig6
+			  Gap between these two alignments (local misassembly). Inconsistency = 192
+			Real Alignment 2: 189123 193952 | 4832 1 | 4830 4832 | 99.81 | NC_005707 contig6
+
+CONTIG: contig5 (13395bp)
+Top Length: 13395  Top ID: 99.98
+		One align captures most of this contig: 193939 207333 | 13395 1 | 13395 13395 | 99.98 | NC_005707 contig5
+
+CONTIG: contig30 (19586bp)
+Top Length: 19586  Top ID: 99.99
+		One align captures most of this contig: 112025 131609 | 19586 1 | 19585 19586 | 99.99 | NC_005707 contig30
+
+CONTIG: contig49 (20113bp)
+Top Length: 20113  Top ID: 99.98
+		Marking as insignificant: 38615 38815 | 796 998 | 201 203 | 95.57 | NC_005707 contig49
+		Marking as insignificant: 83135 83339 | 998 793 | 205 206 | 95.63 | NC_005707 contig49
+		One align captures most of this contig: 89137 109249 | 20113 1 | 20113 20113 | 99.98 | NC_005707 contig49
+
+CONTIG: contig110 (7366bp)
+Top Length: 7366  Top ID: 99.97
+		One align captures most of this contig: 178531 185897 | 1 7366 | 7367 7366 | 99.97 | NC_005707 contig110
+
+CONTIG: contig52 (19133bp)
+Top Length: 19133  Top ID: 99.98
+		Marking as insignificant: 55511 55662 | 19133 18982 | 152 152 | 98.03 | NC_005707 contig52
+		One align captures most of this contig: 55703 74835 | 19133 1 | 19133 19133 | 99.98 | NC_005707 contig52
+
+CONTIG: contig53 (3641bp)
+Top Length: 3641  Top ID: 99.97
+		Marking as insignificant: 55703 55808 | 106 1 | 106 106 | 99.06 | NC_005707 contig53
+		One align captures most of this contig: 51976 55616 | 3641 1 | 3641 3641 | 99.97 | NC_005707 contig53
+
+CONTIG: contig41 (11142bp)
+Top Length: 11142  Top ID: 100.0
+		Marking as insignificant: 6912 17062 | 1033 11138 | 10151 10106 | 99.52 | NC_005707 contig41
+		One align captures most of this contig: 5880 17021 | 1 11142 | 11142 11142 | 100.0 | NC_005707 contig41
+
+CONTIG: contig42 (33583bp)
+Top Length: 33583  Top ID: 100.0
+		Marking as insignificant: 108252 108454 | 21760 21560 | 203 201 | 95.57 | NC_005707 contig42
+		Marking as insignificant: 83134 83336 | 21761 21560 | 203 202 | 96.55 | NC_005707 contig42
+		Marking as insignificant: 81384 81586 | 21762 21560 | 203 203 | 97.04 | NC_005707 contig42
+		One align captures most of this contig: 17056 50638 | 1 33583 | 33583 33583 | 100.0 | NC_005707 contig42
+
+CONTIG: contig50 (12040bp)
+Top Length: 12040  Top ID: 100.0
+		Marking as insignificant: 38615 38816 | 5807 6009 | 202 203 | 96.55 | NC_005707 contig50
+		Marking as insignificant: 108252 108457 | 6008 5804 | 206 205 | 95.63 | NC_005707 contig50
+		Marking as insignificant: 38615 38817 | 7557 7759 | 203 203 | 97.04 | NC_005707 contig50
+		One align captures most of this contig: 77103 89142 | 12040 1 | 12040 12040 | 100.0 | NC_005707 contig50
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1034/dataset_1117_files/NC_005707_quast_output/contigs_reports/nucmer_output/BC-M-Soap.used_snps
+	Reference NC_005707: 13 total alignments. 1 total regions.
+		Region: 1 to 208369 (208369 bp)
+			START in gap: 1 to 5880 (5879 bp)
+			Align 1: 5880 17021 contig41 1 11142
+				Gap between this and next alignment: 17021 to 17056 (34 bp)
+				Next Alignment: 17056 50638 contig42 1 33583
+
+			Align 2: 17056 50638 contig42 1 33583
+				Gap between this and next alignment: 50638 to 51976 (1337 bp)
+				Next Alignment: 51976 55616 contig53 3641 1
+
+			Align 3: 51976 55616 contig53 3641 1
+				Gap between this and next alignment: 55616 to 55703 (86 bp)
+				Next Alignment: 55703 74835 contig52 19133 1
+
+			Align 4: 55703 74835 contig52 19133 1
+				Gap between this and next alignment: 74835 to 77103 (2267 bp)
+				Next Alignment: 77103 89142 contig50 12040 1
+
+			Align 5: 77103 89142 contig50 12040 1
+				Negative gap (overlap) between this and next alignment: 89142 to 89137 (-5 bp)
+				Next Alignment: 89137 109249 contig49 20113 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 20113 to 20107.
+			Align 6: 89143 109249 contig49 20107 1
+				Gap between this and next alignment: 109249 to 112025 (2775 bp)
+				Next Alignment: 112025 131609 contig30 19586 1
+
+			Align 7: 112025 131609 contig30 19586 1
+				Negative gap (overlap) between this and next alignment: 131609 to 131498 (-111 bp)
+				Next Alignment: 131498 178434 contig29 46937 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 46937 to 46825.
+			Align 8: 131610 178434 contig29 46825 1
+				Gap between this and next alignment: 178434 to 178531 (96 bp)
+				Next Alignment: 178531 185897 contig110 1 7366
+
+			Align 9: 178531 185897 contig110 1 7366
+				Negative gap (overlap) between this and next alignment: 185897 to 185859 (-38 bp)
+				Next Alignment: 185859 188931 contig7 3073 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3073 to 3034.
+			Align 10: 185898 188931 contig7 3034 1
+				Negative gap (overlap) between this and next alignment: 188931 to 188712 (-219 bp)
+				Next Alignment: 188712 189122 contig6 5052 4641
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5052 to 4832.
+			Align 11: 188932 189122 contig6 4832 4641
+				Next Alignment: 189123 193952 contig6 4832 1
+
+			Align 12: 189123 193952 contig6 4832 1
+				Negative gap (overlap) between this and next alignment: 193952 to 193939 (-13 bp)
+				Next Alignment: 193939 207333 contig5 13395 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 13395 to 13381.
+			Align 13: 193953 207333 contig5 13381 1
+			END in gap: 207333 to 208369 (1036 bp)
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1034/dataset_1117_files/NC_005707_quast_output/contigs_reports/nucmer_output/BC-M-Soap.used_snps
+
+Results:
+	Local Misassemblies: 1
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassmblies Inter-Contig Overlap: 192
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 0 part
+Partially Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 0
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 194859
+
+	SNPs: 5
+	Insertions: 4
+	Deletions: 46
+
+	Positive Gaps: 8
+		Internal Gaps:  0
+		External Gaps:  8
+		External Gap Total:  13510
+		External Gap Average: 1689
+	Negative Gaps: 5
+		Internal Overlaps:  0
+		External Overlaps:  5
+		External Overlaps Total: -386
+		External Overlaps Average: -77
+	Contigs with Redundant Alignments: 0 (0)

@@ -1,0 +1,34 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_002505.fna,/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_002506.fna -l V_cholerae_MiSeq_cabog_scf.fasta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/001/dataset_1127.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-03-25 09:11:58
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/metaquast.log
+
+References:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_002505.fna ==> NC_002505
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_002506.fna ==> NC_002506
+  All references combined in combined_reference.fasta
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/001/dataset_1127.dat ==> V_cholerae_MiSeq_cabog_scf.fasta
+
+Starting quast.py for the combined reference...
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/quast.log)
+
+[Errno 2] No such file or directory: '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/contigs_reports/alignments_V_cholerae_MiSeq_cabog_scf.tsv'
+Traceback (most recent call last):
+  File "/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py", line 511, in <module>
+    return_code = main(sys.argv[1:])
+  File "/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py", line 473, in main
+    os.path.join(output_dirpath, 'combined_quast_output', 'contigs_reports', 'alignments_%s.tsv'))
+  File "/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py", line 86, in _partition_contigs
+    with open(alignments_fpath_template % asm.name) as alignments_tsv_f:
+IOError: [Errno 2] No such file or directory: '/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1045/dataset_1128_files/combined_quast_output/contigs_reports/alignments_V_cholerae_MiSeq_cabog_scf.tsv'

@@ -1,0 +1,31 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1017/dataset_1100_files -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_003909.fna,/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_005707.fna -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1017/dataset_1100_files/result.gff -l BC-M-Abyss, BC-M-Cabog, BC-M-Mira, BC-M-Msrca, BC-M-Sga, BC-M-Soap, BC-M-Spades, BC-M-Velvet /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_497.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_498.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_499.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_500.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_501.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_502.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_503.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_504.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-03-24 11:33:02
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1017/dataset_1100_files/metaquast.log
+
+References:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_003909.fna ==> NC_003909
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_005707.fna ==> NC_005707
+  All references combined in combined_reference.fasta
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_497.dat ==> BC-M-Abyss
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_498.dat ==> BC-M-Cabog
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_499.dat ==> BC-M-Mira
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_500.dat ==> BC-M-Msrca
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_501.dat ==> BC-M-Sga
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_502.dat ==> BC-M-Soap
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_503.dat ==> BC-M-Spades
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_504.dat ==> BC-M-Velvet
+
+Starting quast.py for the combined reference...
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1017/dataset_1100_files/combined_quast_output/quast.log)

@@ -1,0 +1,19 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{4}{|r}|}
+\hline
+Assembly & velvet & cabog & abyss & msrca \\ \hline
+\# fully unaligned contigs & {\bf 58} & 121 & 99 & {\bf 58} \\ \hline
+Fully unaligned length & 1433869 & 2111435 & 2895073 & {\bf 1433311} \\ \hline
+\# partially unaligned contigs & 21 & 30 & {\bf 0} & 27 \\ \hline
+\hspace{5mm}\# with misassembly & 5 & 1 & {\bf 0} & 3 \\ \hline
+\hspace{5mm}\# both parts are significant & 5 & 5 & {\bf 0} & 5 \\ \hline
+Partially unaligned length & 1476067 & 814161 & {\bf 0} & 1516357 \\ \hline
+\# N's & 0 & 0 & 0 & 0 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

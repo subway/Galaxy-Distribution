@@ -1,0 +1,52 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/static/stat/14012014-002242 -l 1.2.8, 1.2.10 /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_9.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_10.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-01-14 00:22:43
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/static/stat/14012014-002242/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_9.dat ==> 1.2.8
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_10.dat ==> 1.2.10
+
+2014-01-14 00:22:59
+Running Basic statistics processor...
+  Contig files: 
+    1  1.2.8
+    2  1.2.10
+  Calculating N50 and L50...
+    1  1.2.8, N50 = 105176, L50 = 12, Total length = 3892321, GC % = 47.69, # N's per 100 kbp =  1.28
+    2  1.2.10, N50 = 105176, L50 = 12, Total length = 3892321, GC % = 47.69, # N's per 100 kbp =  1.28
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/static/stat/14012014-002242/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/static/stat/14012014-002242/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/static/stat/14012014-002242/basic_stats/Nx_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-01-14 00:23:01
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/static/stat/14012014-002242/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/static/stat/14012014-002242/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/static/stat/14012014-002242/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/static/stat/14012014-002242/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/static/stat/14012014-002242/quast.log
+
+Finished: 2014-01-14 00:23:01
+Elapsed time: 0:00:18.635909

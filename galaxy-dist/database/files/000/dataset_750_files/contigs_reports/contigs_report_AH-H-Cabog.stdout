@@ -1,0 +1,891 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 4744448
+Analyzing contigs...
+CONTIG: ctg7180000388269 (1268bp)
+Top Length: 77  Top ID: 100.0
+		This contig is partially unaligned. (77 out of 1268)
+		Alignment: 243851 243927 | 1 77 | 77 77 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388269
+		Unaligned bases: 78 to 1268 (1191)
+
+CONTIG: ctg7180000388268 (1422bp)
+Top Length: 1418  Top ID: 95.49
+		One align captures most of this contig: 241505 242922 | 5 1422 | 1418 1418 | 95.49 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388268
+
+CONTIG: ctg7180000388260 (521bp)
+		This contig is unaligned. (521 bp)
+		Unaligned bases: 521  total: 521
+
+CONTIG: ctg7180000388262 (759bp)
+		This contig is unaligned. (759 bp)
+		Unaligned bases: 759  total: 1280
+
+CONTIG: ctg7180000388265 (732bp)
+Top Length: 732  Top ID: 99.04
+		One align captures most of this contig: 348410 349140 | 1 732 | 731 732 | 99.04 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388265
+
+CONTIG: ctg7180000388264 (705bp)
+Top Length: 621  Top ID: 95.49
+		This contig is partially unaligned. (621 out of 705)
+		Alignment: 332049 332669 | 85 705 | 621 621 | 95.49 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388264
+		Unaligned bases: 1 to 84 (84)
+
+CONTIG: ctg7180000388267 (2084bp)
+		This contig is unaligned. (2084 bp)
+		Unaligned bases: 2084  total: 3364
+
+CONTIG: ctg7180000388266 (2101bp)
+Top Length: 2101  Top ID: 95.86
+		One align captures most of this contig: 232770 234870 | 1 2101 | 2101 2101 | 95.86 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388266
+
+CONTIG: ctg7180000388218 (48267bp)
+Top Length: 16494  Top ID: 95.17
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 48267 and total length of all aligns is 19154
+		Alignment: 119726 122243 | 48267 45751 | 2518 2517 | 95.35 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388218
+		Alignment: 122243 138750 | 45647 29154 | 16508 16494 | 95.17 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388218
+		Alignment: 4454609 4454752 | 1 143 | 144 143 | 95.14 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388218
+		Unaligned bases: 29113
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388219 (102334bp)
+Top Length: 16147  Top ID: 95.85
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [4234626][4234716] redundant alignment 4234626 4234716 | 71856 71946 | 91 91 | 98.9 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388219
+		This contig is misassembled. 7 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 102334 and total length of all aligns is 37026
+		Alignment: 1 6385 | 41589 47971 | 6385 6383 | 95.35 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388219
+		Alignment: 2026836 2026916 | 71837 71757 | 81 81 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388219
+		Alignment: 2027076 2027157 | 72082 72001 | 82 82 | 98.78 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388219
+		Alignment: 4234887 4234977 | 71856 71946 | 91 91 | 98.9 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388219
+		Alignment: 4714024 4730177 | 11100 27246 | 16154 16147 | 95.85 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388219
+		Alignment: 4730278 4744448 | 27347 41588 | 14171 14242 | 95.89 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388219
+		Unaligned bases: 65308
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388214 (12484bp)
+Top Length: 9910  Top ID: 95.11
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 60917 61556 | 71 710 | 640 640 | 95.31 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388214
+			  Extensive misassembly ( relocation, inconsistency = 11468 ) between these two alignments
+			Real Alignment 2: 73200 74882 | 886 2568 | 1683 1683 | 95.07 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388214
+			  Gap between these two alignments (local misassembly). Inconsistency = 136
+			Real Alignment 3: 75018 84924 | 2568 12477 | 9907 9910 | 95.11 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388214
+
+CONTIG: ctg7180000388215 (30260bp)
+		This contig is unaligned. (30260 bp)
+		Unaligned bases: 30260  total: 33624
+
+CONTIG: ctg7180000388216 (445504bp)
+Top Length: 21130  Top ID: 95.14
+		This contig is misassembled. 7 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 445504 and total length of all aligns is 48311
+		Alignment: 1457945 1472944 | 118218 103214 | 15000 15005 | 95.29 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388216
+		Alignment: 1494743 1496225 | 103134 101655 | 1483 1480 | 96.22 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388216
+		Alignment: 1547165 1548446 | 44352 43072 | 1282 1281 | 95.94 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388216
+		Alignment: 1565203 1567487 | 27047 24756 | 2285 2292 | 95.42 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388216
+		Alignment: 1567873 1572682 | 24372 19570 | 4810 4803 | 95.58 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388216
+		Alignment: 3556664 3577791 | 242684 263813 | 21128 21130 | 95.14 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388216
+		Alignment: 3697595 3699916 | 397292 399611 | 2322 2320 | 96.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388216
+		Unaligned bases: 397193
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388217 (52008bp)
+Top Length: 2270  Top ID: 95.95
+		Skipping redundant alignment 3894370 3894450 | 34857 34778 | 81 80 | 98.77 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388217
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 52008 and total length of all aligns is 4028
+		Alignment: 29468 29559 | 54 145 | 92 92 | 98.91 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388217
+		Alignment: 4234478 4234571 | 206 298 | 94 93 | 98.94 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388217
+		Alignment: 4241951 4244221 | 7004 9273 | 2271 2270 | 95.95 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388217
+		Alignment: 4268641 4270214 | 34574 36146 | 1574 1573 | 97.65 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388217
+		Unaligned bases: 47980
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388210 (948bp)
+		This contig is unaligned. (948 bp)
+		Unaligned bases: 948  total: 34572
+
+CONTIG: ctg7180000388211 (30273bp)
+		This contig is unaligned. (30273 bp)
+		Unaligned bases: 30273  total: 64845
+
+CONTIG: ctg7180000388212 (3739bp)
+Top Length: 412  Top ID: 95.16
+		Skipping redundant alignment 4454359 4454754 | 3739 3343 | 396 397 | 97.24 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388212
+		Skipping redundant alignment 214599 214992 | 3347 3739 | 394 393 | 97.46 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388212
+		Skipping redundant alignment 349639 350031 | 3347 3739 | 393 393 | 97.46 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388212
+		Skipping redundant alignment 4371337 4371588 | 3739 3488 | 252 252 | 98.81 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388212
+		Skipping redundant alignment 85010 85259 | 3488 3739 | 250 252 | 98.02 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388212
+		Skipping redundant alignment 163208 163457 | 3488 3739 | 250 252 | 98.02 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388212
+		Skipping redundant alignment 4702788 4703037 | 3739 3488 | 250 252 | 98.02 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388212
+		Skipping redundant alignment 3956670 3956918 | 3739 3489 | 249 251 | 98.01 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388212
+		This contig is partially unaligned. (412 out of 3739)
+		Alignment: 803517 803928 | 3328 3739 | 412 412 | 95.16 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388212
+		Unaligned bases: 1 to 3327 (3327)
+
+CONTIG: ctg7180000388213 (15972bp)
+Top Length: 7847  Top ID: 96.43
+		Skipping redundant alignment 3882244 3882325 | 7071 6991 | 82 81 | 98.78 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388213
+		Skipping redundant alignment 3882453 3882534 | 7071 6991 | 82 81 | 98.78 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388213
+		Skipping redundant alignment 3882044 3882125 | 7071 6991 | 82 81 | 97.56 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388213
+		Skipping redundant alignment 3882143 3882221 | 7072 6995 | 79 78 | 98.73 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388213
+		Skipping redundant alignment 3882343 3882421 | 7072 6995 | 79 78 | 98.73 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388213
+		Skipping redundant alignment 3882553 3882631 | 7072 6995 | 79 78 | 98.73 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388213
+		Skipping redundant alignment 3881944 3882021 | 7071 6995 | 78 77 | 98.72 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388213
+		This contig is misassembled. 9 total aligns.
+			Real Alignment 1: 3098989 3106841 | 15972 8126 | 7853 7847 | 96.43 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388213
+			  Extensive misassembly ( relocation, inconsistency = 3500 ) between these two alignments
+			Real Alignment 2: 3111024 3118469 | 7443 1 | 7446 7443 | 95.04 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388213
+
+CONTIG: ctg7180000388209 (31655bp)
+Top Length: 3236  Top ID: 96.05
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 31655 and total length of all aligns is 6163
+		Alignment: 3066866 3069797 | 1416 4342 | 2932 2927 | 95.95 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388209
+		Alignment: 3070052 3073285 | 4383 7618 | 3234 3236 | 96.05 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388209
+		Unaligned bases: 25492
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388208 (44500bp)
+		This contig is unaligned. (44500 bp)
+		Unaligned bases: 44500  total: 109345
+
+CONTIG: ctg7180000388207 (11173bp)
+		This contig is unaligned. (11173 bp)
+		Unaligned bases: 11173  total: 120518
+
+CONTIG: ctg7180000388206 (30409bp)
+		This contig is unaligned. (30409 bp)
+		Unaligned bases: 30409  total: 150927
+
+CONTIG: ctg7180000388205 (710684bp)
+Top Length: 39406  Top ID: 95.04
+		Skipping redundant alignment 2639356 2639787 | 137624 137196 | 432 429 | 95.16 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Skipping redundant alignment 2639180 2639441 | 137456 137196 | 262 261 | 98.47 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Skipping redundant alignment 2639180 2639267 | 137283 137196 | 88 88 | 98.86 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Skipping redundant alignment 3879790 3879895 | 573953 574058 | 106 106 | 97.17 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Skipping redundant alignment 1955465 1955563 | 703321 703419 | 99 99 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Skipping redundant alignment 2826976 2827073 | 703321 703418 | 98 98 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2639529][2639960] redundant alignment 2639529 2639960 | 137624 137196 | 432 429 | 97.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		This contig is misassembled. 22 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 710684 and total length of all aligns is 112470
+		Alignment: 1989207 1989513 | 703418 703112 | 307 307 | 95.77 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Alignment: 2107355 2109628 | 6 2277 | 2274 2272 | 96.14 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Alignment: 2142527 2145909 | 34800 38180 | 3383 3381 | 95.36 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Alignment: 2167759 2183381 | 582115 566505 | 15623 15611 | 95.51 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Alignment: 2183499 2185446 | 566404 564458 | 1948 1947 | 95.23 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Alignment: 2185571 2189832 | 564333 560074 | 4262 4260 | 95.66 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Alignment: 2221830 2223485 | 527389 525736 | 1656 1654 | 96.07 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Alignment: 2339177 2342356 | 423795 420619 | 3180 3177 | 95.73 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Alignment: 2367319 2406740 | 398820 359415 | 39422 39406 | 95.04 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Alignment: 2576209 2580604 | 191048 186653 | 4396 4396 | 95.18 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Alignment: 2639702 2640133 | 137624 137196 | 432 429 | 97.69 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Alignment: 2656667 2659515 | 121436 118590 | 2849 2847 | 95.19 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Alignment: 2755862 2778548 | 643124 665759 | 22687 22636 | 95.25 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Alignment: 2780870 2783164 | 668942 671237 | 2295 2296 | 96.08 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Alignment: 2783442 2791235 | 671416 679266 | 7794 7851 | 95.09 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388205
+		Unaligned bases: 598214
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388204 (2097bp)
+Top Length: 2097  Top ID: 95.58
+		One align captures most of this contig: 2105270 2107368 | 1 2097 | 2099 2097 | 95.58 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388204
+
+CONTIG: ctg7180000388203 (2039bp)
+		This contig is unaligned. (2039 bp)
+		Unaligned bases: 2039  total: 152966
+
+CONTIG: ctg7180000388202 (90070bp)
+Top Length: 25919  Top ID: 95.36
+		This contig is partially unaligned. (25919 out of 90070)
+		Alignment: 1667360 1693334 | 25926 8 | 25975 25919 | 95.36 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388202
+		Unaligned bases: 1 to 7 (7)
+		Unaligned bases: 25927 to 90070 (64144)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: ctg7180000388201 (9058bp)
+Top Length: 120  Top ID: 96.67
+		Skipping redundant alignment 1108345 1108423 | 79 1 | 79 79 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388201
+		Skipping redundant alignment 1108463 1108539 | 77 1 | 77 77 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388201
+		Skipping redundant alignment 4476176 4476252 | 77 1 | 77 77 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388201
+		Skipping redundant alignment 1702573 1702649 | 77 1 | 77 77 | 98.7 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388201
+		This contig is partially unaligned. (120 out of 9058)
+		Alignment: 1108189 1108307 | 120 1 | 119 120 | 96.67 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388201
+		Unaligned bases: 121 to 9058 (8938)
+
+CONTIG: ctg7180000388294 (5593bp)
+Top Length: 5593  Top ID: 96.18
+		One align captures most of this contig: 268404 273996 | 1 5593 | 5593 5593 | 96.18 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388294
+
+CONTIG: ctg7180000388295 (3126bp)
+		This contig is unaligned. (3126 bp)
+		Unaligned bases: 3126  total: 156092
+
+CONTIG: ctg7180000388296 (3479bp)
+		This contig is unaligned. (3479 bp)
+		Unaligned bases: 3479  total: 159571
+
+CONTIG: ctg7180000388297 (4680bp)
+		This contig is unaligned. (4680 bp)
+		Unaligned bases: 4680  total: 164251
+
+CONTIG: ctg7180000388290 (4798bp)
+Top Length: 1240  Top ID: 95.56
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 4798 and total length of all aligns is 1807
+		Alignment: 246810 247377 | 474 1040 | 568 567 | 96.13 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388290
+		Alignment: 247959 249198 | 1125 2364 | 1240 1240 | 95.56 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388290
+		Unaligned bases: 2991
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388291 (3651bp)
+		This contig is unaligned. (3651 bp)
+		Unaligned bases: 3651  total: 167902
+
+CONTIG: ctg7180000388292 (5073bp)
+Top Length: 1105  Top ID: 97.29
+		This contig is partially unaligned. (1105 out of 5073)
+		Alignment: 256511 257615 | 3969 5073 | 1105 1105 | 97.29 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388292
+		Unaligned bases: 1 to 3968 (3968)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: ctg7180000388293 (3052bp)
+		This contig is unaligned. (3052 bp)
+		Unaligned bases: 3052  total: 170954
+
+CONTIG: ctg7180000388298 (2292bp)
+		This contig is unaligned. (2292 bp)
+		Unaligned bases: 2292  total: 173246
+
+CONTIG: ctg7180000388299 (2579bp)
+		This contig is unaligned. (2579 bp)
+		Unaligned bases: 2579  total: 175825
+
+CONTIG: ctg7180000388232 (60800bp)
+		This contig is unaligned. (60800 bp)
+		Unaligned bases: 60800  total: 236625
+
+CONTIG: ctg7180000388233 (189722bp)
+Top Length: 11753  Top ID: 95.11
+		Skipping redundant alignment 551978 552154 | 189546 189722 | 177 177 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388233
+		Skipping redundant alignment 552042 552218 | 189546 189722 | 177 177 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388233
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 189722 and total length of all aligns is 12713
+		Alignment: 422091 433832 | 67358 79110 | 11742 11753 | 95.11 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388233
+		Alignment: 479046 479820 | 117191 117965 | 775 775 | 95.87 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388233
+		Alignment: 551962 552146 | 189538 189722 | 185 185 | 99.46 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388233
+		Unaligned bases: 177009
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388230 (29065bp)
+		This contig is unaligned. (29065 bp)
+		Unaligned bases: 29065  total: 265690
+
+CONTIG: ctg7180000388231 (533089bp)
+Top Length: 16983  Top ID: 95.05
+		Skipping redundant alignment 3882243 3882322 | 165087 165008 | 80 80 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Skipping redundant alignment 3882452 3882531 | 165087 165008 | 80 80 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Skipping redundant alignment 3881943 3882021 | 165087 165009 | 79 79 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Skipping redundant alignment 3882043 3882121 | 165087 165009 | 79 79 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Skipping redundant alignment 3882144 3882221 | 165086 165009 | 78 78 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Skipping redundant alignment 3882344 3882421 | 165086 165009 | 78 78 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Skipping redundant alignment 3882554 3882631 | 165086 165009 | 78 78 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		This contig is misassembled. 19 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 533089 and total length of all aligns is 85568
+		Alignment: 1321707 1328775 | 75636 82686 | 7069 7051 | 95.7 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Alignment: 3268778 3275279 | 392014 385514 | 6502 6501 | 95.57 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Alignment: 3294018 3311034 | 365451 348469 | 17017 16983 | 95.05 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Alignment: 3357701 3359850 | 301004 298855 | 2150 2150 | 95.4 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Alignment: 3435428 3440244 | 219344 214531 | 4817 4814 | 95.56 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Alignment: 3467910 3479663 | 184549 172876 | 11754 11674 | 95.09 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Alignment: 3487444 3497471 | 165220 155179 | 10028 10042 | 95.12 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Alignment: 3500329 3509028 | 152384 143690 | 8700 8695 | 95.43 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Alignment: 3509108 3514620 | 143470 137951 | 5513 5520 | 95.3 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Alignment: 3514822 3525775 | 137787 126836 | 10954 10952 | 95.3 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Alignment: 3525778 3526888 | 126725 125615 | 1111 1111 | 95.14 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Alignment: 4476064 4476138 | 241907 241833 | 75 75 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388231
+		Unaligned bases: 447521
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388236 (263263bp)
+Top Length: 52397  Top ID: 95.45
+		Skipping redundant alignment 1702573 1702658 | 19720 19805 | 86 86 | 98.84 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388236
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1108231][1108316] redundant alignment 1108231 1108316 | 19720 19805 | 86 86 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388236
+		Skipping [1108347][1108432] redundant alignment 1108347 1108432 | 19720 19805 | 86 86 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388236
+		Skipping [1108463][1108548] redundant alignment 1108463 1108548 | 19720 19805 | 86 86 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388236
+		This contig is misassembled. 9 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 263263 and total length of all aligns is 55204
+		Alignment: 1702437 1702522 | 19720 19805 | 86 86 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388236
+		Alignment: 3414420 3414494 | 19608 19682 | 75 75 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388236
+		Alignment: 4455499 4456684 | 18255 19436 | 1186 1182 | 97.39 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388236
+		Alignment: 4580149 4632477 | 123981 176377 | 52329 52397 | 95.45 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388236
+		Alignment: 4678443 4679906 | 243896 245359 | 1464 1464 | 95.56 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388236
+		Unaligned bases: 208059
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388237 (326376bp)
+Top Length: 14561  Top ID: 95.05
+		Skipping redundant alignment 4454359 4454607 | 1 251 | 249 251 | 97.61 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Skipping redundant alignment 803681 803928 | 249 1 | 248 249 | 97.19 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Skipping redundant alignment 932858 933105 | 249 1 | 248 249 | 97.19 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Skipping redundant alignment 4141708 4141788 | 232476 232556 | 81 81 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Skipping redundant alignment 4141604 4141683 | 232477 232556 | 80 80 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [85011][85259] redundant alignment 85011 85259 | 251 1 | 249 251 | 98.01 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Skipping [163209][163457] redundant alignment 163209 163457 | 251 1 | 249 251 | 98.01 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Skipping [214744][214992] redundant alignment 214744 214992 | 249 1 | 249 249 | 98.8 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Skipping [4371337][4371587] redundant alignment 4371337 4371587 | 1 251 | 251 251 | 98.8 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Skipping [4702788][4703036] redundant alignment 4702788 4703036 | 1 251 | 249 251 | 98.01 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		This contig is misassembled. 21 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 326376 and total length of all aligns is 27197
+		Alignment: 29468 29559 | 326184 326275 | 92 92 | 98.91 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Alignment: 349782 350031 | 251 1 | 250 251 | 98.01 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Alignment: 3968723 3971546 | 11988 14809 | 2824 2822 | 95.43 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Alignment: 3982508 3984898 | 28550 30939 | 2391 2390 | 95.57 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Alignment: 4016792 4017534 | 107392 108134 | 743 743 | 96.1 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Alignment: 4017698 4032347 | 108993 123553 | 14650 14561 | 95.05 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Alignment: 4052706 4053780 | 143226 144300 | 1075 1075 | 95.07 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Alignment: 4141559 4141893 | 232053 232380 | 335 328 | 95.82 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Alignment: 4141710 4146766 | 232096 237150 | 5057 5055 | 96.12 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Alignment: 4234877 4234947 | 326306 326376 | 71 71 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Alignment: 4235038 4235130 | 326037 326130 | 93 94 | 98.94 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388237
+		Unaligned bases: 299179
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388234 (301342bp)
+Top Length: 9377  Top ID: 95.95
+		Skipping redundant alignment 551970 552156 | 6 192 | 187 187 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388234
+		This contig is misassembled. 10 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 301342 and total length of all aligns is 33756
+		Alignment: 214494 214589 | 301247 301342 | 96 96 | 96.88 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388234
+		Alignment: 551973 552164 | 1 192 | 192 192 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388234
+		Alignment: 609268 610800 | 57066 58592 | 1533 1527 | 95.89 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388234
+		Alignment: 610900 616817 | 58592 64510 | 5918 5919 | 95.07 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388234
+		Alignment: 616938 626312 | 66727 76103 | 9375 9377 | 95.95 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388234
+		Alignment: 626973 635270 | 77773 86077 | 8298 8305 | 96.5 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388234
+		Alignment: 786690 788956 | 281292 283557 | 2267 2266 | 95.11 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388234
+		Alignment: 792378 794699 | 288457 290777 | 2322 2321 | 95.56 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388234
+		Alignment: 794802 798557 | 292513 296266 | 3756 3754 | 95.02 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388234
+		Unaligned bases: 267586
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388235 (118682bp)
+Top Length: 21086  Top ID: 95.77
+		Skipping redundant alignment 355163 355259 | 4 99 | 97 96 | 96.91 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388235
+		Skipping redundant alignment 4449167 4449263 | 99 4 | 97 96 | 96.91 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388235
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 118682 and total length of all aligns is 35784
+		Alignment: 829744 844348 | 20527 35127 | 14605 14601 | 95.54 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388235
+		Alignment: 851034 872150 | 43007 64092 | 21117 21086 | 95.77 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388235
+		Alignment: 4697516 4697613 | 100 4 | 98 97 | 96.94 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388235
+		Unaligned bases: 82898
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388238 (46478bp)
+Top Length: 429  Top ID: 95.21
+		Skipping redundant alignment 4371403 4371588 | 46478 46293 | 186 186 | 99.46 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388238
+		Skipping redundant alignment 85010 85193 | 46293 46478 | 184 186 | 98.39 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388238
+		Skipping redundant alignment 163208 163391 | 46293 46478 | 184 186 | 98.39 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388238
+		Skipping redundant alignment 4702854 4703037 | 46478 46293 | 184 186 | 98.39 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388238
+		Skipping redundant alignment 3956736 3956918 | 46478 46294 | 183 185 | 98.38 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388238
+		This contig is partially unaligned. (429 out of 46478)
+		Alignment: 349529 349965 | 46050 46478 | 437 429 | 95.21 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388238
+		Unaligned bases: 1 to 46049 (46049)
+
+CONTIG: ctg7180000388239 (22776bp)
+		This contig is unaligned. (22776 bp)
+		Unaligned bases: 22776  total: 288466
+
+CONTIG: ctg7180000388287 (3548bp)
+Top Length: 3548  Top ID: 95.44
+		One align captures most of this contig: 223283 226830 | 1 3548 | 3548 3548 | 95.44 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388287
+
+CONTIG: ctg7180000388286 (128909bp)
+Top Length: 28845  Top ID: 95.51
+		Skipping redundant alignment 339150 349247 | 118822 128909 | 10098 10088 | 98.2 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388286
+		Skipping redundant alignment 349284 349382 | 128811 128909 | 99 99 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388286
+		This contig is misassembled. 7 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 128909 and total length of all aligns is 55621
+		Alignment: 220133 243927 | 2 23852 | 23795 23851 | 95.49 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388286
+		Alignment: 246810 247377 | 25868 26434 | 568 567 | 96.13 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388286
+		Alignment: 247959 249198 | 26519 27758 | 1240 1240 | 95.56 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388286
+		Alignment: 256511 257628 | 37784 38901 | 1118 1118 | 97.32 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388286
+		Alignment: 320383 349238 | 100065 128909 | 28856 28845 | 95.51 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388286
+		Unaligned bases: 73288
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388284 (1029bp)
+Top Length: 1026  Top ID: 98.34
+		One align captures most of this contig: 347403 348428 | 4 1029 | 1026 1026 | 98.34 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388284
+
+CONTIG: ctg7180000388283 (2034bp)
+		This contig is unaligned. (2034 bp)
+		Unaligned bases: 2034  total: 290500
+
+CONTIG: ctg7180000388282 (1362bp)
+		This contig is unaligned. (1362 bp)
+		Unaligned bases: 1362  total: 291862
+
+CONTIG: ctg7180000388281 (1964bp)
+		This contig is unaligned. (1964 bp)
+		Unaligned bases: 1964  total: 293826
+
+CONTIG: ctg7180000388280 (1010bp)
+		This contig is unaligned. (1010 bp)
+		Unaligned bases: 1010  total: 294836
+
+CONTIG: ctg7180000388289 (3381bp)
+Top Length: 3381  Top ID: 97.55
+		One align captures most of this contig: 238131 241511 | 1 3381 | 3381 3381 | 97.55 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388289
+
+CONTIG: ctg7180000388288 (3982bp)
+Top Length: 3981  Top ID: 95.5
+		One align captures most of this contig: 226858 230838 | 1 3981 | 3981 3981 | 95.5 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388288
+
+CONTIG: ctg7180000388306 (2655bp)
+Top Length: 2653  Top ID: 98.68
+		One align captures most of this contig: 337279 339931 | 1 2653 | 2653 2653 | 98.68 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388306
+
+CONTIG: ctg7180000388307 (4305bp)
+Top Length: 4305  Top ID: 98.07
+		One align captures most of this contig: 339920 344225 | 1 4305 | 4306 4305 | 98.07 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388307
+
+CONTIG: ctg7180000388304 (4949bp)
+		This contig is unaligned. (4949 bp)
+		Unaligned bases: 4949  total: 299785
+
+CONTIG: ctg7180000388305 (4715bp)
+Top Length: 4710  Top ID: 95.25
+		One align captures most of this contig: 332662 337369 | 6 4715 | 4708 4710 | 95.25 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388305
+
+CONTIG: ctg7180000388302 (3531bp)
+Top Length: 3531  Top ID: 96.06
+		One align captures most of this contig: 309991 313521 | 1 3531 | 3531 3531 | 96.06 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388302
+
+CONTIG: ctg7180000388303 (3531bp)
+Top Length: 3531  Top ID: 95.87
+		One align captures most of this contig: 313551 317081 | 1 3531 | 3531 3531 | 95.87 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388303
+
+CONTIG: ctg7180000388300 (4265bp)
+		This contig is unaligned. (4265 bp)
+		Unaligned bases: 4265  total: 304050
+
+CONTIG: ctg7180000388301 (3163bp)
+		This contig is unaligned. (3163 bp)
+		Unaligned bases: 3163  total: 307213
+
+CONTIG: ctg7180000388308 (3198bp)
+Top Length: 3198  Top ID: 98.59
+		One align captures most of this contig: 344215 347412 | 1 3198 | 3198 3198 | 98.59 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388308
+
+CONTIG: ctg7180000388225 (2022bp)
+		This contig is unaligned. (2022 bp)
+		Unaligned bases: 2022  total: 309235
+
+CONTIG: ctg7180000388224 (20476bp)
+		This contig is unaligned. (20476 bp)
+		Unaligned bases: 20476  total: 329711
+
+CONTIG: ctg7180000388227 (30780bp)
+Top Length: 12432  Top ID: 96.25
+		This contig is partially unaligned. (12432 out of 30780)
+		Alignment: 2999217 3011661 | 12203 24634 | 12445 12432 | 96.25 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388227
+		Unaligned bases: 1 to 12202 (12202)
+		Unaligned bases: 24635 to 30780 (6146)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: ctg7180000388226 (278382bp)
+Top Length: 7825  Top ID: 95.22
+		Skipping redundant alignment 1702430 1702524 | 1 95 | 95 95 | 98.95 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388226
+		Skipping redundant alignment 1702573 1702661 | 8 96 | 89 89 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388226
+		Skipping redundant alignment 4476176 4476261 | 8 93 | 86 86 | 98.84 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388226
+		Skipping redundant alignment 4476176 4476261 | 124 209 | 86 86 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388226
+		Skipping redundant alignment 4476176 4476261 | 240 325 | 86 86 | 98.84 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388226
+		This contig is misassembled. 12 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 278382 and total length of all aligns is 19487
+		Alignment: 1108224 1108596 | 1 373 | 373 373 | 95.45 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388226
+		Alignment: 1743180 1745815 | 40837 43471 | 2636 2635 | 95.03 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388226
+		Alignment: 1763710 1771534 | 67848 75672 | 7825 7825 | 95.22 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388226
+		Alignment: 1773109 1775298 | 85291 87478 | 2190 2188 | 95.53 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388226
+		Alignment: 1778532 1783934 | 91231 96630 | 5403 5400 | 95.48 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388226
+		Alignment: 1793759 1794690 | 113124 114055 | 932 932 | 96.03 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388226
+		Alignment: 1955429 1955562 | 278194 278327 | 134 134 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388226
+		Unaligned bases: 258895
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388221 (43554bp)
+Top Length: 8375  Top ID: 95.6
+		This contig is partially unaligned. (8375 out of 43554)
+		Alignment: 4287659 4296040 | 1 8375 | 8382 8375 | 95.6 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388221
+		Unaligned bases: 8376 to 43554 (35179)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: ctg7180000388220 (21323bp)
+Top Length: 2360  Top ID: 95.43
+		This contig is partially unaligned. (2360 out of 21323)
+		Alignment: 4397074 4399435 | 20484 18125 | 2362 2360 | 95.43 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388220
+		Unaligned bases: 1 to 18124 (18124)
+		Unaligned bases: 20485 to 21323 (839)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: ctg7180000388223 (6725bp)
+		This contig is unaligned. (6725 bp)
+		Unaligned bases: 6725  total: 336436
+
+CONTIG: ctg7180000388222 (57958bp)
+Top Length: 99  Top ID: 98.99
+		Skipping redundant alignment 4476176 4476261 | 57951 57866 | 86 86 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388222
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1702430][1702524] redundant alignment 1702430 1702524 | 57958 57864 | 95 95 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388222
+		This contig is misassembled. 6 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 57958 and total length of all aligns is 360
+		Alignment: 1164049 1164147 | 24865 24767 | 99 99 | 98.99 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388222
+		Alignment: 1702573 1702661 | 57951 57863 | 89 89 | 98.88 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388222
+		Alignment: 4476176 4476261 | 57719 57634 | 86 86 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388222
+		Alignment: 4476176 4476261 | 57835 57750 | 86 86 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388222
+		Unaligned bases: 57598
+CONTIG: ctg7180000388229 (207147bp)
+Top Length: 17270  Top ID: 95.24
+		Skipping redundant alignment 3894446 3894526 | 2508 2587 | 81 80 | 98.77 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388229
+		Skipping redundant alignment 4268517 4268599 | 2590 2509 | 83 82 | 98.8 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388229
+		Skipping redundant alignment 1210104 1210193 | 202280 202191 | 90 90 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388229
+		This contig is misassembled. 7 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 207147 and total length of all aligns is 24821
+		Alignment: 2827029 2829244 | 1 2215 | 2216 2215 | 95.62 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388229
+		Alignment: 2829399 2829731 | 2368 2698 | 333 331 | 96.7 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388229
+		Alignment: 2887840 2905113 | 77065 94334 | 17274 17270 | 95.24 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388229
+		Alignment: 2983646 2988651 | 202141 207145 | 5006 5005 | 95.37 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388229
+		Unaligned bases: 182326
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388228 (230837bp)
+Top Length: 9662  Top ID: 95.72
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [90067][90177] redundant alignment 90067 90177 | 230837 230727 | 111 111 | 98.2 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388228
+		Skipping [168236][168348] redundant alignment 168236 168348 | 230837 230725 | 113 113 | 97.35 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388228
+		Skipping [219734][219846] redundant alignment 219734 219846 | 230837 230725 | 113 113 | 97.35 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388228
+		Skipping [808712][808824] redundant alignment 808712 808824 | 230837 230725 | 113 113 | 97.35 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388228
+		Skipping [937889][938001] redundant alignment 937889 938001 | 230837 230725 | 113 113 | 97.35 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388228
+		Skipping [4697894][4698006] redundant alignment 4697894 4698006 | 230725 230837 | 113 113 | 97.35 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388228
+		This contig is misassembled. 14 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 230837 and total length of all aligns is 18637
+		Alignment: 959266 964553 | 209688 204393 | 5288 5296 | 95.45 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388228
+		Alignment: 964662 965785 | 204292 203173 | 1124 1120 | 95.91 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388228
+		Alignment: 1033421 1033748 | 136103 135776 | 328 328 | 97.26 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388228
+		Alignment: 1039043 1040989 | 135683 133738 | 1947 1946 | 95.07 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388228
+		Alignment: 1041140 1050789 | 132839 123178 | 9650 9662 | 95.72 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388228
+		Alignment: 3951774 3951886 | 230725 230837 | 113 113 | 97.35 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388228
+		Alignment: 4476176 4476261 | 236 151 | 86 86 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388228
+		Alignment: 4476176 4476261 | 99 14 | 86 86 | 98.84 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388228
+		Unaligned bases: 212200
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388250 (926bp)
+Top Length: 926  Top ID: 95.14
+		One align captures most of this contig: 242932 243857 | 1 926 | 926 926 | 95.14 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388250
+
+CONTIG: ctg7180000388252 (650bp)
+		This contig is unaligned. (650 bp)
+		Unaligned bases: 650  total: 337086
+
+CONTIG: ctg7180000388258 (832bp)
+Top Length: 832  Top ID: 97.0
+		One align captures most of this contig: 318108 318939 | 1 832 | 832 832 | 97.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388258
+
+CONTIG: ctg7180000388259 (906bp)
+		This contig is unaligned. (906 bp)
+		Unaligned bases: 906  total: 337992
+
+CONTIG: ctg7180000388241 (133236bp)
+Top Length: 5688  Top ID: 95.26
+		This contig is misassembled. 4 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 133236 and total length of all aligns is 6006
+		Alignment: 29370 29450 | 37317 37237 | 81 81 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388241
+		Alignment: 29627 29704 | 37554 37477 | 78 78 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388241
+		Alignment: 2049144 2054832 | 59611 65298 | 5689 5688 | 95.26 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388241
+		Alignment: 2073989 2074147 | 110814 110972 | 159 159 | 98.11 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388241
+		Unaligned bases: 127230
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388240 (156215bp)
+Top Length: 1694  Top ID: 95.22
+		Skipping redundant alignment 3875825 3875902 | 112867 112944 | 78 78 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Skipping redundant alignment 3875949 3876025 | 112867 112943 | 77 77 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Skipping redundant alignment 3487578 3487654 | 119057 119133 | 77 77 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Skipping redundant alignment 3487578 3487654 | 119277 119353 | 77 77 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Skipping redundant alignment 4268845 4268924 | 129271 129191 | 80 81 | 98.77 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [3111385][3111463] redundant alignment 3111385 3111463 | 118858 118936 | 79 79 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Skipping [3111385][3111462] redundant alignment 3111385 3111462 | 119165 119242 | 78 78 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Skipping [3111385][3111462] redundant alignment 3111385 3111462 | 118957 119034 | 78 78 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		This contig is misassembled. 16 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 156215 and total length of all aligns is 2577
+		Alignment: 3111384 3111463 | 119276 119355 | 80 80 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Alignment: 3111384 3111463 | 119056 119135 | 80 80 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Alignment: 3487577 3487654 | 118857 118934 | 78 78 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Alignment: 3487577 3487654 | 119164 119241 | 78 78 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Alignment: 3487577 3487654 | 118956 119033 | 78 78 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Alignment: 3774576 3776269 | 26729 28422 | 1694 1694 | 95.22 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Alignment: 3876192 3876598 | 112867 113273 | 407 407 | 95.09 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Alignment: 4268638 4268719 | 129270 129189 | 82 82 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388240
+		Unaligned bases: 153638
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: ctg7180000388247 (788bp)
+		This contig is unaligned. (788 bp)
+		Unaligned bases: 788  total: 338780
+
+CONTIG: ctg7180000388245 (796bp)
+Top Length: 796  Top ID: 95.48
+		One align captures most of this contig: 230825 231620 | 1 796 | 796 796 | 95.48 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388245
+
+CONTIG: ctg7180000388249 (931bp)
+Top Length: 931  Top ID: 97.96
+		One align captures most of this contig: 235165 236095 | 1 931 | 931 931 | 97.96 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388249
+
+CONTIG: ctg7180000388276 (2058bp)
+		This contig is unaligned. (2058 bp)
+		Unaligned bases: 2058  total: 340838
+
+CONTIG: ctg7180000388277 (2093bp)
+		This contig is unaligned. (2093 bp)
+		Unaligned bases: 2093  total: 342931
+
+CONTIG: ctg7180000388274 (1930bp)
+		This contig is unaligned. (1930 bp)
+		Unaligned bases: 1930  total: 344861
+
+CONTIG: ctg7180000388275 (1227bp)
+		This contig is unaligned. (1227 bp)
+		Unaligned bases: 1227  total: 346088
+
+CONTIG: ctg7180000388272 (1460bp)
+		This contig is unaligned. (1460 bp)
+		Unaligned bases: 1460  total: 347548
+
+CONTIG: ctg7180000388273 (1251bp)
+		This contig is unaligned. (1251 bp)
+		Unaligned bases: 1251  total: 348799
+
+CONTIG: ctg7180000388270 (1590bp)
+Top Length: 106  Top ID: 100.0
+		This contig is partially unaligned. (106 out of 1590)
+		Alignment: 257523 257628 | 1 106 | 106 106 | 100.0 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388270
+		Unaligned bases: 107 to 1590 (1484)
+
+CONTIG: ctg7180000388271 (1207bp)
+Top Length: 1203  Top ID: 96.77
+		One align captures most of this contig: 260853 262061 | 1 1203 | 1209 1203 | 96.77 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388271
+
+CONTIG: ctg7180000388278 (1887bp)
+Top Length: 1638  Top ID: 95.36
+		This contig is partially unaligned. (1638 out of 1887)
+		Alignment: 307452 309089 | 250 1887 | 1638 1638 | 95.36 | gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome ctg7180000388278
+		Unaligned bases: 1 to 249 (249)
+
+CONTIG: ctg7180000388279 (841bp)
+		This contig is unaligned. (841 bp)
+		Unaligned bases: 841  total: 349640
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/713/dataset_750_files/contigs_reports/nucmer_output/AH-H-Cabog.used_snps
+	Reference gi|117617447|ref|NC_008570.1|_Aeromonas_hydrophila_subsp._hydrophila_ATCC_7966_chromosome__complete_genome: 37 total alignments. 1 total regions.
+		Region: 1 to 4744448 (4744448 bp)
+			START in gap: 1 to 60917 (60916 bp)
+			Align 1: 60917 61556 ctg7180000388214 71 710
+				Gap between this and next alignment: 61556 to 73200 (11643 bp)
+				Next Alignment: 73200 74882 ctg7180000388214 886 2568
+
+			Align 2: 73200 74882 ctg7180000388214 886 2568
+				Gap between this and next alignment: 74882 to 75018 (135 bp)
+				Next Alignment: 75018 84924 ctg7180000388214 2568 12477
+
+			Align 3: 75018 84924 ctg7180000388214 2568 12477
+				Gap between this and next alignment: 84924 to 223283 (138358 bp)
+				Next Alignment: 223283 226830 ctg7180000388287 1 3548
+
+			Align 4: 223283 226830 ctg7180000388287 1 3548
+				Gap between this and next alignment: 226830 to 226858 (27 bp)
+				Next Alignment: 226858 230838 ctg7180000388288 1 3981
+
+			Align 5: 226858 230838 ctg7180000388288 1 3981
+				Negative gap (overlap) between this and next alignment: 230838 to 230825 (-13 bp)
+				Next Alignment: 230825 231620 ctg7180000388245 1 796
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 15.
+			Align 6: 230839 231620 ctg7180000388245 15 796
+				Gap between this and next alignment: 231620 to 232770 (1149 bp)
+				Next Alignment: 232770 234870 ctg7180000388266 1 2101
+
+			Align 7: 232770 234870 ctg7180000388266 1 2101
+				Gap between this and next alignment: 234870 to 235165 (294 bp)
+				Next Alignment: 235165 236095 ctg7180000388249 1 931
+
+			Align 8: 235165 236095 ctg7180000388249 1 931
+				Gap between this and next alignment: 236095 to 238131 (2035 bp)
+				Next Alignment: 238131 241511 ctg7180000388289 1 3381
+
+			Align 9: 238131 241511 ctg7180000388289 1 3381
+				Negative gap (overlap) between this and next alignment: 241511 to 241505 (-6 bp)
+				Next Alignment: 241505 242922 ctg7180000388268 5 1422
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5 to 12.
+			Align 10: 241512 242922 ctg7180000388268 12 1422
+				Gap between this and next alignment: 242922 to 242932 (9 bp)
+				Next Alignment: 242932 243857 ctg7180000388250 1 926
+
+			Align 11: 242932 243857 ctg7180000388250 1 926
+				Negative gap (overlap) between this and next alignment: 243857 to 243851 (-6 bp)
+				Next Alignment: 243851 243927 ctg7180000388269 1 77
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 8.
+			Align 12: 243858 243927 ctg7180000388269 8 77
+				Gap between this and next alignment: 243927 to 256511 (12583 bp)
+				Next Alignment: 256511 257615 ctg7180000388292 3969 5073
+
+			Align 13: 256511 257615 ctg7180000388292 3969 5073
+				Negative gap (overlap) between this and next alignment: 257615 to 257523 (-92 bp)
+				Next Alignment: 257523 257628 ctg7180000388270 1 106
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 94.
+			Align 14: 257616 257628 ctg7180000388270 94 106
+				Gap between this and next alignment: 257628 to 260853 (3224 bp)
+				Next Alignment: 260853 262061 ctg7180000388271 1 1203
+
+			Align 15: 260853 262061 ctg7180000388271 1 1203
+				Gap between this and next alignment: 262061 to 268404 (6342 bp)
+				Next Alignment: 268404 273996 ctg7180000388294 1 5593
+
+			Align 16: 268404 273996 ctg7180000388294 1 5593
+				Gap between this and next alignment: 273996 to 307452 (33455 bp)
+				Next Alignment: 307452 309089 ctg7180000388278 250 1887
+
+			Align 17: 307452 309089 ctg7180000388278 250 1887
+				Gap between this and next alignment: 309089 to 309991 (901 bp)
+				Next Alignment: 309991 313521 ctg7180000388302 1 3531
+
+			Align 18: 309991 313521 ctg7180000388302 1 3531
+				Gap between this and next alignment: 313521 to 313551 (29 bp)
+				Next Alignment: 313551 317081 ctg7180000388303 1 3531
+
+			Align 19: 313551 317081 ctg7180000388303 1 3531
+				Gap between this and next alignment: 317081 to 318108 (1026 bp)
+				Next Alignment: 318108 318939 ctg7180000388258 1 832
+
+			Align 20: 318108 318939 ctg7180000388258 1 832
+				Gap between this and next alignment: 318939 to 332049 (13109 bp)
+				Next Alignment: 332049 332669 ctg7180000388264 85 705
+
+			Align 21: 332049 332669 ctg7180000388264 85 705
+				Negative gap (overlap) between this and next alignment: 332669 to 332662 (-7 bp)
+				Next Alignment: 332662 337369 ctg7180000388305 6 4715
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 6 to 14.
+			Align 22: 332670 337369 ctg7180000388305 14 4715
+				Negative gap (overlap) between this and next alignment: 337369 to 337279 (-90 bp)
+				Next Alignment: 337279 339931 ctg7180000388306 1 2653
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 92.
+			Align 23: 337370 339931 ctg7180000388306 92 2653
+				Negative gap (overlap) between this and next alignment: 339931 to 339920 (-11 bp)
+				Next Alignment: 339920 344225 ctg7180000388307 1 4305
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 13.
+			Align 24: 339932 344225 ctg7180000388307 13 4305
+				Negative gap (overlap) between this and next alignment: 344225 to 344215 (-10 bp)
+				Next Alignment: 344215 347412 ctg7180000388308 1 3198
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 12.
+			Align 25: 344226 347412 ctg7180000388308 12 3198
+				Negative gap (overlap) between this and next alignment: 347412 to 347403 (-9 bp)
+				Next Alignment: 347403 348428 ctg7180000388284 4 1029
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4 to 14.
+			Align 26: 347413 348428 ctg7180000388284 14 1029
+				Negative gap (overlap) between this and next alignment: 348428 to 348410 (-18 bp)
+				Next Alignment: 348410 349140 ctg7180000388265 1 732
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 20.
+			Align 27: 348429 349140 ctg7180000388265 20 732
+				Gap between this and next alignment: 349140 to 349529 (388 bp)
+				Next Alignment: 349529 349965 ctg7180000388238 46050 46478
+
+			Align 28: 349529 349965 ctg7180000388238 46050 46478
+				Gap between this and next alignment: 349965 to 803517 (453551 bp)
+				Next Alignment: 803517 803928 ctg7180000388212 3328 3739
+
+			Align 29: 803517 803928 ctg7180000388212 3328 3739
+				Gap between this and next alignment: 803928 to 1108189 (304260 bp)
+				Next Alignment: 1108189 1108307 ctg7180000388201 120 1
+
+			Align 30: 1108189 1108307 ctg7180000388201 120 1
+				Gap between this and next alignment: 1108307 to 1667360 (559052 bp)
+				Next Alignment: 1667360 1693334 ctg7180000388202 25926 8
+
+			Align 31: 1667360 1693334 ctg7180000388202 25926 8
+				Gap between this and next alignment: 1693334 to 2105270 (411935 bp)
+				Next Alignment: 2105270 2107368 ctg7180000388204 1 2097
+
+			Align 32: 2105270 2107368 ctg7180000388204 1 2097
+				Gap between this and next alignment: 2107368 to 2999217 (891848 bp)
+				Next Alignment: 2999217 3011661 ctg7180000388227 12203 24634
+
+			Align 33: 2999217 3011661 ctg7180000388227 12203 24634
+				Gap between this and next alignment: 3011661 to 3098989 (87327 bp)
+				Next Alignment: 3098989 3106841 ctg7180000388213 15972 8126
+
+			Align 34: 3098989 3106841 ctg7180000388213 15972 8126
+				Gap between this and next alignment: 3106841 to 3111024 (4182 bp)
+				Next Alignment: 3111024 3118469 ctg7180000388213 7443 1
+
+			Align 35: 3111024 3118469 ctg7180000388213 7443 1
+				Gap between this and next alignment: 3118469 to 4287659 (1169189 bp)
+				Next Alignment: 4287659 4296040 ctg7180000388221 1 8375
+
+			Align 36: 4287659 4296040 ctg7180000388221 1 8375
+				Gap between this and next alignment: 4296040 to 4397074 (101033 bp)
+				Next Alignment: 4397074 4399435 ctg7180000388220 20484 18125
+
+			Align 37: 4397074 4399435 ctg7180000388220 20484 18125
+			END in gap: 4399435 to 4744448 (345013 bp)
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/713/dataset_750_files/contigs_reports/nucmer_output/AH-H-Cabog.used_snps
+
+Results:
+	Local Misassemblies: 1
+	Misassemblies: 2
+		Relocations: 2
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 2
+	Misassembled Contig Bases: 28456
+	Misassmblies Inter-Contig Overlap: 1
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 40 + 32 part
+Partially Unaligned Contigs with Misassemblies: 20
+Unaligned Contig Bases: 4265289
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 131435
+
+	SNPs: 5044
+	Insertions: 89
+	Deletions: 186
+
+	Positive Gaps: 28
+		Internal Gaps:  3
+		External Gaps:  25
+		External Gap Total:  4597053
+		External Gap Average: 183882
+	Negative Gaps: 10
+		Internal Overlaps:  0
+		External Overlaps:  10
+		External Overlaps Total: -262
+		External Overlaps Average: -26
+	Contigs with Redundant Alignments: 0 (0)

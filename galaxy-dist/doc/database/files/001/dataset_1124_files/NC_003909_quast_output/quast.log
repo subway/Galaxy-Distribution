@@ -1,0 +1,80 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.pyc --meta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/corrected_input/B_to_NC_003909.fasta -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/corrected_input/NC_003909.fna -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output --labels B.cereus
+
+Started: 2014-03-24 15:19:57
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/quast.log
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/corrected_input/NC_003909.fna ==> NC_003909
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/corrected_input/B_to_NC_003909.fasta ==> B.cereus
+
+2014-03-24 15:19:57
+Running Basic statistics processor...
+  Reference genome:
+    NC_003909.fna, Reference length = 5224283, Reference GC % = 35.58
+  Contig files: 
+    B.cereus
+  Calculating N50 and L50...
+    B.cereus, N50 = 80219, L50 = 6, Total length = 1339348, GC % = 35.04, # N's per 100 kbp =  16.95
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/basic_stats/NGx_plot.pdf
+Done.
+
+2014-03-24 15:19:59
+Running Contig analyzer...
+  B.cereus
+  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/contigs_reports/contigs_report_B.cereus.stdout and contigs_report_B.cereus.stderr...
+  Running Nucmer... 
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/contigs_reports/alignments_B.cereus.tsv
+  Analysis is finished.
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-03-24 15:20:16
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    B.cereus, Largest alignment = 5197, NA50 = None, NGA50 = None, LA50 = None, LGA50 = None
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-03-24 15:20:17
+Running Genome analyzer...
+  NOTICE: Annotated genes file was not provided. Use -G option to specify it.
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  B.cereus
+  Drawing Genome fraction, % histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-03-24 15:20:18
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1041/dataset_1124_files/NC_003909_quast_output/quast.log
+
+Finished: 2014-03-24 15:20:18
+Elapsed time: 0:00:21.077939

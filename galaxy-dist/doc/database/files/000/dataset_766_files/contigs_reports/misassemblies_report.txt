@@ -1,0 +1,15 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                      RS-H-Abyss  RS-M-Abyss  RS-H-Cabog  RS-M-Cabog  RS-H-Mira  RS-M-Mira  RS-H-Msrca  RS-M-Msrca  RS-H-Sga  RS-M-Sga  RS-H-Soap  RS-M-Soap  RS-H-Spades  RS-M-Spades  RS-H-Velvet  RS-M-Velvet
+# misassemblies               0           0           0           -           0          0          0           0           0         0         0          0          1            0            0            0          
+    # relocations             0           0           0           -           0          0          0           0           0         0         0          0          1            0            0            0          
+    # translocations          0           0           0           -           0          0          0           0           0         0         0          0          0            0            0            0          
+    # inversions              0           0           0           -           0          0          0           0           0         0         0          0          0            0            0            0          
+# misassembled contigs        0           0           0           -           0          0          0           0           0         0         0          0          1            0            0            0          
+Misassembled contigs length   0           0           0           -           0          0          0           0           0         0         0          0          4413         0            0            0          
+# local misassemblies         0           0           0           -           0          1          0           0           0         0         0          0          0            0            0            0          
+# mismatches                  92          38          3           -           109        148        92          77          2         62        49         63         37           30           17           25         
+# indels                      3           0           5           -           3          11         11          6           0         8         0          3          1            5            0            0          
+    # short indels (<= 5 bp)  3           0           5           -           3          11         11          6           0         8         0          3          1            5            0            0          
+    # long indels (> 5 bp)    0           0           0           -           0          0          0           0           0         0         0          0          0            0            0            0          
+Indels length                 3           0           5           -           3          17         11          6           0         8         0          3          1            5            0            0          

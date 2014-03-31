@@ -1,0 +1,41 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/881/dataset_964_files -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_003909.fna,/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_005707.fna /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_497.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_498.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_499.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-03-23 20:23:22
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/881/dataset_964_files/metaquast.log
+
+References:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_003909.fna ==> NC_003909
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/NC_005707.fna ==> NC_005707
+  All references combined in combined_reference.fasta
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_497.dat ==> dataset_497.dat
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_498.dat ==> dataset_498.dat
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_499.dat ==> dataset_499.dat
+
+Starting quast.py for the combined reference...
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/881/dataset_964_files/combined_quast_output/quast.log)
+
+Starting quast.py for the contigs aligned to NC_005707
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/881/dataset_964_files/NC_005707_quast_output/quast.log)
+
+Starting quast.py for the contigs aligned to NC_003909
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/881/dataset_964_files/NC_003909_quast_output/quast.log)
+
+Starting quast.py for the contigs not alined anywhere...
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/881/dataset_964_files/not_aligned_quast_output/quast.log)
+
+MetaQUAST finished.
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/881/dataset_964_files/metaquast.log
+
+Finished: 2014-03-23 20:24:53
+Elapsed time: 0:01:30.984710

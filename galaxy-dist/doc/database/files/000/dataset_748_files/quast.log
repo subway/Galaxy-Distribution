@@ -1,0 +1,92 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/711/dataset_748_files -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_676.dat -l A.H-H-Abyss, A.H-H-Cabog, A.H-H-Mira, A.H-H-Msrca, A.H-H-Sga, A.H-H-Soap, A.H-H-Spades, A.H-H-Velvet -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_677.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_480.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_482.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_483.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_484.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_485.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_486.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_487.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_488.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-02-26 02:14:11
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/711/dataset_748_files/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_676.dat ==> dataset_676
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_480.dat ==> A.H-H-Abyss
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_482.dat ==> A.H-H-Cabog
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_483.dat ==> A.H-H-Mira
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_484.dat ==> A.H-H-Msrca
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_485.dat ==> A.H-H-Sga
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_486.dat ==> A.H-H-Soap
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_487.dat ==> A.H-H-Spades
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_488.dat ==> A.H-H-Velvet
+
+2014-02-26 02:14:17
+Running Basic statistics processor...
+  Reference genome:
+    dataset_676.dat, Reference length = 4744448, Reference GC % = 61.55
+  Contig files: 
+    1  A.H-H-Abyss
+    2  A.H-H-Cabog
+    3  A.H-H-Mira
+    4  A.H-H-Msrca
+    5  A.H-H-Sga
+    6  A.H-H-Soap
+    7  A.H-H-Spades
+    8  A.H-H-Velvet
+  Calculating N50 and L50...
+    1  A.H-H-Abyss, N50 = 237457, L50 = 7, Total length = 4969260, GC % = 61.53, # N's per 100 kbp =  1.83
+    2  A.H-H-Cabog, N50 = 278382, L50 = 6, Total length = 5004541, GC % = 61.60, # N's per 100 kbp =  0.00
+    3  A.H-H-Mira, N50 = 244066, L50 = 10, Total length = 4958807, GC % = 61.57, # N's per 100 kbp =  4.21
+    4  A.H-H-Msrca, N50 = 828647, L50 = 3, Total length = 4914380, GC % = 61.61, # N's per 100 kbp =  0.00
+    5  A.H-H-Sga, N50 = 67129, L50 = 25, Total length = 4869935, GC % = 61.62, # N's per 100 kbp =  0.00
+    6  A.H-H-Soap, N50 = 243851, L50 = 8, Total length = 4888841, GC % = 61.61, # N's per 100 kbp =  0.00
+    7  A.H-H-Spades, N50 = 379681, L50 = 5, Total length = 4929385, GC % = 61.54, # N's per 100 kbp =  1.28
+    8  A.H-H-Velvet, N50 = 180361, L50 = 9, Total length = 4886581, GC % = 61.61, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/711/dataset_748_files/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/711/dataset_748_files/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/711/dataset_748_files/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/711/dataset_748_files/basic_stats/NGx_plot.pdf
+Done.
+
+2014-02-26 02:14:22
+Running Contig analyzer...
+  1  A.H-H-Abyss
+  2  A.H-H-Cabog
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/711/dataset_748_files/contigs_reports/contigs_report_A.stdout and contigs_report_A.stderr...
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/711/dataset_748_files/contigs_reports/contigs_report_A.stdout and contigs_report_A.stderr...
+  3  A.H-H-Mira
+  1  Running Nucmer... 
+  2  Running Nucmer... 
+  3  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/711/dataset_748_files/contigs_reports/contigs_report_A.stdout and contigs_report_A.stderr...
+  4  A.H-H-Msrca
+  5  A.H-H-Sga
+  3  Running Nucmer... 
+  4  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/711/dataset_748_files/contigs_reports/contigs_report_A.stdout and contigs_report_A.stderr...
+  5  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/711/dataset_748_files/contigs_reports/contigs_report_A.stdout and contigs_report_A.stderr...
+  4  Running Nucmer... 
+  5  Running Nucmer... 
+  6  A.H-H-Soap
+  6  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/711/dataset_748_files/contigs_reports/contigs_report_A.stdout and contigs_report_A.stderr...
+  7  A.H-H-Spades
+  7  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/711/dataset_748_files/contigs_reports/contigs_report_A.stdout and contigs_report_A.stderr...
+  6  Running Nucmer... 
+  7  Running Nucmer... 
+  8  A.H-H-Velvet
+  8  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/000/711/dataset_748_files/contigs_reports/contigs_report_A.stdout and contigs_report_A.stderr...
+  8  Running Nucmer... 
+  3  Nucmer: nothing aligned for 'A'.
+  4  Nucmer: nothing aligned for 'A'.
+  7  Nucmer: nothing aligned for 'A'.

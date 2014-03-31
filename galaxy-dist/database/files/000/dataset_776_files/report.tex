@@ -1,0 +1,42 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{8}{|r}|}
+\hline
+Assembly & XA-H-Abyss & XA-H-Cabog & XA-H-Mira & XA-H-Msrca & XA-H-Sga & XA-H-Soap & XA-H-Spades & XA-H-Velvet \\ \hline
+\# contigs ($\geq$ 0 bp) & 2372 & 189 & 2969 & {\bf 155} & 85148 & 2056 & 453 & 258 \\ \hline
+\# contigs ($\geq$ 1000 bp) & 134 & {\bf 89} & 472 & 99 & 199 & 146 & 117 & 134 \\ \hline
+Total length ($\geq$ 0 bp) & 5086459 & 4848222 & 6588629 & 4935414 & {\bf 13567484} & 5187613 & 5014024 & 4913541 \\ \hline
+Total length ($\geq$ 1000 bp) & 4899971 & 4836665 & {\bf 5551355} & 4901466 & 4776687 & 4888668 & 4942328 & 4874782 \\ \hline
+\# contigs & 154 & {\bf 89} & 1158 & 138 & 230 & 163 & 156 & 156 \\ \hline
+Total length & 4913650 & 4836665 & {\bf 6022342} & 4928115 & 4798962 & 4900579 & 4971240 & 4889453 \\ \hline
+Largest contig & 196813 & 312406 & {\bf 352831} & 322669 & 132038 & 196882 & 312376 & 307295 \\ \hline
+Reference length & 4967469 & 4967469 & 4967469 & 4967469 & 4967469 & 4967469 & 4967469 & 4967469 \\ \hline
+GC (\%) & 65.09 & 65.19 & 64.17 & 65.08 & 65.20 & 65.12 & 65.04 & 65.12 \\ \hline
+Reference GC (\%) & 64.92 & 64.92 & 64.92 & 64.92 & 64.92 & 64.92 & 64.92 & 64.92 \\ \hline
+N50 & 89864 & 107676 & 91268 & {\bf 117883} & 49072 & 79834 & 117467 & 83025 \\ \hline
+NG50 & 89864 & 105803 & 105619 & {\bf 117883} & 47829 & 74197 & 117467 & 83025 \\ \hline
+N75 & 47805 & 55276 & 21435 & 61875 & 23614 & 41329 & {\bf 63036} & 42656 \\ \hline
+NG75 & 45155 & 52143 & 58443 & 61875 & 21743 & 41138 & {\bf 63036} & 41763 \\ \hline
+L50 & 21 & 16 & 21 & {\bf 15} & 35 & 21 & 16 & 20 \\ \hline
+LG50 & 21 & 17 & 16 & {\bf 15} & 37 & 22 & 16 & 20 \\ \hline
+L75 & 40 & 32 & 53 & {\bf 30} & 70 & 44 & {\bf 30} & 40 \\ \hline
+LG75 & 41 & 34 & 31 & {\bf 30} & 76 & 45 & {\bf 30} & 42 \\ \hline
+\# misassemblies & 2 & 1 & {\bf 0} & {\bf 0} & 6 & {\bf 0} & {\bf 0} & {\bf 0} \\ \hline
+Misassembled contigs length & 60758 & 18508 & {\bf 0} & {\bf 0} & 256146 & {\bf 0} & {\bf 0} & {\bf 0} \\ \hline
+\# local misassemblies & 14 & {\bf 6} & 7 & 7 & 22 & {\bf 6} & 8 & 12 \\ \hline
+\# unaligned contigs & 88 + 57 part & {\bf 38 + 46 part} & 1092 + 50 part & 91 + 42 part & 119 + 82 part & 87 + 62 part & 109 + 41 part & 90 + 55 part \\ \hline
+Unaligned contigs length & 3762177 & 3782691 & 4939160 & 3851470 & {\bf 3572104} & 3832425 & 3887717 & 3801991 \\ \hline
+Genome fraction (\%) & 20.453 & 19.597 & 19.860 & 20.064 & {\bf 21.403} & 20.286 & 20.181 & 19.899 \\ \hline
+Duplication ratio & 1.133 & 1.083 & 1.098 & 1.080 & 1.154 & {\bf 1.060} & 1.081 & 1.100 \\ \hline
+\# N's per 100 kbp & 1.02 & {\bf 0.00} & 14.26 & {\bf 0.00} & {\bf 0.00} & {\bf 0.00} & 4.75 & {\bf 0.00} \\ \hline
+\# mismatches per 100 kbp & 4032.85 & 4068.20 & 4055.15 & 4176.56 & 4097.65 & 4010.62 & 4049.19 & {\bf 3994.56} \\ \hline
+\# indels per 100 kbp & 178.54 & 171.49 & 149.80 & 194.41 & 149.00 & 143.12 & {\bf 141.00} & 181.03 \\ \hline
+\# genes & 811 + 78 part & 774 + 78 part & 780 + 79 part & 795 + 70 part & {\bf 836 + 99 part} & 803 + 87 part & 801 + 77 part & 784 + 81 part \\ \hline
+Largest alignment & 46289 & 46286 & 46289 & 46289 & {\bf 48600} & 40364 & 46289 & 46289 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

@@ -1,81 +1,74 @@
 <tool id="compute_stat" name="Compute statistics">
-  <description>for contig files</description>
+  <description>for assemblies</description>
   <command interpreter="python">computeStat.py 
-    #for $l in $labels:
-        #if str($l.label) != "":
-            Label${l.label}
-        #end if
+    #for $r in $results:
+        History${r.result}
     #end for
-    #for $f in $files:
-        File${f.file}
+    #for $d in $dataset:
+        Dataset${d.label},${d.file},${d.fileContent}
     #end for
-    #if $scaffold:
-        Scaff${scaffold}
+    #if $reference.refGenome == "builtIn":
+            dbRef${reference.dbkey}:${reference.dbgene}
+    #elif $reference.refGenome == "uploadYour":
+            Ref${reference.uploadYourRef},${reference.multiRef},${reference.genes}
     #end if
-    #if $reference.refGenome=="builtIn":
-            dbRef${reference.dbkey}
-            #if $reference.dbgene:
-                dbGene${reference.dbgene}
-            #end if
-    #elif $reference.refGenome=="uploadYour":
-            Ref$uploadYourRef
-            Gene$genes
-            #end if
-            #if $reference.multiRef:
-               Multi${reference.multiRef}
-            #end if
+    #if str($thresholdMin) != "0":
+        Min$thresholdMin
     #end if
-    Min$thresholdMin
-    Max$thresholdMax
-    Thr$threads $html_file.files_path
+    #if str($thresholdMax) != "1000":
+        Max$thresholdMax
+    #end if
+    #if str($threads) != "0":
+        Thr$threads
+    #end if
+    $html_file.files_path
   </command>
   <inputs>
-    <repeat name="labels" title="Label for contig file" help="Names of assemblies to use in reports (Recommended)">
-      <param name="label" optional="false" format="text" type="text"/>
+    <repeat name="results" title="Result">
+      <param name="result" type="data"/>
     </repeat>
-    <repeat name="files" title="Fasta file" help="Files with contigs">
-      <param name="file" format="fasta" type="data"/>
+    <repeat name="dataset" title="Dataset">
+      <param name="label" format="text" type="text" help="Name to use in reports (Recommended)"/>
+      <param name="file" format="fasta" type="data" help="File with assembly"/>
+      <param name="fileContent" type="select" label="Does the uploaded file contain contigs or scaffolds?">
+	<option value="contig">Contig</option>
+	<option value="scaffold">Scaffold</option>
+      </param>
     </repeat>
     <conditional name="reference">
-      <param name="refGenome" type="select" label="Reference genome" help="Reference genome file">
+      <param name="refGenome" type="select" label="Reference">
 	<option value="">Do not use reference</option>
 	<option value="builtIn">Use built in reference</option>
 	<option value="uploadYour">Upload your reference</option>
       </param>
       <when value="builtIn">
-	<param name="dbkey" type="select" multiple="true" label="Genome" help="Hold the ctrl button to select more than one. Abbrevations: Chr - Chromosome CG - Complete genome CS- Complete sequence PS - Partial sequence P - Plasmid">
-          <option value="NC_008570">A.hydrophila ATCC 7966 - NC_008570-Chr-CG</option>
-          <option value="NC_003909">B.cereus ATCC 10987 - NC_003909-CG</option>
-          <option value="NC_005707">B.cereus ATCC 10987 - NC_005705-P(pBc10987)-CS</option>
-          <option value="NC_016776">B.fragilis 638R - NC_016776-CG</option>
-          <option value="NC_010394">M.abscessus ATCC 19977 - NC_010394-P-CS</option>
-          <option value="NC_010397">M.abscessus ATCC 19977 - NC_010397-Chr-CS</option>
-          <option value="NC_007488">R.sphaeroides 2.4.1 - NC_007488-P(B)-CS</option>
-          <option value="NC_007489">R.sphaeroides 2.4.1 - NC_007489-P(C)-CS</option>
-          <option value="NC_007490">R.sphaeroides 2.4.1 - NC_007490-P(D)-CS</option>
-          <option value="NC_007493">R.sphaeroides 2.4.1 - NC_007493-Chr(1)-CS</option>
-          <option value="NC_007494">R.sphaeroides 2.4.1 - NC_007494-Chr(2)-CS</option>
-          <option value="NC_009007">R.sphaeroides 2.4.1 - NC_009007-P(A)-PS</option>
-          <option value="NC_009008">R.sphaeroides 2.4.1 - NC_009007-P(E)-PS</option>
-          <option value="NC_010063">S.aureus USA300_TCH1516 - NC_010063-P(pUSA300HOUMR)-CS</option>
-          <option value="NC_010079">S.aureus USA300_TCH1516 - NC_010079-Chr-CG</option>
-          <option value="NC_012417">S.aureus USA300_TCH1516 - NC_012417-P(pUSA01-HOU)-CS</option>
-          <option value="NC_002505">V.cholerae O1 biovar eltor str. N16961 - NC_002505-Chr(I)-CS</option>
-          <option value="NC_002506">V.cholerae O1 biovar eltor str. N16961 - NC_002506-Chr(II)-CS</option>
-          <option value="NC_016010">X.axonopodis pv. citrumelo - NC_016010-Chr-CG</option>
+	<param name="dbkey" type="select" multiple="true" label="Reference genome" help="Hold the ctrl/shift button to select more than one">
+          <option value="A_hydrophila_ATCC_7966">A.hydrophila ATCC 7966</option>
+          <option value="B_cereus_ATCC_1098">B.cereus ATCC 10987</option>
+          <option value="B_fragilis_638R">B.fragilis 638R</option>
+          <option value="M_abscessus_ATCC_19977">M.abscessus ATCC 19977</option>
+          <option value="R_sphaeroides_2-4-1">R.sphaeroides 2.4.1</option>
+          <option value="S_aureus_USA300_TCH151">S.aureus USA300_TCH1516</option>
+          <option value="V_cholerae_O1_biovar_eltor_str_N1696">V.cholerae O1 biovar eltor str. N16961</option>
+          <option value="X_axonopodis_pv_citrumel">X.axonopodis pv. citrumelo</option>
 	</param>
-	<param name="dbgene" type="boolean" truevalue="true" falsevalue="false" checked="False" label="Include genefile?" help="Do you want to include the corresponding genefile to the reference genome?"/>
+	<param name="dbgene" type="select" label="Include genefile?" help="Do you want to include the corresponding genefile to the reference genome?">
+	  <option value="True">Yes</option>
+	  <option value="False" selected="True">No</option>
+	</param>
       </when>
       <when value="uploadYour">
 	<param name="uploadYourRef" type="data" format="fasta" label="Upload your reference"/>
-	<param name="multiRef" type="boolean" truevalue="true" falsevalue="false" checked="False" label="Multiple Referencefiles?" help="Is this a merged reference file with multiple sequences?">Yes</param>
+	<param name="multiRef" type="select"  label="Multiple Referencefiles?" help="Is this a merged reference file with multiple sequences?">
+	  <option value="True">Yes</option>
+	  <option value="False" selected="True">No</option>
+	</param>
 	<param name="genes" type="data" optional="true" label="Genes" help="File with gene coordinates in the reference"/>
       </when>
     </conditional>
-    <param name="thresholdMin" type="integer" size="10" value="0" label="Thresholds Minimum" help="Minimum contig length thresholds (default: 0)"/>
-    <param name="thresholdMax" type="integer" size="10" value="1000" label="Thresholds Maximum" help="Maximum contig length thresholds (default: 1000)"/>
-    <param name="scaffold" type="boolean" truevalue="--scaffolds" falsevalue="false" checked="False" label="Scaffolds?" help="Are the uploaded file(s) scaffolds?">Yes</param>
-    <param name="threads" type="text" label="Threads" help="Maximum number of threads (default: number of CPUs)"/>
+    <param name="thresholdMin" type="integer" size="5" value="0" label="Thresholds Minimum" help="Minimum contig length thresholds (default: 0)"/>
+    <param name="thresholdMax" type="integer" size="5" value="1000" label="Thresholds Maximum" help="Maximum contig length thresholds (default: 1000)"/>
+    <param name="threads" type="integer" size="3" value="0" label="Threads" help="Maximum number of threads (default: 0 -> number of CPUs available)"/>
   </inputs>
   <outputs>
     <data name="html_file" format="html" from_work_dir="result.html"/>
