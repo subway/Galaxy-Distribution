@@ -1,0 +1,68 @@
+##gff-version 3
+#!gff-spec-version 1.20
+#!processor NCBI annotwriter
+##sequence-region NC_009008.1 1 37100
+##species http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=272943
+NC_009008.1	RefSeq	region	1	37100	.	+	.	ID=id0;Name=E;Dbxref=ATCC:BAA-808,taxon:272943;gbkey=Src;genome=plasmid;mol_type=genomic DNA;plasmid-name=E;strain=2.4.1%3B ATCC BAA-808
+NC_009008.1	RefSeq	gene	124	564	.	+	.	ID=gene0;Name=rnk;Dbxref=GeneID:4796553;gbkey=Gene;gene=rnk;locus_tag=RSP_4254
+NC_009008.1	RefSeq	CDS	124	564	.	+	0	ID=cds0;Name=YP_001033887.1;Parent=gene0;Note=Regulates the synthesis of nucleoside triphosphates for nucleic acid synthesis%2C CTP for lipid synthesis%2C and GTP for protein elongation;Dbxref=Genbank:YP_001033887.1,GeneID:4796553;gbkey=CDS;gene=rnk;product=nucleoside diphosphate kinase regulator;protein_id=YP_001033887.1;transl_table=11
+NC_009008.1	RefSeq	gene	793	1728	.	+	.	ID=gene1;Name=RSP_4255;Dbxref=GeneID:4796484;gbkey=Gene;locus_tag=RSP_4255
+NC_009008.1	RefSeq	CDS	793	1728	.	+	0	ID=cds1;Name=YP_001033888.1;Parent=gene1;Dbxref=Genbank:YP_001033888.1,GeneID:4796484;gbkey=CDS;product=mechanosensitive %28MS%29 ion channel protein;protein_id=YP_001033888.1;transl_table=11
+NC_009008.1	RefSeq	gene	2065	3555	.	+	.	ID=gene2;Name=RSP_4257;Dbxref=GeneID:4796507;gbkey=Gene;locus_tag=RSP_4257
+NC_009008.1	RefSeq	CDS	2065	3555	.	+	0	ID=cds2;Name=YP_001033889.1;Parent=gene2;Dbxref=Genbank:YP_001033889.1,GeneID:4796507;gbkey=CDS;product=antisigma-factor antagonist STAS;protein_id=YP_001033889.1;transl_table=11
+NC_009008.1	RefSeq	gene	3569	4414	.	+	.	ID=gene3;Name=usp;Dbxref=GeneID:4796439;gbkey=Gene;gene=usp;locus_tag=RSP_4258
+NC_009008.1	RefSeq	CDS	3569	4414	.	+	0	ID=cds3;Name=YP_001033890.1;Parent=gene3;Dbxref=Genbank:YP_001033890.1,GeneID:4796439;gbkey=CDS;gene=usp;product=universal stress protein;protein_id=YP_001033890.1;transl_table=11
+NC_009008.1	RefSeq	gene	4532	5002	.	-	.	ID=gene4;Name=RSP_7394;Dbxref=GeneID:4796523;gbkey=Gene;locus_tag=RSP_7394
+NC_009008.1	RefSeq	CDS	4532	5002	.	-	0	ID=cds4;Name=YP_001033891.1;Parent=gene4;Note=COG3238;Dbxref=Genbank:YP_001033891.1,GeneID:4796523;gbkey=CDS;product=hypothetical protein;protein_id=YP_001033891.1;transl_table=11
+NC_009008.1	RefSeq	gene	5078	6004	.	+	.	ID=gene5;Name=mexT;Dbxref=GeneID:4796456;gbkey=Gene;gene=mexT;locus_tag=RSP_4260
+NC_009008.1	RefSeq	CDS	5078	6004	.	+	0	ID=cds5;Name=YP_001033892.1;Parent=gene5;Dbxref=Genbank:YP_001033892.1,GeneID:4796456;gbkey=CDS;gene=mexT;product=LysR family transcriptional regulator;protein_id=YP_001033892.1;transl_table=11
+NC_009008.1	RefSeq	gene	6337	6831	.	+	.	ID=gene6;Name=RSP_7352;Dbxref=GeneID:4796464;gbkey=Gene;locus_tag=RSP_7352
+NC_009008.1	RefSeq	CDS	6337	6831	.	+	0	ID=cds6;Name=YP_001033893.1;Parent=gene6;Dbxref=Genbank:YP_001033893.1,GeneID:4796464;gbkey=CDS;product=hypothetical protein;protein_id=YP_001033893.1;transl_table=11
+NC_009008.1	RefSeq	gene	6828	7244	.	-	.	ID=gene7;Name=RSP_7395;Dbxref=GeneID:4796548;gbkey=Gene;locus_tag=RSP_7395
+NC_009008.1	RefSeq	CDS	6828	7244	.	-	0	ID=cds7;Name=YP_001033894.1;Parent=gene7;Dbxref=Genbank:YP_001033894.1,GeneID:4796548;gbkey=CDS;product=MerR family transcriptional regulator;protein_id=YP_001033894.1;transl_table=11
+NC_009008.1	RefSeq	gene	7329	8117	.	+	.	ID=gene8;Name=RSP_4262;Dbxref=GeneID:4796479;gbkey=Gene;locus_tag=RSP_4262
+NC_009008.1	RefSeq	CDS	7329	8117	.	+	0	ID=cds8;Name=YP_001033895.1;Parent=gene8;Dbxref=Genbank:YP_001033895.1,GeneID:4796479;gbkey=CDS;product=esterase%2Flipase%2Fthioesterase;protein_id=YP_001033895.1;transl_table=11
+NC_009008.1	RefSeq	gene	8414	8959	.	+	.	ID=gene9;Name=RSP_4263;Dbxref=GeneID:4796503;gbkey=Gene;locus_tag=RSP_4263
+NC_009008.1	RefSeq	CDS	8414	8959	.	+	0	ID=cds9;Name=YP_001033896.1;Parent=gene9;Note=also matches to esterase of the alpha%2Fbeta hydrolase family.;Dbxref=Genbank:YP_001033896.1,GeneID:4796503;gbkey=CDS;product=hypothetical protein;protein_id=YP_001033896.1;transl_table=11
+NC_009008.1	RefSeq	gene	8962	9594	.	+	.	ID=gene10;Name=RSP_4264;Dbxref=GeneID:4796435;gbkey=Gene;locus_tag=RSP_4264
+NC_009008.1	RefSeq	CDS	8962	9594	.	+	0	ID=cds10;Name=YP_001033897.1;Parent=gene10;Dbxref=Genbank:YP_001033897.1,GeneID:4796435;gbkey=CDS;product=lysine exporter protein LysE%2FYggA;protein_id=YP_001033897.1;transl_table=11
+NC_009008.1	RefSeq	gene	9597	10361	.	-	.	ID=gene11;Name=RSP_4265;Dbxref=GeneID:4796519;gbkey=Gene;locus_tag=RSP_4265
+NC_009008.1	RefSeq	CDS	9597	10361	.	-	0	ID=cds11;Name=YP_001033898.1;Parent=gene11;Dbxref=Genbank:YP_001033898.1,GeneID:4796519;gbkey=CDS;product=AraC family transcriptional regulator;protein_id=YP_001033898.1;transl_table=11
+NC_009008.1	RefSeq	gene	10453	11193	.	+	.	ID=gene12;Name=RSP_4266;Dbxref=GeneID:4796452;gbkey=Gene;locus_tag=RSP_4266
+NC_009008.1	RefSeq	CDS	10453	11193	.	+	0	ID=cds12;Name=YP_001033899.1;Parent=gene12;Dbxref=Genbank:YP_001033899.1,GeneID:4796452;gbkey=CDS;product=hypothetical protein;protein_id=YP_001033899.1;transl_table=11
+NC_009008.1	RefSeq	gene	11278	11934	.	-	.	ID=gene13;Name=RSP_7396;Dbxref=GeneID:4796475;gbkey=Gene;locus_tag=RSP_7396;pseudo=true
+NC_009008.1	RefSeq	gene	13176	14048	.	-	.	ID=gene14;Name=RSP_7397;Dbxref=GeneID:4796529;gbkey=Gene;locus_tag=RSP_7397
+NC_009008.1	RefSeq	CDS	13176	14048	.	-	0	ID=cds13;Name=YP_001033900.1;Parent=gene14;Note=COG1120;Dbxref=Genbank:YP_001033900.1,GeneID:4796529;gbkey=CDS;product=ABC cobalamin%2FFe3%2B-siderophore transporter%2C ATPase subunit;protein_id=YP_001033900.1;transl_table=11
+NC_009008.1	RefSeq	gene	14048	15985	.	-	.	ID=gene15;Name=fhuB;Dbxref=GeneID:4796492;gbkey=Gene;gene=fhuB;locus_tag=RSP_4271
+NC_009008.1	RefSeq	CDS	14048	15985	.	-	0	ID=cds14;Name=YP_001033901.1;Parent=gene15;Note=part of the FhuBCD ATP-dependent iron %28III%29 hydroxamate transporter involved in the high-affinity transport of Fe%283%2B%29-ferrichrome;Dbxref=Genbank:YP_001033901.1,GeneID:4796492;gbkey=CDS;gene=fhuB;product=iron-hydroxamate transporter permease subunit;protein_id=YP_001033901.1;transl_table=11
+NC_009008.1	RefSeq	gene	15989	16852	.	-	.	ID=gene16;Name=fhuD;Dbxref=GeneID:4796544;gbkey=Gene;gene=fhuD;locus_tag=RSP_4272
+NC_009008.1	RefSeq	CDS	15989	16852	.	-	0	ID=cds15;Name=YP_001033902.1;Parent=gene16;Note=Citation: Coulton%2C J. W. et. al. %281987%29 J. Bacteriol.%2C 169: 3844-3849.;Dbxref=Genbank:YP_001033902.1,GeneID:4796544;gbkey=CDS;gene=fhuD;product=ABC cobalamin%2FFe3%2B-siderophore transporter%2C periplasmic ligand binding protein;protein_id=YP_001033902.1;transl_table=11
+NC_009008.1	RefSeq	gene	16895	19270	.	-	.	ID=gene17;Name=fhuA;Dbxref=GeneID:4796446;gbkey=Gene;gene=fhuA;locus_tag=RSP_4273
+NC_009008.1	RefSeq	CDS	16895	19270	.	-	0	ID=cds16;Name=YP_001033903.1;Parent=gene17;Note=Citation: Coulton%2C J. W. et. al. %281986%29 J. Bacteriol. 165: 181-192.;Dbxref=Genbank:YP_001033903.1,GeneID:4796446;gbkey=CDS;gene=fhuA;product=TonB-dependent receptor protein;protein_id=YP_001033903.1;transl_table=11
+NC_009008.1	RefSeq	gene	19401	20375	.	-	.	ID=gene18;Name=fecR;Dbxref=GeneID:4796500;gbkey=Gene;gene=fecR;locus_tag=RSP_4274
+NC_009008.1	RefSeq	CDS	19401	20375	.	-	0	ID=cds17;Name=YP_001033904.1;Parent=gene18;Dbxref=Genbank:YP_001033904.1,GeneID:4796500;gbkey=CDS;gene=fecR;product=FecR protein;protein_id=YP_001033904.1;transl_table=11
+NC_009008.1	RefSeq	gene	20372	20869	.	-	.	ID=gene19;Name=fecR;Dbxref=GeneID:4796462;gbkey=Gene;gene=fecR;locus_tag=RSP_4275
+NC_009008.1	RefSeq	CDS	20372	20869	.	-	0	ID=cds18;Name=YP_001033905.1;Parent=gene19;Note=also matches to sigma 24 homologue%2FECF subfamily;Dbxref=Genbank:YP_001033905.1,GeneID:4796462;gbkey=CDS;product=sigma24%2C FecI;protein_id=YP_001033905.1;transl_table=11
+NC_009008.1	RefSeq	gene	21204	22181	.	-	.	ID=gene20;Name=zitB;Dbxref=GeneID:4796517;gbkey=Gene;gene=zitB;locus_tag=RSP_4276
+NC_009008.1	RefSeq	CDS	21204	22181	.	-	0	ID=cds19;Name=YP_001033906.1;Parent=gene20;Note=Citation: Grass%2C G. et. al. %282002%29 J. Bacteriol. 183: 4664-4667.;Dbxref=Genbank:YP_001033906.1,GeneID:4796517;gbkey=CDS;gene=zitB;product=cation efflux protein;protein_id=YP_001033906.1;transl_table=11
+NC_009008.1	RefSeq	gene	22379	22801	.	+	.	ID=gene21;Name=RSP_4277;Dbxref=GeneID:4796525;gbkey=Gene;locus_tag=RSP_4277
+NC_009008.1	RefSeq	CDS	22379	22801	.	+	0	ID=cds20;Name=YP_001033907.1;Parent=gene21;Dbxref=Genbank:YP_001033907.1,GeneID:4796525;gbkey=CDS;product=MerR family transcriptional regulator;protein_id=YP_001033907.1;transl_table=11
+NC_009008.1	RefSeq	gene	22926	23726	.	-	.	ID=gene22;Name=yeaM;Dbxref=GeneID:4796488;gbkey=Gene;gene=yeaM;locus_tag=RSP_4278
+NC_009008.1	RefSeq	CDS	22926	23726	.	-	0	ID=cds21;Name=YP_001033908.1;Parent=gene22;Dbxref=Genbank:YP_001033908.1,GeneID:4796488;gbkey=CDS;gene=yeaM;product=AraC family transcriptional regulator;protein_id=YP_001033908.1;transl_table=11
+NC_009008.1	RefSeq	gene	23883	24281	.	+	.	ID=gene23;Name=RSP_4279;Dbxref=GeneID:4796540;gbkey=Gene;locus_tag=RSP_4279
+NC_009008.1	RefSeq	CDS	23883	24281	.	+	0	ID=cds22;Name=YP_001033909.1;Parent=gene23;Dbxref=Genbank:YP_001033909.1,GeneID:4796540;gbkey=CDS;product=hypothetical protein;protein_id=YP_001033909.1;transl_table=11
+NC_009008.1	RefSeq	gene	24311	24721	.	+	.	ID=gene24;Name=RSP_7398;Dbxref=GeneID:4796442;gbkey=Gene;locus_tag=RSP_7398
+NC_009008.1	RefSeq	CDS	24311	24721	.	+	0	ID=cds23;Name=YP_001033910.1;Parent=gene24;Note=similar to RSc1812 from Ralstonia solanacearum GMI1000;Dbxref=Genbank:YP_001033910.1,GeneID:4796442;gbkey=CDS;product=hypothetical protein;protein_id=YP_001033910.1;transl_table=11
+NC_009008.1	RefSeq	gene	25268	25591	.	-	.	ID=gene25;Name=RSP_4282;Dbxref=GeneID:4796496;gbkey=Gene;locus_tag=RSP_4282;pseudo=true
+NC_009008.1	RefSeq	gene	26034	31097	.	-	.	ID=gene26;Name=RSP_4284;Dbxref=GeneID:4796458;gbkey=Gene;locus_tag=RSP_4284
+NC_009008.1	RefSeq	CDS	26034	31097	.	-	0	ID=cds24;Name=YP_001033911.1;Parent=gene26;Dbxref=Genbank:YP_001033911.1,GeneID:4796458;gbkey=CDS;product=YD repeat-containing protein;protein_id=YP_001033911.1;transl_table=11
+NC_009008.1	RefSeq	gene	31211	31726	.	-	.	ID=gene27;Name=RSP_4285;Dbxref=GeneID:4796513;gbkey=Gene;locus_tag=RSP_4285
+NC_009008.1	RefSeq	CDS	31211	31726	.	-	0	ID=cds25;Name=YP_001033912.1;Parent=gene27;Dbxref=Genbank:YP_001033912.1,GeneID:4796513;gbkey=CDS;product=hypothetical protein;protein_id=YP_001033912.1;transl_table=11
+NC_009008.1	RefSeq	gene	31884	32120	.	-	.	ID=gene28;Name=RSP_4286;Dbxref=GeneID:4796536;gbkey=Gene;locus_tag=RSP_4286;pseudo=true
+NC_009008.1	RefSeq	gene	33153	33881	.	-	.	ID=gene29;Name=RSP_4289;Dbxref=GeneID:4796468;gbkey=Gene;locus_tag=RSP_4289
+NC_009008.1	RefSeq	CDS	33153	33881	.	-	0	ID=cds26;Name=YP_001033913.1;Parent=gene29;Note=also matches to transposase;Dbxref=Genbank:YP_001033913.1,GeneID:4796468;gbkey=CDS;product=hypothetical protein;protein_id=YP_001033913.1;transl_table=11
+NC_009008.1	RefSeq	gene	34871	35359	.	+	.	ID=gene30;Name=RSP_7359;Dbxref=GeneID:4796552;gbkey=Gene;locus_tag=RSP_7359
+NC_009008.1	RefSeq	CDS	34871	35359	.	+	0	ID=cds27;Name=YP_001033914.1;Parent=gene30;Dbxref=Genbank:YP_001033914.1,GeneID:4796552;gbkey=CDS;product=transcriptional regulator;protein_id=YP_001033914.1;transl_table=11
+NC_009008.1	RefSeq	gene	35612	36631	.	+	.	ID=gene31;Name=RSP_7360;Dbxref=GeneID:4796483;gbkey=Gene;locus_tag=RSP_7360
+NC_009008.1	RefSeq	CDS	35612	36631	.	+	0	ID=cds28;Name=YP_001033915.1;Parent=gene31;Note=also matches to transposases;Dbxref=Genbank:YP_001033915.1,GeneID:4796483;gbkey=CDS;product=integrase catalytic subunit;protein_id=YP_001033915.1;transl_table=11
+###
