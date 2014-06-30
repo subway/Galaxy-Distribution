@@ -1,0 +1,42 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/metaquast.py -R combined_reference.fasta -l abyss abyss_ctg.fasta
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-03-24 13:32:41
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_32_41/metaquast.log
+
+References:
+  combined_reference.fasta:
+    combined_reference_NC_003909
+
+    combined_reference_NC_005707
+
+  All references combined in combined_reference.fasta
+
+Contigs:
+  abyss_ctg.fasta ==> abyss
+
+Starting quast.py for the combined reference...
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_32_41/combined_quast_output/quast.log)
+
+Starting quast.py for the contigs aligned to combined_reference_NC_005707
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_32_41/combined_reference_NC_005707_quast_output/quast.log)
+
+Starting quast.py for the contigs aligned to combined_reference_NC_003909
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_32_41/combined_reference_NC_003909_quast_output/quast.log)
+
+Starting quast.py for the contigs not alined anywhere...
+(logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_32_41/not_aligned_quast_output/quast.log)
+
+MetaQUAST finished.
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_32_41/metaquast.log
+
+Finished: 2014-03-24 13:33:44
+Elapsed time: 0:01:03.211782

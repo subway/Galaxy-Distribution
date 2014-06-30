@@ -1,0 +1,9 @@
+    <conditional name="testcond">
+      <param name="test" type"select">
+        <option value="y">yes</option>
+        <option value="n">no</option>
+      </param>
+      <when value="n">
+        <param name="t" type="text" label="this is conditional" />
+      </when>
+    </conditional>

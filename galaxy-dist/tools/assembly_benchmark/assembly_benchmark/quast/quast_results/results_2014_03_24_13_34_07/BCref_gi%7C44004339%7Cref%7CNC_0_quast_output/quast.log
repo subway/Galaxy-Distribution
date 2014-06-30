@@ -1,0 +1,37 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.pyc --meta /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_34_07/corrected_input/abyss_to_BCref_gi|44004339|ref|NC_0.fasta -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_34_07/corrected_input/BCref_gi|44004339|ref|NC_0.fasta -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_34_07/BCref_gi|44004339|ref|NC_0_quast_output --labels abyss
+
+Started: 2014-03-24 13:34:36
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_34_07/BCref_gi|44004339|ref|NC_0_quast_output/quast.log
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_34_07/corrected_input/BCref_gi|44004339|ref|NC_0.fasta ==> BCref_gi|44004339|ref|NC_0
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_34_07/corrected_input/abyss_to_BCref_gi|44004339|ref|NC_0.fasta ==> abyss
+
+2014-03-24 13:34:36
+Running Basic statistics processor...
+  Reference genome:
+    BCref_gi|44004339|ref|NC_0.fasta, Reference length = 208369, Reference GC % = 33.44
+  Contig files: 
+    abyss
+  Calculating N50 and L50...
+    abyss, N50 = 39488, L50 = 2, Total length = 213399, GC % = 33.56, # N's per 100 kbp =  141.05
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_34_07/BCref_gi|44004339|ref|NC_0_quast_output/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_34_07/BCref_gi|44004339|ref|NC_0_quast_output/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_34_07/BCref_gi|44004339|ref|NC_0_quast_output/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_34_07/BCref_gi|44004339|ref|NC_0_quast_output/basic_stats/NGx_plot.pdf
+Done.
+
+2014-03-24 13:34:37
+Running Contig analyzer...
+  abyss
+  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast_results/results_2014_03_24_13_34_07/BCref_gi|44004339|ref|NC_0_quast_output/contigs_reports/contigs_report_abyss.stdout and contigs_report_abyss.stderr...
+  Running Nucmer... 
