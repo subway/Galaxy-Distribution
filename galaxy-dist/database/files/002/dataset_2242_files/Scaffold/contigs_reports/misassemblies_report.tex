@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{4}{|r}|}
+\hline
+Assembly & GAGE-B broken & GAGE-B & SOAPdenovo2 broken & SOAPdenovo2 \\ \hline
+\# misassemblies & 15 & 15 & {\bf 3} & 8 \\ \hline
+\hspace{5mm}\# relocations & 13 & 13 & {\bf 3} & 8 \\ \hline
+\hspace{5mm}\# translocations & 2 & 2 & {\bf 0} & {\bf 0} \\ \hline
+\hspace{5mm}\# inversions & 0 & 0 & 0 & 0 \\ \hline
+\# misassembled contigs & 13 & 13 & {\bf 3} & 7 \\ \hline
+Misassembled contigs length & 1155029 & 1605854 & {\bf 19717} & 505899 \\ \hline
+\# local misassemblies & 50 & 76 & {\bf 17} & 383 \\ \hline
+\# mismatches & 550 & 550 & {\bf 292} & 319 \\ \hline
+\# indels & 219 & 219 & {\bf 113} & 117 \\ \hline
+\hspace{5mm}\# short indels ($\leq$ 5 bp) & 207 & 207 & {\bf 112} & 116 \\ \hline
+\hspace{5mm}\# long indels ($>$ 5 bp) & 12 & 12 & {\bf 1} & {\bf 1} \\ \hline
+Indels length & 335 & 335 & {\bf 126} & 131 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

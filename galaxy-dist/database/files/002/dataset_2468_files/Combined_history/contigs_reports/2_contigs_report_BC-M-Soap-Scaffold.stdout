@@ -1,0 +1,1066 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome]
+	Loaded [gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 2
+	Total Region Length: 5432652
+Analyzing contigs...
+CONTIG: C356_29.0 (743bp)
+Top Length: 743  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2949567 2950309 | 1 743 | 743 743 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C356_29.0
+		Skipping alignment  4907 5649 | 1 743 | 743 743 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence C356_29.0
+
+CONTIG: scaffold36_15.6 (68251bp)
+Top Length: 54371  Top ID: 99.96
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 890601 924456 | 68251 34375 | 33856 33877 | 99.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold36_15.6
+			  Gap between these two alignments (local misassembly). Inconsistency = 21
+			Real Alignment 2: 904481 958831 | 54371 1 | 54351 54371 | 99.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold36_15.6
+
+CONTIG: scaffold12_13.5 (1194879bp)
+Top Length: 429559  Top ID: 99.98
+		Skipping redundant alignment 1598124 1598279 | 54531 54376 | 156 156 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 4537069 4537156 | 101944 102031 | 88 88 | 97.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 231661 231816 | 101945 102103 | 156 159 | 95.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 645583 645738 | 102103 101947 | 156 157 | 98.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 4817793 4817872 | 102025 102104 | 80 80 | 97.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 4997818 4997976 | 228984 228827 | 159 158 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 1424135 1424290 | 228984 228829 | 156 156 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 2783320 2783477 | 293833 293676 | 158 158 | 96.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 2076392 2076555 | 293677 293839 | 164 163 | 97.56 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 4109969 4110124 | 293833 293677 | 156 157 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 2819957 2820113 | 293833 293677 | 157 157 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 3288509 3288664 | 293833 293677 | 156 157 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 1987841 1987923 | 535992 536074 | 83 83 | 97.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 1905283 1905365 | 618913 618995 | 83 83 | 97.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 2819956 2820114 | 707625 707467 | 159 159 | 96.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 1662972 1663134 | 707468 707631 | 163 164 | 97.56 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 2815226 2815384 | 707626 707468 | 159 159 | 95.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 2783320 2783476 | 707624 707468 | 157 157 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 3288509 3288664 | 707624 707468 | 156 157 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 4109969 4110124 | 707624 707468 | 156 157 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 3131810 3131949 | 829575 829714 | 140 140 | 95.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		Skipping redundant alignment 4189491 4189599 | 1074049 1074157 | 109 109 | 97.25 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+		This contig is misassembled. 31 total aligns.
+			Real Alignment 1: 1369761 1490775 | 1 121014 | 121015 121014 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+			  Overlap between these two alignments (local misassembly). Inconsistency = -208
+			Real Alignment 2: 1490186 1490775 | 120633 121222 | 590 590 | 96.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+			  Overlap between these two alignments (local misassembly). Inconsistency = -208
+			Real Alignment 3: 1490186 1551847 | 120841 182513 | 61662 61673 | 99.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+			  Overlap between these two alignments (local misassembly). Inconsistency = -36
+			Real Alignment 4: 1551985 1981519 | 182687 612245 | 429535 429559 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+			  Overlap between these two alignments (local misassembly). Inconsistency = -347
+			Real Alignment 5: 1981236 2119586 | 612309 750657 | 138351 138349 | 99.95 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+			  Gap between these two alignments (local misassembly). Inconsistency = 85
+			Real Alignment 6: 2119392 2263722 | 750378 894714 | 144331 144337 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+			  Gap between these two alignments (local misassembly). Inconsistency = 117
+			Real Alignment 7: 2263739 2367582 | 894614 998457 | 103844 103844 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+			  Gap between these two alignments (local misassembly). Inconsistency = 243
+			Real Alignment 8: 2367655 2553852 | 998287 1184477 | 186198 186191 | 99.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+			  Gap between these two alignments (local misassembly). Inconsistency = 19
+			Real Alignment 9: 2533875 2564254 | 1164481 1194879 | 30380 30399 | 99.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold12_13.5
+
+CONTIG: scaffold33_10.0 (32154bp)
+Top Length: 32154  Top ID: 99.97
+		Marking as insignificant: 38615 38815 | 796 998 | 201 203 | 95.57 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scaffold33_10.0
+		Marking as insignificant: 38615 38816 | 25921 26123 | 202 203 | 96.55 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scaffold33_10.0
+		Marking as insignificant: 38615 38817 | 27671 27873 | 203 203 | 97.04 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scaffold33_10.0
+		One align captures most of this contig: 77103 109249 | 32154 1 | 32147 32154 | 99.97 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scaffold33_10.0
+
+CONTIG: scaffold27_14.4 (8303bp)
+Top Length: 8303  Top ID: 100.0
+		One align captures most of this contig: 305417 313719 | 1 8303 | 8303 8303 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold27_14.4
+
+CONTIG: C456_27.0 (1352bp)
+Top Length: 1352  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 3444105 3445456 | 1 1352 | 1352 1352 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C456_27.0
+		Skipping alignment  110728 112079 | 1352 1 | 1352 1352 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence C456_27.0
+
+CONTIG: scaffold25_10.2 (44726bp)
+Top Length: 44726  Top ID: 99.92
+		Marking as insignificant: 108252 108454 | 32903 32703 | 203 201 | 95.57 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scaffold25_10.2
+		Marking as insignificant: 83134 83336 | 32904 32703 | 203 202 | 96.55 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scaffold25_10.2
+		Marking as insignificant: 81384 81586 | 32905 32703 | 203 203 | 97.04 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scaffold25_10.2
+		One align captures most of this contig: 5880 50638 | 1 44726 | 44759 44726 | 99.92 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scaffold25_10.2
+
+CONTIG: scaffold37_10.1 (22775bp)
+Top Length: 22775  Top ID: 99.62
+		One align captures most of this contig: 51976 74835 | 22775 1 | 22860 22775 | 99.62 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scaffold37_10.1
+
+CONTIG: scaffold24_15.8 (2992bp)
+Top Length: 2253  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 327753 328490 | 1 738 | 738 738 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold24_15.8
+			  Overlap between these two alignments (local misassembly). Inconsistency = -71
+			Real Alignment 2: 328421 330673 | 740 2992 | 2253 2253 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold24_15.8
+
+CONTIG: scaffold26_18.1 (48329bp)
+Top Length: 48329  Top ID: 99.99
+		Marking as insignificant: 609961 610032 | 17877 17806 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold26_18.1
+		Marking as insignificant: 278581 278652 | 17877 17806 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold26_18.1
+		Marking as insignificant: 150501 150572 | 17877 17806 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold26_18.1
+		Marking as insignificant: 5203884 5203956 | 17805 17877 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold26_18.1
+		Marking as insignificant: 4649986 4650061 | 17891 17966 | 76 76 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold26_18.1
+		Marking as insignificant: 824722 824801 | 17877 17798 | 80 80 | 97.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold26_18.1
+		Marking as insignificant: 4648905 4648989 | 17795 17877 | 85 83 | 97.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold26_18.1
+		One align captures most of this contig: 34074 82402 | 48329 1 | 48329 48329 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold26_18.1
+
+CONTIG: scaffold18_14.5 (208824bp)
+Top Length: 208824  Top ID: 99.99
+		Marking as insignificant: 1662972 1663128 | 53328 53173 | 157 156 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold18_14.5
+		Marking as insignificant: 2076392 2076548 | 53328 53173 | 157 156 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold18_14.5
+		One align captures most of this contig: 3235337 3444159 | 1 208824 | 208823 208824 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold18_14.5
+
+CONTIG: scaffold11_15.0 (24992bp)
+Top Length: 13453  Top ID: 99.67
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1109844 1121603 | 1 11760 | 11760 11760 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold11_15.0
+			  Overlap between these two alignments (local misassembly). Inconsistency = -78
+			Real Alignment 2: 1121305 1134750 | 11540 24992 | 13446 13453 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold11_15.0
+
+CONTIG: scaffold28_16.6 (31121bp)
+Top Length: 31121  Top ID: 100.0
+		One align captures most of this contig: 824741 855861 | 31121 1 | 31121 31121 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold28_16.6
+
+CONTIG: scaffold1_16.5 (128609bp)
+Top Length: 66242  Top ID: 99.95
+		Skipping redundant alignment 823154 823317 | 113 277 | 164 165 | 98.79 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		Skipping redundant alignment 278944 279098 | 117 271 | 155 155 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		Skipping redundant alignment 5203966 5204045 | 277 198 | 80 80 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		Skipping redundant alignment 4649344 4649422 | 276 198 | 79 79 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		Skipping redundant alignment 823438 823509 | 279 350 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		Skipping redundant alignment 4650437 4650508 | 350 279 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		Skipping redundant alignment 11076 11148 | 361 433 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		Skipping redundant alignment 30850 30922 | 361 433 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		Skipping redundant alignment 823794 823866 | 361 433 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		Skipping redundant alignment 4650080 4650152 | 433 361 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		Skipping redundant alignment 1471704 1471862 | 81433 81588 | 159 156 | 95.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		Skipping redundant alignment 4817793 4817871 | 81510 81588 | 79 79 | 97.47 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		Skipping redundant alignment 150319 150400 | 128471 128552 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		Skipping redundant alignment 824640 824721 | 128471 128552 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		Skipping redundant alignment 4649032 4649173 | 128609 128472 | 142 138 | 95.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+		This contig is misassembled. 19 total aligns.
+			Real Alignment 1: 150706 168816 | 1 18111 | 18111 18111 | 99.88 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+			  Overlap between these two alignments (local misassembly). Inconsistency = -464
+			Real Alignment 2: 168139 234367 | 17898 84139 | 66229 66242 | 99.95 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+			  Gap between these two alignments (local misassembly). Inconsistency = 13
+			Real Alignment 3: 218867 258525 | 68626 108295 | 39659 39670 | 99.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+			  Overlap between these two alignments (local misassembly). Inconsistency = -303
+			Real Alignment 4: 257845 278536 | 107918 128609 | 20692 20692 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold1_16.5
+
+CONTIG: scaffold15_15.1 (74776bp)
+Top Length: 74608  Top ID: 99.99
+		Marking as insignificant: 4416915 4417073 | 42877 43035 | 159 159 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold15_15.1
+		Marking as insignificant: 1211512 1211678 | 74776 74610 | 167 167 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold15_15.1
+		Marking as insignificant: 1287952 1288494 | 74608 74066 | 543 543 | 95.21 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold15_15.1
+		One align captures most of this contig: 1211877 1286485 | 74608 1 | 74609 74608 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold15_15.1
+
+CONTIG: scaffold21__9.9 (66524bp)
+Top Length: 46937  Top ID: 99.99
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 112025 131609 | 66524 46939 | 19585 19586 | 99.99 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scaffold21__9.9
+			  Overlap between these two alignments (local misassembly). Inconsistency = -113
+			Real Alignment 2: 131498 178434 | 46937 1 | 46937 46937 | 99.99 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scaffold21__9.9
+
+CONTIG: scaffold32_18.0 (15523bp)
+Top Length: 15523  Top ID: 99.99
+		Marking as insignificant: 284533 284921 | 1 389 | 389 389 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold32_18.0
+		One align captures most of this contig: 285065 300586 | 1 15523 | 15522 15523 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold32_18.0
+
+CONTIG: scaffold9_58.4 (1153bp)
+Top Length: 1022  Top ID: 100.0
+		Skipping redundant alignment 147132 147433 | 303 1 | 302 303 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 332415 332716 | 303 1 | 302 303 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 606568 606869 | 303 1 | 302 303 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 819775 820076 | 303 1 | 302 303 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 281236 281536 | 303 1 | 301 303 | 99.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 315497 315797 | 303 1 | 301 303 | 99.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 4653785 4654085 | 1 303 | 301 303 | 99.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 84063 84363 | 303 1 | 301 303 | 99.01 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 302287 302588 | 303 1 | 302 303 | 98.68 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 324597 324898 | 303 1 | 302 303 | 98.68 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 823789 823867 | 403 325 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 4650079 4650157 | 325 403 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 151066 151138 | 398 326 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 824558 824639 | 486 405 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 4649174 4649255 | 405 486 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 83570 84045 | 1022 546 | 476 477 | 99.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 280743 281218 | 1022 546 | 476 477 | 99.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 4654103 4654578 | 546 1022 | 476 477 | 99.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 315004 315479 | 1022 546 | 476 477 | 99.37 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 331921 332397 | 1022 546 | 477 477 | 99.37 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 606075 606550 | 1022 546 | 476 477 | 99.37 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 819282 819757 | 1022 546 | 476 477 | 99.37 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 146638 147114 | 1022 546 | 477 477 | 99.16 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 301793 302269 | 1022 546 | 477 477 | 99.16 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignment 324103 324579 | 1022 546 | 477 477 | 99.16 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [29885][30014] redundant alignment 29885 30014 | 1153 1024 | 130 130 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping [30226][31247] redundant alignment 30226 31247 | 1022 1 | 1022 1022 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping [83229][83358] redundant alignment 83229 83358 | 1153 1024 | 130 130 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping [146297][146426] redundant alignment 146297 146426 | 1153 1024 | 130 130 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping [280402][280531] redundant alignment 280402 280531 | 1153 1024 | 130 130 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping [301452][301581] redundant alignment 301452 301581 | 1153 1024 | 130 130 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping [314663][314792] redundant alignment 314663 314792 | 1153 1024 | 130 130 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping [323762][323891] redundant alignment 323762 323891 | 1153 1024 | 130 130 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping [331580][331709] redundant alignment 331580 331709 | 1153 1024 | 130 130 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping [605734][605863] redundant alignment 605734 605863 | 1153 1024 | 130 130 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping [818941][819070] redundant alignment 818941 819070 | 1153 1024 | 130 130 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		Skipping [4654790][4654919] redundant alignment 4654790 4654919 | 1024 1153 | 130 130 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+		This contig is misassembled. 39 total aligns.
+			Real Alignment 1: 10111 10240 | 1153 1024 | 130 130 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+			  Gap between these two alignments (local misassembly). Inconsistency = 210
+			Real Alignment 2: 10452 11473 | 1022 1 | 1022 1022 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold9_58.4
+
+CONTIG: C928_23.0 (5140bp)
+Top Length: 5140  Top ID: 100.0
+		Marking as insignificant: 207285 208369 | 5140 4056 | 1085 1085 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence C928_23.0
+		Marking as insignificant: 1 4496 | 4496 1 | 4496 4496 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence C928_23.0
+		One align captures most of this contig: 2944017 2949156 | 5140 1 | 5140 5140 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C928_23.0
+
+CONTIG: scaffold2_13.3 (107309bp)
+Top Length: 98718  Top ID: 99.98
+		Skipping redundant alignment 3033297 3043390 | 8430 18483 | 10094 10054 | 99.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold2_13.3
+		Skipping redundant alignment 2198584 2198723 | 106904 107043 | 140 140 | 95.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold2_13.3
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 3024752 3033310 | 1 8559 | 8559 8559 | 99.92 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold2_13.3
+			  Gap between these two alignments (local misassembly). Inconsistency = 155
+			Real Alignment 2: 3033336 3132053 | 8430 107147 | 98718 98718 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold2_13.3
+			  Overlap between these two alignments (local misassembly). Inconsistency = -112
+			Real Alignment 3: 3131943 3132103 | 107149 107309 | 161 161 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold2_13.3
+
+CONTIG: scaffold17_17.7 (485036bp)
+Top Length: 249941  Top ID: 99.99
+		Skipping redundant alignment 1598122 1598279 | 142777 142935 | 158 159 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold17_17.7
+		Skipping redundant alignment 1471784 1471863 | 322961 322882 | 80 80 | 97.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold17_17.7
+		Skipping redundant alignment 231738 231816 | 322961 322883 | 79 79 | 97.47 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold17_17.7
+		This contig is misassembled. 8 total aligns.
+			Real Alignment 1: 4655790 4717907 | 485036 422884 | 62118 62153 | 99.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold17_17.7
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 2: 4707910 4760046 | 432881 380745 | 52137 52137 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold17_17.7
+			  Overlap between these two alignments (local misassembly). Inconsistency = -37
+			Real Alignment 3: 4760026 5009965 | 380728 130788 | 249940 249941 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold17_17.7
+			  Gap between these two alignments (local misassembly). Inconsistency = 102
+			Real Alignment 4: 5009728 5067776 | 131127 73079 | 58049 58049 | 99.95 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold17_17.7
+			  Gap between these two alignments (local misassembly). Inconsistency = 180
+			Real Alignment 5: 5067838 5141034 | 73197 1 | 73197 73197 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold17_17.7
+
+CONTIG: scaffold6_20.1 (688bp)
+Top Length: 453  Top ID: 100.0
+		Skipping redundant alignment 150199 150307 | 126 234 | 109 109 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 14205 14310 | 129 234 | 106 106 | 99.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 33979 34084 | 129 234 | 106 106 | 99.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 87096 87201 | 129 234 | 106 106 | 99.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 284269 284374 | 129 234 | 106 106 | 99.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 305321 305426 | 129 234 | 106 106 | 99.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 318529 318634 | 129 234 | 106 106 | 99.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 327630 327735 | 129 234 | 106 106 | 99.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 335448 335553 | 129 234 | 106 106 | 99.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 150199 150401 | 332 533 | 203 202 | 98.52 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 284269 284389 | 335 456 | 121 122 | 95.9 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 14205 14320 | 335 450 | 116 116 | 97.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 33979 34094 | 335 450 | 116 116 | 97.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 87096 87211 | 335 450 | 116 116 | 97.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 305321 305436 | 335 450 | 116 116 | 97.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 318529 318644 | 335 450 | 116 116 | 97.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 327630 327745 | 335 450 | 116 116 | 97.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		Skipping redundant alignment 335448 335563 | 335 450 | 116 116 | 97.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+		This contig is misassembled. 20 total aligns.
+			Real Alignment 1: 609525 609758 | 1 234 | 234 234 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -206
+			Real Alignment 2: 609554 610006 | 236 688 | 453 453 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold6_20.1
+
+CONTIG: scaffold14_12.3 (209200bp)
+Top Length: 125598  Top ID: 99.96
+		Skipping redundant alignment 2076391 2076549 | 123960 124118 | 159 159 | 96.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+		Skipping redundant alignment 4537069 4537228 | 124120 123961 | 160 160 | 95.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+		Skipping redundant alignment 2783320 2783476 | 124117 123961 | 157 157 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+		Skipping redundant alignment 4109969 4110124 | 124117 123961 | 156 157 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+		Skipping redundant alignment 1662972 1663128 | 123961 124117 | 157 157 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+		Skipping redundant alignment 2818260 2818329 | 125598 125529 | 70 70 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+		Skipping redundant alignment 2076392 2076550 | 128689 128847 | 159 159 | 95.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+		Skipping redundant alignment 4109969 4110124 | 128845 128689 | 156 157 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+		Skipping redundant alignment 1662971 1663128 | 160595 160752 | 158 158 | 96.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+		Skipping redundant alignment 4109969 4110124 | 160752 160596 | 156 157 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+		Skipping redundant alignment 2076392 2076548 | 160596 160752 | 157 157 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+		Skipping redundant alignment 2819957 2820113 | 160752 160596 | 157 157 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+		This contig is misassembled. 15 total aligns.
+			Real Alignment 1: 2734872 2817898 | 209200 126175 | 83027 83026 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 2: 2807914 2818329 | 136159 125727 | 10416 10433 | 99.83 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+			  Overlap between these two alignments (local misassembly). Inconsistency = -18
+			Real Alignment 3: 2818440 2944071 | 125598 1 | 125632 125598 | 99.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold14_12.3
+
+CONTIG: scaffold19_13.0 (44292bp)
+Top Length: 44292  Top ID: 99.92
+		Marking as insignificant: 3233471 3234588 | 43162 44292 | 1118 1131 | 95.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold19_13.0
+		Marking as insignificant: 1107978 1109095 | 43161 44292 | 1118 1132 | 95.76 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold19_13.0
+		One align captures most of this contig: 2950548 2994840 | 1 44292 | 44293 44292 | 99.92 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold19_13.0
+
+CONTIG: C1218_13.0 (9836bp)
+Top Length: 9836  Top ID: 99.92
+		Marking as insignificant: 3120430 3121122 | 690 1 | 693 690 | 96.54 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C1218_13.0
+		One align captures most of this contig: 3014971 3024806 | 9836 1 | 9836 9836 | 99.92 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C1218_13.0
+
+CONTIG: C840_15.0 (4193bp)
+Top Length: 4193  Top ID: 99.98
+		One align captures most of this contig: 318626 322818 | 4193 1 | 4193 4193 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C840_15.0
+
+CONTIG: C506_32.0 (1657bp)
+Top Length: 1657  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2564200 2565856 | 1 1657 | 1657 1657 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C506_32.0
+		Skipping alignment  5140980 5142636 | 1657 1 | 1657 1657 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C506_32.0
+
+CONTIG: scaffold3_29.5 (1154bp)
+Top Length: 713  Top ID: 99.3
+		Skipping redundant alignment 4650894 4651144 | 251 1 | 251 251 | 98.02 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 150198 150307 | 142 251 | 110 110 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 14201 14310 | 142 251 | 110 110 | 98.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 33975 34084 | 142 251 | 110 110 | 98.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 87092 87201 | 142 251 | 110 110 | 98.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 284265 284374 | 142 251 | 110 110 | 98.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 305317 305426 | 142 251 | 110 110 | 98.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 318525 318634 | 142 251 | 110 110 | 98.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 327626 327735 | 142 251 | 110 110 | 98.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 335444 335553 | 142 251 | 110 110 | 98.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 4650077 4650575 | 938 442 | 499 497 | 99.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 610886 610962 | 507 583 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 150984 151055 | 509 580 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 279289 279447 | 688 847 | 159 160 | 95.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 11071 11149 | 858 936 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 30845 30923 | 858 936 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		Skipping redundant alignment 151066 151138 | 863 935 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+		This contig is misassembled. 19 total aligns.
+			Real Alignment 1: 822716 822966 | 1 251 | 251 251 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+			  Gap between these two alignments (local misassembly). Inconsistency = 214
+			Real Alignment 2: 823371 824085 | 442 1154 | 715 713 | 99.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold3_29.5
+
+CONTIG: scaffold4_15.0 (74503bp)
+Top Length: 74350  Top ID: 99.99
+		Marking as insignificant: 1210259 1210410 | 74352 74503 | 152 152 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold4_15.0
+		One align captures most of this contig: 1136088 1210437 | 1 74350 | 74350 74350 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold4_15.0
+
+CONTIG: C1088_10.0 (7366bp)
+Top Length: 7366  Top ID: 99.97
+		One align captures most of this contig: 178531 185897 | 1 7366 | 7367 7366 | 99.97 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence C1088_10.0
+
+CONTIG: scaffold22_16.4 (31447bp)
+Top Length: 21411  Top ID: 100.0
+		Skipping redundant alignment 4191078 4191657 | 31447 30868 | 580 580 | 96.21 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold22_16.4
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 959591 981001 | 31447 10037 | 21411 21411 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold22_16.4
+			  Overlap between these two alignments (local misassembly). Inconsistency = -176
+			Real Alignment 2: 980827 990861 | 10035 1 | 10035 10035 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold22_16.4
+
+CONTIG: C616_16.0 (2316bp)
+		This contig is unaligned. (2316 bp)
+		Unaligned bases: 2316  total: 2316
+
+CONTIG: scaffold34_20.1 (58266bp)
+Top Length: 58266  Top ID: 99.99
+		One align captures most of this contig: 87162 145427 | 1 58266 | 58266 58266 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold34_20.1
+
+CONTIG: scaffold8_15.9 (207173bp)
+Top Length: 207173  Top ID: 99.96
+		Marking as insignificant: 645450 645515 | 34570 34505 | 66 66 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold8_15.9
+		Marking as insignificant: 279452 279522 | 4272 4342 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold8_15.9
+		Marking as insignificant: 4649263 4649334 | 4342 4271 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold8_15.9
+		Marking as insignificant: 4248301 4248375 | 4345 4271 | 75 75 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold8_15.9
+		Marking as insignificant: 4537072 4537229 | 34793 34637 | 158 157 | 95.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold8_15.9
+		Marking as insignificant: 1471706 1471862 | 34793 34638 | 157 156 | 98.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold8_15.9
+		One align captures most of this contig: 610908 818118 | 1 207173 | 207211 207173 | 99.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold8_15.9
+
+CONTIG: C472_25.0 (1447bp)
+Top Length: 1447  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1134696 1136142 | 1 1447 | 1447 1447 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C472_25.0
+		Skipping alignment  50584 52030 | 1447 1 | 1447 1447 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence C472_25.0
+
+CONTIG: C302_13.0 (511bp)
+Top Length: 511  Top ID: 100.0
+		One align captures most of this contig: 4256753 4257263 | 1 511 | 511 511 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C302_13.0
+
+CONTIG: scaffold7_16.7 (456635bp)
+Top Length: 119867  Top ID: 99.94
+		Skipping redundant alignment 645582 645738 | 112125 112282 | 157 158 | 95.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+		Skipping redundant alignment 4109969 4110125 | 112282 112125 | 157 158 | 95.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+		Skipping redundant alignment 2819954 2820113 | 112285 112126 | 160 160 | 95.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+		Skipping redundant alignment 4496456 4496631 | 152808 152633 | 176 176 | 97.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+		Skipping redundant alignment 1243450 1243608 | 231795 231953 | 159 159 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+		Skipping redundant alignment 1080078 1080149 | 231881 231952 | 72 72 | 98.61 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+		Skipping redundant alignment 4649263 4649335 | 399409 399337 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+		Skipping redundant alignment 615178 615252 | 399338 399412 | 75 75 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+		Skipping redundant alignment 279452 279522 | 399339 399409 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+		Skipping redundant alignment 959591 960170 | 456635 456056 | 580 580 | 96.21 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+		This contig is misassembled. 17 total aligns.
+			Real Alignment 1: 4191078 4310953 | 456635 336769 | 119876 119867 | 99.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+			  Gap between these two alignments (local misassembly). Inconsistency = 387
+			Real Alignment 2: 4310907 4347099 | 337202 300992 | 36193 36211 | 99.75 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+			  Gap between these two alignments (local misassembly). Inconsistency = 777
+			Real Alignment 3: 4347868 4464309 | 301000 184559 | 116442 116442 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+			  Gap between these two alignments (local misassembly). Inconsistency = 306
+			Real Alignment 4: 4464987 4496541 | 184187 152633 | 31555 31555 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+			  Gap between these two alignments (local misassembly). Inconsistency = 180
+			Real Alignment 5: 4496546 4548058 | 152808 101296 | 51513 51513 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+			  Gap between these two alignments (local misassembly). Inconsistency = 243
+			Real Alignment 6: 4548000 4586607 | 101597 62988 | 38608 38610 | 99.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+			  Overlap between these two alignments (local misassembly). Inconsistency = -624
+			Real Alignment 7: 4586259 4648970 | 62712 1 | 62712 62712 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold7_16.7
+
+CONTIG: scaffold5_16.0 (700557bp)
+Top Length: 518719  Top ID: 99.97
+		Skipping redundant alignment 4537072 4537229 | 620243 620399 | 158 157 | 95.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold5_16.0
+		Skipping redundant alignment 2783320 2783476 | 620243 620398 | 157 156 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold5_16.0
+		Skipping redundant alignment 2076392 2076548 | 620398 620243 | 157 156 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold5_16.0
+		Skipping redundant alignment 1662972 1663128 | 620398 620243 | 157 156 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold5_16.0
+		Skipping redundant alignment 2815228 2815384 | 620243 620398 | 157 156 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold5_16.0
+		Skipping redundant alignment 2819957 2820113 | 620243 620398 | 157 156 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold5_16.0
+		Skipping redundant alignment 2443446 2443554 | 699730 699838 | 109 109 | 97.25 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold5_16.0
+		This contig is misassembled. 10 total aligns.
+			Real Alignment 1: 3489746 4008451 | 4 518722 | 518706 518719 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold5_16.0
+			  Gap between these two alignments (local misassembly). Inconsistency = 15
+			Real Alignment 2: 3988470 4181210 | 498726 691485 | 192741 192760 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold5_16.0
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 3: 4171141 4190318 | 681416 700557 | 19178 19142 | 99.81 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold5_16.0
+
+CONTIG: C1184_13.0 (9040bp)
+Top Length: 9040  Top ID: 100.0
+		One align captures most of this contig: 881616 890655 | 1 9040 | 9040 9040 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C1184_13.0
+
+CONTIG: C330_17.0 (594bp)
+Top Length: 594  Top ID: 100.0
+		One align captures most of this contig: 1288442 1289035 | 1 594 | 594 594 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C330_17.0
+
+CONTIG: C434_27.0 (1222bp)
+Top Length: 1222  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 3132049 3133270 | 1 1222 | 1222 1222 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C434_27.0
+		Skipping alignment  74781 76002 | 1 1222 | 1222 1222 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence C434_27.0
+
+CONTIG: C310_16.0 (556bp)
+Top Length: 556  Top ID: 100.0
+		One align captures most of this contig: 1288981 1289536 | 1 556 | 556 556 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C310_16.0
+
+CONTIG: scaffold30_15.6 (78462bp)
+Top Length: 78462  Top ID: 99.99
+		One align captures most of this contig: 1289996 1368456 | 1 78462 | 78461 78462 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold30_15.6
+
+CONTIG: C726_16.0 (3192bp)
+Top Length: 3192  Top ID: 100.0
+		One align captures most of this contig: 855863 859054 | 1 3192 | 3192 3192 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C726_16.0
+
+CONTIG: scaffold20_13.3 (99177bp)
+Top Length: 71641  Top ID: 99.99
+		Skipping redundant alignment 1107979 1108309 | 332 1 | 331 332 | 96.08 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold20_13.3
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 3134371 3206012 | 99177 27537 | 71642 71641 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold20_13.3
+			  Gap between these two alignments (local misassembly). Inconsistency = 254
+			Real Alignment 2: 3206268 3233802 | 27535 1 | 27535 27535 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold20_13.3
+
+CONTIG: scaffold29_11.6 (167789bp)
+Top Length: 165347  Top ID: 99.95
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2565802 2731126 | 1 165347 | 165325 165347 | 99.95 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold29_11.6
+			  Gap between these two alignments (local misassembly). Inconsistency = 11
+			Real Alignment 2: 2711141 2733567 | 145351 167789 | 22427 22439 | 99.92 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold29_11.6
+
+CONTIG: scaffold39_19.5 (14736bp)
+Top Length: 14736  Top ID: 99.99
+		Marking as insignificant: 4649792 4649884 | 7173 7265 | 93 93 | 97.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold39_19.5
+		Marking as insignificant: 824029 824123 | 7267 7173 | 95 95 | 97.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold39_19.5
+		One align captures most of this contig: 14300 29035 | 14736 1 | 14736 14736 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold39_19.5
+
+CONTIG: scaffold16_14.6 (41973bp)
+Top Length: 41777  Top ID: 99.98
+		Marking as insignificant: 3478601 3488951 | 10306 1 | 10351 10306 | 99.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold16_14.6
+		One align captures most of this contig: 3446935 3488710 | 41973 197 | 41776 41777 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold16_14.6
+
+CONTIG: scaffold13_14.4 (116644bp)
+Top Length: 116644  Top ID: 99.95
+		Marking as insignificant: 4416916 4416987 | 28187 28258 | 72 72 | 98.61 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold13_14.4
+		Marking as insignificant: 3233471 3233801 | 330 1 | 331 330 | 96.07 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold13_14.4
+		Marking as insignificant: 2993723 2994053 | 331 1 | 331 331 | 96.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold13_14.4
+		One align captures most of this contig: 991692 1108308 | 116644 1 | 116617 116644 | 99.95 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold13_14.4
+
+CONTIG: C494_28.0 (1532bp)
+Top Length: 1532  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 3445458 3446989 | 1 1532 | 1532 1532 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C494_28.0
+		Skipping alignment  109195 110726 | 1532 1 | 1532 1532 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence C494_28.0
+
+CONTIG: scaffold31_17.5 (269202bp)
+Top Length: 188734  Top ID: 99.99
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 335571 524302 | 269202 80469 | 188732 188734 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold31_17.5
+			  Gap between these two alignments (local misassembly). Inconsistency = 75
+			Real Alignment 2: 524162 592019 | 80684 12858 | 67858 67827 | 99.9 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold31_17.5
+			  Gap between these two alignments (local misassembly). Inconsistency = 14
+			Real Alignment 3: 572037 604876 | 32854 1 | 32840 32854 | 99.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold31_17.5
+
+CONTIG: scaffold10__8.9 (21524bp)
+Top Length: 18230  Top ID: 99.84
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 185859 188931 | 21524 18452 | 3073 3073 | 99.93 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scaffold10__8.9
+			  Overlap between these two alignments (local misassembly). Inconsistency = -221
+			Real Alignment 2: 188712 189122 | 18450 18039 | 411 412 | 99.76 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scaffold10__8.9
+			  Gap between these two alignments (local misassembly). Inconsistency = 192
+			Real Alignment 3: 189123 207333 | 18230 1 | 18211 18230 | 99.84 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scaffold10__8.9
+
+CONTIG: C416_28.0 (1154bp)
+Top Length: 1154  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 3133272 3134425 | 1154 1 | 1154 1154 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome C416_28.0
+		Skipping alignment  76004 77157 | 1154 1 | 1154 1154 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence C416_28.0
+
+CONTIG: scaffold35_13.6 (19404bp)
+Top Length: 19404  Top ID: 100.0
+		One align captures most of this contig: 2995588 3014991 | 1 19404 | 19404 19404 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold35_13.6
+
+CONTIG: scaffold23_14.6 (22435bp)
+Top Length: 22435  Top ID: 99.99
+		One align captures most of this contig: 859235 881670 | 1 22435 | 22436 22435 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold23_14.6
+
+CONTIG: scaffold38_17.0 (90965bp)
+Top Length: 81703  Top ID: 99.99
+		Skipping redundant alignment 4649344 4649424 | 29580 29500 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+		Skipping redundant alignment 279025 279108 | 29502 29587 | 84 86 | 96.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+		Skipping redundant alignment 823238 823318 | 29502 29582 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+		Skipping redundant alignment 150903 150982 | 29502 29581 | 80 80 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+		Skipping redundant alignment 824721 824794 | 29590 29663 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+		Skipping redundant alignment 4648917 4648990 | 29663 29590 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+		Skipping redundant alignment 150500 150572 | 29590 29662 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+		Skipping redundant alignment 278580 278652 | 29590 29662 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+		Skipping redundant alignment 609960 610032 | 29590 29662 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+		Skipping redundant alignment 64526 64598 | 29591 29663 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+		Skipping redundant alignment 278781 278861 | 29683 29764 | 81 82 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+		Skipping redundant alignment 284474 284554 | 29683 29764 | 81 82 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+		Skipping redundant alignment 285006 285086 | 29683 29764 | 81 82 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+		This contig is misassembled. 15 total aligns.
+			Real Alignment 2: 5142582 5224283 | 90965 9263 | 81702 81703 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 1: 1 9262 | 9262 1 | 9262 9262 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scaffold38_17.0
+
+Analyzing coverage...
+Writing SNPs into /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2364/dataset_2446_files/Scaffold/contigs_reports/nucmer_output/BC-M-Soap-Scaffold.used_snps
+	Reference gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome: 88 total alignments. 1 total regions.
+		Region: 1 to 5224283 (5224283 bp)
+			Align 1: 1 9262 scaffold38_17.0 9262 1
+				Gap between this and next alignment: 9262 to 10111 (848 bp)
+				Next Alignment: 10111 10240 scaffold9_58.4 1153 1024
+
+			Align 2: 10111 10240 scaffold9_58.4 1153 1024
+				Gap between this and next alignment: 10240 to 10452 (211 bp)
+				Next Alignment: 10452 11473 scaffold9_58.4 1022 1
+
+			Align 3: 10452 11473 scaffold9_58.4 1022 1
+				Gap between this and next alignment: 11473 to 14300 (2826 bp)
+				Next Alignment: 14300 29035 scaffold39_19.5 14736 1
+
+			Align 4: 14300 29035 scaffold39_19.5 14736 1
+				Gap between this and next alignment: 29035 to 34074 (5038 bp)
+				Next Alignment: 34074 82402 scaffold26_18.1 48329 1
+
+			Align 5: 34074 82402 scaffold26_18.1 48329 1
+				Gap between this and next alignment: 82402 to 87162 (4759 bp)
+				Next Alignment: 87162 145427 scaffold34_20.1 1 58266
+
+			Align 6: 87162 145427 scaffold34_20.1 1 58266
+				Gap between this and next alignment: 145427 to 150706 (5278 bp)
+				Next Alignment: 150706 168816 scaffold1_16.5 1 18111
+
+			Align 7: 150706 168816 scaffold1_16.5 1 18111
+				Negative gap (overlap) between this and next alignment: 168816 to 168139 (-677 bp)
+				Next Alignment: 168139 234367 scaffold1_16.5 17898 84139
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 17898 to 18576.
+			Align 8: 168817 234367 scaffold1_16.5 18576 84139
+				Negative gap (overlap) between this and next alignment: 234367 to 218867 (-15500 bp)
+				Next Alignment: 218867 258525 scaffold1_16.5 68626 108295
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 68626 to 84153.
+			Align 9: 234368 258525 scaffold1_16.5 84153 108295
+				Negative gap (overlap) between this and next alignment: 258525 to 257845 (-680 bp)
+				Next Alignment: 257845 278536 scaffold1_16.5 107918 128609
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 107918 to 108597.
+			Align 10: 258526 278536 scaffold1_16.5 108597 128609
+				Gap between this and next alignment: 278536 to 285065 (6528 bp)
+				Next Alignment: 285065 300586 scaffold32_18.0 1 15523
+
+			Align 11: 285065 300586 scaffold32_18.0 1 15523
+				Gap between this and next alignment: 300586 to 305417 (4830 bp)
+				Next Alignment: 305417 313719 scaffold27_14.4 1 8303
+
+			Align 12: 305417 313719 scaffold27_14.4 1 8303
+				Gap between this and next alignment: 313719 to 318626 (4906 bp)
+				Next Alignment: 318626 322818 C840_15.0 4193 1
+
+			Align 13: 318626 322818 C840_15.0 4193 1
+				Gap between this and next alignment: 322818 to 327753 (4934 bp)
+				Next Alignment: 327753 328490 scaffold24_15.8 1 738
+
+			Align 14: 327753 328490 scaffold24_15.8 1 738
+				Negative gap (overlap) between this and next alignment: 328490 to 328421 (-69 bp)
+				Next Alignment: 328421 330673 scaffold24_15.8 740 2992
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 740 to 810.
+			Align 15: 328491 330673 scaffold24_15.8 810 2992
+				Gap between this and next alignment: 330673 to 335571 (4897 bp)
+				Next Alignment: 335571 524302 scaffold31_17.5 269202 80469
+
+			Align 16: 335571 524302 scaffold31_17.5 269202 80469
+				Negative gap (overlap) between this and next alignment: 524302 to 524162 (-140 bp)
+				Next Alignment: 524162 592019 scaffold31_17.5 80684 12858
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 80684 to 80558.
+			Align 17: 524303 592019 scaffold31_17.5 80558 12858
+				Negative gap (overlap) between this and next alignment: 592019 to 572037 (-19982 bp)
+				Next Alignment: 572037 604876 scaffold31_17.5 32854 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 32854 to 12843.
+			Align 18: 592020 604876 scaffold31_17.5 12843 1
+				Gap between this and next alignment: 604876 to 609525 (4648 bp)
+				Next Alignment: 609525 609758 scaffold6_20.1 1 234
+
+			Align 19: 609525 609758 scaffold6_20.1 1 234
+				Negative gap (overlap) between this and next alignment: 609758 to 609554 (-204 bp)
+				Next Alignment: 609554 610006 scaffold6_20.1 236 688
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 236 to 441.
+			Align 20: 609759 610006 scaffold6_20.1 441 688
+				Gap between this and next alignment: 610006 to 610908 (901 bp)
+				Next Alignment: 610908 818118 scaffold8_15.9 1 207173
+
+			Align 21: 610908 818118 scaffold8_15.9 1 207173
+				Gap between this and next alignment: 818118 to 822716 (4597 bp)
+				Next Alignment: 822716 822966 scaffold3_29.5 1 251
+
+			Align 22: 822716 822966 scaffold3_29.5 1 251
+				Gap between this and next alignment: 822966 to 823371 (404 bp)
+				Next Alignment: 823371 824085 scaffold3_29.5 442 1154
+
+			Align 23: 823371 824085 scaffold3_29.5 442 1154
+				Gap between this and next alignment: 824085 to 824741 (655 bp)
+				Next Alignment: 824741 855861 scaffold28_16.6 31121 1
+
+			Align 24: 824741 855861 scaffold28_16.6 31121 1
+				Gap between this and next alignment: 855861 to 855863 (1 bp)
+				Next Alignment: 855863 859054 C726_16.0 1 3192
+
+			Align 25: 855863 859054 C726_16.0 1 3192
+				Gap between this and next alignment: 859054 to 859235 (180 bp)
+				Next Alignment: 859235 881670 scaffold23_14.6 1 22435
+
+			Align 26: 859235 881670 scaffold23_14.6 1 22435
+				Negative gap (overlap) between this and next alignment: 881670 to 881616 (-54 bp)
+				Next Alignment: 881616 890655 C1184_13.0 1 9040
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 27: 881671 890655 C1184_13.0 56 9040
+				Negative gap (overlap) between this and next alignment: 890655 to 890601 (-54 bp)
+				Next Alignment: 890601 924456 scaffold36_15.6 68251 34375
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 68251 to 68196.
+			Align 28: 890656 924456 scaffold36_15.6 68196 34375
+				Negative gap (overlap) between this and next alignment: 924456 to 904481 (-19975 bp)
+				Next Alignment: 904481 958831 scaffold36_15.6 54371 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 54371 to 34353.
+			Align 29: 924457 958831 scaffold36_15.6 34353 1
+				Gap between this and next alignment: 958831 to 959591 (759 bp)
+				Next Alignment: 959591 981001 scaffold22_16.4 31447 10037
+
+			Align 30: 959591 981001 scaffold22_16.4 31447 10037
+				Negative gap (overlap) between this and next alignment: 981001 to 980827 (-174 bp)
+				Next Alignment: 980827 990861 scaffold22_16.4 10035 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 10035 to 9860.
+			Align 31: 981002 990861 scaffold22_16.4 9860 1
+				Gap between this and next alignment: 990861 to 991692 (830 bp)
+				Next Alignment: 991692 1108308 scaffold13_14.4 116644 1
+
+			Align 32: 991692 1108308 scaffold13_14.4 116644 1
+				Gap between this and next alignment: 1108308 to 1109844 (1535 bp)
+				Next Alignment: 1109844 1121603 scaffold11_15.0 1 11760
+
+			Align 33: 1109844 1121603 scaffold11_15.0 1 11760
+				Negative gap (overlap) between this and next alignment: 1121603 to 1121305 (-298 bp)
+				Next Alignment: 1121305 1134750 scaffold11_15.0 11540 24992
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 11540 to 11846.
+			Align 34: 1121604 1134750 scaffold11_15.0 11846 24992
+				Negative gap (overlap) between this and next alignment: 1134750 to 1134696 (-54 bp)
+				Next Alignment: 1134696 1136142 C472_25.0 1 1447
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 35: 1134751 1136142 C472_25.0 56 1447
+				Negative gap (overlap) between this and next alignment: 1136142 to 1136088 (-54 bp)
+				Next Alignment: 1136088 1210437 scaffold4_15.0 1 74350
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 36: 1136143 1210437 scaffold4_15.0 56 74350
+				Gap between this and next alignment: 1210437 to 1211877 (1439 bp)
+				Next Alignment: 1211877 1286485 scaffold15_15.1 74608 1
+
+			Align 37: 1211877 1286485 scaffold15_15.1 74608 1
+				Gap between this and next alignment: 1286485 to 1288442 (1956 bp)
+				Next Alignment: 1288442 1289035 C330_17.0 1 594
+
+			Align 38: 1288442 1289035 C330_17.0 1 594
+				Negative gap (overlap) between this and next alignment: 1289035 to 1288981 (-54 bp)
+				Next Alignment: 1288981 1289536 C310_16.0 1 556
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 39: 1289036 1289536 C310_16.0 56 556
+				Gap between this and next alignment: 1289536 to 1289996 (459 bp)
+				Next Alignment: 1289996 1368456 scaffold30_15.6 1 78462
+
+			Align 40: 1289996 1368456 scaffold30_15.6 1 78462
+				Gap between this and next alignment: 1368456 to 1369761 (1304 bp)
+				Next Alignment: 1369761 1490775 scaffold12_13.5 1 121014
+
+			Align 41: 1369761 1490775 scaffold12_13.5 1 121014
+				The next alignment (1490186 1490775 scaffold12_13.5 120633 121222) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1490775 to 1490186 (-589 bp)
+				Next Alignment: 1490186 1551847 scaffold12_13.5 120841 182513
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 120841 to 121431.
+			Align 43: 1490776 1551847 scaffold12_13.5 121431 182513
+				Gap between this and next alignment: 1551847 to 1551985 (137 bp)
+				Next Alignment: 1551985 1981519 scaffold12_13.5 182687 612245
+
+			Align 44: 1551985 1981519 scaffold12_13.5 182687 612245
+				Negative gap (overlap) between this and next alignment: 1981519 to 1981236 (-283 bp)
+				Next Alignment: 1981236 2119586 scaffold12_13.5 612309 750657
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 612309 to 612592.
+			Align 45: 1981520 2119586 scaffold12_13.5 612592 750657
+				Negative gap (overlap) between this and next alignment: 2119586 to 2119392 (-194 bp)
+				Next Alignment: 2119392 2263722 scaffold12_13.5 750378 894714
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 750378 to 750568.
+			Align 46: 2119587 2263722 scaffold12_13.5 750568 894714
+				Gap between this and next alignment: 2263722 to 2263739 (16 bp)
+				Next Alignment: 2263739 2367582 scaffold12_13.5 894614 998457
+
+			Align 47: 2263739 2367582 scaffold12_13.5 894614 998457
+				Gap between this and next alignment: 2367582 to 2367655 (72 bp)
+				Next Alignment: 2367655 2553852 scaffold12_13.5 998287 1184477
+
+			Align 48: 2367655 2553852 scaffold12_13.5 998287 1184477
+				Negative gap (overlap) between this and next alignment: 2553852 to 2533875 (-19977 bp)
+				Next Alignment: 2533875 2564254 scaffold12_13.5 1164481 1194879
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1164481 to 1184497.
+			Align 49: 2553853 2564254 scaffold12_13.5 1184497 1194879
+				Negative gap (overlap) between this and next alignment: 2564254 to 2564200 (-54 bp)
+				Next Alignment: 2564200 2565856 C506_32.0 1 1657
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 50: 2564255 2565856 C506_32.0 56 1657
+				Negative gap (overlap) between this and next alignment: 2565856 to 2565802 (-54 bp)
+				Next Alignment: 2565802 2731126 scaffold29_11.6 1 165347
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 51: 2565857 2731126 scaffold29_11.6 56 165347
+				Negative gap (overlap) between this and next alignment: 2731126 to 2711141 (-19985 bp)
+				Next Alignment: 2711141 2733567 scaffold29_11.6 145351 167789
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 145351 to 165359.
+			Align 52: 2731127 2733567 scaffold29_11.6 165359 167789
+				Gap between this and next alignment: 2733567 to 2734872 (1304 bp)
+				Next Alignment: 2734872 2817898 scaffold14_12.3 209200 126175
+
+			Align 53: 2734872 2817898 scaffold14_12.3 209200 126175
+				Negative gap (overlap) between this and next alignment: 2817898 to 2807914 (-9984 bp)
+				Next Alignment: 2807914 2818329 scaffold14_12.3 136159 125727
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 136159 to 126157.
+			Align 54: 2817899 2818329 scaffold14_12.3 126157 125727
+				Gap between this and next alignment: 2818329 to 2818440 (110 bp)
+				Next Alignment: 2818440 2944071 scaffold14_12.3 125598 1
+
+			Align 55: 2818440 2944071 scaffold14_12.3 125598 1
+				Negative gap (overlap) between this and next alignment: 2944071 to 2944017 (-54 bp)
+				Next Alignment: 2944017 2949156 C928_23.0 5140 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5140 to 5085.
+			Align 56: 2944072 2949156 C928_23.0 5085 1
+				Gap between this and next alignment: 2949156 to 2949567 (410 bp)
+				Next Alignment: 2949567 2950309 C356_29.0 1 743
+
+			Align 57: 2949567 2950309 C356_29.0 1 743
+				Gap between this and next alignment: 2950309 to 2950548 (238 bp)
+				Next Alignment: 2950548 2994840 scaffold19_13.0 1 44292
+
+			Align 58: 2950548 2994840 scaffold19_13.0 1 44292
+				Gap between this and next alignment: 2994840 to 2995588 (747 bp)
+				Next Alignment: 2995588 3014991 scaffold35_13.6 1 19404
+
+			Align 59: 2995588 3014991 scaffold35_13.6 1 19404
+				Negative gap (overlap) between this and next alignment: 3014991 to 3014971 (-20 bp)
+				Next Alignment: 3014971 3024806 C1218_13.0 9836 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 9836 to 9815.
+			Align 60: 3014992 3024806 C1218_13.0 9815 1
+				Negative gap (overlap) between this and next alignment: 3024806 to 3024752 (-54 bp)
+				Next Alignment: 3024752 3033310 scaffold2_13.3 1 8559
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 61: 3024807 3033310 scaffold2_13.3 56 8559
+				Gap between this and next alignment: 3033310 to 3033336 (25 bp)
+				Next Alignment: 3033336 3132053 scaffold2_13.3 8430 107147
+
+			Align 62: 3033336 3132053 scaffold2_13.3 8430 107147
+				Negative gap (overlap) between this and next alignment: 3132053 to 3131943 (-110 bp)
+				Next Alignment: 3131943 3132103 scaffold2_13.3 107149 107309
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 107149 to 107260.
+			Align 63: 3132054 3132103 scaffold2_13.3 107260 107309
+				Negative gap (overlap) between this and next alignment: 3132103 to 3132049 (-54 bp)
+				Next Alignment: 3132049 3133270 C434_27.0 1 1222
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 64: 3132104 3133270 C434_27.0 56 1222
+				Gap between this and next alignment: 3133270 to 3133272 (1 bp)
+				Next Alignment: 3133272 3134425 C416_28.0 1154 1
+
+			Align 65: 3133272 3134425 C416_28.0 1154 1
+				Negative gap (overlap) between this and next alignment: 3134425 to 3134371 (-54 bp)
+				Next Alignment: 3134371 3206012 scaffold20_13.3 99177 27537
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 99177 to 99122.
+			Align 66: 3134426 3206012 scaffold20_13.3 99122 27537
+				Gap between this and next alignment: 3206012 to 3206268 (255 bp)
+				Next Alignment: 3206268 3233802 scaffold20_13.3 27535 1
+
+			Align 67: 3206268 3233802 scaffold20_13.3 27535 1
+				Gap between this and next alignment: 3233802 to 3235337 (1534 bp)
+				Next Alignment: 3235337 3444159 scaffold18_14.5 1 208824
+
+			Align 68: 3235337 3444159 scaffold18_14.5 1 208824
+				Negative gap (overlap) between this and next alignment: 3444159 to 3444105 (-54 bp)
+				Next Alignment: 3444105 3445456 C456_27.0 1 1352
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 69: 3444160 3445456 C456_27.0 56 1352
+				Gap between this and next alignment: 3445456 to 3445458 (1 bp)
+				Next Alignment: 3445458 3446989 C494_28.0 1 1532
+
+			Align 70: 3445458 3446989 C494_28.0 1 1532
+				Negative gap (overlap) between this and next alignment: 3446989 to 3446935 (-54 bp)
+				Next Alignment: 3446935 3488710 scaffold16_14.6 41973 197
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 41973 to 41918.
+			Align 71: 3446990 3488710 scaffold16_14.6 41918 197
+				Gap between this and next alignment: 3488710 to 3489746 (1035 bp)
+				Next Alignment: 3489746 4008451 scaffold5_16.0 4 518722
+
+			Align 72: 3489746 4008451 scaffold5_16.0 4 518722
+				Negative gap (overlap) between this and next alignment: 4008451 to 3988470 (-19981 bp)
+				Next Alignment: 3988470 4181210 scaffold5_16.0 498726 691485
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 498726 to 518738.
+			Align 73: 4008452 4181210 scaffold5_16.0 518738 691485
+				Negative gap (overlap) between this and next alignment: 4181210 to 4171141 (-10069 bp)
+				Next Alignment: 4171141 4190318 scaffold5_16.0 681416 700557
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 681416 to 691450.
+			Align 74: 4181211 4190318 scaffold5_16.0 691450 700557
+				Gap between this and next alignment: 4190318 to 4191078 (759 bp)
+				Next Alignment: 4191078 4310953 scaffold7_16.7 456635 336769
+
+			Align 75: 4191078 4310953 scaffold7_16.7 456635 336769
+				The next alignment (4256753 4257263 C302_13.0 1 511) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4310953 to 4310907 (-46 bp)
+				Next Alignment: 4310907 4347099 scaffold7_16.7 337202 300992
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 337202 to 337155.
+			Align 77: 4310954 4347099 scaffold7_16.7 337155 300992
+				Gap between this and next alignment: 4347099 to 4347868 (768 bp)
+				Next Alignment: 4347868 4464309 scaffold7_16.7 301000 184559
+
+			Align 78: 4347868 4464309 scaffold7_16.7 301000 184559
+				Gap between this and next alignment: 4464309 to 4464987 (677 bp)
+				Next Alignment: 4464987 4496541 scaffold7_16.7 184187 152633
+
+			Align 79: 4464987 4496541 scaffold7_16.7 184187 152633
+				Gap between this and next alignment: 4496541 to 4496546 (4 bp)
+				Next Alignment: 4496546 4548058 scaffold7_16.7 152808 101296
+
+			Align 80: 4496546 4548058 scaffold7_16.7 152808 101296
+				Negative gap (overlap) between this and next alignment: 4548058 to 4548000 (-58 bp)
+				Next Alignment: 4548000 4586607 scaffold7_16.7 101597 62988
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 101597 to 101538.
+			Align 81: 4548059 4586607 scaffold7_16.7 101538 62988
+				Negative gap (overlap) between this and next alignment: 4586607 to 4586259 (-348 bp)
+				Next Alignment: 4586259 4648970 scaffold7_16.7 62712 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 62712 to 62363.
+			Align 82: 4586608 4648970 scaffold7_16.7 62363 1
+				Gap between this and next alignment: 4648970 to 4655790 (6819 bp)
+				Next Alignment: 4655790 4717907 scaffold17_17.7 485036 422884
+
+			Align 83: 4655790 4717907 scaffold17_17.7 485036 422884
+				Negative gap (overlap) between this and next alignment: 4717907 to 4707910 (-9997 bp)
+				Next Alignment: 4707910 4760046 scaffold17_17.7 432881 380745
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 432881 to 422848.
+			Align 84: 4717908 4760046 scaffold17_17.7 422848 380745
+				Negative gap (overlap) between this and next alignment: 4760046 to 4760026 (-20 bp)
+				Next Alignment: 4760026 5009965 scaffold17_17.7 380728 130788
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 380728 to 380707.
+			Align 85: 4760047 5009965 scaffold17_17.7 380707 130788
+				Negative gap (overlap) between this and next alignment: 5009965 to 5009728 (-237 bp)
+				Next Alignment: 5009728 5067776 scaffold17_17.7 131127 73079
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 131127 to 130889.
+			Align 86: 5009966 5067776 scaffold17_17.7 130889 73079
+				Gap between this and next alignment: 5067776 to 5067838 (61 bp)
+				Next Alignment: 5067838 5141034 scaffold17_17.7 73197 1
+
+			Align 87: 5067838 5141034 scaffold17_17.7 73197 1
+				Gap between this and next alignment: 5141034 to 5142582 (1547 bp)
+				Next Alignment: 5142582 5224283 scaffold38_17.0 90965 9263
+
+			Align 88: 5142582 5224283 scaffold38_17.0 90965 9263
+			END in current alignment.  Modifying 5224283 to 5224283.
+
+	Reference gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence: 9 total alignments. 1 total regions.
+		Region: 1 to 208369 (208369 bp)
+			START in gap: 1 to 5880 (5879 bp)
+			Align 1: 5880 50638 scaffold25_10.2 1 44726
+				Gap between this and next alignment: 50638 to 51976 (1337 bp)
+				Next Alignment: 51976 74835 scaffold37_10.1 22775 1
+
+			Align 2: 51976 74835 scaffold37_10.1 22775 1
+				Gap between this and next alignment: 74835 to 77103 (2267 bp)
+				Next Alignment: 77103 109249 scaffold33_10.0 32154 1
+
+			Align 3: 77103 109249 scaffold33_10.0 32154 1
+				Gap between this and next alignment: 109249 to 112025 (2775 bp)
+				Next Alignment: 112025 131609 scaffold21__9.9 66524 46939
+
+			Align 4: 112025 131609 scaffold21__9.9 66524 46939
+				Negative gap (overlap) between this and next alignment: 131609 to 131498 (-111 bp)
+				Next Alignment: 131498 178434 scaffold21__9.9 46937 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 46937 to 46825.
+			Align 5: 131610 178434 scaffold21__9.9 46825 1
+				Gap between this and next alignment: 178434 to 178531 (96 bp)
+				Next Alignment: 178531 185897 C1088_10.0 1 7366
+
+			Align 6: 178531 185897 C1088_10.0 1 7366
+				Negative gap (overlap) between this and next alignment: 185897 to 185859 (-38 bp)
+				Next Alignment: 185859 188931 scaffold10__8.9 21524 18452
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 21524 to 21485.
+			Align 7: 185898 188931 scaffold10__8.9 21485 18452
+				Negative gap (overlap) between this and next alignment: 188931 to 188712 (-219 bp)
+				Next Alignment: 188712 189122 scaffold10__8.9 18450 18039
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 18450 to 18230.
+			Align 8: 188932 189122 scaffold10__8.9 18230 18039
+				Next Alignment: 189123 207333 scaffold10__8.9 18230 1
+
+			Align 9: 189123 207333 scaffold10__8.9 18230 1
+			END in gap: 207333 to 208369 (1036 bp)
+
+Analysis is finished!
+Founded SNPs were written into /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2364/dataset_2446_files/Scaffold/contigs_reports/nucmer_output/BC-M-Soap-Scaffold.used_snps
+
+Results:
+	Local Misassemblies: 41
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassmblies Inter-Contig Overlap: 149599
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 1 + 0 part
+Partially Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 2316
+
+Ambiguously Mapped Contigs: 7
+Total Bases in Ambiguously Mapped Contigs: 9107
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 5338019
+
+	SNPs: 435
+	Insertions: 336
+	Deletions: 371
+
+	Positive Gaps: 52
+		Internal Gaps:  12
+		External Gaps:  40
+		External Gap Total:  91893
+		External Gap Average: 2297
+	Negative Gaps: 42
+		Internal Overlaps:  27
+		External Overlaps:  15
+		External Overlaps Total: -760
+		External Overlaps Average: -51
+	Contigs with Redundant Alignments: 2 (1101)

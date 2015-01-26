@@ -1,0 +1,1647 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome]
+	Loaded [gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence]
+	Loaded [gi|225631039|ref|NC_012417.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA01-HOU__complete_sequence]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 3
+	Total Region Length: 2903081
+Analyzing contigs...
+CONTIG: scf7180000002398_1 (1060bp)
+Top Length: 1060  Top ID: 99.81
+		Marking as insignificant: 2001404 2001602 | 1060 862 | 199 199 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002398_1
+		Marking as insignificant: 2001782 2002572 | 794 1 | 791 794 | 98.99 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002398_1
+		Marking as insignificant: 557913 558935 | 1 1005 | 1023 1005 | 95.21 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002398_1
+		Marking as insignificant: 2295888 2296876 | 1005 1 | 989 1005 | 98.31 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002398_1
+		Marking as insignificant: 2179578 2180566 | 1005 1 | 989 1005 | 98.31 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002398_1
+		One align captures most of this contig: 513634 514693 | 1 1060 | 1060 1060 | 99.81 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002398_1
+
+CONTIG: scf7180000002389_1 (38454bp)
+Top Length: 20620  Top ID: 99.47
+		Skipping redundant alignment 2180536 2181527 | 38454 37462 | 992 993 | 99.6 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002389_1
+		Skipping redundant alignment 512678 513664 | 37468 38454 | 987 987 | 99.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002389_1
+		Skipping redundant alignment 556958 557943 | 37469 38454 | 986 986 | 99.9 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002389_1
+		Skipping redundant alignment 2002542 2003524 | 38454 37471 | 983 984 | 99.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002389_1
+		This contig is misassembled. 7 total aligns.
+			Real Alignment 1: 2296846 2317464 | 38454 17835 | 20619 20620 | 99.47 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002389_1
+			  Extensive misassembly ( relocation, inconsistency = 1955 ) between these two alignments
+			Real Alignment 2: 2319448 2335210 | 17806 2042 | 15763 15765 | 98.64 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002389_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 785
+			Real Alignment 3: 2336337 2338035 | 1700 1 | 1699 1700 | 98.35 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002389_1
+
+CONTIG: scf7180000002398_2 (1076bp)
+Top Length: 1076  Top ID: 100.0
+		Marking as insignificant: 2001782 2002572 | 794 1 | 791 794 | 99.12 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002398_2
+		Marking as insignificant: 557913 559022 | 1 1076 | 1110 1076 | 95.5 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002398_2
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2179491 2180566 | 1076 1 | 1076 1076 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002398_2
+		Skipping alignment  2295801 2296876 | 1076 1 | 1076 1076 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002398_2
+
+CONTIG: scf7180000002393_1 (221821bp)
+Top Length: 97548  Top ID: 99.31
+		Skipping redundant alignment 2478990 2479095 | 36319 36215 | 106 105 | 99.06 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 1803046 1803251 | 36219 36423 | 206 205 | 98.54 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 2319237 2319442 | 36423 36219 | 206 205 | 98.54 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 1912297 1912502 | 36423 36219 | 206 205 | 98.06 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 1442817 1443013 | 36228 36423 | 197 196 | 98.48 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 1929668 1929739 | 36414 36485 | 72 72 | 98.61 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 1893248 1893367 | 36485 36604 | 120 120 | 99.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 318772 318890 | 36604 36486 | 119 119 | 99.16 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 1443537 1443655 | 36486 36604 | 119 119 | 98.32 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 1804822 1804940 | 36486 36604 | 119 119 | 98.32 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 1910753 1910870 | 36604 36486 | 118 119 | 98.32 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 2317575 2317693 | 36604 36486 | 119 119 | 98.32 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 2071841 2071959 | 36486 36604 | 119 119 | 97.48 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 2431740 2431857 | 36604 36486 | 118 119 | 96.64 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 1469840 1470114 | 209875 209601 | 275 275 | 97.09 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 2580493 2580654 | 209601 209762 | 162 162 | 96.91 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 2866835 2866938 | 209704 209601 | 104 104 | 96.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 891727 891902 | 209778 209602 | 176 177 | 95.48 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 1098114 1098282 | 209778 209610 | 169 169 | 95.86 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 800990 801084 | 209704 209610 | 95 95 | 95.79 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignment 891688 891755 | 209875 209808 | 68 68 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1994311][1995782] redundant alignment 1994311 1995782 | 1 1472 | 1472 1472 | 99.12 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+		This contig is misassembled. 29 total aligns.
+			Real Alignment 1: 1170229 1245347 | 1469 76629 | 75119 75161 | 99.46 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -192
+			Real Alignment 2: 1245319 1342913 | 76793 174340 | 97595 97548 | 99.31 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+			  Extensive misassembly ( relocation, inconsistency = 2277 ) between these two alignments
+			Real Alignment 3: 1345212 1380725 | 174362 209875 | 35514 35514 | 99.27 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -56
+			Real Alignment 4: 1380716 1392397 | 209922 221603 | 11682 11682 | 99.68 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+			  Extensive misassembly ( relocation, inconsistency = 602946 ) between these two alignments
+			Real Alignment 5: 1995561 1995786 | 221821 221596 | 226 226 | 97.36 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+			  Extensive misassembly ( relocation, inconsistency = 73356 ) between these two alignments
+			Real Alignment 6: 2290737 2292211 | 1 1473 | 1475 1473 | 99.05 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+			  Extensive misassembly ( relocation, inconsistency = 329576 ) between these two alignments
+			Real Alignment 7: 2830298 2830416 | 209984 209866 | 119 119 | 99.16 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002393_1
+
+CONTIG: scf7180000002386_1 (4383bp)
+Top Length: 1548  Top ID: 98.26
+		Skipping redundant alignment 1608602 1608783 | 1 182 | 182 182 | 97.25 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002386_1
+		Skipping redundant alignment 1608188 1608783 | 3709 4304 | 596 596 | 95.13 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002386_1
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 1557579 1558513 | 3370 4304 | 935 935 | 95.72 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002386_1
+			  Extensive misassembly ( relocation, inconsistency = 4122 ) between these two alignments
+			Real Alignment 2: 1558332 1558513 | 1 182 | 182 182 | 98.9 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002386_1
+			  Extensive misassembly ( relocation, inconsistency = 46146 ) between these two alignments
+			Real Alignment 3: 1605969 1607515 | 1492 3039 | 1547 1548 | 98.26 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002386_1
+
+CONTIG: scf7180000002381_1 (5460bp)
+Top Length: 699  Top ID: 100.0
+		Skipping redundant alignment 16913 17117 | 1 205 | 205 205 | 97.56 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002381_1
+		Skipping redundant alignment 20922 21126 | 1 205 | 205 205 | 97.56 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002381_1
+		Skipping redundant alignment 76250 76947 | 5460 4762 | 698 699 | 98.71 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002381_1
+		Skipping redundant alignment 16329 17026 | 4762 5460 | 698 699 | 98.0 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002381_1
+		Skipping redundant alignment 20338 21035 | 4762 5460 | 698 699 | 97.28 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002381_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [35818][36516] redundant alignment 35818 36516 | 4762 5460 | 699 699 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002381_1
+		Skipping [36403][36607] redundant alignment 36403 36607 | 1 205 | 205 205 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002381_1
+		Skipping [76159][76363] redundant alignment 76159 76363 | 205 1 | 205 205 | 99.02 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002381_1
+		This contig is misassembled. 10 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 5460 and total length of all aligns is 904
+		Alignment: 12451 12655 | 205 1 | 205 205 | 99.02 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002381_1
+		Alignment: 12542 13240 | 5460 4762 | 699 699 | 99.14 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002381_1
+		Unaligned bases: 4556
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000002392_1 (366242bp)
+Top Length: 54871  Top ID: 99.31
+		Skipping redundant alignment 76250 76947 | 1 699 | 698 699 | 98.71 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 16329 17026 | 699 1 | 698 699 | 98.0 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002392_1
+		Skipping redundant alignment 20338 21035 | 699 1 | 698 699 | 97.28 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002392_1
+		Skipping redundant alignment 1996811 1996891 | 12761 12841 | 81 81 | 98.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 1961944 1962018 | 12761 12835 | 75 75 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 1997115 1997187 | 12761 12833 | 73 73 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 2292594 2292672 | 12837 12915 | 79 79 | 97.47 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 1961512 1961583 | 12844 12915 | 72 72 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 2580486 2580596 | 43088 43198 | 111 111 | 97.3 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 1380451 1380554 | 43095 43198 | 104 104 | 98.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 1470011 1470114 | 43198 43095 | 104 104 | 98.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 891800 891902 | 43198 43096 | 103 103 | 99.03 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 2031787 2031888 | 43198 43097 | 102 102 | 98.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 800983 801083 | 43205 43105 | 101 101 | 98.02 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 1098188 1098281 | 43198 43105 | 94 94 | 97.87 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 1072168 1072260 | 192225 192317 | 93 93 | 98.92 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 2866774 2866928 | 315480 315634 | 155 155 | 97.42 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 800980 801092 | 315531 315643 | 113 113 | 99.12 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 1098188 1098299 | 315541 315650 | 112 110 | 97.32 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 891800 891898 | 315541 315639 | 99 99 | 96.97 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 1380456 1380554 | 315639 315541 | 99 99 | 95.96 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 1470011 1470109 | 315541 315639 | 99 99 | 95.96 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignment 2031787 2031881 | 315541 315635 | 95 95 | 97.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [12542][13240] redundant alignment 12542 13240 | 1 699 | 699 699 | 99.14 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002392_1
+		Skipping [1994266][1995769] redundant alignment 1994266 1995769 | 364739 366242 | 1504 1504 | 99.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+		This contig is misassembled. 49 total aligns.
+			Real Alignment 3: 1072168 1072332 | 315480 315644 | 165 165 | 97.58 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Extensive misassembly ( relocation, inconsistency = 105682 ) between these two alignments
+			Real Alignment 4: 1072262 1072333 | 209892 209963 | 72 72 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Extensive misassembly ( relocation, inconsistency = 819205 ) between these two alignments
+			Real Alignment 5: 1873924 1874048 | 192349 192225 | 125 125 | 97.6 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Extensive misassembly ( relocation, inconsistency = 589158 ) between these two alignments
+			Real Alignment 6: 2290692 2292196 | 364739 366242 | 1505 1504 | 99.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Extensive misassembly ( relocation, inconsistency = 251221 ) between these two alignments
+			Real Alignment 7: 2541914 2580484 | 364739 326092 | 38571 38648 | 99.01 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 299
+			Real Alignment 8: 2580818 2591231 | 326057 315644 | 10414 10414 | 98.52 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -138
+			Real Alignment 9: 2591257 2601199 | 315480 305535 | 9943 9946 | 98.5 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -59
+			Real Alignment 10: 2602004 2613858 | 304671 292814 | 11855 11858 | 96.28 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Extensive misassembly ( relocation, inconsistency = -1016 ) between these two alignments
+			Real Alignment 11: 2613037 2624727 | 292619 280913 | 11691 11707 | 97.18 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 384
+			Real Alignment 12: 2624032 2630838 | 281992 275156 | 6807 6837 | 96.55 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Extensive misassembly ( relocation, inconsistency = -3650 ) between these two alignments
+			Real Alignment 13: 2629776 2630571 | 272568 271773 | 796 796 | 95.1 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Extensive misassembly ( relocation, inconsistency = 3540 ) between these two alignments
+			Real Alignment 14: 2634962 2647573 | 270922 258330 | 12612 12593 | 97.57 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Extensive misassembly ( relocation, inconsistency = 1628 ) between these two alignments
+			Real Alignment 15: 2649284 2664855 | 258247 242679 | 15572 15569 | 97.7 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 289
+			Real Alignment 16: 2665148 2680011 | 242675 227814 | 14864 14862 | 99.02 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Extensive misassembly ( relocation, inconsistency = 1458 ) between these two alignments
+			Real Alignment 17: 2681398 2699196 | 227885 210090 | 17799 17796 | 98.56 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -120
+			Real Alignment 18: 2699368 2716774 | 209798 192389 | 17407 17410 | 99.42 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -152
+			Real Alignment 19: 2716786 2733821 | 192225 175194 | 17036 17032 | 98.46 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Extensive misassembly ( relocation, inconsistency = -2050 ) between these two alignments
+			Real Alignment 20: 2733813 2753848 | 173152 153117 | 20036 20036 | 99.36 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 968
+			Real Alignment 21: 2754851 2774758 | 153082 133233 | 19908 19850 | 99.03 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 156
+			Real Alignment 22: 2775486 2830360 | 132661 77791 | 54875 54871 | 99.31 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 112
+			Real Alignment 23: 2830463 2862482 | 77800 45787 | 32020 32014 | 98.55 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Extensive misassembly ( relocation, inconsistency = 1753 ) between these two alignments
+			Real Alignment 24: 2864018 2872915 | 46004 37102 | 8898 8903 | 98.92 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 1: 1 35817 | 37101 1278 | 35817 35824 | 98.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -578
+			Real Alignment 2: 35818 36516 | 699 1 | 699 699 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002392_1
+
+CONTIG: scf7180000002357_1 (550bp)
+Top Length: 530  Top ID: 99.62
+		This contig is partially unaligned. (530 out of 550)
+		Alignment: 1680909 1681438 | 21 550 | 530 530 | 99.62 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002357_1
+		Unaligned bases: 1 to 20 (20)
+
+CONTIG: scf7180000002387_1 (50188bp)
+Top Length: 14149  Top ID: 99.24
+		Skipping redundant alignment 556088 556206 | 90 208 | 119 119 | 99.16 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002387_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1998283][1998489] redundant alignment 1998283 1998489 | 207 1 | 207 207 | 99.52 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002387_1
+		This contig is misassembled. 10 total aligns.
+			Real Alignment 1: 2122300 2122565 | 50188 49923 | 266 266 | 98.5 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002387_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -120
+			Real Alignment 2: 2126044 2133335 | 46324 39031 | 7292 7294 | 98.7 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002387_1
+			  Extensive misassembly ( relocation, inconsistency = 1907 ) between these two alignments
+			Real Alignment 3: 2135422 2137367 | 38851 36902 | 1946 1950 | 96.93 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002387_1
+			  Extensive misassembly ( relocation, inconsistency = 3120 ) between these two alignments
+			Real Alignment 4: 2140310 2147679 | 37079 29702 | 7370 7378 | 98.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002387_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 1
+			Real Alignment 5: 2148921 2162325 | 28461 15055 | 13405 13407 | 99.34 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002387_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -213
+			Real Alignment 6: 2162354 2176502 | 14813 665 | 14149 14149 | 99.24 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002387_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -278
+			Real Alignment 7: 2176315 2176423 | 574 466 | 109 109 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002387_1
+			  Extensive misassembly ( relocation, inconsistency = 116076 ) between these two alignments
+			Real Alignment 8: 2292758 2292964 | 207 1 | 207 207 | 99.52 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002387_1
+
+CONTIG: scf7180000002395_1 (3462bp)
+Top Length: 3462  Top ID: 98.26
+		Marking as insignificant: 2292324 2292395 | 699 770 | 72 72 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+		Marking as insignificant: 24258 24332 | 1283 1209 | 75 75 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+		Marking as insignificant: 1961765 1961842 | 781 858 | 78 78 | 98.72 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+		Marking as insignificant: 2292515 2292593 | 2604 2682 | 79 79 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+		Marking as insignificant: 556307 556385 | 1109 1031 | 79 79 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+		Marking as insignificant: 2292237 2292318 | 2429 2510 | 82 82 | 97.56 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+		Marking as insignificant: 2292408 2292489 | 946 1027 | 82 82 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+		Marking as insignificant: 2001606 2001687 | 1903 1985 | 82 83 | 98.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+		Marking as insignificant: 503542 503635 | 1701 1608 | 94 94 | 98.94 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+		Marking as insignificant: 1961846 1962117 | 1108 1382 | 272 275 | 96.36 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+		Marking as insignificant: 517045 517814 | 3462 2693 | 770 770 | 99.74 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+		Marking as insignificant: 2292758 2293527 | 2693 3462 | 770 770 | 99.87 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+		Marking as insignificant: 561296 562065 | 3462 2693 | 770 770 | 99.87 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+		Marking as insignificant: 2176447 2177216 | 2693 3462 | 770 770 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+		One align captures most of this contig: 1995561 1999052 | 1 3462 | 3492 3462 | 98.26 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002395_1
+
+CONTIG: scf7180000002402_1 (89228bp)
+Top Length: 54118  Top ID: 99.6
+		Skipping redundant alignment 159139 159790 | 53998 53348 | 652 651 | 97.7 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		Skipping redundant alignment 1998019 1998100 | 87938 88019 | 82 82 | 97.56 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		Skipping redundant alignment 1996301 1996372 | 88025 88096 | 72 72 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		Skipping redundant alignment 1996548 1996629 | 88109 88190 | 82 82 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		Skipping redundant alignment 556217 556295 | 88294 88216 | 79 79 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		Skipping redundant alignment 1998194 1998272 | 88216 88294 | 79 79 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		Skipping redundant alignment 24178 24256 | 88373 88295 | 79 79 | 97.47 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		Skipping redundant alignment 1961511 1961665 | 88301 88455 | 155 155 | 99.35 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		Skipping redundant alignment 1032797 1032877 | 88374 88454 | 81 81 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		Skipping redundant alignment 2176447 2177216 | 88459 89228 | 770 770 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		Skipping redundant alignment 561296 562065 | 89228 88459 | 770 770 | 99.87 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		Skipping redundant alignment 1998283 1999052 | 88459 89228 | 770 770 | 99.87 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		Skipping redundant alignment 517045 517814 | 89228 88459 | 770 770 | 99.74 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		Skipping redundant alignment 556088 556205 | 88576 88459 | 118 118 | 99.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1994267][1994450] redundant alignment 1994267 1994450 | 184 1 | 184 184 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+		This contig is misassembled. 21 total aligns.
+			Real Alignment 1: 2201590 2211197 | 185 9792 | 9608 9608 | 99.75 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -100
+			Real Alignment 2: 2211111 2265231 | 9806 63923 | 54121 54118 | 99.6 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 57
+			Real Alignment 3: 2265212 2266002 | 63847 64627 | 791 781 | 96.71 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+			  Extensive misassembly ( relocation, inconsistency = 1413 ) between these two alignments
+			Real Alignment 4: 2268541 2290692 | 65753 87914 | 22152 22162 | 98.24 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+			  Extensive misassembly ( relocation, inconsistency = 87731 ) between these two alignments
+			Real Alignment 5: 2290693 2290876 | 184 1 | 184 184 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+			  Extensive misassembly ( relocation, inconsistency = 89236 ) between these two alignments
+			Real Alignment 6: 2292206 2293527 | 87907 89228 | 1322 1322 | 99.92 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002402_1
+
+CONTIG: scf7180000002366_1 (1860bp)
+Top Length: 1045  Top ID: 99.81
+		Skipping redundant alignment 2002542 2003551 | 1 1013 | 1010 1013 | 99.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002366_1
+		Skipping redundant alignment 2180536 2181521 | 1 987 | 986 987 | 99.7 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002366_1
+		Skipping redundant alignment 2296846 2297831 | 1 987 | 986 987 | 99.7 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002366_1
+		Skipping redundant alignment 556958 557943 | 986 1 | 986 986 | 99.9 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002366_1
+		Skipping redundant alignment 556088 556205 | 1208 1091 | 118 118 | 99.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002366_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [561296][562065] redundant alignment 561296 562065 | 1860 1091 | 770 770 | 99.87 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002366_1
+		Skipping [1998278][1999052] redundant alignment 1998278 1999052 | 1086 1860 | 775 775 | 99.87 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002366_1
+		Skipping [2176447][2177216] redundant alignment 2176447 2177216 | 1091 1860 | 770 770 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002366_1
+		Skipping [2292758][2293527] redundant alignment 2292758 2293527 | 1091 1860 | 770 770 | 99.87 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002366_1
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 512620 513664 | 1045 1 | 1045 1045 | 99.81 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002366_1
+			  Extensive misassembly ( relocation, inconsistency = 5240 ) between these two alignments
+			Real Alignment 2: 517045 517814 | 1860 1091 | 770 770 | 99.74 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002366_1
+
+CONTIG: scf7180000002394_1 (328045bp)
+Top Length: 82503  Top ID: 99.36
+		Skipping redundant alignment 891727 891909 | 57833 58016 | 183 184 | 96.2 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 2580486 2580656 | 58016 57846 | 171 171 | 95.91 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1557897 1558533 | 161181 160545 | 637 637 | 98.12 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 2580493 2580612 | 249661 249780 | 120 120 | 99.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 2866835 2866938 | 249764 249661 | 104 104 | 99.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 891784 891902 | 249780 249662 | 119 119 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 2031771 2031888 | 249780 249663 | 118 118 | 98.31 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1098172 1098282 | 249780 249670 | 111 111 | 97.3 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 800990 801084 | 249764 249670 | 95 95 | 97.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 848508 848595 | 249896 249810 | 88 87 | 95.45 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 891636 891755 | 250045 249926 | 120 120 | 97.5 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 318663 318773 | 288169 288058 | 111 112 | 99.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1443654 1443765 | 288058 288169 | 112 112 | 99.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 2071958 2072068 | 288058 288169 | 111 112 | 99.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 2317466 2317576 | 288168 288058 | 111 111 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1804939 1805049 | 288058 288168 | 111 111 | 99.1 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1893366 1893475 | 288058 288168 | 110 111 | 98.2 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1910649 1910754 | 288164 288058 | 106 107 | 99.07 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 2319135 2319442 | 291541 291234 | 308 308 | 97.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1912195 1912502 | 291541 291234 | 308 308 | 97.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1803046 1803353 | 291234 291541 | 308 308 | 96.75 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1442817 1443114 | 291243 291541 | 298 299 | 97.32 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 2478225 2478558 | 291863 291531 | 334 333 | 97.6 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 318797 318879 | 291613 291531 | 83 83 | 98.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 2431765 2431846 | 291613 291531 | 82 83 | 98.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1910778 1910860 | 291613 291531 | 83 83 | 96.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 2071858 2071934 | 291537 291613 | 77 77 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1893266 1893342 | 291537 291613 | 77 77 | 98.7 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 2317600 2317676 | 291613 291537 | 77 77 | 97.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1804846 1804915 | 291544 291613 | 70 70 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 2317456 2317576 | 291873 291752 | 121 122 | 98.36 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1443654 1443769 | 291752 291868 | 116 117 | 98.29 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 318663 318773 | 291863 291752 | 111 112 | 99.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 2071958 2072068 | 291752 291863 | 111 112 | 99.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1804939 1805049 | 291752 291862 | 111 111 | 99.1 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1893366 1893475 | 291752 291862 | 110 111 | 98.2 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignment 1910649 1910754 | 291858 291752 | 106 107 | 99.07 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2290686][2292196] redundant alignment 2290686 2292196 | 326536 328045 | 1511 1510 | 99.07 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		Skipping [2478225][2478416] redundant alignment 2478225 2478416 | 288169 287979 | 192 191 | 97.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+		This contig is misassembled. 53 total aligns.
+			Real Alignment 1: 1380452 1380668 | 58008 57793 | 217 216 | 95.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+			  Extensive misassembly ( relocation, inconsistency = 280471 ) between these two alignments
+			Real Alignment 2: 1392390 1413595 | 326542 305338 | 21206 21205 | 99.48 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -578
+			Real Alignment 3: 1414052 1430184 | 304303 288170 | 16133 16134 | 99.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+			  Extensive misassembly ( relocation, inconsistency = -3694 ) between these two alignments
+			Real Alignment 4: 1426493 1426681 | 288167 287979 | 189 189 | 99.47 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+			  Extensive misassembly ( relocation, inconsistency = 3492 ) between these two alignments
+			Real Alignment 5: 1430212 1442791 | 287940 275361 | 12580 12580 | 99.43 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 940
+			Real Alignment 6: 1443765 1456996 | 275327 262094 | 13232 13234 | 99.41 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 743
+			Real Alignment 7: 1457737 1473202 | 262096 246573 | 15466 15524 | 98.79 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -231
+			Real Alignment 8: 1472732 1476019 | 246812 243525 | 3288 3288 | 98.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -378
+			Real Alignment 9: 1475980 1556282 | 243186 162882 | 80303 80305 | 98.27 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+			  Extensive misassembly ( relocation, inconsistency = 50180 ) between these two alignments
+			Real Alignment 10: 1607607 1626987 | 161737 142365 | 19381 19373 | 98.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+			  Extensive misassembly ( relocation, inconsistency = -1781 ) between these two alignments
+			Real Alignment 11: 1627060 1709553 | 140511 58009 | 82494 82503 | 99.36 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -350
+			Real Alignment 12: 1709584 1729093 | 57628 38118 | 19510 19511 | 99.62 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -233
+			Real Alignment 13: 1729037 1760271 | 37941 6640 | 31235 31302 | 99.25 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+			  Extensive misassembly ( relocation, inconsistency = 553897 ) between these two alignments
+			Real Alignment 14: 1994266 1995769 | 326542 328045 | 1504 1504 | 99.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002394_1
+
+CONTIG: scf7180000002384_1 (205908bp)
+Top Length: 42517  Top ID: 99.48
+		Skipping redundant alignment 671638 671744 | 163633 163739 | 107 107 | 97.2 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+		Skipping redundant alignment 800873 800978 | 163738 163633 | 106 106 | 98.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1380614][1380776] redundant alignment 1380614 1380776 | 163576 163738 | 163 163 | 98.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+		Skipping [1994311][1995779] redundant alignment 1994311 1995779 | 1 1469 | 1469 1469 | 99.12 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+		This contig is misassembled. 16 total aligns.
+			Real Alignment 1: 1469788 1469951 | 163739 163576 | 164 164 | 96.34 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+			  Extensive misassembly ( relocation, inconsistency = 657211 ) between these two alignments
+			Real Alignment 2: 2290737 2292205 | 1 1468 | 1469 1468 | 99.12 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+			  Extensive misassembly ( relocation, inconsistency = -158635 ) between these two alignments
+			Real Alignment 3: 2338010 2347096 | 205908 196742 | 9087 9167 | 95.07 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+			  Extensive misassembly ( relocation, inconsistency = -1703 ) between these two alignments
+			Real Alignment 4: 2352633 2378409 | 189502 163739 | 25777 25764 | 99.65 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -236
+			Real Alignment 5: 2378440 2389141 | 163472 152773 | 10702 10700 | 98.98 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 115
+			Real Alignment 6: 2389143 2431654 | 152886 110370 | 42512 42517 | 99.48 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 622
+			Real Alignment 7: 2432295 2452493 | 110351 90154 | 20199 20198 | 99.27 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -120
+			Real Alignment 8: 2452494 2478225 | 90033 64335 | 25732 25699 | 99.27 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 840
+			Real Alignment 9: 2479097 2504698 | 64303 38718 | 25602 25586 | 99.36 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 86
+			Real Alignment 10: 2504895 2540121 | 38607 3437 | 35227 35171 | 98.81 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -123
+			Real Alignment 11: 2540030 2541754 | 3405 1681 | 1725 1725 | 99.01 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -45
+			Real Alignment 12: 2541696 2541921 | 1694 1469 | 226 226 | 96.46 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002384_1
+
+CONTIG: scf7180000002374_1 (10637bp)
+Top Length: 4759  Top ID: 99.47
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2290691][2290876] redundant alignment 2290691 2290876 | 10452 10637 | 186 186 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002374_1
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 917216 920552 | 2277 5616 | 3337 3340 | 98.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002374_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -171
+			Real Alignment 2: 920460 925218 | 5695 10453 | 4759 4759 | 99.47 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002374_1
+			  Extensive misassembly ( relocation, inconsistency = 1069048 ) between these two alignments
+			Real Alignment 3: 1994266 1994450 | 10453 10637 | 185 185 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002374_1
+
+CONTIG: scf7180000002385_1 (21261bp)
+Top Length: 21043  Top ID: 99.55
+		Skipping redundant alignment 2296846 2297833 | 1 987 | 988 987 | 99.7 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002385_1
+		Skipping redundant alignment 512678 513664 | 985 1 | 987 985 | 99.59 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002385_1
+		Skipping redundant alignment 556958 557943 | 984 1 | 986 984 | 99.7 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002385_1
+		Skipping redundant alignment 2002542 2003524 | 1 982 | 983 982 | 99.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002385_1
+		Skipping redundant alignment 1961673 1961755 | 996 1078 | 83 83 | 97.59 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002385_1
+		This contig is misassembled. 7 total aligns.
+			Real Alignment 1: 1995561 1995778 | 21261 21044 | 218 218 | 98.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002385_1
+			  Extensive misassembly ( relocation, inconsistency = 163715 ) between these two alignments
+			Real Alignment 2: 2180536 2201597 | 1 21043 | 21062 21043 | 99.55 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002385_1
+
+CONTIG: scf7180000002361_1 (3200bp)
+		This contig is unaligned. (3200 bp)
+		Unaligned bases: 3200  total: 3200
+
+CONTIG: scf7180000002397_1 (672bp)
+Top Length: 672  Top ID: 99.85
+		Marking as insignificant: 2001698 2001983 | 289 1 | 286 289 | 97.92 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002397_1
+		One align captures most of this contig: 558502 559173 | 1 672 | 672 672 | 99.85 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002397_1
+
+CONTIG: scf7180000002382_1 (246762bp)
+Top Length: 86041  Top ID: 99.29
+		Skipping redundant alignment 2580494 2580650 | 30817 30973 | 157 157 | 98.09 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+		Skipping redundant alignment 2866835 2866937 | 30919 30817 | 103 103 | 98.06 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+		Skipping redundant alignment 2292673 2292753 | 109081 109161 | 81 81 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+		Skipping redundant alignment 1961584 1961664 | 109081 109161 | 81 81 | 98.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+		Skipping redundant alignment 671523 671641 | 146901 146783 | 119 119 | 99.16 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+		Skipping redundant alignment 2866774 2866928 | 172784 172938 | 155 155 | 97.42 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+		Skipping redundant alignment 800980 801093 | 172835 172948 | 114 114 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+		Skipping redundant alignment 891800 891894 | 172845 172939 | 95 95 | 97.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+		Skipping redundant alignment 2031787 2031881 | 172845 172939 | 95 95 | 97.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+		Skipping redundant alignment 1380460 1380554 | 172939 172845 | 95 95 | 96.84 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+		Skipping redundant alignment 1470011 1470105 | 172845 172939 | 95 95 | 96.84 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2290684][2292196] redundant alignment 2290684 2292196 | 245250 246762 | 1513 1513 | 99.01 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+		Skipping [2290737][2292206] redundant alignment 2290737 2292206 | 1 1469 | 1470 1469 | 99.05 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+		This contig is misassembled. 24 total aligns.
+			Real Alignment 1: 891724 891906 | 30993 30813 | 183 181 | 95.63 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+			  Extensive misassembly ( relocation, inconsistency = 3961 ) between these two alignments
+			Real Alignment 2: 925211 954544 | 1469 30801 | 29334 29333 | 99.5 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -24
+			Real Alignment 3: 954747 1040785 | 31028 117068 | 86039 86041 | 99.29 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+			  Extensive misassembly ( relocation, inconsistency = 1775 ) between these two alignments
+			Real Alignment 4: 1042574 1088256 | 117082 162827 | 45683 45746 | 99.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+			  Extensive misassembly ( relocation, inconsistency = -26045 ) between these two alignments
+			Real Alignment 5: 1072168 1072331 | 172784 172947 | 164 164 | 96.34 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+			  Extensive misassembly ( relocation, inconsistency = 25856 ) between these two alignments
+			Real Alignment 6: 1088126 1098076 | 162886 172836 | 9951 9951 | 99.45 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 103
+			Real Alignment 7: 1098188 1149567 | 172845 224221 | 51380 51377 | 99.63 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -261
+			Real Alignment 8: 1149486 1168632 | 224401 243542 | 19147 19142 | 99.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -113
+			Real Alignment 9: 1168463 1170237 | 243486 245260 | 1775 1775 | 97.86 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+			  Extensive misassembly ( relocation, inconsistency = 824030 ) between these two alignments
+			Real Alignment 10: 1994266 1995769 | 245259 246762 | 1504 1504 | 99.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+			  Extensive misassembly ( relocation, inconsistency = 245303 ) between these two alignments
+			Real Alignment 11: 1994311 1995778 | 1 1468 | 1468 1468 | 99.05 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002382_1
+
+CONTIG: scf7180000002391_1 (175306bp)
+Top Length: 68631  Top ID: 99.27
+		Skipping redundant alignment 457281 459028 | 675 2422 | 1748 1748 | 96.22 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 2318363 2319448 | 21480 20396 | 1086 1085 | 97.79 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 1803040 1804131 | 20396 21480 | 1092 1085 | 97.16 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 1426813 1427120 | 20709 20402 | 308 308 | 97.73 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 1204938 1205142 | 20402 20607 | 205 206 | 97.57 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 2478990 2479091 | 20503 20402 | 102 102 | 99.02 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 1442817 1443304 | 20411 20899 | 488 489 | 97.55 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 2478583 2478990 | 21204 20798 | 408 407 | 98.53 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 1804231 1804690 | 21480 21939 | 460 460 | 98.91 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 1892659 1893116 | 21480 21939 | 458 460 | 97.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 2431652 2432204 | 22151 21598 | 553 554 | 95.49 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 318664 319233 | 22172 21602 | 570 571 | 98.25 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 2071524 2071709 | 21753 21939 | 186 187 | 96.79 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 1443520 1443771 | 21928 22179 | 252 252 | 97.22 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 2317461 2317710 | 22177 21928 | 250 250 | 98.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 2478476 2478583 | 22038 21931 | 108 108 | 98.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 1804816 1805056 | 21939 22179 | 241 241 | 98.76 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 2071835 2072067 | 21939 22172 | 233 234 | 97.44 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 1893245 1893480 | 21941 22178 | 236 238 | 97.06 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 1205205 1205323 | 21945 22063 | 119 119 | 98.32 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 1426741 1426823 | 22038 21956 | 83 83 | 96.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 1426493 1426602 | 22171 22062 | 110 110 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		Skipping redundant alignment 2478222 2478335 | 22176 22064 | 114 113 | 96.49 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+		This contig is misassembled. 35 total aligns.
+			Real Alignment 1: 1760266 1803040 | 168714 125939 | 42775 42776 | 99.6 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+			  Extensive misassembly ( relocation, inconsistency = 1977 ) between these two alignments
+			Real Alignment 2: 1805051 1873611 | 125905 57275 | 68561 68631 | 99.27 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 173
+			Real Alignment 3: 1873756 1873889 | 57303 57170 | 134 134 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 133
+			Real Alignment 4: 1874049 1892471 | 57143 38719 | 18423 18425 | 98.57 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+			  Extensive misassembly ( relocation, inconsistency = 1006 ) between these two alignments
+			Real Alignment 5: 1893474 1903133 | 38722 29064 | 9660 9659 | 99.44 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 621
+			Real Alignment 6: 1903834 1911335 | 28984 21480 | 7502 7505 | 99.07 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 100
+			Real Alignment 7: 1911435 1917797 | 21480 15106 | 6363 6375 | 98.82 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 743
+			Real Alignment 8: 1918539 1918707 | 15107 14939 | 169 169 | 98.22 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -125
+			Real Alignment 9: 1918733 1927378 | 14788 6143 | 8646 8646 | 97.94 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+			  Extensive misassembly ( relocation, inconsistency = 1112 ) between these two alignments
+			Real Alignment 10: 1929030 1929381 | 5603 5252 | 352 352 | 96.31 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 192
+			Real Alignment 11: 1929800 1930326 | 5025 4499 | 527 527 | 97.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+			  Extensive misassembly ( relocation, inconsistency = 5101 ) between these two alignments
+			Real Alignment 12: 1936931 1939927 | 2995 1 | 2997 2995 | 98.03 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002391_1
+
+CONTIG: scf7180000002396_1 (105873bp)
+Top Length: 62889  Top ID: 99.37
+		Skipping redundant alignment 1443297 1443784 | 50008 49524 | 488 485 | 95.7 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+		Skipping redundant alignment 318662 318907 | 49541 49786 | 246 246 | 98.78 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+		Skipping redundant alignment 2478224 2478335 | 49541 49650 | 112 110 | 96.43 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+		Skipping redundant alignment 1804504 1805049 | 50086 49543 | 546 544 | 97.44 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+		Skipping redundant alignment 1892931 1893475 | 50086 49543 | 545 544 | 97.07 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+		Skipping redundant alignment 2317466 2318011 | 49543 50086 | 546 544 | 96.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+		Skipping redundant alignment 1426493 1426602 | 49544 49652 | 110 109 | 99.09 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+		Skipping redundant alignment 1910649 1910887 | 49547 49786 | 239 240 | 97.5 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+		Skipping redundant alignment 2431649 2431874 | 49560 49786 | 226 227 | 97.36 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+		Skipping redundant alignment 1205205 1205323 | 49769 49651 | 119 119 | 97.48 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+		Skipping redundant alignment 2478476 2478582 | 49676 49782 | 107 107 | 97.2 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+		Skipping redundant alignment 1426741 1426817 | 49676 49752 | 77 77 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+		Skipping redundant alignment 1910887 1911062 | 49911 50086 | 176 176 | 97.73 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+		Skipping redundant alignment 2866835 2866936 | 89814 89713 | 102 102 | 98.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+		This contig is misassembled. 20 total aligns.
+			Real Alignment 1: 1599736 1600068 | 1936 1604 | 333 333 | 95.51 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+			  Extensive misassembly ( relocation, inconsistency = 519870 ) between these two alignments
+			Real Alignment 2: 2020329 2083335 | 101213 38325 | 63007 62889 | 99.37 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 315
+			Real Alignment 3: 2083566 2111781 | 38409 10220 | 28216 28190 | 97.23 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 698
+			Real Alignment 4: 2114320 2117573 | 8379 5126 | 3254 3254 | 95.88 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 5: 2118284 2120815 | 4415 1884 | 2532 2532 | 96.48 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -167
+			Real Alignment 6: 2122116 2122531 | 416 1 | 416 416 | 99.28 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002396_1
+
+CONTIG: scf7180000002383_1 (123428bp)
+Top Length: 54768  Top ID: 99.3
+		Skipping redundant alignment 2580487 2580654 | 26878 26712 | 168 167 | 98.21 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+		Skipping redundant alignment 2866835 2866939 | 26770 26874 | 105 105 | 98.1 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+		Skipping redundant alignment 517045 518081 | 123428 122393 | 1037 1036 | 99.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+		Skipping redundant alignment 518095 518252 | 122635 122479 | 158 157 | 95.6 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+		Skipping redundant alignment 2176315 2177216 | 122527 123428 | 902 902 | 99.22 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+		Skipping redundant alignment 556088 556207 | 122776 122657 | 120 120 | 99.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+		Skipping redundant alignment 1998283 1999052 | 122659 123428 | 770 770 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+		Skipping redundant alignment 2292758 2293527 | 122659 123428 | 770 770 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+		This contig is misassembled. 18 total aligns.
+			Real Alignment 1: 561296 616005 | 123428 68661 | 54710 54768 | 99.3 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 2: 616447 618609 | 68219 66063 | 2163 2157 | 97.23 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 258
+			Real Alignment 3: 618532 654284 | 66398 30641 | 35753 35758 | 98.78 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+			  Extensive misassembly ( relocation, inconsistency = 6213 ) between these two alignments
+			Real Alignment 4: 663043 664265 | 28095 26873 | 1223 1223 | 97.87 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -235
+			Real Alignment 5: 664298 671529 | 26605 19371 | 7232 7235 | 99.52 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 120
+			Real Alignment 6: 671743 672565 | 19277 18456 | 823 822 | 97.33 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 66
+			Real Alignment 7: 672580 680917 | 18507 10229 | 8338 8279 | 98.73 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+			  Extensive misassembly ( relocation, inconsistency = 13357 ) between these two alignments
+			Real Alignment 8: 694272 704284 | 10231 219 | 10013 10013 | 99.47 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+			  Extensive misassembly ( relocation, inconsistency = 702821 ) between these two alignments
+			Real Alignment 9: 1380451 1380674 | 26873 26651 | 224 223 | 97.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+			  Extensive misassembly ( relocation, inconsistency = 588237 ) between these two alignments
+			Real Alignment 10: 1995561 1995778 | 1 218 | 218 218 | 98.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002383_1
+
+CONTIG: scf7180000002362_1 (1155bp)
+Top Length: 1142  Top ID: 98.86
+		This contig is partially unaligned. (1142 out of 1155)
+		Alignment: 739540 740681 | 1155 14 | 1142 1142 | 98.86 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002362_1
+		Unaligned bases: 1 to 13 (13)
+
+CONTIG: scf7180000002390_1 (982bp)
+Top Length: 982  Top ID: 99.59
+		Marking as insignificant: 1997493 1997575 | 523 442 | 83 82 | 98.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002390_1
+		Marking as insignificant: 556866 556949 | 446 528 | 84 83 | 98.81 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002390_1
+		Marking as insignificant: 2296083 2296432 | 347 1 | 350 347 | 98.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002390_1
+		Marking as insignificant: 2179773 2180122 | 347 1 | 350 347 | 98.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002390_1
+		Marking as insignificant: 514078 514427 | 1 347 | 350 347 | 98.29 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002390_1
+		Marking as insignificant: 558357 558790 | 1 431 | 434 431 | 98.16 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002390_1
+		Marking as insignificant: 514495 514950 | 527 982 | 456 456 | 99.78 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002390_1
+		One align captures most of this contig: 2001147 2002128 | 982 1 | 982 982 | 99.59 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002390_1
+
+CONTIG: scf7180000002399_1 (53435bp)
+Top Length: 16567  Top ID: 99.24
+		Skipping redundant alignment 2292600 2292754 | 20568 20722 | 155 155 | 99.35 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+		Skipping redundant alignment 24178 24249 | 20640 20569 | 72 72 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+		Skipping redundant alignment 1032797 1032877 | 20641 20721 | 81 81 | 98.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+		Skipping redundant alignment 2181532 2181615 | 20733 20816 | 84 84 | 97.62 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+		Skipping redundant alignment 1996383 1996460 | 20825 20902 | 78 78 | 98.72 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2290693][2290862] redundant alignment 2290693 2290862 | 53266 53435 | 170 170 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+		This contig is misassembled. 15 total aligns.
+			Real Alignment 1: 1940930 1945577 | 205 4852 | 4648 4648 | 98.71 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 877
+			Real Alignment 2: 1941603 1941981 | 1 379 | 379 379 | 95.51 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -892
+			Real Alignment 3: 1945917 1946682 | 5207 5971 | 766 765 | 97.78 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+			  Extensive misassembly ( relocation, inconsistency = 7532 ) between these two alignments
+			Real Alignment 4: 1956069 1960552 | 7826 12323 | 4484 4498 | 97.56 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+			  Extensive misassembly ( relocation, inconsistency = -7285 ) between these two alignments
+			Real Alignment 5: 1961324 1962418 | 20380 21478 | 1095 1099 | 95.91 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 71
+			Real Alignment 6: 1962572 1979136 | 21561 38127 | 16565 16567 | 99.24 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -156
+			Real Alignment 7: 1979052 1987343 | 38199 46483 | 8292 8285 | 98.99 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 234
+			Real Alignment 8: 1987428 1994266 | 46334 53174 | 6839 6841 | 99.18 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -91
+			Real Alignment 9: 1994267 1994436 | 53266 53435 | 170 170 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002399_1
+
+CONTIG: scf7180000002388_1 (39557bp)
+Top Length: 39557  Top ID: 99.47
+		Marking as insignificant: 2292515 2292593 | 864 942 | 79 79 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 1996633 1996711 | 774 852 | 79 79 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 2001596 2001683 | 205 293 | 88 89 | 97.75 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 562237 562333 | 38937 38841 | 97 97 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 2292758 2292875 | 954 1071 | 118 118 | 99.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 517697 517816 | 1071 952 | 120 120 | 98.33 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 2176445 2176564 | 952 1071 | 120 120 | 99.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 561948 562067 | 1071 952 | 120 120 | 99.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 2292758 2292929 | 39386 39557 | 172 172 | 98.84 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 1998283 1998454 | 39386 39557 | 172 172 | 98.84 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 2003326 2003524 | 1 200 | 199 200 | 99.5 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 2297630 2297830 | 1 202 | 201 202 | 99.01 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 2181320 2181520 | 1 202 | 201 202 | 99.5 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 512679 512880 | 202 1 | 202 202 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 2176315 2176618 | 39252 39557 | 304 306 | 98.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		Marking as insignificant: 561894 562235 | 39557 39216 | 342 342 | 98.83 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+		One align captures most of this contig: 517643 557159 | 39557 1 | 39517 39557 | 99.47 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002388_1
+
+CONTIG: scf7180000002379_1 (43848bp)
+Top Length: 17802  Top ID: 99.3
+		Skipping redundant alignment 512652 513664 | 1010 1 | 1013 1010 | 99.01 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002379_1
+		Skipping redundant alignment 556960 557943 | 983 1 | 984 983 | 99.9 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002379_1
+		Skipping redundant alignment 2180536 2181518 | 1 983 | 983 983 | 99.9 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002379_1
+		Skipping redundant alignment 2296846 2297828 | 1 983 | 983 983 | 99.9 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002379_1
+		This contig is partially unaligned. (17802 out of 43848)
+		Alignment: 2002542 2020344 | 1 17802 | 17803 17802 | 99.3 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002379_1
+		Unaligned bases: 17803 to 43848 (26046)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scf7180000002377_1 (1185bp)
+Top Length: 835  Top ID: 99.88
+		Skipping redundant alignment 2001384 2001602 | 1 219 | 219 219 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002377_1
+		Skipping redundant alignment 2179578 2179747 | 76 245 | 170 170 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002377_1
+		Skipping redundant alignment 2295888 2296057 | 76 245 | 170 170 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002377_1
+		Skipping redundant alignment 558792 558935 | 219 76 | 144 144 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002377_1
+		Skipping redundant alignment 513634 514456 | 1185 363 | 823 823 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002377_1
+		Skipping redundant alignment 2001782 2002572 | 392 1185 | 791 794 | 99.24 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002377_1
+		Skipping redundant alignment 557913 558705 | 1185 393 | 793 793 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002377_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2296042][2296876] redundant alignment 2296042 2296876 | 351 1185 | 835 835 | 99.88 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002377_1
+		This contig is misassembled. 10 total aligns.
+			Real Alignment 1: 514455 514713 | 259 1 | 259 259 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002377_1
+			  Extensive misassembly ( relocation, inconsistency = 1665369 ) between these two alignments
+			Real Alignment 2: 2179732 2180566 | 351 1185 | 835 835 | 99.88 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002377_1
+
+CONTIG: scf7180000002378_1 (28977bp)
+Top Length: 250  Top ID: 96.4
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 28977 and total length of all aligns is 357
+		Alignment: 1592074 1592189 | 24242 24357 | 116 116 | 98.28 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002378_1
+		Alignment: 1592564 1592813 | 24349 24598 | 250 250 | 96.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002378_1
+		Unaligned bases: 28620
+CONTIG: scf7180000002376_1 (1367bp)
+Top Length: 234  Top ID: 97.44
+		This contig is partially unaligned. (234 out of 1367)
+		Alignment: 2122104 2122337 | 1134 1367 | 234 234 | 97.44 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002376_1
+		Unaligned bases: 1 to 1133 (1133)
+
+CONTIG: scf7180000002375_1 (4712bp)
+Top Length: 3209  Top ID: 99.35
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2290693][2292196] redundant alignment 2290693 2292196 | 1503 1 | 1504 1503 | 99.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002375_1
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 737473 740681 | 1504 4712 | 3209 3209 | 99.35 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002375_1
+			  Extensive misassembly ( relocation, inconsistency = 1256795 ) between these two alignments
+			Real Alignment 2: 1994267 1995769 | 1503 1 | 1503 1503 | 99.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002375_1
+
+CONTIG: scf7180000002373_1 (3332bp)
+		This contig is unaligned. (3332 bp)
+		Unaligned bases: 3332  total: 6532
+
+CONTIG: scf7180000002372_1 (25961bp)
+Top Length: 503  Top ID: 95.63
+		This contig is partially unaligned. (503 out of 25961)
+		Alignment: 1592071 1592573 | 1812 1310 | 503 503 | 95.63 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002372_1
+		Unaligned bases: 1 to 1309 (1309)
+		Unaligned bases: 1813 to 25961 (24149)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scf7180000002368_1 (17983bp)
+Top Length: 4603  Top ID: 99.91
+		Skipping redundant alignment 20852 21127 | 17983 17708 | 276 276 | 97.83 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002368_1
+		Skipping redundant alignment 12451 12725 | 17709 17983 | 275 275 | 98.91 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002368_1
+		Skipping redundant alignment 76159 76432 | 17709 17983 | 274 275 | 98.18 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002368_1
+		Skipping redundant alignment 16843 17117 | 17983 17709 | 275 275 | 97.82 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002368_1
+		This contig is misassembled. 6 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 17983 and total length of all aligns is 4878
+		Alignment: 36333 36608 | 17983 17708 | 276 276 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002368_1
+		Alignment: 37605 42207 | 17708 13106 | 4603 4603 | 99.91 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002368_1
+		Unaligned bases: 13105
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000002400_1 (174868bp)
+Top Length: 62349  Top ID: 99.3
+		Skipping redundant alignment 1380452 1380628 | 22649 22824 | 177 176 | 96.61 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 1469937 1470113 | 22824 22649 | 177 176 | 96.61 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 2580494 2580656 | 22649 22812 | 163 164 | 98.78 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 2866835 2866937 | 22751 22649 | 103 103 | 99.03 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 169803 170071 | 22650 22918 | 269 269 | 95.54 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 1098024 1098282 | 22914 22657 | 259 258 | 96.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 800990 801084 | 22751 22657 | 95 95 | 97.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 2031611 2031726 | 66030 65915 | 116 116 | 97.41 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 2664854 2665075 | 66369 66148 | 222 222 | 96.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 1469788 1469893 | 112212 112317 | 106 106 | 98.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 1380672 1380776 | 112317 112213 | 105 105 | 99.05 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 2866828 2866932 | 112323 112427 | 105 105 | 99.05 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 1380457 1380554 | 112427 112330 | 98 98 | 98.98 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 1470011 1470108 | 112330 112427 | 98 98 | 98.98 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 1098188 1098282 | 112330 112424 | 95 95 | 97.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 848452 848522 | 112525 112595 | 71 71 | 98.59 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 1098130 1098291 | 113544 113383 | 162 162 | 98.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 2580502 2580663 | 113392 113553 | 162 162 | 98.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 891739 891894 | 113546 113392 | 156 155 | 98.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 1380460 1380612 | 113392 113544 | 153 153 | 97.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 1469953 1470105 | 113544 113392 | 153 153 | 97.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 2866835 2866928 | 113486 113393 | 94 94 | 97.87 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignment 1695023 1695127 | 113591 113487 | 105 105 | 98.1 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [671532][671745] redundant alignment 671532 671745 | 112424 112211 | 214 214 | 97.2 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+		This contig is misassembled. 37 total aligns.
+			Real Alignment 1: 739540 801957 | 174868 112520 | 62418 62349 | 99.3 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+			  Extensive misassembly ( relocation, inconsistency = -1391 ) between these two alignments
+			Real Alignment 2: 800873 801084 | 112213 112424 | 212 212 | 98.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 3: 801878 801988 | 112542 112432 | 111 111 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -199
+			Real Alignment 4: 802012 811238 | 112209 102983 | 9227 9227 | 99.72 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 333
+			Real Alignment 5: 811672 826264 | 102882 88293 | 14593 14590 | 99.69 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 4
+			Real Alignment 6: 826385 855685 | 88176 58877 | 29301 29300 | 99.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+			  Extensive misassembly ( relocation, inconsistency = -43669 ) between these two alignments
+			Real Alignment 7: 848249 848469 | 22644 22425 | 221 220 | 95.02 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+			  Extensive misassembly ( relocation, inconsistency = 43616 ) between these two alignments
+			Real Alignment 8: 855779 876227 | 58731 38350 | 20449 20382 | 97.54 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 24
+			Real Alignment 9: 877141 879445 | 37460 35154 | 2305 2307 | 98.53 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -51
+			Real Alignment 10: 879815 892071 | 34733 22481 | 12257 12253 | 99.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -56
+			Real Alignment 11: 892002 895801 | 22494 18695 | 3800 3800 | 99.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+			  Extensive misassembly ( relocation, inconsistency = 13956 ) between these two alignments
+			Real Alignment 12: 909741 917305 | 18711 11146 | 7565 7566 | 99.46 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+			  Extensive misassembly ( relocation, inconsistency = 675624 ) between these two alignments
+			Real Alignment 13: 1599735 1600074 | 4340 4680 | 340 341 | 96.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002400_1
+
+CONTIG: scf7180000002401_1 (449789bp)
+Top Length: 52490  Top ID: 97.72
+		Skipping redundant alignment 61638 62357 | 15473 16193 | 720 721 | 96.95 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 91221 91685 | 41126 41590 | 465 465 | 96.13 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 2254650 2255301 | 99202 98550 | 652 653 | 98.47 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 1380452 1380612 | 133748 133908 | 161 161 | 98.76 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 1469953 1470113 | 133908 133748 | 161 161 | 98.76 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 2866835 2866937 | 133850 133748 | 103 103 | 99.03 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 169803 169964 | 133749 133910 | 162 162 | 95.68 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 1098130 1098282 | 133908 133756 | 153 153 | 97.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 1071860 1071932 | 332281 332209 | 73 73 | 98.63 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 1937504 1939251 | 395386 393639 | 1748 1748 | 95.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 1936901 1937073 | 395977 395805 | 173 173 | 95.38 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 1997198 1997291 | 439751 439658 | 94 94 | 98.94 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 2002542 2003551 | 449789 448776 | 1010 1014 | 99.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 2180536 2181521 | 449789 448803 | 986 987 | 99.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 2296846 2297831 | 449789 448803 | 986 987 | 99.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignment 556958 557943 | 448804 449789 | 986 986 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2580494][2580663] redundant alignment 2580494 2580663 | 133748 133917 | 170 170 | 98.82 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+		This contig is misassembled. 39 total aligns.
+			Real Alignment 1: 62357 62619 | 16483 16744 | 263 262 | 96.59 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Extensive misassembly ( relocation, inconsistency = 5358 ) between these two alignments
+			Real Alignment 2: 67739 68780 | 16506 15474 | 1042 1033 | 95.97 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Extensive misassembly ( relocation, inconsistency = 36955 ) between these two alignments
+			Real Alignment 3: 88806 91591 | 32403 35189 | 2786 2787 | 99.18 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -178
+			Real Alignment 4: 91620 99202 | 35396 42977 | 7583 7582 | 99.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Extensive misassembly ( relocation, inconsistency = 4755 ) between these two alignments
+			Real Alignment 5: 103950 111284 | 42970 50299 | 7335 7330 | 97.72 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -822
+			Real Alignment 6: 110128 145766 | 49965 85634 | 35639 35670 | 97.78 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 457
+			Real Alignment 7: 146188 168090 | 85599 107480 | 21903 21882 | 99.16 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Extensive misassembly ( relocation, inconsistency = -1818 ) between these two alignments
+			Real Alignment 8: 168106 168377 | 109314 109585 | 272 272 | 98.53 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Extensive misassembly ( relocation, inconsistency = 2396 ) between these two alignments
+			Real Alignment 9: 170766 194937 | 109578 133747 | 24172 24170 | 99.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -176
+			Real Alignment 10: 194969 231676 | 133955 170658 | 36708 36704 | 99.3 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Extensive misassembly ( relocation, inconsistency = -4792 ) between these two alignments
+			Real Alignment 11: 234630 266396 | 178404 210170 | 31767 31767 | 98.79 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -147
+			Real Alignment 12: 267814 318663 | 211735 262509 | 50850 50775 | 99.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 545
+			Real Alignment 13: 319231 327777 | 262532 271078 | 8547 8547 | 98.92 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Extensive misassembly ( relocation, inconsistency = 1357 ) between these two alignments
+			Real Alignment 14: 329175 347216 | 271119 289152 | 18042 18034 | 97.72 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Extensive misassembly ( relocation, inconsistency = 4521 ) between these two alignments
+			Real Alignment 15: 351321 381134 | 288736 318551 | 29814 29816 | 98.54 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -1
+			Real Alignment 16: 381252 394910 | 318670 332333 | 13659 13664 | 98.43 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 109
+			Real Alignment 17: 395019 399730 | 332333 337043 | 4712 4711 | 97.98 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -149
+			Real Alignment 18: 399760 452229 | 337222 389711 | 52470 52490 | 97.72 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Extensive misassembly ( relocation, inconsistency = 1117 ) between these two alignments
+			Real Alignment 19: 452964 460676 | 389329 397034 | 7713 7706 | 96.92 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Extensive misassembly ( relocation, inconsistency = -5093 ) between these two alignments
+			Real Alignment 20: 466103 466777 | 407554 408228 | 675 675 | 96.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Extensive misassembly ( relocation, inconsistency = 5251 ) between these two alignments
+			Real Alignment 21: 472196 513664 | 408396 449789 | 41469 41394 | 98.68 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+			  Extensive misassembly ( relocation, inconsistency = 693954 ) between these two alignments
+			Real Alignment 22: 891739 891903 | 133910 133747 | 165 164 | 99.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002401_1
+
+CONTIG: scf7180000002369_1 (751bp)
+Top Length: 751  Top ID: 100.0
+		Marking as insignificant: 20366 21116 | 751 1 | 751 751 | 97.47 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002369_1
+		Marking as insignificant: 16357 17107 | 751 1 | 751 751 | 98.14 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002369_1
+		Marking as insignificant: 76169 76918 | 1 751 | 750 751 | 98.67 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002369_1
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 35847 36597 | 751 1 | 751 751 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002369_1
+		Skipping alignment  12461 13211 | 1 751 | 751 751 | 99.2 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence scf7180000002369_1
+
+CONTIG: scf7180000002371_1 (4876bp)
+		This contig is unaligned. (4876 bp)
+		Unaligned bases: 4876  total: 11408
+
+CONTIG: scf7180000002352_1 (34790bp)
+Top Length: 32452  Top ID: 99.57
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2290692][2292196] redundant alignment 2290692 2292196 | 33287 34790 | 1505 1504 | 99.07 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002352_1
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 704277 705084 | 33287 32480 | 808 808 | 99.26 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002352_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 133
+			Real Alignment 2: 705027 737480 | 32670 219 | 32454 32452 | 99.57 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002352_1
+			  Extensive misassembly ( relocation, inconsistency = 1289852 ) between these two alignments
+			Real Alignment 3: 1994265 1995769 | 33286 34790 | 1505 1505 | 99.07 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002352_1
+			  Extensive misassembly ( relocation, inconsistency = 34581 ) between these two alignments
+			Real Alignment 4: 1995561 1995778 | 1 218 | 218 218 | 98.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome scf7180000002352_1
+
+Analyzing coverage...
+Writing SNPs into /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2340/dataset_2422_files/Scaffold/contigs_reports/nucmer_output/SA-H-Msrca-Scaffold_broken.used_snps
+ERROR: Reference [$ref] does not have any alignments!  Check that this is the same file used for alignment.
+ERROR: Alignment Reference Headers: ['gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome']
+	Reference gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome: 187 total alignments. 1 total regions.
+		Region: 1 to 2872915 (2872915 bp)
+			Align 1: 1 35817 scf7180000002392_1 37101 1278
+				Next Alignment: 35818 36516 scf7180000002392_1 699 1
+
+			Align 2: 35818 36516 scf7180000002392_1 699 1
+				Negative gap (overlap) between this and next alignment: 36516 to 35847 (-669 bp)
+				Next Alignment: 35847 36597 scf7180000002369_1 751 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 751 to 81.
+			Align 3: 36517 36597 scf7180000002369_1 81 1
+				Gap between this and next alignment: 36597 to 62357 (25759 bp)
+				Next Alignment: 62357 62619 scf7180000002401_1 16483 16744
+
+			Align 4: 62357 62619 scf7180000002401_1 16483 16744
+				Gap between this and next alignment: 62619 to 67739 (5119 bp)
+				Next Alignment: 67739 68780 scf7180000002401_1 16506 15474
+
+			Align 5: 67739 68780 scf7180000002401_1 16506 15474
+				Gap between this and next alignment: 68780 to 88806 (20025 bp)
+				Next Alignment: 88806 91591 scf7180000002401_1 32403 35189
+
+			Align 6: 88806 91591 scf7180000002401_1 32403 35189
+				Gap between this and next alignment: 91591 to 91620 (28 bp)
+				Next Alignment: 91620 99202 scf7180000002401_1 35396 42977
+
+			Align 7: 91620 99202 scf7180000002401_1 35396 42977
+				Gap between this and next alignment: 99202 to 103950 (4747 bp)
+				Next Alignment: 103950 111284 scf7180000002401_1 42970 50299
+
+			Align 8: 103950 111284 scf7180000002401_1 42970 50299
+				Negative gap (overlap) between this and next alignment: 111284 to 110128 (-1156 bp)
+				Next Alignment: 110128 145766 scf7180000002401_1 49965 85634
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 49965 to 51135.
+			Align 9: 111285 145766 scf7180000002401_1 51135 85634
+				Gap between this and next alignment: 145766 to 146188 (421 bp)
+				Next Alignment: 146188 168090 scf7180000002401_1 85599 107480
+
+			Align 10: 146188 168090 scf7180000002401_1 85599 107480
+				Gap between this and next alignment: 168090 to 168106 (15 bp)
+				Next Alignment: 168106 168377 scf7180000002401_1 109314 109585
+
+			Align 11: 168106 168377 scf7180000002401_1 109314 109585
+				Gap between this and next alignment: 168377 to 170766 (2388 bp)
+				Next Alignment: 170766 194937 scf7180000002401_1 109578 133747
+
+			Align 12: 170766 194937 scf7180000002401_1 109578 133747
+				Gap between this and next alignment: 194937 to 194969 (31 bp)
+				Next Alignment: 194969 231676 scf7180000002401_1 133955 170658
+
+			Align 13: 194969 231676 scf7180000002401_1 133955 170658
+				Gap between this and next alignment: 231676 to 234630 (2953 bp)
+				Next Alignment: 234630 266396 scf7180000002401_1 178404 210170
+
+			Align 14: 234630 266396 scf7180000002401_1 178404 210170
+				Gap between this and next alignment: 266396 to 267814 (1417 bp)
+				Next Alignment: 267814 318663 scf7180000002401_1 211735 262509
+
+			Align 15: 267814 318663 scf7180000002401_1 211735 262509
+				Gap between this and next alignment: 318663 to 319231 (567 bp)
+				Next Alignment: 319231 327777 scf7180000002401_1 262532 271078
+
+			Align 16: 319231 327777 scf7180000002401_1 262532 271078
+				Gap between this and next alignment: 327777 to 329175 (1397 bp)
+				Next Alignment: 329175 347216 scf7180000002401_1 271119 289152
+
+			Align 17: 329175 347216 scf7180000002401_1 271119 289152
+				Gap between this and next alignment: 347216 to 351321 (4104 bp)
+				Next Alignment: 351321 381134 scf7180000002401_1 288736 318551
+
+			Align 18: 351321 381134 scf7180000002401_1 288736 318551
+				Gap between this and next alignment: 381134 to 381252 (117 bp)
+				Next Alignment: 381252 394910 scf7180000002401_1 318670 332333
+
+			Align 19: 381252 394910 scf7180000002401_1 318670 332333
+				Gap between this and next alignment: 394910 to 395019 (108 bp)
+				Next Alignment: 395019 399730 scf7180000002401_1 332333 337043
+
+			Align 20: 395019 399730 scf7180000002401_1 332333 337043
+				Gap between this and next alignment: 399730 to 399760 (29 bp)
+				Next Alignment: 399760 452229 scf7180000002401_1 337222 389711
+
+			Align 21: 399760 452229 scf7180000002401_1 337222 389711
+				Gap between this and next alignment: 452229 to 452964 (734 bp)
+				Next Alignment: 452964 460676 scf7180000002401_1 389329 397034
+
+			Align 22: 452964 460676 scf7180000002401_1 389329 397034
+				Gap between this and next alignment: 460676 to 466103 (5426 bp)
+				Next Alignment: 466103 466777 scf7180000002401_1 407554 408228
+
+			Align 23: 466103 466777 scf7180000002401_1 407554 408228
+				Gap between this and next alignment: 466777 to 472196 (5418 bp)
+				Next Alignment: 472196 513664 scf7180000002401_1 408396 449789
+
+			Align 24: 472196 513664 scf7180000002401_1 408396 449789
+				The next alignment (512620 513664 scf7180000002366_1 1045 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 513664 to 513634 (-30 bp)
+				Next Alignment: 513634 514693 scf7180000002398_1 1 1060
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 32.
+			Align 26: 513665 514693 scf7180000002398_1 32 1060
+				Negative gap (overlap) between this and next alignment: 514693 to 514455 (-238 bp)
+				Next Alignment: 514455 514713 scf7180000002377_1 259 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 259 to 20.
+			Align 27: 514694 514713 scf7180000002377_1 20 1
+				Gap between this and next alignment: 514713 to 517045 (2331 bp)
+				Next Alignment: 517045 517814 scf7180000002366_1 1860 1091
+
+			Align 28: 517045 517814 scf7180000002366_1 1860 1091
+				Negative gap (overlap) between this and next alignment: 517814 to 517643 (-171 bp)
+				Next Alignment: 517643 557159 scf7180000002388_1 39557 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 39557 to 39385.
+			Align 29: 517815 557159 scf7180000002388_1 39385 1
+				Gap between this and next alignment: 557159 to 558502 (1342 bp)
+				Next Alignment: 558502 559173 scf7180000002397_1 1 672
+
+			Align 30: 558502 559173 scf7180000002397_1 1 672
+				Gap between this and next alignment: 559173 to 561296 (2122 bp)
+				Next Alignment: 561296 616005 scf7180000002383_1 123428 68661
+
+			Align 31: 561296 616005 scf7180000002383_1 123428 68661
+				Gap between this and next alignment: 616005 to 616447 (441 bp)
+				Next Alignment: 616447 618609 scf7180000002383_1 68219 66063
+
+			Align 32: 616447 618609 scf7180000002383_1 68219 66063
+				Negative gap (overlap) between this and next alignment: 618609 to 618532 (-77 bp)
+				Next Alignment: 618532 654284 scf7180000002383_1 66398 30641
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 66398 to 66320.
+			Align 33: 618610 654284 scf7180000002383_1 66320 30641
+				Gap between this and next alignment: 654284 to 663043 (8758 bp)
+				Next Alignment: 663043 664265 scf7180000002383_1 28095 26873
+
+			Align 34: 663043 664265 scf7180000002383_1 28095 26873
+				Gap between this and next alignment: 664265 to 664298 (32 bp)
+				Next Alignment: 664298 671529 scf7180000002383_1 26605 19371
+
+			Align 35: 664298 671529 scf7180000002383_1 26605 19371
+				Gap between this and next alignment: 671529 to 671743 (213 bp)
+				Next Alignment: 671743 672565 scf7180000002383_1 19277 18456
+
+			Align 36: 671743 672565 scf7180000002383_1 19277 18456
+				Gap between this and next alignment: 672565 to 672580 (14 bp)
+				Next Alignment: 672580 680917 scf7180000002383_1 18507 10229
+
+			Align 37: 672580 680917 scf7180000002383_1 18507 10229
+				Gap between this and next alignment: 680917 to 694272 (13354 bp)
+				Next Alignment: 694272 704284 scf7180000002383_1 10231 219
+
+			Align 38: 694272 704284 scf7180000002383_1 10231 219
+				Negative gap (overlap) between this and next alignment: 704284 to 704277 (-7 bp)
+				Next Alignment: 704277 705084 scf7180000002352_1 33287 32480
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 33287 to 33279.
+			Align 39: 704285 705084 scf7180000002352_1 33279 32480
+				Negative gap (overlap) between this and next alignment: 705084 to 705027 (-57 bp)
+				Next Alignment: 705027 737480 scf7180000002352_1 32670 219
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 32670 to 32612.
+			Align 40: 705085 737480 scf7180000002352_1 32612 219
+				Negative gap (overlap) between this and next alignment: 737480 to 737473 (-7 bp)
+				Next Alignment: 737473 740681 scf7180000002375_1 1504 4712
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1504 to 1512.
+			Align 41: 737481 740681 scf7180000002375_1 1512 4712
+				The next alignment (739540 740681 scf7180000002362_1 1155 14) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 740681 to 739540 (-1141 bp)
+				Next Alignment: 739540 801957 scf7180000002400_1 174868 112520
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 174868 to 173726.
+			Align 43: 740682 801957 scf7180000002400_1 173726 112520
+				The next alignment (800873 801084 scf7180000002400_1 112213 112424) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 801957 to 801878 (-79 bp)
+				Next Alignment: 801878 801988 scf7180000002400_1 112542 112432
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 112542 to 112463.
+			Align 45: 801958 801988 scf7180000002400_1 112463 112432
+				Gap between this and next alignment: 801988 to 802012 (23 bp)
+				Next Alignment: 802012 811238 scf7180000002400_1 112209 102983
+
+			Align 46: 802012 811238 scf7180000002400_1 112209 102983
+				Gap between this and next alignment: 811238 to 811672 (433 bp)
+				Next Alignment: 811672 826264 scf7180000002400_1 102882 88293
+
+			Align 47: 811672 826264 scf7180000002400_1 102882 88293
+				Gap between this and next alignment: 826264 to 826385 (120 bp)
+				Next Alignment: 826385 855685 scf7180000002400_1 88176 58877
+
+			Align 48: 826385 855685 scf7180000002400_1 88176 58877
+				The next alignment (848249 848469 scf7180000002400_1 22644 22425) is redundant. Skipping.
+				Gap between this and next alignment: 855685 to 855779 (93 bp)
+				Next Alignment: 855779 876227 scf7180000002400_1 58731 38350
+
+			Align 50: 855779 876227 scf7180000002400_1 58731 38350
+				Gap between this and next alignment: 876227 to 877141 (913 bp)
+				Next Alignment: 877141 879445 scf7180000002400_1 37460 35154
+
+			Align 51: 877141 879445 scf7180000002400_1 37460 35154
+				Gap between this and next alignment: 879445 to 879815 (369 bp)
+				Next Alignment: 879815 892071 scf7180000002400_1 34733 22481
+
+			Align 52: 879815 892071 scf7180000002400_1 34733 22481
+				The next alignment (891724 891906 scf7180000002382_1 30993 30813) is redundant. Skipping.
+				The next alignment (891739 891903 scf7180000002401_1 133910 133747) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 892071 to 892002 (-69 bp)
+				Next Alignment: 892002 895801 scf7180000002400_1 22494 18695
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 22494 to 22425.
+			Align 55: 892072 895801 scf7180000002400_1 22425 18695
+				Gap between this and next alignment: 895801 to 909741 (13939 bp)
+				Next Alignment: 909741 917305 scf7180000002400_1 18711 11146
+
+			Align 56: 909741 917305 scf7180000002400_1 18711 11146
+				Negative gap (overlap) between this and next alignment: 917305 to 917216 (-89 bp)
+				Next Alignment: 917216 920552 scf7180000002374_1 2277 5616
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2277 to 2367.
+			Align 57: 917306 920552 scf7180000002374_1 2367 5616
+				Negative gap (overlap) between this and next alignment: 920552 to 920460 (-92 bp)
+				Next Alignment: 920460 925218 scf7180000002374_1 5695 10453
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5695 to 5789.
+			Align 58: 920553 925218 scf7180000002374_1 5789 10453
+				Negative gap (overlap) between this and next alignment: 925218 to 925211 (-7 bp)
+				Next Alignment: 925211 954544 scf7180000002382_1 1469 30801
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1469 to 1477.
+			Align 59: 925219 954544 scf7180000002382_1 1477 30801
+				Gap between this and next alignment: 954544 to 954747 (202 bp)
+				Next Alignment: 954747 1040785 scf7180000002382_1 31028 117068
+
+			Align 60: 954747 1040785 scf7180000002382_1 31028 117068
+				Gap between this and next alignment: 1040785 to 1042574 (1788 bp)
+				Next Alignment: 1042574 1088256 scf7180000002382_1 117082 162827
+
+			Align 61: 1042574 1088256 scf7180000002382_1 117082 162827
+				The next alignment (1072168 1072332 scf7180000002392_1 315480 315644) is redundant. Skipping.
+				The next alignment (1072168 1072331 scf7180000002382_1 172784 172947) is redundant. Skipping.
+				The next alignment (1072262 1072333 scf7180000002392_1 209892 209963) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1088256 to 1088126 (-130 bp)
+				Next Alignment: 1088126 1098076 scf7180000002382_1 162886 172836
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 162886 to 163017.
+			Align 65: 1088257 1098076 scf7180000002382_1 163017 172836
+				Gap between this and next alignment: 1098076 to 1098188 (111 bp)
+				Next Alignment: 1098188 1149567 scf7180000002382_1 172845 224221
+
+			Align 66: 1098188 1149567 scf7180000002382_1 172845 224221
+				Negative gap (overlap) between this and next alignment: 1149567 to 1149486 (-81 bp)
+				Next Alignment: 1149486 1168632 scf7180000002382_1 224401 243542
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 224401 to 224483.
+			Align 67: 1149568 1168632 scf7180000002382_1 224483 243542
+				Negative gap (overlap) between this and next alignment: 1168632 to 1168463 (-169 bp)
+				Next Alignment: 1168463 1170237 scf7180000002382_1 243486 245260
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 243486 to 243656.
+			Align 68: 1168633 1170237 scf7180000002382_1 243656 245260
+				Negative gap (overlap) between this and next alignment: 1170237 to 1170229 (-8 bp)
+				Next Alignment: 1170229 1245347 scf7180000002393_1 1469 76629
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1469 to 1478.
+			Align 69: 1170238 1245347 scf7180000002393_1 1478 76629
+				Negative gap (overlap) between this and next alignment: 1245347 to 1245319 (-28 bp)
+				Next Alignment: 1245319 1342913 scf7180000002393_1 76793 174340
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 76793 to 76822.
+			Align 70: 1245348 1342913 scf7180000002393_1 76822 174340
+				Gap between this and next alignment: 1342913 to 1345212 (2298 bp)
+				Next Alignment: 1345212 1380725 scf7180000002393_1 174362 209875
+
+			Align 71: 1345212 1380725 scf7180000002393_1 174362 209875
+				The next alignment (1380451 1380674 scf7180000002383_1 26873 26651) is redundant. Skipping.
+				The next alignment (1380452 1380668 scf7180000002394_1 58008 57793) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1380725 to 1380716 (-9 bp)
+				Next Alignment: 1380716 1392397 scf7180000002393_1 209922 221603
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 209922 to 209932.
+			Align 74: 1380726 1392397 scf7180000002393_1 209932 221603
+				Negative gap (overlap) between this and next alignment: 1392397 to 1392390 (-7 bp)
+				Next Alignment: 1392390 1413595 scf7180000002394_1 326542 305338
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 326542 to 326534.
+			Align 75: 1392398 1413595 scf7180000002394_1 326534 305338
+				Gap between this and next alignment: 1413595 to 1414052 (456 bp)
+				Next Alignment: 1414052 1430184 scf7180000002394_1 304303 288170
+
+			Align 76: 1414052 1430184 scf7180000002394_1 304303 288170
+				The next alignment (1426493 1426681 scf7180000002394_1 288167 287979) is redundant. Skipping.
+				Gap between this and next alignment: 1430184 to 1430212 (27 bp)
+				Next Alignment: 1430212 1442791 scf7180000002394_1 287940 275361
+
+			Align 78: 1430212 1442791 scf7180000002394_1 287940 275361
+				Gap between this and next alignment: 1442791 to 1443765 (973 bp)
+				Next Alignment: 1443765 1456996 scf7180000002394_1 275327 262094
+
+			Align 79: 1443765 1456996 scf7180000002394_1 275327 262094
+				Gap between this and next alignment: 1456996 to 1457737 (740 bp)
+				Next Alignment: 1457737 1473202 scf7180000002394_1 262096 246573
+
+			Align 80: 1457737 1473202 scf7180000002394_1 262096 246573
+				The next alignment (1469788 1469951 scf7180000002384_1 163739 163576) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1473202 to 1472732 (-470 bp)
+				Next Alignment: 1472732 1476019 scf7180000002394_1 246812 243525
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 246812 to 246341.
+			Align 82: 1473203 1476019 scf7180000002394_1 246341 243525
+				Negative gap (overlap) between this and next alignment: 1476019 to 1475980 (-39 bp)
+				Next Alignment: 1475980 1556282 scf7180000002394_1 243186 162882
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 243186 to 243146.
+			Align 83: 1476020 1556282 scf7180000002394_1 243146 162882
+				Gap between this and next alignment: 1556282 to 1557579 (1296 bp)
+				Next Alignment: 1557579 1558513 scf7180000002386_1 3370 4304
+
+			Align 84: 1557579 1558513 scf7180000002386_1 3370 4304
+				The next alignment (1558332 1558513 scf7180000002386_1 1 182) is redundant. Skipping.
+				Gap between this and next alignment: 1558513 to 1592071 (33557 bp)
+				Next Alignment: 1592071 1592573 scf7180000002372_1 1812 1310
+
+			Align 86: 1592071 1592573 scf7180000002372_1 1812 1310
+				Gap between this and next alignment: 1592573 to 1599735 (7161 bp)
+				Next Alignment: 1599735 1600074 scf7180000002400_1 4340 4680
+
+			Align 87: 1599735 1600074 scf7180000002400_1 4340 4680
+				The next alignment (1599736 1600068 scf7180000002396_1 1936 1604) is redundant. Skipping.
+				Gap between this and next alignment: 1600074 to 1605969 (5894 bp)
+				Next Alignment: 1605969 1607515 scf7180000002386_1 1492 3039
+
+			Align 89: 1605969 1607515 scf7180000002386_1 1492 3039
+				Gap between this and next alignment: 1607515 to 1607607 (91 bp)
+				Next Alignment: 1607607 1626987 scf7180000002394_1 161737 142365
+
+			Align 90: 1607607 1626987 scf7180000002394_1 161737 142365
+				Gap between this and next alignment: 1626987 to 1627060 (72 bp)
+				Next Alignment: 1627060 1709553 scf7180000002394_1 140511 58009
+
+			Align 91: 1627060 1709553 scf7180000002394_1 140511 58009
+				The next alignment (1680909 1681438 scf7180000002357_1 21 550) is redundant. Skipping.
+				Gap between this and next alignment: 1709553 to 1709584 (30 bp)
+				Next Alignment: 1709584 1729093 scf7180000002394_1 57628 38118
+
+			Align 93: 1709584 1729093 scf7180000002394_1 57628 38118
+				Negative gap (overlap) between this and next alignment: 1729093 to 1729037 (-56 bp)
+				Next Alignment: 1729037 1760271 scf7180000002394_1 37941 6640
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 37941 to 37884.
+			Align 94: 1729094 1760271 scf7180000002394_1 37884 6640
+				Negative gap (overlap) between this and next alignment: 1760271 to 1760266 (-5 bp)
+				Next Alignment: 1760266 1803040 scf7180000002391_1 168714 125939
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 168714 to 168708.
+			Align 95: 1760272 1803040 scf7180000002391_1 168708 125939
+				Gap between this and next alignment: 1803040 to 1805051 (2010 bp)
+				Next Alignment: 1805051 1873611 scf7180000002391_1 125905 57275
+
+			Align 96: 1805051 1873611 scf7180000002391_1 125905 57275
+				Gap between this and next alignment: 1873611 to 1873756 (144 bp)
+				Next Alignment: 1873756 1873889 scf7180000002391_1 57303 57170
+
+			Align 97: 1873756 1873889 scf7180000002391_1 57303 57170
+				Gap between this and next alignment: 1873889 to 1873924 (34 bp)
+				Next Alignment: 1873924 1874048 scf7180000002392_1 192349 192225
+
+			Align 98: 1873924 1874048 scf7180000002392_1 192349 192225
+				Next Alignment: 1874049 1892471 scf7180000002391_1 57143 38719
+
+			Align 99: 1874049 1892471 scf7180000002391_1 57143 38719
+				Gap between this and next alignment: 1892471 to 1893474 (1002 bp)
+				Next Alignment: 1893474 1903133 scf7180000002391_1 38722 29064
+
+			Align 100: 1893474 1903133 scf7180000002391_1 38722 29064
+				Gap between this and next alignment: 1903133 to 1903834 (700 bp)
+				Next Alignment: 1903834 1911335 scf7180000002391_1 28984 21480
+
+			Align 101: 1903834 1911335 scf7180000002391_1 28984 21480
+				Gap between this and next alignment: 1911335 to 1911435 (99 bp)
+				Next Alignment: 1911435 1917797 scf7180000002391_1 21480 15106
+
+			Align 102: 1911435 1917797 scf7180000002391_1 21480 15106
+				Gap between this and next alignment: 1917797 to 1918539 (741 bp)
+				Next Alignment: 1918539 1918707 scf7180000002391_1 15107 14939
+
+			Align 103: 1918539 1918707 scf7180000002391_1 15107 14939
+				Gap between this and next alignment: 1918707 to 1918733 (25 bp)
+				Next Alignment: 1918733 1927378 scf7180000002391_1 14788 6143
+
+			Align 104: 1918733 1927378 scf7180000002391_1 14788 6143
+				Gap between this and next alignment: 1927378 to 1929030 (1651 bp)
+				Next Alignment: 1929030 1929381 scf7180000002391_1 5603 5252
+
+			Align 105: 1929030 1929381 scf7180000002391_1 5603 5252
+				Gap between this and next alignment: 1929381 to 1929800 (418 bp)
+				Next Alignment: 1929800 1930326 scf7180000002391_1 5025 4499
+
+			Align 106: 1929800 1930326 scf7180000002391_1 5025 4499
+				Gap between this and next alignment: 1930326 to 1936931 (6604 bp)
+				Next Alignment: 1936931 1939927 scf7180000002391_1 2995 1
+
+			Align 107: 1936931 1939927 scf7180000002391_1 2995 1
+				Gap between this and next alignment: 1939927 to 1940930 (1002 bp)
+				Next Alignment: 1940930 1945577 scf7180000002399_1 205 4852
+
+			Align 108: 1940930 1945577 scf7180000002399_1 205 4852
+				The next alignment (1941603 1941981 scf7180000002399_1 1 379) is redundant. Skipping.
+				Gap between this and next alignment: 1945577 to 1945917 (339 bp)
+				Next Alignment: 1945917 1946682 scf7180000002399_1 5207 5971
+
+			Align 110: 1945917 1946682 scf7180000002399_1 5207 5971
+				Gap between this and next alignment: 1946682 to 1956069 (9386 bp)
+				Next Alignment: 1956069 1960552 scf7180000002399_1 7826 12323
+
+			Align 111: 1956069 1960552 scf7180000002399_1 7826 12323
+				Gap between this and next alignment: 1960552 to 1961324 (771 bp)
+				Next Alignment: 1961324 1962418 scf7180000002399_1 20380 21478
+
+			Align 112: 1961324 1962418 scf7180000002399_1 20380 21478
+				Gap between this and next alignment: 1962418 to 1962572 (153 bp)
+				Next Alignment: 1962572 1979136 scf7180000002399_1 21561 38127
+
+			Align 113: 1962572 1979136 scf7180000002399_1 21561 38127
+				Negative gap (overlap) between this and next alignment: 1979136 to 1979052 (-84 bp)
+				Next Alignment: 1979052 1987343 scf7180000002399_1 38199 46483
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 38199 to 38284.
+			Align 114: 1979137 1987343 scf7180000002399_1 38284 46483
+				Gap between this and next alignment: 1987343 to 1987428 (84 bp)
+				Next Alignment: 1987428 1994266 scf7180000002399_1 46334 53174
+
+			Align 115: 1987428 1994266 scf7180000002399_1 46334 53174
+				Negative gap (overlap) between this and next alignment: 1994266 to 1994265 (-1 bp)
+				Next Alignment: 1994265 1995769 scf7180000002352_1 33286 34790
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 33286 to 33288.
+			Align 116: 1994267 1995769 scf7180000002352_1 33288 34790
+				The next alignment (1994266 1995769 scf7180000002394_1 326542 328045) is redundant. Skipping.
+				The next alignment (1994266 1994450 scf7180000002374_1 10453 10637) is redundant. Skipping.
+				The next alignment (1994266 1995769 scf7180000002382_1 245259 246762) is redundant. Skipping.
+				The next alignment (1994267 1994436 scf7180000002399_1 53266 53435) is redundant. Skipping.
+				The next alignment (1994267 1995769 scf7180000002375_1 1503 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1995769 to 1994311 (-1458 bp)
+				Next Alignment: 1994311 1995778 scf7180000002382_1 1 1468
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 1460.
+			Align 122: 1995770 1995778 scf7180000002382_1 1460 1468
+				Negative gap (overlap) between this and next alignment: 1995778 to 1995561 (-217 bp)
+				Next Alignment: 1995561 1995786 scf7180000002393_1 221821 221596
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 221821 to 221603.
+			Align 123: 1995779 1995786 scf7180000002393_1 221603 221596
+				Negative gap (overlap) between this and next alignment: 1995786 to 1995561 (-225 bp)
+				Next Alignment: 1995561 1999052 scf7180000002395_1 1 3462
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 218.
+			Align 124: 1995787 1999052 scf7180000002395_1 218 3462
+				The next alignment (1995561 1995778 scf7180000002385_1 21261 21044) is redundant. Skipping.
+				The next alignment (1995561 1995778 scf7180000002383_1 1 218) is redundant. Skipping.
+				The next alignment (1995561 1995778 scf7180000002352_1 1 218) is redundant. Skipping.
+				Gap between this and next alignment: 1999052 to 2001147 (2094 bp)
+				Next Alignment: 2001147 2002128 scf7180000002390_1 982 1
+
+			Align 128: 2001147 2002128 scf7180000002390_1 982 1
+				Gap between this and next alignment: 2002128 to 2002542 (413 bp)
+				Next Alignment: 2002542 2020344 scf7180000002379_1 1 17802
+
+			Align 129: 2002542 2020344 scf7180000002379_1 1 17802
+				Negative gap (overlap) between this and next alignment: 2020344 to 2020329 (-15 bp)
+				Next Alignment: 2020329 2083335 scf7180000002396_1 101213 38325
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 101213 to 101197.
+			Align 130: 2020345 2083335 scf7180000002396_1 101197 38325
+				Gap between this and next alignment: 2083335 to 2083566 (230 bp)
+				Next Alignment: 2083566 2111781 scf7180000002396_1 38409 10220
+
+			Align 131: 2083566 2111781 scf7180000002396_1 38409 10220
+				Gap between this and next alignment: 2111781 to 2114320 (2538 bp)
+				Next Alignment: 2114320 2117573 scf7180000002396_1 8379 5126
+
+			Align 132: 2114320 2117573 scf7180000002396_1 8379 5126
+				Gap between this and next alignment: 2117573 to 2118284 (710 bp)
+				Next Alignment: 2118284 2120815 scf7180000002396_1 4415 1884
+
+			Align 133: 2118284 2120815 scf7180000002396_1 4415 1884
+				Gap between this and next alignment: 2120815 to 2122104 (1288 bp)
+				Next Alignment: 2122104 2122337 scf7180000002376_1 1134 1367
+
+			Align 134: 2122104 2122337 scf7180000002376_1 1134 1367
+				Negative gap (overlap) between this and next alignment: 2122337 to 2122116 (-221 bp)
+				Next Alignment: 2122116 2122531 scf7180000002396_1 416 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 416 to 194.
+			Align 135: 2122338 2122531 scf7180000002396_1 194 1
+				Negative gap (overlap) between this and next alignment: 2122531 to 2122300 (-231 bp)
+				Next Alignment: 2122300 2122565 scf7180000002387_1 50188 49923
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 50188 to 49956.
+			Align 136: 2122532 2122565 scf7180000002387_1 49956 49923
+				Gap between this and next alignment: 2122565 to 2126044 (3478 bp)
+				Next Alignment: 2126044 2133335 scf7180000002387_1 46324 39031
+
+			Align 137: 2126044 2133335 scf7180000002387_1 46324 39031
+				Gap between this and next alignment: 2133335 to 2135422 (2086 bp)
+				Next Alignment: 2135422 2137367 scf7180000002387_1 38851 36902
+
+			Align 138: 2135422 2137367 scf7180000002387_1 38851 36902
+				Gap between this and next alignment: 2137367 to 2140310 (2942 bp)
+				Next Alignment: 2140310 2147679 scf7180000002387_1 37079 29702
+
+			Align 139: 2140310 2147679 scf7180000002387_1 37079 29702
+				Gap between this and next alignment: 2147679 to 2148921 (1241 bp)
+				Next Alignment: 2148921 2162325 scf7180000002387_1 28461 15055
+
+			Align 140: 2148921 2162325 scf7180000002387_1 28461 15055
+				Gap between this and next alignment: 2162325 to 2162354 (28 bp)
+				Next Alignment: 2162354 2176502 scf7180000002387_1 14813 665
+
+			Align 141: 2162354 2176502 scf7180000002387_1 14813 665
+				The next alignment (2176315 2176423 scf7180000002387_1 574 466) is redundant. Skipping.
+				Gap between this and next alignment: 2176502 to 2179491 (2988 bp)
+				Next Alignment: 2179491 2180566 scf7180000002398_2 1076 1
+
+			Align 143: 2179491 2180566 scf7180000002398_2 1076 1
+				The next alignment (2179732 2180566 scf7180000002377_1 351 1185) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2180566 to 2180536 (-30 bp)
+				Next Alignment: 2180536 2201597 scf7180000002385_1 1 21043
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 32.
+			Align 145: 2180567 2201597 scf7180000002385_1 32 21043
+				Negative gap (overlap) between this and next alignment: 2201597 to 2201590 (-7 bp)
+				Next Alignment: 2201590 2211197 scf7180000002402_1 185 9792
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 185 to 193.
+			Align 146: 2201598 2211197 scf7180000002402_1 193 9792
+				Negative gap (overlap) between this and next alignment: 2211197 to 2211111 (-86 bp)
+				Next Alignment: 2211111 2265231 scf7180000002402_1 9806 63923
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 9806 to 9893.
+			Align 147: 2211198 2265231 scf7180000002402_1 9893 63923
+				Negative gap (overlap) between this and next alignment: 2265231 to 2265212 (-19 bp)
+				Next Alignment: 2265212 2266002 scf7180000002402_1 63847 64627
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 63847 to 63867.
+			Align 148: 2265232 2266002 scf7180000002402_1 63867 64627
+				Gap between this and next alignment: 2266002 to 2268541 (2538 bp)
+				Next Alignment: 2268541 2290692 scf7180000002402_1 65753 87914
+
+			Align 149: 2268541 2290692 scf7180000002402_1 65753 87914
+				Negative gap (overlap) between this and next alignment: 2290692 to 2290692 (0 bp)
+				Next Alignment: 2290692 2292196 scf7180000002392_1 364739 366242
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 364739 to 364740.
+			Align 150: 2290693 2292196 scf7180000002392_1 364740 366242
+				The next alignment (2290693 2290876 scf7180000002402_1 184 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2292196 to 2290737 (-1459 bp)
+				Next Alignment: 2290737 2292211 scf7180000002393_1 1 1473
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 1460.
+			Align 152: 2292197 2292211 scf7180000002393_1 1460 1473
+				The next alignment (2290737 2292205 scf7180000002384_1 1 1468) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2292211 to 2292206 (-5 bp)
+				Next Alignment: 2292206 2293527 scf7180000002402_1 87907 89228
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 87907 to 87913.
+			Align 154: 2292212 2293527 scf7180000002402_1 87913 89228
+				The next alignment (2292758 2292964 scf7180000002387_1 207 1) is redundant. Skipping.
+				Gap between this and next alignment: 2293527 to 2296846 (3318 bp)
+				Next Alignment: 2296846 2317464 scf7180000002389_1 38454 17835
+
+			Align 156: 2296846 2317464 scf7180000002389_1 38454 17835
+				Gap between this and next alignment: 2317464 to 2319448 (1983 bp)
+				Next Alignment: 2319448 2335210 scf7180000002389_1 17806 2042
+
+			Align 157: 2319448 2335210 scf7180000002389_1 17806 2042
+				Gap between this and next alignment: 2335210 to 2336337 (1126 bp)
+				Next Alignment: 2336337 2338035 scf7180000002389_1 1700 1
+
+			Align 158: 2336337 2338035 scf7180000002389_1 1700 1
+				Negative gap (overlap) between this and next alignment: 2338035 to 2338010 (-25 bp)
+				Next Alignment: 2338010 2347096 scf7180000002384_1 205908 196742
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 205908 to 205882.
+			Align 159: 2338036 2347096 scf7180000002384_1 205882 196742
+				Gap between this and next alignment: 2347096 to 2352633 (5536 bp)
+				Next Alignment: 2352633 2378409 scf7180000002384_1 189502 163739
+
+			Align 160: 2352633 2378409 scf7180000002384_1 189502 163739
+				Gap between this and next alignment: 2378409 to 2378440 (30 bp)
+				Next Alignment: 2378440 2389141 scf7180000002384_1 163472 152773
+
+			Align 161: 2378440 2389141 scf7180000002384_1 163472 152773
+				Gap between this and next alignment: 2389141 to 2389143 (1 bp)
+				Next Alignment: 2389143 2431654 scf7180000002384_1 152886 110370
+
+			Align 162: 2389143 2431654 scf7180000002384_1 152886 110370
+				Gap between this and next alignment: 2431654 to 2432295 (640 bp)
+				Next Alignment: 2432295 2452493 scf7180000002384_1 110351 90154
+
+			Align 163: 2432295 2452493 scf7180000002384_1 110351 90154
+				Next Alignment: 2452494 2478225 scf7180000002384_1 90033 64335
+
+			Align 164: 2452494 2478225 scf7180000002384_1 90033 64335
+				Gap between this and next alignment: 2478225 to 2479097 (871 bp)
+				Next Alignment: 2479097 2504698 scf7180000002384_1 64303 38718
+
+			Align 165: 2479097 2504698 scf7180000002384_1 64303 38718
+				Gap between this and next alignment: 2504698 to 2504895 (196 bp)
+				Next Alignment: 2504895 2540121 scf7180000002384_1 38607 3437
+
+			Align 166: 2504895 2540121 scf7180000002384_1 38607 3437
+				Negative gap (overlap) between this and next alignment: 2540121 to 2540030 (-91 bp)
+				Next Alignment: 2540030 2541754 scf7180000002384_1 3405 1681
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3405 to 3313.
+			Align 167: 2540122 2541754 scf7180000002384_1 3313 1681
+				Negative gap (overlap) between this and next alignment: 2541754 to 2541696 (-58 bp)
+				Next Alignment: 2541696 2541921 scf7180000002384_1 1694 1469
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1694 to 1635.
+			Align 168: 2541755 2541921 scf7180000002384_1 1635 1469
+				Negative gap (overlap) between this and next alignment: 2541921 to 2541914 (-7 bp)
+				Next Alignment: 2541914 2580484 scf7180000002392_1 364739 326092
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 364739 to 364731.
+			Align 169: 2541922 2580484 scf7180000002392_1 364731 326092
+				Gap between this and next alignment: 2580484 to 2580818 (333 bp)
+				Next Alignment: 2580818 2591231 scf7180000002392_1 326057 315644
+
+			Align 170: 2580818 2591231 scf7180000002392_1 326057 315644
+				Gap between this and next alignment: 2591231 to 2591257 (25 bp)
+				Next Alignment: 2591257 2601199 scf7180000002392_1 315480 305535
+
+			Align 171: 2591257 2601199 scf7180000002392_1 315480 305535
+				Gap between this and next alignment: 2601199 to 2602004 (804 bp)
+				Next Alignment: 2602004 2613858 scf7180000002392_1 304671 292814
+
+			Align 172: 2602004 2613858 scf7180000002392_1 304671 292814
+				Negative gap (overlap) between this and next alignment: 2613858 to 2613037 (-821 bp)
+				Next Alignment: 2613037 2624727 scf7180000002392_1 292619 280913
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 292619 to 291795.
+			Align 173: 2613859 2624727 scf7180000002392_1 291795 280913
+				Negative gap (overlap) between this and next alignment: 2624727 to 2624032 (-695 bp)
+				Next Alignment: 2624032 2630838 scf7180000002392_1 281992 275156
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 281992 to 281296.
+			Align 174: 2624728 2630838 scf7180000002392_1 281296 275156
+				The next alignment (2629776 2630571 scf7180000002392_1 272568 271773) is redundant. Skipping.
+				Gap between this and next alignment: 2630838 to 2634962 (4123 bp)
+				Next Alignment: 2634962 2647573 scf7180000002392_1 270922 258330
+
+			Align 176: 2634962 2647573 scf7180000002392_1 270922 258330
+				Gap between this and next alignment: 2647573 to 2649284 (1710 bp)
+				Next Alignment: 2649284 2664855 scf7180000002392_1 258247 242679
+
+			Align 177: 2649284 2664855 scf7180000002392_1 258247 242679
+				Gap between this and next alignment: 2664855 to 2665148 (292 bp)
+				Next Alignment: 2665148 2680011 scf7180000002392_1 242675 227814
+
+			Align 178: 2665148 2680011 scf7180000002392_1 242675 227814
+				Gap between this and next alignment: 2680011 to 2681398 (1386 bp)
+				Next Alignment: 2681398 2699196 scf7180000002392_1 227885 210090
+
+			Align 179: 2681398 2699196 scf7180000002392_1 227885 210090
+				Gap between this and next alignment: 2699196 to 2699368 (171 bp)
+				Next Alignment: 2699368 2716774 scf7180000002392_1 209798 192389
+
+			Align 180: 2699368 2716774 scf7180000002392_1 209798 192389
+				Gap between this and next alignment: 2716774 to 2716786 (11 bp)
+				Next Alignment: 2716786 2733821 scf7180000002392_1 192225 175194
+
+			Align 181: 2716786 2733821 scf7180000002392_1 192225 175194
+				Negative gap (overlap) between this and next alignment: 2733821 to 2733813 (-8 bp)
+				Next Alignment: 2733813 2753848 scf7180000002392_1 173152 153117
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 173152 to 173143.
+			Align 182: 2733822 2753848 scf7180000002392_1 173143 153117
+				Gap between this and next alignment: 2753848 to 2754851 (1002 bp)
+				Next Alignment: 2754851 2774758 scf7180000002392_1 153082 133233
+
+			Align 183: 2754851 2774758 scf7180000002392_1 153082 133233
+				Gap between this and next alignment: 2774758 to 2775486 (727 bp)
+				Next Alignment: 2775486 2830360 scf7180000002392_1 132661 77791
+
+			Align 184: 2775486 2830360 scf7180000002392_1 132661 77791
+				Negative gap (overlap) between this and next alignment: 2830360 to 2830298 (-62 bp)
+				Next Alignment: 2830298 2830416 scf7180000002393_1 209984 209866
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 209984 to 209921.
+			Align 185: 2830361 2830416 scf7180000002393_1 209921 209866
+				Gap between this and next alignment: 2830416 to 2830463 (46 bp)
+				Next Alignment: 2830463 2862482 scf7180000002392_1 77800 45787
+
+			Align 186: 2830463 2862482 scf7180000002392_1 77800 45787
+				Gap between this and next alignment: 2862482 to 2864018 (1535 bp)
+				Next Alignment: 2864018 2872915 scf7180000002392_1 46004 37102
+
+			Align 187: 2864018 2872915 scf7180000002392_1 46004 37102
+			END in current alignment.  Modifying 2872915 to 2872915.
+
+ERROR: Reference [$ref] does not have any alignments!  Check that this is the same file used for alignment.
+ERROR: Alignment Reference Headers: ['gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome']
+Analysis is finished!
+Founded SNPs were written into /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2340/dataset_2422_files/Scaffold/contigs_reports/nucmer_output/SA-H-Msrca-Scaffold_broken.used_snps
+
+Results:
+	Local Misassemblies: 78
+	Misassemblies: 75
+		Relocations: 74
+		Translocations: 0
+		Inversions: 1
+	Misassembled Contigs: 21
+	Misassembled Contig Bases: 2708175
+	Misassmblies Inter-Contig Overlap: 4399
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 3 + 8 part
+Partially Unaligned Contigs with Misassemblies: 3
+Unaligned Contig Bases: 110359
+
+Ambiguously Mapped Contigs: 2
+Total Bases in Ambiguously Mapped Contigs: 1827
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 2619316
+
+	SNPs: 23308
+	Insertions: 1470
+	Deletions: 1613
+
+	Positive Gaps: 103
+		Internal Gaps:  86
+		External Gaps:  17
+		External Gap Total:  90736
+		External Gap Average: 5337
+	Negative Gaps: 49
+		Internal Overlaps:  22
+		External Overlaps:  27
+		External Overlaps Total: -6342
+		External Overlaps Average: -235
+	Contigs with Redundant Alignments: 14 (14707)

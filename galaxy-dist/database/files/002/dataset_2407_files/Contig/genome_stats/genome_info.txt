@@ -1,0 +1,25 @@
+reference chromosomes:
+	gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence (2961149 bp)
+	gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence (1072315 bp)
+
+total genome size: 4033464
+
+gap min size: 50
+partial gene/operon min size: 100
+
+genes loaded: 3693
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+================================================================================================================
+CABOG_miseq_scf          | 7.63914094684%| 1.01082363479| 176       | 123       | 277       | -         | -         |
+CABOG_hiseq_scf          | 95.3208705966%| 1.02277089202| 79        | 3383      | 84        | -         | -         |
+MaSuRCA_miseq_scf        | 97.6704886916%| 1.02348544385| 37        | 3534      | 66        | -         | -         |
+MaSuRCA_hiseq_scf        | 98.1521094523%| 1.01336143857| 36        | 3568      | 51        | -         | -         |
+SOAPdenovo_miseq_scf     | 96.7741127725%| 1.01118962204| 162       | 3349      | 155       | -         | -         |
+SOAPdenovo_hiseq_scf     | 97.2002477275%| 1.0123608067| 140       | 3299      | 215       | -         | -         |
+SPAdes_miseq_scf         | 98.7520404298%| 1.00350403  | 19        | 3598      | 28        | -         | -         |
+SPAdes_hiseq_scf         | 98.752685037%| 1.06222807353| 29        | 3586      | 26        | -         | -         |
+Velvet_miseq_scf         | 96.2421878564%| 1.00679436378| 80        | 3459      | 71        | -         | -         |
+Velvet_hiseq_scf         | 96.2505429576%| 1.01605906501| 104       | 3379      | 130       | -         | -         |

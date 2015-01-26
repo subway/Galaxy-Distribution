@@ -1,0 +1,64 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/quast/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1342/dataset_1425_files/A_hydrophila_ATCC_7966 -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/A_hydrophila_ATCC_7966.fna -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/genefiles/A_hydrophila_ATCC_7966.gff /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_497.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-04-16 00:50:13
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1342/dataset_1425_files/A_hydrophila_ATCC_7966/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/assembly_benchmark/reference/refGen/A_hydrophila_ATCC_7966.fna ==> A_hydrophila_ATCC_7966
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_497.dat ==> dataset_497.dat
+
+2014-04-16 00:50:15
+Running Basic statistics processor...
+  Reference genome:
+    A_hydrophila_ATCC_7966.fna, Reference length = 4744448, Reference GC % = 61.55
+  Contig files: 
+    dataset_497.dat
+  Calculating N50 and L50...
+    dataset_497.dat, N50 = 130570, L50 = 12, Total length = 5380960, GC % = 35.30, # N's per 100 kbp =  102.42
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1342/dataset_1425_files/A_hydrophila_ATCC_7966/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1342/dataset_1425_files/A_hydrophila_ATCC_7966/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1342/dataset_1425_files/A_hydrophila_ATCC_7966/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1342/dataset_1425_files/A_hydrophila_ATCC_7966/basic_stats/NGx_plot.pdf
+Done.
+
+2014-04-16 00:50:17
+Running Contig analyzer...
+  dataset_497.dat
+  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1342/dataset_1425_files/A_hydrophila_ATCC_7966/contigs_reports/contigs_report_dataset_497.stdout and contigs_report_dataset_497.stderr...
+  Running Nucmer... 
+  Nucmer: nothing aligned for 'dataset_497'.
+Failed aligning the contigs for all the assemblies. Only basic stats are going to be evaluated.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-04-16 00:50:25
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1342/dataset_1425_files/A_hydrophila_ATCC_7966/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1342/dataset_1425_files/A_hydrophila_ATCC_7966/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1342/dataset_1425_files/A_hydrophila_ATCC_7966/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1342/dataset_1425_files/A_hydrophila_ATCC_7966/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1342/dataset_1425_files/A_hydrophila_ATCC_7966/quast.log
+
+Finished: 2014-04-16 00:50:25
+Elapsed time: 0:00:12.237144

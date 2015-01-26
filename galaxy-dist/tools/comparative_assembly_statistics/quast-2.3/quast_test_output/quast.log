@@ -1,0 +1,144 @@
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast.py --test
+
+Version 2.3, build 28.02.2014 16:10
+
+System information:
+  OS: Linux-2.6.32-431.11.2.el6.x86_64-x86_64-with-redhat-6.5-Santiago (linux_64)
+  Python version: 2.7.6
+  CPUs number: 64
+
+Started: 2014-06-12 11:17:59
+
+Logging to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  test_data/reference.fasta.gz ==> reference
+
+Contigs:
+  test_data/contigs_1.fasta ==> contigs_1
+  test_data/contigs_2.fasta ==> contigs_2
+
+2014-06-12 11:18:15
+Running Basic statistics processor...
+  Reference genome:
+    reference.fasta, Reference length = 10000, Reference GC % = 52.07
+  Contig files: 
+    1  contigs_1
+    2  contigs_2
+  Calculating N50 and L50...
+    1  contigs_1, N50 = 3980, L50 = 1, Total length = 6710, GC % = 51.28, # N's per 100 kbp =  0.00
+    2  contigs_2, N50 = 3360, L50 = 1, Total length = 5460, GC % = 52.44, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/basic_stats/NGx_plot.pdf
+Done.
+
+2014-06-12 11:18:16
+Running Contig analyzer...
+  1  contigs_1
+  2  contigs_2
+  1  Logging to files /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/contigs_reports/contigs_report_contigs_1.stdout and contigs_report_contigs_1.stderr...
+  2  Logging to files /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/contigs_reports/contigs_report_contigs_2.stdout and contigs_report_contigs_2.stderr...
+  1  Using existing Nucmer alignments... 
+  2  Using existing Nucmer alignments... 
+  1  Alignments: quast_test_output/contigs_reports/alignments_contigs_1.tsv
+  2  Alignments: quast_test_output/contigs_reports/alignments_contigs_2.tsv
+  1  Analysis is finished.
+
+  2  Analysis is finished.
+
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-06-12 11:18:17
+Running NA-NGA calculation...
+  1  contigs_1, Largest alignment = 2030, NA50 = 1950, NGA50 = 1610, LA50 = 2, LGA50 = 3
+  2  contigs_2, Largest alignment = 2100, NA50 = 1470, NGA50 = 700, LA50 = 2, LGA50 = 4
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/aligned_stats/NGAx_plot.pdf
+Done.
+
+2014-06-12 11:18:18
+Running Genome analyzer...
+  Loaded 10 genes
+  Loaded 2 operons
+  1  contigs_1
+  2  contigs_2
+  2  Analysis is finished.
+  1  Analysis is finished.
+  Drawing genes cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/genome_stats/complete_genes_histogram.pdf
+  Drawing operons cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/genome_stats/operons_cumulative_plot.pdf
+  Drawing # complete operons histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/genome_stats/complete_operons_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+2014-06-12 11:18:19
+Running GlimmerHMM...
+  1  contigs_1
+  2  contigs_2
+  2    libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmprQjM2w/contig1.fasta \
+       -d libs/glimmer/trained/arabidopsis -g -o quast_test_output/predicted_genes/tmp/tmprQjM2w/contig1.gff \
+       >> quast_test_output/predicted_genes/contigs_2_glimmer.stderr 2>> quast_test_output/predicted_genes/contigs_2_glimmer.stderr
+  1    libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpq6OB9h/contig1.fasta \
+       -d libs/glimmer/trained/arabidopsis -g -o quast_test_output/predicted_genes/tmp/tmpq6OB9h/contig1.gff \
+       >> quast_test_output/predicted_genes/contigs_1_glimmer.stderr 2>> quast_test_output/predicted_genes/contigs_1_glimmer.stderr
+  2    libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmprQjM2w/contig2.fasta \
+       -d libs/glimmer/trained/arabidopsis -g -o quast_test_output/predicted_genes/tmp/tmprQjM2w/contig2.gff \
+       >> quast_test_output/predicted_genes/contigs_2_glimmer.stderr 2>> quast_test_output/predicted_genes/contigs_2_glimmer.stderr
+  1    libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpq6OB9h/contig2.fasta \
+       -d libs/glimmer/trained/arabidopsis -g -o quast_test_output/predicted_genes/tmp/tmpq6OB9h/contig2.gff \
+       >> quast_test_output/predicted_genes/contigs_1_glimmer.stderr 2>> quast_test_output/predicted_genes/contigs_1_glimmer.stderr
+  1    libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpq6OB9h/contig3.fasta \
+       -d libs/glimmer/trained/arabidopsis -g -o quast_test_output/predicted_genes/tmp/tmpq6OB9h/contig3.gff \
+       >> quast_test_output/predicted_genes/contigs_1_glimmer.stderr 2>> quast_test_output/predicted_genes/contigs_1_glimmer.stderr
+  2    Genes = 6 unique, 6 total
+  2    Predicted genes (GFF): /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/predicted_genes/contigs_2_glimmer_genes.gff
+  1    Genes = 7 unique, 7 total
+  1    Predicted genes (GFF): /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/predicted_genes/contigs_1_glimmer_genes.gff
+Done.
+
+2014-06-12 11:18:19
+Drawing large plots...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating contig alignment plot...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2014-06-12 11:18:22
+RESULTS:
+  Text versions of total report are saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/report.html
+  PDF version (tables and plots) saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/report.pdf
+  Contig alignment plot: /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/alignment.svg
+  Log saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast_test_output/quast.log
+
+Finished: 2014-06-12 11:18:22
+Elapsed time: 0:00:22.797523
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+
+TEST PASSED!

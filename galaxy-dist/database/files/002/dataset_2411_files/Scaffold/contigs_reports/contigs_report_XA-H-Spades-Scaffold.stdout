@@ -1,0 +1,1019 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 4967469
+Analyzing contigs...
+CONTIG: NODE_112_length_1307_cov_40.6972_ID_3276569 (1307bp)
+		This contig is unaligned. (1307 bp)
+		Unaligned bases: 1307  total: 1307
+
+CONTIG: NODE_62_length_11958_cov_26.877_ID_3276627 (11958bp)
+Top Length: 11642  Top ID: 95.86
+		Skipping redundant alignment 1073301 1074449 | 10810 11958 | 1149 1149 | 97.39 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_62_length_11958_cov_26.877_ID_3276627
+		This contig is partially unaligned. (11642 out of 11958)
+		Alignment: 1045445 1057089 | 317 11958 | 11645 11642 | 95.86 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_62_length_11958_cov_26.877_ID_3276627
+		Unaligned bases: 1 to 316 (316)
+
+CONTIG: NODE_7_length_157704_cov_27.6841_ID_3276453 (157704bp)
+Top Length: 14654  Top ID: 95.15
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 157704 and total length of all aligns is 40957
+		Alignment: 4536512 4544756 | 93692 85451 | 8245 8242 | 96.4 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_7_length_157704_cov_27.6841_ID_3276453
+		Alignment: 4545633 4547216 | 85400 83815 | 1584 1586 | 95.78 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_7_length_157704_cov_27.6841_ID_3276453
+		Alignment: 4547468 4550447 | 83607 80639 | 2980 2969 | 95.27 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_7_length_157704_cov_27.6841_ID_3276453
+		Alignment: 4556885 4570368 | 80049 66544 | 13484 13506 | 96.32 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_7_length_157704_cov_27.6841_ID_3276453
+		Alignment: 4570532 4585154 | 66356 51703 | 14623 14654 | 95.15 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_7_length_157704_cov_27.6841_ID_3276453
+		Unaligned bases: 116747
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_104_length_1685_cov_133.119_ID_3276633 (1685bp)
+		This contig is unaligned. (1685 bp)
+		Unaligned bases: 1685  total: 2992
+
+CONTIG: NODE_102_length_1787_cov_32.3149_ID_3276695 (1787bp)
+		This contig is unaligned. (1787 bp)
+		Unaligned bases: 1787  total: 4779
+
+CONTIG: NODE_146_length_630_cov_83.2055_ID_3277035 (630bp)
+		This contig is unaligned. (630 bp)
+		Unaligned bases: 630  total: 5409
+
+CONTIG: NODE_23_length_87900_cov_27.16_ID_3276609 (87900bp)
+Top Length: 27004  Top ID: 95.4
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 4269027 4277360 | 2278 10610 | 8334 8333 | 95.39 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_23_length_87900_cov_27.16_ID_3276609
+			  Gap between these two alignments (local misassembly). Inconsistency = 88
+			Real Alignment 2: 4277516 4285130 | 10678 18291 | 7615 7614 | 95.33 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_23_length_87900_cov_27.16_ID_3276609
+			  Gap between these two alignments (local misassembly). Inconsistency = 150
+			Real Alignment 3: 4307976 4311308 | 40987 44324 | 3333 3338 | 95.78 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_23_length_87900_cov_27.16_ID_3276609
+			  Overlap between these two alignments (local misassembly). Inconsistency = -323
+			Real Alignment 4: 4311317 4338319 | 44656 71659 | 27003 27004 | 95.4 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_23_length_87900_cov_27.16_ID_3276609
+
+CONTIG: NODE_117_length_928_cov_1017.02_ID_3276511 (928bp)
+		This contig is unaligned. (928 bp)
+		Unaligned bases: 928  total: 6337
+
+CONTIG: NODE_120_length_899_cov_60.1916_ID_3276565 (899bp)
+		This contig is unaligned. (899 bp)
+		Unaligned bases: 899  total: 7236
+
+CONTIG: NODE_113_length_1118_cov_30.7309_ID_3276469 (1118bp)
+		This contig is unaligned. (1118 bp)
+		Unaligned bases: 1118  total: 8354
+
+CONTIG: NODE_85_length_3416_cov_26.87_ID_3276635 (3416bp)
+		This contig is unaligned. (3416 bp)
+		Unaligned bases: 3416  total: 11770
+
+CONTIG: NODE_121_length_849_cov_267.98_ID_3276497 (849bp)
+		This contig is unaligned. (849 bp)
+		Unaligned bases: 849  total: 12619
+
+CONTIG: NODE_100_length_1899_cov_33.5248_ID_3276631 (1899bp)
+		This contig is unaligned. (1899 bp)
+		Unaligned bases: 1899  total: 14518
+
+CONTIG: NODE_138_length_741_cov_32.093_ID_3276483 (741bp)
+		This contig is unaligned. (741 bp)
+		Unaligned bases: 741  total: 15259
+
+CONTIG: NODE_35_length_50753_cov_26.2085_ID_3276605 (50753bp)
+Top Length: 4197  Top ID: 95.43
+		This contig is partially unaligned. (4197 out of 50753)
+		Alignment: 1295461 1299651 | 30816 35012 | 4191 4197 | 95.43 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_35_length_50753_cov_26.2085_ID_3276605
+		Unaligned bases: 1 to 30815 (30815)
+		Unaligned bases: 35013 to 50753 (15741)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_28_length_66095_cov_27.4301_ID_3276585 (66095bp)
+Top Length: 7468  Top ID: 96.16
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [4001506][4002150] redundant alignment 4001506 4002150 | 66095 65451 | 645 645 | 95.81 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_28_length_66095_cov_27.4301_ID_3276585
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 66095 and total length of all aligns is 16261
+		Alignment: 4011104 4011748 | 66095 65451 | 645 645 | 95.81 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_28_length_66095_cov_27.4301_ID_3276585
+		Alignment: 4022614 4026417 | 54122 50319 | 3804 3804 | 96.85 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_28_length_66095_cov_27.4301_ID_3276585
+		Alignment: 4040472 4047944 | 35916 28449 | 7473 7468 | 96.16 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_28_length_66095_cov_27.4301_ID_3276585
+		Alignment: 4053776 4058118 | 23271 18928 | 4343 4344 | 95.7 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_28_length_66095_cov_27.4301_ID_3276585
+		Unaligned bases: 49834
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_79_length_4408_cov_125.616_ID_3276675 (4408bp)
+		This contig is unaligned. (4408 bp)
+		Unaligned bases: 4408  total: 19667
+
+CONTIG: NODE_101_length_1807_cov_85.2143_ID_3264895 (1807bp)
+		This contig is unaligned. (1807 bp)
+		Unaligned bases: 1807  total: 21474
+
+CONTIG: NODE_63_length_11825_cov_25.4487_ID_3276543 (11825bp)
+		This contig is unaligned. (11825 bp)
+		Unaligned bases: 11825  total: 33299
+
+CONTIG: NODE_57_length_16129_cov_28.9434_ID_3276655 (16129bp)
+Top Length: 2502  Top ID: 95.13
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 16129 and total length of all aligns is 3395
+		Alignment: 4243318 4245820 | 349 2850 | 2503 2502 | 95.13 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_57_length_16129_cov_28.9434_ID_3276655
+		Alignment: 4246145 4247032 | 7424 8316 | 888 893 | 95.86 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_57_length_16129_cov_28.9434_ID_3276655
+		Unaligned bases: 12734
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_65_length_10575_cov_26.2597_ID_3276595 (10575bp)
+		This contig is unaligned. (10575 bp)
+		Unaligned bases: 10575  total: 43874
+
+CONTIG: NODE_129_length_788_cov_50.2319_ID_3276875 (788bp)
+		This contig is unaligned. (788 bp)
+		Unaligned bases: 788  total: 44662
+
+CONTIG: NODE_150_length_600_cov_31.5748_ID_3276649 (600bp)
+		This contig is unaligned. (600 bp)
+		Unaligned bases: 600  total: 45262
+
+CONTIG: NODE_134_length_771_cov_24.1603_ID_3275875 (771bp)
+		This contig is unaligned. (771 bp)
+		Unaligned bases: 771  total: 46033
+
+CONTIG: NODE_135_length_764_cov_68.9882_ID_3276513 (764bp)
+		This contig is unaligned. (764 bp)
+		Unaligned bases: 764  total: 46797
+
+CONTIG: NODE_105_length_1670_cov_137.661_ID_3276503 (1670bp)
+		This contig is unaligned. (1670 bp)
+		Unaligned bases: 1670  total: 48467
+
+CONTIG: NODE_54_length_17501_cov_28.8681_ID_3276727 (17501bp)
+Top Length: 17501  Top ID: 97.16
+		Marking as insignificant: 1074365 1074493 | 17501 17373 | 129 129 | 100.0 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_54_length_17501_cov_28.8681_ID_3276727
+		Marking as insignificant: 1055941 1057089 | 1149 1 | 1149 1149 | 97.48 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_54_length_17501_cov_28.8681_ID_3276727
+		One align captures most of this contig: 1057005 1074449 | 17501 1 | 17445 17501 | 97.16 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_54_length_17501_cov_28.8681_ID_3276727
+
+CONTIG: NODE_118_length_925_cov_131.974_ID_3273601 (925bp)
+		This contig is unaligned. (925 bp)
+		Unaligned bases: 925  total: 49392
+
+CONTIG: NODE_139_length_724_cov_33.1487_ID_3276593 (724bp)
+		This contig is unaligned. (724 bp)
+		Unaligned bases: 724  total: 50116
+
+CONTIG: NODE_88_length_3122_cov_24.9651_ID_3276395 (3122bp)
+Top Length: 2901  Top ID: 95.11
+		This contig is partially unaligned. (2901 out of 3122)
+		Alignment: 2015692 2018591 | 1 2901 | 2900 2901 | 95.11 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_88_length_3122_cov_24.9651_ID_3276395
+		Unaligned bases: 2902 to 3122 (221)
+
+CONTIG: NODE_125_length_838_cov_71.6786_ID_3277051 (838bp)
+		This contig is unaligned. (838 bp)
+		Unaligned bases: 838  total: 50954
+
+CONTIG: NODE_25_length_73180_cov_27.3811_ID_3276591 (73180bp)
+Top Length: 13069  Top ID: 95.31
+		This contig is misassembled. 8 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 73180 and total length of all aligns is 30224
+		Alignment: 179136 180200 | 21851 22913 | 1065 1063 | 95.02 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_25_length_73180_cov_27.3811_ID_3276591
+		Alignment: 180331 181114 | 23035 23818 | 784 784 | 96.05 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_25_length_73180_cov_27.3811_ID_3276591
+		Alignment: 181323 181999 | 24102 24778 | 677 677 | 96.9 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_25_length_73180_cov_27.3811_ID_3276591
+		Alignment: 188739 189744 | 31999 33004 | 1006 1006 | 96.33 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_25_length_73180_cov_27.3811_ID_3276591
+		Alignment: 201503 214543 | 43879 56947 | 13041 13069 | 95.31 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_25_length_73180_cov_27.3811_ID_3276591
+		Alignment: 214914 219878 | 56968 61941 | 4965 4974 | 95.48 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_25_length_73180_cov_27.3811_ID_3276591
+		Alignment: 220005 227290 | 62101 69390 | 7286 7290 | 96.35 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_25_length_73180_cov_27.3811_ID_3276591
+		Alignment: 227594 228954 | 69773 71133 | 1361 1361 | 96.4 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_25_length_73180_cov_27.3811_ID_3276591
+		Unaligned bases: 42956
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_127_length_808_cov_29.8728_ID_3276665 (808bp)
+		This contig is unaligned. (808 bp)
+		Unaligned bases: 808  total: 51762
+
+CONTIG: NODE_42_length_39939_cov_25.7665_ID_3276613 (39939bp)
+Top Length: 5517  Top ID: 95.13
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 39939 and total length of all aligns is 8569
+		Alignment: 548551 549315 | 258 1023 | 765 766 | 95.83 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_42_length_39939_cov_25.7665_ID_3276613
+		Alignment: 560681 566198 | 13189 18705 | 5518 5517 | 95.13 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_42_length_39939_cov_25.7665_ID_3276613
+		Alignment: 566234 568519 | 18864 21149 | 2286 2286 | 96.15 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_42_length_39939_cov_25.7665_ID_3276613
+		Unaligned bases: 31370
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_107_length_1556_cov_32.9619_ID_3276411 (1556bp)
+		This contig is unaligned. (1556 bp)
+		Unaligned bases: 1556  total: 53318
+
+CONTIG: NODE_72_length_6072_cov_26.0082_ID_3276529 (6072bp)
+		This contig is unaligned. (6072 bp)
+		Unaligned bases: 6072  total: 59390
+
+CONTIG: NODE_93_length_2307_cov_74.5275_ID_3276403 (2307bp)
+		This contig is unaligned. (2307 bp)
+		Unaligned bases: 2307  total: 61697
+
+CONTIG: NODE_61_length_12273_cov_25.8081_ID_3276597 (12273bp)
+Top Length: 7703  Top ID: 95.95
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1782000 1783944 | 2452 4396 | 1945 1945 | 95.42 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_61_length_12273_cov_25.8081_ID_3276597
+			  Overlap between these two alignments (local misassembly). Inconsistency = -50
+			Real Alignment 2: 1784065 1791766 | 4567 12269 | 7702 7703 | 95.95 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_61_length_12273_cov_25.8081_ID_3276597
+
+CONTIG: NODE_36_length_44495_cov_28.7363_ID_3276629 (44495bp)
+		This contig is unaligned. (44495 bp)
+		Unaligned bases: 44495  total: 106192
+
+CONTIG: NODE_14_length_120528_cov_25.6082_ID_3276399 (120528bp)
+Top Length: 15452  Top ID: 95.2
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 120528 and total length of all aligns is 20347
+		Alignment: 1511099 1512619 | 77268 78786 | 1521 1519 | 95.66 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_14_length_120528_cov_25.6082_ID_3276399
+		Alignment: 1520203 1535656 | 86565 102016 | 15454 15452 | 95.2 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_14_length_120528_cov_25.6082_ID_3276399
+		Alignment: 1550742 1554120 | 116826 120201 | 3379 3376 | 95.15 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_14_length_120528_cov_25.6082_ID_3276399
+		Unaligned bases: 100181
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_108_length_1521_cov_36.4157_ID_3276455 (1521bp)
+		This contig is unaligned. (1521 bp)
+		Unaligned bases: 1521  total: 107713
+
+CONTIG: NODE_144_length_640_cov_277.984_ID_3276557 (640bp)
+		This contig is unaligned. (640 bp)
+		Unaligned bases: 640  total: 108353
+
+CONTIG: NODE_77_length_4832_cov_106.507_ID_3276545 (4832bp)
+		This contig is unaligned. (4832 bp)
+		Unaligned bases: 4832  total: 113185
+
+CONTIG: NODE_109_length_1505_cov_75.012_ID_3276533 (1505bp)
+		This contig is unaligned. (1505 bp)
+		Unaligned bases: 1505  total: 114690
+
+CONTIG: NODE_3_length_197341_cov_24.6391_ID_3276413 (197341bp)
+Top Length: 14646  Top ID: 95.48
+		This contig is misassembled. 6 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 197341 and total length of all aligns is 25073
+		Alignment: 3186735 3187111 | 35974 36351 | 377 378 | 98.68 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_3_length_197341_cov_24.6391_ID_3276413
+		Alignment: 3225677 3240310 | 73953 88598 | 14634 14646 | 95.48 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_3_length_197341_cov_24.6391_ID_3276413
+		Alignment: 3296033 3299284 | 145810 149061 | 3252 3252 | 95.17 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_3_length_197341_cov_24.6391_ID_3276413
+		Alignment: 3316428 3320536 | 166094 170202 | 4109 4109 | 95.4 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_3_length_197341_cov_24.6391_ID_3276413
+		Alignment: 3320834 3320999 | 170493 170658 | 166 166 | 95.78 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_3_length_197341_cov_24.6391_ID_3276413
+		Alignment: 3334014 3336535 | 184390 186911 | 2522 2522 | 96.59 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_3_length_197341_cov_24.6391_ID_3276413
+		Unaligned bases: 172268
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_126_length_822_cov_107.757_ID_3276435 (822bp)
+		This contig is unaligned. (822 bp)
+		Unaligned bases: 822  total: 115512
+
+CONTIG: NODE_69_length_8142_cov_27.898_ID_3276448 (8142bp)
+		This contig is unaligned. (8142 bp)
+		Unaligned bases: 8142  total: 123654
+
+CONTIG: NODE_91_length_2407_cov_40.4173_ID_3276445 (2407bp)
+		This contig is unaligned. (2407 bp)
+		Unaligned bases: 2407  total: 126061
+
+CONTIG: NODE_55_length_16415_cov_23.826_ID_3276617 (16415bp)
+		This contig is unaligned. (16415 bp)
+		Unaligned bases: 16415  total: 142476
+
+CONTIG: NODE_132_length_771_cov_155.965_ID_3275859 (771bp)
+		This contig is unaligned. (771 bp)
+		Unaligned bases: 771  total: 143247
+
+CONTIG: NODE_124_length_840_cov_116.731_ID_3277053 (840bp)
+		This contig is unaligned. (840 bp)
+		Unaligned bases: 840  total: 144087
+
+CONTIG: NODE_24_length_74747_cov_24.7437_ID_3276457 (74747bp)
+		This contig is unaligned. (74747 bp)
+		Unaligned bases: 74747  total: 218834
+
+CONTIG: NODE_45_length_26124_cov_26.361_ID_3276491 (26124bp)
+Top Length: 5678  Top ID: 95.97
+		This contig is partially unaligned. (5678 out of 26124)
+		Alignment: 3626659 3632331 | 12828 7151 | 5673 5678 | 95.97 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_45_length_26124_cov_26.361_ID_3276491
+		Unaligned bases: 1 to 7150 (7150)
+		Unaligned bases: 12829 to 26124 (13296)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_46_length_25546_cov_24.5111_ID_3276473 (25546bp)
+		This contig is unaligned. (25546 bp)
+		Unaligned bases: 25546  total: 244380
+
+CONTIG: NODE_142_length_696_cov_588.183_ID_3276621 (696bp)
+		This contig is unaligned. (696 bp)
+		Unaligned bases: 696  total: 245076
+
+CONTIG: NODE_48_length_22297_cov_26.9754_ID_3276465 (22297bp)
+		This contig is unaligned. (22297 bp)
+		Unaligned bases: 22297  total: 267373
+
+CONTIG: NODE_16_length_117467_cov_25.7469_ID_3276559 (117467bp)
+Top Length: 16758  Top ID: 96.13
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 117467 and total length of all aligns is 35430
+		Alignment: 1554133 1555587 | 89 1540 | 1455 1452 | 96.01 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_16_length_117467_cov_25.7469_ID_3276559
+		Alignment: 1563506 1580304 | 9692 26449 | 16799 16758 | 96.13 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_16_length_117467_cov_25.7469_ID_3276559
+		Alignment: 1580416 1596331 | 26633 42531 | 15916 15899 | 95.17 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_16_length_117467_cov_25.7469_ID_3276559
+		Alignment: 1632437 1633668 | 79347 80580 | 1232 1234 | 95.54 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_16_length_117467_cov_25.7469_ID_3276559
+		Alignment: 1730566 1730652 | 59753 59839 | 87 87 | 98.85 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_16_length_117467_cov_25.7469_ID_3276559
+		Unaligned bases: 82037
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_34_length_51919_cov_27.3034_ID_3276681 (51919bp)
+Top Length: 3173  Top ID: 96.03
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 51919 and total length of all aligns is 4016
+		Alignment: 687125 687966 | 15056 14214 | 842 843 | 95.97 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_34_length_51919_cov_27.3034_ID_3276681
+		Alignment: 694699 697869 | 6997 3825 | 3171 3173 | 96.03 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_34_length_51919_cov_27.3034_ID_3276681
+		Unaligned bases: 47903
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_116_length_953_cov_29.1647_ID_3276517 (953bp)
+		This contig is unaligned. (953 bp)
+		Unaligned bases: 953  total: 268326
+
+CONTIG: NODE_17_length_115445_cov_27.8529_ID_3276407 (115445bp)
+Top Length: 9986  Top ID: 95.37
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 115445 and total length of all aligns is 15845
+		Alignment: 1 2807 | 50398 47594 | 2807 2805 | 95.8 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_17_length_115445_cov_27.8529_ID_3276407
+		Alignment: 3469 13466 | 46945 36960 | 9998 9986 | 95.37 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_17_length_115445_cov_27.8529_ID_3276407
+		Alignment: 4951594 4954637 | 66713 63660 | 3044 3054 | 95.01 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_17_length_115445_cov_27.8529_ID_3276407
+		Unaligned bases: 99600
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_81_length_4228_cov_77.6857_ID_3277045 (4228bp)
+		This contig is unaligned. (4228 bp)
+		Unaligned bases: 4228  total: 272554
+
+CONTIG: NODE_70_length_7245_cov_88.0286_ID_3277027 (7245bp)
+		This contig is unaligned. (7245 bp)
+		Unaligned bases: 7245  total: 279799
+
+CONTIG: NODE_50_length_21840_cov_22.5343_ID_3276653 (21840bp)
+Top Length: 9947  Top ID: 95.65
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2219314 2225573 | 21452 15188 | 6260 6265 | 95.73 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_50_length_21840_cov_22.5343_ID_3276653
+			  Overlap between these two alignments (local misassembly). Inconsistency = -615
+			Real Alignment 2: 2226076 2229383 | 14070 10763 | 3308 3308 | 96.74 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_50_length_21840_cov_22.5343_ID_3276653
+			  Overlap between these two alignments (local misassembly). Inconsistency = -180
+			Real Alignment 3: 2229439 2239388 | 10527 581 | 9950 9947 | 95.65 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_50_length_21840_cov_22.5343_ID_3276653
+
+CONTIG: NODE_10_length_139208_cov_29.2221_ID_3276397 (139208bp)
+Top Length: 36657  Top ID: 95.34
+		Skipping redundant alignment 4842349 4848025 | 90197 95915 | 5677 5719 | 98.55 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_10_length_139208_cov_29.2221_ID_3276397
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 139208 and total length of all aligns is 51831
+		Alignment: 4379204 4415772 | 90197 126853 | 36569 36657 | 95.34 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_10_length_139208_cov_29.2221_ID_3276397
+		Alignment: 4814451 4829650 | 50516 65689 | 15200 15174 | 95.69 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_10_length_139208_cov_29.2221_ID_3276397
+		Unaligned bases: 87377
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_30_length_63036_cov_27.8379_ID_3276479 (63036bp)
+Top Length: 3488  Top ID: 95.02
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 63036 and total length of all aligns is 7013
+		Alignment: 115874 119364 | 29185 25698 | 3491 3488 | 95.02 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_30_length_63036_cov_27.8379_ID_3276479
+		Alignment: 124901 126114 | 21897 20683 | 1214 1215 | 96.13 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_30_length_63036_cov_27.8379_ID_3276479
+		Alignment: 128387 130696 | 20584 18275 | 2310 2310 | 96.15 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_30_length_63036_cov_27.8379_ID_3276479
+		Unaligned bases: 56023
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_83_length_3901_cov_78.8831_ID_3276547 (3901bp)
+		This contig is unaligned. (3901 bp)
+		Unaligned bases: 3901  total: 283700
+
+CONTIG: NODE_12_length_129193_cov_25.2417_ID_3276679 (129193bp)
+Top Length: 10034  Top ID: 95.4
+		Skipping redundant alignment 4762944 4763031 | 129106 129193 | 88 88 | 100.0 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_12_length_129193_cov_25.2417_ID_3276679
+		This contig is misassembled. 4 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 129193 and total length of all aligns is 19417
+		Alignment: 1936224 1946261 | 49184 59217 | 10038 10034 | 95.4 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_12_length_129193_cov_25.2417_ID_3276679
+		Alignment: 1946554 1948911 | 59575 61932 | 2358 2358 | 95.76 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_12_length_129193_cov_25.2417_ID_3276679
+		Alignment: 2008752 2015776 | 122169 129193 | 7025 7025 | 95.13 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_12_length_129193_cov_25.2417_ID_3276679
+		Unaligned bases: 109776
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_38_length_43958_cov_25.1087_ID_3276409 (43958bp)
+Top Length: 10717  Top ID: 95.21
+		This contig is partially unaligned. (10717 out of 43958)
+		Alignment: 2043966 2054683 | 23107 33823 | 10718 10717 | 95.21 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_38_length_43958_cov_25.1087_ID_3276409
+		Unaligned bases: 1 to 23106 (23106)
+		Unaligned bases: 33824 to 43958 (10135)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_49_length_21876_cov_27.7249_ID_3276427 (21876bp)
+Top Length: 12676  Top ID: 96.29
+		This contig is partially unaligned. (12676 out of 21876)
+		Alignment: 4131890 4144571 | 9188 21863 | 12682 12676 | 96.29 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_49_length_21876_cov_27.7249_ID_3276427
+		Unaligned bases: 1 to 9187 (9187)
+		Unaligned bases: 21864 to 21876 (13)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_92_length_2390_cov_30.0703_ID_3276599 (2390bp)
+		This contig is unaligned. (2390 bp)
+		Unaligned bases: 2390  total: 286090
+
+CONTIG: NODE_82_length_4128_cov_59.885_ID_3276535 (4128bp)
+		This contig is unaligned. (4128 bp)
+		Unaligned bases: 4128  total: 290218
+
+CONTIG: NODE_95_length_2212_cov_30.6281_ID_3276451 (2212bp)
+		This contig is unaligned. (2212 bp)
+		Unaligned bases: 2212  total: 292430
+
+CONTIG: NODE_60_length_12919_cov_28.3185_ID_3276429 (12919bp)
+		This contig is unaligned. (12919 bp)
+		Unaligned bases: 12919  total: 305349
+
+CONTIG: NODE_143_length_641_cov_94.3615_ID_3276669 (641bp)
+		This contig is unaligned. (641 bp)
+		Unaligned bases: 641  total: 305990
+
+CONTIG: NODE_32_length_57818_cov_26.4061_ID_3276647 (57818bp)
+Top Length: 5377  Top ID: 95.76
+		This contig is partially unaligned. (5377 out of 57818)
+		Alignment: 1224540 1229916 | 41719 47095 | 5377 5377 | 95.76 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_32_length_57818_cov_26.4061_ID_3276647
+		Unaligned bases: 1 to 41718 (41718)
+		Unaligned bases: 47096 to 57818 (10723)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_6_length_168408_cov_26.2085_ID_3276685 (168408bp)
+Top Length: 17051  Top ID: 95.27
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 168408 and total length of all aligns is 26039
+		Alignment: 879480 887918 | 3060 11507 | 8439 8448 | 95.21 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_6_length_168408_cov_26.2085_ID_3276685
+		Alignment: 1026916 1043989 | 149756 166806 | 17074 17051 | 95.27 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_6_length_168408_cov_26.2085_ID_3276685
+		Alignment: 3752834 3753377 | 130086 130625 | 544 540 | 96.32 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_6_length_168408_cov_26.2085_ID_3276685
+		Unaligned bases: 142369
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_67_length_9174_cov_84.1544_ID_3276553 (9174bp)
+		This contig is unaligned. (9174 bp)
+		Unaligned bases: 9174  total: 315164
+
+CONTIG: NODE_119_length_909_cov_171.212_ID_3276449 (909bp)
+		This contig is unaligned. (909 bp)
+		Unaligned bases: 909  total: 316073
+
+CONTIG: NODE_53_length_19639_cov_27.5275_ID_3276693 (19639bp)
+		This contig is unaligned. (19639 bp)
+		Unaligned bases: 19639  total: 335712
+
+CONTIG: NODE_152_length_593_cov_82.124_ID_3276673 (593bp)
+		This contig is unaligned. (593 bp)
+		Unaligned bases: 593  total: 336305
+
+CONTIG: NODE_9_length_151047_cov_23.8664_ID_3276487 (151047bp)
+Top Length: 13357  Top ID: 95.16
+		Skipping redundant alignment 2477044 2477280 | 62203 61966 | 237 238 | 99.16 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_9_length_151047_cov_23.8664_ID_3276487
+		This contig is misassembled. 4 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 151047 and total length of all aligns is 22870
+		Alignment: 2477800 2487081 | 62394 53118 | 9282 9277 | 95.27 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_9_length_151047_cov_23.8664_ID_3276487
+		Alignment: 2477998 2478233 | 63156 62921 | 236 236 | 99.58 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_9_length_151047_cov_23.8664_ID_3276487
+		Alignment: 2634353 2647694 | 132886 146242 | 13342 13357 | 95.16 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_9_length_151047_cov_23.8664_ID_3276487
+		Unaligned bases: 128177
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_58_length_15751_cov_27.3676_ID_3276481 (15751bp)
+Top Length: 1514  Top ID: 97.16
+		This contig is partially unaligned. (1514 out of 15751)
+		Alignment: 1245121 1246634 | 401 1914 | 1514 1514 | 97.16 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_58_length_15751_cov_27.3676_ID_3276481
+		Unaligned bases: 1 to 400 (400)
+		Unaligned bases: 1915 to 15751 (13837)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_59_length_14882_cov_24.3459_ID_3276603 (14882bp)
+		This contig is unaligned. (14882 bp)
+		Unaligned bases: 14882  total: 351187
+
+CONTIG: NODE_87_length_3177_cov_32.533_ID_3276443 (3177bp)
+		This contig is unaligned. (3177 bp)
+		Unaligned bases: 3177  total: 354364
+
+CONTIG: NODE_39_length_42642_cov_25.1712_ID_3276575 (42642bp)
+Top Length: 30714  Top ID: 95.61
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 3012543 3016714 | 7073 11244 | 4172 4172 | 96.86 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_39_length_42642_cov_25.1712_ID_3276575
+			  Overlap between these two alignments (local misassembly). Inconsistency = -30
+			Real Alignment 2: 3016821 3047541 | 11381 42094 | 30721 30714 | 95.61 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_39_length_42642_cov_25.1712_ID_3276575
+
+CONTIG: NODE_13_length_125649_cov_28.1657_ID_3277099 (125649bp)
+Top Length: 9946  Top ID: 95.29
+		This contig is misassembled. 8 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 125649 and total length of all aligns is 25757
+		Alignment: 4674097 4674759 | 38866 39528 | 663 663 | 95.93 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_13_length_125649_cov_28.1657_ID_3277099
+		Alignment: 4681129 4687890 | 50293 57054 | 6762 6762 | 96.38 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_13_length_125649_cov_28.1657_ID_3277099
+		Alignment: 4698290 4700937 | 67256 69902 | 2648 2647 | 95.17 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_13_length_125649_cov_28.1657_ID_3277099
+		Alignment: 4701110 4701957 | 72770 73618 | 848 849 | 95.76 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_13_length_125649_cov_28.1657_ID_3277099
+		Alignment: 4716372 4726317 | 88033 97978 | 9946 9946 | 95.29 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_13_length_125649_cov_28.1657_ID_3277099
+		Alignment: 4731890 4734725 | 102267 105103 | 2836 2837 | 95.56 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_13_length_125649_cov_28.1657_ID_3277099
+		Alignment: 4760404 4762345 | 123147 125089 | 1942 1943 | 95.16 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_13_length_125649_cov_28.1657_ID_3277099
+		Alignment: 4762923 4763031 | 125540 125649 | 109 110 | 95.5 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_13_length_125649_cov_28.1657_ID_3277099
+		Unaligned bases: 99892
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_1_length_312376_cov_26.1578_ID_3276531 (312376bp)
+Top Length: 23205  Top ID: 95.39
+		This contig is misassembled. 8 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 312376 and total length of all aligns is 80633
+		Alignment: 1005133 1005675 | 66992 67533 | 543 542 | 96.69 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_1_length_312376_cov_26.1578_ID_3276531
+		Alignment: 3818626 3819498 | 140193 141065 | 873 873 | 95.07 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_1_length_312376_cov_26.1578_ID_3276531
+		Alignment: 3819628 3825150 | 141429 146930 | 5523 5502 | 95.75 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_1_length_312376_cov_26.1578_ID_3276531
+		Alignment: 3852200 3870992 | 173460 192273 | 18793 18814 | 95.22 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_1_length_312376_cov_26.1578_ID_3276531
+		Alignment: 3871192 3877464 | 192475 198740 | 6273 6266 | 95.27 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_1_length_312376_cov_26.1578_ID_3276531
+		Alignment: 3877734 3890054 | 200030 212324 | 12321 12295 | 95.51 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_1_length_312376_cov_26.1578_ID_3276531
+		Alignment: 3961991 3985177 | 272301 295505 | 23187 23205 | 95.39 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_1_length_312376_cov_26.1578_ID_3276531
+		Alignment: 3988448 4001590 | 299241 312376 | 13143 13136 | 95.69 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_1_length_312376_cov_26.1578_ID_3276531
+		Unaligned bases: 231743
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_40_length_42156_cov_27.0991_ID_3276493 (42156bp)
+Top Length: 5499  Top ID: 95.27
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 42156 and total length of all aligns is 5733
+		Alignment: 2239831 2240060 | 26834 27067 | 230 234 | 97.01 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_40_length_42156_cov_27.0991_ID_3276493
+		Alignment: 4847938 4853431 | 42156 36658 | 5494 5499 | 95.27 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_40_length_42156_cov_27.0991_ID_3276493
+		Unaligned bases: 36423
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_2_length_201963_cov_23.587_ID_3276417 (201963bp)
+Top Length: 14947  Top ID: 95.65
+		This contig is misassembled. 7 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 201963 and total length of all aligns is 50327
+		Alignment: 2655181 2663546 | 199135 190768 | 8366 8368 | 95.27 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_2_length_201963_cov_23.587_ID_3276417
+		Alignment: 2688993 2692396 | 165051 161649 | 3404 3403 | 96.5 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_2_length_201963_cov_23.587_ID_3276417
+		Alignment: 2692646 2694370 | 160903 159181 | 1725 1723 | 96.35 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_2_length_201963_cov_23.587_ID_3276417
+		Alignment: 2712969 2718011 | 141134 136108 | 5043 5027 | 95.62 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_2_length_201963_cov_23.587_ID_3276417
+		Alignment: 2794345 2800714 | 59355 52985 | 6370 6371 | 96.11 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_2_length_201963_cov_23.587_ID_3276417
+		Alignment: 2803151 2818080 | 45221 30275 | 14930 14947 | 95.65 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_2_length_201963_cov_23.587_ID_3276417
+		Alignment: 2820017 2830519 | 21288 10801 | 10503 10488 | 96.08 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_2_length_201963_cov_23.587_ID_3276417
+		Unaligned bases: 151636
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_11_length_132243_cov_24.4666_ID_3276471 (132243bp)
+Top Length: 20563  Top ID: 95.43
+		This contig is misassembled. 4 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 132243 and total length of all aligns is 39776
+		Alignment: 2134364 2154923 | 77761 57199 | 20560 20563 | 95.43 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_11_length_132243_cov_24.4666_ID_3276471
+		Alignment: 2155110 2165182 | 56678 46618 | 10073 10061 | 95.37 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_11_length_132243_cov_24.4666_ID_3276471
+		Alignment: 2200309 2206488 | 14045 7865 | 6180 6181 | 96.02 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_11_length_132243_cov_24.4666_ID_3276471
+		Alignment: 2206182 2209380 | 8090 4894 | 3199 3197 | 95.47 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_11_length_132243_cov_24.4666_ID_3276471
+		Unaligned bases: 92467
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_137_length_742_cov_35.3714_ID_3276537 (742bp)
+		This contig is unaligned. (742 bp)
+		Unaligned bases: 742  total: 355106
+
+CONTIG: NODE_19_length_106440_cov_27.1424_ID_3276637 (106440bp)
+Top Length: 14786  Top ID: 96.98
+		This contig is misassembled. 4 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 106440 and total length of all aligns is 25256
+		Alignment: 1057005 1057133 | 106440 106312 | 129 129 | 98.45 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_19_length_106440_cov_27.1424_ID_3276637
+		Alignment: 1075980 1090792 | 104538 89753 | 14813 14786 | 96.98 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_19_length_106440_cov_27.1424_ID_3276637
+		Alignment: 1121266 1128926 | 58958 51290 | 7661 7669 | 95.43 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_19_length_106440_cov_27.1424_ID_3276637
+		Alignment: 1149625 1152285 | 29718 27047 | 2661 2672 | 95.41 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_19_length_106440_cov_27.1424_ID_3276637
+		Unaligned bases: 81184
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_128_length_790_cov_31.0227_ID_3276601 (790bp)
+		This contig is unaligned. (790 bp)
+		Unaligned bases: 790  total: 355896
+
+CONTIG: NODE_21_length_94331_cov_25.4921_ID_3276505 (94331bp)
+Top Length: 4041  Top ID: 95.4
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 94331 and total length of all aligns is 6770
+		Alignment: 3596172 3598896 | 76963 79691 | 2725 2729 | 95.6 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_21_length_94331_cov_25.4921_ID_3276505
+		Alignment: 3609265 3613306 | 89724 93764 | 4042 4041 | 95.4 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_21_length_94331_cov_25.4921_ID_3276505
+		Unaligned bases: 87561
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_64_length_11507_cov_25.7936_ID_3276459 (11507bp)
+		This contig is unaligned. (11507 bp)
+		Unaligned bases: 11507  total: 367403
+
+CONTIG: NODE_29_length_63971_cov_26.4391_ID_3276671 (63971bp)
+Top Length: 1569  Top ID: 96.31
+		This contig is partially unaligned. (1569 out of 63971)
+		Alignment: 587128 588696 | 63971 62403 | 1569 1569 | 96.31 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_29_length_63971_cov_26.4391_ID_3276671
+		Unaligned bases: 1 to 62402 (62402)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_71_length_6402_cov_77.9321_ID_3276515 (6402bp)
+		This contig is unaligned. (6402 bp)
+		Unaligned bases: 6402  total: 373805
+
+CONTIG: NODE_153_length_565_cov_34.1896_ID_3276589 (565bp)
+		This contig is unaligned. (565 bp)
+		Unaligned bases: 565  total: 374370
+
+CONTIG: NODE_133_length_771_cov_28.3673_ID_3275865 (771bp)
+		This contig is unaligned. (771 bp)
+		Unaligned bases: 771  total: 375141
+
+CONTIG: NODE_4_length_176749_cov_25.2257_ID_3276477 (176749bp)
+Top Length: 16890  Top ID: 95.16
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 176749 and total length of all aligns is 34786
+		Alignment: 3401352 3414935 | 53515 67097 | 13584 13583 | 95.09 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_4_length_176749_cov_25.2257_ID_3276477
+		Alignment: 3417658 3421969 | 69893 74205 | 4312 4313 | 95.39 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_4_length_176749_cov_25.2257_ID_3276477
+		Alignment: 3471297 3488215 | 120949 137838 | 16919 16890 | 95.16 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_4_length_176749_cov_25.2257_ID_3276477
+		Unaligned bases: 141963
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_51_length_21733_cov_29.1246_ID_3276607 (21733bp)
+Top Length: 2027  Top ID: 96.69
+		This contig is partially unaligned. (2027 out of 21733)
+		Alignment: 60467 62492 | 14368 12342 | 2026 2027 | 96.69 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_51_length_21733_cov_29.1246_ID_3276607
+		Unaligned bases: 1 to 12341 (12341)
+		Unaligned bases: 14369 to 21733 (7365)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_136_length_758_cov_61.315_ID_3276667 (758bp)
+		This contig is unaligned. (758 bp)
+		Unaligned bases: 758  total: 375899
+
+CONTIG: NODE_5_length_172261_cov_27.556_ID_3276405 (172261bp)
+Top Length: 18494  Top ID: 95.43
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 172261 and total length of all aligns is 38332
+		Alignment: 420242 427775 | 129811 122280 | 7534 7532 | 95.22 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_5_length_172261_cov_27.556_ID_3276405
+		Alignment: 466789 485278 | 83918 65425 | 18490 18494 | 95.43 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_5_length_172261_cov_27.556_ID_3276405
+		Alignment: 509016 513400 | 41485 37080 | 4385 4406 | 95.39 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_5_length_172261_cov_27.556_ID_3276405
+		Alignment: 517079 523410 | 33101 26771 | 6332 6331 | 95.28 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_5_length_172261_cov_27.556_ID_3276405
+		Alignment: 530754 532323 | 19689 18121 | 1570 1569 | 95.68 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_5_length_172261_cov_27.556_ID_3276405
+		Unaligned bases: 133929
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_86_length_3337_cov_29.0932_ID_3276581 (3337bp)
+		This contig is unaligned. (3337 bp)
+		Unaligned bases: 3337  total: 379236
+
+CONTIG: NODE_31_length_58766_cov_26.6631_ID_3276519 (58766bp)
+Top Length: 7777  Top ID: 95.35
+		This contig is misassembled. 4 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 58766 and total length of all aligns is 22314
+		Alignment: 710132 716297 | 58283 52104 | 6166 6180 | 95.84 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_31_length_58766_cov_26.6631_ID_3276519
+		Alignment: 716489 717418 | 51719 50790 | 930 930 | 97.1 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_31_length_58766_cov_26.6631_ID_3276519
+		Alignment: 732575 740352 | 34457 26681 | 7778 7777 | 95.35 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_31_length_58766_cov_26.6631_ID_3276519
+		Alignment: 754151 761571 | 10206 2780 | 7421 7427 | 96.14 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_31_length_58766_cov_26.6631_ID_3276519
+		Unaligned bases: 36452
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_8_length_151392_cov_24.4481_ID_3276419 (151392bp)
+Top Length: 17230  Top ID: 95.64
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 151392 and total length of all aligns is 31997
+		Alignment: 2239535 2239691 | 163 321 | 157 159 | 98.11 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_8_length_151392_cov_24.4481_ID_3276419
+		Alignment: 2264824 2282054 | 22857 40086 | 17231 17230 | 95.64 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_8_length_151392_cov_24.4481_ID_3276419
+		Alignment: 2282718 2286450 | 40729 44462 | 3733 3734 | 96.76 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_8_length_151392_cov_24.4481_ID_3276419
+		Alignment: 2286726 2290794 | 44719 48797 | 4069 4079 | 96.1 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_8_length_151392_cov_24.4481_ID_3276419
+		Alignment: 2290868 2297661 | 48937 55731 | 6794 6795 | 96.26 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_8_length_151392_cov_24.4481_ID_3276419
+		Unaligned bases: 119395
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_94_length_2248_cov_81.4406_ID_3276439 (2248bp)
+		This contig is unaligned. (2248 bp)
+		Unaligned bases: 2248  total: 381484
+
+CONTIG: NODE_78_length_4673_cov_30.8723_ID_3276463 (4673bp)
+		This contig is unaligned. (4673 bp)
+		Unaligned bases: 4673  total: 386157
+
+CONTIG: NODE_96_length_2188_cov_86.4636_ID_3276521 (2188bp)
+		This contig is unaligned. (2188 bp)
+		Unaligned bases: 2188  total: 388345
+
+CONTIG: NODE_73_length_5964_cov_25.478_ID_3276657 (5964bp)
+		This contig is unaligned. (5964 bp)
+		Unaligned bases: 5964  total: 394309
+
+CONTIG: NODE_147_length_630_cov_81.8661_ID_3277041 (630bp)
+		This contig is unaligned. (630 bp)
+		Unaligned bases: 630  total: 394939
+
+CONTIG: NODE_110_length_1369_cov_28.1667_ID_3276539 (1369bp)
+		This contig is unaligned. (1369 bp)
+		Unaligned bases: 1369  total: 396308
+
+CONTIG: NODE_103_length_1740_cov_29.1958_ID_3276527 (1740bp)
+		This contig is unaligned. (1740 bp)
+		Unaligned bases: 1740  total: 398048
+
+CONTIG: NODE_80_length_4371_cov_30.9491_ID_3276421 (4371bp)
+		This contig is unaligned. (4371 bp)
+		Unaligned bases: 4371  total: 402419
+
+CONTIG: NODE_76_length_4925_cov_74.1405_ID_3276579 (4925bp)
+		This contig is unaligned. (4925 bp)
+		Unaligned bases: 4925  total: 407344
+
+CONTIG: NODE_37_length_44361_cov_27.8596_ID_3276541 (44361bp)
+		This contig is unaligned. (44361 bp)
+		Unaligned bases: 44361  total: 451705
+
+CONTIG: NODE_33_length_54945_cov_28.4303_ID_3276461 (54945bp)
+Top Length: 3908  Top ID: 95.37
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 54945 and total length of all aligns is 7110
+		Alignment: 256967 258416 | 26811 25361 | 1450 1451 | 96.49 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_33_length_54945_cov_28.4303_ID_3276461
+		Alignment: 259783 263693 | 24454 20547 | 3911 3908 | 95.37 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_33_length_54945_cov_28.4303_ID_3276461
+		Alignment: 263822 265571 | 20045 18295 | 1750 1751 | 95.89 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_33_length_54945_cov_28.4303_ID_3276461
+		Unaligned bases: 47835
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_115_length_1048_cov_29.378_ID_3276573 (1048bp)
+		This contig is unaligned. (1048 bp)
+		Unaligned bases: 1048  total: 452753
+
+CONTIG: NODE_98_length_2041_cov_40.1774_ID_3276437 (2041bp)
+		This contig is unaligned. (2041 bp)
+		Unaligned bases: 2041  total: 454794
+
+CONTIG: NODE_90_length_2409_cov_31.6291_ID_3276645 (2409bp)
+		This contig is unaligned. (2409 bp)
+		Unaligned bases: 2409  total: 457203
+
+CONTIG: NODE_52_length_20749_cov_113.631_ID_3276441 (20749bp)
+		This contig is unaligned. (20749 bp)
+		Unaligned bases: 20749  total: 477952
+
+CONTIG: NODE_97_length_2121_cov_37.9956_ID_3276525 (2121bp)
+		This contig is unaligned. (2121 bp)
+		Unaligned bases: 2121  total: 480073
+
+CONTIG: NODE_18_length_115335_cov_25.4419_ID_3277097 (115335bp)
+Top Length: 17829  Top ID: 95.22
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 115335 and total length of all aligns is 42005
+		Alignment: 1613078 1613164 | 63922 64008 | 87 87 | 98.85 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_18_length_115335_cov_25.4419_ID_3277097
+		Alignment: 1672976 1679981 | 7634 14638 | 7006 7005 | 95.98 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_18_length_115335_cov_25.4419_ID_3277097
+		Alignment: 1682541 1700373 | 17307 35135 | 17833 17829 | 95.22 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_18_length_115335_cov_25.4419_ID_3277097
+		Alignment: 1708606 1713473 | 42746 47619 | 4868 4874 | 96.92 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_18_length_115335_cov_25.4419_ID_3277097
+		Alignment: 1768028 1780242 | 102821 115030 | 12215 12210 | 95.12 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_18_length_115335_cov_25.4419_ID_3277097
+		Unaligned bases: 73330
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_131_length_784_cov_45.123_ID_3277067 (784bp)
+		This contig is unaligned. (784 bp)
+		Unaligned bases: 784  total: 480857
+
+CONTIG: NODE_27_length_66284_cov_26.236_ID_3276625 (66284bp)
+Top Length: 33153  Top ID: 95.19
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1336744 1369823 | 172 33324 | 33080 33153 | 95.19 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_27_length_66284_cov_26.236_ID_3276625
+			  Gap between these two alignments (local misassembly). Inconsistency = 14
+			Real Alignment 2: 1369935 1377159 | 33422 40632 | 7225 7211 | 95.24 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_27_length_66284_cov_26.236_ID_3276625
+
+CONTIG: NODE_89_length_2732_cov_84.4307_ID_3276719 (2732bp)
+		This contig is unaligned. (2732 bp)
+		Unaligned bases: 2732  total: 483589
+
+CONTIG: NODE_140_length_719_cov_77.3438_ID_3277047 (719bp)
+		This contig is unaligned. (719 bp)
+		Unaligned bases: 719  total: 484308
+
+CONTIG: NODE_114_length_1104_cov_27.9588_ID_3276555 (1104bp)
+		This contig is unaligned. (1104 bp)
+		Unaligned bases: 1104  total: 485412
+
+CONTIG: NODE_43_length_35000_cov_26.1761_ID_3276561 (35000bp)
+		This contig is unaligned. (35000 bp)
+		Unaligned bases: 35000  total: 520412
+
+CONTIG: NODE_44_length_28315_cov_28.6422_ID_3276583 (28315bp)
+		This contig is unaligned. (28315 bp)
+		Unaligned bases: 28315  total: 548727
+
+CONTIG: NODE_123_length_840_cov_64.8411_ID_3276723 (840bp)
+		This contig is unaligned. (840 bp)
+		Unaligned bases: 840  total: 549567
+
+CONTIG: NODE_26_length_67062_cov_28.2399_ID_3276431 (67062bp)
+		This contig is unaligned. (67062 bp)
+		Unaligned bases: 67062  total: 616629
+
+CONTIG: NODE_106_length_1573_cov_117.641_ID_3276577 (1573bp)
+		This contig is unaligned. (1573 bp)
+		Unaligned bases: 1573  total: 618202
+
+CONTIG: NODE_66_length_9674_cov_25.7163_ID_3276725 (9674bp)
+		This contig is unaligned. (9674 bp)
+		Unaligned bases: 9674  total: 627876
+
+CONTIG: NODE_41_length_41961_cov_26.2529_ID_3276549 (41961bp)
+		This contig is unaligned. (41961 bp)
+		Unaligned bases: 41961  total: 669837
+
+CONTIG: NODE_141_length_703_cov_33.7492_ID_3276615 (703bp)
+		This contig is unaligned. (703 bp)
+		Unaligned bases: 703  total: 670540
+
+CONTIG: NODE_22_length_91301_cov_27.3345_ID_3276475 (91301bp)
+Top Length: 2785  Top ID: 95.05
+		This contig is partially unaligned. (2785 out of 91301)
+		Alignment: 4144565 4147351 | 91293 88509 | 2787 2785 | 95.05 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_22_length_91301_cov_27.3345_ID_3276475
+		Unaligned bases: 1 to 88508 (88508)
+		Unaligned bases: 91294 to 91301 (8)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_56_length_16214_cov_29.0502_ID_3276423 (16214bp)
+		This contig is unaligned. (16214 bp)
+		Unaligned bases: 16214  total: 686754
+
+CONTIG: NODE_145_length_630_cov_129.857_ID_3277033 (630bp)
+		This contig is unaligned. (630 bp)
+		Unaligned bases: 630  total: 687384
+
+CONTIG: NODE_68_length_9098_cov_27.7559_ID_3276623 (9098bp)
+		This contig is unaligned. (9098 bp)
+		Unaligned bases: 9098  total: 696482
+
+CONTIG: NODE_122_length_849_cov_140.419_ID_3276587 (849bp)
+		This contig is unaligned. (849 bp)
+		Unaligned bases: 849  total: 697331
+
+CONTIG: NODE_148_length_630_cov_63.844_ID_3277043 (630bp)
+		This contig is unaligned. (630 bp)
+		Unaligned bases: 630  total: 697961
+
+CONTIG: NODE_130_length_788_cov_72.0996_ID_3276877 (788bp)
+		This contig is unaligned. (788 bp)
+		Unaligned bases: 788  total: 698749
+
+CONTIG: NODE_84_length_3673_cov_65.9259_ID_3276707 (3673bp)
+		This contig is unaligned. (3673 bp)
+		Unaligned bases: 3673  total: 702422
+
+CONTIG: NODE_15_length_118249_cov_26.9287_ID_3276551 (118249bp)
+Top Length: 3973  Top ID: 96.58
+		This contig is misassembled. 4 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 118249 and total length of all aligns is 10629
+		Alignment: 767426 770037 | 9976 12565 | 2612 2590 | 95.22 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_15_length_118249_cov_26.9287_ID_3276551
+		Alignment: 831652 835623 | 72739 76711 | 3972 3973 | 96.58 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_15_length_118249_cov_26.9287_ID_3276551
+		Alignment: 866436 869798 | 106935 110297 | 3363 3363 | 96.49 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_15_length_118249_cov_26.9287_ID_3276551
+		Alignment: 874893 875596 | 116632 117334 | 704 703 | 95.46 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_15_length_118249_cov_26.9287_ID_3276551
+		Unaligned bases: 107620
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_20_length_104636_cov_24.4191_ID_3276467 (104636bp)
+Top Length: 20473  Top ID: 95.15
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 104636 and total length of all aligns is 25288
+		Alignment: 2934072 2954550 | 66182 86654 | 20479 20473 | 95.15 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_20_length_104636_cov_24.4191_ID_3276467
+		Alignment: 2954705 2959501 | 86883 91697 | 4797 4815 | 95.95 | gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome NODE_20_length_104636_cov_24.4191_ID_3276467
+		Unaligned bases: 79348
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_75_length_5530_cov_29.7383_ID_3276425 (5530bp)
+		This contig is unaligned. (5530 bp)
+		Unaligned bases: 5530  total: 707952
+
+CONTIG: NODE_149_length_628_cov_29.5193_ID_3276507 (628bp)
+		This contig is unaligned. (628 bp)
+		Unaligned bases: 628  total: 708580
+
+CONTIG: NODE_99_length_1959_cov_79.0598_ID_3276563 (1959bp)
+		This contig is unaligned. (1959 bp)
+		Unaligned bases: 1959  total: 710539
+
+CONTIG: NODE_74_length_5786_cov_29.6778_ID_3276663 (5786bp)
+		This contig is unaligned. (5786 bp)
+		Unaligned bases: 5786  total: 716325
+
+CONTIG: NODE_47_length_22369_cov_26.7846_ID_3276485 (22369bp)
+		This contig is unaligned. (22369 bp)
+		Unaligned bases: 22369  total: 738694
+
+CONTIG: NODE_151_length_596_cov_30.18_ID_3276639 (596bp)
+		This contig is unaligned. (596 bp)
+		Unaligned bases: 596  total: 739290
+
+CONTIG: NODE_111_length_1309_cov_71.0564_ID_3276571 (1309bp)
+		This contig is unaligned. (1309 bp)
+		Unaligned bases: 1309  total: 740599
+
+Analyzing coverage...
+Writing SNPs into /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2329/dataset_2411_files/Scaffold/contigs_reports/nucmer_output/XA-H-Spades-Scaffold.used_snps
+	Reference gi|346722940|ref|NC_016010.1|_Xanthomonas_axonopodis_pv._citrumelo_F1_chromosome__complete_genome: 25 total alignments. 1 total regions.
+		Region: 1 to 4967469 (4967469 bp)
+			START in gap: 1 to 60467 (60466 bp)
+			Align 1: 60467 62492 NODE_51_length_21733_cov_29.1246_ID_3276607 14368 12342
+				Gap between this and next alignment: 62492 to 587128 (524635 bp)
+				Next Alignment: 587128 588696 NODE_29_length_63971_cov_26.4391_ID_3276671 63971 62403
+
+			Align 2: 587128 588696 NODE_29_length_63971_cov_26.4391_ID_3276671 63971 62403
+				Gap between this and next alignment: 588696 to 1045445 (456748 bp)
+				Next Alignment: 1045445 1057089 NODE_62_length_11958_cov_26.877_ID_3276627 317 11958
+
+			Align 3: 1045445 1057089 NODE_62_length_11958_cov_26.877_ID_3276627 317 11958
+				Negative gap (overlap) between this and next alignment: 1057089 to 1057005 (-84 bp)
+				Next Alignment: 1057005 1074449 NODE_54_length_17501_cov_28.8681_ID_3276727 17501 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 17501 to 17416.
+			Align 4: 1057090 1074449 NODE_54_length_17501_cov_28.8681_ID_3276727 17416 1
+				Gap between this and next alignment: 1074449 to 1224540 (150090 bp)
+				Next Alignment: 1224540 1229916 NODE_32_length_57818_cov_26.4061_ID_3276647 41719 47095
+
+			Align 5: 1224540 1229916 NODE_32_length_57818_cov_26.4061_ID_3276647 41719 47095
+				Gap between this and next alignment: 1229916 to 1245121 (15204 bp)
+				Next Alignment: 1245121 1246634 NODE_58_length_15751_cov_27.3676_ID_3276481 401 1914
+
+			Align 6: 1245121 1246634 NODE_58_length_15751_cov_27.3676_ID_3276481 401 1914
+				Gap between this and next alignment: 1246634 to 1295461 (48826 bp)
+				Next Alignment: 1295461 1299651 NODE_35_length_50753_cov_26.2085_ID_3276605 30816 35012
+
+			Align 7: 1295461 1299651 NODE_35_length_50753_cov_26.2085_ID_3276605 30816 35012
+				Gap between this and next alignment: 1299651 to 1336744 (37092 bp)
+				Next Alignment: 1336744 1369823 NODE_27_length_66284_cov_26.236_ID_3276625 172 33324
+
+			Align 8: 1336744 1369823 NODE_27_length_66284_cov_26.236_ID_3276625 172 33324
+				Gap between this and next alignment: 1369823 to 1369935 (111 bp)
+				Next Alignment: 1369935 1377159 NODE_27_length_66284_cov_26.236_ID_3276625 33422 40632
+
+			Align 9: 1369935 1377159 NODE_27_length_66284_cov_26.236_ID_3276625 33422 40632
+				Gap between this and next alignment: 1377159 to 1782000 (404840 bp)
+				Next Alignment: 1782000 1783944 NODE_61_length_12273_cov_25.8081_ID_3276597 2452 4396
+
+			Align 10: 1782000 1783944 NODE_61_length_12273_cov_25.8081_ID_3276597 2452 4396
+				Gap between this and next alignment: 1783944 to 1784065 (120 bp)
+				Next Alignment: 1784065 1791766 NODE_61_length_12273_cov_25.8081_ID_3276597 4567 12269
+
+			Align 11: 1784065 1791766 NODE_61_length_12273_cov_25.8081_ID_3276597 4567 12269
+				Gap between this and next alignment: 1791766 to 2015692 (223925 bp)
+				Next Alignment: 2015692 2018591 NODE_88_length_3122_cov_24.9651_ID_3276395 1 2901
+
+			Align 12: 2015692 2018591 NODE_88_length_3122_cov_24.9651_ID_3276395 1 2901
+				Gap between this and next alignment: 2018591 to 2043966 (25374 bp)
+				Next Alignment: 2043966 2054683 NODE_38_length_43958_cov_25.1087_ID_3276409 23107 33823
+
+			Align 13: 2043966 2054683 NODE_38_length_43958_cov_25.1087_ID_3276409 23107 33823
+				Gap between this and next alignment: 2054683 to 2219314 (164630 bp)
+				Next Alignment: 2219314 2225573 NODE_50_length_21840_cov_22.5343_ID_3276653 21452 15188
+
+			Align 14: 2219314 2225573 NODE_50_length_21840_cov_22.5343_ID_3276653 21452 15188
+				Gap between this and next alignment: 2225573 to 2226076 (502 bp)
+				Next Alignment: 2226076 2229383 NODE_50_length_21840_cov_22.5343_ID_3276653 14070 10763
+
+			Align 15: 2226076 2229383 NODE_50_length_21840_cov_22.5343_ID_3276653 14070 10763
+				Gap between this and next alignment: 2229383 to 2229439 (55 bp)
+				Next Alignment: 2229439 2239388 NODE_50_length_21840_cov_22.5343_ID_3276653 10527 581
+
+			Align 16: 2229439 2239388 NODE_50_length_21840_cov_22.5343_ID_3276653 10527 581
+				Gap between this and next alignment: 2239388 to 3012543 (773154 bp)
+				Next Alignment: 3012543 3016714 NODE_39_length_42642_cov_25.1712_ID_3276575 7073 11244
+
+			Align 17: 3012543 3016714 NODE_39_length_42642_cov_25.1712_ID_3276575 7073 11244
+				Gap between this and next alignment: 3016714 to 3016821 (106 bp)
+				Next Alignment: 3016821 3047541 NODE_39_length_42642_cov_25.1712_ID_3276575 11381 42094
+
+			Align 18: 3016821 3047541 NODE_39_length_42642_cov_25.1712_ID_3276575 11381 42094
+				Gap between this and next alignment: 3047541 to 3626659 (579117 bp)
+				Next Alignment: 3626659 3632331 NODE_45_length_26124_cov_26.361_ID_3276491 12828 7151
+
+			Align 19: 3626659 3632331 NODE_45_length_26124_cov_26.361_ID_3276491 12828 7151
+				Gap between this and next alignment: 3632331 to 4131890 (499558 bp)
+				Next Alignment: 4131890 4144571 NODE_49_length_21876_cov_27.7249_ID_3276427 9188 21863
+
+			Align 20: 4131890 4144571 NODE_49_length_21876_cov_27.7249_ID_3276427 9188 21863
+				Negative gap (overlap) between this and next alignment: 4144571 to 4144565 (-6 bp)
+				Next Alignment: 4144565 4147351 NODE_22_length_91301_cov_27.3345_ID_3276475 91293 88509
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 91293 to 91286.
+			Align 21: 4144572 4147351 NODE_22_length_91301_cov_27.3345_ID_3276475 91286 88509
+				Gap between this and next alignment: 4147351 to 4269027 (121675 bp)
+				Next Alignment: 4269027 4277360 NODE_23_length_87900_cov_27.16_ID_3276609 2278 10610
+
+			Align 22: 4269027 4277360 NODE_23_length_87900_cov_27.16_ID_3276609 2278 10610
+				Gap between this and next alignment: 4277360 to 4277516 (155 bp)
+				Next Alignment: 4277516 4285130 NODE_23_length_87900_cov_27.16_ID_3276609 10678 18291
+
+			Align 23: 4277516 4285130 NODE_23_length_87900_cov_27.16_ID_3276609 10678 18291
+				Gap between this and next alignment: 4285130 to 4307976 (22845 bp)
+				Next Alignment: 4307976 4311308 NODE_23_length_87900_cov_27.16_ID_3276609 40987 44324
+
+			Align 24: 4307976 4311308 NODE_23_length_87900_cov_27.16_ID_3276609 40987 44324
+				Gap between this and next alignment: 4311308 to 4311317 (8 bp)
+				Next Alignment: 4311317 4338319 NODE_23_length_87900_cov_27.16_ID_3276609 44656 71659
+
+			Align 25: 4311317 4338319 NODE_23_length_87900_cov_27.16_ID_3276609 44656 71659
+			END in gap: 4338319 to 4967469 (629150 bp)
+
+Analysis is finished!
+Founded SNPs were written into /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2329/dataset_2411_files/Scaffold/contigs_reports/nucmer_output/XA-H-Spades-Scaffold.used_snps
+
+Results:
+	Local Misassemblies: 8
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassmblies Inter-Contig Overlap: 0
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 106 + 41 part
+Partially Unaligned Contigs with Misassemblies: 30
+Unaligned Contig Bases: 3888011
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 229083
+
+	SNPs: 9276
+	Insertions: 307
+	Deletions: 191
+
+	Positive Gaps: 24
+		Internal Gaps:  8
+		External Gaps:  16
+		External Gap Total:  4714484
+		External Gap Average: 294655
+	Negative Gaps: 2
+		Internal Overlaps:  0
+		External Overlaps:  2
+		External Overlaps Total: -90
+		External Overlaps Average: -45
+	Contigs with Redundant Alignments: 0 (0)

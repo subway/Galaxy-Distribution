@@ -1,0 +1,16 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{38}{|r}|}
+\hline
+Assembly & \# contigs ($\geq$ 500 bp) & \# contigs ($\geq$ 1000 bp) & Total length ($\geq$ 500 bp) & Total length ($\geq$ 1000 bp) & \# contigs & Total length & Largest contig & Reference length & GC (\%) & Reference GC (\%) & N50 & NG50 & N75 & NG75 & L50 & LG50 & L75 & LG75 & \# misassemblies & Misassembled contigs length & \# local misassemblies & \# unaligned contigs & Unaligned contigs length & Genome fraction (\%) & Duplication ratio & \# N's per 100 kbp & \# mismatches per 100 kbp & \# indels per 100 kbp & \# genes & Largest alignment & NA50 & NGA50 & NA75 & NGA75 & LA50 & LGA50 & LA75 & LGA75 \\ \hline
+GAGE-B broken & 186 & 147 & 3924635 & 3895651 & 186 & 3924635 & 246179 & 4033464 & 47.56 & 47.49 & 71357 & 71357 & 37218 & 34893 & 15 & 15 & 34 & 36 & 12 & 408395 & 44 & 2 + 3 part & 6480 & 96.940 & 1.003 & 0.00 & 8.16 & 4.37 & 3442 + 85 part & 246179 & 71357 & 68152 & 37218 & 32753 & 15 & 16 & 34 & 37 \\ \hline
+GAGE-B & 165 & 136 & 3933425 & 3911595 & 165 & 3933425 & 246179 & 4033464 & 47.55 & 47.49 & 91942 & 91942 & 39820 & 38903 & 14 & 14 & 32 & 33 & 14 & 543041 & 77 & 2 + 2 part & 6469 & 97.050 & 1.005 & 92.34 & 8.48 & 5.52 & 3443 + 86 part & 246179 & 91942 & 89759 & 39451 & 38469 & 14 & 15 & 32 & 34 \\ \hline
+SOAPdenovo2 broken & 309 & 231 & 3882932 & 3828146 & 309 & 3882932 & 107390 & 4033464 & 47.60 & 47.49 & 30205 & 28829 & 17200 & 16546 & 37 & 40 & 81 & 88 & 2 & 6284 & 2 & 2 + 0 part & 5991 & 96.081 & 1.000 & 0.00 & 3.87 & 2.89 & 3326 + 134 part & 107390 & 30205 & 28829 & 17200 & 16546 & 37 & 40 & 81 & 88 \\ \hline
+SOAPdenovo2 & 166 & 138 & 3955352 & 3934276 & 166 & 3955352 & 247379 & 4033464 & 47.55 & 47.49 & 92267 & 92267 & 39820 & 39033 & 14 & 14 & 32 & 33 & 6 & 231931 & 274 & 2 + 4 part & 8949 & 96.774 & 1.011 & 1026.18 & 3.95 & 3.00 & 3349 + 155 part & 246082 & 91868 & 89757 & 38643 & 38321 & 14 & 15 & 33 & 34 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

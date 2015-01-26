@@ -1,0 +1,72 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1652/dataset_1734_files/B_fragilis_638R -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/B_fragilis_638R.fna --scaffolds /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_592.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-05-02 22:08:17
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1652/dataset_1734_files/B_fragilis_638R/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/B_fragilis_638R.fna ==> B_fragilis_638R
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_592.dat ==> dataset_592.dat
+  breaking scaffolds into contigs:
+      82707 scaffolds (dataset_592) were broken into 864 contigs (dataset_592_broken)
+
+2014-05-02 22:08:20
+Running Basic statistics processor...
+  Reference genome:
+    B_fragilis_638R.fna, Reference length = 5373121, Reference GC % = 43.42
+  Contig files: 
+    1  dataset_592.dat broken
+    2  dataset_592.dat
+  Calculating N50 and L50...
+    1  dataset_592.dat broken, N50 = 47088, L50 = 37, Total length = 5801552, GC % = 35.20, # N's per 100 kbp =  0.00
+    2  dataset_592.dat, N50 = 48439, L50 = 32, Total length = 5810521, GC % = 35.21, # N's per 100 kbp =  33.56
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1652/dataset_1734_files/B_fragilis_638R/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1652/dataset_1734_files/B_fragilis_638R/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1652/dataset_1734_files/B_fragilis_638R/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1652/dataset_1734_files/B_fragilis_638R/basic_stats/NGx_plot.pdf
+Done.
+
+2014-05-02 22:08:23
+Running Contig analyzer...
+  1  dataset_592.dat broken
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1652/dataset_1734_files/B_fragilis_638R/contigs_reports/contigs_report_dataset_592_broken.stdout and contigs_report_dataset_592_broken.stderr...
+  2  dataset_592.dat
+  1  Running Nucmer... 
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1652/dataset_1734_files/B_fragilis_638R/contigs_reports/contigs_report_dataset_592.stdout and contigs_report_dataset_592.stderr...
+  2  Running Nucmer... 
+  2  Nucmer: nothing aligned for 'dataset_592'.
+  1  Nucmer: nothing aligned for 'dataset_592_broken'.
+Failed aligning the contigs for all the assemblies. Only basic stats are going to be evaluated.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-05-02 22:08:37
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1652/dataset_1734_files/B_fragilis_638R/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1652/dataset_1734_files/B_fragilis_638R/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1652/dataset_1734_files/B_fragilis_638R/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1652/dataset_1734_files/B_fragilis_638R/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1652/dataset_1734_files/B_fragilis_638R/quast.log
+
+Finished: 2014-05-02 22:08:37
+Elapsed time: 0:00:19.822414

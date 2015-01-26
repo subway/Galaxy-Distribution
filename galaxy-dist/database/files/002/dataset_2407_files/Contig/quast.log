@@ -1,0 +1,184 @@
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig -R /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna -G /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/V_cholerae_O1_biovar_eltor_str_N1696.gff -l CABOG_miseq_scf, CABOG_hiseq_scf, MaSuRCA_miseq_scf, MaSuRCA_hiseq_scf, SOAPdenovo_miseq_scf, SOAPdenovo_hiseq_scf, SPAdes_miseq_scf, SPAdes_hiseq_scf, Velvet_miseq_scf, Velvet_hiseq_scf --contig-thresholds 500,1000 /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2324.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2225.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2255.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2249.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2279.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2276.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2191.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2189.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2204.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2202.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.32-431.11.2.el6.x86_64-x86_64-with-redhat-6.5-Santiago
+  Python version: 2.7.6
+  CPUs number: 64
+
+Started: 2014-07-08 07:21:36
+
+Logging to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna ==> V_cholerae_O1_biovar_eltor_str_N1696
+
+Contigs:
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2324.dat ==> CABOG_miseq_scf
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2225.dat ==> CABOG_hiseq_scf
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2255.dat ==> MaSuRCA_miseq_scf
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2249.dat ==> MaSuRCA_hiseq_scf
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2279.dat ==> SOAPdenovo_miseq_scf
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2276.dat ==> SOAPdenovo_hiseq_scf
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2191.dat ==> SPAdes_miseq_scf
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2189.dat ==> SPAdes_hiseq_scf
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2204.dat ==> Velvet_miseq_scf
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2202.dat ==> Velvet_hiseq_scf
+
+2014-07-08 07:21:43
+Running Basic statistics processor...
+  Reference genome:
+    V_cholerae_O1_biovar_eltor_str_N1696.fna, Reference length = 4033464, Reference GC % = 47.49
+  Contig files: 
+    1  CABOG_miseq_scf
+    2  CABOG_hiseq_scf
+    3  MaSuRCA_miseq_scf
+    4  MaSuRCA_hiseq_scf
+    5  SOAPdenovo_miseq_scf
+    6  SOAPdenovo_hiseq_scf
+    7  SPAdes_miseq_scf
+    8  SPAdes_hiseq_scf
+    9  Velvet_miseq_scf
+    10  Velvet_hiseq_scf
+  Calculating N50 and L50...
+    1  CABOG_miseq_scf, N50 = 1707, L50 = 69, Total length = 318746, GC % = 41.54, # N's per 100 kbp =  0.00
+    2  CABOG_hiseq_scf, N50 = 134075, L50 = 10, Total length = 3850141, GC % = 47.54, # N's per 100 kbp =  25.97
+    3  MaSuRCA_miseq_scf, N50 = 76131, L50 = 16, Total length = 4030761, GC % = 47.47, # N's per 100 kbp =  0.00
+    4  MaSuRCA_hiseq_scf, N50 = 246836, L50 = 6, Total length = 3990088, GC % = 47.50, # N's per 100 kbp =  17.54
+    5  SOAPdenovo_miseq_scf, N50 = 92267, L50 = 14, Total length = 3955352, GC % = 47.55, # N's per 100 kbp =  1026.18
+    6  SOAPdenovo_hiseq_scf, N50 = 202254, L50 = 6, Total length = 3967072, GC % = 47.51, # N's per 100 kbp =  1287.95
+    7  SPAdes_miseq_scf, N50 = 262160, L50 = 5, Total length = 4042074, GC % = 47.37, # N's per 100 kbp =  5.84
+    8  SPAdes_hiseq_scf, N50 = 225904, L50 = 6, Total length = 4211504, GC % = 47.47, # N's per 100 kbp =  9.00
+    9  Velvet_miseq_scf, N50 = 105176, L50 = 12, Total length = 3892321, GC % = 47.69, # N's per 100 kbp =  1.28
+    10  Velvet_hiseq_scf, N50 = 163386, L50 = 8, Total length = 3903678, GC % = 47.63, # N's per 100 kbp =  515.80
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/basic_stats/NGx_plot.pdf
+Done.
+
+2014-07-08 07:21:49
+Running Contig analyzer...
+  1  CABOG_miseq_scf
+  2  CABOG_hiseq_scf
+  1  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/contigs_report_CABOG_miseq_scf.stdout and contigs_report_CABOG_miseq_scf.stderr...
+  1  Running Nucmer... 
+  3  MaSuRCA_miseq_scf
+  2  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/contigs_report_CABOG_hiseq_scf.stdout and contigs_report_CABOG_hiseq_scf.stderr...
+  3  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/contigs_report_MaSuRCA_miseq_scf.stdout and contigs_report_MaSuRCA_miseq_scf.stderr...
+  2  Running Nucmer... 
+  3  Running Nucmer... 
+  4  MaSuRCA_hiseq_scf
+  4  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/contigs_report_MaSuRCA_hiseq_scf.stdout and contigs_report_MaSuRCA_hiseq_scf.stderr...
+  4  Running Nucmer... 
+  5  SOAPdenovo_miseq_scf
+  6  SOAPdenovo_hiseq_scf
+  5  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/contigs_report_SOAPdenovo_miseq_scf.stdout and contigs_report_SOAPdenovo_miseq_scf.stderr...
+  6  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/contigs_report_SOAPdenovo_hiseq_scf.stdout and contigs_report_SOAPdenovo_hiseq_scf.stderr...
+  5  Running Nucmer... 
+  6  Running Nucmer... 
+  7  SPAdes_miseq_scf
+  7  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/contigs_report_SPAdes_miseq_scf.stdout and contigs_report_SPAdes_miseq_scf.stderr...
+  8  SPAdes_hiseq_scf
+  9  Velvet_miseq_scf
+  7  Running Nucmer... 
+  8  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/contigs_report_SPAdes_hiseq_scf.stdout and contigs_report_SPAdes_hiseq_scf.stderr...
+  10  Velvet_hiseq_scf
+  9  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/contigs_report_Velvet_miseq_scf.stdout and contigs_report_Velvet_miseq_scf.stderr...
+  8  Running Nucmer... 
+  9  Running Nucmer... 
+  10  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/contigs_report_Velvet_hiseq_scf.stdout and contigs_report_Velvet_hiseq_scf.stderr...
+  10  Running Nucmer... 
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/alignments_CABOG_miseq_scf.tsv
+  1418 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/alignments_SOAPdenovo_miseq_scf.tsv
+  44299 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/alignments_SOAPdenovo_hiseq_scf.tsv
+  337167 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/alignments_Velvet_hiseq_scf.tsv
+  336625 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/alignments_CABOG_hiseq_scf.tsv
+  355679 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/alignments_Velvet_miseq_scf.tsv
+  229574 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/alignments_SPAdes_hiseq_scf.tsv
+  225888 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/alignments_MaSuRCA_miseq_scf.tsv
+  100002 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/alignments_SPAdes_miseq_scf.tsv
+  355869 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/alignments_MaSuRCA_hiseq_scf.tsv
+  233667 Analysis is finished.
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-07-08 07:22:11
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    1  CABOG_miseq_scf, Largest alignment = 5582, NA50 = 1624, NGA50 = None, LA50 = 72, LGA50 = None
+    2  CABOG_hiseq_scf, Largest alignment = 355655, NA50 = 134075, NGA50 = 102118, LA50 = 10, LGA50 = 11
+    3  MaSuRCA_miseq_scf, Largest alignment = 255146, NA50 = 76131, NGA50 = 76131, LA50 = 16, LGA50 = 16
+    4  MaSuRCA_hiseq_scf, Largest alignment = 555729, NA50 = 236430, NGA50 = 236430, LA50 = 6, LGA50 = 6
+    5  SOAPdenovo_miseq_scf, Largest alignment = 246082, NA50 = 91868, NGA50 = 89757, LA50 = 14, LGA50 = 15
+    6  SOAPdenovo_hiseq_scf, Largest alignment = 573310, NA50 = 180945, NGA50 = 180945, LA50 = 7, LGA50 = 7
+    7  SPAdes_miseq_scf, Largest alignment = 741022, NA50 = 262160, NGA50 = 262160, LA50 = 5, LGA50 = 5
+    8  SPAdes_hiseq_scf, Largest alignment = 572859, NA50 = 214751, NGA50 = 214751, LA50 = 7, LGA50 = 7
+    9  Velvet_miseq_scf, Largest alignment = 246346, NA50 = 105176, NGA50 = 105176, LA50 = 12, LGA50 = 12
+    10  Velvet_hiseq_scf, Largest alignment = 409820, NA50 = 163055, NGA50 = 156829, LA50 = 8, LGA50 = 9
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-07-08 07:22:13
+Running Genome analyzer...
+  Loaded 3693 genes
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  1  CABOG_miseq_scf
+  2  CABOG_hiseq_scf
+  3  MaSuRCA_miseq_scf
+  4  MaSuRCA_hiseq_scf
+  5  SOAPdenovo_miseq_scf
+  6  SOAPdenovo_hiseq_scf
+  7  SPAdes_miseq_scf
+  8  SPAdes_hiseq_scf
+  9  Velvet_miseq_scf
+  10  Velvet_hiseq_scf
+  Drawing genes cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-07-08 07:22:40
+Summarizing...
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/report.html
+  All pdf files are merged to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/plots.pdf
+Log saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/quast.log
+
+Finished: 2014-07-08 07:22:40
+Elapsed time: 0:01:03.382675

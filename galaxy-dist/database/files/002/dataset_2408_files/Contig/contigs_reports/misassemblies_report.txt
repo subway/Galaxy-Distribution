@@ -1,0 +1,15 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                      CABOG_miseq_ctg  CABOG_hiseq_ctg  MaSuRCA_miseq_ctg  MaSuRCA_hiseq_ctg  SPAdes_miseq_ctg  SPAdes_hiseq_ctg  Velvet_miseq_ctg  Velvet_hiseq_ctg
+# misassemblies               8                8                9                  8                  4                 8                 5                 9               
+    # relocations             7                7                7                  7                  4                 7                 5                 9               
+    # translocations          1                1                2                  1                  0                 1                 0                 0               
+    # inversions              0                0                0                  0                  0                 0                 0                 0               
+# misassembled contigs        7                7                9                  8                  3                 7                 5                 9               
+Misassembled contigs length   30914            39006            140011             228152             533480            613451            28731             127292          
+# local misassemblies         6                7                6                  6                  1                 3                 3                 9               
+# mismatches                  263              353              196                2009               270               266               164               229             
+# indels                      140              172              131                224                132               133               102               122             
+    # short indels (<= 5 bp)  138              169              126                216                130               125               98                116             
+    # long indels (> 5 bp)    2                3                5                  8                  2                 8                 4                 6               
+Indels length                 158              200              169                301                173               288               137               174             

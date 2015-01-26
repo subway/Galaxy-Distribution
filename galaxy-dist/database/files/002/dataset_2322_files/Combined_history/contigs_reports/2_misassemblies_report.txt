@@ -1,0 +1,15 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                      GAGE-B-Hiseq  Velvet_1208-Hiseq  GAGE-B-Miseq  Velvet_1208-Miseq
+# misassemblies               10            10                 22            6                
+    # relocations             8             9                  20            6                
+    # translocations          2             1                  2             0                
+    # inversions              0             0                  0             0                
+# misassembled contigs        8             9                  17            6                
+Misassembled contigs length   395034        273985             1210318       45660            
+# local misassemblies         129           123                13            6                
+# mismatches                  203           225                156           168              
+# indels                      370           205                192           103              
+    # short indels (<= 5 bp)  346           196                183           98               
+    # long indels (> 5 bp)    24            9                  9             5                
+Indels length                 708           374                352           145              

@@ -1,0 +1,114 @@
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig -R /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna -G /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/V_cholerae_O1_biovar_eltor_str_N1696.gff -l GAGE-B-Hiseq, Velvet_1.2.08-Hiseq, Velvet_1.2.10-Hiseq --contig-thresholds 200,1000 /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2197.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2201.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2205.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.32-431.11.2.el6.x86_64-x86_64-with-redhat-6.5-Santiago
+  Python version: 2.7.6
+  CPUs number: 64
+
+Started: 2014-06-17 03:09:57
+
+Logging to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna ==> V_cholerae_O1_biovar_eltor_str_N1696
+
+Contigs:
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2197.dat ==> GAGE-B-Hiseq
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2201.dat ==> Velvet_1.2.08-Hiseq
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2205.dat ==> Velvet_1.2.10-Hiseq
+
+2014-06-17 03:10:02
+Running Basic statistics processor...
+  Reference genome:
+    V_cholerae_O1_biovar_eltor_str_N1696.fna, Reference length = 4033464, Reference GC % = 47.49
+  Contig files: 
+    1  GAGE-B-Hiseq
+    2  Velvet_1.2.08-Hiseq
+    3  Velvet_1.2.10-Hiseq
+  Calculating N50 and L50...
+    1  GAGE-B-Hiseq, N50 = 40877, L50 = 30, Total length = 3914915, GC % = 47.50, # N's per 100 kbp =  0.00
+    2  Velvet_1.2.08-Hiseq, N50 = 46346, L50 = 28, Total length = 3889783, GC % = 47.64, # N's per 100 kbp =  0.00
+    3  Velvet_1.2.10-Hiseq, N50 = 46346, L50 = 28, Total length = 3889783, GC % = 47.64, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/basic_stats/NGx_plot.pdf
+Done.
+
+2014-06-17 03:10:05
+Running Contig analyzer...
+  1  GAGE-B-Hiseq
+  2  Velvet_1.2.08-Hiseq
+  1  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/contigs_reports/contigs_report_GAGE-B-Hiseq.stdout and contigs_report_GAGE-B-Hiseq.stderr...
+  3  Velvet_1.2.10-Hiseq
+  1  Running Nucmer... 
+  2  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/contigs_reports/contigs_report_Velvet_1.2.stdout and contigs_report_Velvet_1.2.stderr...
+  3  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/contigs_reports/contigs_report_Velvet_1.2.stdout and contigs_report_Velvet_1.2.stderr...
+  2  Running Nucmer... 
+  3  Running Nucmer... 
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/contigs_reports/alignments_Velvet_1.2.tsv
+  25620 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/contigs_reports/alignments_GAGE-B-Hiseq.tsv
+  7451 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/contigs_reports/alignments_Velvet_1.2.tsv
+  25620 Analysis is finished.
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-06-17 03:10:19
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    1  GAGE-B-Hiseq, Largest alignment = 157783, NA50 = 40877, NGA50 = 39468, LA50 = 30, LGA50 = 31
+    2  Velvet_1.2.08-Hiseq, Largest alignment = 157831, NA50 = 42805, NGA50 = 41373, LA50 = 28, LGA50 = 30
+    3  Velvet_1.2.10-Hiseq, Largest alignment = 157831, NA50 = 42805, NGA50 = 41373, LA50 = 28, LGA50 = 30
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-06-17 03:10:21
+Running Genome analyzer...
+  Loaded 3693 genes
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  1  GAGE-B-Hiseq
+  2  Velvet_1.2.08-Hiseq
+  3  Velvet_1.2.10-Hiseq
+  Drawing genes cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-06-17 03:10:30
+Summarizing...
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/report.html
+  All pdf files are merged to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/plots.pdf
+Log saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2221/dataset_2303_files/Contig/quast.log
+
+Finished: 2014-06-17 03:10:30
+Elapsed time: 0:00:32.392138

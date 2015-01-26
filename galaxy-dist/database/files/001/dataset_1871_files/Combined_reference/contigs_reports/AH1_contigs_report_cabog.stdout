@@ -1,0 +1,526 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [AH1]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 4742394
+Analyzing contigs...
+CONTIG: scf7180000388339 (118682bp)
+Top Length: 21086  Top ID: 95.77
+		Skipping redundant alignment 355163 355259 | 4 99 | 97 96 | 96.91 | AH1 scf7180000388339
+		Skipping redundant alignment 4449167 4449263 | 99 4 | 97 96 | 96.91 | AH1 scf7180000388339
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 118682 and total length of all aligns is 35784
+		Alignment: 829744 844348 | 20527 35127 | 14605 14601 | 95.54 | AH1 scf7180000388339
+		Alignment: 851034 872150 | 43007 64092 | 21117 21086 | 95.77 | AH1 scf7180000388339
+		Alignment: 4697516 4697613 | 100 4 | 98 97 | 96.94 | AH1 scf7180000388339
+		Unaligned bases: 82898
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388338 (301342bp)
+Top Length: 9377  Top ID: 95.95
+		Skipping redundant alignment 551970 552156 | 6 192 | 187 187 | 100.0 | AH1 scf7180000388338
+		This contig is misassembled. 10 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 301342 and total length of all aligns is 33756
+		Alignment: 214494 214589 | 301247 301342 | 96 96 | 96.88 | AH1 scf7180000388338
+		Alignment: 551973 552164 | 1 192 | 192 192 | 100.0 | AH1 scf7180000388338
+		Alignment: 609268 610800 | 57066 58592 | 1533 1527 | 95.89 | AH1 scf7180000388338
+		Alignment: 610900 616817 | 58592 64510 | 5918 5919 | 95.07 | AH1 scf7180000388338
+		Alignment: 616938 626312 | 66727 76103 | 9375 9377 | 95.95 | AH1 scf7180000388338
+		Alignment: 626973 635270 | 77773 86077 | 8298 8305 | 96.5 | AH1 scf7180000388338
+		Alignment: 786690 788956 | 281292 283557 | 2267 2266 | 95.11 | AH1 scf7180000388338
+		Alignment: 792378 794699 | 288457 290777 | 2322 2321 | 95.56 | AH1 scf7180000388338
+		Alignment: 794802 798557 | 292513 296266 | 3756 3754 | 95.02 | AH1 scf7180000388338
+		Unaligned bases: 267586
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388333 (230837bp)
+Top Length: 9662  Top ID: 95.72
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [90067][90177] redundant alignment 90067 90177 | 230837 230727 | 111 111 | 98.2 | AH1 scf7180000388333
+		Skipping [168236][168348] redundant alignment 168236 168348 | 230837 230725 | 113 113 | 97.35 | AH1 scf7180000388333
+		Skipping [219734][219846] redundant alignment 219734 219846 | 230837 230725 | 113 113 | 97.35 | AH1 scf7180000388333
+		Skipping [808712][808824] redundant alignment 808712 808824 | 230837 230725 | 113 113 | 97.35 | AH1 scf7180000388333
+		Skipping [937889][938001] redundant alignment 937889 938001 | 230837 230725 | 113 113 | 97.35 | AH1 scf7180000388333
+		Skipping [4697894][4698006] redundant alignment 4697894 4698006 | 230725 230837 | 113 113 | 97.35 | AH1 scf7180000388333
+		This contig is misassembled. 14 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 230837 and total length of all aligns is 18637
+		Alignment: 959266 964553 | 209688 204393 | 5288 5296 | 95.45 | AH1 scf7180000388333
+		Alignment: 964662 965785 | 204292 203173 | 1124 1120 | 95.91 | AH1 scf7180000388333
+		Alignment: 1033421 1033748 | 136103 135776 | 328 328 | 97.26 | AH1 scf7180000388333
+		Alignment: 1039043 1040989 | 135683 133738 | 1947 1946 | 95.07 | AH1 scf7180000388333
+		Alignment: 1041140 1050789 | 132839 123178 | 9650 9662 | 95.72 | AH1 scf7180000388333
+		Alignment: 3951774 3951886 | 230725 230837 | 113 113 | 97.35 | AH1 scf7180000388333
+		Alignment: 4476176 4476261 | 236 151 | 86 86 | 100.0 | AH1 scf7180000388333
+		Alignment: 4476176 4476261 | 99 14 | 86 86 | 98.84 | AH1 scf7180000388333
+		Unaligned bases: 212200
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388332 (30780bp)
+Top Length: 12432  Top ID: 96.25
+		This contig is partially unaligned. (12432 out of 30780)
+		Alignment: 2999217 3011661 | 12203 24634 | 12445 12432 | 96.25 | AH1 scf7180000388332
+		Unaligned bases: 1 to 12202 (12202)
+		Unaligned bases: 24635 to 30780 (6146)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scf7180000388331 (278382bp)
+Top Length: 7825  Top ID: 95.22
+		Skipping redundant alignment 1702430 1702524 | 1 95 | 95 95 | 98.95 | AH1 scf7180000388331
+		Skipping redundant alignment 1702573 1702661 | 8 96 | 89 89 | 100.0 | AH1 scf7180000388331
+		Skipping redundant alignment 4476176 4476261 | 8 93 | 86 86 | 98.84 | AH1 scf7180000388331
+		Skipping redundant alignment 4476176 4476261 | 124 209 | 86 86 | 100.0 | AH1 scf7180000388331
+		Skipping redundant alignment 4476176 4476261 | 240 325 | 86 86 | 98.84 | AH1 scf7180000388331
+		This contig is misassembled. 12 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 278382 and total length of all aligns is 19487
+		Alignment: 1108224 1108596 | 1 373 | 373 373 | 95.45 | AH1 scf7180000388331
+		Alignment: 1743180 1745815 | 40837 43471 | 2636 2635 | 95.03 | AH1 scf7180000388331
+		Alignment: 1763710 1771534 | 67848 75672 | 7825 7825 | 95.22 | AH1 scf7180000388331
+		Alignment: 1773109 1775298 | 85291 87478 | 2190 2188 | 95.53 | AH1 scf7180000388331
+		Alignment: 1778532 1783934 | 91231 96630 | 5403 5400 | 95.48 | AH1 scf7180000388331
+		Alignment: 1793759 1794690 | 113124 114055 | 932 932 | 96.03 | AH1 scf7180000388331
+		Alignment: 1955429 1955562 | 278194 278327 | 134 134 | 100.0 | AH1 scf7180000388331
+		Unaligned bases: 258895
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388330 (2022bp)
+		This contig is unaligned. (2022 bp)
+		Unaligned bases: 2022  total: 2022
+
+CONTIG: scf7180000388337 (189722bp)
+Top Length: 11753  Top ID: 95.11
+		Skipping redundant alignment 551978 552154 | 189546 189722 | 177 177 | 100.0 | AH1 scf7180000388337
+		Skipping redundant alignment 552042 552218 | 189546 189722 | 177 177 | 100.0 | AH1 scf7180000388337
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 189722 and total length of all aligns is 12713
+		Alignment: 422091 433832 | 67358 79110 | 11742 11753 | 95.11 | AH1 scf7180000388337
+		Alignment: 479046 479820 | 117191 117965 | 775 775 | 95.87 | AH1 scf7180000388337
+		Alignment: 551962 552146 | 189538 189722 | 185 185 | 99.46 | AH1 scf7180000388337
+		Unaligned bases: 177009
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388336 (60800bp)
+		This contig is unaligned. (60800 bp)
+		Unaligned bases: 60800  total: 62822
+
+CONTIG: scf7180000388335 (562174bp)
+Top Length: 16983  Top ID: 95.05
+		Skipping redundant alignment 3882243 3882322 | 194172 194093 | 80 80 | 100.0 | AH1 scf7180000388335
+		Skipping redundant alignment 3882452 3882531 | 194172 194093 | 80 80 | 100.0 | AH1 scf7180000388335
+		Skipping redundant alignment 3881943 3882021 | 194172 194094 | 79 79 | 100.0 | AH1 scf7180000388335
+		Skipping redundant alignment 3882043 3882121 | 194172 194094 | 79 79 | 100.0 | AH1 scf7180000388335
+		Skipping redundant alignment 3882144 3882221 | 194171 194094 | 78 78 | 100.0 | AH1 scf7180000388335
+		Skipping redundant alignment 3882344 3882421 | 194171 194094 | 78 78 | 100.0 | AH1 scf7180000388335
+		Skipping redundant alignment 3882554 3882631 | 194171 194094 | 78 78 | 100.0 | AH1 scf7180000388335
+		This contig is misassembled. 19 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 562174 and total length of all aligns is 85568
+		Alignment: 1321707 1328775 | 104721 111771 | 7069 7051 | 95.7 | AH1 scf7180000388335
+		Alignment: 3268778 3275279 | 421099 414599 | 6502 6501 | 95.57 | AH1 scf7180000388335
+		Alignment: 3294018 3311034 | 394536 377554 | 17017 16983 | 95.05 | AH1 scf7180000388335
+		Alignment: 3357701 3359850 | 330089 327940 | 2150 2150 | 95.4 | AH1 scf7180000388335
+		Alignment: 3435428 3440244 | 248429 243616 | 4817 4814 | 95.56 | AH1 scf7180000388335
+		Alignment: 3467910 3479663 | 213634 201961 | 11754 11674 | 95.09 | AH1 scf7180000388335
+		Alignment: 3487444 3497471 | 194305 184264 | 10028 10042 | 95.12 | AH1 scf7180000388335
+		Alignment: 3500329 3509028 | 181469 172775 | 8700 8695 | 95.43 | AH1 scf7180000388335
+		Alignment: 3509108 3514620 | 172555 167036 | 5513 5520 | 95.3 | AH1 scf7180000388335
+		Alignment: 3514822 3525775 | 166872 155921 | 10954 10952 | 95.3 | AH1 scf7180000388335
+		Alignment: 3525778 3526888 | 155810 154700 | 1111 1111 | 95.14 | AH1 scf7180000388335
+		Alignment: 4476064 4476138 | 270992 270918 | 75 75 | 100.0 | AH1 scf7180000388335
+		Unaligned bases: 476606
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388334 (207147bp)
+Top Length: 17270  Top ID: 95.24
+		Skipping redundant alignment 3894446 3894526 | 2508 2587 | 81 80 | 98.77 | AH1 scf7180000388334
+		Skipping redundant alignment 4268517 4268599 | 2590 2509 | 83 82 | 98.8 | AH1 scf7180000388334
+		Skipping redundant alignment 1210104 1210193 | 202280 202191 | 90 90 | 100.0 | AH1 scf7180000388334
+		This contig is misassembled. 7 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 207147 and total length of all aligns is 24821
+		Alignment: 2827029 2829244 | 1 2215 | 2216 2215 | 95.62 | AH1 scf7180000388334
+		Alignment: 2829399 2829731 | 2368 2698 | 333 331 | 96.7 | AH1 scf7180000388334
+		Alignment: 2887840 2905113 | 77065 94334 | 17274 17270 | 95.24 | AH1 scf7180000388334
+		Alignment: 2983646 2988651 | 202141 207145 | 5006 5005 | 95.37 | AH1 scf7180000388334
+		Unaligned bases: 182326
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388342 (46478bp)
+Top Length: 429  Top ID: 95.21
+		Skipping redundant alignment 4371403 4371588 | 46478 46293 | 186 186 | 99.46 | AH1 scf7180000388342
+		Skipping redundant alignment 85010 85193 | 46293 46478 | 184 186 | 98.39 | AH1 scf7180000388342
+		Skipping redundant alignment 163208 163391 | 46293 46478 | 184 186 | 98.39 | AH1 scf7180000388342
+		Skipping redundant alignment 4702854 4703037 | 46478 46293 | 184 186 | 98.39 | AH1 scf7180000388342
+		Skipping redundant alignment 3956736 3956918 | 46478 46294 | 183 185 | 98.38 | AH1 scf7180000388342
+		This contig is partially unaligned. (429 out of 46478)
+		Alignment: 349529 349965 | 46050 46478 | 437 429 | 95.21 | AH1 scf7180000388342
+		Unaligned bases: 1 to 46049 (46049)
+
+CONTIG: scf7180000388343 (22776bp)
+		This contig is unaligned. (22776 bp)
+		Unaligned bases: 22776  total: 85598
+
+CONTIG: scf7180000388340 (263263bp)
+Top Length: 52397  Top ID: 95.45
+		Skipping redundant alignment 1702573 1702658 | 19720 19805 | 86 86 | 98.84 | AH1 scf7180000388340
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1108231][1108316] redundant alignment 1108231 1108316 | 19720 19805 | 86 86 | 100.0 | AH1 scf7180000388340
+		Skipping [1108347][1108432] redundant alignment 1108347 1108432 | 19720 19805 | 86 86 | 100.0 | AH1 scf7180000388340
+		Skipping [1108463][1108548] redundant alignment 1108463 1108548 | 19720 19805 | 86 86 | 100.0 | AH1 scf7180000388340
+		This contig is misassembled. 9 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 263263 and total length of all aligns is 55204
+		Alignment: 1702437 1702522 | 19720 19805 | 86 86 | 100.0 | AH1 scf7180000388340
+		Alignment: 3414420 3414494 | 19608 19682 | 75 75 | 100.0 | AH1 scf7180000388340
+		Alignment: 4455499 4456684 | 18255 19436 | 1186 1182 | 97.39 | AH1 scf7180000388340
+		Alignment: 4580149 4632477 | 123981 176377 | 52329 52397 | 95.45 | AH1 scf7180000388340
+		Alignment: 4678443 4679906 | 243896 245359 | 1464 1464 | 95.56 | AH1 scf7180000388340
+		Unaligned bases: 208059
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388341 (326376bp)
+Top Length: 14561  Top ID: 95.05
+		Skipping redundant alignment 4454359 4454607 | 1 251 | 249 251 | 97.61 | AH1 scf7180000388341
+		Skipping redundant alignment 803681 803928 | 249 1 | 248 249 | 97.19 | AH1 scf7180000388341
+		Skipping redundant alignment 932858 933105 | 249 1 | 248 249 | 97.19 | AH1 scf7180000388341
+		Skipping redundant alignment 4141708 4141788 | 232476 232556 | 81 81 | 100.0 | AH1 scf7180000388341
+		Skipping redundant alignment 4141604 4141683 | 232477 232556 | 80 80 | 100.0 | AH1 scf7180000388341
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [85011][85259] redundant alignment 85011 85259 | 251 1 | 249 251 | 98.01 | AH1 scf7180000388341
+		Skipping [163209][163457] redundant alignment 163209 163457 | 251 1 | 249 251 | 98.01 | AH1 scf7180000388341
+		Skipping [214744][214992] redundant alignment 214744 214992 | 249 1 | 249 249 | 98.8 | AH1 scf7180000388341
+		Skipping [4371337][4371587] redundant alignment 4371337 4371587 | 1 251 | 251 251 | 98.8 | AH1 scf7180000388341
+		Skipping [4702788][4703036] redundant alignment 4702788 4703036 | 1 251 | 249 251 | 98.01 | AH1 scf7180000388341
+		This contig is misassembled. 21 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 326376 and total length of all aligns is 27197
+		Alignment: 29468 29559 | 326184 326275 | 92 92 | 98.91 | AH1 scf7180000388341
+		Alignment: 349782 350031 | 251 1 | 250 251 | 98.01 | AH1 scf7180000388341
+		Alignment: 3968723 3971546 | 11988 14809 | 2824 2822 | 95.43 | AH1 scf7180000388341
+		Alignment: 3982508 3984898 | 28550 30939 | 2391 2390 | 95.57 | AH1 scf7180000388341
+		Alignment: 4016792 4017534 | 107392 108134 | 743 743 | 96.1 | AH1 scf7180000388341
+		Alignment: 4017698 4032347 | 108993 123553 | 14650 14561 | 95.05 | AH1 scf7180000388341
+		Alignment: 4052706 4053780 | 143226 144300 | 1075 1075 | 95.07 | AH1 scf7180000388341
+		Alignment: 4141559 4141893 | 232053 232380 | 335 328 | 95.82 | AH1 scf7180000388341
+		Alignment: 4141710 4146766 | 232096 237150 | 5057 5055 | 96.12 | AH1 scf7180000388341
+		Alignment: 4234877 4234947 | 326306 326376 | 71 71 | 100.0 | AH1 scf7180000388341
+		Alignment: 4235038 4235130 | 326037 326130 | 93 94 | 98.94 | AH1 scf7180000388341
+		Unaligned bases: 299179
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388346 (257134bp)
+Top Length: 28845  Top ID: 95.51
+		Skipping redundant alignment 339150 349247 | 118967 129054 | 10098 10088 | 98.2 | AH1 scf7180000388346
+		Skipping redundant alignment 349284 349382 | 128956 129054 | 99 99 | 100.0 | AH1 scf7180000388346
+		This contig is misassembled. 15 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 257134 and total length of all aligns is 72835
+		Alignment: 220133 243927 | 147 23997 | 23795 23851 | 95.49 | AH1 scf7180000388346
+		Alignment: 246810 247377 | 26013 26579 | 568 567 | 96.13 | AH1 scf7180000388346
+		Alignment: 246810 247377 | 152131 152697 | 568 567 | 96.13 | AH1 scf7180000388346
+		Alignment: 247959 249198 | 26664 27903 | 1240 1240 | 95.56 | AH1 scf7180000388346
+		Alignment: 247959 249198 | 152782 154021 | 1240 1240 | 95.56 | AH1 scf7180000388346
+		Alignment: 256511 257615 | 164115 165219 | 1105 1105 | 97.29 | AH1 scf7180000388346
+		Alignment: 256511 257628 | 37929 39046 | 1118 1118 | 97.32 | AH1 scf7180000388346
+		Alignment: 257523 257628 | 165240 165345 | 106 106 | 100.0 | AH1 scf7180000388346
+		Alignment: 277847 278085 | 184206 184444 | 239 239 | 95.4 | AH1 scf7180000388346
+		Alignment: 307452 309089 | 214205 215842 | 1638 1638 | 95.36 | AH1 scf7180000388346
+		Alignment: 320383 349238 | 100210 129054 | 28856 28845 | 95.51 | AH1 scf7180000388346
+		Alignment: 337279 349386 | 244696 256921 | 12108 12226 | 96.62 | AH1 scf7180000388346
+		Alignment: 349140 349232 | 257042 257134 | 93 93 | 100.0 | AH1 scf7180000388346
+		Unaligned bases: 184299
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388344 (156215bp)
+Top Length: 1694  Top ID: 95.22
+		Skipping redundant alignment 3875825 3875902 | 112867 112944 | 78 78 | 100.0 | AH1 scf7180000388344
+		Skipping redundant alignment 3875949 3876025 | 112867 112943 | 77 77 | 100.0 | AH1 scf7180000388344
+		Skipping redundant alignment 3487578 3487654 | 119057 119133 | 77 77 | 100.0 | AH1 scf7180000388344
+		Skipping redundant alignment 3487578 3487654 | 119277 119353 | 77 77 | 100.0 | AH1 scf7180000388344
+		Skipping redundant alignment 4268845 4268924 | 129271 129191 | 80 81 | 98.77 | AH1 scf7180000388344
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [3111385][3111463] redundant alignment 3111385 3111463 | 118858 118936 | 79 79 | 100.0 | AH1 scf7180000388344
+		Skipping [3111385][3111462] redundant alignment 3111385 3111462 | 119165 119242 | 78 78 | 100.0 | AH1 scf7180000388344
+		Skipping [3111385][3111462] redundant alignment 3111385 3111462 | 118957 119034 | 78 78 | 100.0 | AH1 scf7180000388344
+		This contig is misassembled. 16 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 156215 and total length of all aligns is 2577
+		Alignment: 3111384 3111463 | 119276 119355 | 80 80 | 100.0 | AH1 scf7180000388344
+		Alignment: 3111384 3111463 | 119056 119135 | 80 80 | 100.0 | AH1 scf7180000388344
+		Alignment: 3487577 3487654 | 118857 118934 | 78 78 | 100.0 | AH1 scf7180000388344
+		Alignment: 3487577 3487654 | 119164 119241 | 78 78 | 100.0 | AH1 scf7180000388344
+		Alignment: 3487577 3487654 | 118956 119033 | 78 78 | 100.0 | AH1 scf7180000388344
+		Alignment: 3774576 3776269 | 26729 28422 | 1694 1694 | 95.22 | AH1 scf7180000388344
+		Alignment: 3876192 3876598 | 112867 113273 | 407 407 | 95.09 | AH1 scf7180000388344
+		Alignment: 4268638 4268719 | 129270 129189 | 82 82 | 100.0 | AH1 scf7180000388344
+		Unaligned bases: 153638
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388345 (133236bp)
+Top Length: 5688  Top ID: 95.26
+		This contig is misassembled. 4 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 133236 and total length of all aligns is 6006
+		Alignment: 29370 29450 | 37317 37237 | 81 81 | 100.0 | AH1 scf7180000388345
+		Alignment: 29627 29704 | 37554 37477 | 78 78 | 100.0 | AH1 scf7180000388345
+		Alignment: 2049144 2054832 | 59611 65298 | 5689 5688 | 95.26 | AH1 scf7180000388345
+		Alignment: 2073989 2074147 | 110814 110972 | 159 159 | 98.11 | AH1 scf7180000388345
+		Unaligned bases: 127230
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388328 (6725bp)
+		This contig is unaligned. (6725 bp)
+		Unaligned bases: 6725  total: 92323
+
+CONTIG: scf7180000388329 (20476bp)
+		This contig is unaligned. (20476 bp)
+		Unaligned bases: 20476  total: 112799
+
+CONTIG: scf7180000388320 (30260bp)
+		This contig is unaligned. (30260 bp)
+		Unaligned bases: 30260  total: 143059
+
+CONTIG: scf7180000388321 (445504bp)
+Top Length: 21130  Top ID: 95.14
+		This contig is misassembled. 7 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 445504 and total length of all aligns is 48311
+		Alignment: 1457945 1472944 | 118218 103214 | 15000 15005 | 95.29 | AH1 scf7180000388321
+		Alignment: 1494743 1496225 | 103134 101655 | 1483 1480 | 96.22 | AH1 scf7180000388321
+		Alignment: 1547165 1548446 | 44352 43072 | 1282 1281 | 95.94 | AH1 scf7180000388321
+		Alignment: 1565203 1567487 | 27047 24756 | 2285 2292 | 95.42 | AH1 scf7180000388321
+		Alignment: 1567873 1572682 | 24372 19570 | 4810 4803 | 95.58 | AH1 scf7180000388321
+		Alignment: 3556664 3577791 | 242684 263813 | 21128 21130 | 95.14 | AH1 scf7180000388321
+		Alignment: 3697595 3699916 | 397292 399611 | 2322 2320 | 96.0 | AH1 scf7180000388321
+		Unaligned bases: 397193
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388322 (52008bp)
+Top Length: 2270  Top ID: 95.95
+		Skipping redundant alignment 3894370 3894450 | 34857 34778 | 81 80 | 98.77 | AH1 scf7180000388322
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 52008 and total length of all aligns is 4028
+		Alignment: 29468 29559 | 54 145 | 92 92 | 98.91 | AH1 scf7180000388322
+		Alignment: 4234478 4234571 | 206 298 | 94 93 | 98.94 | AH1 scf7180000388322
+		Alignment: 4241951 4244221 | 7004 9273 | 2271 2270 | 95.95 | AH1 scf7180000388322
+		Alignment: 4268641 4270214 | 34574 36146 | 1574 1573 | 97.65 | AH1 scf7180000388322
+		Unaligned bases: 47980
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388323 (48267bp)
+Top Length: 16494  Top ID: 95.17
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 48267 and total length of all aligns is 19154
+		Alignment: 119726 122243 | 48267 45751 | 2518 2517 | 95.35 | AH1 scf7180000388323
+		Alignment: 122243 138750 | 45647 29154 | 16508 16494 | 95.17 | AH1 scf7180000388323
+		Alignment: 4454609 4454752 | 1 143 | 144 143 | 95.14 | AH1 scf7180000388323
+		Unaligned bases: 29113
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388324 (102334bp)
+Top Length: 16147  Top ID: 95.85
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [4234626][4234716] redundant alignment 4234626 4234716 | 71856 71946 | 91 91 | 98.9 | AH1 scf7180000388324
+		This contig is misassembled. 7 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 102334 and total length of all aligns is 34897
+		Alignment: 1 6385 | 41589 47971 | 6385 6383 | 95.35 | AH1 scf7180000388324
+		Alignment: 2026836 2026916 | 71837 71757 | 81 81 | 100.0 | AH1 scf7180000388324
+		Alignment: 2027076 2027157 | 72082 72001 | 82 82 | 98.78 | AH1 scf7180000388324
+		Alignment: 4234887 4234977 | 71856 71946 | 91 91 | 98.9 | AH1 scf7180000388324
+		Alignment: 4714024 4730177 | 11100 27246 | 16154 16147 | 95.85 | AH1 scf7180000388324
+		Alignment: 4730278 4742394 | 27347 39459 | 12117 12113 | 96.64 | AH1 scf7180000388324
+		Unaligned bases: 67437
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388325 (21323bp)
+Top Length: 2360  Top ID: 95.43
+		This contig is partially unaligned. (2360 out of 21323)
+		Alignment: 4397074 4399435 | 20484 18125 | 2362 2360 | 95.43 | AH1 scf7180000388325
+		Unaligned bases: 1 to 18124 (18124)
+		Unaligned bases: 20485 to 21323 (839)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scf7180000388326 (43554bp)
+Top Length: 8375  Top ID: 95.6
+		This contig is partially unaligned. (8375 out of 43554)
+		Alignment: 4287659 4296040 | 1 8375 | 8382 8375 | 95.6 | AH1 scf7180000388326
+		Unaligned bases: 8376 to 43554 (35179)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scf7180000388327 (57958bp)
+Top Length: 99  Top ID: 98.99
+		Skipping redundant alignment 4476176 4476261 | 57951 57866 | 86 86 | 100.0 | AH1 scf7180000388327
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1702430][1702524] redundant alignment 1702430 1702524 | 57958 57864 | 95 95 | 100.0 | AH1 scf7180000388327
+		This contig is misassembled. 6 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 57958 and total length of all aligns is 360
+		Alignment: 1164049 1164147 | 24865 24767 | 99 99 | 98.99 | AH1 scf7180000388327
+		Alignment: 1702573 1702661 | 57951 57863 | 89 89 | 98.88 | AH1 scf7180000388327
+		Alignment: 4476176 4476261 | 57719 57634 | 86 86 | 100.0 | AH1 scf7180000388327
+		Alignment: 4476176 4476261 | 57835 57750 | 86 86 | 100.0 | AH1 scf7180000388327
+		Unaligned bases: 57598
+CONTIG: scf7180000388311 (2039bp)
+		This contig is unaligned. (2039 bp)
+		Unaligned bases: 2039  total: 145098
+
+CONTIG: scf7180000388310 (99148bp)
+Top Length: 25919  Top ID: 95.36
+		Skipping redundant alignment 1108345 1108423 | 79 1 | 79 79 | 100.0 | AH1 scf7180000388310
+		Skipping redundant alignment 1108463 1108539 | 77 1 | 77 77 | 100.0 | AH1 scf7180000388310
+		Skipping redundant alignment 4476176 4476252 | 77 1 | 77 77 | 100.0 | AH1 scf7180000388310
+		Skipping redundant alignment 1702573 1702649 | 77 1 | 77 77 | 98.7 | AH1 scf7180000388310
+		This contig is misassembled. 6 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 99148 and total length of all aligns is 26039
+		Alignment: 1108189 1108307 | 120 1 | 119 120 | 96.67 | AH1 scf7180000388310
+		Alignment: 1667360 1693334 | 35004 9086 | 25975 25919 | 95.36 | AH1 scf7180000388310
+		Unaligned bases: 73109
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388313 (30409bp)
+		This contig is unaligned. (30409 bp)
+		Unaligned bases: 30409  total: 175507
+
+CONTIG: scf7180000388312 (712801bp)
+Top Length: 39406  Top ID: 95.04
+		Skipping redundant alignment 2639356 2639787 | 139741 139313 | 432 429 | 95.16 | AH1 scf7180000388312
+		Skipping redundant alignment 2639180 2639441 | 139573 139313 | 262 261 | 98.47 | AH1 scf7180000388312
+		Skipping redundant alignment 2639180 2639267 | 139400 139313 | 88 88 | 98.86 | AH1 scf7180000388312
+		Skipping redundant alignment 3879790 3879895 | 576070 576175 | 106 106 | 97.17 | AH1 scf7180000388312
+		Skipping redundant alignment 1955465 1955563 | 705438 705536 | 99 99 | 100.0 | AH1 scf7180000388312
+		Skipping redundant alignment 2826976 2827073 | 705438 705535 | 98 98 | 100.0 | AH1 scf7180000388312
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2639529][2639960] redundant alignment 2639529 2639960 | 139741 139313 | 432 429 | 97.0 | AH1 scf7180000388312
+		This contig is misassembled. 22 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 712801 and total length of all aligns is 114592
+		Alignment: 1989207 1989513 | 705535 705229 | 307 307 | 95.77 | AH1 scf7180000388312
+		Alignment: 2105270 2109628 | 1 4394 | 4359 4394 | 95.05 | AH1 scf7180000388312
+		Alignment: 2142527 2145909 | 36917 40297 | 3383 3381 | 95.36 | AH1 scf7180000388312
+		Alignment: 2167759 2183381 | 584232 568622 | 15623 15611 | 95.51 | AH1 scf7180000388312
+		Alignment: 2183499 2185446 | 568521 566575 | 1948 1947 | 95.23 | AH1 scf7180000388312
+		Alignment: 2185571 2189832 | 566450 562191 | 4262 4260 | 95.66 | AH1 scf7180000388312
+		Alignment: 2221830 2223485 | 529506 527853 | 1656 1654 | 96.07 | AH1 scf7180000388312
+		Alignment: 2339177 2342356 | 425912 422736 | 3180 3177 | 95.73 | AH1 scf7180000388312
+		Alignment: 2367319 2406740 | 400937 361532 | 39422 39406 | 95.04 | AH1 scf7180000388312
+		Alignment: 2576209 2580604 | 193165 188770 | 4396 4396 | 95.18 | AH1 scf7180000388312
+		Alignment: 2639702 2640133 | 139741 139313 | 432 429 | 97.69 | AH1 scf7180000388312
+		Alignment: 2656667 2659515 | 123553 120707 | 2849 2847 | 95.19 | AH1 scf7180000388312
+		Alignment: 2755862 2778548 | 645241 667876 | 22687 22636 | 95.25 | AH1 scf7180000388312
+		Alignment: 2780870 2783164 | 671059 673354 | 2295 2296 | 96.08 | AH1 scf7180000388312
+		Alignment: 2783442 2791235 | 673533 681383 | 7794 7851 | 95.09 | AH1 scf7180000388312
+		Unaligned bases: 598209
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388315 (77143bp)
+Top Length: 3236  Top ID: 96.05
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 77143 and total length of all aligns is 6163
+		Alignment: 3066866 3069797 | 45936 48862 | 2932 2927 | 95.95 | AH1 scf7180000388315
+		Alignment: 3070052 3073285 | 48903 52138 | 3234 3236 | 96.05 | AH1 scf7180000388315
+		Unaligned bases: 70980
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000388314 (11173bp)
+		This contig is unaligned. (11173 bp)
+		Unaligned bases: 11173  total: 186680
+
+CONTIG: scf7180000388317 (3739bp)
+Top Length: 412  Top ID: 95.16
+		Skipping redundant alignment 4454359 4454754 | 3739 3343 | 396 397 | 97.24 | AH1 scf7180000388317
+		Skipping redundant alignment 214599 214992 | 3347 3739 | 394 393 | 97.46 | AH1 scf7180000388317
+		Skipping redundant alignment 349639 350031 | 3347 3739 | 393 393 | 97.46 | AH1 scf7180000388317
+		Skipping redundant alignment 4371337 4371588 | 3739 3488 | 252 252 | 98.81 | AH1 scf7180000388317
+		Skipping redundant alignment 85010 85259 | 3488 3739 | 250 252 | 98.02 | AH1 scf7180000388317
+		Skipping redundant alignment 163208 163457 | 3488 3739 | 250 252 | 98.02 | AH1 scf7180000388317
+		Skipping redundant alignment 4702788 4703037 | 3739 3488 | 250 252 | 98.02 | AH1 scf7180000388317
+		Skipping redundant alignment 3956670 3956918 | 3739 3489 | 249 251 | 98.01 | AH1 scf7180000388317
+		This contig is partially unaligned. (412 out of 3739)
+		Alignment: 803517 803928 | 3328 3739 | 412 412 | 95.16 | AH1 scf7180000388317
+		Unaligned bases: 1 to 3327 (3327)
+
+CONTIG: scf7180000388316 (30273bp)
+		This contig is unaligned. (30273 bp)
+		Unaligned bases: 30273  total: 216953
+
+CONTIG: scf7180000388319 (12484bp)
+Top Length: 9910  Top ID: 95.11
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 60917 61556 | 71 710 | 640 640 | 95.31 | AH1 scf7180000388319
+			  Extensive misassembly ( relocation, inconsistency = 11468 ) between these two alignments
+			Real Alignment 2: 73200 74882 | 886 2568 | 1683 1683 | 95.07 | AH1 scf7180000388319
+			  Gap between these two alignments (local misassembly). Inconsistency = 136
+			Real Alignment 3: 75018 84924 | 2568 12477 | 9907 9910 | 95.11 | AH1 scf7180000388319
+
+CONTIG: scf7180000388318 (15972bp)
+Top Length: 7847  Top ID: 96.43
+		Skipping redundant alignment 3882244 3882325 | 7071 6991 | 82 81 | 98.78 | AH1 scf7180000388318
+		Skipping redundant alignment 3882453 3882534 | 7071 6991 | 82 81 | 98.78 | AH1 scf7180000388318
+		Skipping redundant alignment 3882044 3882125 | 7071 6991 | 82 81 | 97.56 | AH1 scf7180000388318
+		Skipping redundant alignment 3882143 3882221 | 7072 6995 | 79 78 | 98.73 | AH1 scf7180000388318
+		Skipping redundant alignment 3882343 3882421 | 7072 6995 | 79 78 | 98.73 | AH1 scf7180000388318
+		Skipping redundant alignment 3882553 3882631 | 7072 6995 | 79 78 | 98.73 | AH1 scf7180000388318
+		Skipping redundant alignment 3881944 3882021 | 7071 6995 | 78 77 | 98.72 | AH1 scf7180000388318
+		This contig is misassembled. 9 total aligns.
+			Real Alignment 1: 3098989 3106841 | 15972 8126 | 7853 7847 | 96.43 | AH1 scf7180000388318
+			  Extensive misassembly ( relocation, inconsistency = 3500 ) between these two alignments
+			Real Alignment 2: 3111024 3118469 | 7443 1 | 7446 7443 | 95.04 | AH1 scf7180000388318
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1789/dataset_1871_files/AH1/contigs_reports/nucmer_output/cabog.used_snps
+	Reference AH1: 10 total alignments. 1 total regions.
+		Region: 1 to 4742394 (4742394 bp)
+			START in gap: 1 to 60917 (60916 bp)
+			Align 1: 60917 61556 scf7180000388319 71 710
+				Gap between this and next alignment: 61556 to 73200 (11643 bp)
+				Next Alignment: 73200 74882 scf7180000388319 886 2568
+
+			Align 2: 73200 74882 scf7180000388319 886 2568
+				Gap between this and next alignment: 74882 to 75018 (135 bp)
+				Next Alignment: 75018 84924 scf7180000388319 2568 12477
+
+			Align 3: 75018 84924 scf7180000388319 2568 12477
+				Gap between this and next alignment: 84924 to 349529 (264604 bp)
+				Next Alignment: 349529 349965 scf7180000388342 46050 46478
+
+			Align 4: 349529 349965 scf7180000388342 46050 46478
+				Gap between this and next alignment: 349965 to 803517 (453551 bp)
+				Next Alignment: 803517 803928 scf7180000388317 3328 3739
+
+			Align 5: 803517 803928 scf7180000388317 3328 3739
+				Gap between this and next alignment: 803928 to 2999217 (2195288 bp)
+				Next Alignment: 2999217 3011661 scf7180000388332 12203 24634
+
+			Align 6: 2999217 3011661 scf7180000388332 12203 24634
+				Gap between this and next alignment: 3011661 to 3098989 (87327 bp)
+				Next Alignment: 3098989 3106841 scf7180000388318 15972 8126
+
+			Align 7: 3098989 3106841 scf7180000388318 15972 8126
+				Gap between this and next alignment: 3106841 to 3111024 (4182 bp)
+				Next Alignment: 3111024 3118469 scf7180000388318 7443 1
+
+			Align 8: 3111024 3118469 scf7180000388318 7443 1
+				Gap between this and next alignment: 3118469 to 4287659 (1169189 bp)
+				Next Alignment: 4287659 4296040 scf7180000388326 1 8375
+
+			Align 9: 4287659 4296040 scf7180000388326 1 8375
+				Gap between this and next alignment: 4296040 to 4397074 (101033 bp)
+				Next Alignment: 4397074 4399435 scf7180000388325 20484 18125
+
+			Align 10: 4397074 4399435 scf7180000388325 20484 18125
+			END in gap: 4399435 to 4742394 (342959 bp)
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1789/dataset_1871_files/AH1/contigs_reports/nucmer_output/cabog.used_snps
+
+Results:
+	Local Misassemblies: 1
+	Misassemblies: 2
+		Relocations: 2
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 2
+	Misassembled Contig Bases: 28456
+	Misassmblies Inter-Contig Overlap: 1
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 10 + 25 part
+Partially Unaligned Contigs with Misassemblies: 20
+Unaligned Contig Bases: 4310363
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 51567
+
+	SNPs: 2084
+	Insertions: 57
+	Deletions: 93
+
+	Positive Gaps: 11
+		Internal Gaps:  3
+		External Gaps:  8
+		External Gap Total:  4674867
+		External Gap Average: 584358
+	Negative Gaps: 0
+		Internal Overlaps:  0
+		External Overlaps:  0
+		External Overlaps Total:  0
+		External Overlaps Average: 0
+	Contigs with Redundant Alignments: 0 (0)

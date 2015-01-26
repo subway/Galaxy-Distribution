@@ -1,0 +1,15 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                      GAGE-B broken  GAGE-B  SOAPdenovo2 broken  SOAPdenovo2  SOAPdenovo2_GP broken  SOAPdenovo2_GP
+# misassemblies               12             14      2                   6            6                      6             
+    # relocations             11             13      2                   6            6                      6             
+    # translocations          1              1       0                   0            0                      0             
+    # inversions              0              0       0                   0            0                      0             
+# misassembled contigs        12             12      2                   6            6                      6             
+Misassembled contigs length   408395         543041  6284                231931       181473                 247170        
+# local misassemblies         44             77      2                   274          102                    111           
+# mismatches                  319            332     150                 154          313                    313           
+# indels                      171            216     112                 117          159                    160           
+    # short indels (<= 5 bp)  165            207     109                 114          154                    154           
+    # long indels (> 5 bp)    6              9       3                   3            5                      6             
+Indels length                 223            391     137                 143          211                    270           

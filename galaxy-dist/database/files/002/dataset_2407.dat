@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <body>
+    <a name="top"><h1>Tool output</h1></a>
+    <small>Compare this output? Use the tool <i>Compare statistics</i> from the tool menu.</small><br>
+    <p><h2>Content</h2>
+    <dl>
+    <dt><a href="#Contig"><strong><font color="black">Contig</font></strong></a>        <a href="Contig.zip">Download</a></dt>
+<dd>    <a href="#Contig-aligned_stats"><font color="black">aligned_stats</font></a><br>
+    <a href="#Contig-basic_stats"><font color="black">basic_stats</font></a><br>
+    <a href="#Contig-contigs_reports"><font color="black">contigs_reports</font></a><br>
+    <a href="#Contig-contigs_reports-nucmer_output"><font color="black">nucmer_output</font></a><br>
+    <a href="#Contig-genome_stats"><font color="black">genome_stats</font></a><br>
+    <a href="#Contig-json"><font color="black">json</font></a><br>
+    </dd><br>
+    </dl>
+    <hr>
+<a name="Contig"><h3>Contig</h3></a><ul>
+    <li><a href="Contig/plots.pdf">plots.pdf</a><br>
+    <li><a href="Contig/quast.log">quast.log</a><br>
+    <li><a href="Contig/report.html">report.html</a><br>
+    <li><a href="Contig/report.tex">report.tex</a><br>
+    <li><a href="Contig/report.tsv">report.tsv</a><br>
+    <li><a href="Contig/report.txt">report.txt</a><br>
+    <li><a href="Contig/transposed_report.tex">transposed_report.tex</a><br>
+    <li><a href="Contig/transposed_report.tsv">transposed_report.tsv</a><br>
+    <li><a href="Contig/transposed_report.txt">transposed_report.txt</a><br>
+    </ul></p>
+   <p><a name="Contig-aligned_stats"><strong>aligned_stats</strong></a><ul>
+    <li><a href="Contig/aligned_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="Contig/aligned_stats/NAx_plot.pdf">NAx_plot.pdf</a><br>
+    <li><a href="Contig/aligned_stats/NGAx_plot.pdf">NGAx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="Contig-basic_stats"><strong>basic_stats</strong></a><ul>
+    <li><a href="Contig/basic_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="Contig/basic_stats/GC_content_plot.pdf">GC_content_plot.pdf</a><br>
+    <li><a href="Contig/basic_stats/NGx_plot.pdf">NGx_plot.pdf</a><br>
+    <li><a href="Contig/basic_stats/Nx_plot.pdf">Nx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="Contig-contigs_reports"><strong>contigs_reports</strong></a><ul>
+    <li><a href="Contig/contigs_reports/alignments_CABOG_hiseq_scf.tsv">alignments_CABOG_hiseq_scf.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_CABOG_miseq_scf.tsv">alignments_CABOG_miseq_scf.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_MaSuRCA_hiseq_scf.tsv">alignments_MaSuRCA_hiseq_scf.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_MaSuRCA_miseq_scf.tsv">alignments_MaSuRCA_miseq_scf.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_SOAPdenovo_hiseq_scf.tsv">alignments_SOAPdenovo_hiseq_scf.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_SOAPdenovo_miseq_scf.tsv">alignments_SOAPdenovo_miseq_scf.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_SPAdes_hiseq_scf.tsv">alignments_SPAdes_hiseq_scf.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_SPAdes_miseq_scf.tsv">alignments_SPAdes_miseq_scf.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_Velvet_hiseq_scf.tsv">alignments_Velvet_hiseq_scf.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_Velvet_miseq_scf.tsv">alignments_Velvet_miseq_scf.tsv</a><br>
+    <li><a href="Contig/contigs_reports/CABOG_hiseq_scf.mis_contigs.fa">CABOG_hiseq_scf.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/CABOG_miseq_scf.mis_contigs.fa">CABOG_miseq_scf.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_CABOG_hiseq_scf.stderr">contigs_report_CABOG_hiseq_scf.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_CABOG_hiseq_scf.stdout">contigs_report_CABOG_hiseq_scf.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_CABOG_miseq_scf.stderr">contigs_report_CABOG_miseq_scf.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_CABOG_miseq_scf.stdout">contigs_report_CABOG_miseq_scf.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_MaSuRCA_hiseq_scf.stderr">contigs_report_MaSuRCA_hiseq_scf.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_MaSuRCA_hiseq_scf.stdout">contigs_report_MaSuRCA_hiseq_scf.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_MaSuRCA_miseq_scf.stderr">contigs_report_MaSuRCA_miseq_scf.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_MaSuRCA_miseq_scf.stdout">contigs_report_MaSuRCA_miseq_scf.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_SOAPdenovo_hiseq_scf.stderr">contigs_report_SOAPdenovo_hiseq_scf.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_SOAPdenovo_hiseq_scf.stdout">contigs_report_SOAPdenovo_hiseq_scf.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_SOAPdenovo_miseq_scf.stderr">contigs_report_SOAPdenovo_miseq_scf.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_SOAPdenovo_miseq_scf.stdout">contigs_report_SOAPdenovo_miseq_scf.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_SPAdes_hiseq_scf.stderr">contigs_report_SPAdes_hiseq_scf.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_SPAdes_hiseq_scf.stdout">contigs_report_SPAdes_hiseq_scf.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_SPAdes_miseq_scf.stderr">contigs_report_SPAdes_miseq_scf.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_SPAdes_miseq_scf.stdout">contigs_report_SPAdes_miseq_scf.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_Velvet_hiseq_scf.stderr">contigs_report_Velvet_hiseq_scf.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_Velvet_hiseq_scf.stdout">contigs_report_Velvet_hiseq_scf.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_Velvet_miseq_scf.stderr">contigs_report_Velvet_miseq_scf.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_Velvet_miseq_scf.stdout">contigs_report_Velvet_miseq_scf.stdout</a><br>
+    <li><a href="Contig/contigs_reports/MaSuRCA_hiseq_scf.mis_contigs.fa">MaSuRCA_hiseq_scf.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/MaSuRCA_miseq_scf.mis_contigs.fa">MaSuRCA_miseq_scf.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/misassemblies_report.tex">misassemblies_report.tex</a><br>
+    <li><a href="Contig/contigs_reports/misassemblies_report.tsv">misassemblies_report.tsv</a><br>
+    <li><a href="Contig/contigs_reports/misassemblies_report.txt">misassemblies_report.txt</a><br>
+    <li><a href="Contig/contigs_reports/SOAPdenovo_hiseq_scf.mis_contigs.fa">SOAPdenovo_hiseq_scf.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/SOAPdenovo_miseq_scf.mis_contigs.fa">SOAPdenovo_miseq_scf.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/SPAdes_hiseq_scf.mis_contigs.fa">SPAdes_hiseq_scf.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/SPAdes_miseq_scf.mis_contigs.fa">SPAdes_miseq_scf.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/unaligned_report.tex">unaligned_report.tex</a><br>
+    <li><a href="Contig/contigs_reports/unaligned_report.tsv">unaligned_report.tsv</a><br>
+    <li><a href="Contig/contigs_reports/unaligned_report.txt">unaligned_report.txt</a><br>
+    <li><a href="Contig/contigs_reports/Velvet_hiseq_scf.mis_contigs.fa">Velvet_hiseq_scf.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/Velvet_miseq_scf.mis_contigs.fa">Velvet_miseq_scf.mis_contigs.fa</a><br>
+    <li><a name="Contig-contigs_reports-nucmer_output"><strong>nucmer_output</strong></a><br><ul>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/CABOG_hiseq_scf.all_snps">CABOG_hiseq_scf.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/CABOG_hiseq_scf.coords">CABOG_hiseq_scf.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/CABOG_hiseq_scf.coords.filtered">CABOG_hiseq_scf.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/CABOG_hiseq_scf.sf">CABOG_hiseq_scf.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/CABOG_hiseq_scf.unaligned">CABOG_hiseq_scf.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/CABOG_hiseq_scf.used_snps">CABOG_hiseq_scf.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/CABOG_miseq_scf.all_snps">CABOG_miseq_scf.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/CABOG_miseq_scf.coords">CABOG_miseq_scf.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/CABOG_miseq_scf.coords.filtered">CABOG_miseq_scf.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/CABOG_miseq_scf.sf">CABOG_miseq_scf.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/CABOG_miseq_scf.unaligned">CABOG_miseq_scf.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/CABOG_miseq_scf.used_snps">CABOG_miseq_scf.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/MaSuRCA_hiseq_scf.all_snps">MaSuRCA_hiseq_scf.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/MaSuRCA_hiseq_scf.coords">MaSuRCA_hiseq_scf.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/MaSuRCA_hiseq_scf.coords.filtered">MaSuRCA_hiseq_scf.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/MaSuRCA_hiseq_scf.sf">MaSuRCA_hiseq_scf.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/MaSuRCA_hiseq_scf.unaligned">MaSuRCA_hiseq_scf.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/MaSuRCA_hiseq_scf.used_snps">MaSuRCA_hiseq_scf.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/MaSuRCA_miseq_scf.all_snps">MaSuRCA_miseq_scf.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/MaSuRCA_miseq_scf.coords">MaSuRCA_miseq_scf.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/MaSuRCA_miseq_scf.coords.filtered">MaSuRCA_miseq_scf.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/MaSuRCA_miseq_scf.sf">MaSuRCA_miseq_scf.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/MaSuRCA_miseq_scf.unaligned">MaSuRCA_miseq_scf.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/MaSuRCA_miseq_scf.used_snps">MaSuRCA_miseq_scf.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SOAPdenovo_hiseq_scf.all_snps">SOAPdenovo_hiseq_scf.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SOAPdenovo_hiseq_scf.coords">SOAPdenovo_hiseq_scf.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SOAPdenovo_hiseq_scf.coords.filtered">SOAPdenovo_hiseq_scf.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SOAPdenovo_hiseq_scf.sf">SOAPdenovo_hiseq_scf.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SOAPdenovo_hiseq_scf.unaligned">SOAPdenovo_hiseq_scf.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SOAPdenovo_hiseq_scf.used_snps">SOAPdenovo_hiseq_scf.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SOAPdenovo_miseq_scf.all_snps">SOAPdenovo_miseq_scf.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SOAPdenovo_miseq_scf.coords">SOAPdenovo_miseq_scf.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SOAPdenovo_miseq_scf.coords.filtered">SOAPdenovo_miseq_scf.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SOAPdenovo_miseq_scf.sf">SOAPdenovo_miseq_scf.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SOAPdenovo_miseq_scf.unaligned">SOAPdenovo_miseq_scf.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SOAPdenovo_miseq_scf.used_snps">SOAPdenovo_miseq_scf.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SPAdes_hiseq_scf.all_snps">SPAdes_hiseq_scf.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SPAdes_hiseq_scf.coords">SPAdes_hiseq_scf.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SPAdes_hiseq_scf.coords.filtered">SPAdes_hiseq_scf.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SPAdes_hiseq_scf.sf">SPAdes_hiseq_scf.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SPAdes_hiseq_scf.unaligned">SPAdes_hiseq_scf.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SPAdes_hiseq_scf.used_snps">SPAdes_hiseq_scf.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SPAdes_miseq_scf.all_snps">SPAdes_miseq_scf.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SPAdes_miseq_scf.coords">SPAdes_miseq_scf.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SPAdes_miseq_scf.coords.filtered">SPAdes_miseq_scf.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SPAdes_miseq_scf.sf">SPAdes_miseq_scf.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SPAdes_miseq_scf.unaligned">SPAdes_miseq_scf.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/SPAdes_miseq_scf.used_snps">SPAdes_miseq_scf.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/Velvet_hiseq_scf.all_snps">Velvet_hiseq_scf.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/Velvet_hiseq_scf.coords">Velvet_hiseq_scf.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/Velvet_hiseq_scf.coords.filtered">Velvet_hiseq_scf.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/Velvet_hiseq_scf.sf">Velvet_hiseq_scf.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/Velvet_hiseq_scf.unaligned">Velvet_hiseq_scf.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/Velvet_hiseq_scf.used_snps">Velvet_hiseq_scf.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/Velvet_miseq_scf.all_snps">Velvet_miseq_scf.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/Velvet_miseq_scf.coords">Velvet_miseq_scf.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/Velvet_miseq_scf.coords.filtered">Velvet_miseq_scf.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/Velvet_miseq_scf.sf">Velvet_miseq_scf.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/Velvet_miseq_scf.unaligned">Velvet_miseq_scf.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2325/dataset_2407_files/Contig/Velvet_miseq_scf.used_snps">Velvet_miseq_scf.used_snps</a><br>
+     </ul>
+    </ul></p>
+   <p><a name="Contig-genome_stats"><strong>genome_stats</strong></a><ul>
+    <li><a href="Contig/genome_stats/CABOG_hiseq_scf_gaps.txt">CABOG_hiseq_scf_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/CABOG_hiseq_scf_genes.txt">CABOG_hiseq_scf_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/CABOG_miseq_scf_gaps.txt">CABOG_miseq_scf_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/CABOG_miseq_scf_genes.txt">CABOG_miseq_scf_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/complete_genes_histogram.pdf">complete_genes_histogram.pdf</a><br>
+    <li><a href="Contig/genome_stats/genes_cumulative_plot.pdf">genes_cumulative_plot.pdf</a><br>
+    <li><a href="Contig/genome_stats/genome_fraction_histogram.pdf">genome_fraction_histogram.pdf</a><br>
+    <li><a href="Contig/genome_stats/genome_info.txt">genome_info.txt</a><br>
+    <li><a href="Contig/genome_stats/MaSuRCA_hiseq_scf_gaps.txt">MaSuRCA_hiseq_scf_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/MaSuRCA_hiseq_scf_genes.txt">MaSuRCA_hiseq_scf_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/MaSuRCA_miseq_scf_gaps.txt">MaSuRCA_miseq_scf_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/MaSuRCA_miseq_scf_genes.txt">MaSuRCA_miseq_scf_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/SOAPdenovo_hiseq_scf_gaps.txt">SOAPdenovo_hiseq_scf_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/SOAPdenovo_hiseq_scf_genes.txt">SOAPdenovo_hiseq_scf_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/SOAPdenovo_miseq_scf_gaps.txt">SOAPdenovo_miseq_scf_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/SOAPdenovo_miseq_scf_genes.txt">SOAPdenovo_miseq_scf_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/SPAdes_hiseq_scf_gaps.txt">SPAdes_hiseq_scf_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/SPAdes_hiseq_scf_genes.txt">SPAdes_hiseq_scf_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/SPAdes_miseq_scf_gaps.txt">SPAdes_miseq_scf_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/SPAdes_miseq_scf_genes.txt">SPAdes_miseq_scf_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/Velvet_hiseq_scf_gaps.txt">Velvet_hiseq_scf_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/Velvet_hiseq_scf_genes.txt">Velvet_hiseq_scf_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/Velvet_miseq_scf_gaps.txt">Velvet_miseq_scf_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/Velvet_miseq_scf_genes.txt">Velvet_miseq_scf_genes.txt</a><br>
+    </ul></p>
+   <p><a name="Contig-json"><strong>json</strong></a><ul>
+    <li><a href="Contig/json/aligned_contigs_lengths.json">aligned_contigs_lengths.json</a><br>
+    <li><a href="Contig/json/assemblies_lengths.json">assemblies_lengths.json</a><br>
+    <li><a href="Contig/json/contigs_lengths.json">contigs_lengths.json</a><br>
+    <li><a href="Contig/json/gc.json">gc.json</a><br>
+    <li><a href="Contig/json/genes_in_contigs.json">genes_in_contigs.json</a><br>
+    <li><a href="Contig/json/ref_length.json">ref_length.json</a><br>
+    <li><a href="Contig/json/report.json">report.json</a><br>
+    </ul></p>
+    <a href="#top"><font color="black">[To the top]</font></a><br>    </body>
+</html>

@@ -1,0 +1,2159 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome]
+	Loaded [gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence]
+	Loaded [gi|225631039|ref|NC_012417.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA01-HOU__complete_sequence]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 3
+	Total Region Length: 2903081
+Analyzing contigs...
+CONTIG: mira_c85 (1136bp)
+		This contig is unaligned. (1136 bp)
+		Unaligned bases: 1136  total: 1136
+
+CONTIG: mira_c82 (850bp)
+		This contig is unaligned. (850 bp)
+		Unaligned bases: 850  total: 1986
+
+CONTIG: mira_rep_c118 (669bp)
+		This contig is unaligned. (669 bp)
+		Unaligned bases: 669  total: 2655
+
+CONTIG: mira_rep_c121 (753bp)
+Top Length: 753  Top ID: 98.27
+		One align captures most of this contig: 10035 10787 | 753 1 | 753 753 | 98.27 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_rep_c121
+
+CONTIG: mira_c32 (21685bp)
+Top Length: 17332  Top ID: 99.31
+		Skipping redundant alignment 512652 513195 | 21146 21685 | 544 540 | 97.79 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c32
+		Skipping redundant alignment 556960 557474 | 21173 21685 | 515 513 | 99.42 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c32
+		Skipping redundant alignment 2181005 2181518 | 21685 21173 | 514 513 | 99.42 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c32
+		Skipping redundant alignment 2297315 2297828 | 21685 21173 | 514 513 | 99.42 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c32
+		This contig is partially unaligned. (17332 out of 21685)
+		Alignment: 2003011 2020344 | 21685 4354 | 17334 17332 | 99.31 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c32
+		Unaligned bases: 1 to 4353 (4353)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c33 (5089bp)
+Top Length: 250  Top ID: 96.4
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 5089 and total length of all aligns is 360
+		Alignment: 1592071 1592189 | 2164 2046 | 119 119 | 98.32 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c33
+		Alignment: 1592564 1592813 | 2054 1805 | 250 250 | 96.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c33
+		Unaligned bases: 4729
+CONTIG: mira_c30 (35233bp)
+Top Length: 22162  Top ID: 98.24
+		Skipping redundant alignment 159139 159749 | 611 1 | 611 611 | 98.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+		Skipping redundant alignment 1998019 1998100 | 34552 34633 | 82 82 | 97.56 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+		Skipping redundant alignment 1996301 1996372 | 34639 34710 | 72 72 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+		Skipping redundant alignment 1996548 1996629 | 34723 34804 | 82 82 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+		Skipping redundant alignment 556217 556295 | 34908 34830 | 79 79 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+		Skipping redundant alignment 1998194 1998272 | 34830 34908 | 79 79 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+		Skipping redundant alignment 24178 24256 | 34987 34909 | 79 79 | 97.47 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+		Skipping redundant alignment 1961511 1961665 | 34915 35069 | 155 155 | 99.35 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+		Skipping redundant alignment 1032797 1032877 | 34988 35068 | 81 81 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+		Skipping redundant alignment 2176447 2176607 | 35073 35233 | 161 161 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+		Skipping redundant alignment 561905 562065 | 35233 35073 | 161 161 | 99.38 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+		Skipping redundant alignment 1998283 1998443 | 35073 35233 | 161 161 | 99.38 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+		Skipping redundant alignment 517654 517814 | 35233 35073 | 161 161 | 98.76 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+		Skipping redundant alignment 556088 556205 | 35190 35073 | 118 118 | 99.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+		This contig is misassembled. 18 total aligns.
+			Real Alignment 1: 2254691 2265231 | 1 10537 | 10541 10537 | 99.41 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+			  Gap between these two alignments (local misassembly). Inconsistency = 57
+			Real Alignment 2: 2265212 2266002 | 10461 11241 | 791 781 | 96.71 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+			  Extensive misassembly ( relocation, inconsistency = 1413 ) between these two alignments
+			Real Alignment 3: 2268541 2290692 | 12367 34528 | 22152 22162 | 98.24 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+			  Extensive misassembly ( relocation, inconsistency = 1521 ) between these two alignments
+			Real Alignment 4: 2292206 2292918 | 34521 35233 | 713 713 | 99.86 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c30
+
+CONTIG: mira_c31 (38412bp)
+Top Length: 13234  Top ID: 99.44
+		Skipping redundant alignment 891636 891755 | 38050 38169 | 120 120 | 97.5 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c31
+		Skipping redundant alignment 891784 891881 | 38315 38412 | 98 98 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c31
+		Skipping redundant alignment 2031771 2031868 | 38315 38412 | 98 98 | 98.98 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c31
+		Skipping redundant alignment 2580515 2580612 | 38412 38315 | 98 98 | 98.98 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c31
+		Skipping redundant alignment 1098172 1098269 | 38315 38412 | 98 98 | 96.94 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c31
+		Skipping redundant alignment 2866835 2866916 | 38331 38412 | 82 82 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c31
+		Skipping redundant alignment 800990 801071 | 38331 38412 | 82 82 | 97.56 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c31
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2478301][2478416] redundant alignment 2478301 2478416 | 1 116 | 116 116 | 98.28 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c31
+		This contig is misassembled. 12 total aligns.
+			Real Alignment 1: 1426566 1426681 | 1 116 | 116 116 | 99.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c31
+			  Extensive misassembly ( relocation, inconsistency = 3492 ) between these two alignments
+			Real Alignment 2: 1430212 1442791 | 155 12734 | 12580 12580 | 99.46 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c31
+			  Gap between these two alignments (local misassembly). Inconsistency = 940
+			Real Alignment 3: 1443765 1456996 | 12768 26001 | 13232 13234 | 99.44 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c31
+			  Gap between these two alignments (local misassembly). Inconsistency = 743
+			Real Alignment 4: 1457737 1470092 | 25999 38412 | 12356 12414 | 98.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c31
+
+CONTIG: mira_c36 (5759bp)
+Top Length: 5592  Top ID: 99.43
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2290693][2290859] redundant alignment 2290693 2290859 | 167 1 | 167 167 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c36
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 737473 743062 | 168 5759 | 5590 5592 | 99.43 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c36
+			  Extensive misassembly ( relocation, inconsistency = 1256797 ) between these two alignments
+			Real Alignment 2: 1994267 1994433 | 167 1 | 167 167 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c36
+
+CONTIG: mira_c37 (11300bp)
+Top Length: 4603  Top ID: 99.98
+		Skipping redundant alignment 20991 21127 | 11297 11161 | 137 137 | 98.54 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c37
+		Skipping redundant alignment 12451 12589 | 11162 11300 | 139 139 | 98.56 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c37
+		Skipping redundant alignment 76159 76297 | 11162 11300 | 139 139 | 98.56 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c37
+		Skipping redundant alignment 16982 17117 | 11297 11162 | 136 136 | 98.53 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c37
+		This contig is misassembled. 6 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 11300 and total length of all aligns is 4742
+		Alignment: 36469 36608 | 11300 11161 | 140 140 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c37
+		Alignment: 37605 42207 | 11161 6559 | 4603 4603 | 99.98 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c37
+		Unaligned bases: 6558
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: mira_c34 (5791bp)
+Top Length: 245  Top ID: 97.55
+		This contig is partially unaligned. (245 out of 5791)
+		Alignment: 2122104 2122348 | 5547 5791 | 245 245 | 97.55 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c34
+		Unaligned bases: 1 to 5546 (5546)
+
+CONTIG: mira_c35 (33397bp)
+Top Length: 32453  Top ID: 99.6
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2290692][2290862] redundant alignment 2290692 2290862 | 33227 33397 | 171 171 | 98.83 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c35
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 704277 705084 | 33227 32420 | 808 808 | 99.26 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c35
+			  Gap between these two alignments (local misassembly). Inconsistency = 133
+			Real Alignment 2: 705027 737480 | 32610 158 | 32454 32453 | 99.6 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c35
+			  Extensive misassembly ( relocation, inconsistency = 1289853 ) between these two alignments
+			Real Alignment 3: 1994265 1994436 | 33226 33397 | 172 172 | 98.84 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c35
+			  Extensive misassembly ( relocation, inconsistency = 34582 ) between these two alignments
+			Real Alignment 4: 1995622 1995778 | 1 157 | 157 157 | 97.47 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c35
+
+CONTIG: mira_rep_c170 (576bp)
+		This contig is unaligned. (576 bp)
+		Unaligned bases: 576  total: 3231
+
+CONTIG: mira_rep_c171 (1189bp)
+		This contig is unaligned. (1189 bp)
+		Unaligned bases: 1189  total: 4420
+
+CONTIG: mira_c38 (2847bp)
+		This contig is unaligned. (2847 bp)
+		Unaligned bases: 2847  total: 7267
+
+CONTIG: mira_c39 (22489bp)
+Top Length: 7566  Top ID: 99.48
+		Skipping redundant alignment 169803 169981 | 179 1 | 179 179 | 95.53 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c39
+		Skipping redundant alignment 1098110 1098282 | 1 172 | 173 172 | 96.53 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c39
+		Skipping redundant alignment 1380452 1380628 | 180 5 | 177 176 | 96.61 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c39
+		Skipping redundant alignment 1469937 1470113 | 5 180 | 177 176 | 96.61 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c39
+		Skipping redundant alignment 2580494 2580656 | 180 17 | 163 164 | 98.78 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c39
+		Skipping redundant alignment 2866835 2866937 | 78 180 | 103 103 | 99.03 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c39
+		Skipping redundant alignment 800990 801084 | 78 172 | 95 95 | 97.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c39
+		This contig is misassembled. 12 total aligns.
+			Real Alignment 1: 848249 848469 | 185 404 | 221 220 | 95.02 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c39
+			  Extensive misassembly ( relocation, inconsistency = 43657 ) between these two alignments
+			Real Alignment 2: 891723 892071 | 1 348 | 349 348 | 98.57 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c39
+			  Overlap between these two alignments (local misassembly). Inconsistency = -56
+			Real Alignment 3: 892002 895801 | 335 4134 | 3800 3800 | 99.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c39
+			  Extensive misassembly ( relocation, inconsistency = 13956 ) between these two alignments
+			Real Alignment 4: 909741 917305 | 4118 11683 | 7565 7566 | 99.48 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c39
+			  Extensive misassembly ( relocation, inconsistency = 675624 ) between these two alignments
+			Real Alignment 5: 1599735 1600074 | 18489 18149 | 340 341 | 96.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c39
+
+CONTIG: mira_rep_c177 (579bp)
+Top Length: 579  Top ID: 98.79
+		Marking as insignificant: 1997493 1997575 | 303 384 | 83 82 | 98.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c177
+		Marking as insignificant: 556866 556949 | 380 298 | 84 83 | 98.81 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c177
+		Marking as insignificant: 514327 514426 | 579 480 | 100 100 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c177
+		Marking as insignificant: 558606 558790 | 579 395 | 185 185 | 99.46 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c177
+		Marking as insignificant: 514495 514793 | 299 1 | 299 299 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c177
+		One align captures most of this contig: 2001304 2001879 | 1 579 | 576 579 | 98.79 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c177
+
+CONTIG: mira_rep_c129 (538bp)
+Top Length: 538  Top ID: 97.77
+		One align captures most of this contig: 7888 8425 | 1 538 | 538 538 | 97.77 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_rep_c129
+
+CONTIG: mira_c25 (12763bp)
+Top Length: 4759  Top ID: 99.5
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2290691][2290859] redundant alignment 2290691 2290859 | 12595 12763 | 169 169 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c25
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 917216 920552 | 4420 7759 | 3337 3340 | 98.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c25
+			  Overlap between these two alignments (local misassembly). Inconsistency = -171
+			Real Alignment 2: 920460 925218 | 7838 12596 | 4759 4759 | 99.5 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c25
+			  Extensive misassembly ( relocation, inconsistency = 1069048 ) between these two alignments
+			Real Alignment 3: 1994266 1994433 | 12596 12763 | 168 168 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c25
+
+CONTIG: mira_c24 (20432bp)
+Top Length: 20265  Top ID: 99.57
+		Marking as insignificant: 1961673 1961755 | 218 300 | 83 83 | 97.59 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c24
+		Marking as insignificant: 1995612 1995778 | 20432 20266 | 167 167 | 97.62 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c24
+		Marking as insignificant: 2003321 2003524 | 1 204 | 204 204 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c24
+		Marking as insignificant: 556958 557164 | 206 1 | 207 206 | 99.52 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c24
+		Marking as insignificant: 512678 512885 | 207 1 | 208 207 | 99.52 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c24
+		Marking as insignificant: 2297625 2297833 | 1 209 | 209 209 | 99.52 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c24
+		One align captures most of this contig: 2181315 2201597 | 1 20265 | 20283 20265 | 99.57 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c24
+
+CONTIG: mira_c27 (43846bp)
+Top Length: 43733  Top ID: 99.68
+		Marking as insignificant: 2211111 2211197 | 43833 43747 | 87 87 | 97.7 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c27
+		Marking as insignificant: 159600 159790 | 1 190 | 191 190 | 98.43 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c27
+		One align captures most of this contig: 2211111 2254840 | 43733 1 | 43730 43733 | 99.68 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c27
+
+CONTIG: mira_c26 (62510bp)
+Top Length: 31927  Top ID: 99.15
+		Skipping redundant alignment 2866835 2866939 | 35798 35694 | 105 105 | 98.1 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c26
+		Skipping redundant alignment 2580487 2580654 | 35690 35856 | 168 167 | 98.21 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c26
+		This contig is misassembled. 10 total aligns.
+			Real Alignment 1: 622365 654284 | 1 31927 | 31920 31927 | 99.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c26
+			  Extensive misassembly ( relocation, inconsistency = 6213 ) between these two alignments
+			Real Alignment 2: 663043 664265 | 34473 35695 | 1223 1223 | 97.87 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c26
+			  Overlap between these two alignments (local misassembly). Inconsistency = -235
+			Real Alignment 3: 664298 671529 | 35963 43197 | 7232 7235 | 99.52 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c26
+			  Gap between these two alignments (local misassembly). Inconsistency = 120
+			Real Alignment 4: 671743 672565 | 43291 44112 | 823 822 | 97.45 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c26
+			  Gap between these two alignments (local misassembly). Inconsistency = 66
+			Real Alignment 5: 672580 680917 | 44061 52339 | 8338 8279 | 98.74 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c26
+			  Extensive misassembly ( relocation, inconsistency = 13357 ) between these two alignments
+			Real Alignment 6: 694274 704284 | 52339 62349 | 10011 10011 | 99.49 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c26
+			  Extensive misassembly ( relocation, inconsistency = 702821 ) between these two alignments
+			Real Alignment 7: 1380451 1380674 | 35695 35917 | 224 223 | 97.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c26
+			  Extensive misassembly ( relocation, inconsistency = 588351 ) between these two alignments
+			Real Alignment 8: 1995618 1995778 | 62510 62350 | 161 161 | 97.53 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c26
+
+CONTIG: mira_c21 (34929bp)
+Top Length: 24170  Top ID: 99.4
+		Skipping redundant alignment 1380452 1380612 | 197 37 | 161 161 | 98.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c21
+		Skipping redundant alignment 1469953 1470113 | 37 197 | 161 161 | 98.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c21
+		Skipping redundant alignment 1098130 1098282 | 37 189 | 153 153 | 96.73 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c21
+		Skipping redundant alignment 891746 891903 | 41 198 | 158 158 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c21
+		Skipping redundant alignment 169803 169958 | 196 41 | 156 156 | 96.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c21
+		Skipping redundant alignment 2866835 2866937 | 95 197 | 103 103 | 99.03 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c21
+		Skipping redundant alignment 2254650 2254835 | 34743 34929 | 186 187 | 98.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c21
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 159605 168090 | 34929 26465 | 8486 8465 | 98.96 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c21
+			  Extensive misassembly ( relocation, inconsistency = -1818 ) between these two alignments
+			Real Alignment 2: 168106 168377 | 24631 24360 | 272 272 | 98.53 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c21
+			  Extensive misassembly ( relocation, inconsistency = 2396 ) between these two alignments
+			Real Alignment 3: 170766 194937 | 24367 198 | 24172 24170 | 99.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c21
+			  Extensive misassembly ( relocation, inconsistency = 2385556 ) between these two alignments
+			Real Alignment 4: 2580494 2580663 | 197 28 | 170 170 | 97.65 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c21
+
+CONTIG: mira_c20 (104736bp)
+Top Length: 82503  Top ID: 99.39
+		Skipping redundant alignment 1558283 1558533 | 1 251 | 251 251 | 97.61 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c20
+		Skipping redundant alignment 2580486 2580656 | 102780 102950 | 171 171 | 97.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c20
+		Skipping redundant alignment 891727 891909 | 102963 102780 | 183 184 | 97.28 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c20
+		Skipping redundant alignment 169803 169977 | 102789 102963 | 175 175 | 95.43 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c20
+		This contig is misassembled. 8 total aligns.
+			Real Alignment 1: 1380452 1380668 | 102788 103003 | 217 216 | 96.31 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c20
+			  Extensive misassembly ( relocation, inconsistency = 330887 ) between these two alignments
+			Real Alignment 2: 1608553 1626987 | 1 18431 | 18435 18431 | 99.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c20
+			  Extensive misassembly ( relocation, inconsistency = -1781 ) between these two alignments
+			Real Alignment 3: 1627060 1709553 | 20285 102787 | 82494 82503 | 99.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c20
+			  Overlap between these two alignments (local misassembly). Inconsistency = -350
+			Real Alignment 4: 1709584 1711151 | 103168 104736 | 1568 1569 | 99.24 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c20
+
+CONTIG: mira_c23 (58097bp)
+Top Length: 58097  Top ID: 99.32
+		Marking as insignificant: 2866835 2866926 | 58006 58097 | 92 92 | 97.83 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c23
+		Marking as insignificant: 1695023 1695127 | 57901 58005 | 105 105 | 98.1 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c23
+		Marking as insignificant: 1469953 1470102 | 57948 58097 | 150 150 | 97.33 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c23
+		Marking as insignificant: 1380463 1380612 | 58097 57948 | 150 150 | 97.33 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c23
+		Marking as insignificant: 1098130 1098279 | 57948 58097 | 150 150 | 98.67 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c23
+		Marking as insignificant: 891739 891891 | 57946 58097 | 153 152 | 98.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c23
+		Marking as insignificant: 2580505 2580663 | 58097 57939 | 159 159 | 98.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c23
+		One align captures most of this contig: 742917 801081 | 1 58097 | 58165 58097 | 99.32 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c23
+
+CONTIG: mira_c22 (16126bp)
+Top Length: 11497  Top ID: 98.85
+		Skipping redundant alignment 2866835 2866928 | 16029 16122 | 94 94 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c22
+		This contig is partially unaligned. (11497 out of 16126)
+		Alignment: 2020329 2031884 | 4630 16126 | 11556 11497 | 98.85 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c22
+		Unaligned bases: 1 to 4629 (4629)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c29 (34946bp)
+Top Length: 21205  Top ID: 99.51
+		Skipping redundant alignment 1994266 1994420 | 155 1 | 155 155 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c29
+		Skipping redundant alignment 2317456 2317576 | 34824 34945 | 121 122 | 98.36 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c29
+		Skipping redundant alignment 1443654 1443769 | 34945 34829 | 116 117 | 98.29 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c29
+		Skipping redundant alignment 318663 318773 | 34834 34945 | 111 112 | 99.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c29
+		Skipping redundant alignment 2071958 2072068 | 34945 34834 | 111 112 | 99.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c29
+		Skipping redundant alignment 2478225 2478335 | 34834 34943 | 111 110 | 97.3 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c29
+		Skipping redundant alignment 1804939 1805049 | 34945 34835 | 111 111 | 99.1 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c29
+		Skipping redundant alignment 1893366 1893475 | 34945 34835 | 110 111 | 98.2 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c29
+		Skipping redundant alignment 1910649 1910754 | 34839 34945 | 106 107 | 99.07 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c29
+		This contig is misassembled. 12 total aligns.
+			Real Alignment 1: 1392390 1413595 | 155 21359 | 21206 21205 | 99.51 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c29
+			  Overlap between these two alignments (local misassembly). Inconsistency = -578
+			Real Alignment 2: 1414052 1426603 | 22394 34946 | 12552 12553 | 99.44 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c29
+			  Extensive misassembly ( relocation, inconsistency = 898868 ) between these two alignments
+			Real Alignment 3: 2290686 2290846 | 161 1 | 161 161 | 99.38 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c29
+
+CONTIG: mira_c28 (89249bp)
+Top Length: 80305  Top ID: 98.29
+		Skipping redundant alignment 1380451 1380570 | 89075 89194 | 120 120 | 99.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c28
+		Skipping redundant alignment 2580493 2580612 | 89075 89194 | 120 120 | 99.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c28
+		Skipping redundant alignment 2866835 2866938 | 89178 89075 | 104 104 | 99.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c28
+		Skipping redundant alignment 891784 891902 | 89194 89076 | 119 119 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c28
+		Skipping redundant alignment 2031771 2031888 | 89194 89077 | 118 118 | 98.31 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c28
+		Skipping redundant alignment 1098172 1098282 | 89194 89084 | 111 111 | 97.3 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c28
+		Skipping redundant alignment 800990 801084 | 89178 89084 | 95 95 | 97.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c28
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 1469995 1473202 | 89194 85987 | 3208 3208 | 98.91 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c28
+			  Overlap between these two alignments (local misassembly). Inconsistency = -231
+			Real Alignment 2: 1472732 1476019 | 86226 82939 | 3288 3288 | 98.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c28
+			  Overlap between these two alignments (local misassembly). Inconsistency = -378
+			Real Alignment 3: 1475980 1556282 | 82600 2296 | 80303 80305 | 98.29 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c28
+			  Overlap between these two alignments (local misassembly). Inconsistency = -86
+			Real Alignment 4: 1557897 1558491 | 595 1 | 595 595 | 98.66 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c28
+
+CONTIG: mira_rep_c109 (608bp)
+		This contig is unaligned. (608 bp)
+		Unaligned bases: 608  total: 7875
+
+CONTIG: mira_rep_c108 (602bp)
+		This contig is unaligned. (602 bp)
+		Unaligned bases: 602  total: 8477
+
+CONTIG: mira_rep_c105 (863bp)
+		This contig is unaligned. (863 bp)
+		Unaligned bases: 863  total: 9340
+
+CONTIG: mira_rep_c104 (1094bp)
+		This contig is unaligned. (1094 bp)
+		Unaligned bases: 1094  total: 10434
+
+CONTIG: mira_rep_c107 (1211bp)
+		This contig is unaligned. (1211 bp)
+		Unaligned bases: 1211  total: 11645
+
+CONTIG: mira_rep_c106 (895bp)
+Top Length: 261  Top ID: 100.0
+		Skipping redundant alignment 4269 4433 | 33 198 | 165 166 | 95.78 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_rep_c106
+		Skipping redundant alignment 2231 2388 | 43 200 | 158 158 | 95.57 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_rep_c106
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 5252 5512 | 895 635 | 261 261 | 100.0 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_rep_c106
+			  Extensive misassembly ( translocation ) between these two alignments
+			Real Alignment 2: 1 116 | 482 367 | 116 116 | 100.0 | gi|225631039|ref|NC_012417.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA01-HOU__complete_sequence mira_rep_c106
+			  Extensive misassembly ( relocation, inconsistency = 1449 ) between these two alignments
+			Real Alignment 3: 1910 2086 | 22 198 | 177 177 | 95.48 | gi|225631039|ref|NC_012417.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA01-HOU__complete_sequence mira_rep_c106
+
+CONTIG: mira_rep_c101 (1403bp)
+		This contig is unaligned. (1403 bp)
+		Unaligned bases: 1403  total: 13048
+
+CONTIG: mira_rep_c100 (808bp)
+Top Length: 790  Top ID: 100.0
+		Skipping redundant alignment 76159 76947 | 9 798 | 789 790 | 98.73 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c100
+		Skipping redundant alignment 16329 17117 | 798 9 | 789 790 | 98.1 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_rep_c100
+		Skipping redundant alignment 20338 21126 | 798 9 | 789 790 | 97.47 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_rep_c100
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [35818][36607] redundant alignment 35818 36607 | 798 9 | 790 790 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c100
+		This contig is partially unaligned. (790 out of 808)
+		Alignment: 12451 13240 | 9 798 | 790 790 | 99.24 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_rep_c100
+		Unaligned bases: 1 to 8 (8)
+		Unaligned bases: 799 to 808 (10)
+
+CONTIG: mira_rep_c103 (1035bp)
+		This contig is unaligned. (1035 bp)
+		Unaligned bases: 1035  total: 14083
+
+CONTIG: mira_rep_c102 (510bp)
+		This contig is unaligned. (510 bp)
+		Unaligned bases: 510  total: 14593
+
+CONTIG: mira_c50 (689bp)
+		This contig is unaligned. (689 bp)
+		Unaligned bases: 689  total: 15282
+
+CONTIG: mira_c51 (893bp)
+		This contig is unaligned. (893 bp)
+		Unaligned bases: 893  total: 16175
+
+CONTIG: mira_c52 (853bp)
+		This contig is unaligned. (853 bp)
+		Unaligned bases: 853  total: 17028
+
+CONTIG: mira_c53 (2574bp)
+Top Length: 516  Top ID: 95.83
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 2574 and total length of all aligns is 723
+		Alignment: 5489 5629 | 4 146 | 141 143 | 96.5 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c53
+		Alignment: 5798 5862 | 146 210 | 65 65 | 100.0 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c53
+		Alignment: 7614 8141 | 2058 2573 | 528 516 | 95.83 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c53
+		Unaligned bases: 1851
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: mira_c54 (553bp)
+		This contig is unaligned. (553 bp)
+		Unaligned bases: 553  total: 17581
+
+CONTIG: mira_rep_c91 (1671bp)
+Top Length: 1530  Top ID: 98.89
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2290684][2292213] redundant alignment 2290684 2292213 | 1604 75 | 1530 1530 | 98.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c91
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1392316 1392397 | 1 82 | 82 82 | 98.78 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c91
+			  Extensive misassembly ( relocation, inconsistency = 600356 ) between these two alignments
+			Real Alignment 2: 1994266 1995786 | 1595 75 | 1521 1521 | 99.01 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c91
+
+CONTIG: mira_rep_c92 (5185bp)
+		This contig is unaligned. (5185 bp)
+		Unaligned bases: 5185  total: 22766
+
+CONTIG: mira_c57 (662bp)
+Top Length: 421  Top ID: 98.1
+		This contig is partially unaligned. (421 out of 662)
+		Alignment: 7129 7549 | 1 421 | 421 421 | 98.1 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c57
+		Unaligned bases: 422 to 662 (241)
+
+CONTIG: mira_c58 (1109bp)
+		This contig is unaligned. (1109 bp)
+		Unaligned bases: 1109  total: 23875
+
+CONTIG: mira_c59 (1227bp)
+		This contig is unaligned. (1227 bp)
+		Unaligned bases: 1227  total: 25102
+
+CONTIG: mira_rep_c115 (519bp)
+		This contig is unaligned. (519 bp)
+		Unaligned bases: 519  total: 25621
+
+CONTIG: mira_rep_c98 (1768bp)
+		This contig is unaligned. (1768 bp)
+		Unaligned bases: 1768  total: 27389
+
+CONTIG: mira_rep_c99 (613bp)
+		This contig is unaligned. (613 bp)
+		Unaligned bases: 613  total: 28002
+
+CONTIG: mira_rep_c110 (523bp)
+		This contig is unaligned. (523 bp)
+		Unaligned bases: 523  total: 28525
+
+CONTIG: mira_rep_c111 (611bp)
+		This contig is unaligned. (611 bp)
+		Unaligned bases: 611  total: 29136
+
+CONTIG: mira_rep_c94 (6722bp)
+		This contig is unaligned. (6722 bp)
+		Unaligned bases: 6722  total: 35858
+
+CONTIG: mira_rep_c95 (7545bp)
+		This contig is unaligned. (7545 bp)
+		Unaligned bases: 7545  total: 43403
+
+CONTIG: mira_rep_c96 (1177bp)
+		This contig is unaligned. (1177 bp)
+		Unaligned bases: 1177  total: 44580
+
+CONTIG: mira_c8 (232112bp)
+Top Length: 38648  Top ID: 99.04
+		Skipping redundant alignment 1072168 1072260 | 59434 59526 | 93 93 | 98.92 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+		Skipping redundant alignment 2866774 2866928 | 182689 182843 | 155 155 | 97.42 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+		Skipping redundant alignment 800980 801092 | 182740 182852 | 113 113 | 99.12 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+		Skipping redundant alignment 1098188 1098299 | 182750 182859 | 112 110 | 97.32 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+		Skipping redundant alignment 891800 891898 | 182750 182848 | 99 99 | 96.97 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+		Skipping redundant alignment 1380456 1380554 | 182848 182750 | 99 99 | 95.96 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+		Skipping redundant alignment 1470011 1470109 | 182750 182848 | 99 99 | 95.96 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+		Skipping redundant alignment 2031787 2031881 | 182750 182844 | 95 95 | 97.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1994266][1994430] redundant alignment 1994266 1994430 | 231948 232112 | 165 165 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+		This contig is misassembled. 28 total aligns.
+			Real Alignment 1: 1072168 1072332 | 182689 182853 | 165 165 | 97.58 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Extensive misassembly ( relocation, inconsistency = 105682 ) between these two alignments
+			Real Alignment 2: 1072262 1072333 | 77101 77172 | 72 72 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Extensive misassembly ( relocation, inconsistency = 819205 ) between these two alignments
+			Real Alignment 3: 1873924 1874048 | 59558 59434 | 125 125 | 97.6 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Extensive misassembly ( relocation, inconsistency = 589158 ) between these two alignments
+			Real Alignment 4: 2290692 2290856 | 231948 232112 | 165 165 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Extensive misassembly ( relocation, inconsistency = 251222 ) between these two alignments
+			Real Alignment 5: 2541914 2580484 | 231948 193301 | 38571 38648 | 99.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Gap between these two alignments (local misassembly). Inconsistency = 299
+			Real Alignment 6: 2580818 2591231 | 193266 182853 | 10414 10414 | 98.54 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Overlap between these two alignments (local misassembly). Inconsistency = -138
+			Real Alignment 7: 2591257 2601199 | 182689 172744 | 9943 9946 | 98.53 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Overlap between these two alignments (local misassembly). Inconsistency = -59
+			Real Alignment 8: 2602004 2613858 | 171880 160023 | 11855 11858 | 96.32 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Extensive misassembly ( relocation, inconsistency = -1016 ) between these two alignments
+			Real Alignment 9: 2613037 2624727 | 159828 148122 | 11691 11707 | 97.19 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Gap between these two alignments (local misassembly). Inconsistency = 384
+			Real Alignment 10: 2624032 2630838 | 149201 142365 | 6807 6837 | 96.55 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Extensive misassembly ( relocation, inconsistency = -3650 ) between these two alignments
+			Real Alignment 11: 2629776 2630571 | 139777 138982 | 796 796 | 95.1 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Extensive misassembly ( relocation, inconsistency = 3540 ) between these two alignments
+			Real Alignment 12: 2634962 2647573 | 138131 125539 | 12612 12593 | 97.58 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Extensive misassembly ( relocation, inconsistency = 1628 ) between these two alignments
+			Real Alignment 13: 2649284 2664855 | 125456 109888 | 15572 15569 | 97.75 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Gap between these two alignments (local misassembly). Inconsistency = 289
+			Real Alignment 14: 2665148 2680011 | 109884 95023 | 14864 14862 | 99.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Extensive misassembly ( relocation, inconsistency = 1458 ) between these two alignments
+			Real Alignment 15: 2681398 2699196 | 95094 77299 | 17799 17796 | 98.58 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Overlap between these two alignments (local misassembly). Inconsistency = -120
+			Real Alignment 16: 2699368 2716774 | 77007 59598 | 17407 17410 | 99.44 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Overlap between these two alignments (local misassembly). Inconsistency = -152
+			Real Alignment 17: 2716786 2733821 | 59434 42403 | 17036 17032 | 98.48 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Extensive misassembly ( relocation, inconsistency = -2050 ) between these two alignments
+			Real Alignment 18: 2733813 2753848 | 40361 20326 | 20036 20036 | 99.37 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+			  Gap between these two alignments (local misassembly). Inconsistency = 968
+			Real Alignment 19: 2754851 2774758 | 20291 442 | 19908 19850 | 99.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c8
+
+CONTIG: mira_rep_c97 (1503bp)
+		This contig is unaligned. (1503 bp)
+		Unaligned bases: 1503  total: 46083
+
+CONTIG: mira_c2 (93030bp)
+Top Length: 35670  Top ID: 97.8
+		Skipping redundant alignment 2254693 2255301 | 1 609 | 609 609 | 98.69 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c2
+		Skipping redundant alignment 91221 91685 | 58031 57567 | 465 465 | 96.13 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c2
+		Skipping redundant alignment 61638 62357 | 83684 82964 | 720 721 | 97.09 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c2
+		This contig is misassembled. 10 total aligns.
+			Real Alignment 1: 62357 62619 | 82674 82413 | 263 262 | 96.59 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c2
+			  Extensive misassembly ( relocation, inconsistency = 5358 ) between these two alignments
+			Real Alignment 2: 67739 68780 | 82651 83683 | 1042 1033 | 96.07 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c2
+			  Extensive misassembly ( relocation, inconsistency = 36955 ) between these two alignments
+			Real Alignment 3: 88806 91591 | 66754 63968 | 2786 2787 | 99.18 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c2
+			  Overlap between these two alignments (local misassembly). Inconsistency = -178
+			Real Alignment 4: 91620 99202 | 63761 56180 | 7583 7582 | 99.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c2
+			  Extensive misassembly ( relocation, inconsistency = 4755 ) between these two alignments
+			Real Alignment 5: 103950 111284 | 56187 48858 | 7335 7330 | 97.79 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c2
+			  Overlap between these two alignments (local misassembly). Inconsistency = -822
+			Real Alignment 6: 110128 145766 | 49192 13523 | 35639 35670 | 97.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c2
+			  Gap between these two alignments (local misassembly). Inconsistency = 457
+			Real Alignment 7: 146188 159747 | 13558 1 | 13560 13558 | 99.32 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c2
+
+CONTIG: mira_rep_c90 (5679bp)
+Top Length: 3732  Top ID: 97.91
+		Skipping redundant alignment 518095 518377 | 395 113 | 283 283 | 97.18 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c90
+		Skipping redundant alignment 558792 562333 | 3692 151 | 3542 3542 | 99.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c90
+		Skipping redundant alignment 2176315 2179747 | 285 3718 | 3433 3434 | 99.71 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c90
+		Skipping redundant alignment 2292758 2296057 | 419 3718 | 3300 3300 | 99.88 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c90
+		Skipping redundant alignment 1998283 2001602 | 419 3692 | 3320 3274 | 98.46 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c90
+		Skipping redundant alignment 556088 556205 | 536 419 | 118 118 | 99.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c90
+		Skipping redundant alignment 2179732 2181521 | 3824 5614 | 1790 1791 | 99.66 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c90
+		Skipping redundant alignment 2296042 2297831 | 3824 5614 | 1790 1791 | 99.66 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c90
+		Skipping redundant alignment 2001782 2003551 | 3865 5640 | 1770 1776 | 99.27 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c90
+		Skipping redundant alignment 556958 558705 | 5613 3866 | 1748 1748 | 99.83 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c90
+		This contig is misassembled. 12 total aligns.
+			Real Alignment 1: 512620 514456 | 5672 3836 | 1837 1837 | 99.78 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c90
+			  Overlap between these two alignments (local misassembly). Inconsistency = -105
+			Real Alignment 2: 514455 518211 | 3732 1 | 3757 3732 | 97.91 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_rep_c90
+
+CONTIG: mira_c1 (379101bp)
+Top Length: 97548  Top ID: 99.34
+		Skipping redundant alignment 1469840 1470114 | 11816 12090 | 275 275 | 97.09 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 891688 891755 | 11816 11883 | 68 68 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 891727 891902 | 11913 12089 | 176 177 | 95.48 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1098114 1098282 | 11913 12081 | 169 169 | 95.86 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 2580493 2580654 | 12090 11929 | 162 162 | 96.91 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 2866835 2866938 | 11987 12090 | 104 104 | 96.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 800990 801084 | 11987 12081 | 95 95 | 95.79 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 2431740 2432204 | 185087 185552 | 465 466 | 95.28 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 318772 319233 | 185087 185548 | 462 462 | 98.27 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 2317575 2317710 | 185087 185222 | 136 136 | 97.79 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1443520 1443655 | 185222 185087 | 136 136 | 97.06 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1804816 1804940 | 185211 185087 | 125 125 | 99.2 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 2071835 2071959 | 185211 185087 | 125 125 | 96.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1893245 1893367 | 185209 185087 | 123 123 | 97.56 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1426741 1426823 | 185112 185194 | 83 83 | 96.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1804231 1804690 | 185670 185211 | 460 460 | 98.91 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1892659 1893116 | 185670 185211 | 458 460 | 97.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 2071524 2071709 | 185397 185211 | 186 187 | 96.79 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 2318363 2319448 | 185670 186754 | 1086 1085 | 97.79 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1803040 1804131 | 186754 185670 | 1092 1085 | 97.16 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 2478583 2478990 | 185946 186352 | 408 407 | 98.53 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1442817 1443304 | 186739 186251 | 488 489 | 97.55 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1426823 1427120 | 186451 186748 | 298 298 | 97.99 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1204938 1205142 | 186748 186543 | 205 206 | 97.57 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 2478990 2479091 | 186647 186748 | 102 102 | 99.02 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 457281 459028 | 206475 204728 | 1748 1748 | 96.28 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 2292600 2292754 | 227648 227802 | 155 155 | 99.35 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 24178 24249 | 227720 227649 | 72 72 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1032797 1032877 | 227721 227801 | 81 81 | 98.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 2181532 2181615 | 227813 227896 | 84 84 | 97.62 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1996383 1996460 | 227905 227982 | 78 78 | 98.72 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 24258 24332 | 228158 228084 | 75 75 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1961939 1962021 | 228395 228476 | 83 82 | 98.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 24260 24332 | 228472 228400 | 73 73 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1936901 1937073 | 272257 272429 | 173 173 | 95.38 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1937504 1939251 | 272848 274595 | 1748 1748 | 95.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		Skipping redundant alignment 1071860 1071932 | 335953 336025 | 73 73 | 98.63 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+		This contig is misassembled. 61 total aligns.
+			Real Alignment 1: 351718 381134 | 379101 349683 | 29417 29419 | 98.59 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -1
+			Real Alignment 2: 381252 394910 | 349564 335901 | 13659 13664 | 98.45 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Gap between these two alignments (local misassembly). Inconsistency = 109
+			Real Alignment 3: 395019 399730 | 335901 331191 | 4712 4711 | 98.03 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -149
+			Real Alignment 4: 399760 452229 | 331012 278523 | 52470 52490 | 97.74 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Extensive misassembly ( relocation, inconsistency = 1117 ) between these two alignments
+			Real Alignment 5: 452964 460676 | 278905 271200 | 7713 7706 | 96.93 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Extensive misassembly ( relocation, inconsistency = -5093 ) between these two alignments
+			Real Alignment 6: 466103 466777 | 260680 260006 | 675 675 | 97.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Extensive misassembly ( relocation, inconsistency = 5251 ) between these two alignments
+			Real Alignment 7: 472196 503635 | 259838 228483 | 31440 31356 | 98.53 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Extensive misassembly ( relocation, inconsistency = 658292 ) between these two alignments
+			Real Alignment 8: 1205205 1245347 | 185205 145062 | 40143 40144 | 99.6 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -192
+			Real Alignment 9: 1245319 1342913 | 144898 47351 | 97595 97548 | 99.34 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Extensive misassembly ( relocation, inconsistency = 2277 ) between these two alignments
+			Real Alignment 10: 1345212 1380725 | 47329 11816 | 35514 35514 | 99.29 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -56
+			Real Alignment 11: 1380716 1392397 | 11769 88 | 11682 11682 | 99.69 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Extensive misassembly ( relocation, inconsistency = 703355 ) between these two alignments
+			Real Alignment 12: 1910753 1911335 | 185087 185670 | 583 584 | 98.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Gap between these two alignments (local misassembly). Inconsistency = 100
+			Real Alignment 13: 1911435 1917797 | 185670 192044 | 6363 6375 | 98.82 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Gap between these two alignments (local misassembly). Inconsistency = 743
+			Real Alignment 14: 1918539 1918707 | 192043 192211 | 169 169 | 98.22 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -125
+			Real Alignment 15: 1918733 1927378 | 192362 201007 | 8646 8646 | 97.97 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Extensive misassembly ( relocation, inconsistency = 1112 ) between these two alignments
+			Real Alignment 16: 1929030 1929381 | 201547 201898 | 352 352 | 96.31 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Gap between these two alignments (local misassembly). Inconsistency = 192
+			Real Alignment 17: 1929800 1930326 | 202125 202651 | 527 527 | 97.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Extensive misassembly ( relocation, inconsistency = 5101 ) between these two alignments
+			Real Alignment 18: 1936931 1940428 | 204155 207657 | 3498 3503 | 97.49 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Gap between these two alignments (local misassembly). Inconsistency = 874
+			Real Alignment 19: 1940930 1945577 | 207285 211932 | 4648 4648 | 98.73 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -15
+			Real Alignment 20: 1945917 1946682 | 212287 213051 | 766 765 | 97.78 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Extensive misassembly ( relocation, inconsistency = 7532 ) between these two alignments
+			Real Alignment 21: 1956069 1960552 | 214906 219403 | 4484 4498 | 97.58 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Extensive misassembly ( relocation, inconsistency = -7285 ) between these two alignments
+			Real Alignment 22: 1961324 1962117 | 227460 228257 | 794 798 | 97.49 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Extensive misassembly ( relocation, inconsistency = 34864 ) between these two alignments
+			Real Alignment 23: 1996710 1997291 | 227986 228576 | 582 591 | 96.46 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+			  Extensive misassembly ( relocation, inconsistency = 1049876 ) between these two alignments
+			Real Alignment 24: 2830298 2830416 | 11707 11825 | 119 119 | 99.16 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c1
+
+CONTIG: mira_c6 (132448bp)
+Top Length: 55165  Top ID: 99.12
+		Skipping redundant alignment 16329 16519 | 192 1 | 191 192 | 97.4 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c6
+		Skipping redundant alignment 76759 76947 | 4 192 | 189 189 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+		Skipping redundant alignment 1996811 1996891 | 12254 12334 | 81 81 | 98.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+		Skipping redundant alignment 1961944 1962018 | 12254 12328 | 75 75 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+		Skipping redundant alignment 1997115 1997187 | 12254 12326 | 73 73 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+		Skipping redundant alignment 2292594 2292672 | 12330 12408 | 79 79 | 97.47 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+		Skipping redundant alignment 1961512 1961583 | 12337 12408 | 72 72 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+		Skipping redundant alignment 2580486 2580596 | 42581 42691 | 111 111 | 97.3 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+		Skipping redundant alignment 1380451 1380554 | 42588 42691 | 104 104 | 98.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+		Skipping redundant alignment 1470011 1470114 | 42691 42588 | 104 104 | 98.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+		Skipping redundant alignment 891800 891902 | 42691 42589 | 103 103 | 99.03 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+		Skipping redundant alignment 2031787 2031888 | 42691 42590 | 102 102 | 98.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+		Skipping redundant alignment 800983 801083 | 42698 42598 | 101 101 | 98.02 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+		Skipping redundant alignment 1098188 1098281 | 42691 42598 | 94 94 | 97.87 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+		Skipping redundant alignment 2775234 2775526 | 132448 132156 | 293 293 | 99.66 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [13049][13240] redundant alignment 13049 13240 | 1 192 | 192 192 | 99.48 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c6
+		This contig is misassembled. 21 total aligns.
+			Real Alignment 3: 2775108 2830360 | 132448 77284 | 55253 55165 | 99.12 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+			  Gap between these two alignments (local misassembly). Inconsistency = 112
+			Real Alignment 4: 2830463 2862482 | 77293 45280 | 32020 32014 | 98.56 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+			  Extensive misassembly ( relocation, inconsistency = 1753 ) between these two alignments
+			Real Alignment 5: 2864018 2872915 | 45497 36595 | 8898 8903 | 98.93 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 1: 1 35817 | 36594 771 | 35817 35824 | 98.91 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+			  Overlap between these two alignments (local misassembly). Inconsistency = -578
+			Real Alignment 2: 35818 36009 | 192 1 | 192 192 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c6
+
+CONTIG: mira_c7 (49571bp)
+Top Length: 28190  Top ID: 97.26
+		Skipping redundant alignment 1443561 1443784 | 49568 49347 | 224 222 | 96.43 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+		Skipping redundant alignment 318662 318866 | 49364 49568 | 205 205 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+		Skipping redundant alignment 2478224 2478335 | 49364 49473 | 112 110 | 96.43 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+		Skipping redundant alignment 2317466 2317672 | 49366 49571 | 207 206 | 99.52 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+		Skipping redundant alignment 1804843 1805049 | 49571 49366 | 207 206 | 99.03 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+		Skipping redundant alignment 1893271 1893475 | 49570 49366 | 205 205 | 99.51 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+		Skipping redundant alignment 1426493 1426602 | 49367 49475 | 110 109 | 99.09 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+		Skipping redundant alignment 1910649 1910850 | 49370 49571 | 202 202 | 99.5 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+		Skipping redundant alignment 2431649 2431834 | 49383 49568 | 186 186 | 98.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+		Skipping redundant alignment 1205227 1205323 | 49570 49474 | 97 97 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+		Skipping redundant alignment 2478476 2478547 | 49499 49570 | 72 72 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+		Skipping redundant alignment 1426741 1426810 | 49499 49568 | 70 70 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+		This contig is misassembled. 18 total aligns.
+			Real Alignment 1: 1599736 1600068 | 1759 1427 | 333 333 | 95.51 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+			  Extensive misassembly ( relocation, inconsistency = 519938 ) between these two alignments
+			Real Alignment 2: 2071865 2083335 | 49568 38148 | 11471 11421 | 99.22 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+			  Gap between these two alignments (local misassembly). Inconsistency = 315
+			Real Alignment 3: 2083566 2111781 | 38232 10043 | 28216 28190 | 97.26 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+			  Gap between these two alignments (local misassembly). Inconsistency = 698
+			Real Alignment 4: 2114320 2117573 | 8202 4949 | 3254 3254 | 95.97 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 5: 2118284 2120815 | 4238 1707 | 2532 2532 | 96.48 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+			  Overlap between these two alignments (local misassembly). Inconsistency = -167
+			Real Alignment 6: 2122116 2122354 | 239 1 | 239 239 | 99.16 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c7
+
+CONTIG: mira_c4 (155512bp)
+Top Length: 50775  Top ID: 99.11
+		Skipping redundant alignment 343897 344199 | 303 1 | 303 303 | 96.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c4
+		Skipping redundant alignment 891739 891889 | 155363 155512 | 151 150 | 99.34 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c4
+		Skipping redundant alignment 169815 169964 | 155512 155363 | 150 150 | 96.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c4
+		Skipping redundant alignment 1380465 1380612 | 155512 155365 | 148 148 | 98.65 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c4
+		Skipping redundant alignment 1469953 1470100 | 155365 155512 | 148 148 | 98.65 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c4
+		Skipping redundant alignment 1098130 1098277 | 155365 155512 | 148 148 | 97.3 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c4
+		Skipping redundant alignment 2866835 2866924 | 155423 155512 | 90 90 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c4
+		This contig is misassembled. 14 total aligns.
+			Real Alignment 1: 194969 231676 | 155318 118615 | 36708 36704 | 99.31 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c4
+			  Extensive misassembly ( relocation, inconsistency = -4792 ) between these two alignments
+			Real Alignment 2: 234630 266396 | 110869 79103 | 31767 31767 | 98.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c4
+			  Overlap between these two alignments (local misassembly). Inconsistency = -147
+			Real Alignment 3: 267814 318663 | 77538 26764 | 50850 50775 | 99.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c4
+			  Gap between these two alignments (local misassembly). Inconsistency = 545
+			Real Alignment 4: 319231 327777 | 26741 18195 | 8547 8547 | 98.92 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c4
+			  Extensive misassembly ( relocation, inconsistency = 1357 ) between these two alignments
+			Real Alignment 5: 329175 347216 | 18154 121 | 18042 18034 | 97.76 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c4
+			  Extensive misassembly ( relocation, inconsistency = 4521 ) between these two alignments
+			Real Alignment 6: 351321 351857 | 537 1 | 537 537 | 96.65 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c4
+			  Extensive misassembly ( relocation, inconsistency = 2384161 ) between these two alignments
+			Real Alignment 7: 2580507 2580663 | 155512 155356 | 157 157 | 98.73 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c4
+
+CONTIG: mira_c55 (665bp)
+		This contig is unaligned. (665 bp)
+		Unaligned bases: 665  total: 46748
+
+CONTIG: mira_c56 (964bp)
+		This contig is unaligned. (964 bp)
+		Unaligned bases: 964  total: 47712
+
+CONTIG: mira_rep_c93 (1470bp)
+Top Length: 1470  Top ID: 97.07
+		One align captures most of this contig: 5912 7353 | 1470 1 | 1442 1470 | 97.07 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_rep_c93
+
+CONTIG: mira_c43 (9838bp)
+Top Length: 9671  Top ID: 99.76
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1994267][1994433] redundant alignment 1994267 1994433 | 9672 9838 | 167 167 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c43
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2201590 2211260 | 9671 1 | 9671 9671 | 99.76 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c43
+			  Extensive misassembly ( relocation, inconsistency = 89104 ) between these two alignments
+			Real Alignment 2: 2290693 2290859 | 9672 9838 | 167 167 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c43
+
+CONTIG: mira_c42 (4674bp)
+Top Length: 503  Top ID: 95.63
+		This contig is partially unaligned. (503 out of 4674)
+		Alignment: 1592071 1592573 | 1778 1276 | 503 503 | 95.63 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c42
+		Unaligned bases: 1 to 1275 (1275)
+		Unaligned bases: 1779 to 4674 (2896)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c41 (3868bp)
+Top Length: 3868  Top ID: 95.91
+		One align captures most of this contig: 618589 622458 | 3868 1 | 3870 3868 | 95.91 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c41
+
+CONTIG: mira_c40 (2394bp)
+		This contig is unaligned. (2394 bp)
+		Unaligned bases: 2394  total: 50106
+
+CONTIG: mira_c47 (2060bp)
+Top Length: 2060  Top ID: 97.33
+		One align captures most of this contig: 8201 10260 | 1 2060 | 2060 2060 | 97.33 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c47
+
+CONTIG: mira_c46 (1212bp)
+Top Length: 1197  Top ID: 96.29
+		Skipping redundant alignment 1997111 1997191 | 100 19 | 81 82 | 98.78 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c46
+		Skipping redundant alignment 24258 24332 | 22 96 | 75 75 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c46
+		Skipping redundant alignment 556307 556385 | 196 274 | 79 79 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c46
+		Skipping redundant alignment 1998104 1998180 | 274 198 | 77 77 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c46
+		Skipping redundant alignment 2292408 2292489 | 359 278 | 82 82 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c46
+		Skipping redundant alignment 1961765 1961842 | 524 447 | 78 78 | 98.72 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c46
+		Skipping redundant alignment 2292324 2292395 | 606 535 | 72 72 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c46
+		This contig is misassembled. 9 total aligns.
+			Real Alignment 1: 1961846 1962039 | 197 1 | 194 197 | 95.94 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c46
+			  Extensive misassembly ( relocation, inconsistency = 34825 ) between these two alignments
+			Real Alignment 2: 1995653 1996891 | 1212 16 | 1239 1197 | 96.29 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c46
+
+CONTIG: mira_c45 (4220bp)
+Top Length: 1548  Top ID: 98.26
+		Skipping redundant alignment 1608561 1608783 | 1 223 | 223 223 | 97.31 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c45
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1557579 1558388 | 3411 4220 | 810 810 | 95.31 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c45
+			  Extensive misassembly ( relocation, inconsistency = 4122 ) between these two alignments
+			Real Alignment 2: 1558291 1558513 | 1 223 | 223 223 | 99.1 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c45
+			  Extensive misassembly ( relocation, inconsistency = 46146 ) between these two alignments
+			Real Alignment 3: 1605969 1607515 | 1533 3080 | 1547 1548 | 98.26 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c45
+
+CONTIG: mira_c44 (1054bp)
+		This contig is unaligned. (1054 bp)
+		Unaligned bases: 1054  total: 51160
+
+CONTIG: mira_c49 (608bp)
+		This contig is unaligned. (608 bp)
+		Unaligned bases: 608  total: 51768
+
+CONTIG: mira_c48 (1636bp)
+		This contig is unaligned. (1636 bp)
+		Unaligned bases: 1636  total: 53404
+
+CONTIG: mira_rep_c124 (640bp)
+Top Length: 406  Top ID: 95.82
+		This contig is partially unaligned. (406 out of 640)
+		Alignment: 1111 1516 | 235 640 | 406 406 | 95.82 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_rep_c124
+		Unaligned bases: 1 to 234 (234)
+
+CONTIG: mira_rep_c113 (500bp)
+		This contig is unaligned. (500 bp)
+		Unaligned bases: 500  total: 53904
+
+CONTIG: mira_c74 (764bp)
+		This contig is unaligned. (764 bp)
+		Unaligned bases: 764  total: 54668
+
+CONTIG: mira_c75 (1089bp)
+		This contig is unaligned. (1089 bp)
+		Unaligned bases: 1089  total: 55757
+
+CONTIG: mira_c73 (575bp)
+		This contig is unaligned. (575 bp)
+		Unaligned bases: 575  total: 56332
+
+CONTIG: mira_c71 (691bp)
+		This contig is unaligned. (691 bp)
+		Unaligned bases: 691  total: 57023
+
+CONTIG: mira_c78 (504bp)
+Top Length: 504  Top ID: 98.81
+		One align captures most of this contig: 5651 6154 | 1 504 | 504 504 | 98.81 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c78
+
+CONTIG: mira_c79 (500bp)
+Top Length: 243  Top ID: 99.59
+		Skipping redundant alignment 2003370 2003551 | 1 185 | 182 185 | 95.68 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c79
+		Skipping redundant alignment 2181364 2181521 | 1 159 | 158 159 | 99.37 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c79
+		Skipping redundant alignment 2297674 2297831 | 1 159 | 158 159 | 98.74 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c79
+		Skipping redundant alignment 556958 557115 | 158 1 | 158 158 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c79
+		Skipping redundant alignment 2176447 2176684 | 263 500 | 238 238 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c79
+		Skipping redundant alignment 561828 562065 | 500 263 | 238 238 | 99.58 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c79
+		Skipping redundant alignment 2292758 2292995 | 263 500 | 238 238 | 99.58 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c79
+		Skipping redundant alignment 517577 517814 | 500 263 | 238 238 | 99.16 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c79
+		Skipping redundant alignment 556088 556205 | 380 263 | 118 118 | 99.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c79
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 512620 512836 | 217 1 | 217 217 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c79
+			  Extensive misassembly ( relocation, inconsistency = 1485699 ) between these two alignments
+			Real Alignment 2: 1998278 1998520 | 258 500 | 243 243 | 99.59 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c79
+
+CONTIG: mira_c69 (697bp)
+		This contig is unaligned. (697 bp)
+		Unaligned bases: 697  total: 57720
+
+CONTIG: mira_c68 (1219bp)
+Top Length: 177  Top ID: 96.61
+		Skipping redundant alignment 4269 4433 | 1019 1184 | 165 166 | 96.99 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c68
+		Skipping redundant alignment 2231 2388 | 1029 1186 | 158 158 | 96.84 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c68
+		This contig is partially unaligned. (177 out of 1219)
+		Alignment: 1910 2086 | 1008 1184 | 177 177 | 96.61 | gi|225631039|ref|NC_012417.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA01-HOU__complete_sequence mira_c68
+		Unaligned bases: 1 to 1007 (1007)
+		Unaligned bases: 1185 to 1219 (35)
+
+CONTIG: mira_c61 (812bp)
+		This contig is unaligned. (812 bp)
+		Unaligned bases: 812  total: 58532
+
+CONTIG: mira_c60 (609bp)
+		This contig is unaligned. (609 bp)
+		Unaligned bases: 609  total: 59141
+
+CONTIG: mira_c63 (743bp)
+Top Length: 669  Top ID: 98.8
+		Skipping redundant alignment 2231 2386 | 658 502 | 156 157 | 95.54 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c63
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 4268 4934 | 669 1 | 667 669 | 98.8 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c63
+			  Extensive misassembly ( translocation ) between these two alignments
+			Real Alignment 2: 1846 2086 | 743 502 | 241 242 | 97.52 | gi|225631039|ref|NC_012417.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA01-HOU__complete_sequence mira_c63
+
+CONTIG: mira_c62 (632bp)
+		This contig is unaligned. (632 bp)
+		Unaligned bases: 632  total: 59773
+
+CONTIG: mira_c65 (672bp)
+		This contig is unaligned. (672 bp)
+		Unaligned bases: 672  total: 60445
+
+CONTIG: mira_c64 (651bp)
+Top Length: 651  Top ID: 99.69
+		One align captures most of this contig: 4811 5461 | 1 651 | 651 651 | 99.69 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c64
+
+CONTIG: mira_c67 (563bp)
+		This contig is unaligned. (563 bp)
+		Unaligned bases: 563  total: 61008
+
+CONTIG: mira_c66 (679bp)
+Top Length: 250  Top ID: 96.41
+		This contig is partially unaligned. (250 out of 679)
+		Alignment: 1267 1516 | 1 250 | 250 250 | 96.41 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c66
+		Unaligned bases: 251 to 679 (429)
+
+CONTIG: mira_c211 (655bp)
+		This contig is unaligned. (655 bp)
+		Unaligned bases: 655  total: 61663
+
+CONTIG: mira_c9 (50006bp)
+Top Length: 31246  Top ID: 99.26
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1710995 1729093 | 1 18099 | 18099 18099 | 99.69 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c9
+			  Overlap between these two alignments (local misassembly). Inconsistency = -233
+			Real Alignment 2: 1729093 1760271 | 18332 49577 | 31179 31246 | 99.26 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c9
+
+CONTIG: mira_c213 (657bp)
+		This contig is unaligned. (657 bp)
+		Unaligned bases: 657  total: 62320
+
+CONTIG: mira_c18 (50093bp)
+Top Length: 14149  Top ID: 99.29
+		Skipping redundant alignment 556088 556206 | 49 167 | 119 119 | 99.16 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c18
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1998283][1998448] redundant alignment 1998283 1998448 | 166 1 | 166 166 | 99.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c18
+		This contig is misassembled. 10 total aligns.
+			Real Alignment 1: 2122354 2122565 | 50093 49882 | 212 212 | 98.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c18
+			  Overlap between these two alignments (local misassembly). Inconsistency = -120
+			Real Alignment 2: 2126044 2133335 | 46283 38990 | 7292 7294 | 98.72 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c18
+			  Extensive misassembly ( relocation, inconsistency = 1907 ) between these two alignments
+			Real Alignment 3: 2135422 2137367 | 38810 36861 | 1946 1950 | 96.93 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c18
+			  Extensive misassembly ( relocation, inconsistency = 3120 ) between these two alignments
+			Real Alignment 4: 2140310 2147679 | 37038 29661 | 7370 7378 | 98.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c18
+			  Gap between these two alignments (local misassembly). Inconsistency = 1
+			Real Alignment 5: 2148921 2162325 | 28420 15014 | 13405 13407 | 99.37 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c18
+			  Overlap between these two alignments (local misassembly). Inconsistency = -213
+			Real Alignment 6: 2162354 2176502 | 14772 624 | 14149 14149 | 99.29 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c18
+			  Overlap between these two alignments (local misassembly). Inconsistency = -278
+			Real Alignment 7: 2176315 2176423 | 533 425 | 109 109 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c18
+			  Extensive misassembly ( relocation, inconsistency = 116076 ) between these two alignments
+			Real Alignment 8: 2292758 2292923 | 166 1 | 166 166 | 99.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c18
+
+CONTIG: mira_c19 (146765bp)
+Top Length: 68631  Top ID: 99.29
+		Skipping redundant alignment 1804921 1805056 | 1 136 | 136 136 | 99.26 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+		Skipping redundant alignment 1443636 1443771 | 1 136 | 136 136 | 98.53 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+		Skipping redundant alignment 1893348 1893480 | 1 135 | 133 135 | 97.78 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+		Skipping redundant alignment 2317461 2317594 | 134 1 | 134 134 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+		Skipping redundant alignment 318664 318791 | 129 1 | 128 129 | 99.22 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+		Skipping redundant alignment 2071940 2072067 | 1 129 | 128 129 | 99.22 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+		Skipping redundant alignment 2431652 2431759 | 108 1 | 108 108 | 98.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+		Skipping redundant alignment 1426493 1426602 | 128 19 | 110 110 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+		Skipping redundant alignment 2478222 2478335 | 133 21 | 114 113 | 96.49 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+		This contig is misassembled. 15 total aligns.
+			Real Alignment 1: 1760266 1803040 | 146671 103896 | 42775 42776 | 99.65 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+			  Extensive misassembly ( relocation, inconsistency = 1977 ) between these two alignments
+			Real Alignment 2: 1805051 1873611 | 103862 35232 | 68561 68631 | 99.29 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+			  Gap between these two alignments (local misassembly). Inconsistency = 173
+			Real Alignment 3: 1873756 1873889 | 35260 35127 | 134 134 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+			  Gap between these two alignments (local misassembly). Inconsistency = 133
+			Real Alignment 4: 1874049 1892471 | 35100 16676 | 18423 18425 | 98.63 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+			  Extensive misassembly ( relocation, inconsistency = 1006 ) between these two alignments
+			Real Alignment 5: 1893474 1903133 | 16679 7021 | 9660 9659 | 99.46 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+			  Gap between these two alignments (local misassembly). Inconsistency = 621
+			Real Alignment 6: 1903834 1910772 | 6941 1 | 6939 6941 | 99.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c19
+
+CONTIG: mira_c14 (10464bp)
+Top Length: 9311  Top ID: 99.13
+		Skipping redundant alignment 2176447 2176608 | 162 1 | 162 162 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c14
+		Skipping redundant alignment 561904 562065 | 1 162 | 162 162 | 99.38 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c14
+		Skipping redundant alignment 2292758 2292919 | 162 1 | 162 162 | 99.38 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c14
+		Skipping redundant alignment 517653 517814 | 1 162 | 162 162 | 98.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c14
+		Skipping redundant alignment 2292515 2292593 | 251 173 | 79 79 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c14
+		Skipping redundant alignment 1996633 1996709 | 341 265 | 77 77 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c14
+		Skipping redundant alignment 2292237 2292318 | 426 345 | 82 82 | 97.56 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c14
+		Skipping redundant alignment 2001606 2001687 | 952 870 | 82 83 | 98.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c14
+		Skipping redundant alignment 2003363 2003551 | 10464 10272 | 189 193 | 95.34 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c14
+		Skipping redundant alignment 2181357 2181521 | 10464 10299 | 165 166 | 99.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c14
+		Skipping redundant alignment 2297667 2297831 | 10464 10299 | 165 166 | 98.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c14
+		Skipping redundant alignment 556958 557122 | 10300 10464 | 165 165 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c14
+		This contig is misassembled. 14 total aligns.
+			Real Alignment 1: 503542 512843 | 1154 10464 | 9302 9311 | 99.13 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c14
+			  Extensive misassembly ( relocation, inconsistency = 1493572 ) between these two alignments
+			Real Alignment 2: 1997198 1998444 | 1247 1 | 1247 1247 | 99.92 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c14
+
+CONTIG: mira_c15 (56772bp)
+Top Length: 54304  Top ID: 99.33
+		Skipping redundant alignment 517505 518081 | 56772 56197 | 577 576 | 98.27 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c15
+		Skipping redundant alignment 518095 518338 | 56439 56197 | 244 243 | 96.33 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c15
+		Skipping redundant alignment 2176315 2176756 | 56331 56772 | 442 442 | 98.42 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c15
+		Skipping redundant alignment 556088 556207 | 56580 56461 | 120 120 | 99.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c15
+		Skipping redundant alignment 1998283 1998592 | 56463 56772 | 310 310 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c15
+		Skipping redundant alignment 2292758 2293067 | 56463 56772 | 310 310 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c15
+		This contig is misassembled. 8 total aligns.
+			Real Alignment 1: 561756 616005 | 56772 2469 | 54250 54304 | 99.33 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c15
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 2: 616447 618467 | 2027 1 | 2021 2027 | 98.32 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c15
+
+CONTIG: mira_c16 (40383bp)
+Top Length: 40383  Top ID: 99.6
+		Marking as insignificant: 1426741 1426817 | 40196 40120 | 77 77 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+		Marking as insignificant: 2866835 2866936 | 55 156 | 102 102 | 98.04 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+		Marking as insignificant: 2478476 2478582 | 40196 40090 | 107 107 | 97.2 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+		Marking as insignificant: 2478224 2478335 | 40331 40222 | 112 110 | 95.54 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+		Marking as insignificant: 1426493 1426602 | 40328 40220 | 110 109 | 98.18 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+		Marking as insignificant: 1205205 1205323 | 40103 40221 | 119 119 | 97.48 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+		Marking as insignificant: 1910887 1911062 | 39961 39786 | 176 176 | 97.73 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+		Marking as insignificant: 2431649 2431874 | 40312 40086 | 226 227 | 96.92 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+		Marking as insignificant: 1910649 1910887 | 40325 40086 | 239 240 | 97.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+		Marking as insignificant: 318662 318907 | 40331 40086 | 246 246 | 98.37 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+		Marking as insignificant: 1443297 1443784 | 39864 40348 | 488 485 | 95.49 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+		Marking as insignificant: 2317466 2318011 | 40329 39786 | 546 544 | 95.97 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+		Marking as insignificant: 1892931 1893475 | 39786 40329 | 545 544 | 96.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+		Marking as insignificant: 1804504 1805049 | 39786 40329 | 546 544 | 97.25 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+		One align captures most of this contig: 2031733 2072121 | 1 40383 | 40389 40383 | 99.6 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c16
+
+CONTIG: mira_c17 (38702bp)
+Top Length: 35127  Top ID: 99.23
+		Skipping redundant alignment 2478990 2479095 | 34947 34843 | 106 105 | 99.06 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 2319135 2319442 | 35153 34847 | 308 307 | 97.73 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 1912195 1912502 | 35153 34847 | 308 307 | 97.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 1803046 1803353 | 34847 35153 | 308 307 | 97.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 1442817 1443114 | 34856 35153 | 298 298 | 97.66 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 2478225 2478558 | 35475 35143 | 334 333 | 97.6 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 318797 318879 | 35225 35143 | 83 83 | 98.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 2431765 2431846 | 35225 35143 | 82 83 | 98.8 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 1910778 1910860 | 35225 35143 | 83 83 | 96.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 2071858 2071934 | 35149 35225 | 77 77 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 1893266 1893342 | 35149 35225 | 77 77 | 98.7 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 2317600 2317676 | 35225 35149 | 77 77 | 97.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 1804846 1804915 | 35156 35225 | 70 70 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 318663 318773 | 35475 35364 | 111 112 | 99.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 1443654 1443765 | 35364 35475 | 112 112 | 99.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 2071958 2072068 | 35364 35475 | 111 112 | 99.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 2317466 2317576 | 35474 35364 | 111 111 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 1804939 1805049 | 35364 35474 | 111 111 | 99.1 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 1893366 1893475 | 35364 35474 | 110 111 | 98.2 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 1910649 1910754 | 35470 35364 | 106 107 | 99.07 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 1912340 1912502 | 38702 38540 | 163 163 | 98.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 1803046 1803208 | 38540 38702 | 163 163 | 98.16 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 2319280 2319442 | 38702 38540 | 163 163 | 98.16 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		Skipping redundant alignment 1442817 1442970 | 38549 38702 | 154 154 | 98.05 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+		This contig is misassembled. 27 total aligns.
+			Real Alignment 1: 1170229 1205298 | 99 35225 | 35070 35127 | 99.23 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+			  Extensive misassembly ( relocation, inconsistency = 220947 ) between these two alignments
+			Real Alignment 2: 1426493 1427124 | 35473 34843 | 632 631 | 99.21 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+			  Extensive misassembly ( relocation, inconsistency = 3693 ) between these two alignments
+			Real Alignment 3: 1426958 1430184 | 38702 35476 | 3227 3227 | 97.71 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c17
+
+CONTIG: mira_c10 (90933bp)
+Top Length: 29300  Top ID: 99.19
+		Skipping redundant alignment 169813 170071 | 1 259 | 259 259 | 95.75 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 1098024 1098279 | 255 1 | 256 255 | 96.09 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 1380463 1380628 | 1 165 | 166 165 | 96.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 1469937 1470102 | 165 1 | 166 165 | 96.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 2580505 2580656 | 1 153 | 152 153 | 98.69 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 2866835 2866926 | 92 1 | 92 92 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 800990 801081 | 92 1 | 92 92 | 97.83 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 2031611 2031726 | 43371 43256 | 116 116 | 97.41 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 2664854 2665075 | 43710 43489 | 222 222 | 96.4 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 1469788 1469893 | 89553 89658 | 106 106 | 98.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 1380672 1380776 | 89658 89554 | 105 105 | 99.05 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 2866828 2866932 | 89664 89768 | 105 105 | 99.05 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 1380457 1380554 | 89768 89671 | 98 98 | 98.98 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 1470011 1470108 | 89671 89768 | 98 98 | 98.98 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 1098188 1098282 | 89671 89765 | 95 95 | 97.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 848452 848522 | 89866 89936 | 71 71 | 98.59 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 1098130 1098291 | 90885 90724 | 162 162 | 98.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 2580502 2580663 | 90733 90894 | 162 162 | 98.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 891739 891894 | 90887 90733 | 156 155 | 98.08 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 1380460 1380612 | 90733 90885 | 153 153 | 97.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 1469953 1470105 | 90885 90733 | 153 153 | 97.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 2866835 2866928 | 90827 90734 | 94 94 | 97.87 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignment 1695023 1695127 | 90932 90828 | 105 105 | 98.1 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [671532][671745] redundant alignment 671532 671745 | 89765 89552 | 214 214 | 97.2 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+		This contig is misassembled. 33 total aligns.
+			Real Alignment 1: 800872 801957 | 90933 89861 | 1086 1073 | 97.05 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+			  Extensive misassembly ( relocation, inconsistency = -1391 ) between these two alignments
+			Real Alignment 2: 800873 801084 | 89554 89765 | 212 212 | 98.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 3: 801878 801988 | 89883 89773 | 111 111 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+			  Overlap between these two alignments (local misassembly). Inconsistency = -199
+			Real Alignment 4: 802012 811238 | 89550 80324 | 9227 9227 | 99.74 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+			  Gap between these two alignments (local misassembly). Inconsistency = 333
+			Real Alignment 5: 811672 826264 | 80223 65634 | 14593 14590 | 99.71 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+			  Gap between these two alignments (local misassembly). Inconsistency = 4
+			Real Alignment 6: 826385 855685 | 65517 36218 | 29301 29300 | 99.19 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+			  Overlap between these two alignments (local misassembly). Inconsistency = -52
+			Real Alignment 7: 855779 876227 | 36072 15691 | 20449 20382 | 97.56 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+			  Gap between these two alignments (local misassembly). Inconsistency = 24
+			Real Alignment 8: 877141 879445 | 14801 12495 | 2305 2307 | 98.57 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+			  Overlap between these two alignments (local misassembly). Inconsistency = -51
+			Real Alignment 9: 879815 891891 | 12074 1 | 12077 12074 | 99.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c10
+
+CONTIG: mira_c11 (32356bp)
+Top Length: 16567  Top ID: 99.26
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2290693][2290861] redundant alignment 2290693 2290861 | 32188 32356 | 169 169 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c11
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 1: 1962572 1979136 | 483 17049 | 16565 16567 | 99.26 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c11
+			  Overlap between these two alignments (local misassembly). Inconsistency = -156
+			Real Alignment 2: 1979052 1987343 | 17121 25405 | 8292 8285 | 99.01 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c11
+			  Gap between these two alignments (local misassembly). Inconsistency = 234
+			Real Alignment 3: 1987428 1994266 | 25256 32096 | 6839 6841 | 99.21 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c11
+			  Overlap between these two alignments (local misassembly). Inconsistency = -91
+			Real Alignment 4: 1994267 1994435 | 32188 32356 | 169 169 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c11
+			  Extensive misassembly ( relocation, inconsistency = 34794 ) between these two alignments
+			Real Alignment 5: 1996891 1996972 | 18 99 | 82 82 | 98.78 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c11
+
+CONTIG: mira_c12 (244003bp)
+Top Length: 86041  Top ID: 99.32
+		Skipping redundant alignment 2580494 2580650 | 29515 29671 | 157 157 | 98.09 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+		Skipping redundant alignment 2866835 2866937 | 29617 29515 | 103 103 | 98.06 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+		Skipping redundant alignment 2292673 2292753 | 107779 107859 | 81 81 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+		Skipping redundant alignment 1961584 1961664 | 107779 107859 | 81 81 | 98.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+		Skipping redundant alignment 671523 671636 | 145599 145486 | 114 114 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+		Skipping redundant alignment 2866774 2866928 | 171482 171636 | 155 155 | 97.42 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+		Skipping redundant alignment 800980 801093 | 171533 171646 | 114 114 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+		Skipping redundant alignment 891800 891894 | 171543 171637 | 95 95 | 97.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+		Skipping redundant alignment 2031787 2031881 | 171543 171637 | 95 95 | 97.89 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+		Skipping redundant alignment 1380460 1380554 | 171637 171543 | 95 95 | 96.84 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+		Skipping redundant alignment 1470011 1470105 | 171543 171637 | 95 95 | 96.84 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+		This contig is misassembled. 22 total aligns.
+			Real Alignment 1: 891724 891906 | 29691 29511 | 183 181 | 95.63 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+			  Extensive misassembly ( relocation, inconsistency = 3961 ) between these two alignments
+			Real Alignment 2: 925211 954544 | 167 29499 | 29334 29333 | 99.53 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+			  Overlap between these two alignments (local misassembly). Inconsistency = -24
+			Real Alignment 3: 954747 1040785 | 29726 115766 | 86039 86041 | 99.32 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+			  Extensive misassembly ( relocation, inconsistency = 1775 ) between these two alignments
+			Real Alignment 4: 1042574 1071873 | 115780 145081 | 29300 29302 | 99.25 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+			  Overlap between these two alignments (local misassembly). Inconsistency = -55
+			Real Alignment 5: 1071860 1088256 | 145123 161525 | 16397 16403 | 99.37 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+			  Extensive misassembly ( relocation, inconsistency = -26045 ) between these two alignments
+			Real Alignment 6: 1072168 1072331 | 171482 171645 | 164 164 | 96.34 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+			  Extensive misassembly ( relocation, inconsistency = 25856 ) between these two alignments
+			Real Alignment 7: 1088126 1098076 | 161584 171534 | 9951 9951 | 99.47 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+			  Gap between these two alignments (local misassembly). Inconsistency = 103
+			Real Alignment 8: 1098188 1149567 | 171543 222919 | 51380 51377 | 99.65 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+			  Overlap between these two alignments (local misassembly). Inconsistency = -261
+			Real Alignment 9: 1149486 1168633 | 223099 242241 | 19148 19143 | 99.09 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+			  Overlap between these two alignments (local misassembly). Inconsistency = -113
+			Real Alignment 10: 1168633 1170237 | 242354 243958 | 1605 1605 | 99.38 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+			  Extensive misassembly ( relocation, inconsistency = 1069333 ) between these two alignments
+			Real Alignment 11: 1995613 1995778 | 1 166 | 166 166 | 97.6 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c12
+
+CONTIG: mira_c13 (38961bp)
+Top Length: 38961  Top ID: 99.56
+		Marking as insignificant: 2292515 2292593 | 38138 38060 | 79 79 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c13
+		Marking as insignificant: 1996633 1996711 | 38228 38150 | 79 79 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c13
+		Marking as insignificant: 2001596 2001683 | 38797 38709 | 88 89 | 97.75 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c13
+		Marking as insignificant: 2292758 2292875 | 38048 37931 | 118 118 | 99.15 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c13
+		Marking as insignificant: 517697 517816 | 37931 38050 | 120 120 | 98.33 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c13
+		Marking as insignificant: 2176445 2176564 | 38050 37931 | 120 120 | 99.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c13
+		Marking as insignificant: 561948 562067 | 37931 38050 | 120 120 | 99.17 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c13
+		Marking as insignificant: 562173 562333 | 1 161 | 161 161 | 98.14 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c13
+		Marking as insignificant: 2003366 2003524 | 38961 38802 | 159 160 | 99.38 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c13
+		Marking as insignificant: 2297670 2297830 | 38961 38800 | 161 162 | 98.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c13
+		Marking as insignificant: 2181360 2181520 | 38961 38800 | 161 162 | 99.38 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c13
+		Marking as insignificant: 512679 512840 | 38800 38961 | 162 162 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c13
+		One align captures most of this contig: 518178 557119 | 1 38961 | 38942 38961 | 99.56 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c13
+
+CONTIG: mira_c3 (4929bp)
+Top Length: 205  Top ID: 100.0
+		Skipping redundant alignment 16329 16495 | 168 1 | 167 168 | 97.02 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c3
+		Skipping redundant alignment 16913 17117 | 4929 4725 | 205 205 | 97.56 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c3
+		Skipping redundant alignment 20922 21126 | 4929 4725 | 205 205 | 97.56 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c3
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [12451][12655] redundant alignment 12451 12655 | 4725 4929 | 205 205 | 99.02 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c3
+		Skipping [13073][13240] redundant alignment 13073 13240 | 1 168 | 168 168 | 99.4 | gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence mira_c3
+		Skipping [35818][35985] redundant alignment 35818 35985 | 168 1 | 168 168 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c3
+		Skipping [36403][36607] redundant alignment 36403 36607 | 4929 4725 | 205 205 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c3
+		This contig is misassembled. 9 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 4929 and total length of all aligns is 373
+		Alignment: 76159 76363 | 4725 4929 | 205 205 | 99.02 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c3
+		Alignment: 76780 76947 | 1 168 | 168 168 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c3
+		Unaligned bases: 4556
+CONTIG: mira_c5 (242255bp)
+Top Length: 42515  Top ID: 99.5
+		Skipping redundant alignment 671638 671744 | 162372 162478 | 107 107 | 97.2 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+		Skipping redundant alignment 800873 800978 | 162477 162372 | 106 106 | 98.11 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+		Skipping redundant alignment 2181355 2181527 | 242255 242082 | 173 174 | 98.85 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+		Skipping redundant alignment 512678 512845 | 242088 242255 | 168 168 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+		Skipping redundant alignment 556958 557124 | 242089 242255 | 167 167 | 100.0 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+		Skipping redundant alignment 2003361 2003524 | 242255 242091 | 164 165 | 99.39 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1380614][1380776] redundant alignment 1380614 1380776 | 162315 162477 | 163 163 | 98.77 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+		This contig is misassembled. 21 total aligns.
+			Real Alignment 1: 1469788 1469951 | 162478 162315 | 164 164 | 96.34 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+			  Extensive misassembly ( relocation, inconsistency = 363366 ) between these two alignments
+			Real Alignment 2: 1995631 1995779 | 1 149 | 149 149 | 97.33 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+			  Extensive misassembly ( relocation, inconsistency = 59780 ) between these two alignments
+			Real Alignment 3: 2297665 2317464 | 242255 222455 | 19800 19801 | 99.46 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+			  Extensive misassembly ( relocation, inconsistency = 1955 ) between these two alignments
+			Real Alignment 4: 2319448 2335210 | 222426 206662 | 15763 15765 | 98.68 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+			  Gap between these two alignments (local misassembly). Inconsistency = 785
+			Real Alignment 5: 2336337 2347096 | 206320 195480 | 10760 10841 | 95.58 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+			  Extensive misassembly ( relocation, inconsistency = -1702 ) between these two alignments
+			Real Alignment 6: 2352633 2378409 | 188241 162478 | 25777 25764 | 99.67 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+			  Overlap between these two alignments (local misassembly). Inconsistency = -236
+			Real Alignment 7: 2378440 2389141 | 162211 151512 | 10702 10700 | 99.02 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+			  Gap between these two alignments (local misassembly). Inconsistency = 115
+			Real Alignment 8: 2389143 2431654 | 151625 109111 | 42512 42515 | 99.5 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+			  Gap between these two alignments (local misassembly). Inconsistency = 622
+			Real Alignment 9: 2432295 2452493 | 109092 88895 | 20199 20198 | 99.3 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+			  Overlap between these two alignments (local misassembly). Inconsistency = -120
+			Real Alignment 10: 2452494 2478225 | 88774 63076 | 25732 25699 | 99.28 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+			  Gap between these two alignments (local misassembly). Inconsistency = 840
+			Real Alignment 11: 2479097 2504698 | 63044 37459 | 25602 25586 | 99.38 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+			  Gap between these two alignments (local misassembly). Inconsistency = 26
+			Real Alignment 12: 2504837 2540121 | 37346 2117 | 35285 35230 | 98.83 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+			  Overlap between these two alignments (local misassembly). Inconsistency = -123
+			Real Alignment 13: 2540030 2541754 | 2085 361 | 1725 1725 | 99.07 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+			  Overlap between these two alignments (local misassembly). Inconsistency = -45
+			Real Alignment 14: 2541696 2541921 | 374 149 | 226 226 | 96.46 | gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome mira_c5
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1608/dataset_1690_files/Contig/contigs_reports/nucmer_output/SA-H-Mira-Contig.used_snps
+	Reference gi|161510924|ref|NC_010063.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence: 12 total alignments. 1 total regions.
+		Region: 1 to 27041 (27041 bp)
+			START in gap: 1 to 1111 (1110 bp)
+			Align 1: 1111 1516 mira_rep_c124 235 640
+				The next alignment (1267 1516 mira_c66 1 250) is redundant. Skipping.
+				Gap between this and next alignment: 1516 to 4268 (2751 bp)
+				Next Alignment: 4268 4934 mira_c63 669 1
+
+			Align 3: 4268 4934 mira_c63 669 1
+				Negative gap (overlap) between this and next alignment: 4934 to 4811 (-123 bp)
+				Next Alignment: 4811 5461 mira_c64 1 651
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 125.
+			Align 4: 4935 5461 mira_c64 125 651
+				Negative gap (overlap) between this and next alignment: 5461 to 5252 (-209 bp)
+				Next Alignment: 5252 5512 mira_rep_c106 895 635
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 895 to 685.
+			Align 5: 5462 5512 mira_rep_c106 685 635
+				Gap between this and next alignment: 5512 to 5651 (138 bp)
+				Next Alignment: 5651 6154 mira_c78 1 504
+
+			Align 6: 5651 6154 mira_c78 1 504
+				Negative gap (overlap) between this and next alignment: 6154 to 5912 (-242 bp)
+				Next Alignment: 5912 7353 mira_rep_c93 1470 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1470 to 1227.
+			Align 7: 6155 7353 mira_rep_c93 1227 1
+				Negative gap (overlap) between this and next alignment: 7353 to 7129 (-224 bp)
+				Next Alignment: 7129 7549 mira_c57 1 421
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 226.
+			Align 8: 7354 7549 mira_c57 226 421
+				Gap between this and next alignment: 7549 to 7888 (338 bp)
+				Next Alignment: 7888 8425 mira_rep_c129 1 538
+
+			Align 9: 7888 8425 mira_rep_c129 1 538
+				Negative gap (overlap) between this and next alignment: 8425 to 8201 (-224 bp)
+				Next Alignment: 8201 10260 mira_c47 1 2060
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 226.
+			Align 10: 8426 10260 mira_c47 226 2060
+				Negative gap (overlap) between this and next alignment: 10260 to 10035 (-225 bp)
+				Next Alignment: 10035 10787 mira_rep_c121 753 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 753 to 527.
+			Align 11: 10261 10787 mira_rep_c121 527 1
+				Gap between this and next alignment: 10787 to 12451 (1663 bp)
+				Next Alignment: 12451 13240 mira_rep_c100 9 798
+
+			Align 12: 12451 13240 mira_rep_c100 9 798
+			END in gap: 13240 to 27041 (13801 bp)
+
+	Reference gi|161508266|ref|NC_010079.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_chromosome__complete_genome: 199 total alignments. 1 total regions.
+		Region: 1 to 2872915 (2872915 bp)
+			Align 1: 1 35817 mira_c6 36594 771
+				Next Alignment: 35818 36009 mira_c6 192 1
+
+			Align 2: 35818 36009 mira_c6 192 1
+				Gap between this and next alignment: 36009 to 62357 (26347 bp)
+				Next Alignment: 62357 62619 mira_c2 82674 82413
+
+			Align 3: 62357 62619 mira_c2 82674 82413
+				Gap between this and next alignment: 62619 to 67739 (5119 bp)
+				Next Alignment: 67739 68780 mira_c2 82651 83683
+
+			Align 4: 67739 68780 mira_c2 82651 83683
+				Gap between this and next alignment: 68780 to 88806 (20025 bp)
+				Next Alignment: 88806 91591 mira_c2 66754 63968
+
+			Align 5: 88806 91591 mira_c2 66754 63968
+				Gap between this and next alignment: 91591 to 91620 (28 bp)
+				Next Alignment: 91620 99202 mira_c2 63761 56180
+
+			Align 6: 91620 99202 mira_c2 63761 56180
+				Gap between this and next alignment: 99202 to 103950 (4747 bp)
+				Next Alignment: 103950 111284 mira_c2 56187 48858
+
+			Align 7: 103950 111284 mira_c2 56187 48858
+				Negative gap (overlap) between this and next alignment: 111284 to 110128 (-1156 bp)
+				Next Alignment: 110128 145766 mira_c2 49192 13523
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 49192 to 48022.
+			Align 8: 111285 145766 mira_c2 48022 13523
+				Gap between this and next alignment: 145766 to 146188 (421 bp)
+				Next Alignment: 146188 159747 mira_c2 13558 1
+
+			Align 9: 146188 159747 mira_c2 13558 1
+				Negative gap (overlap) between this and next alignment: 159747 to 159605 (-142 bp)
+				Next Alignment: 159605 168090 mira_c21 34929 26465
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 34929 to 34786.
+			Align 10: 159748 168090 mira_c21 34786 26465
+				Gap between this and next alignment: 168090 to 168106 (15 bp)
+				Next Alignment: 168106 168377 mira_c21 24631 24360
+
+			Align 11: 168106 168377 mira_c21 24631 24360
+				Gap between this and next alignment: 168377 to 170766 (2388 bp)
+				Next Alignment: 170766 194937 mira_c21 24367 198
+
+			Align 12: 170766 194937 mira_c21 24367 198
+				Gap between this and next alignment: 194937 to 194969 (31 bp)
+				Next Alignment: 194969 231676 mira_c4 155318 118615
+
+			Align 13: 194969 231676 mira_c4 155318 118615
+				Gap between this and next alignment: 231676 to 234630 (2953 bp)
+				Next Alignment: 234630 266396 mira_c4 110869 79103
+
+			Align 14: 234630 266396 mira_c4 110869 79103
+				Gap between this and next alignment: 266396 to 267814 (1417 bp)
+				Next Alignment: 267814 318663 mira_c4 77538 26764
+
+			Align 15: 267814 318663 mira_c4 77538 26764
+				Gap between this and next alignment: 318663 to 319231 (567 bp)
+				Next Alignment: 319231 327777 mira_c4 26741 18195
+
+			Align 16: 319231 327777 mira_c4 26741 18195
+				Gap between this and next alignment: 327777 to 329175 (1397 bp)
+				Next Alignment: 329175 347216 mira_c4 18154 121
+
+			Align 17: 329175 347216 mira_c4 18154 121
+				Gap between this and next alignment: 347216 to 351321 (4104 bp)
+				Next Alignment: 351321 351857 mira_c4 537 1
+
+			Align 18: 351321 351857 mira_c4 537 1
+				Negative gap (overlap) between this and next alignment: 351857 to 351718 (-139 bp)
+				Next Alignment: 351718 381134 mira_c1 379101 349683
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 379101 to 378961.
+			Align 19: 351858 381134 mira_c1 378961 349683
+				Gap between this and next alignment: 381134 to 381252 (117 bp)
+				Next Alignment: 381252 394910 mira_c1 349564 335901
+
+			Align 20: 381252 394910 mira_c1 349564 335901
+				Gap between this and next alignment: 394910 to 395019 (108 bp)
+				Next Alignment: 395019 399730 mira_c1 335901 331191
+
+			Align 21: 395019 399730 mira_c1 335901 331191
+				Gap between this and next alignment: 399730 to 399760 (29 bp)
+				Next Alignment: 399760 452229 mira_c1 331012 278523
+
+			Align 22: 399760 452229 mira_c1 331012 278523
+				Gap between this and next alignment: 452229 to 452964 (734 bp)
+				Next Alignment: 452964 460676 mira_c1 278905 271200
+
+			Align 23: 452964 460676 mira_c1 278905 271200
+				Gap between this and next alignment: 460676 to 466103 (5426 bp)
+				Next Alignment: 466103 466777 mira_c1 260680 260006
+
+			Align 24: 466103 466777 mira_c1 260680 260006
+				Gap between this and next alignment: 466777 to 472196 (5418 bp)
+				Next Alignment: 472196 503635 mira_c1 259838 228483
+
+			Align 25: 472196 503635 mira_c1 259838 228483
+				Negative gap (overlap) between this and next alignment: 503635 to 503542 (-93 bp)
+				Next Alignment: 503542 512843 mira_c14 1154 10464
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1154 to 1248.
+			Align 26: 503636 512843 mira_c14 1248 10464
+				Negative gap (overlap) between this and next alignment: 512843 to 512620 (-223 bp)
+				Next Alignment: 512620 514456 mira_rep_c90 5672 3836
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5672 to 5448.
+			Align 27: 512844 514456 mira_rep_c90 5448 3836
+				The next alignment (512620 512836 mira_c79 217 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 514456 to 514455 (-1 bp)
+				Next Alignment: 514455 518211 mira_rep_c90 3732 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3732 to 3730.
+			Align 29: 514457 518211 mira_rep_c90 3730 1
+				Negative gap (overlap) between this and next alignment: 518211 to 518178 (-33 bp)
+				Next Alignment: 518178 557119 mira_c13 1 38961
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 35.
+			Align 30: 518212 557119 mira_c13 35 38961
+				Gap between this and next alignment: 557119 to 561756 (4636 bp)
+				Next Alignment: 561756 616005 mira_c15 56772 2469
+
+			Align 31: 561756 616005 mira_c15 56772 2469
+				Gap between this and next alignment: 616005 to 616447 (441 bp)
+				Next Alignment: 616447 618467 mira_c15 2027 1
+
+			Align 32: 616447 618467 mira_c15 2027 1
+				Gap between this and next alignment: 618467 to 618589 (121 bp)
+				Next Alignment: 618589 622458 mira_c41 3868 1
+
+			Align 33: 618589 622458 mira_c41 3868 1
+				Negative gap (overlap) between this and next alignment: 622458 to 622365 (-93 bp)
+				Next Alignment: 622365 654284 mira_c26 1 31927
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 95.
+			Align 34: 622459 654284 mira_c26 95 31927
+				Gap between this and next alignment: 654284 to 663043 (8758 bp)
+				Next Alignment: 663043 664265 mira_c26 34473 35695
+
+			Align 35: 663043 664265 mira_c26 34473 35695
+				Gap between this and next alignment: 664265 to 664298 (32 bp)
+				Next Alignment: 664298 671529 mira_c26 35963 43197
+
+			Align 36: 664298 671529 mira_c26 35963 43197
+				Gap between this and next alignment: 671529 to 671743 (213 bp)
+				Next Alignment: 671743 672565 mira_c26 43291 44112
+
+			Align 37: 671743 672565 mira_c26 43291 44112
+				Gap between this and next alignment: 672565 to 672580 (14 bp)
+				Next Alignment: 672580 680917 mira_c26 44061 52339
+
+			Align 38: 672580 680917 mira_c26 44061 52339
+				Gap between this and next alignment: 680917 to 694274 (13356 bp)
+				Next Alignment: 694274 704284 mira_c26 52339 62349
+
+			Align 39: 694274 704284 mira_c26 52339 62349
+				Negative gap (overlap) between this and next alignment: 704284 to 704277 (-7 bp)
+				Next Alignment: 704277 705084 mira_c35 33227 32420
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 33227 to 33219.
+			Align 40: 704285 705084 mira_c35 33219 32420
+				Negative gap (overlap) between this and next alignment: 705084 to 705027 (-57 bp)
+				Next Alignment: 705027 737480 mira_c35 32610 158
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 32610 to 32552.
+			Align 41: 705085 737480 mira_c35 32552 158
+				Negative gap (overlap) between this and next alignment: 737480 to 737473 (-7 bp)
+				Next Alignment: 737473 743062 mira_c36 168 5759
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 168 to 176.
+			Align 42: 737481 743062 mira_c36 176 5759
+				Negative gap (overlap) between this and next alignment: 743062 to 742917 (-145 bp)
+				Next Alignment: 742917 801081 mira_c23 1 58097
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 149.
+			Align 43: 743063 801081 mira_c23 149 58097
+				Negative gap (overlap) between this and next alignment: 801081 to 800872 (-209 bp)
+				Next Alignment: 800872 801957 mira_c10 90933 89861
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 90933 to 90735.
+			Align 44: 801082 801957 mira_c10 90735 89861
+				The next alignment (800873 801084 mira_c10 89554 89765) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 801957 to 801878 (-79 bp)
+				Next Alignment: 801878 801988 mira_c10 89883 89773
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 89883 to 89804.
+			Align 46: 801958 801988 mira_c10 89804 89773
+				Gap between this and next alignment: 801988 to 802012 (23 bp)
+				Next Alignment: 802012 811238 mira_c10 89550 80324
+
+			Align 47: 802012 811238 mira_c10 89550 80324
+				Gap between this and next alignment: 811238 to 811672 (433 bp)
+				Next Alignment: 811672 826264 mira_c10 80223 65634
+
+			Align 48: 811672 826264 mira_c10 80223 65634
+				Gap between this and next alignment: 826264 to 826385 (120 bp)
+				Next Alignment: 826385 855685 mira_c10 65517 36218
+
+			Align 49: 826385 855685 mira_c10 65517 36218
+				The next alignment (848249 848469 mira_c39 185 404) is redundant. Skipping.
+				Gap between this and next alignment: 855685 to 855779 (93 bp)
+				Next Alignment: 855779 876227 mira_c10 36072 15691
+
+			Align 51: 855779 876227 mira_c10 36072 15691
+				Gap between this and next alignment: 876227 to 877141 (913 bp)
+				Next Alignment: 877141 879445 mira_c10 14801 12495
+
+			Align 52: 877141 879445 mira_c10 14801 12495
+				Gap between this and next alignment: 879445 to 879815 (369 bp)
+				Next Alignment: 879815 891891 mira_c10 12074 1
+
+			Align 53: 879815 891891 mira_c10 12074 1
+				Negative gap (overlap) between this and next alignment: 891891 to 891723 (-168 bp)
+				Next Alignment: 891723 892071 mira_c39 1 348
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 170.
+			Align 54: 891892 892071 mira_c39 170 348
+				The next alignment (891724 891906 mira_c12 29691 29511) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 892071 to 892002 (-69 bp)
+				Next Alignment: 892002 895801 mira_c39 335 4134
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 335 to 404.
+			Align 56: 892072 895801 mira_c39 404 4134
+				Gap between this and next alignment: 895801 to 909741 (13939 bp)
+				Next Alignment: 909741 917305 mira_c39 4118 11683
+
+			Align 57: 909741 917305 mira_c39 4118 11683
+				Negative gap (overlap) between this and next alignment: 917305 to 917216 (-89 bp)
+				Next Alignment: 917216 920552 mira_c25 4420 7759
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4420 to 4510.
+			Align 58: 917306 920552 mira_c25 4510 7759
+				Negative gap (overlap) between this and next alignment: 920552 to 920460 (-92 bp)
+				Next Alignment: 920460 925218 mira_c25 7838 12596
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 7838 to 7932.
+			Align 59: 920553 925218 mira_c25 7932 12596
+				Negative gap (overlap) between this and next alignment: 925218 to 925211 (-7 bp)
+				Next Alignment: 925211 954544 mira_c12 167 29499
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 167 to 175.
+			Align 60: 925219 954544 mira_c12 175 29499
+				Gap between this and next alignment: 954544 to 954747 (202 bp)
+				Next Alignment: 954747 1040785 mira_c12 29726 115766
+
+			Align 61: 954747 1040785 mira_c12 29726 115766
+				Gap between this and next alignment: 1040785 to 1042574 (1788 bp)
+				Next Alignment: 1042574 1071873 mira_c12 115780 145081
+
+			Align 62: 1042574 1071873 mira_c12 115780 145081
+				Negative gap (overlap) between this and next alignment: 1071873 to 1071860 (-13 bp)
+				Next Alignment: 1071860 1088256 mira_c12 145123 161525
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 145123 to 145137.
+			Align 63: 1071874 1088256 mira_c12 145137 161525
+				The next alignment (1072168 1072332 mira_c8 182689 182853) is redundant. Skipping.
+				The next alignment (1072168 1072331 mira_c12 171482 171645) is redundant. Skipping.
+				The next alignment (1072262 1072333 mira_c8 77101 77172) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1088256 to 1088126 (-130 bp)
+				Next Alignment: 1088126 1098076 mira_c12 161584 171534
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 161584 to 161715.
+			Align 67: 1088257 1098076 mira_c12 161715 171534
+				Gap between this and next alignment: 1098076 to 1098188 (111 bp)
+				Next Alignment: 1098188 1149567 mira_c12 171543 222919
+
+			Align 68: 1098188 1149567 mira_c12 171543 222919
+				Negative gap (overlap) between this and next alignment: 1149567 to 1149486 (-81 bp)
+				Next Alignment: 1149486 1168633 mira_c12 223099 242241
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 223099 to 223181.
+			Align 69: 1149568 1168633 mira_c12 223181 242241
+				Negative gap (overlap) between this and next alignment: 1168633 to 1168633 (0 bp)
+				Next Alignment: 1168633 1170237 mira_c12 242354 243958
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 242354 to 242355.
+			Align 70: 1168634 1170237 mira_c12 242355 243958
+				Negative gap (overlap) between this and next alignment: 1170237 to 1170229 (-8 bp)
+				Next Alignment: 1170229 1205298 mira_c17 99 35225
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 99 to 108.
+			Align 71: 1170238 1205298 mira_c17 108 35225
+				Negative gap (overlap) between this and next alignment: 1205298 to 1205205 (-93 bp)
+				Next Alignment: 1205205 1245347 mira_c1 185205 145062
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 185205 to 185111.
+			Align 72: 1205299 1245347 mira_c1 185111 145062
+				Negative gap (overlap) between this and next alignment: 1245347 to 1245319 (-28 bp)
+				Next Alignment: 1245319 1342913 mira_c1 144898 47351
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 144898 to 144869.
+			Align 73: 1245348 1342913 mira_c1 144869 47351
+				Gap between this and next alignment: 1342913 to 1345212 (2298 bp)
+				Next Alignment: 1345212 1380725 mira_c1 47329 11816
+
+			Align 74: 1345212 1380725 mira_c1 47329 11816
+				The next alignment (1380451 1380674 mira_c26 35695 35917) is redundant. Skipping.
+				The next alignment (1380452 1380668 mira_c20 102788 103003) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1380725 to 1380716 (-9 bp)
+				Next Alignment: 1380716 1392397 mira_c1 11769 88
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 11769 to 11759.
+			Align 77: 1380726 1392397 mira_c1 11759 88
+				The next alignment (1392316 1392397 mira_rep_c91 1 82) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1392397 to 1392390 (-7 bp)
+				Next Alignment: 1392390 1413595 mira_c29 155 21359
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 155 to 163.
+			Align 79: 1392398 1413595 mira_c29 163 21359
+				Gap between this and next alignment: 1413595 to 1414052 (456 bp)
+				Next Alignment: 1414052 1426603 mira_c29 22394 34946
+
+			Align 80: 1414052 1426603 mira_c29 22394 34946
+				Negative gap (overlap) between this and next alignment: 1426603 to 1426493 (-110 bp)
+				Next Alignment: 1426493 1427124 mira_c17 35473 34843
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 35473 to 35362.
+			Align 81: 1426604 1427124 mira_c17 35362 34843
+				The next alignment (1426566 1426681 mira_c31 1 116) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1427124 to 1426958 (-166 bp)
+				Next Alignment: 1426958 1430184 mira_c17 38702 35476
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 38702 to 38536.
+			Align 83: 1427125 1430184 mira_c17 38536 35476
+				Gap between this and next alignment: 1430184 to 1430212 (27 bp)
+				Next Alignment: 1430212 1442791 mira_c31 155 12734
+
+			Align 84: 1430212 1442791 mira_c31 155 12734
+				Gap between this and next alignment: 1442791 to 1443765 (973 bp)
+				Next Alignment: 1443765 1456996 mira_c31 12768 26001
+
+			Align 85: 1443765 1456996 mira_c31 12768 26001
+				Gap between this and next alignment: 1456996 to 1457737 (740 bp)
+				Next Alignment: 1457737 1470092 mira_c31 25999 38412
+
+			Align 86: 1457737 1470092 mira_c31 25999 38412
+				The next alignment (1469788 1469951 mira_c5 162478 162315) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1470092 to 1469995 (-97 bp)
+				Next Alignment: 1469995 1473202 mira_c28 89194 85987
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 89194 to 89096.
+			Align 88: 1470093 1473202 mira_c28 89096 85987
+				Negative gap (overlap) between this and next alignment: 1473202 to 1472732 (-470 bp)
+				Next Alignment: 1472732 1476019 mira_c28 86226 82939
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 86226 to 85755.
+			Align 89: 1473203 1476019 mira_c28 85755 82939
+				Negative gap (overlap) between this and next alignment: 1476019 to 1475980 (-39 bp)
+				Next Alignment: 1475980 1556282 mira_c28 82600 2296
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 82600 to 82560.
+			Align 90: 1476020 1556282 mira_c28 82560 2296
+				Gap between this and next alignment: 1556282 to 1557579 (1296 bp)
+				Next Alignment: 1557579 1558388 mira_c45 3411 4220
+
+			Align 91: 1557579 1558388 mira_c45 3411 4220
+				Negative gap (overlap) between this and next alignment: 1558388 to 1557897 (-491 bp)
+				Next Alignment: 1557897 1558491 mira_c28 595 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 595 to 103.
+			Align 92: 1558389 1558491 mira_c28 103 1
+				Negative gap (overlap) between this and next alignment: 1558491 to 1558291 (-200 bp)
+				Next Alignment: 1558291 1558513 mira_c45 1 223
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 202.
+			Align 93: 1558492 1558513 mira_c45 202 223
+				Gap between this and next alignment: 1558513 to 1592071 (33557 bp)
+				Next Alignment: 1592071 1592573 mira_c42 1778 1276
+
+			Align 94: 1592071 1592573 mira_c42 1778 1276
+				Gap between this and next alignment: 1592573 to 1599735 (7161 bp)
+				Next Alignment: 1599735 1600074 mira_c39 18489 18149
+
+			Align 95: 1599735 1600074 mira_c39 18489 18149
+				The next alignment (1599736 1600068 mira_c7 1759 1427) is redundant. Skipping.
+				Gap between this and next alignment: 1600074 to 1605969 (5894 bp)
+				Next Alignment: 1605969 1607515 mira_c45 1533 3080
+
+			Align 97: 1605969 1607515 mira_c45 1533 3080
+				Gap between this and next alignment: 1607515 to 1608553 (1037 bp)
+				Next Alignment: 1608553 1626987 mira_c20 1 18431
+
+			Align 98: 1608553 1626987 mira_c20 1 18431
+				Gap between this and next alignment: 1626987 to 1627060 (72 bp)
+				Next Alignment: 1627060 1709553 mira_c20 20285 102787
+
+			Align 99: 1627060 1709553 mira_c20 20285 102787
+				Gap between this and next alignment: 1709553 to 1709584 (30 bp)
+				Next Alignment: 1709584 1711151 mira_c20 103168 104736
+
+			Align 100: 1709584 1711151 mira_c20 103168 104736
+				Negative gap (overlap) between this and next alignment: 1711151 to 1710995 (-156 bp)
+				Next Alignment: 1710995 1729093 mira_c9 1 18099
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 158.
+			Align 101: 1711152 1729093 mira_c9 158 18099
+				Negative gap (overlap) between this and next alignment: 1729093 to 1729093 (0 bp)
+				Next Alignment: 1729093 1760271 mira_c9 18332 49577
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 18332 to 18333.
+			Align 102: 1729094 1760271 mira_c9 18333 49577
+				Negative gap (overlap) between this and next alignment: 1760271 to 1760266 (-5 bp)
+				Next Alignment: 1760266 1803040 mira_c19 146671 103896
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 146671 to 146665.
+			Align 103: 1760272 1803040 mira_c19 146665 103896
+				Gap between this and next alignment: 1803040 to 1805051 (2010 bp)
+				Next Alignment: 1805051 1873611 mira_c19 103862 35232
+
+			Align 104: 1805051 1873611 mira_c19 103862 35232
+				Gap between this and next alignment: 1873611 to 1873756 (144 bp)
+				Next Alignment: 1873756 1873889 mira_c19 35260 35127
+
+			Align 105: 1873756 1873889 mira_c19 35260 35127
+				Gap between this and next alignment: 1873889 to 1873924 (34 bp)
+				Next Alignment: 1873924 1874048 mira_c8 59558 59434
+
+			Align 106: 1873924 1874048 mira_c8 59558 59434
+				Next Alignment: 1874049 1892471 mira_c19 35100 16676
+
+			Align 107: 1874049 1892471 mira_c19 35100 16676
+				Gap between this and next alignment: 1892471 to 1893474 (1002 bp)
+				Next Alignment: 1893474 1903133 mira_c19 16679 7021
+
+			Align 108: 1893474 1903133 mira_c19 16679 7021
+				Gap between this and next alignment: 1903133 to 1903834 (700 bp)
+				Next Alignment: 1903834 1910772 mira_c19 6941 1
+
+			Align 109: 1903834 1910772 mira_c19 6941 1
+				Negative gap (overlap) between this and next alignment: 1910772 to 1910753 (-19 bp)
+				Next Alignment: 1910753 1911335 mira_c1 185087 185670
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 185087 to 185107.
+			Align 110: 1910773 1911335 mira_c1 185107 185670
+				Gap between this and next alignment: 1911335 to 1911435 (99 bp)
+				Next Alignment: 1911435 1917797 mira_c1 185670 192044
+
+			Align 111: 1911435 1917797 mira_c1 185670 192044
+				Gap between this and next alignment: 1917797 to 1918539 (741 bp)
+				Next Alignment: 1918539 1918707 mira_c1 192043 192211
+
+			Align 112: 1918539 1918707 mira_c1 192043 192211
+				Gap between this and next alignment: 1918707 to 1918733 (25 bp)
+				Next Alignment: 1918733 1927378 mira_c1 192362 201007
+
+			Align 113: 1918733 1927378 mira_c1 192362 201007
+				Gap between this and next alignment: 1927378 to 1929030 (1651 bp)
+				Next Alignment: 1929030 1929381 mira_c1 201547 201898
+
+			Align 114: 1929030 1929381 mira_c1 201547 201898
+				Gap between this and next alignment: 1929381 to 1929800 (418 bp)
+				Next Alignment: 1929800 1930326 mira_c1 202125 202651
+
+			Align 115: 1929800 1930326 mira_c1 202125 202651
+				Gap between this and next alignment: 1930326 to 1936931 (6604 bp)
+				Next Alignment: 1936931 1940428 mira_c1 204155 207657
+
+			Align 116: 1936931 1940428 mira_c1 204155 207657
+				Gap between this and next alignment: 1940428 to 1940930 (501 bp)
+				Next Alignment: 1940930 1945577 mira_c1 207285 211932
+
+			Align 117: 1940930 1945577 mira_c1 207285 211932
+				Gap between this and next alignment: 1945577 to 1945917 (339 bp)
+				Next Alignment: 1945917 1946682 mira_c1 212287 213051
+
+			Align 118: 1945917 1946682 mira_c1 212287 213051
+				Gap between this and next alignment: 1946682 to 1956069 (9386 bp)
+				Next Alignment: 1956069 1960552 mira_c1 214906 219403
+
+			Align 119: 1956069 1960552 mira_c1 214906 219403
+				Gap between this and next alignment: 1960552 to 1961324 (771 bp)
+				Next Alignment: 1961324 1962117 mira_c1 227460 228257
+
+			Align 120: 1961324 1962117 mira_c1 227460 228257
+				The next alignment (1961846 1962039 mira_c46 197 1) is redundant. Skipping.
+				Gap between this and next alignment: 1962117 to 1962572 (454 bp)
+				Next Alignment: 1962572 1979136 mira_c11 483 17049
+
+			Align 122: 1962572 1979136 mira_c11 483 17049
+				Negative gap (overlap) between this and next alignment: 1979136 to 1979052 (-84 bp)
+				Next Alignment: 1979052 1987343 mira_c11 17121 25405
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 17121 to 17206.
+			Align 123: 1979137 1987343 mira_c11 17206 25405
+				Gap between this and next alignment: 1987343 to 1987428 (84 bp)
+				Next Alignment: 1987428 1994266 mira_c11 25256 32096
+
+			Align 124: 1987428 1994266 mira_c11 25256 32096
+				Negative gap (overlap) between this and next alignment: 1994266 to 1994265 (-1 bp)
+				Next Alignment: 1994265 1994436 mira_c35 33226 33397
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 33226 to 33228.
+			Align 125: 1994267 1994436 mira_c35 33228 33397
+				The next alignment (1994266 1994433 mira_c25 12596 12763) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1994436 to 1994266 (-170 bp)
+				Next Alignment: 1994266 1995786 mira_rep_c91 1595 75
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1595 to 1424.
+			Align 127: 1994437 1995786 mira_rep_c91 1424 75
+				The next alignment (1994267 1994433 mira_c36 167 1) is redundant. Skipping.
+				The next alignment (1994267 1994435 mira_c11 32188 32356) is redundant. Skipping.
+				The next alignment (1995613 1995778 mira_c12 1 166) is redundant. Skipping.
+				The next alignment (1995618 1995778 mira_c26 62510 62350) is redundant. Skipping.
+				The next alignment (1995622 1995778 mira_c35 1 157) is redundant. Skipping.
+				The next alignment (1995631 1995779 mira_c5 1 149) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1995786 to 1995653 (-133 bp)
+				Next Alignment: 1995653 1996891 mira_c46 1212 16
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1212 to 1087.
+			Align 134: 1995787 1996891 mira_c46 1087 16
+				Negative gap (overlap) between this and next alignment: 1996891 to 1996710 (-181 bp)
+				Next Alignment: 1996710 1997291 mira_c1 227986 228576
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 227986 to 228177.
+			Align 135: 1996892 1997291 mira_c1 228177 228576
+				The next alignment (1996891 1996972 mira_c11 18 99) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1997291 to 1997198 (-93 bp)
+				Next Alignment: 1997198 1998444 mira_c14 1247 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1247 to 1153.
+			Align 137: 1997292 1998444 mira_c14 1153 1
+				Negative gap (overlap) between this and next alignment: 1998444 to 1998278 (-166 bp)
+				Next Alignment: 1998278 1998520 mira_c79 258 500
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 258 to 425.
+			Align 138: 1998445 1998520 mira_c79 425 500
+				Gap between this and next alignment: 1998520 to 2001304 (2783 bp)
+				Next Alignment: 2001304 2001879 mira_rep_c177 1 579
+
+			Align 139: 2001304 2001879 mira_rep_c177 1 579
+				Gap between this and next alignment: 2001879 to 2003011 (1131 bp)
+				Next Alignment: 2003011 2020344 mira_c32 21685 4354
+
+			Align 140: 2003011 2020344 mira_c32 21685 4354
+				Negative gap (overlap) between this and next alignment: 2020344 to 2020329 (-15 bp)
+				Next Alignment: 2020329 2031884 mira_c22 4630 16126
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4630 to 4646.
+			Align 141: 2020345 2031884 mira_c22 4646 16126
+				Negative gap (overlap) between this and next alignment: 2031884 to 2031733 (-151 bp)
+				Next Alignment: 2031733 2072121 mira_c16 1 40383
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 153.
+			Align 142: 2031885 2072121 mira_c16 153 40383
+				Negative gap (overlap) between this and next alignment: 2072121 to 2071865 (-256 bp)
+				Next Alignment: 2071865 2083335 mira_c7 49568 38148
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 49568 to 49311.
+			Align 143: 2072122 2083335 mira_c7 49311 38148
+				Gap between this and next alignment: 2083335 to 2083566 (230 bp)
+				Next Alignment: 2083566 2111781 mira_c7 38232 10043
+
+			Align 144: 2083566 2111781 mira_c7 38232 10043
+				Gap between this and next alignment: 2111781 to 2114320 (2538 bp)
+				Next Alignment: 2114320 2117573 mira_c7 8202 4949
+
+			Align 145: 2114320 2117573 mira_c7 8202 4949
+				Gap between this and next alignment: 2117573 to 2118284 (710 bp)
+				Next Alignment: 2118284 2120815 mira_c7 4238 1707
+
+			Align 146: 2118284 2120815 mira_c7 4238 1707
+				Gap between this and next alignment: 2120815 to 2122104 (1288 bp)
+				Next Alignment: 2122104 2122348 mira_c34 5547 5791
+
+			Align 147: 2122104 2122348 mira_c34 5547 5791
+				Negative gap (overlap) between this and next alignment: 2122348 to 2122116 (-232 bp)
+				Next Alignment: 2122116 2122354 mira_c7 239 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 239 to 6.
+			Align 148: 2122349 2122354 mira_c7 6 1
+				Negative gap (overlap) between this and next alignment: 2122354 to 2122354 (0 bp)
+				Next Alignment: 2122354 2122565 mira_c18 50093 49882
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 50093 to 50092.
+			Align 149: 2122355 2122565 mira_c18 50092 49882
+				Gap between this and next alignment: 2122565 to 2126044 (3478 bp)
+				Next Alignment: 2126044 2133335 mira_c18 46283 38990
+
+			Align 150: 2126044 2133335 mira_c18 46283 38990
+				Gap between this and next alignment: 2133335 to 2135422 (2086 bp)
+				Next Alignment: 2135422 2137367 mira_c18 38810 36861
+
+			Align 151: 2135422 2137367 mira_c18 38810 36861
+				Gap between this and next alignment: 2137367 to 2140310 (2942 bp)
+				Next Alignment: 2140310 2147679 mira_c18 37038 29661
+
+			Align 152: 2140310 2147679 mira_c18 37038 29661
+				Gap between this and next alignment: 2147679 to 2148921 (1241 bp)
+				Next Alignment: 2148921 2162325 mira_c18 28420 15014
+
+			Align 153: 2148921 2162325 mira_c18 28420 15014
+				Gap between this and next alignment: 2162325 to 2162354 (28 bp)
+				Next Alignment: 2162354 2176502 mira_c18 14772 624
+
+			Align 154: 2162354 2176502 mira_c18 14772 624
+				The next alignment (2176315 2176423 mira_c18 533 425) is redundant. Skipping.
+				Gap between this and next alignment: 2176502 to 2181315 (4812 bp)
+				Next Alignment: 2181315 2201597 mira_c24 1 20265
+
+			Align 156: 2181315 2201597 mira_c24 1 20265
+				Negative gap (overlap) between this and next alignment: 2201597 to 2201590 (-7 bp)
+				Next Alignment: 2201590 2211260 mira_c43 9671 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 9671 to 9663.
+			Align 157: 2201598 2211260 mira_c43 9663 1
+				Negative gap (overlap) between this and next alignment: 2211260 to 2211111 (-149 bp)
+				Next Alignment: 2211111 2254840 mira_c27 43733 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 43733 to 43583.
+			Align 158: 2211261 2254840 mira_c27 43583 1
+				Negative gap (overlap) between this and next alignment: 2254840 to 2254691 (-149 bp)
+				Next Alignment: 2254691 2265231 mira_c30 1 10537
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 151.
+			Align 159: 2254841 2265231 mira_c30 151 10537
+				Negative gap (overlap) between this and next alignment: 2265231 to 2265212 (-19 bp)
+				Next Alignment: 2265212 2266002 mira_c30 10461 11241
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 10461 to 10481.
+			Align 160: 2265232 2266002 mira_c30 10481 11241
+				Gap between this and next alignment: 2266002 to 2268541 (2538 bp)
+				Next Alignment: 2268541 2290692 mira_c30 12367 34528
+
+			Align 161: 2268541 2290692 mira_c30 12367 34528
+				Negative gap (overlap) between this and next alignment: 2290692 to 2290686 (-6 bp)
+				Next Alignment: 2290686 2290846 mira_c29 161 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 161 to 154.
+			Align 162: 2290693 2290846 mira_c29 154 1
+				Negative gap (overlap) between this and next alignment: 2290846 to 2290692 (-154 bp)
+				Next Alignment: 2290692 2290856 mira_c8 231948 232112
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 231948 to 232103.
+			Align 163: 2290847 2290856 mira_c8 232103 232112
+				Negative gap (overlap) between this and next alignment: 2290856 to 2290693 (-163 bp)
+				Next Alignment: 2290693 2290859 mira_c43 9672 9838
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 9672 to 9836.
+			Align 164: 2290857 2290859 mira_c43 9836 9838
+				Gap between this and next alignment: 2290859 to 2292206 (1346 bp)
+				Next Alignment: 2292206 2292918 mira_c30 34521 35233
+
+			Align 165: 2292206 2292918 mira_c30 34521 35233
+				Negative gap (overlap) between this and next alignment: 2292918 to 2292758 (-160 bp)
+				Next Alignment: 2292758 2292923 mira_c18 166 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 166 to 5.
+			Align 166: 2292919 2292923 mira_c18 5 1
+				Gap between this and next alignment: 2292923 to 2297665 (4741 bp)
+				Next Alignment: 2297665 2317464 mira_c5 242255 222455
+
+			Align 167: 2297665 2317464 mira_c5 242255 222455
+				Gap between this and next alignment: 2317464 to 2319448 (1983 bp)
+				Next Alignment: 2319448 2335210 mira_c5 222426 206662
+
+			Align 168: 2319448 2335210 mira_c5 222426 206662
+				Gap between this and next alignment: 2335210 to 2336337 (1126 bp)
+				Next Alignment: 2336337 2347096 mira_c5 206320 195480
+
+			Align 169: 2336337 2347096 mira_c5 206320 195480
+				Gap between this and next alignment: 2347096 to 2352633 (5536 bp)
+				Next Alignment: 2352633 2378409 mira_c5 188241 162478
+
+			Align 170: 2352633 2378409 mira_c5 188241 162478
+				Gap between this and next alignment: 2378409 to 2378440 (30 bp)
+				Next Alignment: 2378440 2389141 mira_c5 162211 151512
+
+			Align 171: 2378440 2389141 mira_c5 162211 151512
+				Gap between this and next alignment: 2389141 to 2389143 (1 bp)
+				Next Alignment: 2389143 2431654 mira_c5 151625 109111
+
+			Align 172: 2389143 2431654 mira_c5 151625 109111
+				Gap between this and next alignment: 2431654 to 2432295 (640 bp)
+				Next Alignment: 2432295 2452493 mira_c5 109092 88895
+
+			Align 173: 2432295 2452493 mira_c5 109092 88895
+				Next Alignment: 2452494 2478225 mira_c5 88774 63076
+
+			Align 174: 2452494 2478225 mira_c5 88774 63076
+				Gap between this and next alignment: 2478225 to 2479097 (871 bp)
+				Next Alignment: 2479097 2504698 mira_c5 63044 37459
+
+			Align 175: 2479097 2504698 mira_c5 63044 37459
+				Gap between this and next alignment: 2504698 to 2504837 (138 bp)
+				Next Alignment: 2504837 2540121 mira_c5 37346 2117
+
+			Align 176: 2504837 2540121 mira_c5 37346 2117
+				Negative gap (overlap) between this and next alignment: 2540121 to 2540030 (-91 bp)
+				Next Alignment: 2540030 2541754 mira_c5 2085 361
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2085 to 1993.
+			Align 177: 2540122 2541754 mira_c5 1993 361
+				Negative gap (overlap) between this and next alignment: 2541754 to 2541696 (-58 bp)
+				Next Alignment: 2541696 2541921 mira_c5 374 149
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 374 to 315.
+			Align 178: 2541755 2541921 mira_c5 315 149
+				Negative gap (overlap) between this and next alignment: 2541921 to 2541914 (-7 bp)
+				Next Alignment: 2541914 2580484 mira_c8 231948 193301
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 231948 to 231940.
+			Align 179: 2541922 2580484 mira_c8 231940 193301
+				Gap between this and next alignment: 2580484 to 2580494 (9 bp)
+				Next Alignment: 2580494 2580663 mira_c21 197 28
+
+			Align 180: 2580494 2580663 mira_c21 197 28
+				The next alignment (2580507 2580663 mira_c4 155512 155356) is redundant. Skipping.
+				Gap between this and next alignment: 2580663 to 2580818 (154 bp)
+				Next Alignment: 2580818 2591231 mira_c8 193266 182853
+
+			Align 182: 2580818 2591231 mira_c8 193266 182853
+				Gap between this and next alignment: 2591231 to 2591257 (25 bp)
+				Next Alignment: 2591257 2601199 mira_c8 182689 172744
+
+			Align 183: 2591257 2601199 mira_c8 182689 172744
+				Gap between this and next alignment: 2601199 to 2602004 (804 bp)
+				Next Alignment: 2602004 2613858 mira_c8 171880 160023
+
+			Align 184: 2602004 2613858 mira_c8 171880 160023
+				Negative gap (overlap) between this and next alignment: 2613858 to 2613037 (-821 bp)
+				Next Alignment: 2613037 2624727 mira_c8 159828 148122
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 159828 to 159004.
+			Align 185: 2613859 2624727 mira_c8 159004 148122
+				Negative gap (overlap) between this and next alignment: 2624727 to 2624032 (-695 bp)
+				Next Alignment: 2624032 2630838 mira_c8 149201 142365
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 149201 to 148505.
+			Align 186: 2624728 2630838 mira_c8 148505 142365
+				The next alignment (2629776 2630571 mira_c8 139777 138982) is redundant. Skipping.
+				Gap between this and next alignment: 2630838 to 2634962 (4123 bp)
+				Next Alignment: 2634962 2647573 mira_c8 138131 125539
+
+			Align 188: 2634962 2647573 mira_c8 138131 125539
+				Gap between this and next alignment: 2647573 to 2649284 (1710 bp)
+				Next Alignment: 2649284 2664855 mira_c8 125456 109888
+
+			Align 189: 2649284 2664855 mira_c8 125456 109888
+				Gap between this and next alignment: 2664855 to 2665148 (292 bp)
+				Next Alignment: 2665148 2680011 mira_c8 109884 95023
+
+			Align 190: 2665148 2680011 mira_c8 109884 95023
+				Gap between this and next alignment: 2680011 to 2681398 (1386 bp)
+				Next Alignment: 2681398 2699196 mira_c8 95094 77299
+
+			Align 191: 2681398 2699196 mira_c8 95094 77299
+				Gap between this and next alignment: 2699196 to 2699368 (171 bp)
+				Next Alignment: 2699368 2716774 mira_c8 77007 59598
+
+			Align 192: 2699368 2716774 mira_c8 77007 59598
+				Gap between this and next alignment: 2716774 to 2716786 (11 bp)
+				Next Alignment: 2716786 2733821 mira_c8 59434 42403
+
+			Align 193: 2716786 2733821 mira_c8 59434 42403
+				Negative gap (overlap) between this and next alignment: 2733821 to 2733813 (-8 bp)
+				Next Alignment: 2733813 2753848 mira_c8 40361 20326
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 40361 to 40352.
+			Align 194: 2733822 2753848 mira_c8 40352 20326
+				Gap between this and next alignment: 2753848 to 2754851 (1002 bp)
+				Next Alignment: 2754851 2774758 mira_c8 20291 442
+
+			Align 195: 2754851 2774758 mira_c8 20291 442
+				Gap between this and next alignment: 2774758 to 2775108 (349 bp)
+				Next Alignment: 2775108 2830360 mira_c6 132448 77284
+
+			Align 196: 2775108 2830360 mira_c6 132448 77284
+				Negative gap (overlap) between this and next alignment: 2830360 to 2830298 (-62 bp)
+				Next Alignment: 2830298 2830416 mira_c1 11707 11825
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 11707 to 11770.
+			Align 197: 2830361 2830416 mira_c1 11770 11825
+				Gap between this and next alignment: 2830416 to 2830463 (46 bp)
+				Next Alignment: 2830463 2862482 mira_c6 77293 45280
+
+			Align 198: 2830463 2862482 mira_c6 77293 45280
+				Gap between this and next alignment: 2862482 to 2864018 (1535 bp)
+				Next Alignment: 2864018 2872915 mira_c6 45497 36595
+
+			Align 199: 2864018 2872915 mira_c6 45497 36595
+			END in current alignment.  Modifying 2872915 to 2872915.
+
+	Reference gi|225631039|ref|NC_012417.1|_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA01-HOU__complete_sequence: 4 total alignments. 1 total regions.
+		Region: 1 to 3125 (3125 bp)
+			Align 1: 1 116 mira_rep_c106 482 367
+				Gap between this and next alignment: 116 to 1846 (1729 bp)
+				Next Alignment: 1846 2086 mira_c63 743 502
+
+			Align 2: 1846 2086 mira_c63 743 502
+				The next alignment (1910 2086 mira_rep_c106 22 198) is redundant. Skipping.
+				The next alignment (1910 2086 mira_c68 1008 1184) is redundant. Skipping.
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1608/dataset_1690_files/Contig/contigs_reports/nucmer_output/SA-H-Mira-Contig.used_snps
+
+Results:
+	Local Misassemblies: 77
+	Misassemblies: 80
+		Relocations: 77
+		Translocations: 2
+		Inversions: 1
+	Misassembled Contigs: 31
+	Misassembled Contig Bases: 2301598
+	Misassmblies Inter-Contig Overlap: 5471
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 49 + 13 part
+Partially Unaligned Contigs with Misassemblies: 4
+Unaligned Contig Bases: 100677
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 2621221
+
+	SNPs: 22751
+	Insertions: 1449
+	Deletions: 1716
+
+	Positive Gaps: 111
+		Internal Gaps:  82
+		External Gaps:  29
+		External Gap Total:  118784
+		External Gap Average: 4096
+	Negative Gaps: 72
+		Internal Overlaps:  23
+		External Overlaps:  49
+		External Overlaps Total: -6043
+		External Overlaps Average: -123
+	Contigs with Redundant Alignments: 14 (5449)

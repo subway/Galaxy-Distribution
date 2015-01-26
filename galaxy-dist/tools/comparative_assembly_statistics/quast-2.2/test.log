@@ -1,0 +1,212 @@
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py test_data/contigs_10k_1.fasta test_data/contigs_10k_2.fasta -R test_data/reference_10k.fasta.gz -G test_data/genes_10k.txt -O test_data/operons_10k.txt
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.32-431.11.2.el6.x86_64-x86_64-with-redhat-6.5-Santiago
+  Python version: 2.7.6
+  CPUs number: 64
+
+Started: 2014-06-12 10:31:57
+
+Logging to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/quast.log
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  test_data/reference_10k.fasta.gz ==> reference_10k
+
+Contigs:
+  test_data/contigs_10k_1.fasta ==> contigs_10k_1
+  test_data/contigs_10k_2.fasta ==> contigs_10k_2
+
+2014-06-12 10:31:59
+Running Basic statistics processor...
+  Reference genome:
+    reference_10k.fasta, Reference length = 10000, Reference GC % = 52.07
+  Contig files: 
+    1  contigs_10k_1
+    2  contigs_10k_2
+  Calculating N50 and L50...
+    1  contigs_10k_1, N50 = 3980, L50 = 1, Total length = 6710, GC % = 51.28, # N's per 100 kbp =  0.00
+    2  contigs_10k_2, N50 = 3360, L50 = 1, Total length = 5460, GC % = 52.44, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/basic_stats/NGx_plot.pdf
+Done.
+
+2014-06-12 10:32:01
+Running Contig analyzer...
+Compiling MUMmer...
+
+ERROR! Failed to compile MUMmer (/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux)! Try to compile it manually!
+
+  1  contigs_10k_1
+  2  contigs_10k_2
+  1  Logging to files /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/contigs_reports/contigs_report_contigs_10k_1.stdout and contigs_report_contigs_10k_1.stderr...
+  1  Running Nucmer... 
+  2  Logging to files /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/contigs_reports/contigs_report_contigs_10k_2.stdout and contigs_report_contigs_10k_2.stderr...
+  2  Running Nucmer... 
+Traceback (most recent call last):
+  File "quast.py", line 741, in <module>
+    return_code = main(sys.argv[1:])
+  File "quast.py", line 653, in main
+    ref_fpath, contigs_fpaths, qconfig.prokaryote, os.path.join(output_dirpath, 'contigs_reports'))
+  File "/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/contigs_analyzer.py", line 1270, in do
+    for id, fname in enumerate(contigs_fpaths))
+  File "/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/site_packages/joblib/parallel.py", line 485, in __call__
+    self.retrieve()
+  File "/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/site_packages/joblib/parallel.py", line 437, in retrieve
+    raise exception_type(report)
+joblib.my_exceptions.JoblibOSError: JoblibOSError
+___________________________________________________________________________
+Multiprocessing exception:
+...........................................................................
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py in <module>()
+    736         shutil.rmtree(corrected_dirpath)
+    737 
+    738 
+    739 if __name__ == '__main__':
+    740     # try:
+--> 741     return_code = main(sys.argv[1:])
+    742     exit(return_code)
+    743     # except Exception, e:
+    744     #     logger.exception(e)
+    745 
+
+...........................................................................
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py in main(args=['test_data/contigs_10k_1.fasta', 'test_data/contigs_10k_2.fasta', '-R', 'test_data/reference_10k.fasta.gz', '-G', 'test_data/genes_10k.txt', '-O', 'test_data/operons_10k.txt'])
+    648         ########################################################################
+    649         ### former PLANTAKOLYA, PLANTAGORA
+    650         ########################################################################
+    651         from libs import contigs_analyzer
+    652         nucmer_statuses, aligned_lengths_per_fpath = contigs_analyzer.do(
+--> 653             ref_fpath, contigs_fpaths, qconfig.prokaryote, os.path.join(output_dirpath, 'contigs_reports'))
+        ref_fpath = '/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/corrected_input/reference_10k.fasta'
+        contigs_fpaths = ['/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/corrected_input/contigs_10k_1.fasta', '/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/corrected_input/contigs_10k_2.fasta']
+        output_dirpath = '/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57'
+    654         for contigs_fpath in contigs_fpaths:
+    655             if nucmer_statuses[contigs_fpath] == contigs_analyzer.NucmerStatus.OK:
+    656                 aligned_fpaths.append(contigs_fpath)
+    657                 aligned_lengths_lists.append(aligned_lengths_per_fpath[contigs_fpath])
+
+...........................................................................
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/contigs_analyzer.py in do(reference='/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/reference_10k.fasta', contigs_fpaths=['/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/contigs_10k_1.fasta', '/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/contigs_10k_2.fasta'], cyclic=True, output_dir='/software/galaxy/master/sabbai/galaxy-dist/tools...sults/results_2014_06_12_10_31_57/contigs_reports')
+   1265 
+   1266     n_jobs = min(len(contigs_fpaths), qconfig.max_threads)
+   1267     from joblib import Parallel, delayed
+   1268     statuses_results_lengths_tuples = Parallel(n_jobs=n_jobs)(delayed(plantakolya_process)(
+   1269         cyclic, nucmer_output_dir, fname, id, myenv, output_dir, reference)
+-> 1270           for id, fname in enumerate(contigs_fpaths))
+        id = undefined
+        contigs_fpaths = ['/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/corrected_input/contigs_10k_1.fasta', '/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/corrected_input/contigs_10k_2.fasta']
+   1271     # unzipping
+   1272     statuses, results, aligned_lengths = [x[0] for x in statuses_results_lengths_tuples], \
+   1273                                          [x[1] for x in statuses_results_lengths_tuples], \
+   1274                                          [x[2] for x in statuses_results_lengths_tuples]
+
+...........................................................................
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/site_packages/joblib/parallel.py in __call__(self=Parallel(n_jobs=2), iterable=<generator object <genexpr>>)
+    480         self.n_dispatched = 0
+    481         try:
+    482             for function, args, kwargs in iterable:
+    483                 self.dispatch(function, args, kwargs)
+    484 
+--> 485             self.retrieve()
+        self.retrieve = <bound method Parallel.retrieve of Parallel(n_jobs=2)>
+    486             # Make sure that we get a last message telling us we are done
+    487             elapsed_time = time.time() - self._start_time
+    488             self._print('Done %3i out of %3i | elapsed: %s finished',
+    489                         (len(self._output),
+
+---------------------------------------------------------------------------
+Sub-process traceback:
+---------------------------------------------------------------------------
+OSError                                            Thu Jun 12 10:32:01 2014
+PID: 33865        Python 2.7.6: /software/VERSIONS/python2-2.7.6/bin/python
+...........................................................................
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/contigs_analyzer.pyc in plantakolya_process(cyclic=True, nucmer_output_dirpath='/software/galaxy/master/sabbai/galaxy-dist/tools...2014_06_12_10_31_57/contigs_reports/nucmer_output', contigs_fpath='/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/contigs_10k_1.fasta', i=0, myenv={'CC': 'gcc', 'CPATH': '/software/VERSIONS/imagemagick-6.7.9-0/include:/.../VERSIONS/openmpi-1.6.1/include:/software/include', 'CVS_RSH': 'ssh', 'F90': 'gfortran', 'F95': 'gfortran', 'FC': 'gfortran', 'FPATH': '/software/VERSIONS/gcc-4.7.2/include:/software/VERSIONS/openmpi-1.6.1/include', 'G_BROKEN_FILENAMES': '1', 'HDF5_DIR': '/software/VERSIONS/hdf5-1.8.9', 'HISTCONTROL': 'ignoredups', ...}, output_dirpath='/software/galaxy/master/sabbai/galaxy-dist/tools...sults/results_2014_06_12_10_31_57/contigs_reports', ref_fpath='/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/reference_10k.fasta')
+   1214                         i, myenv, output_dirpath, ref_fpath):
+   1215     assembly_name = qutils.name_from_fpath(contigs_fpath)
+   1216 
+   1217     nucmer_fname = os.path.join(nucmer_output_dirpath, assembly_name)
+   1218     nucmer_is_ok, result, aligned_lengths = plantakolya(
+-> 1219         cyclic, i, contigs_fpath, nucmer_fname, myenv, output_dirpath, ref_fpath)
+   1220 
+   1221     clear_files(contigs_fpath, nucmer_fname)
+   1222     return nucmer_is_ok, result, aligned_lengths
+   1223 
+
+...........................................................................
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/contigs_analyzer.pyc in plantakolya(cyclic=True, i=0, contigs_fpath='/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/contigs_10k_1.fasta', nucmer_fpath='/software/galaxy/master/sabbai/galaxy-dist/tools...31_57/contigs_reports/nucmer_output/contigs_10k_1', myenv={'CC': 'gcc', 'CPATH': '/software/VERSIONS/imagemagick-6.7.9-0/include:/.../VERSIONS/openmpi-1.6.1/include:/software/include', 'CVS_RSH': 'ssh', 'F90': 'gfortran', 'F95': 'gfortran', 'FC': 'gfortran', 'FPATH': '/software/VERSIONS/gcc-4.7.2/include:/software/VERSIONS/openmpi-1.6.1/include', 'G_BROKEN_FILENAMES': '1', 'HDF5_DIR': '/software/VERSIONS/hdf5-1.8.9', 'HISTCONTROL': 'ignoredups', ...}, output_dirpath='/software/galaxy/master/sabbai/galaxy-dist/tools...sults/results_2014_06_12_10_31_57/contigs_reports', ref_fpath='/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/reference_10k.fasta')
+    181                         delta_file.write(line)
+    182                     chr_delta_file.close()
+    183 
+    184             delta_file.close()
+    185         else:
+--> 186             run_nucmer(nucmer_fpath, ref_fpath, contigs_fpath, log_out_fpath, log_err_fpath, myenv)
+    187 
+    188         # Filtering by IDY% = 95 (as GAGE did)
+    189         subprocess.call(['delta-filter', '-i', '95', delta_fpath],
+    190             stdout=open(filtered_delta_fpath, 'w'), stderr=planta_err_f, env=myenv)
+
+...........................................................................
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/contigs_analyzer.pyc in run_nucmer(prefix='/software/galaxy/master/sabbai/galaxy-dist/tools...31_57/contigs_reports/nucmer_output/contigs_10k_1', ref_fpath='/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/reference_10k.fasta', contigs_fpath='/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/contigs_10k_1.fasta', log_out_fpath='/software/galaxy/master/sabbai/galaxy-dist/tools...ntigs_reports/contigs_report_contigs_10k_1.stdout', log_err_fpath='/software/galaxy/master/sabbai/galaxy-dist/tools...ntigs_reports/contigs_report_contigs_10k_1.stderr', myenv={'CC': 'gcc', 'CPATH': '/software/VERSIONS/imagemagick-6.7.9-0/include:/.../VERSIONS/openmpi-1.6.1/include:/software/include', 'CVS_RSH': 'ssh', 'F90': 'gfortran', 'F95': 'gfortran', 'FC': 'gfortran', 'FPATH': '/software/VERSIONS/gcc-4.7.2/include:/software/VERSIONS/openmpi-1.6.1/include', 'G_BROKEN_FILENAMES': '1', 'HDF5_DIR': '/software/VERSIONS/hdf5-1.8.9', 'HISTCONTROL': 'ignoredups', ...})
+     97     log = open(log_out_fpath, 'a')
+     98     err = open(log_err_fpath, 'a')
+     99     # additional GAGE params of Nucmer: '-l', '30', '-banded'
+    100     subprocess.call(['nucmer', '-c', str(qconfig.mincluster), '-l', str(qconfig.mincluster),
+    101                      '--maxmatch', '-p', prefix, ref_fpath, contigs_fpath],
+--> 102                      stdout=log, stderr=err, env=myenv)
+    103 
+    104 
+    105 def plantakolya(cyclic, i, contigs_fpath, nucmer_fpath, myenv, output_dirpath, ref_fpath):
+    106     assembly_name = qutils.name_from_fpath(contigs_fpath)
+
+...........................................................................
+/software/VERSIONS/python2-2.7.6/lib/python2.7/subprocess.pyc in call(*popenargs=(['nucmer', '-c', '65', '-l', '65', '--maxmatch', '-p', '/software/galaxy/master/sabbai/galaxy-dist/tools...31_57/contigs_reports/nucmer_output/contigs_10k_1', '/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/reference_10k.fasta', '/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/contigs_10k_1.fasta'],), **kwargs={'env': {'CC': 'gcc', 'CPATH': '/software/VERSIONS/imagemagick-6.7.9-0/include:/.../VERSIONS/openmpi-1.6.1/include:/software/include', 'CVS_RSH': 'ssh', 'F90': 'gfortran', 'F95': 'gfortran', 'FC': 'gfortran', 'FPATH': '/software/VERSIONS/gcc-4.7.2/include:/software/VERSIONS/openmpi-1.6.1/include', 'G_BROKEN_FILENAMES': '1', 'HDF5_DIR': '/software/VERSIONS/hdf5-1.8.9', 'HISTCONTROL': 'ignoredups', ...}, 'stderr': <open file '/software/galaxy/master/sabbai/galax...s/contigs_report_contigs_10k_1.stderr', mode 'a'>, 'stdout': <open file '/software/galaxy/master/sabbai/galax...s/contigs_report_contigs_10k_1.stdout', mode 'a'>})
+    517 
+    518     The arguments are the same as for the Popen constructor.  Example:
+    519 
+    520     retcode = call(["ls", "-l"])
+    521     """
+--> 522     return Popen(*popenargs, **kwargs).wait()
+    523 
+    524 
+    525 def check_call(*popenargs, **kwargs):
+    526     """Run command with arguments.  Wait for command to complete.  If
+
+...........................................................................
+/software/VERSIONS/python2-2.7.6/lib/python2.7/subprocess.pyc in __init__(self=<subprocess.Popen object>, args=['nucmer', '-c', '65', '-l', '65', '--maxmatch', '-p', '/software/galaxy/master/sabbai/galaxy-dist/tools...31_57/contigs_reports/nucmer_output/contigs_10k_1', '/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/reference_10k.fasta', '/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/contigs_10k_1.fasta'], bufsize=0, executable=None, stdin=None, stdout=<open file '/software/galaxy/master/sabbai/galax...s/contigs_report_contigs_10k_1.stdout', mode 'a'>, stderr=<open file '/software/galaxy/master/sabbai/galax...s/contigs_report_contigs_10k_1.stderr', mode 'a'>, preexec_fn=None, close_fds=False, shell=False, cwd=None, env={'CC': 'gcc', 'CPATH': '/software/VERSIONS/imagemagick-6.7.9-0/include:/.../VERSIONS/openmpi-1.6.1/include:/software/include', 'CVS_RSH': 'ssh', 'F90': 'gfortran', 'F95': 'gfortran', 'FC': 'gfortran', 'FPATH': '/software/VERSIONS/gcc-4.7.2/include:/software/VERSIONS/openmpi-1.6.1/include', 'G_BROKEN_FILENAMES': '1', 'HDF5_DIR': '/software/VERSIONS/hdf5-1.8.9', 'HISTCONTROL': 'ignoredups', ...}, universal_newlines=False, startupinfo=None, creationflags=0)
+    704             self._execute_child(args, executable, preexec_fn, close_fds,
+    705                                 cwd, env, universal_newlines,
+    706                                 startupinfo, creationflags, shell, to_close,
+    707                                 p2cread, p2cwrite,
+    708                                 c2pread, c2pwrite,
+--> 709                                 errread, errwrite)
+    710         except Exception:
+    711             # Preserve original exception in case os.close raises.
+    712             exc_type, exc_value, exc_trace = sys.exc_info()
+    713 
+
+...........................................................................
+/software/VERSIONS/python2-2.7.6/lib/python2.7/subprocess.pyc in _execute_child(self=<subprocess.Popen object>, args=['nucmer', '-c', '65', '-l', '65', '--maxmatch', '-p', '/software/galaxy/master/sabbai/galaxy-dist/tools...31_57/contigs_reports/nucmer_output/contigs_10k_1', '/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/reference_10k.fasta', '/software/galaxy/master/sabbai/galaxy-dist/tools...6_12_10_31_57/corrected_input/contigs_10k_1.fasta'], executable='nucmer', preexec_fn=None, close_fds=False, cwd=None, env={'CC': 'gcc', 'CPATH': '/software/VERSIONS/imagemagick-6.7.9-0/include:/.../VERSIONS/openmpi-1.6.1/include:/software/include', 'CVS_RSH': 'ssh', 'F90': 'gfortran', 'F95': 'gfortran', 'FC': 'gfortran', 'FPATH': '/software/VERSIONS/gcc-4.7.2/include:/software/VERSIONS/openmpi-1.6.1/include', 'G_BROKEN_FILENAMES': '1', 'HDF5_DIR': '/software/VERSIONS/hdf5-1.8.9', 'HISTCONTROL': 'ignoredups', ...}, universal_newlines=False, startupinfo=None, creationflags=0, shell=False, to_close=set([]), p2cread=None, p2cwrite=None, c2pread=None, c2pwrite=10, errread=None, errwrite=11)
+   1321                     _eintr_retry_call(os.waitpid, self.pid, 0)
+   1322                 except OSError as e:
+   1323                     if e.errno != errno.ECHILD:
+   1324                         raise
+   1325                 child_exception = pickle.loads(data)
+-> 1326                 raise child_exception
+   1327 
+   1328 
+   1329         def _handle_exitstatus(self, sts, _WIFSIGNALED=os.WIFSIGNALED,
+   1330                 _WTERMSIG=os.WTERMSIG, _WIFEXITED=os.WIFEXITED,
+
+OSError: [Errno 2] No such file or directory
+___________________________________________________________________________

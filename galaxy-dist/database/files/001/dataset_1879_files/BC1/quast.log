@@ -1,0 +1,72 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1 -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1.fna -l cabog --scaffolds /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_585.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-05-04 22:42:17
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1.fna ==> BC1
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_585.dat ==> cabog
+  breaking scaffolds into contigs:
+      2389 scaffolds (cabog) were broken into 167 contigs (cabog_broken)
+
+2014-05-04 22:42:19
+Running Basic statistics processor...
+  Reference genome:
+    BC1.fna, Reference length = 5224283, Reference GC % = 35.58
+  Contig files: 
+    1  cabog broken
+    2  cabog
+  Calculating N50 and L50...
+    1  cabog broken, N50 = 237457, L50 = 7, Total length = 4967765, GC % = 61.54, # N's per 100 kbp =  0.02
+    2  cabog, N50 = 268392, L50 = 6, Total length = 4969781, GC % = 61.53, # N's per 100 kbp =  9.88
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1/basic_stats/NGx_plot.pdf
+Done.
+
+2014-05-04 22:42:21
+Running Contig analyzer...
+  1  cabog broken
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1/contigs_reports/contigs_report_cabog_broken.stdout and contigs_report_cabog_broken.stderr...
+  2  cabog
+  1  Running Nucmer... 
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1/contigs_reports/contigs_report_cabog.stdout and contigs_report_cabog.stderr...
+  2  Running Nucmer... 
+  2  Nucmer: nothing aligned for 'cabog'.
+  1  Nucmer: nothing aligned for 'cabog_broken'.
+Failed aligning the contigs for all the assemblies. Only basic stats are going to be evaluated.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-05-04 22:42:32
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1797/dataset_1879_files/BC1/quast.log
+
+Finished: 2014-05-04 22:42:32
+Elapsed time: 0:00:15.201498

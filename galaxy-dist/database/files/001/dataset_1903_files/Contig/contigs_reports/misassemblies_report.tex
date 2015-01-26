@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{8}{|r}|}
+\hline
+Assembly & SA-H-Abyss-Contig & SA-H-Cabog-Contig & SA-H-Mira-Contig & SA-H-Msrca-Contig & SA-H-Sga-Contig & SA-H-Soap-Contig & SA-H-Spades-Contig & SA-H-Velvet-Contig \\ \hline
+\# misassemblies & 62 & 78 & 80 & 75 & {\bf 34} & 61 & 67 & 66 \\ \hline
+\hspace{5mm}\# relocations & 61 & 78 & 77 & 74 & {\bf 33} & 60 & 66 & 64 \\ \hline
+\hspace{5mm}\# translocations & 1 & {\bf 0} & 2 & {\bf 0} & 1 & {\bf 0} & {\bf 0} & 1 \\ \hline
+\hspace{5mm}\# inversions & {\bf 0} & {\bf 0} & 1 & 1 & {\bf 0} & 1 & 1 & 1 \\ \hline
+\# misassembled contigs & 37 & 27 & 31 & 21 & 28 & 25 & {\bf 19} & 29 \\ \hline
+Misassembled contigs length & 2018672 & 2395546 & 2301598 & 2708175 & {\bf 1102196} & 2429427 & 2666808 & 2360697 \\ \hline
+\# local misassemblies & 68 & 63 & 77 & 78 & {\bf 44} & 79 & 83 & 78 \\ \hline
+\# mismatches & 22197 & 22101 & 22751 & 23308 & {\bf 20963} & 22361 & 22487 & 22661 \\ \hline
+\# indels & 1594 & 1877 & 1589 & 1553 & {\bf 1005} & 1408 & 1364 & 1548 \\ \hline
+\hspace{5mm}\# short indels ($\leq$ 5 bp) & 1531 & 1780 & 1513 & 1473 & {\bf 951} & 1332 & 1281 & 1478 \\ \hline
+\hspace{5mm}\# long indels ($>$ 5 bp) & 63 & 97 & 76 & 80 & {\bf 54} & 76 & 83 & 70 \\ \hline
+Indels length & 2821 & 3734 & 3165 & 3083 & {\bf 2304} & 2952 & 3031 & 2901 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

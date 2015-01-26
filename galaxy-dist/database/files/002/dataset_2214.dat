@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <body>
+    <a name="top"><h1>Tool output</h1></a>
+    <small>Compare this output? Use the tool <i>Compare statistics</i> from the tool menu.</small><br>
+    <p><h2>Content</h2>
+    <dl>
+    <dt><a href="#Scaffold"><strong><font color="black">Scaffold</font></strong></a>        <a href="Scaffold.zip">Download</a></dt>
+<dd>    <a href="#Scaffold-aligned_stats"><font color="black">aligned_stats</font></a><br>
+    <a href="#Scaffold-basic_stats"><font color="black">basic_stats</font></a><br>
+    <a href="#Scaffold-contigs_reports"><font color="black">contigs_reports</font></a><br>
+    <a href="#Scaffold-contigs_reports-nucmer_output"><font color="black">nucmer_output</font></a><br>
+    <a href="#Scaffold-genome_stats"><font color="black">genome_stats</font></a><br>
+    <a href="#Scaffold-json"><font color="black">json</font></a><br>
+    </dd><br>
+    </dl>
+    <hr>
+<a name="Scaffold"><h3>Scaffold</h3></a><ul>
+    <li><a href="Scaffold/plots.pdf">plots.pdf</a><br>
+    <li><a href="Scaffold/quast.log">quast.log</a><br>
+    <li><a href="Scaffold/report.html">report.html</a><br>
+    <li><a href="Scaffold/report.tex">report.tex</a><br>
+    <li><a href="Scaffold/report.tsv">report.tsv</a><br>
+    <li><a href="Scaffold/report.txt">report.txt</a><br>
+    <li><a href="Scaffold/transposed_report.tex">transposed_report.tex</a><br>
+    <li><a href="Scaffold/transposed_report.tsv">transposed_report.tsv</a><br>
+    <li><a href="Scaffold/transposed_report.txt">transposed_report.txt</a><br>
+    </ul></p>
+   <p><a name="Scaffold-aligned_stats"><strong>aligned_stats</strong></a><ul>
+    <li><a href="Scaffold/aligned_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="Scaffold/aligned_stats/NAx_plot.pdf">NAx_plot.pdf</a><br>
+    <li><a href="Scaffold/aligned_stats/NGAx_plot.pdf">NGAx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="Scaffold-basic_stats"><strong>basic_stats</strong></a><ul>
+    <li><a href="Scaffold/basic_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="Scaffold/basic_stats/GC_content_plot.pdf">GC_content_plot.pdf</a><br>
+    <li><a href="Scaffold/basic_stats/NGx_plot.pdf">NGx_plot.pdf</a><br>
+    <li><a href="Scaffold/basic_stats/Nx_plot.pdf">Nx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="Scaffold-contigs_reports"><strong>contigs_reports</strong></a><ul>
+    <li><a href="Scaffold/contigs_reports/alignments_GAGE-B.tsv">alignments_GAGE-B.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_GAGE-B_broken.tsv">alignments_GAGE-B_broken.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_Velvet_1.2.tsv">alignments_Velvet_1.2.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_Velvet_1.tsv">alignments_Velvet_1.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_GAGE-B.stderr">contigs_report_GAGE-B.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_GAGE-B.stdout">contigs_report_GAGE-B.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_GAGE-B_broken.stderr">contigs_report_GAGE-B_broken.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_GAGE-B_broken.stdout">contigs_report_GAGE-B_broken.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_Velvet_1.2.stderr">contigs_report_Velvet_1.2.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_Velvet_1.2.stdout">contigs_report_Velvet_1.2.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_Velvet_1.stderr">contigs_report_Velvet_1.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_Velvet_1.stdout">contigs_report_Velvet_1.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/GAGE-B.mis_contigs.fa">GAGE-B.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/GAGE-B_broken.mis_contigs.fa">GAGE-B_broken.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/misassemblies_report.tex">misassemblies_report.tex</a><br>
+    <li><a href="Scaffold/contigs_reports/misassemblies_report.tsv">misassemblies_report.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/misassemblies_report.txt">misassemblies_report.txt</a><br>
+    <li><a href="Scaffold/contigs_reports/unaligned_report.tex">unaligned_report.tex</a><br>
+    <li><a href="Scaffold/contigs_reports/unaligned_report.tsv">unaligned_report.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/unaligned_report.txt">unaligned_report.txt</a><br>
+    <li><a href="Scaffold/contigs_reports/Velvet_1.2.mis_contigs.fa">Velvet_1.2.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/Velvet_1.mis_contigs.fa">Velvet_1.mis_contigs.fa</a><br>
+    <li><a name="Scaffold-contigs_reports-nucmer_output"><strong>nucmer_output</strong></a><br><ul>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/GAGE-B.all_snps">GAGE-B.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/GAGE-B.coords">GAGE-B.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/GAGE-B.coords.filtered">GAGE-B.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/GAGE-B.sf">GAGE-B.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/GAGE-B.unaligned">GAGE-B.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/GAGE-B.used_snps">GAGE-B.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/GAGE-B_broken.all_snps">GAGE-B_broken.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/GAGE-B_broken.coords">GAGE-B_broken.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/GAGE-B_broken.coords.filtered">GAGE-B_broken.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/GAGE-B_broken.sf">GAGE-B_broken.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/GAGE-B_broken.unaligned">GAGE-B_broken.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/GAGE-B_broken.used_snps">GAGE-B_broken.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/Velvet_1.2.all_snps">Velvet_1.2.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/Velvet_1.2.coords">Velvet_1.2.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/Velvet_1.2.coords.filtered">Velvet_1.2.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/Velvet_1.2.sf">Velvet_1.2.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/Velvet_1.2.unaligned">Velvet_1.2.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/Velvet_1.2.used_snps">Velvet_1.2.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/Velvet_1.all_snps">Velvet_1.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/Velvet_1.coords">Velvet_1.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/Velvet_1.coords.filtered">Velvet_1.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/Velvet_1.sf">Velvet_1.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/Velvet_1.unaligned">Velvet_1.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2132/dataset_2214_files/Scaffold/Velvet_1.used_snps">Velvet_1.used_snps</a><br>
+     </ul>
+    </ul></p>
+   <p><a name="Scaffold-genome_stats"><strong>genome_stats</strong></a><ul>
+    <li><a href="Scaffold/genome_stats/complete_genes_histogram.pdf">complete_genes_histogram.pdf</a><br>
+    <li><a href="Scaffold/genome_stats/GAGE-B_broken_gaps.txt">GAGE-B_broken_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/GAGE-B_broken_genes.txt">GAGE-B_broken_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/GAGE-B_gaps.txt">GAGE-B_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/GAGE-B_genes.txt">GAGE-B_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/genes_cumulative_plot.pdf">genes_cumulative_plot.pdf</a><br>
+    <li><a href="Scaffold/genome_stats/genome_fraction_histogram.pdf">genome_fraction_histogram.pdf</a><br>
+    <li><a href="Scaffold/genome_stats/genome_info.txt">genome_info.txt</a><br>
+    <li><a href="Scaffold/genome_stats/Velvet_1.2_gaps.txt">Velvet_1.2_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/Velvet_1.2_genes.txt">Velvet_1.2_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/Velvet_1_gaps.txt">Velvet_1_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/Velvet_1_genes.txt">Velvet_1_genes.txt</a><br>
+    </ul></p>
+   <p><a name="Scaffold-json"><strong>json</strong></a><ul>
+    <li><a href="Scaffold/json/aligned_contigs_lengths.json">aligned_contigs_lengths.json</a><br>
+    <li><a href="Scaffold/json/assemblies_lengths.json">assemblies_lengths.json</a><br>
+    <li><a href="Scaffold/json/contigs_lengths.json">contigs_lengths.json</a><br>
+    <li><a href="Scaffold/json/gc.json">gc.json</a><br>
+    <li><a href="Scaffold/json/genes_in_contigs.json">genes_in_contigs.json</a><br>
+    <li><a href="Scaffold/json/ref_length.json">ref_length.json</a><br>
+    <li><a href="Scaffold/json/report.json">report.json</a><br>
+    </ul></p>
+    <a href="#top"><font color="black">[To the top]</font></a><br>    </body>
+</html>

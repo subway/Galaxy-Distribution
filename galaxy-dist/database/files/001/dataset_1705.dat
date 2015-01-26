@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <body>
+    <a name="top"><h1>Tool output</h1></a>
+    <small>Compare this output? Use the tool <i>Compare statistics</i> from the tool menu.</small><br>
+    <p><h2>Content</h2>
+    <dl>
+    <dt><a href="#Scaffold"><strong><font color="black">Scaffold</font></strong></a>        <a href="Scaffold.zip">Download</a></dt>
+<dd>    <a href="#Scaffold-aligned_stats"><font color="black">aligned_stats</font></a><br>
+    <a href="#Scaffold-basic_stats"><font color="black">basic_stats</font></a><br>
+    <a href="#Scaffold-contigs_reports"><font color="black">contigs_reports</font></a><br>
+    <a href="#Scaffold-contigs_reports-nucmer_output"><font color="black">nucmer_output</font></a><br>
+    <a href="#Scaffold-genome_stats"><font color="black">genome_stats</font></a><br>
+    <a href="#Scaffold-json"><font color="black">json</font></a><br>
+    </dd><br>
+    </dl>
+    <hr>
+<a name="Scaffold"><h3>Scaffold</h3></a><ul>
+    <li><a href="Scaffold/plots.pdf">plots.pdf</a><br>
+    <li><a href="Scaffold/quast.log">quast.log</a><br>
+    <li><a href="Scaffold/report.html">report.html</a><br>
+    <li><a href="Scaffold/report.tex">report.tex</a><br>
+    <li><a href="Scaffold/report.tsv">report.tsv</a><br>
+    <li><a href="Scaffold/report.txt">report.txt</a><br>
+    <li><a href="Scaffold/transposed_report.tex">transposed_report.tex</a><br>
+    <li><a href="Scaffold/transposed_report.tsv">transposed_report.tsv</a><br>
+    <li><a href="Scaffold/transposed_report.txt">transposed_report.txt</a><br>
+    </ul></p>
+   <p><a name="Scaffold-aligned_stats"><strong>aligned_stats</strong></a><ul>
+    <li><a href="Scaffold/aligned_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="Scaffold/aligned_stats/NAx_plot.pdf">NAx_plot.pdf</a><br>
+    <li><a href="Scaffold/aligned_stats/NGAx_plot.pdf">NGAx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="Scaffold-basic_stats"><strong>basic_stats</strong></a><ul>
+    <li><a href="Scaffold/basic_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="Scaffold/basic_stats/GC_content_plot.pdf">GC_content_plot.pdf</a><br>
+    <li><a href="Scaffold/basic_stats/NGx_plot.pdf">NGx_plot.pdf</a><br>
+    <li><a href="Scaffold/basic_stats/Nx_plot.pdf">Nx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="Scaffold-contigs_reports"><strong>contigs_reports</strong></a><ul>
+    <li><a href="Scaffold/contigs_reports/alignments_BF-H-Abyss-Scaffold.tsv">alignments_BF-H-Abyss-Scaffold.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_BF-H-Abyss-Scaffold_broken.tsv">alignments_BF-H-Abyss-Scaffold_broken.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_BF-H-Cabog-Scaffold.tsv">alignments_BF-H-Cabog-Scaffold.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_BF-H-Cabog-Scaffold_broken.tsv">alignments_BF-H-Cabog-Scaffold_broken.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_BF-H-Msrca-Scaffold.tsv">alignments_BF-H-Msrca-Scaffold.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_BF-H-Msrca-Scaffold_broken.tsv">alignments_BF-H-Msrca-Scaffold_broken.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_BF-H-Sga-Scaffold.tsv">alignments_BF-H-Sga-Scaffold.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_BF-H-Sga-Scaffold_broken.tsv">alignments_BF-H-Sga-Scaffold_broken.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_BF-H-Soap-Scaffold.tsv">alignments_BF-H-Soap-Scaffold.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_BF-H-Soap-Scaffold_broken.tsv">alignments_BF-H-Soap-Scaffold_broken.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_BF-H-Spades-Scaffold.tsv">alignments_BF-H-Spades-Scaffold.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_BF-H-Spades-Scaffold_broken.tsv">alignments_BF-H-Spades-Scaffold_broken.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_BF-H-Velvet-Scaffold.tsv">alignments_BF-H-Velvet-Scaffold.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/alignments_BF-H-Velvet-Scaffold_broken.tsv">alignments_BF-H-Velvet-Scaffold_broken.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/BF-H-Abyss-Scaffold.mis_contigs.fa">BF-H-Abyss-Scaffold.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/BF-H-Abyss-Scaffold_broken.mis_contigs.fa">BF-H-Abyss-Scaffold_broken.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/BF-H-Cabog-Scaffold.mis_contigs.fa">BF-H-Cabog-Scaffold.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/BF-H-Cabog-Scaffold_broken.mis_contigs.fa">BF-H-Cabog-Scaffold_broken.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/BF-H-Msrca-Scaffold.mis_contigs.fa">BF-H-Msrca-Scaffold.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/BF-H-Msrca-Scaffold_broken.mis_contigs.fa">BF-H-Msrca-Scaffold_broken.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/BF-H-Sga-Scaffold.mis_contigs.fa">BF-H-Sga-Scaffold.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/BF-H-Sga-Scaffold_broken.mis_contigs.fa">BF-H-Sga-Scaffold_broken.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/BF-H-Soap-Scaffold.mis_contigs.fa">BF-H-Soap-Scaffold.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/BF-H-Soap-Scaffold_broken.mis_contigs.fa">BF-H-Soap-Scaffold_broken.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/BF-H-Spades-Scaffold.mis_contigs.fa">BF-H-Spades-Scaffold.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/BF-H-Spades-Scaffold_broken.mis_contigs.fa">BF-H-Spades-Scaffold_broken.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/BF-H-Velvet-Scaffold.mis_contigs.fa">BF-H-Velvet-Scaffold.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/BF-H-Velvet-Scaffold_broken.mis_contigs.fa">BF-H-Velvet-Scaffold_broken.mis_contigs.fa</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Abyss-Scaffold.stderr">contigs_report_BF-H-Abyss-Scaffold.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Abyss-Scaffold.stdout">contigs_report_BF-H-Abyss-Scaffold.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Abyss-Scaffold_broken.stderr">contigs_report_BF-H-Abyss-Scaffold_broken.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Abyss-Scaffold_broken.stdout">contigs_report_BF-H-Abyss-Scaffold_broken.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Cabog-Scaffold.stderr">contigs_report_BF-H-Cabog-Scaffold.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Cabog-Scaffold.stdout">contigs_report_BF-H-Cabog-Scaffold.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Cabog-Scaffold_broken.stderr">contigs_report_BF-H-Cabog-Scaffold_broken.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Cabog-Scaffold_broken.stdout">contigs_report_BF-H-Cabog-Scaffold_broken.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Msrca-Scaffold.stderr">contigs_report_BF-H-Msrca-Scaffold.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Msrca-Scaffold.stdout">contigs_report_BF-H-Msrca-Scaffold.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Msrca-Scaffold_broken.stderr">contigs_report_BF-H-Msrca-Scaffold_broken.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Msrca-Scaffold_broken.stdout">contigs_report_BF-H-Msrca-Scaffold_broken.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Sga-Scaffold.stderr">contigs_report_BF-H-Sga-Scaffold.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Sga-Scaffold.stdout">contigs_report_BF-H-Sga-Scaffold.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Sga-Scaffold_broken.stderr">contigs_report_BF-H-Sga-Scaffold_broken.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Sga-Scaffold_broken.stdout">contigs_report_BF-H-Sga-Scaffold_broken.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Soap-Scaffold.stderr">contigs_report_BF-H-Soap-Scaffold.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Soap-Scaffold.stdout">contigs_report_BF-H-Soap-Scaffold.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Soap-Scaffold_broken.stderr">contigs_report_BF-H-Soap-Scaffold_broken.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Soap-Scaffold_broken.stdout">contigs_report_BF-H-Soap-Scaffold_broken.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Spades-Scaffold.stderr">contigs_report_BF-H-Spades-Scaffold.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Spades-Scaffold.stdout">contigs_report_BF-H-Spades-Scaffold.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Spades-Scaffold_broken.stderr">contigs_report_BF-H-Spades-Scaffold_broken.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Spades-Scaffold_broken.stdout">contigs_report_BF-H-Spades-Scaffold_broken.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Velvet-Scaffold.stderr">contigs_report_BF-H-Velvet-Scaffold.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Velvet-Scaffold.stdout">contigs_report_BF-H-Velvet-Scaffold.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Velvet-Scaffold_broken.stderr">contigs_report_BF-H-Velvet-Scaffold_broken.stderr</a><br>
+    <li><a href="Scaffold/contigs_reports/contigs_report_BF-H-Velvet-Scaffold_broken.stdout">contigs_report_BF-H-Velvet-Scaffold_broken.stdout</a><br>
+    <li><a href="Scaffold/contigs_reports/misassemblies_report.tex">misassemblies_report.tex</a><br>
+    <li><a href="Scaffold/contigs_reports/misassemblies_report.tsv">misassemblies_report.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/misassemblies_report.txt">misassemblies_report.txt</a><br>
+    <li><a href="Scaffold/contigs_reports/unaligned_report.tex">unaligned_report.tex</a><br>
+    <li><a href="Scaffold/contigs_reports/unaligned_report.tsv">unaligned_report.tsv</a><br>
+    <li><a href="Scaffold/contigs_reports/unaligned_report.txt">unaligned_report.txt</a><br>
+    <li><a name="Scaffold-contigs_reports-nucmer_output"><strong>nucmer_output</strong></a><br><ul>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Abyss-Scaffold.all_snps">BF-H-Abyss-Scaffold.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Abyss-Scaffold.coords">BF-H-Abyss-Scaffold.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Abyss-Scaffold.coords.filtered">BF-H-Abyss-Scaffold.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Abyss-Scaffold.sf">BF-H-Abyss-Scaffold.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Abyss-Scaffold.unaligned">BF-H-Abyss-Scaffold.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Abyss-Scaffold.used_snps">BF-H-Abyss-Scaffold.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Abyss-Scaffold_broken.all_snps">BF-H-Abyss-Scaffold_broken.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Abyss-Scaffold_broken.coords">BF-H-Abyss-Scaffold_broken.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Abyss-Scaffold_broken.coords.filtered">BF-H-Abyss-Scaffold_broken.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Abyss-Scaffold_broken.sf">BF-H-Abyss-Scaffold_broken.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Abyss-Scaffold_broken.unaligned">BF-H-Abyss-Scaffold_broken.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Abyss-Scaffold_broken.used_snps">BF-H-Abyss-Scaffold_broken.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Cabog-Scaffold.all_snps">BF-H-Cabog-Scaffold.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Cabog-Scaffold.coords">BF-H-Cabog-Scaffold.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Cabog-Scaffold.coords.filtered">BF-H-Cabog-Scaffold.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Cabog-Scaffold.sf">BF-H-Cabog-Scaffold.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Cabog-Scaffold.unaligned">BF-H-Cabog-Scaffold.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Cabog-Scaffold.used_snps">BF-H-Cabog-Scaffold.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Cabog-Scaffold_broken.all_snps">BF-H-Cabog-Scaffold_broken.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Cabog-Scaffold_broken.coords">BF-H-Cabog-Scaffold_broken.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Cabog-Scaffold_broken.coords.filtered">BF-H-Cabog-Scaffold_broken.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Cabog-Scaffold_broken.sf">BF-H-Cabog-Scaffold_broken.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Cabog-Scaffold_broken.unaligned">BF-H-Cabog-Scaffold_broken.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Cabog-Scaffold_broken.used_snps">BF-H-Cabog-Scaffold_broken.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Msrca-Scaffold.all_snps">BF-H-Msrca-Scaffold.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Msrca-Scaffold.coords">BF-H-Msrca-Scaffold.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Msrca-Scaffold.coords.filtered">BF-H-Msrca-Scaffold.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Msrca-Scaffold.sf">BF-H-Msrca-Scaffold.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Msrca-Scaffold.unaligned">BF-H-Msrca-Scaffold.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Msrca-Scaffold.used_snps">BF-H-Msrca-Scaffold.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Msrca-Scaffold_broken.all_snps">BF-H-Msrca-Scaffold_broken.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Msrca-Scaffold_broken.coords">BF-H-Msrca-Scaffold_broken.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Msrca-Scaffold_broken.coords.filtered">BF-H-Msrca-Scaffold_broken.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Msrca-Scaffold_broken.sf">BF-H-Msrca-Scaffold_broken.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Msrca-Scaffold_broken.unaligned">BF-H-Msrca-Scaffold_broken.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Msrca-Scaffold_broken.used_snps">BF-H-Msrca-Scaffold_broken.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Sga-Scaffold.all_snps">BF-H-Sga-Scaffold.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Sga-Scaffold.coords">BF-H-Sga-Scaffold.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Sga-Scaffold.coords.filtered">BF-H-Sga-Scaffold.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Sga-Scaffold.sf">BF-H-Sga-Scaffold.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Sga-Scaffold.unaligned">BF-H-Sga-Scaffold.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Sga-Scaffold.used_snps">BF-H-Sga-Scaffold.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Sga-Scaffold_broken.all_snps">BF-H-Sga-Scaffold_broken.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Sga-Scaffold_broken.coords">BF-H-Sga-Scaffold_broken.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Sga-Scaffold_broken.coords.filtered">BF-H-Sga-Scaffold_broken.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Sga-Scaffold_broken.sf">BF-H-Sga-Scaffold_broken.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Sga-Scaffold_broken.unaligned">BF-H-Sga-Scaffold_broken.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Sga-Scaffold_broken.used_snps">BF-H-Sga-Scaffold_broken.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Soap-Scaffold.all_snps">BF-H-Soap-Scaffold.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Soap-Scaffold.coords">BF-H-Soap-Scaffold.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Soap-Scaffold.coords.filtered">BF-H-Soap-Scaffold.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Soap-Scaffold.sf">BF-H-Soap-Scaffold.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Soap-Scaffold.unaligned">BF-H-Soap-Scaffold.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Soap-Scaffold.used_snps">BF-H-Soap-Scaffold.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Soap-Scaffold_broken.all_snps">BF-H-Soap-Scaffold_broken.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Soap-Scaffold_broken.coords">BF-H-Soap-Scaffold_broken.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Soap-Scaffold_broken.coords.filtered">BF-H-Soap-Scaffold_broken.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Soap-Scaffold_broken.sf">BF-H-Soap-Scaffold_broken.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Soap-Scaffold_broken.unaligned">BF-H-Soap-Scaffold_broken.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Soap-Scaffold_broken.used_snps">BF-H-Soap-Scaffold_broken.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Spades-Scaffold.all_snps">BF-H-Spades-Scaffold.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Spades-Scaffold.coords">BF-H-Spades-Scaffold.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Spades-Scaffold.coords.filtered">BF-H-Spades-Scaffold.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Spades-Scaffold.sf">BF-H-Spades-Scaffold.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Spades-Scaffold.unaligned">BF-H-Spades-Scaffold.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Spades-Scaffold.used_snps">BF-H-Spades-Scaffold.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Spades-Scaffold_broken.all_snps">BF-H-Spades-Scaffold_broken.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Spades-Scaffold_broken.coords">BF-H-Spades-Scaffold_broken.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Spades-Scaffold_broken.coords.filtered">BF-H-Spades-Scaffold_broken.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Spades-Scaffold_broken.sf">BF-H-Spades-Scaffold_broken.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Spades-Scaffold_broken.unaligned">BF-H-Spades-Scaffold_broken.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Spades-Scaffold_broken.used_snps">BF-H-Spades-Scaffold_broken.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Velvet-Scaffold.all_snps">BF-H-Velvet-Scaffold.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Velvet-Scaffold.coords">BF-H-Velvet-Scaffold.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Velvet-Scaffold.coords.filtered">BF-H-Velvet-Scaffold.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Velvet-Scaffold.sf">BF-H-Velvet-Scaffold.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Velvet-Scaffold.unaligned">BF-H-Velvet-Scaffold.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Velvet-Scaffold.used_snps">BF-H-Velvet-Scaffold.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Velvet-Scaffold_broken.all_snps">BF-H-Velvet-Scaffold_broken.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Velvet-Scaffold_broken.coords">BF-H-Velvet-Scaffold_broken.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Velvet-Scaffold_broken.coords.filtered">BF-H-Velvet-Scaffold_broken.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Velvet-Scaffold_broken.sf">BF-H-Velvet-Scaffold_broken.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Velvet-Scaffold_broken.unaligned">BF-H-Velvet-Scaffold_broken.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/BF-H-Velvet-Scaffold_broken.used_snps">BF-H-Velvet-Scaffold_broken.used_snps</a><br>
+     </ul>
+    </ul></p>
+   <p><a name="Scaffold-genome_stats"><strong>genome_stats</strong></a><ul>
+    <li><a href="Scaffold/genome_stats/BF-H-Abyss-Scaffold_broken_gaps.txt">BF-H-Abyss-Scaffold_broken_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Abyss-Scaffold_broken_genes.txt">BF-H-Abyss-Scaffold_broken_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Abyss-Scaffold_gaps.txt">BF-H-Abyss-Scaffold_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Abyss-Scaffold_genes.txt">BF-H-Abyss-Scaffold_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Cabog-Scaffold_broken_gaps.txt">BF-H-Cabog-Scaffold_broken_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Cabog-Scaffold_broken_genes.txt">BF-H-Cabog-Scaffold_broken_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Cabog-Scaffold_gaps.txt">BF-H-Cabog-Scaffold_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Cabog-Scaffold_genes.txt">BF-H-Cabog-Scaffold_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Msrca-Scaffold_broken_gaps.txt">BF-H-Msrca-Scaffold_broken_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Msrca-Scaffold_broken_genes.txt">BF-H-Msrca-Scaffold_broken_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Msrca-Scaffold_gaps.txt">BF-H-Msrca-Scaffold_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Msrca-Scaffold_genes.txt">BF-H-Msrca-Scaffold_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Sga-Scaffold_broken_gaps.txt">BF-H-Sga-Scaffold_broken_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Sga-Scaffold_broken_genes.txt">BF-H-Sga-Scaffold_broken_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Sga-Scaffold_gaps.txt">BF-H-Sga-Scaffold_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Sga-Scaffold_genes.txt">BF-H-Sga-Scaffold_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Soap-Scaffold_broken_gaps.txt">BF-H-Soap-Scaffold_broken_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Soap-Scaffold_broken_genes.txt">BF-H-Soap-Scaffold_broken_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Soap-Scaffold_gaps.txt">BF-H-Soap-Scaffold_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Soap-Scaffold_genes.txt">BF-H-Soap-Scaffold_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Spades-Scaffold_broken_gaps.txt">BF-H-Spades-Scaffold_broken_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Spades-Scaffold_broken_genes.txt">BF-H-Spades-Scaffold_broken_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Spades-Scaffold_gaps.txt">BF-H-Spades-Scaffold_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Spades-Scaffold_genes.txt">BF-H-Spades-Scaffold_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Velvet-Scaffold_broken_gaps.txt">BF-H-Velvet-Scaffold_broken_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Velvet-Scaffold_broken_genes.txt">BF-H-Velvet-Scaffold_broken_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Velvet-Scaffold_gaps.txt">BF-H-Velvet-Scaffold_gaps.txt</a><br>
+    <li><a href="Scaffold/genome_stats/BF-H-Velvet-Scaffold_genes.txt">BF-H-Velvet-Scaffold_genes.txt</a><br>
+    <li><a href="Scaffold/genome_stats/complete_genes_histogram.pdf">complete_genes_histogram.pdf</a><br>
+    <li><a href="Scaffold/genome_stats/genes_cumulative_plot.pdf">genes_cumulative_plot.pdf</a><br>
+    <li><a href="Scaffold/genome_stats/genome_fraction_histogram.pdf">genome_fraction_histogram.pdf</a><br>
+    <li><a href="Scaffold/genome_stats/genome_info.txt">genome_info.txt</a><br>
+    </ul></p>
+   <p><a name="Scaffold-json"><strong>json</strong></a><ul>
+    <li><a href="Scaffold/json/aligned_contigs_lengths.json">aligned_contigs_lengths.json</a><br>
+    <li><a href="Scaffold/json/assemblies_lengths.json">assemblies_lengths.json</a><br>
+    <li><a href="Scaffold/json/contigs_lengths.json">contigs_lengths.json</a><br>
+    <li><a href="Scaffold/json/gc.json">gc.json</a><br>
+    <li><a href="Scaffold/json/genes_in_contigs.json">genes_in_contigs.json</a><br>
+    <li><a href="Scaffold/json/ref_length.json">ref_length.json</a><br>
+    <li><a href="Scaffold/json/report.json">report.json</a><br>
+    </ul></p>
+    <a href="#top"><font color="black">[To the top]</font></a><br>    </body>
+</html>

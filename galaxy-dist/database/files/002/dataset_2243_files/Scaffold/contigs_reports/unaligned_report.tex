@@ -1,0 +1,19 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{4}{|r}|}
+\hline
+Assembly & GAGE-B broken & GAGE-B & SOAPdenovo2 broken & SOAPdenovo2 \\ \hline
+\# fully unaligned contigs & 2 & 2 & 2 & 2 \\ \hline
+Fully unaligned length & 5991 & 5991 & 5991 & 5991 \\ \hline
+\# partially unaligned contigs & 3 & 2 & {\bf 0} & 4 \\ \hline
+\hspace{5mm}\# with misassembly & {\bf 0} & {\bf 0} & {\bf 0} & 1 \\ \hline
+\hspace{5mm}\# both parts are significant & {\bf 0} & {\bf 0} & {\bf 0} & 2 \\ \hline
+Partially unaligned length & 489 & 478 & {\bf 0} & 2958 \\ \hline
+\# N's & {\bf 0} & 3632 & {\bf 0} & 40589 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

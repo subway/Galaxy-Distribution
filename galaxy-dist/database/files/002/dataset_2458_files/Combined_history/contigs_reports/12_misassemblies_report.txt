@@ -1,0 +1,15 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                      XA-H-Cabog-Contig  XA-H-Mira-Contig  XA-H-Msrca-Contig  XA-H-Sga-Contig  XA-H-Soap-Contig  XA-H-Spades-Contig  XA-H-Velvet-Contig
+# misassemblies               1                  0                 0                  6                0                 0                   0                 
+    # relocations             1                  0                 0                  6                0                 0                   0                 
+    # translocations          0                  0                 0                  0                0                 0                   0                 
+    # inversions              0                  0                 0                  0                0                 0                   0                 
+# misassembled contigs        1                  0                 0                  5                0                 0                   0                 
+Misassembled contigs length   18508              0                 0                  256146           0                 0                   0                 
+# local misassemblies         6                  7                 7                  22               6                 8                   12                
+# mismatches                  9845               10503             10183              30389            13115             9276                12158             
+# indels                      415                388               474                1105             468               323                 551               
+    # short indels (<= 5 bp)  407                379               468                1079             455               315                 542               
+    # long indels (> 5 bp)    8                  9                 6                  26               13                8                   9                 
+Indels length                 649                607               609                1575             709               498                 762               

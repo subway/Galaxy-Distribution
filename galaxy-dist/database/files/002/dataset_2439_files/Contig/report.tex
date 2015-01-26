@@ -1,0 +1,50 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{8}{|r}|}
+\hline
+Assembly & BF-H-Abyss-Contig & BF-H-Cabog-Contig & BF-H-Mira-Contig & BF-H-Msrca-Contig & BF-H-Sga-Contig & BF-H-Soap-Contig & BF-H-Spades-Contig & BF-H-Velvet-Contig \\ \hline
+\# contigs ($\geq$ 200 bp) & 158 & 137 & 401 & {\bf 119} & 494 & 246 & 146 & 213 \\ \hline
+\# contigs ($\geq$ 1000 bp) & 141 & 136 & 109 & 102 & 233 & 118 & {\bf 86} & 120 \\ \hline
+Total length ($\geq$ 200 bp) & {\bf 7040097} & 5214141 & 5413276 & 5396385 & 5270722 & 5292186 & 5331476 & 5284077 \\ \hline
+Total length ($\geq$ 1000 bp) & {\bf 7031322} & 5213908 & 5299150 & 5386876 & 5177435 & 5241412 & 5302376 & 5246405 \\ \hline
+\# contigs & 149 & 136 & 174 & {\bf 109} & 281 & 149 & 110 & 142 \\ \hline
+Total length & {\bf 7036707} & 5213908 & 5340833 & 5392427 & 5209075 & 5262789 & 5319487 & 5261270 \\ \hline
+Largest contig & 419237 & 363813 & 378585 & 391846 & 188622 & 384109 & {\bf 534462} & 286976 \\ \hline
+Reference length & 5373121 & 5373121 & 5373121 & 5373121 & 5373121 & 5373121 & 5373121 & 5373121 \\ \hline
+GC (\%) & 43.43 & 43.41 & 43.47 & 43.45 & 43.45 & 43.47 & 43.47 & 43.46 \\ \hline
+Reference GC (\%) & 43.42 & 43.42 & 43.42 & 43.42 & 43.42 & 43.42 & 43.42 & 43.42 \\ \hline
+N50 & 106769 & 95840 & 134263 & {\bf 158716} & 45047 & 125627 & 157732 & 125214 \\ \hline
+NG50 & 146158 & 94207 & 134263 & {\bf 158716} & 41244 & 116105 & 157732 & 125214 \\ \hline
+N75 & 56017 & 42294 & 84346 & 74628 & 26391 & 58562 & {\bf 86371} & 59460 \\ \hline
+NG75 & {\bf 92833} & 41281 & 84346 & 74628 & 24099 & 56336 & 86371 & 59261 \\ \hline
+L50 & 19 & 18 & 12 & 11 & 38 & 14 & {\bf 10} & 14 \\ \hline
+LG50 & 13 & 19 & 12 & 11 & 40 & 15 & {\bf 10} & 14 \\ \hline
+L75 & 42 & 38 & 24 & 23 & 76 & 30 & {\bf 22} & 29 \\ \hline
+LG75 & 25 & 41 & 24 & 23 & 81 & 32 & {\bf 22} & 30 \\ \hline
+\# misassemblies & 154 & 102 & 115 & 119 & {\bf 65} & 92 & 104 & 98 \\ \hline
+Misassembled contigs length & 5508098 & 3570138 & 4218273 & 4167060 & {\bf 2145331} & 3785868 & 3997256 & 3745674 \\ \hline
+\# local misassemblies & 53 & 48 & 50 & 50 & {\bf 39} & 46 & 50 & 46 \\ \hline
+\# unaligned contigs & 34 + 28 part & 24 + 25 part & 88 + 27 part & {\bf 19 + 17 part} & 75 + 52 part & 59 + 21 part & 46 + 18 part & 63 + 18 part \\ \hline
+Unaligned contigs length & 683663 & 476251 & 518771 & {\bf 439656} & 679045 & 517502 & 485848 & 487386 \\ \hline
+Genome fraction (\%) & {\bf 80.626} & 79.582 & 80.390 & 80.517 & 79.584 & 80.132 & 80.382 & 80.117 \\ \hline
+Duplication ratio & 1.467 & 1.109 & 1.117 & 1.146 & {\bf 1.060} & 1.103 & 1.120 & 1.109 \\ \hline
+\# N's per 100 kbp & 3.40 & {\bf 0.00} & 2.45 & {\bf 0.00} & {\bf 0.00} & {\bf 0.00} & 8.25 & {\bf 0.00} \\ \hline
+\# mismatches per 100 kbp & 661.17 & 659.26 & 669.71 & 684.22 & {\bf 641.35} & 660.86 & 666.63 & 660.05 \\ \hline
+\# indels per 100 kbp & 37.13 & 63.80 & 31.48 & 29.50 & {\bf 26.27} & 28.93 & 32.51 & 31.13 \\ \hline
+\# genes & {\bf 3391 + 102 part} & 3301 + 156 part & 3373 + 107 part & 3377 + 105 part & 3303 + 134 part & 3360 + 111 part & 3373 + 103 part & 3363 + 106 part \\ \hline
+Largest alignment & 186153 & 182457 & {\bf 188970} & 185930 & 133449 & 185821 & 185423 & 185610 \\ \hline
+NA50 & 38481 & 33716 & {\bf 43533} & 42218 & 27630 & 42686 & 43492 & 42686 \\ \hline
+NGA50 & {\bf 50798} & 30567 & 43533 & 42218 & 27083 & 41464 & 42951 & 41192 \\ \hline
+NA75 & 12492 & 9866 & 13208 & 11177 & 7687 & 12745 & {\bf 14057} & 13480 \\ \hline
+NGA75 & {\bf 30333} & 7076 & 13166 & 11607 & 6225 & 11178 & 13166 & 11607 \\ \hline
+LA50 & 54 & 41 & {\bf 36} & 37 & 58 & 38 & 37 & 37 \\ \hline
+LGA50 & {\bf 35} & 44 & 36 & 37 & 61 & 39 & 38 & 39 \\ \hline
+LA75 & 132 & 107 & 88 & 93 & 140 & 92 & {\bf 87} & 89 \\ \hline
+LGA75 & {\bf 69} & 121 & 90 & 92 & 157 & 99 & 90 & 96 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

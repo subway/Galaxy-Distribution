@@ -1,0 +1,1010 @@
+#!/usr/bin/python
+import sys, os, json, time, zipfile, htmlHelpFile as hhf
+from pyPdf import PdfFileWriter, PdfFileReader
+from reportlab.pdfgen import canvas
+from reportlab.rl_config import defaultPageSize
+from collections import OrderedDict
+
+global minThreshold; minThreshold = '0'
+global maxThreshold; maxThreshold = '1000'
+global element; element = ['# contigs (>= '+minThreshold+' bp)          ',
+                           '# contigs (>= '+maxThreshold+' bp)        ',
+                           'Total length (>= '+minThreshold+' bp)       ',
+                           'Total length (>= '+maxThreshold+' bp)     ',
+                           '# contigs                    ',
+                           'Total length                 ',
+                           'Largest contig               ',
+                           'Reference length             ',
+                           'GC (%)                       ',
+                           'Reference GC (%)             ',
+                           'N50                          ',
+                           'NG50                         ',
+                           'N75                          ',
+                           'NG75                         ',
+                           'L50                          ',
+                           'LG50                         ',
+                           'L75                          ',
+                           'LG75                         ',
+                           '# misassemblies              ',
+                           'Misassembled contigs length  ',
+                           '# local misassemblies        ',
+                           '# unaligned contigs          ',
+                           'Unaligned contigs length     ',
+                           'Genome fraction (%)          ',
+                           'Duplication ratio            ',
+                           '# N\'s per 100 kbp            ',
+                           '# mismatches per 100 kbp     ',
+                           '# indels per 100 kbp         ',
+                           '# genes                      ',
+                           'Largest alignment            ',
+                           'NA50                         ',
+                           'NGA50                        ',
+                           'NA75                         ',
+                           'NGA75                        ',
+                           'LA50                         ',
+                           'LGA50                        ',
+                           'LA75                         ',
+                           'LGA75                        '
+                           ]
+
+def makePdfPlotseparator(title, filename):
+    c = canvas.Canvas(filename)
+    width = defaultPageSize[0]
+    height = defaultPageSize[1]
+    c.setPageSize((width, (height/2.0)))
+    c.setFillColorRGB(255,0,0) #fontColour
+    c.setFont("Helvetica", 30) #fontType
+    c.drawCentredString(width/2.0, height/4.0, title)
+    c.save()
+
+def combinePlotsPdf():
+    output = PdfFileWriter()
+    input1 = PdfFileReader(file(path1+'/plots.pdf', "rb"))
+    input2 = PdfFileReader(file(path2+'/plots.pdf', "rb"))
+
+    if not inHeader:
+        makePdfPlotseparator(path1.split('/')[-1], 'frontPage.pdf')
+        frontpage = PdfFileReader(file('frontPage.pdf', "rb"))
+        output.addPage(frontpage.getPage(0))
+        
+    for page in range(0, input1.getNumPages()):
+        output.addPage(input1.getPage(page))
+        
+    makePdfPlotseparator(path2.split('/')[-1], 'frontPage.pdf')
+    frontpage = PdfFileReader(file('frontPage.pdf', "rb"))
+    output.addPage(frontpage.getPage(0))        
+
+    for page in range(0, input2.getNumPages()):
+        output.addPage(input2.getPage(page))
+
+    outputStream = file(path3+'/tmp.pdf', 'wb')
+    output.write(outputStream)
+    outputStream.close()
+    #Change name of pdf file
+    os.system('mv '+path3+'/tmp.pdf '+path3+'/plots.pdf')
+    #Remove frontPage, space consuming
+    os.system('rm frontPage.pdf')
+
+def getLongestContigDelimiter(inputFile, header):
+        delimiter = len(header)
+        for line in inputFile:
+            for k in element:
+                if line.startswith(k.strip()):
+                    content = line.split(k.strip())[-1].strip()
+                    if delimiter < len(content):
+                        delimiter = len(content)
+                    break
+        return delimiter+4
+
+def combineReferenceTxtTsv():
+    txt = open(path3+'/tmp.txt','w') #txt file
+    tsv = open(path3+'/tmp.tsv','w') #tsv file
+    input1 = open(path1+'/report.txt','r').readlines()
+    input2 = open(path2+'/report.txt','r').readlines()
+	
+    #Add headings
+    txt.write(''.join(input1[0:2]))
+    delimiter = ''
+    longestDel = 0
+    if refInputType == 'contig':
+        if not inHeader:
+            longestDel = getLongestContigDelimiter(input1, path1.split('/')[-1])
+            for i in range(longestDel-len(path1.split('/')[-1])): delimiter += ' '
+            txt.write('Assembly                     '+path1.split('/')[-1]+delimiter+path2.split('/')[-1]+'\n')
+            tsv.write('Assembly\t'+path1.split('/')[-1]+'\t'+path2.split('/')[-1]+'\n')
+        else:
+            longestDel = getLongestContigDelimiter(input1, input1[2].split('Assembly')[-1].strip())
+            for i in range(longestDel-len(input1[2].split('Assembly')[-1].strip())): delimiter += ' '
+            txt.write('Assembly                     '+input1[2].split('Assembly')[-1].strip()+delimiter+path2.split('/')[-1]+'\n')
+            header1 = ' '.join(input1[2].split('Assembly')[-1].strip().split()).replace(' ','\t')
+            header2 = path2.split('/')[-1]
+            tsv.write('Assembly\t'+header1+'\t'+header2+'\n')
+        #Merge content
+        for e in element:
+            if e.startswith('Assembly'):break
+            xInput = '-'
+            yInput = '-'
+            for x in input1:
+                if x.startswith(e.strip()+'  '):
+                    xInput = x.split(e.strip())[-1].strip()
+                    break
+            for y in input2:
+                if y.startswith(e.strip()+'  '):
+                    yInput = y.split(e.strip())[-1].strip()
+                    break
+            if (xInput != '-') & (yInput != '-'):
+                delimiter = ''
+                for i in range(longestDel-len(xInput)):
+                    delimiter += ' '
+                txt.write(e+xInput+delimiter+yInput+'\n')
+                xInput = ' '.join(xInput.split()).replace(' ','\t')
+                xInput = xInput.replace('\t+\t',' + ').replace('\tpart',' part')
+                tsv.write(e.strip()+'\t'+xInput+'\t'+yInput+'\n')
+    else:
+        dlm1 = []
+        dlm2 = []
+        header1 = open(path1+'/report.tsv','r').readlines()[0].strip().split('\t')[1:]
+        longestDel = 0
+        part1 = ''
+        part2 = ''
+        for h in range(len(header1)):
+            dSpace = ''
+            if inHeader:
+                header1[h] = header1[h].strip()
+            else:
+                if h % 2 == 0:
+                    header1[h] = path1.split('/')[-1]+' broken'
+                else:
+                    header1[h] = path1.split('/')[-1]
+            d = getLongestHistoryDelimiter(input1, header1[h], h)
+            part1 += header1[h]
+            if h >= 0:
+                for i in range(d-len(header1[h])): part1 += ' '
+            for i in range(d): dSpace += ' '
+            dlm1.append(dSpace)
+
+        header2 = open(path2+'/report.tsv','r').readlines()[0].strip().split('\t')[1:]
+        for h in range(len(header2)):
+            dSpace = ''
+            if h % 2 == 0:
+                header2[h] = path2.split('/')[-1]+' broken'
+            else:
+                header2[h] = path2.split('/')[-1]
+            d = getLongestHistoryDelimiter(input2, header2[h], h)
+            part2 += header2[h]
+            for i in range(d-len(header2[h])): part2 += ' '
+            for i in range(d): dSpace += ' '
+            dlm2.append(dSpace)
+
+        txt.write('Assembly                     '+part1+part2+'\n')
+        tsv.write('Assembly\t'+'\t'.join(header1)+'\t'+'\t'.join(header2)+'\n')
+
+        #Get content keys()
+        contentKeys = []
+        for e in element:
+            if ((e in ''.join(input1)) | (e in ''.join(input2))) & (not e.startswith('Assembly')):
+                contentKeys.append(e)
+        #Merge content
+        for c in contentKeys:
+            for x in input1:
+                xInput = ['']
+                if x.startswith(c.strip()+'  '):
+                    xInput = x.split(c.strip())[-1].strip().split()
+                    if 'part' in xInput:
+                        part = []
+                        for p in range(len(xInput)):
+                            if xInput[p].strip() == '-':
+                                part.append(xInput[p].strip())
+                            elif xInput[p].strip() == 'part':
+                                part.append(' '.join(xInput[p-3:p+1]).strip())
+                        xInput = part
+                    break
+            for y in input2:
+                yInput = ['']
+                if y.startswith(c.strip()+'  '):
+                    yInput = y.split(c.strip())[-1].strip().split()
+                    if 'part' in yInput:
+                        part = []
+                        for p in range(len(yInput)):
+                            if yInput[p].strip() == '-':
+                                part.append(yInput[p].strip())
+                            elif yInput[p].strip() == 'part':
+                                part.append(' '.join(yInput[p-3:p+1]).strip())
+                        yInput = part
+                    break
+
+            if xInput[0].strip() == '':
+                xInput = []
+                for x in range(len(dlm1)):
+                    xInput.append('-')
+            if yInput[0].strip() == '':
+                yInput = []
+                for y in range(len(dlm2)):
+                    yInput.append('-')
+
+            txtXinput = []
+            txtYinput = []
+            for d in range(len(dlm1)):
+                xInput[d] = xInput[d].strip()
+                txtXinput.append(xInput[d])
+                for s in range(len(dlm1[d])-len(xInput[d])):
+                    txtXinput[-1] += ' '
+            for d in range(len(dlm2)):
+                yInput[d] = yInput[d].strip()
+                txtYinput.append(yInput[d])
+                for s in range(len(dlm2[d])-len(yInput[d])):
+                    txtYinput[-1] += ' '
+
+            txt.write(c+''.join(txtXinput)+''.join(txtYinput)+'\n')
+            xInput = '\t'.join(xInput)
+            yInput = '\t'.join(yInput)
+            tsv.write(c.strip()+'\t'+xInput+'\t'+yInput+'\n')
+
+    #Close files and change change name
+    txt.close()
+    tsv.close()
+    os.system('mv '+path3+'/tmp.txt '+path3+'/report.txt')
+    os.system('mv '+path3+'/tmp.tsv '+path3+'/report.tsv')
+
+def getLongestHistoryDelimiter(inputFile, header, colNr):
+    delimiter = len(header)
+    for line in inputFile:
+        for k in element:
+            if line.startswith(k.strip()):
+                if 'part' in line:
+                    c = []
+                    cont = line.split(k.strip())[-1].split()
+                    for p in range(len(cont)):
+                        if cont[p].strip() == '-':
+                            c.append(cont[p].strip())
+                        elif cont[p].strip() == 'part':
+                            c.append(' '.join(cont[p-3:p+1]).strip())
+                    content = c[colNr]    
+                else:
+                    content = line.split(k.strip())[-1].split()[colNr].strip()
+                if delimiter < len(content):
+                    delimiter = len(content)
+    return delimiter+4                                                                            
+
+def combineHistoryTxtTsv(historyNr1, historyNr2):
+    txt = open(path3+'/tmp.txt','w') #txt file
+    tsv = open(path3+'/tmp.tsv','w') #tsv file
+    input1 = open(path1+'/report.txt','r').readlines()
+    input2 = open(path2+'/report.txt','r').readlines()
+    
+    #Add headings
+    txt.write(''.join(input1[0:2]))
+    delimiter = ''
+    longestDel = 0
+    dlm1 = []
+    dlm2 = []
+    
+    header1 = open(path1+'/report.tsv','r').readlines()[0].strip().split('\t')[1:]
+    longestDel = 0
+    part1 = ''
+    part2 = ''
+    for h in range(len(header1)):
+        dSpace = ''
+        if inHeader:
+            header1[h] = header1[h].strip()
+        else:
+            header1[h] = historyNr1+'_'+header1[h].strip()
+        d = getLongestHistoryDelimiter(input1, header1[h], h)
+        part1 += header1[h]
+        if h >= 0:
+            for i in range(d-len(header1[h])): part1 += ' '
+        for i in range(d): dSpace += ' '
+        dlm1.append(dSpace)
+            
+    header2 = open(path2+'/report.tsv','r').readlines()[0].strip().split('\t')[1:]
+    for h in range(len(header2)):
+        dSpace = ''
+        header2[h] = historyNr2+'_'+header2[h].strip()
+        d = getLongestHistoryDelimiter(input2, header2[h], h)
+        part2 += header2[h]
+        if h == 0:
+            tmpDel = getLongestHistoryDelimiter(input1, header1[-1], len(header1)-1)
+            for i in range(tmpDel-len(header1[-1])): part2 += ' '
+        else:
+            for i in range(d-len(header2[h])): part2 += ' '
+        for i in range(d): dSpace += ' '
+        dlm2.append(dSpace)
+    txt.write('Assembly                     '+part1+part2+'\n')
+    tsv.write('Assembly\t'+'\t'.join(header1)+'\t'+'\t'.join(header2)+'\n')
+
+    #Get content keys()
+    contentKeys = []
+    for e in element:
+        if ((e in ''.join(input1)) | (e in ''.join(input2))) & (not e.startswith('Assembly')):
+            contentKeys.append(e)
+    #Merge content
+    for c in contentKeys:
+        for x in input1:
+            xInput = ['']
+            if x.startswith(c.strip()+'  '):
+                xInput = x.split(c.strip())[-1].strip().split()
+                if 'part' in xInput:
+                    part = []
+                    for p in range(len(xInput)):
+                        if xInput[p].strip() == '-':
+                            part.append(xInput[p].strip())
+                        elif xInput[p].strip() == 'part':
+                            part.append(' '.join(xInput[p-3:p+1]).strip())
+                    xInput = part
+                break
+        for y in input2:
+            yInput = ['']
+            if y.startswith(c.strip()+'  '):
+                yInput = y.split(c.strip())[-1].strip().split()
+                if 'part' in yInput:
+                    part = []
+                    for p in range(len(yInput)):
+                        if yInput[p].strip() == '-':
+                            part.append(yInput[p].strip())
+                        elif yInput[p].strip() == 'part':
+                            part.append(' '.join(yInput[p-3:p+1]).strip())
+                    yInput = part                                                                                                    
+                break
+        
+        if xInput[0].strip() == '':
+            xInput = []
+            for x in range(len(dlm1)):
+                xInput.append('-')
+        if yInput[0].strip() == '':
+            yInput = []
+            for y in range(len(dlm2)):
+                yInput.append('-')
+        
+        txtXinput = []
+        txtYinput = []
+        for d in range(len(dlm1)):
+            xInput[d] = xInput[d].strip()
+            txtXinput.append(xInput[d])
+            for s in range(len(dlm1[d])-len(xInput[d])):
+                txtXinput[-1] += ' '
+        for d in range(len(dlm2)):
+            yInput[d] = yInput[d].strip()
+            txtYinput.append(yInput[d])
+            for s in range(len(dlm2[d])-len(yInput[d])):
+                txtYinput[-1] += ' '
+        txt.write(c+''.join(txtXinput)+''.join(txtYinput)+'\n')
+        xInput = '\t'.join(xInput)
+        yInput = '\t'.join(yInput)
+        tsv.write(c.strip()+'\t'+xInput+'\t'+yInput+'\n')            
+    #Close files and change change name
+    txt.close()
+    tsv.close()
+    os.system('mv '+path3+'/tmp.txt '+path3+'/report.txt')
+    os.system('mv '+path3+'/tmp.tsv '+path3+'/report.tsv')
+    
+def combineTransposedTxtTsv():
+    #Tranposition
+    transpose = []
+    txt = open(path3+'/transposed_report.txt','w')
+    tsv = open(path3+'/transposed_report.tsv','w')
+    input1 = open(path3+'/report.txt','r').readlines()
+        
+    txt.write(''.join(input1[0:2]))
+    element.append('Assembly    ')
+    space = []
+    for line in input1:
+        for e in element:
+            if line.startswith(e.strip()+'  '):
+                content = line.split(e.strip())
+                tmp = []
+                delimiter = len(e.strip())
+                tmp.append(e.strip())
+                if ' part' in line:
+                    content = content[-1].split('part')
+                    for cont in content:
+                        for c in cont.split('-'):
+                            c = c.strip()
+                            if c != '':
+                                tmp.append(c+' part')
+                                if delimiter < (len(c)+5):
+                                    delimiter = len(c)+5
+                            else:
+                                tmp.append('-')
+                                if delimiter < len(c):
+                                    delimiter = len(c)
+                else:
+                    content = content[-1].strip().split()
+                    for c in content:
+                        if c == 'broken':
+                            tmp[-1] = tmp[-1]+' broken'
+                        else:
+                            tmp.append(c)
+                        if delimiter < len(tmp[-1]):
+                            delimiter = len(tmp[-1])
+                space.append(delimiter)
+                transpose.append(tmp)
+                break	
+    transpose = zip(*transpose)
+    for x in transpose:
+        delimiter = '  '
+        for y in range(len(x)):
+            delimiter = '  '
+            for s in range(space[y]-len(x[y])):
+                delimiter += ' '
+            txt.write(x[y]+delimiter)
+            tsv.write(x[y]+'\t')
+        txt.write('\n')
+        tsv.write('\n')
+    txt.close()
+    tsv.close()
+    
+def mergeJsonFile(jsonpath1, jsonpath2, jsonpath3, header, col1, col2, historyNr1, historyNr2):
+    jsonList = []
+    #Get new json files from path1
+    for p in [d for d in sorted(os.listdir(jsonpath1), key=str.lower) if os.path.isfile(jsonpath1+'/'+d)]:
+        if not p in jsonList:
+            jsonList.append(p)
+    #Get new json files from path2
+    for p in [d for d in sorted(os.listdir(jsonpath2), key=str.lower) if os.path.isfile(jsonpath2+'/'+d)]:
+        if not p in jsonList:
+            jsonList.append(p)
+    for j in jsonList:
+        #if both folder have the file, merge
+        if ((j in os.listdir(jsonpath1)) & (j in os.listdir(jsonpath2))):
+            #merge file
+            file1 = json.load(open(jsonpath1+'/'+j))
+            file2 = json.load(open(jsonpath2+'/'+j))
+            file3 = {}
+            content = []
+            for key in file1.keys():
+                if j != 'report.json':
+                    if key == 'list_of_GC_distributions':
+                        content = file1[key]
+                        for k in file2[key]:
+                            content.append(k)
+                        file3[key] = content
+                    elif key == 'lists_of_gc_info':
+                        if ((file1[key] != None) & (file2[key] != None)):
+                            content.append(file1[key])
+                            content.append(file2[key])
+                            file3[key] = content
+                        else:
+                            file3[key] = None
+                    elif (key == 'reflen') | (key == 'ref_genes_number'):
+                        if file1[key] == file2[key]:
+                            file3[key] = file1[key]
+                        else:
+                            file3[key] = 0
+                    elif key == 'assemblies_length':
+                        data[key] = open(path3+'/report.tsv').readlines()[8].strip().split('\t')[1:]
+                    elif key != 'filenames':
+                        listElement = False
+                        dictElement = False
+                        try:
+                            if isinstance(file1[key][0], list): listElement = True
+                            if isinstance(file2[key][0], list): listElement = True                                                                         
+                        except:
+                            pass
+                        try:
+                            if isinstance(file2[key], dict): dictElement = True
+                            if isinstance(file2[key], dict): dictElement = True
+                        except:
+                            pass
+                        if not dictElement:
+                            content = file1[key]
+                            for f2 in range(len(file2[key])):
+                                content.append(file2[key][f2])
+                                file3[key] = content
+                        else:
+                            if historyNr2 != '':
+                                tmp = OrderedDict()
+                                if historyNr1 != '':
+                                    for h in file1[key].keys():
+                                        tmp[historyNr1+'_'+h] = file1[key][h]
+                                else:
+                                    for h in file1[key].keys():
+                                        tmp[h] = file1[key][h]
+                                for h in file2[key].keys():
+                                    tmp[historyNr2+'_'+h] = file2[key][h]
+                            else:
+                                tmp = {}
+                                tmp[key] = {}
+                                if not inHeader:
+                                    if len(file1[key].keys()) == 2:
+                                        tmp[key][header[0]] = file1[key][file1[key].keys()[0]]
+                                        tmp[key][header[1]] = file1[key][file1[key].keys()[1]]
+                                        tmp[key][header[2]] = file2[key][file2[key].keys()[0]]
+                                        tmp[key][header[3]] = file2[key][file2[key].keys()[1]]
+                                    else:
+                                        tmp[key][header[0]] = file1[key][file1[key].keys()[0]]
+                                        tmp[key][header[1]] = file2[key][file2[key].keys()[0]]
+                                    file3[key] = tmp[key]
+                                else:
+                                    tmp = OrderedDict()
+                                    for h in file1[key].keys():
+                                        tmp[h] = file1[key][h]
+                                    for h in file2[key].keys():
+                                        tmp[h] = file2[key][h]
+                            file3[key] = tmp
+                    else:
+                        file3[key] = header
+                else:
+                    #Report file:
+                    if key == 'date':
+                        file3[key] = time.strftime("%d %B %Y, %A, %H:%M:%S")
+                    elif key == 'minContig':
+                        file3[key] = file1[key]
+                    elif key == 'assembliesNames':
+                        file3[key] = header
+                    else: #The key is 'report'
+                        report1 = file1[key]
+                        report2 = file2[key]
+                        content = [['',[]],
+                                   ['',[]],
+                                   ['',[]],
+                                   ['',[]],
+                                   ['',[]],
+                                   ['',[]],
+                                   ['',[]]]
+
+                        for x in range(len(content)):
+                            content[x][0] = report1[x][0]
+                            iterator = []
+                            if len(report1[x][1]) >= len(report2[x][1]):
+                                iterator = report1[x][1]
+                            else:
+                                iterator = report2[x][1]
+                            #Hold the position of {} element
+                            z = 0
+                            for y in iterator:                                
+                                rTmp1 = []
+                                rTmp2 = []
+                                for r in report1[x][1]:
+                                    if y['metricName'] == r['metricName']:
+                                        rTmp1 = r['values']
+                                        break
+                                for r in report2[x][1]:
+                                    if y['metricName'] == r['metricName']:
+                                        rTmp2 = r['values']
+                                        break
+                                #If one have value, add the other metrics
+                                #Better safe than sorry
+                                if ((rTmp1 != []) | (rTmp2 != [])):
+                                    content[x][1].append({})
+                                    content[x][1][z]['values'] = []
+                                    content[x][1][z]['quality'] = y['quality']
+                                    content[x][1][z]['isMain'] = y['isMain']
+                                    content[x][1][z]['metricName'] = y['metricName']  
+                                #Both have values, merge them
+                                if ((rTmp1 != []) & (rTmp2 != [])):
+                                    for val in rTmp1:
+                                        content[x][1][z]['values'].append(val)
+                                    for val in rTmp2:
+                                        content[x][1][z]['values'].append(val)
+                                #If only file1 have value, copy values directly
+                                elif rTmp1 != []:
+                                    content[x][1][z]['values'] = rTmp1
+                                    for val in range(col2):
+                                        content[x][1][z]['values'].append("")
+                                #If only file2 have value, copy values directly
+                                elif rTmp2 != []:
+                                    for val in range(col1):
+                                        content[x][1][z]['values'].append("")
+                                    for val in rTmp2:
+                                        content[x][1][z]['values'].append(val)
+                                #increment z
+                                z += 1
+                        file3[key] = content
+            outfile = open(jsonpath3+'/tmp.json', 'w')
+            json.dump(file3, outfile)
+            os.system('mv '+jsonpath3+'/tmp.json '+jsonpath3+'/'+j)
+        #else copy file to new folder in jsonpath3
+        else:
+            if j in os.listdir(jsonpath1):
+                tmpPath = jsonpath1+'/'+j
+                newName = jsonpath1.split('/')[-2]
+            else:
+                tmpPath = jsonpath2+'/'+j
+                newName = jsonpath2.split('/')[-2]
+            #copy file first if tmpPath != combined path
+            if tmpPath != jsonpath3+'/'+j:
+                os.system('cp '+tmpPath+' '+jsonpath3)#get content
+            #get content
+            data = json.load(open(jsonpath3+'/'+j,'r'))
+            #Add empty fields
+            if 'filenames' in data.keys():
+                namesLength = len(header) - len(data['filenames'])
+            for key in data.keys():
+                if key == 'list_of_GC_distributions':
+                    defaultData = data['list_of_GC_distributions'][0][0]
+                    if tmpPath == jsonpath1+'/'+j:
+                        for x in range(namesLength):
+                            data['list_of_GC_distributions'].append([defaultData,[]])
+                    else:
+                        for x in range(namesLength):
+                            data['list_of_GC_distributions'].insert(0, [defaultData,[]])
+                elif key == 'lists_of_gc_info':
+                    data['list_of_gc_info'] = None
+                elif (key == 'reflen') | (key == 'ref_genes_number'):
+                    data[key] = 0
+                elif key == 'assemblies_lengths':
+                    data[key] = open(path3+'/report.tsv').readlines()[8].strip().split('\t')[1:]
+                elif key != 'filenames':
+                    listElement = False
+                    dictElement = False
+                    try:
+                        if isinstance(data[key][0], list): listElement = True
+                    except:
+                        pass
+                    try:
+                        if isinstance(data[key], dict): dictElement = True
+                    except:
+                        pass
+                    #seperate based on history/ref combi here
+                    #because some json files dont merge properly
+                    if not dictElement:
+                        if tmpPath == jsonpath1+'/'+j:
+                            for x in range(namesLength):
+                                if listElement: data[key].append([])                                
+                                else: data[key].append('')
+                        else:
+                            tmp = {}
+                            tmp[key] = []
+                            for x in range(namesLength):
+                                if listElement: data[key].insert(0,[])
+                                else:
+                                    tmp[key].append('')
+                            if not listElement:
+                                for v in data[key]:
+                                    tmp[key].append(v)
+                                data[key] = tmp[key]
+                    else:
+                        if historyNr2 != '':
+                            tmp = OrderedDict()
+                            if tmpPath == jsonpath1+'/'+j:
+                                file1 = json.load(open(jsonpath1+'/'+j))
+                                if historyNr1 != '':
+                                    for h in file1[key].keys():
+                                        tmp[historyNr1+'_'+h] = file1[key][h]
+                                    for h in range(len(file1[key].keys()),len(header)):
+                                        tmp[header[h]] = []
+                                else:
+                                    for h in header:
+                                        if h in file1[key].keys():
+                                            tmp[h] = file1[key][h]
+                                        else:
+                                            tmp[h] = []
+                            else:
+                                file2 = json.load(open(jsonpath2+'/'+j))
+                                if historyNr1 != '':
+                                    for h in range(len(header)-len(file2[key].keys())):
+                                        tmp[header[h]] = []
+                                    for h in file2[key].keys():
+                                        tmp[historyNr2+'_'+h] = file2[key][h]
+                                else:
+                                    for h in range(len(header)-len(file2[key].keys())):
+                                        tmp[header[h]] = []
+                                    for h in file2[key].keys():
+                                        tmp[historyNr2+'_'+h] = file2[key][h]
+                            data[key] = tmp
+                        else:
+                            tmp = {}
+                            tmp[key] = {}
+                            if tmpPath == jsonpath1+'/'+j:
+                                if not inHeader:
+                                    if len(data[key].keys()) == 2:
+                                        tmp[key][header[0]] = data[key][data[key].keys()[0]]
+                                        tmp[key][header[1]] = data[key][data[key].keys()[1]]
+                                        tmp[key][header[2]] = []
+                                        tmp[key][header[3]] = []
+                                    else:
+                                        tmp[key][header[0]] = data[key][data[key].keys()[0]]
+                                        tmp[key][header[1]] = []
+                                    data[key] = tmp[key]
+                                else:
+                                    tmp = {}
+                                    for h in data[key].keys():
+                                        tmp[h] = data[key][h]
+                                    for h in header:
+                                        if h not in data[key].keys():
+                                            tmp[h] = []
+                                    data[key] = tmp
+                            else:
+                                if not inHeader:
+                                    if len(data[key].keys()) == 2:
+                                        tmp[key][header[0]] = []
+                                        tmp[key][header[1]] = []
+                                        tmp[key][header[2]] = data[key][data[key].keys()[0]]
+                                        tmp[key][header[3]] = data[key][data[key].keys()[1]]
+                                    else:
+                                        tmp[key][header[0]] = []
+                                        tmp[key][header[1]] = data[key][data[key].keys()[0]]
+                                    data[key] = tmp[key]
+                                else:
+                                    for h in header:
+                                        tmp[key][h] = []
+                                    for k in data[key].keys():
+                                        tmp[key][k] = data[key][k]
+                                    data[key] = tmp[key]
+                else:
+                    #Override filenames
+                    data['filenames'] = header
+            
+            #Write to file
+            outfile = open(jsonpath3+'/'+j, 'w')
+            json.dump(data, outfile)
+
+def combineReportLatex(report, transposed):
+    #Get qualities for each metric
+    jsonData = json.load(open(path3+'/json/report.json'))
+    jsonData = jsonData['report']
+    resultQuality = {}
+    for field in jsonData:
+        for f in field[1]:
+            resultQuality[f['metricName']] = f['quality']
+    #Add different key for unaligned, since json keeps different metric
+    #While tsv file merge fully and partially result
+    if '# fully unaligned contigs' in resultQuality.keys():
+        resultQuality['# unaligned contigs'] = resultQuality['# fully unaligned contigs']
+    if 'Fully unaligned length' in resultQuality.keys():
+        resultQuality['Unaligned contigs length'] = resultQuality['Fully unaligned length']
+    #Open file and get header count
+    reportFile = open(path3+'/'+report+'.tsv','r').readlines()
+    header = reportFile[0].strip().split('\t')
+    reportFile = reportFile[1:]
+    ltx = open(path3+'/'+report+'.tex','w')
+    nrOfAssemblies = len(header)-1
+    #Write initial lines
+    ltx.write('\documentclass[12pt,a4paper]{article}\n')
+    ltx.write('\\begin{document}\n')
+    ltx.write('\\begin{table}[ht]\n')
+    ltx.write('\\begin{center}\n')
+    ltx.write('\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0bp)" include all contigs).}\n')
+    ltx.write('\\begin{tabular}{|l*{'+str(nrOfAssemblies)+'}{|r}|}\n')
+    ltx.write('\hline\n')
+    #Write assembly headers
+    for h in range(1,len(header)):
+        header[h] = header[h].replace('>=','$\geq$')
+        header[h] = header[h].replace('%','\%')
+        header[h] = header[h].replace('#','\#')
+        header[h] = header[h].replace('_','\_')
+        header[h] = '& '+str(header[h])
+    ltx.write(' '.join(header)+' \\\\ \hline\n')
+
+    #Write content
+    for line in reportFile:
+        if line.startswith('Assembly'):break
+        line = line.strip().split('\t')
+        if not transposed:
+            #Get 'best result' depending on metric quality
+            bestResult = []
+            best = 1
+            #More is better
+            if resultQuality[line[0]].startswith('More'):
+                for l in range(1,len(line)):
+                    if len(line[l])!= 0:
+                        if line[best] <= line[l]:
+                            best = l
+                for b in range(1,len(line)):
+                    if len(line[l]) != 0:
+                        if line[b] == line[best]:
+                            bestResult.append(b)
+            #Less is better
+            elif resultQuality[line[0]].startswith('Less'):
+                best = line[1:].index(max(line[1:]))+1
+                for l in range(1,len(line)):
+                    if line[l] != '-':
+                        if line[best] >= line[l]:
+                            best = l
+                for b in range(1,len(line)):
+                    if line[b] == line[best]:
+                        bestResult.append(b)
+                    
+        #Nonetheless, format field to latex code
+        for l in range(1,len(line)):
+            line[l] = '& '+line[l]
+        if not transposed:
+            #Format best result if needed
+            if ((len(bestResult) != 0) & (len(bestResult) < nrOfAssemblies)):
+                for best in bestResult:
+                    line[best] = '& {\\bf '+line[best][2:]+'}'
+        #Format field name
+        line[0] = line[0].replace('>=','$\geq$')
+        line[0] = line[0].replace('%','\%')
+        line[0] = line[0].replace('#','\#')
+        line[0] = line[0].replace('_','\_')
+        #Write line to file
+        ltx.write(' '.join(line)+' \\\\ \hline\n')
+                
+    #Write endlines
+    ltx.write('\end{tabular}\n' \
+              + '\end{center}\n' \
+              + '\end{table}\n' \
+              + '\end{document}')
+    ltx.close()
+
+def combineHTML():
+     output = open(path3+'/tmp.html', 'w')
+     input1 = open(path1+'/report.html', 'r').readlines()
+     input2 = open(path2+'/report.html', 'r').readlines()
+
+     divDict = {'total-report-json':['','/json/report.json'],
+                'qualities-json':['{{ qualities }}','/json/qualitites.json'],
+                'main-metrics-json':['{{ mainMetrics }}','/json/main_metrics.json'],
+                '"contigs-lengths-json"':['','/json/contigs_lengths.json'],
+                'aligned-contigs-lengths-json':['{{ alignedContigsLengths }}','/json/aligned_contigs_lengths.json'],
+                'assemblies-lengths-json':['{{ assembliesLengths }}','/json/assemblies_lengths.json'],
+                'reference-length-json':['{{ referenceLength }}','/json/ref_length.json'],
+                'genes-in-contigs-json':['{{ genesInContigs }}','/json/genes_in_contigs.json'],
+                'operons-in-contigs-json':['{{ operonsInContigs }}','/json/operons_in_contigs.json'],
+                'gc-json':['','/json/gc.json']}
+     
+     textLen = 0
+     inp = ''
+     if len(input1) > len(input2): textLen = len(input1); inp = input1
+     else: textLen = len(input2); inp = input2
+     pastDdl = False
+     pastjson = False
+
+     """
+     Remove lines that start with the following: (it's the original ddl from html file)
+     We don't want this because we dinamically creates a new ddl
+     """
+     rmLine = ['<select','<option','</select>','<button','<!--Div that will hold the chart','<a id="hideplot"','<div id="chart_div"']
+
+     #Merge html files
+     for x in range(textLen):
+         if '<span id=\'subheader\'></span>' in inp[x]:
+             output.write(inp[x]+'\n\n'+hhf.assessOutput(path3+'/json/report.json'))
+             pastDdl = True
+         else:
+             if pastDdl:
+                 if pastjson:
+                    for d in divDict:
+                        if d in inp[x]:
+                            #We don't know if we have this file or not, better check first
+                            if ((divDict[d][0] in ''.join(input1)) & (divDict[d][0] in ''.join(input2)) & (divDict[d][0].startswith('{{'))):
+                                #Don't have it in nether files, add default value
+                                output.write(inp[x]+'                '+divDict[d][0]+'\n            </div>\n')
+                            else:
+                                #Get content from merged file                                
+                                if d == 'gc-json':
+                                    output.write(inp[x]+'                '+''.join(open(path3+divDict[d][1],'r').readlines()) \
+                                                 +'\n            </div>' \
+                                                 +'\n        </div>' \
+                                                 +'\n    </div>\n')
+                                else:
+                                    output.write(inp[x]+'                '+''.join(open(path3+divDict[d][1],'r').readlines())+'\n            </div>\n')
+                        else:
+                            #It's past the json code, we need the rest of the html file
+                            if '<div class=\'json-code\'>' in inp[x]:
+                                output.write(''.join(inp[x:]))
+                                break
+                 else:
+                     #if inp[x].strip() not in rmLine:
+                     writeLine = True
+                     for rm in rmLine:
+                         if inp[x].strip().startswith(rm):
+                             writeLine = False
+                             break
+                     if writeLine:
+                         output.write(inp[x])
+                         if '<div class=\'json-code\'>' in inp[x]:
+                             pastjson = True
+             else: output.write(inp[x])       
+     output.close()
+     #Change name back to report.html
+     os.system('mv '+path3+'/tmp.html '+path3+'/report.html')
+
+def createZipFolder(pathlist):
+    for path in pathlist:
+        filename = path+'.zip'
+        zfile = zipfile.ZipFile(filename, 'w')
+        for root, dirs, files in os.walk(path):
+            for name in files:
+                file_to_zip = os.path.join(root, name)
+                arcname = file_to_zip[len(os.path.dirname(path)):].strip('/')
+                zfile.write(file_to_zip, arcname, compress_type=zipfile.ZIP_DEFLATED)
+        zfile.close()
+    
+def combineHistory(inPath1, inPath2, inPath3, header, historyNr1, historyNr2):
+    global path1; path1 = inPath1
+    global path2; path2 = inPath2
+    global path3; path3 = inPath3
+    global inHeader; inHeader = header
+
+    #Make folders and copy fields that we don't need to combine
+    if not inHeader:
+        os.system('mkdir '+path3)
+        for pl in [d for d in sorted(os.listdir(path1), key=str.lower) if os.path.isdir(path1+'/'+d)]:
+            os.system('mkdir '+path3+'/'+pl)
+            if (pl != 'report_html_aux') & (pl != 'json'):
+                for filename in [f for f in sorted(os.listdir(path1+'/'+pl), key=str.lower) if os.path.isfile(path1+'/'+pl+'/'+f)]:
+                    if not ((filename.endswith('.stderr')) | (filename.endswith('.stdio'))):
+                        os.system('cp '+path1+'/'+pl+'/'+filename+' '+path3+'/'+pl+'/'+historyNr1+'_'+filename)
+                if pl == 'contigs_reports':
+                    os.system('mkdir '+path3+'/'+pl+'/nucmer_output')
+                    for filename in [f for f in sorted(os.listdir(path1+'/'+pl+'/nucmer_output'), key=str.lower) if os.path.isfile(path1+'/'+pl+'/nucmer_output/'+f)]:
+                        os.system('cp '+path1+'/'+pl+'/nucmer_output/'+filename+' '+path3+'/'+pl+'/nucmer_output/'+historyNr1+'_'+filename)
+        os.system('cp -rf '+path1+'/report_html_aux/ '+path3)
+        
+    for pl in [d for d in sorted(os.listdir(path2), key=str.lower) if os.path.isdir(path2+'/'+d)]:
+        if not os.path.exists(path3+'/'+pl):
+            os.system('mkdir '+path3+'/'+pl)
+        if (pl != 'report_html_aux') & (pl != 'json'):
+            for filename in [f for f in sorted(os.listdir(path2+'/'+pl), key=str.lower) if os.path.isfile(path2+'/'+pl+'/'+f)]:
+                os.system('cp '+path2+'/'+pl+'/'+filename+' '+path3+'/'+pl+'/'+historyNr2+'_'+filename)
+            if pl == 'contigs_reports':
+                if not os.path.exists(path3+'/'+pl+'/nucmer_output'):
+                    os.system('mkdir '+path3+'/'+pl+'/nucmer_output')
+                for filename in [f for f in sorted(os.listdir(path2+'/'+pl+'/nucmer_output'), key=str.lower) if os.path.isfile(path2+'/'+pl+'/nucmer_output/'+f)]:
+                    os.system('cp '+path2+'/'+pl+'/nucmer_output/'+filename+' '+path3+'/'+pl+'/nucmer_output/'+historyNr2+'_'+filename)
+                                                                                                                
+    #Combine all plots.pdf files
+    combinePlotsPdf()
+    #Combine report txt/tsv
+    combineHistoryTxtTsv(historyNr1, historyNr2)
+    #Combine transposed_report txt/tsv
+    combineTransposedTxtTsv()
+    #Merge jsonfiles
+    col1 = len(open(path1+'/report.tsv').readlines()[0].strip().split('\t')[1:])
+    col2 = len(open(path2+'/report.tsv').readlines()[0].strip().split('\t')[1:])
+    mergeJsonFile(path1+'/json',path2+'/json',path3+'/json', open(path3+'/report.tsv').readlines()[0].strip().split('\t')[1:], col1, col2, historyNr1, historyNr2)
+    #Combine latexfiles
+    combineReportLatex('report', False)
+    combineReportLatex('transposed_report', True)
+    #Merge html file
+    combineHTML()
+    #Create zip-folder
+    if path1 == path3: createZipFolder([path1,path2])
+    else: createZipFolder([path1,path2,path3])
+                                                    
+def combineReference(inPath1, inPath2, inPath3, header, inputType, minT, maxT):
+    global path1; path1 = inPath1
+    global path2; path2 = inPath2
+    global path3; path3 = inPath3
+    global inHeader; inHeader = header
+    global refInputType; refInputType = inputType
+    minThreshold = str(minT)
+    maxThreshold = str(maxT)
+    #Make folders and copy fields that we don't need to combine
+    if not inHeader:
+        os.system('mkdir '+path3)
+        for pl in [d for d in sorted(os.listdir(path1), key=str.lower) if os.path.isdir(path1+'/'+d)]:
+            os.system('mkdir '+path3+'/'+pl)
+            if (pl != 'report_html_aux') & (pl != 'json'):
+                for filename in [f for f in sorted(os.listdir(path1+'/'+pl), key=str.lower) if os.path.isfile(path1+'/'+pl+'/'+f)]:
+                    if not ((filename.endswith('.stderr')) | (filename.endswith('.stdio'))):
+                        os.system('cp '+path1+'/'+pl+'/'+filename+' '+path3+'/'+pl+'/'+path1.split('/')[-1]+'_'+filename)
+                if pl == 'contigs_reports':
+                    os.system('mkdir '+path3+'/'+pl+'/nucmer_output')
+                    for filename in [f for f in sorted(os.listdir(path1+'/'+pl+'/nucmer_output'), key=str.lower) if os.path.isfile(path1+'/'+pl+'/nucmer_output/'+f)]:
+                        os.system('cp '+path1+'/'+pl+'/nucmer_output/'+filename+' '+path3+'/'+pl+'/nucmer_output/'+path1.split('/')[-1]+'_'+filename)
+               
+        os.system('cp -rf '+path1+'/report_html_aux/ '+path3)
+        
+    for pl in [d for d in sorted(os.listdir(path2), key=str.lower) if os.path.isdir(path2+'/'+d)]:
+        if not os.path.exists(path3+'/'+pl):
+            os.system('mkdir '+path3+'/'+pl)
+        if (pl != 'report_html_aux') & (pl != 'json'):
+            for filename in [f for f in sorted(os.listdir(path2+'/'+pl), key=str.lower) if os.path.isfile(path2+'/'+pl+'/'+f)]:
+                os.system('cp '+path2+'/'+pl+'/'+filename+' '+path3+'/'+pl+'/'+path2.split('/')[-1]+'_'+filename)
+            if pl == 'contigs_reports':
+                if not os.path.exists(path3+'/'+pl+'/nucmer_output'):
+                    os.system('mkdir '+path3+'/'+pl+'/nucmer_output')
+                for filename in [f for f in sorted(os.listdir(path2+'/'+pl+'/nucmer_output'), key=str.lower) if os.path.isfile(path2+'/'+pl+'/nucmer_output/'+f)]:
+                    os.system('cp '+path2+'/'+pl+'/nucmer_output/'+filename+' '+path3+'/'+pl+'/nucmer_output/'+path2.split('/')[-1]+'_'+filename)
+
+    #Combine all plots.pdf files
+    combinePlotsPdf()
+    #Combine report txt/tsv
+    combineReferenceTxtTsv()
+    #Combine transposed_report txt/tsv
+    combineTransposedTxtTsv()
+    #Merge jsonfiles
+    col1 = len(open(path1+'/report.tsv').readlines()[0].strip().split('\t')[1:])
+    col2 = len(open(path2+'/report.tsv').readlines()[0].strip().split('\t')[1:])
+    mergeJsonFile(path1+'/json',path2+'/json',path3+'/json', open(path3+'/report.tsv').readlines()[0].strip().split('\t')[1:], col1, col2, '', '')
+   #Combine latexfiles
+    combineReportLatex('report', False)
+    combineReportLatex('transposed_report', True)
+    #Merge html file
+    combineHTML()
+    #Create zip-folder
+    if path1 == path3: createZipFolder([path1,path2])
+    else: createZipFolder([path1,path2,path3])

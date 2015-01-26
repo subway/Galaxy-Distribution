@@ -1,0 +1,2699 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 5373121
+Analyzing contigs...
+CONTIG: scaffold-91_62582 (62582bp)
+Top Length: 41245  Top ID: 99.49
+		Skipping redundant alignment 1604296 1604389 | 1 94 | 94 94 | 98.94 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-91_62582
+		Skipping redundant alignment 1541904 1542048 | 62438 62582 | 145 145 | 97.93 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-91_62582
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1541962 1563136 | 1 21177 | 21175 21177 | 98.78 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-91_62582
+			  Overlap between these two alignments (local misassembly). Inconsistency = -161
+			Real Alignment 2: 1563136 1604382 | 21338 62582 | 41247 41245 | 99.49 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-91_62582
+
+CONTIG: scaffold-103_21243 (21243bp)
+Top Length: 1455  Top ID: 98.63
+		This contig is partially unaligned. (1455 out of 21243)
+		Alignment: 945239 946693 | 21243 19789 | 1455 1455 | 98.63 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-103_21243
+		Unaligned bases: 1 to 19788 (19788)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-238_14184 (14184bp)
+Top Length: 1185  Top ID: 99.83
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 14184 and total length of all aligns is 1430
+		Alignment: 3041659 3041903 | 14184 13940 | 245 245 | 97.14 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-238_14184
+		Alignment: 3055988 3057172 | 1185 1 | 1185 1185 | 99.83 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-238_14184
+		Unaligned bases: 12754
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scaffold-16_33154 (33154bp)
+Top Length: 26757  Top ID: 99.55
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 82276 109032 | 1 26757 | 26757 26757 | 99.55 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-16_33154
+			  Gap between these two alignments (local misassembly). Inconsistency = 733
+			Real Alignment 2: 112289 113318 | 29281 30309 | 1030 1029 | 99.22 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-16_33154
+			  Gap between these two alignments (local misassembly). Inconsistency = 253
+			Real Alignment 3: 113571 116417 | 30309 33154 | 2847 2846 | 97.93 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-16_33154
+
+CONTIG: scaffold-314_702 (702bp)
+		This contig is unaligned. (702 bp)
+		Unaligned bases: 702  total: 702
+
+CONTIG: scaffold-15_45774 (45774bp)
+Top Length: 28071  Top ID: 99.43
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2585113 2602308 | 54 17249 | 17196 17196 | 99.38 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-15_45774
+			  Extensive misassembly ( relocation, inconsistency = 3519 ) between these two alignments
+			Real Alignment 2: 2606282 2634353 | 17704 45774 | 28072 28071 | 99.43 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-15_45774
+
+CONTIG: scaffold-23_87987 (87987bp)
+Top Length: 81857  Top ID: 99.54
+		This contig is partially unaligned. (81857 out of 87987)
+		Alignment: 983336 1065194 | 81857 1 | 81859 81857 | 99.54 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-23_87987
+		Unaligned bases: 81858 to 87987 (6130)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-61_45852 (45852bp)
+Top Length: 45852  Top ID: 99.3
+		Marking as insignificant: 5364963 5365030 | 45852 45785 | 68 68 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-61_45852
+		Marking as insignificant: 3100805 3100873 | 45852 45784 | 69 69 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-61_45852
+		Marking as insignificant: 5365211 5365281 | 45852 45782 | 71 71 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-61_45852
+		One align captures most of this contig: 1226319 1272168 | 45852 1 | 45850 45852 | 99.3 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-61_45852
+
+CONTIG: scaffold-245_6097 (6097bp)
+Top Length: 6050  Top ID: 99.16
+		Marking as insignificant: 617629 617730 | 1 103 | 102 103 | 95.15 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-245_6097
+		Marking as insignificant: 4711326 4711425 | 6091 5992 | 100 100 | 99.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-245_6097
+		Marking as insignificant: 4652069 4652169 | 6097 5997 | 101 101 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-245_6097
+		One align captures most of this contig: 3905609 3911658 | 6050 1 | 6050 6050 | 99.16 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-245_6097
+
+CONTIG: scaffold-161_2356 (2356bp)
+Top Length: 1549  Top ID: 99.48
+		This contig is partially unaligned. (1549 out of 2356)
+		Alignment: 2239835 2241384 | 2295 747 | 1550 1549 | 99.48 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-161_2356
+		Unaligned bases: 1 to 746 (746)
+		Unaligned bases: 2296 to 2356 (61)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-175_33623 (33623bp)
+Top Length: 33623  Top ID: 99.7
+		Marking as insignificant: 1720530 1720611 | 26016 25936 | 82 81 | 98.78 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-175_33623
+		Marking as insignificant: 4777822 4777907 | 26020 25936 | 86 85 | 97.67 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-175_33623
+		Marking as insignificant: 3775346 3775455 | 33623 33515 | 110 109 | 99.09 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-175_33623
+		One align captures most of this contig: 1421350 1454973 | 1 33623 | 33624 33623 | 99.7 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-175_33623
+
+CONTIG: scaffold-181_37601 (37601bp)
+Top Length: 27913  Top ID: 98.59
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 3849023 3856732 | 37601 29893 | 7710 7709 | 99.34 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-181_37601
+			  Extensive misassembly ( relocation, inconsistency = 1178 ) between these two alignments
+			Real Alignment 2: 3857908 3859574 | 29895 28229 | 1667 1667 | 99.22 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-181_37601
+			  Overlap between these two alignments (local misassembly). Inconsistency = -176
+			Real Alignment 3: 3859714 3887626 | 27913 1 | 27913 27913 | 98.59 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-181_37601
+
+CONTIG: scaffold-120_1692 (1692bp)
+Top Length: 159  Top ID: 96.23
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 1692 and total length of all aligns is 249
+		Alignment: 5055675 5055833 | 159 1 | 159 159 | 96.23 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-120_1692
+		Alignment: 5056938 5057027 | 1692 1603 | 90 90 | 97.78 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-120_1692
+		Unaligned bases: 1443
+CONTIG: scaffold-252_979 (979bp)
+Top Length: 979  Top ID: 99.49
+		One align captures most of this contig: 2962953 2963931 | 979 1 | 979 979 | 99.49 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-252_979
+
+CONTIG: scaffold-212_34155 (34155bp)
+Top Length: 34155  Top ID: 99.62
+		Marking as insignificant: 5364951 5365030 | 34075 34154 | 80 80 | 97.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-212_34155
+		Marking as insignificant: 5365199 5365279 | 34075 34155 | 81 81 | 97.53 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-212_34155
+		Marking as insignificant: 1226307 1226387 | 34075 34155 | 81 81 | 98.77 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-212_34155
+		One align captures most of this contig: 3066713 3100873 | 1 34155 | 34161 34155 | 99.62 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-212_34155
+
+CONTIG: scaffold-358_5610 (5610bp)
+Top Length: 5608  Top ID: 99.59
+		Marking as insignificant: 1140774 1140873 | 5511 5610 | 100 100 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-358_5610
+		One align captures most of this contig: 1127286 1132893 | 5610 3 | 5608 5608 | 99.59 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-358_5610
+
+CONTIG: scaffold-145_1707 (1707bp)
+Top Length: 1707  Top ID: 97.37
+		Marking as insignificant: 5261028 5261095 | 68 1 | 68 68 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-145_1707
+		Marking as insignificant: 470825 470892 | 68 1 | 68 68 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-145_1707
+		One align captures most of this contig: 391605 393314 | 1707 1 | 1710 1707 | 97.37 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-145_1707
+
+CONTIG: scaffold-93_1778 (1778bp)
+Top Length: 1621  Top ID: 99.57
+		This contig is partially unaligned. (1621 out of 1778)
+		Alignment: 2319332 2320951 | 62 1682 | 1620 1621 | 99.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-93_1778
+		Unaligned bases: 1 to 61 (61)
+		Unaligned bases: 1683 to 1778 (96)
+
+CONTIG: scaffold-172_998 (998bp)
+Top Length: 137  Top ID: 98.54
+		This contig is partially unaligned. (137 out of 998)
+		Alignment: 2962953 2963089 | 1 137 | 137 137 | 98.54 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-172_998
+		Unaligned bases: 138 to 998 (861)
+
+CONTIG: scaffold-204_76810 (76810bp)
+Top Length: 34528  Top ID: 99.12
+		Skipping redundant alignment 4490349 4490445 | 98 1 | 97 98 | 97.96 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-204_76810
+		Skipping redundant alignment 4705081 4705180 | 98 1 | 100 98 | 97.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-204_76810
+		Skipping redundant alignment 4556637 4556712 | 76810 76735 | 76 76 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-204_76810
+		Skipping redundant alignment 4556763 4556838 | 76810 76735 | 76 76 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-204_76810
+		This contig is misassembled. 7 total aligns.
+			Real Alignment 1: 4556867 4591370 | 76810 42283 | 34504 34528 | 99.12 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-204_76810
+			  Gap between these two alignments (local misassembly). Inconsistency = 96
+			Real Alignment 2: 4600722 4601686 | 33027 32063 | 965 965 | 98.65 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-204_76810
+			  Extensive misassembly ( relocation, inconsistency = 12180 ) between these two alignments
+			Real Alignment 3: 4621129 4645929 | 24800 1 | 24801 24800 | 99.56 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-204_76810
+
+CONTIG: scaffold-143_12721 (12721bp)
+Top Length: 5352  Top ID: 99.23
+		This contig is partially unaligned. (5352 out of 12721)
+		Alignment: 2219661 2225012 | 5352 1 | 5352 5352 | 99.23 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-143_12721
+		Unaligned bases: 5353 to 12721 (7369)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-12_22529 (22529bp)
+Top Length: 7094  Top ID: 99.28
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 452846 454695 | 1850 1 | 1850 1850 | 97.3 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-12_22529
+			  Extensive misassembly ( relocation, inconsistency = 1803 ) between these two alignments
+			Real Alignment 2: 454672 461765 | 1827 8920 | 7094 7094 | 99.28 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-12_22529
+			  Overlap between these two alignments (local misassembly). Inconsistency = -24
+			Real Alignment 3: 461857 466916 | 9036 14093 | 5060 5058 | 99.05 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-12_22529
+			  Extensive misassembly ( relocation, inconsistency = -4555 ) between these two alignments
+			Real Alignment 4: 469467 470798 | 21199 22529 | 1332 1331 | 97.97 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-12_22529
+
+CONTIG: scaffold-256_21294 (21294bp)
+Top Length: 1148  Top ID: 99.74
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 21294 and total length of all aligns is 1268
+		Alignment: 1695475 1696622 | 1 1148 | 1148 1148 | 99.74 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-256_21294
+		Alignment: 1718536 1718655 | 21175 21294 | 120 120 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-256_21294
+		Unaligned bases: 20026
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scaffold-49_52441 (52441bp)
+Top Length: 37831  Top ID: 99.55
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 4490187 4490283 | 97 1 | 97 97 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-49_52441
+			  Extensive misassembly ( relocation, inconsistency = 214673 ) between these two alignments
+			Real Alignment 2: 4652524 4690356 | 52433 14603 | 37833 37831 | 99.55 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-49_52441
+			  Extensive misassembly ( relocation, inconsistency = -14426 ) between these two alignments
+			Real Alignment 3: 4690371 4697660 | 162 7452 | 7290 7291 | 99.62 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-49_52441
+			  Gap between these two alignments (local misassembly). Inconsistency = 63
+			Real Alignment 4: 4697719 4704840 | 7448 14569 | 7122 7122 | 99.51 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-49_52441
+
+CONTIG: scaffold-138_13373 (13373bp)
+Top Length: 1309  Top ID: 98.85
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 13373 and total length of all aligns is 1421
+		Alignment: 1718544 1718655 | 13262 13373 | 112 112 | 99.11 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-138_13373
+		Alignment: 4440208 4441516 | 1309 1 | 1309 1309 | 98.85 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-138_13373
+		Unaligned bases: 11952
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scaffold-154_98005 (98005bp)
+Top Length: 27083  Top ID: 99.42
+		This contig is partially unaligned. (27083 out of 98005)
+		Alignment: 1507187 1534268 | 70824 97906 | 27082 27083 | 99.42 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-154_98005
+		Unaligned bases: 1 to 70823 (70823)
+		Unaligned bases: 97907 to 98005 (99)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-40_11541 (11541bp)
+		This contig is unaligned. (11541 bp)
+		Unaligned bases: 11541  total: 12243
+
+CONTIG: scaffold-316_34845 (34845bp)
+Top Length: 30901  Top ID: 99.57
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 3452830 3483730 | 1 30901 | 30901 30901 | 99.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-316_34845
+			  Gap between these two alignments (local misassembly). Inconsistency = 96
+			Real Alignment 2: 3486598 3487716 | 33673 34792 | 1119 1120 | 95.99 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-316_34845
+
+CONTIG: scaffold-76_579 (579bp)
+		This contig is unaligned. (579 bp)
+		Unaligned bases: 579  total: 12822
+
+CONTIG: scaffold-344_3194 (3194bp)
+Top Length: 3194  Top ID: 98.97
+		Marking as insignificant: 3950889 3950956 | 3127 3194 | 68 68 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-344_3194
+		One align captures most of this contig: 3950890 3954075 | 1 3194 | 3186 3194 | 98.97 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-344_3194
+
+CONTIG: scaffold-297_1153 (1153bp)
+Top Length: 146  Top ID: 98.63
+		Skipping redundant alignment 4957138 4957283 | 146 1 | 146 146 | 97.26 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-297_1153
+		This contig is partially unaligned. (146 out of 1153)
+		Alignment: 81826 81971 | 146 1 | 146 146 | 98.63 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-297_1153
+		Unaligned bases: 147 to 1153 (1007)
+
+CONTIG: scaffold-264_16108 (16108bp)
+Top Length: 8460  Top ID: 99.15
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 3748310 3755836 | 16108 8592 | 7527 7517 | 99.14 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-264_16108
+			  Gap between these two alignments (local misassembly). Inconsistency = 539
+			Real Alignment 2: 3756507 3764971 | 8460 1 | 8465 8460 | 99.15 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-264_16108
+
+CONTIG: scaffold-31_46773 (46773bp)
+Top Length: 43464  Top ID: 99.36
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 403747 406845 | 46773 43675 | 3099 3099 | 99.29 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-31_46773
+			  Extensive misassembly ( relocation, inconsistency = 2349 ) between these two alignments
+			Real Alignment 2: 409405 452869 | 43464 1 | 43465 43464 | 99.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-31_46773
+
+CONTIG: scaffold-150_1402 (1402bp)
+Top Length: 1344  Top ID: 99.26
+		Skipping redundant alignment 605745 605821 | 1326 1402 | 77 77 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-150_1402
+		Skipping redundant alignment 2995140 2995213 | 1402 1329 | 74 74 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-150_1402
+		Skipping redundant alignment 2995367 2995440 | 1402 1329 | 74 74 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-150_1402
+		This contig is partially unaligned. (1344 out of 1402)
+		Alignment: 2995690 2997033 | 1402 59 | 1344 1344 | 99.26 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-150_1402
+		Unaligned bases: 1 to 58 (58)
+
+CONTIG: scaffold-311_11537 (11537bp)
+Top Length: 1323  Top ID: 98.34
+		This contig is partially unaligned. (1323 out of 11537)
+		Alignment: 1804344 1805666 | 1 1323 | 1323 1323 | 98.34 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-311_11537
+		Unaligned bases: 1324 to 11537 (10214)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-168_19909 (19909bp)
+Top Length: 6667  Top ID: 99.37
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 3277417 3284082 | 1 6667 | 6666 6667 | 99.37 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-168_19909
+			  Overlap between these two alignments (local misassembly). Inconsistency = -55
+			Real Alignment 2: 3284180 3287896 | 6820 10536 | 3717 3717 | 99.52 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-168_19909
+
+CONTIG: scaffold-341_28206 (28206bp)
+Top Length: 18906  Top ID: 99.32
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 697112 716020 | 28206 9301 | 18909 18906 | 99.32 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-341_28206
+			  Gap between these two alignments (local misassembly). Inconsistency = 17
+			Real Alignment 2: 716448 725338 | 8890 1 | 8891 8890 | 99.27 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-341_28206
+
+CONTIG: scaffold-261_53185 (53185bp)
+Top Length: 25707  Top ID: 99.4
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1336439 1362131 | 52203 26497 | 25693 25707 | 99.4 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-261_53185
+			  Extensive misassembly ( relocation, inconsistency = 2808 ) between these two alignments
+			Real Alignment 2: 1365358 1381368 | 26078 10068 | 16011 16011 | 99.63 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-261_53185
+			  Extensive misassembly ( relocation, inconsistency = 26668 ) between these two alignments
+			Real Alignment 3: 1408022 1418103 | 10082 1 | 10082 10082 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-261_53185
+
+CONTIG: scaffold-129_10171 (10171bp)
+Top Length: 10171  Top ID: 99.31
+		One align captures most of this contig: 393674 403845 | 1 10171 | 10172 10171 | 99.31 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-129_10171
+
+CONTIG: scaffold-219_37208 (37208bp)
+Top Length: 20751  Top ID: 98.13
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1968538 1971493 | 37208 34253 | 2956 2956 | 97.23 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-219_37208
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 2: 1971660 1992402 | 34086 13336 | 20743 20751 | 98.13 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-219_37208
+			  Overlap between these two alignments (local misassembly). Inconsistency = -377
+			Real Alignment 3: 1992400 2005369 | 12961 2 | 12970 12960 | 99.27 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-219_37208
+
+CONTIG: scaffold-78_31288 (31288bp)
+Top Length: 24363  Top ID: 99.51
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 659149 683511 | 1 24363 | 24363 24363 | 99.51 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-78_31288
+			  Extensive misassembly ( relocation, inconsistency = 6697 ) between these two alignments
+			Real Alignment 2: 690388 697135 | 24543 31288 | 6748 6746 | 98.81 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-78_31288
+
+CONTIG: scaffold-85_55814 (55814bp)
+Top Length: 55138  Top ID: 99.5
+		Skipping redundant alignment 4037691 4037764 | 55814 55741 | 74 74 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-85_55814
+		This contig is partially unaligned. (55138 out of 55814)
+		Alignment: 4721056 4776202 | 677 55814 | 55147 55138 | 99.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-85_55814
+		Unaligned bases: 1 to 676 (676)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-233_19189 (19189bp)
+Top Length: 16367  Top ID: 99.18
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 4880679 4883354 | 19189 16506 | 2676 2684 | 98.4 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-233_19189
+			  Extensive misassembly ( relocation, inconsistency = 10986 ) between these two alignments
+			Real Alignment 2: 4894479 4910852 | 16367 1 | 16374 16367 | 99.18 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-233_19189
+
+CONTIG: scaffold-160_2006 (2006bp)
+		This contig is unaligned. (2006 bp)
+		Unaligned bases: 2006  total: 14828
+
+CONTIG: scaffold-289_48528 (48528bp)
+Top Length: 22267  Top ID: 99.18
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 5061956 5084231 | 2576 24842 | 22276 22267 | 99.18 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-289_48528
+			  Extensive misassembly ( relocation, inconsistency = 16223 ) between these two alignments
+			Real Alignment 2: 5100453 5103927 | 24841 28315 | 3475 3475 | 99.28 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-289_48528
+			  Extensive misassembly ( relocation, inconsistency = 2206 ) between these two alignments
+			Real Alignment 3: 5106162 5110276 | 28344 32459 | 4115 4116 | 99.44 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-289_48528
+			  Extensive misassembly ( relocation, inconsistency = 6369 ) between these two alignments
+			Real Alignment 4: 5116639 5132708 | 32453 48528 | 16070 16076 | 99.38 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-289_48528
+
+CONTIG: scaffold-228_560 (560bp)
+		This contig is unaligned. (560 bp)
+		Unaligned bases: 560  total: 15388
+
+CONTIG: scaffold-222_4101 (4101bp)
+Top Length: 4101  Top ID: 99.61
+		Marking as insignificant: 4556867 4556942 | 4026 4101 | 76 76 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-222_4101
+		Marking as insignificant: 4556763 4556838 | 4026 4101 | 76 76 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-222_4101
+		One align captures most of this contig: 4552612 4556712 | 1 4101 | 4101 4101 | 99.61 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-222_4101
+
+CONTIG: scaffold-6_41485 (41485bp)
+Top Length: 39027  Top ID: 99.65
+		Skipping redundant alignment 2471244 2471324 | 28452 28532 | 81 81 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-6_41485
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 725356 764382 | 1 39027 | 39027 39027 | 99.65 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-6_41485
+			  Extensive misassembly ( relocation, inconsistency = 4892 ) between these two alignments
+			Real Alignment 2: 769274 771732 | 39027 41485 | 2459 2459 | 98.94 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-6_41485
+
+CONTIG: scaffold-3_576 (576bp)
+		This contig is unaligned. (576 bp)
+		Unaligned bases: 576  total: 15964
+
+CONTIG: scaffold-281_126463 (126463bp)
+Top Length: 68882  Top ID: 99.47
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 199639 213500 | 126463 112597 | 13862 13867 | 99.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-281_126463
+			  Extensive misassembly ( relocation, inconsistency = 59477 ) between these two alignments
+			Real Alignment 2: 273108 341989 | 112466 43585 | 68882 68882 | 99.47 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-281_126463
+			  Extensive misassembly ( relocation, inconsistency = 3913 ) between these two alignments
+			Real Alignment 3: 346123 379288 | 43364 10199 | 33166 33166 | 99.47 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-281_126463
+			  Extensive misassembly ( relocation, inconsistency = 2083 ) between these two alignments
+			Real Alignment 4: 381456 386514 | 10114 5056 | 5059 5059 | 97.39 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-281_126463
+
+CONTIG: scaffold-133_53721 (53721bp)
+Top Length: 53721  Top ID: 99.41
+		One align captures most of this contig: 1065580 1119369 | 53721 1 | 53790 53721 | 99.41 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-133_53721
+
+CONTIG: scaffold-339_15061 (15061bp)
+Top Length: 15061  Top ID: 99.3
+		One align captures most of this contig: 771707 786762 | 1 15061 | 15056 15061 | 99.3 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-339_15061
+
+CONTIG: scaffold-81_110457 (110457bp)
+Top Length: 59746  Top ID: 99.22
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 831659 891372 | 2828 62573 | 59714 59746 | 99.22 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-81_110457
+			  Extensive misassembly ( relocation, inconsistency = 2376 ) between these two alignments
+			Real Alignment 2: 894046 931742 | 62871 100566 | 37697 37696 | 99.43 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-81_110457
+			  Extensive misassembly ( relocation, inconsistency = 2077 ) between these two alignments
+			Real Alignment 3: 933978 941324 | 100725 108071 | 7347 7347 | 99.66 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-81_110457
+			  Extensive misassembly ( relocation, inconsistency = 1628 ) between these two alignments
+			Real Alignment 4: 942960 945337 | 108079 110457 | 2378 2379 | 98.74 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-81_110457
+
+CONTIG: scaffold-340_676 (676bp)
+Top Length: 463  Top ID: 95.04
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2964844 2965306 | 676 214 | 463 463 | 95.04 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-340_676
+			  Extensive misassembly ( relocation, inconsistency = 6941 ) between these two alignments
+			Real Alignment 2: 2972265 2972460 | 196 1 | 196 196 | 98.47 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-340_676
+
+CONTIG: scaffold-7_81080 (81080bp)
+Top Length: 33783  Top ID: 99.4
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 117385 129876 | 3 12494 | 12492 12492 | 99.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-7_81080
+			  Extensive misassembly ( relocation, inconsistency = -1456 ) between these two alignments
+			Real Alignment 2: 129896 163656 | 13970 47752 | 33761 33783 | 99.4 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-7_81080
+			  Extensive misassembly ( relocation, inconsistency = 2464 ) between these two alignments
+			Real Alignment 3: 168602 199174 | 50234 80806 | 30573 30573 | 99.56 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-7_81080
+
+CONTIG: scaffold-371_2552 (2552bp)
+Top Length: 2552  Top ID: 100.0
+		One align captures most of this contig: 1418810 1421361 | 1 2552 | 2552 2552 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-371_2552
+
+CONTIG: scaffold-11_32294 (32294bp)
+		This contig is unaligned. (32294 bp)
+		Unaligned bases: 32294  total: 48258
+
+CONTIG: scaffold-43_534 (534bp)
+		This contig is unaligned. (534 bp)
+		Unaligned bases: 534  total: 48792
+
+CONTIG: scaffold-144_11147 (11147bp)
+		This contig is unaligned. (11147 bp)
+		Unaligned bases: 11147  total: 59939
+
+CONTIG: scaffold-169_110727 (110727bp)
+Top Length: 70351  Top ID: 99.32
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 3588446 3628034 | 711 40285 | 39589 39575 | 99.1 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-169_110727
+			  Gap between these two alignments (local misassembly). Inconsistency = 48
+			Real Alignment 2: 3628168 3698555 | 40371 110721 | 70388 70351 | 99.32 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-169_110727
+
+CONTIG: scaffold-148_188622 (188622bp)
+Top Length: 76525  Top ID: 99.34
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 4154741 4231255 | 1 76525 | 76515 76525 | 99.34 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-148_188622
+			  Overlap between these two alignments (local misassembly). Inconsistency = -62
+			Real Alignment 2: 4232940 4289861 | 78272 135195 | 56922 56924 | 99.52 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-148_188622
+			  Extensive misassembly ( relocation, inconsistency = 39229 ) between these two alignments
+			Real Alignment 3: 4329075 4337663 | 135180 143776 | 8589 8597 | 99.38 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-148_188622
+			  Extensive misassembly ( relocation, inconsistency = -4516 ) between these two alignments
+			Real Alignment 4: 4337671 4350878 | 148300 161507 | 13208 13208 | 99.43 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-148_188622
+			  Extensive misassembly ( relocation, inconsistency = -8489 ) between these two alignments
+			Real Alignment 5: 4350868 4352767 | 169986 171885 | 1900 1900 | 98.58 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-148_188622
+
+CONTIG: scaffold-2_7841 (7841bp)
+Top Length: 6919  Top ID: 98.22
+		This contig is partially unaligned. (6919 out of 7841)
+		Alignment: 4910807 4917760 | 7841 923 | 6954 6919 | 98.22 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-2_7841
+		Unaligned bases: 1 to 922 (922)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-321_573 (573bp)
+		This contig is unaligned. (573 bp)
+		Unaligned bases: 573  total: 60512
+
+CONTIG: scaffold-37_23457 (23457bp)
+Top Length: 23457  Top ID: 99.1
+		One align captures most of this contig: 3954480 3977931 | 1 23457 | 23452 23457 | 99.1 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-37_23457
+
+CONTIG: scaffold-235_566 (566bp)
+		This contig is unaligned. (566 bp)
+		Unaligned bases: 566  total: 61078
+
+CONTIG: scaffold-347_59477 (59477bp)
+Top Length: 56638  Top ID: 99.27
+		Skipping redundant alignment 2077981 2078610 | 31950 32578 | 630 629 | 98.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-347_59477
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2102349 2104800 | 395 2849 | 2452 2455 | 98.82 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-347_59477
+			  Extensive misassembly ( relocation, inconsistency = 41636 ) between these two alignments
+			Real Alignment 2: 2146427 2203074 | 2840 59477 | 56648 56638 | 99.27 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-347_59477
+
+CONTIG: scaffold-291_9744 (9744bp)
+Top Length: 9744  Top ID: 99.18
+		One align captures most of this contig: 2005402 2015120 | 1 9744 | 9719 9744 | 99.18 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-291_9744
+
+CONTIG: scaffold-101_1588 (1588bp)
+Top Length: 927  Top ID: 99.24
+		This contig is partially unaligned. (927 out of 1588)
+		Alignment: 4376731 4377656 | 1588 662 | 926 927 | 99.24 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-101_1588
+		Unaligned bases: 1 to 661 (661)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-353_641 (641bp)
+		This contig is unaligned. (641 bp)
+		Unaligned bases: 641  total: 61719
+
+CONTIG: scaffold-94_29134 (29134bp)
+Top Length: 24393  Top ID: 99.61
+		Skipping redundant alignment 5365174 5365279 | 29029 29134 | 106 106 | 98.11 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-94_29134
+		Skipping redundant alignment 1226306 1226387 | 29053 29134 | 82 82 | 98.78 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-94_29134
+		Skipping redundant alignment 3100793 3100873 | 29054 29134 | 81 81 | 97.53 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-94_29134
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 5336068 5338795 | 54 2779 | 2728 2726 | 99.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-94_29134
+			  Overlap between these two alignments (local misassembly). Inconsistency = -119
+			Real Alignment 2: 5340638 5365030 | 4741 29133 | 24393 24393 | 99.61 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-94_29134
+
+CONTIG: scaffold-218_31040 (31040bp)
+Top Length: 28241  Top ID: 99.42
+		Skipping redundant alignment 2876552 2876623 | 30969 31040 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-218_31040
+		Skipping redundant alignment 2876460 2876531 | 30969 31040 | 72 72 | 98.61 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-218_31040
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 2845862 2874098 | 1091 29331 | 28237 28241 | 99.42 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-218_31040
+			  Gap between these two alignments (local misassembly). Inconsistency = 576
+			Real Alignment 2: 2874738 2876435 | 29395 31040 | 1698 1646 | 96.35 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-218_31040
+
+CONTIG: scaffold-122_32590 (32590bp)
+		This contig is unaligned. (32590 bp)
+		Unaligned bases: 32590  total: 94309
+
+CONTIG: scaffold-151_19935 (19935bp)
+Top Length: 17666  Top ID: 99.34
+		Skipping redundant alignment 3239311 3239416 | 19830 19935 | 106 106 | 99.06 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-151_19935
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 5267943 5268798 | 1 856 | 856 856 | 99.65 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-151_19935
+			  Gap between these two alignments (local misassembly). Inconsistency = 7
+			Real Alignment 2: 5270219 5287889 | 2270 19935 | 17671 17666 | 99.34 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-151_19935
+
+CONTIG: scaffold-75_15611 (15611bp)
+Top Length: 5443  Top ID: 99.3
+		Skipping redundant alignment 4291582 4293635 | 13042 15095 | 2054 2054 | 98.83 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-75_15611
+		This contig is partially unaligned. (5443 out of 15611)
+		Alignment: 1501771 1507213 | 15611 10169 | 5443 5443 | 99.3 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-75_15611
+		Unaligned bases: 1 to 10168 (10168)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-147_32124 (32124bp)
+Top Length: 32124  Top ID: 99.19
+		One align captures most of this contig: 3245084 3277130 | 32124 1 | 32047 32124 | 99.19 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-147_32124
+
+CONTIG: scaffold-323_1282 (1282bp)
+		This contig is unaligned. (1282 bp)
+		Unaligned bases: 1282  total: 95591
+
+CONTIG: scaffold-210_738 (738bp)
+		This contig is unaligned. (738 bp)
+		Unaligned bases: 738  total: 96329
+
+CONTIG: scaffold-8_1973 (1973bp)
+Top Length: 1973  Top ID: 98.94
+		One align captures most of this contig: 3319057 3321029 | 1973 1 | 1973 1973 | 98.94 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-8_1973
+
+CONTIG: scaffold-110_851 (851bp)
+Top Length: 851  Top ID: 95.99
+		One align captures most of this contig: 1802320 1803191 | 1 851 | 872 851 | 95.99 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-110_851
+
+CONTIG: scaffold-262_38763 (38763bp)
+Top Length: 38689  Top ID: 99.58
+		Marking as insignificant: 2876369 2876438 | 1 70 | 70 70 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-262_38763
+		Marking as insignificant: 2876465 2876537 | 1 73 | 73 73 | 98.63 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-262_38763
+		One align captures most of this contig: 2876557 2915244 | 1 38689 | 38688 38689 | 99.58 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-262_38763
+
+CONTIG: scaffold-320_8219 (8219bp)
+		This contig is unaligned. (8219 bp)
+		Unaligned bases: 8219  total: 104548
+
+CONTIG: scaffold-220_77135 (77135bp)
+Top Length: 30344  Top ID: 99.57
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 4042907 4073269 | 77050 46707 | 30363 30344 | 99.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-220_77135
+			  Extensive misassembly ( relocation, inconsistency = 1908 ) between these two alignments
+			Real Alignment 2: 4075483 4079475 | 46401 42397 | 3993 4005 | 97.18 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-220_77135
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 3: 4083512 4091123 | 38360 30759 | 7612 7602 | 97.23 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-220_77135
+			  Extensive misassembly ( relocation, inconsistency = -8331 ) between these two alignments
+			Real Alignment 4: 4091134 4112182 | 22417 1371 | 21049 21047 | 99.32 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-220_77135
+
+CONTIG: scaffold-237_58301 (58301bp)
+Top Length: 55117  Top ID: 99.17
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 3392987 3394851 | 58301 56436 | 1865 1866 | 98.88 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-237_58301
+			  Overlap between these two alignments (local misassembly). Inconsistency = -761
+			Real Alignment 2: 3394837 3395241 | 55689 55285 | 405 405 | 99.75 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-237_58301
+			  Extensive misassembly ( relocation, inconsistency = 1926 ) between these two alignments
+			Real Alignment 3: 3397335 3452469 | 55117 1 | 55135 55117 | 99.17 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-237_58301
+
+CONTIG: scaffold-55_53107 (53107bp)
+Top Length: 23110  Top ID: 99.4
+		Skipping redundant alignment 4652068 4652167 | 1 100 | 100 100 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-55_53107
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 4496722 4515428 | 292 18993 | 18707 18702 | 99.39 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-55_53107
+			  Extensive misassembly ( relocation, inconsistency = 4007 ) between these two alignments
+			Real Alignment 2: 4519435 4542544 | 18993 42102 | 23110 23110 | 99.4 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-55_53107
+			  Overlap between these two alignments (local misassembly). Inconsistency = -840
+			Real Alignment 3: 4543593 4552709 | 43991 53107 | 9117 9117 | 99.66 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-55_53107
+			  Extensive misassembly ( relocation, inconsistency = 211716 ) between these two alignments
+			Real Alignment 4: 4711319 4711483 | 1 165 | 165 165 | 98.79 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-55_53107
+
+CONTIG: scaffold-119_9861 (9861bp)
+Top Length: 5550  Top ID: 99.51
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2203257 2204321 | 1 1065 | 1065 1065 | 99.72 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-119_9861
+			  Extensive misassembly ( relocation, inconsistency = 1119 ) between these two alignments
+			Real Alignment 2: 2205525 2211074 | 1150 6699 | 5550 5550 | 99.51 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-119_9861
+
+CONTIG: scaffold-294_1015 (1015bp)
+		This contig is unaligned. (1015 bp)
+		Unaligned bases: 1015  total: 105563
+
+CONTIG: scaffold-200_561 (561bp)
+		This contig is unaligned. (561 bp)
+		Unaligned bases: 561  total: 106124
+
+CONTIG: scaffold-128_11723 (11723bp)
+Top Length: 2445  Top ID: 99.59
+		This contig is partially unaligned. (2445 out of 11723)
+		Alignment: 4124138 4126582 | 9279 11723 | 2445 2445 | 99.59 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-128_11723
+		Unaligned bases: 1 to 9278 (9278)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-336_791 (791bp)
+		This contig is unaligned. (791 bp)
+		Unaligned bases: 791  total: 106915
+
+CONTIG: scaffold-152_575 (575bp)
+		This contig is unaligned. (575 bp)
+		Unaligned bases: 575  total: 107490
+
+CONTIG: scaffold-185_11961 (11961bp)
+Top Length: 11961  Top ID: 99.3
+		Marking as insignificant: 2995366 2995440 | 75 1 | 75 75 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-185_11961
+		Marking as insignificant: 2995139 2995213 | 75 1 | 75 75 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-185_11961
+		Marking as insignificant: 3911579 3911658 | 11961 11882 | 80 80 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-185_11961
+		Marking as insignificant: 2995680 2995763 | 84 1 | 84 84 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-185_11961
+		One align captures most of this contig: 605748 617708 | 1 11961 | 11961 11961 | 99.3 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-185_11961
+
+CONTIG: scaffold-27_519 (519bp)
+		This contig is unaligned. (519 bp)
+		Unaligned bases: 519  total: 108009
+
+CONTIG: scaffold-100_84107 (84107bp)
+Top Length: 62121  Top ID: 99.38
+		Skipping redundant alignment 4777831 4777909 | 1 79 | 79 79 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-100_84107
+		Skipping redundant alignment 1447286 1447362 | 77 1 | 77 77 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-100_84107
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 1720535 1731183 | 1 10649 | 10649 10649 | 99.49 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-100_84107
+			  Gap between these two alignments (local misassembly). Inconsistency = 390
+			Real Alignment 2: 1731573 1793677 | 10649 72769 | 62105 62121 | 99.38 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-100_84107
+			  Gap between these two alignments (local misassembly). Inconsistency = 89
+			Real Alignment 3: 1793766 1801005 | 72769 80008 | 7240 7240 | 99.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-100_84107
+
+CONTIG: scaffold-345_569 (569bp)
+		This contig is unaligned. (569 bp)
+		Unaligned bases: 569  total: 108578
+
+CONTIG: scaffold-67_53794 (53794bp)
+Top Length: 35171  Top ID: 99.58
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1541962][1542048] redundant alignment 1541962 1542048 | 53794 53708 | 87 87 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-67_53794
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1604296 1604382 | 53794 53708 | 87 87 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-67_53794
+			  Extensive misassembly ( relocation, inconsistency = 29224 ) between these two alignments
+			Real Alignment 2: 1649829 1684998 | 37485 2315 | 35170 35171 | 99.58 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-67_53794
+			  Overlap between these two alignments (local misassembly). Inconsistency = -227
+			Real Alignment 3: 1684998 1687084 | 2088 1 | 2087 2088 | 99.47 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-67_53794
+
+CONTIG: scaffold-293_21873 (21873bp)
+Top Length: 15596  Top ID: 99.58
+		Skipping redundant alignment 3774533 3774600 | 21806 21873 | 68 68 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-293_21873
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1455719 1462002 | 21873 15589 | 6284 6285 | 99.73 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-293_21873
+			  Extensive misassembly ( relocation, inconsistency = 24273 ) between these two alignments
+			Real Alignment 2: 1486268 1501865 | 15596 1 | 15598 15596 | 99.58 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-293_21873
+
+CONTIG: scaffold-197_8726 (8726bp)
+Top Length: 4863  Top ID: 99.05
+		Skipping redundant alignment 4777571 4777646 | 76 1 | 76 76 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-197_8726
+		Skipping redundant alignment 1126738 1126826 | 8638 8726 | 89 89 | 97.75 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-197_8726
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1141333 1146195 | 8726 3864 | 4863 4863 | 99.05 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-197_8726
+			  Extensive misassembly ( relocation, inconsistency = -2454 ) between these two alignments
+			Real Alignment 2: 1146222 1147605 | 1383 1 | 1384 1383 | 99.42 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-197_8726
+
+CONTIG: scaffold-33_51632 (51632bp)
+Top Length: 42889  Top ID: 99.39
+		Skipping redundant alignment 2995689 2995766 | 1 78 | 78 78 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-33_51632
+		Skipping redundant alignment 2995139 2995213 | 1 75 | 75 75 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-33_51632
+		Skipping redundant alignment 2995366 2995440 | 1 75 | 75 75 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-33_51632
+		This contig is misassembled. 7 total aligns.
+			Real Alignment 1: 553816 555801 | 51632 49648 | 1986 1985 | 98.64 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-33_51632
+			  Extensive misassembly ( relocation, inconsistency = 3500 ) between these two alignments
+			Real Alignment 2: 558699 560129 | 50250 48801 | 1431 1450 | 96.62 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-33_51632
+			  Extensive misassembly ( relocation, inconsistency = -2543 ) between these two alignments
+			Real Alignment 3: 559897 562942 | 46490 43445 | 3046 3046 | 95.79 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-33_51632
+			  Overlap between these two alignments (local misassembly). Inconsistency = -572
+			Real Alignment 4: 562926 605822 | 42889 1 | 42897 42889 | 99.39 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-33_51632
+
+CONTIG: scaffold-111_4119 (4119bp)
+		This contig is unaligned. (4119 bp)
+		Unaligned bases: 4119  total: 112697
+
+CONTIG: scaffold-26_4657 (4657bp)
+		This contig is unaligned. (4657 bp)
+		Unaligned bases: 4657  total: 117354
+
+CONTIG: scaffold-166_79080 (79080bp)
+Top Length: 59820  Top ID: 99.29
+		Skipping redundant alignment 753807 753887 | 79080 79000 | 81 81 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-166_79080
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2471244 2490494 | 79080 59820 | 19251 19261 | 98.74 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-166_79080
+			  Gap between these two alignments (local misassembly). Inconsistency = 643
+			Real Alignment 2: 2491137 2551002 | 59820 1 | 59866 59820 | 99.29 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-166_79080
+
+CONTIG: scaffold-259_766 (766bp)
+		This contig is unaligned. (766 bp)
+		Unaligned bases: 766  total: 118120
+
+CONTIG: scaffold-17_2328 (2328bp)
+Top Length: 1834  Top ID: 95.69
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 971870 972022 | 2328 2174 | 153 155 | 96.13 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-17_2328
+			  Extensive misassembly ( relocation, inconsistency = 1395765 ) between these two alignments
+			Real Alignment 2: 2367862 2369691 | 2099 266 | 1830 1834 | 95.69 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-17_2328
+
+CONTIG: scaffold-318_6308 (6308bp)
+		This contig is unaligned. (6308 bp)
+		Unaligned bases: 6308  total: 124428
+
+CONTIG: scaffold-352_11915 (11915bp)
+Top Length: 3660  Top ID: 95.8
+		This contig is partially unaligned. (3660 out of 11915)
+		Alignment: 2436862 2440523 | 5525 9184 | 3662 3660 | 95.8 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-352_11915
+		Unaligned bases: 1 to 5524 (5524)
+		Unaligned bases: 9185 to 11915 (2731)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-223_29680 (29680bp)
+Top Length: 22309  Top ID: 99.53
+		Skipping redundant alignment 1720535 1720613 | 29680 29602 | 79 79 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-223_29680
+		Skipping redundant alignment 1447286 1447362 | 29604 29680 | 77 77 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-223_29680
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 4777831 4800153 | 29680 7372 | 22323 22309 | 99.53 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-223_29680
+			  Extensive misassembly ( relocation, inconsistency = 57655 ) between these two alignments
+			Real Alignment 2: 4857785 4865193 | 7395 1 | 7409 7395 | 98.31 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-223_29680
+
+CONTIG: scaffold-270_3680 (3680bp)
+Top Length: 2359  Top ID: 99.58
+		Skipping redundant alignment 3380388 3380487 | 3581 3680 | 100 100 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-270_3680
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2986610 2987186 | 1 577 | 577 577 | 99.65 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-270_3680
+			  Overlap between these two alignments (local misassembly). Inconsistency = -713
+			Real Alignment 2: 2987218 2989575 | 1322 3680 | 2358 2359 | 99.58 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-270_3680
+
+CONTIG: scaffold-155_61976 (61976bp)
+Top Length: 46663  Top ID: 99.2
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2672991 2719621 | 1 46663 | 46631 46663 | 99.2 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-155_61976
+			  Extensive misassembly ( relocation, inconsistency = 4835 ) between these two alignments
+			Real Alignment 2: 2724950 2733414 | 47157 55621 | 8465 8465 | 99.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-155_61976
+
+CONTIG: scaffold-335_11378 (11378bp)
+Top Length: 11378  Top ID: 99.44
+		One align captures most of this contig: 5293817 5305194 | 1 11378 | 11378 11378 | 99.44 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-335_11378
+
+CONTIG: scaffold-367_11222 (11222bp)
+Top Length: 9883  Top ID: 99.1
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2915239 2925122 | 11162 1280 | 9884 9883 | 99.1 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-367_11222
+			  Gap between these two alignments (local misassembly). Inconsistency = 142
+			Real Alignment 2: 2925264 2926543 | 1280 1 | 1280 1280 | 99.06 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-367_11222
+
+CONTIG: scaffold-292_26305 (26305bp)
+Top Length: 11668  Top ID: 99.0
+		This contig is partially unaligned. (11668 out of 26305)
+		Alignment: 2997159 3008815 | 180 11847 | 11657 11668 | 99.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-292_26305
+		Unaligned bases: 1 to 179 (179)
+		Unaligned bases: 11848 to 26305 (14458)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-251_508 (508bp)
+Top Length: 508  Top ID: 97.24
+		One align captures most of this contig: 1801911 1802418 | 508 1 | 508 508 | 97.24 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-251_508
+
+CONTIG: scaffold-35_137379 (137379bp)
+Top Length: 44083  Top ID: 98.99
+		Skipping redundant alignment 1881965 1882076 | 48669 48558 | 112 112 | 99.11 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-35_137379
+		Skipping redundant alignment 2242309 2242880 | 87428 87999 | 572 572 | 95.98 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-35_137379
+		This contig is misassembled. 7 total aligns.
+			Real Alignment 1: 1872031 1878708 | 36250 42927 | 6678 6678 | 98.88 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-35_137379
+			  Extensive misassembly ( relocation, inconsistency = -2374 ) between these two alignments
+			Real Alignment 2: 1878788 1922925 | 45381 89463 | 44138 44083 | 98.99 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-35_137379
+			  Extensive misassembly ( relocation, inconsistency = 1413 ) between these two alignments
+			Real Alignment 3: 1926731 1941423 | 91856 106571 | 14693 14716 | 99.38 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-35_137379
+			  Gap between these two alignments (local misassembly). Inconsistency = 46
+			Real Alignment 4: 1942816 1961814 | 107918 126917 | 18999 19000 | 99.44 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-35_137379
+			  Extensive misassembly ( relocation, inconsistency = -3738 ) between these two alignments
+			Real Alignment 5: 1961814 1968539 | 130655 137379 | 6726 6725 | 99.06 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-35_137379
+
+CONTIG: scaffold-53_15130 (15130bp)
+Top Length: 15130  Top ID: 99.41
+		One align captures most of this contig: 4865184 4880302 | 1 15130 | 15119 15130 | 99.41 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-53_15130
+
+CONTIG: scaffold-159_902 (902bp)
+		This contig is unaligned. (902 bp)
+		Unaligned bases: 902  total: 125330
+
+CONTIG: scaffold-167_30518 (30518bp)
+Top Length: 29999  Top ID: 99.26
+		Skipping redundant alignment 46299 46461 | 1428 1590 | 163 163 | 98.16 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-167_30518
+		This contig is partially unaligned. (29999 out of 30518)
+		Alignment: 49897 79888 | 520 30518 | 29992 29999 | 99.26 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-167_30518
+		Unaligned bases: 1 to 519 (519)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-214_1517 (1517bp)
+Top Length: 1517  Top ID: 99.87
+		Marking as insignificant: 4037691 4037764 | 1444 1517 | 74 74 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-214_1517
+		Marking as insignificant: 1147530 1147604 | 75 1 | 75 75 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-214_1517
+		One align captures most of this contig: 4776129 4777645 | 1517 1 | 1517 1517 | 99.87 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-214_1517
+
+CONTIG: scaffold-267_41012 (41012bp)
+		This contig is unaligned. (41012 bp)
+		Unaligned bases: 41012  total: 166342
+
+CONTIG: scaffold-171_1571 (1571bp)
+Top Length: 258  Top ID: 99.22
+		This contig is partially unaligned. (258 out of 1571)
+		Alignment: 4322485 4322742 | 959 1216 | 258 258 | 99.22 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-171_1571
+		Unaligned bases: 1 to 958 (958)
+		Unaligned bases: 1217 to 1571 (355)
+
+CONTIG: scaffold-224_7588 (7588bp)
+Top Length: 7588  Top ID: 99.51
+		Marking as insignificant: 2992813 2992925 | 7588 7476 | 113 113 | 99.12 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-224_7588
+		One align captures most of this contig: 3381913 3389499 | 7588 1 | 7587 7588 | 99.51 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-224_7588
+
+CONTIG: scaffold-113_569 (569bp)
+Top Length: 569  Top ID: 99.3
+		One align captures most of this contig: 2986090 2986658 | 569 1 | 569 569 | 99.3 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-113_569
+
+CONTIG: scaffold-213_7280 (7280bp)
+Top Length: 7181  Top ID: 99.5
+		This contig is partially unaligned. (7181 out of 7280)
+		Alignment: 3800837 3808017 | 7280 100 | 7181 7181 | 99.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-213_7280
+		Unaligned bases: 1 to 99 (99)
+
+CONTIG: scaffold-232_13112 (13112bp)
+Top Length: 1045  Top ID: 95.12
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 13112 and total length of all aligns is 1471
+		Alignment: 1825884 1826928 | 10145 11189 | 1045 1045 | 95.12 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-232_13112
+		Alignment: 1826929 1827354 | 12686 13111 | 426 426 | 99.3 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-232_13112
+		Unaligned bases: 11641
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scaffold-246_732 (732bp)
+Top Length: 732  Top ID: 96.45
+		Marking as insignificant: 2962886 2963014 | 604 732 | 129 129 | 98.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-246_732
+		One align captures most of this contig: 2966683 2967414 | 1 732 | 732 732 | 96.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-246_732
+
+CONTIG: scaffold-354_909 (909bp)
+Top Length: 909  Top ID: 98.57
+		One align captures most of this contig: 80993 81901 | 909 1 | 909 909 | 98.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-354_909
+
+CONTIG: scaffold-349_7876 (7876bp)
+Top Length: 7780  Top ID: 99.6
+		Skipping redundant alignment 1604238 1604380 | 143 1 | 143 143 | 98.6 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-349_7876
+		This contig is partially unaligned. (7780 out of 7876)
+		Alignment: 1534265 1542046 | 7780 1 | 7782 7780 | 99.6 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-349_7876
+		Unaligned bases: 7781 to 7876 (96)
+
+CONTIG: scaffold-104_37869 (37869bp)
+Top Length: 37251  Top ID: 99.45
+		This contig is partially unaligned. (37251 out of 37869)
+		Alignment: 4377693 4414942 | 1 37251 | 37250 37251 | 99.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-104_37869
+		Unaligned bases: 37252 to 37869 (618)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-180_815 (815bp)
+		This contig is unaligned. (815 bp)
+		Unaligned bases: 815  total: 167157
+
+CONTIG: scaffold-300_55656 (55656bp)
+Top Length: 51146  Top ID: 99.56
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 3320976 3372115 | 55656 4511 | 51140 51146 | 99.56 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-300_55656
+			  Overlap between these two alignments (local misassembly). Inconsistency = -13
+			Real Alignment 2: 3372262 3376608 | 4351 5 | 4347 4347 | 98.71 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-300_55656
+
+CONTIG: scaffold-255_714 (714bp)
+Top Length: 714  Top ID: 100.0
+		One align captures most of this contig: 5308587 5309300 | 714 1 | 714 714 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-255_714
+
+CONTIG: scaffold-257_2421 (2421bp)
+Top Length: 2421  Top ID: 98.64
+		One align captures most of this contig: 1138257 1140680 | 2421 1 | 2424 2421 | 98.64 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-257_2421
+
+CONTIG: scaffold-187_5825 (5825bp)
+Top Length: 5678  Top ID: 99.61
+		This contig is partially unaligned. (5678 out of 5825)
+		Alignment: 2665668 2671344 | 74 5751 | 5677 5678 | 99.61 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-187_5825
+		Unaligned bases: 1 to 73 (73)
+		Unaligned bases: 5752 to 5825 (74)
+
+CONTIG: scaffold-48_535 (535bp)
+		This contig is unaligned. (535 bp)
+		Unaligned bases: 535  total: 167692
+
+CONTIG: scaffold-44_871 (871bp)
+		This contig is unaligned. (871 bp)
+		Unaligned bases: 871  total: 168563
+
+CONTIG: scaffold-162_558 (558bp)
+Top Length: 558  Top ID: 99.28
+		One align captures most of this contig: 3452372 3452928 | 558 1 | 557 558 | 99.28 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-162_558
+
+CONTIG: scaffold-46_521 (521bp)
+Top Length: 521  Top ID: 100.0
+		One align captures most of this contig: 3800415 3800935 | 521 1 | 521 521 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-46_521
+
+CONTIG: scaffold-334_28394 (28394bp)
+Top Length: 18570  Top ID: 99.61
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2634335 2652904 | 1 18570 | 18570 18570 | 99.61 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-334_28394
+			  Extensive misassembly ( relocation, inconsistency = 3005 ) between these two alignments
+			Real Alignment 2: 2655874 2665673 | 18535 28334 | 9800 9800 | 99.67 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-334_28394
+
+CONTIG: scaffold-206_20144 (20144bp)
+Top Length: 20046  Top ID: 99.37
+		Marking as insignificant: 2800917 2800992 | 1811 1886 | 76 76 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-206_20144
+		Marking as insignificant: 2822641 2822717 | 20068 20144 | 77 77 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-206_20144
+		One align captures most of this contig: 2802551 2822612 | 99 20144 | 20062 20046 | 99.37 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-206_20144
+
+CONTIG: scaffold-304_738 (738bp)
+Top Length: 738  Top ID: 100.0
+		One align captures most of this contig: 1418088 1418825 | 738 1 | 738 738 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-304_738
+
+CONTIG: scaffold-366_51439 (51439bp)
+Top Length: 41208  Top ID: 99.57
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 5133135 5174344 | 51439 10232 | 41210 41208 | 99.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-366_51439
+			  Extensive misassembly ( relocation, inconsistency = 76534 ) between these two alignments
+			Real Alignment 2: 5250874 5261108 | 10236 1 | 10235 10236 | 99.52 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-366_51439
+
+CONTIG: scaffold-83_48627 (48627bp)
+Top Length: 30189  Top ID: 99.3
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2021175 2051364 | 48627 18439 | 30190 30189 | 99.3 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-83_48627
+			  Extensive misassembly ( relocation, inconsistency = -2862 ) between these two alignments
+			Real Alignment 2: 2051361 2059506 | 15580 7435 | 8146 8146 | 99.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-83_48627
+			  Extensive misassembly ( relocation, inconsistency = 19654 ) between these two alignments
+			Real Alignment 3: 2078680 2084964 | 7915 1630 | 6285 6286 | 99.05 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-83_48627
+
+CONTIG: scaffold-193_567 (567bp)
+Top Length: 567  Top ID: 98.24
+		One align captures most of this contig: 3377644 3378210 | 1 567 | 567 567 | 98.24 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-193_567
+
+CONTIG: scaffold-45_30533 (30533bp)
+		This contig is unaligned. (30533 bp)
+		Unaligned bases: 30533  total: 199096
+
+CONTIG: scaffold-60_6954 (6954bp)
+		This contig is unaligned. (6954 bp)
+		Unaligned bases: 6954  total: 206050
+
+CONTIG: scaffold-215_28232 (28232bp)
+Top Length: 28134  Top ID: 99.55
+		One align captures most of this contig: 3808013 3836148 | 99 28232 | 28136 28134 | 99.55 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-215_28232
+
+CONTIG: scaffold-287_39725 (39725bp)
+Top Length: 28599  Top ID: 99.38
+		Skipping redundant alignment 3954008 3954076 | 69 1 | 69 69 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-287_39725
+		Skipping redundant alignment 617629 617708 | 39646 39725 | 80 80 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-287_39725
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 3911579 3918354 | 39725 32951 | 6776 6775 | 97.49 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-287_39725
+			  Overlap between these two alignments (local misassembly). Inconsistency = -348
+			Real Alignment 2: 3922358 3950957 | 28599 1 | 28600 28599 | 99.38 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-287_39725
+
+CONTIG: scaffold-201_13023 (13023bp)
+Top Length: 12856  Top ID: 99.45
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1147650 1160509 | 13023 168 | 12860 12856 | 99.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-201_13023
+			  Extensive misassembly ( relocation, inconsistency = 1178 ) between these two alignments
+			Real Alignment 2: 1161687 1161854 | 168 1 | 168 168 | 98.21 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-201_13023
+
+CONTIG: scaffold-328_551 (551bp)
+		This contig is unaligned. (551 bp)
+		Unaligned bases: 551  total: 206601
+
+CONTIG: scaffold-158_11633 (11633bp)
+Top Length: 11633  Top ID: 99.36
+		Marking as insignificant: 3239400 3239499 | 11534 11633 | 100 100 | 98.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-158_11633
+		Marking as insignificant: 4705120 4705219 | 11534 11633 | 100 100 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-158_11633
+		Marking as insignificant: 4645869 4645968 | 11534 11633 | 100 100 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-158_11633
+		Marking as insignificant: 4490385 4490484 | 11534 11633 | 100 100 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-158_11633
+		One align captures most of this contig: 3887902 3899534 | 1 11633 | 11633 11633 | 99.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-158_11633
+
+CONTIG: scaffold-286_3726 (3726bp)
+Top Length: 3489  Top ID: 99.46
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 971870 972045 | 1 176 | 176 176 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-286_3726
+			  Extensive misassembly ( relocation, inconsistency = 1623 ) between these two alignments
+			Real Alignment 2: 973730 977219 | 238 3726 | 3490 3489 | 99.46 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-286_3726
+
+CONTIG: scaffold-29_24099 (24099bp)
+Top Length: 24012  Top ID: 99.45
+		One align captures most of this contig: 2251302 2275312 | 88 24099 | 24011 24012 | 99.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-29_24099
+
+CONTIG: scaffold-57_10054 (10054bp)
+Top Length: 9994  Top ID: 99.06
+		One align captures most of this contig: 2575144 2585117 | 10054 61 | 9974 9994 | 99.06 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-57_10054
+
+CONTIG: scaffold-248_26391 (26391bp)
+Top Length: 26331  Top ID: 99.64
+		One align captures most of this contig: 5309748 5336072 | 26391 61 | 26325 26331 | 99.64 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-248_26391
+
+CONTIG: scaffold-115_1036 (1036bp)
+		This contig is unaligned. (1036 bp)
+		Unaligned bases: 1036  total: 207637
+
+CONTIG: scaffold-368_3395 (3395bp)
+		This contig is unaligned. (3395 bp)
+		Unaligned bases: 3395  total: 211032
+
+CONTIG: scaffold-74_766 (766bp)
+		This contig is unaligned. (766 bp)
+		Unaligned bases: 766  total: 211798
+
+CONTIG: scaffold-332_41244 (41244bp)
+Top Length: 41244  Top ID: 99.45
+		Marking as insignificant: 3911556 3911658 | 41143 41244 | 103 102 | 95.15 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-332_41244
+		One align captures most of this contig: 617629 658846 | 41244 1 | 41218 41244 | 99.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-332_41244
+
+CONTIG: scaffold-266_30245 (30245bp)
+		This contig is unaligned. (30245 bp)
+		Unaligned bases: 30245  total: 242043
+
+CONTIG: scaffold-217_81718 (81718bp)
+Top Length: 69120  Top ID: 99.19
+		Skipping redundant alignment 2804279 2804354 | 1737 1662 | 76 76 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-217_81718
+		This contig is partially unaligned. (69120 out of 81718)
+		Alignment: 2733401 2802555 | 69219 100 | 69155 69120 | 99.19 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-217_81718
+		Unaligned bases: 1 to 99 (99)
+		Unaligned bases: 69220 to 81718 (12499)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-216_1690 (1690bp)
+		This contig is unaligned. (1690 bp)
+		Unaligned bases: 1690  total: 243733
+
+CONTIG: scaffold-136_2220 (2220bp)
+Top Length: 2220  Top ID: 98.33
+		One align captures most of this contig: 4953003 4955221 | 2220 1 | 2219 2220 | 98.33 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-136_2220
+
+CONTIG: scaffold-346_5322 (5322bp)
+Top Length: 5223  Top ID: 99.75
+		This contig is partially unaligned. (5223 out of 5322)
+		Alignment: 4037692 4042914 | 5322 100 | 5223 5223 | 99.75 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-346_5322
+		Unaligned bases: 1 to 99 (99)
+
+CONTIG: scaffold-231_2006 (2006bp)
+		This contig is unaligned. (2006 bp)
+		Unaligned bases: 2006  total: 245739
+
+CONTIG: scaffold-351_9731 (9731bp)
+Top Length: 9731  Top ID: 99.56
+		Marking as insignificant: 1455719 1455786 | 1 68 | 68 68 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-351_9731
+		One align captures most of this contig: 3764873 3774600 | 9731 1 | 9728 9731 | 99.56 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-351_9731
+
+CONTIG: scaffold-196_7239 (7239bp)
+Top Length: 397  Top ID: 96.98
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 7239 and total length of all aligns is 462
+		Alignment: 1801385 1801781 | 1685 1289 | 397 397 | 96.98 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-196_7239
+		Alignment: 1801782 1801846 | 65 1 | 65 65 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-196_7239
+		Unaligned bases: 6777
+CONTIG: scaffold-301_9444 (9444bp)
+Top Length: 9444  Top ID: 99.47
+		One align captures most of this contig: 3057342 3066785 | 9444 1 | 9444 9444 | 99.47 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-301_9444
+
+CONTIG: scaffold-363_520 (520bp)
+		This contig is unaligned. (520 bp)
+		Unaligned bases: 520  total: 246259
+
+CONTIG: scaffold-370_4253 (4253bp)
+Top Length: 4123  Top ID: 99.1
+		This contig is partially unaligned. (4123 out of 4253)
+		Alignment: 5263840 5267962 | 131 4253 | 4123 4123 | 99.1 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-370_4253
+		Unaligned bases: 1 to 130 (130)
+
+CONTIG: scaffold-30_1813 (1813bp)
+Top Length: 1752  Top ID: 99.66
+		This contig is partially unaligned. (1752 out of 1813)
+		Alignment: 2671339 2673090 | 1752 1 | 1752 1752 | 99.66 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-30_1813
+		Unaligned bases: 1753 to 1813 (61)
+
+CONTIG: scaffold-5_18856 (18856bp)
+Top Length: 13266  Top ID: 99.45
+		This contig is partially unaligned. (13266 out of 18856)
+		Alignment: 4939619 4952883 | 13266 1 | 13265 13266 | 99.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-5_18856
+		Unaligned bases: 13267 to 18856 (5590)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-290_29804 (29804bp)
+Top Length: 17008  Top ID: 99.35
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 786663 795489 | 1 8828 | 8827 8828 | 99.11 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-290_29804
+			  Extensive misassembly ( relocation, inconsistency = 6744 ) between these two alignments
+			Real Alignment 2: 803237 805957 | 9832 12528 | 2721 2697 | 95.78 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-290_29804
+			  Extensive misassembly ( relocation, inconsistency = 7737 ) between these two alignments
+			Real Alignment 3: 813963 830967 | 12797 29804 | 17005 17008 | 99.35 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-290_29804
+
+CONTIG: scaffold-205_38383 (38383bp)
+Top Length: 21851  Top ID: 98.88
+		Skipping redundant alignment 2822536 2822612 | 38383 38307 | 77 77 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-205_38383
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2822641 2823400 | 38383 37623 | 760 761 | 99.21 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-205_38383
+			  Overlap between these two alignments (local misassembly). Inconsistency = -801
+			Real Alignment 2: 2823396 2845294 | 36826 14976 | 21899 21851 | 98.88 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-205_38383
+
+CONTIG: scaffold-179_11419 (11419bp)
+		This contig is unaligned. (11419 bp)
+		Unaligned bases: 11419  total: 257678
+
+CONTIG: scaffold-109_3356 (3356bp)
+Top Length: 3356  Top ID: 99.17
+		One align captures most of this contig: 3389706 3393060 | 3356 1 | 3355 3356 | 99.17 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-109_3356
+
+CONTIG: scaffold-240_1076 (1076bp)
+		This contig is unaligned. (1076 bp)
+		Unaligned bases: 1076  total: 258754
+
+CONTIG: scaffold-239_86902 (86902bp)
+Top Length: 44864  Top ID: 99.48
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 3487712 3527059 | 61 39387 | 39348 39327 | 98.88 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-239_86902
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 2: 3527536 3572403 | 39864 84727 | 44868 44864 | 99.48 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-239_86902
+
+CONTIG: scaffold-189_46963 (46963bp)
+Top Length: 46963  Top ID: 99.33
+		One align captures most of this contig: 4443327 4490285 | 46963 1 | 46959 46963 | 99.33 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-189_46963
+
+CONTIG: scaffold-361_3092 (3092bp)
+Top Length: 3092  Top ID: 97.74
+		Marking as insignificant: 48323 48435 | 3092 2980 | 113 113 | 99.12 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-361_3092
+		One align captures most of this contig: 44714 47803 | 3092 1 | 3090 3092 | 97.74 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-361_3092
+
+CONTIG: scaffold-198_2326 (2326bp)
+Top Length: 2326  Top ID: 99.61
+		Marking as insignificant: 2989476 2989574 | 2228 2326 | 99 99 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-198_2326
+		One align captures most of this contig: 3378161 3380486 | 1 2326 | 2326 2326 | 99.61 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-198_2326
+
+CONTIG: scaffold-99_11057 (11057bp)
+Top Length: 11018  Top ID: 99.01
+		One align captures most of this contig: 3836435 3847437 | 11018 1 | 11003 11018 | 99.01 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-99_11057
+
+CONTIG: scaffold-20_888 (888bp)
+		This contig is unaligned. (888 bp)
+		Unaligned bases: 888  total: 259642
+
+CONTIG: scaffold-310_7844 (7844bp)
+Top Length: 7080  Top ID: 99.73
+		This contig is partially unaligned. (7080 out of 7844)
+		Alignment: 2244229 2251308 | 7179 100 | 7080 7080 | 99.73 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-310_7844
+		Unaligned bases: 1 to 99 (99)
+		Unaligned bases: 7180 to 7844 (665)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-285_24644 (24644bp)
+Top Length: 15574  Top ID: 99.36
+		This contig is partially unaligned. (15574 out of 24644)
+		Alignment: 3303419 3318993 | 15574 1 | 15575 15574 | 99.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-285_24644
+		Unaligned bases: 15575 to 24644 (9070)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-330_6272 (6272bp)
+		This contig is unaligned. (6272 bp)
+		Unaligned bases: 6272  total: 265914
+
+CONTIG: scaffold-302_49960 (49960bp)
+Top Length: 42034  Top ID: 99.09
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 3698558 3706374 | 1 7818 | 7817 7818 | 99.46 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-302_49960
+			  Overlap between these two alignments (local misassembly). Inconsistency = -108
+			Real Alignment 2: 3706375 3748418 | 7927 49960 | 42044 42034 | 99.09 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-302_49960
+
+CONTIG: scaffold-191_7494 (7494bp)
+Top Length: 7494  Top ID: 99.45
+		One align captures most of this contig: 1687219 1694712 | 1 7494 | 7494 7494 | 99.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-191_7494
+
+CONTIG: scaffold-177_57684 (57684bp)
+Top Length: 51630  Top ID: 99.45
+		Skipping redundant alignment 487896 488207 | 49656 49333 | 312 324 | 95.06 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-177_57684
+		Skipping redundant alignment 487825 487898 | 50700 50627 | 74 74 | 98.65 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-177_57684
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 481379 483466 | 57682 55595 | 2088 2088 | 99.43 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-177_57684
+			  Overlap between these two alignments (local misassembly). Inconsistency = -72
+			Real Alignment 2: 483689 487824 | 55300 51164 | 4136 4137 | 97.61 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-177_57684
+			  Extensive misassembly ( relocation, inconsistency = 14435 ) between these two alignments
+			Real Alignment 3: 501793 553417 | 51630 1 | 51625 51630 | 99.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-177_57684
+
+CONTIG: scaffold-305_4916 (4916bp)
+Top Length: 4916  Top ID: 99.39
+		One align captures most of this contig: 764359 769274 | 4916 1 | 4916 4916 | 99.39 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-305_4916
+
+CONTIG: scaffold-0_1724 (1724bp)
+		This contig is unaligned. (1724 bp)
+		Unaligned bases: 1724  total: 267638
+
+CONTIG: scaffold-276_27282 (27282bp)
+Top Length: 23466  Top ID: 99.51
+		This contig is partially unaligned. (23466 out of 27282)
+		Alignment: 4353277 4376746 | 3817 27282 | 23470 23466 | 99.51 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-276_27282
+		Unaligned bases: 1 to 3816 (3816)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-19_46208 (46208bp)
+Top Length: 21798  Top ID: 99.07
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2926518 2933302 | 46208 39424 | 6785 6785 | 99.17 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-19_46208
+			  Extensive misassembly ( relocation, inconsistency = -9547 ) between these two alignments
+			Real Alignment 2: 2934358 2940183 | 28821 22990 | 5826 5832 | 99.23 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-19_46208
+			  Overlap between these two alignments (local misassembly). Inconsistency = -416
+			Real Alignment 3: 2940959 2962771 | 21798 1 | 21813 21798 | 99.07 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-19_46208
+
+CONTIG: scaffold-102_83032 (83032bp)
+Top Length: 44100  Top ID: 99.36
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 3100827 3102500 | 1 1674 | 1674 1674 | 98.92 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-102_83032
+			  Overlap between these two alignments (local misassembly). Inconsistency = -640
+			Real Alignment 2: 3102483 3128178 | 2297 27982 | 25696 25686 | 99.19 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-102_83032
+			  Extensive misassembly ( relocation, inconsistency = 10422 ) between these two alignments
+			Real Alignment 3: 3139476 3183572 | 28858 72957 | 44097 44100 | 99.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-102_83032
+			  Extensive misassembly ( relocation, inconsistency = 1535 ) between these two alignments
+			Real Alignment 4: 3185093 3195179 | 72943 83032 | 10087 10090 | 99.52 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-102_83032
+
+CONTIG: scaffold-260_56941 (56941bp)
+Top Length: 44412  Top ID: 99.5
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1168074 1212496 | 1 44412 | 44423 44412 | 99.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-260_56941
+			  Extensive misassembly ( relocation, inconsistency = 1329 ) between these two alignments
+			Real Alignment 2: 1213874 1226354 | 44461 56941 | 12481 12481 | 99.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-260_56941
+
+CONTIG: scaffold-234_536 (536bp)
+		This contig is unaligned. (536 bp)
+		Unaligned bases: 536  total: 268174
+
+CONTIG: scaffold-106_59887 (59887bp)
+Top Length: 26017  Top ID: 99.54
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1827905 1839012 | 59885 48778 | 11108 11108 | 99.32 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-106_59887
+			  Gap between these two alignments (local misassembly). Inconsistency = 204
+			Real Alignment 2: 1839216 1844518 | 48778 43476 | 5303 5303 | 98.49 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-106_59887
+			  Extensive misassembly ( relocation, inconsistency = -1578 ) between these two alignments
+			Real Alignment 3: 1846019 1872035 | 40397 14381 | 26017 26017 | 99.54 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-106_59887
+
+CONTIG: scaffold-63_9956 (9956bp)
+		This contig is unaligned. (9956 bp)
+		Unaligned bases: 9956  total: 278130
+
+CONTIG: scaffold-360_2885 (2885bp)
+		This contig is unaligned. (2885 bp)
+		Unaligned bases: 2885  total: 281015
+
+CONTIG: scaffold-52_96186 (96186bp)
+Top Length: 60657  Top ID: 99.27
+		Skipping redundant alignment 5309748 5309875 | 96186 96059 | 128 128 | 95.31 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-52_96186
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 4957663 4984135 | 96186 69716 | 26473 26471 | 99.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-52_96186
+			  Gap between these two alignments (local misassembly). Inconsistency = 7
+			Real Alignment 2: 4984363 5045020 | 69495 8839 | 60658 60657 | 99.27 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-52_96186
+			  Gap between these two alignments (local misassembly). Inconsistency = 896
+			Real Alignment 3: 5051765 5054506 | 2990 249 | 2742 2742 | 99.6 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-52_96186
+			  Extensive misassembly ( relocation, inconsistency = 1078 ) between these two alignments
+			Real Alignment 4: 5055599 5055832 | 234 1 | 234 234 | 99.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-52_96186
+
+CONTIG: scaffold-364_5734 (5734bp)
+Top Length: 5734  Top ID: 99.76
+		One align captures most of this contig: 1161807 1167540 | 5734 1 | 5734 5734 | 99.76 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-364_5734
+
+CONTIG: scaffold-265_5304 (5304bp)
+Top Length: 5304  Top ID: 98.85
+		Marking as insignificant: 1141333 1141421 | 1 89 | 89 89 | 98.88 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-265_5304
+		One align captures most of this contig: 1121528 1126826 | 5304 1 | 5299 5304 | 98.85 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-265_5304
+
+CONTIG: scaffold-156_26028 (26028bp)
+Top Length: 23934  Top ID: 99.24
+		This contig is partially unaligned. (23934 out of 26028)
+		Alignment: 3017590 3041501 | 2095 26028 | 23912 23934 | 99.24 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-156_26028
+		Unaligned bases: 1 to 2094 (2094)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-202_51984 (51984bp)
+Top Length: 44191  Top ID: 98.63
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 2: 5365329 5373121 | 1 7793 | 7793 7793 | 99.64 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-202_51984
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 1: 1 44197 | 7794 51984 | 44197 44191 | 98.63 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-202_51984
+
+CONTIG: scaffold-178_2409 (2409bp)
+		This contig is unaligned. (2409 bp)
+		Unaligned bases: 2409  total: 283424
+
+CONTIG: scaffold-319_10326 (10326bp)
+Top Length: 10326  Top ID: 99.34
+		One align captures most of this contig: 4027439 4037764 | 10326 1 | 10326 10326 | 99.34 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-319_10326
+
+CONTIG: scaffold-195_593 (593bp)
+		This contig is unaligned. (593 bp)
+		Unaligned bases: 593  total: 284017
+
+CONTIG: scaffold-279_13894 (13894bp)
+Top Length: 8982  Top ID: 98.1
+		Skipping redundant alignment 4880680 4880751 | 1 72 | 72 72 | 98.61 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-279_13894
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2551106 2560089 | 13894 4913 | 8984 8982 | 98.1 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-279_13894
+			  Extensive misassembly ( relocation, inconsistency = 9949 ) between these two alignments
+			Real Alignment 2: 2570035 2574949 | 4916 1 | 4915 4916 | 96.16 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-279_13894
+
+CONTIG: scaffold-249_2217 (2217bp)
+Top Length: 2217  Top ID: 99.73
+		One align captures most of this contig: 2989753 2991969 | 2217 1 | 2217 2217 | 99.73 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-249_2217
+
+CONTIG: scaffold-59_13050 (13050bp)
+Top Length: 13047  Top ID: 95.67
+		One align captures most of this contig: 2972364 2985366 | 13047 1 | 13003 13047 | 95.67 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-59_13050
+
+CONTIG: scaffold-77_2401 (2401bp)
+Top Length: 2401  Top ID: 99.42
+		Marking as insignificant: 2995689 2995763 | 2327 2401 | 75 75 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-77_2401
+		Marking as insignificant: 605748 605822 | 2401 2327 | 75 75 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-77_2401
+		Marking as insignificant: 2995365 2995440 | 2326 2401 | 76 76 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-77_2401
+		Marking as insignificant: 3381913 3382025 | 1 113 | 113 113 | 99.12 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-77_2401
+		One align captures most of this contig: 2992813 2995213 | 1 2401 | 2401 2401 | 99.42 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-77_2401
+
+CONTIG: scaffold-125_26488 (26488bp)
+Top Length: 22258  Top ID: 99.42
+		Skipping redundant alignment 1454865 1454973 | 110 1 | 109 110 | 99.09 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-125_26488
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 3775346 3778262 | 1 2917 | 2917 2917 | 98.59 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-125_26488
+			  Extensive misassembly ( relocation, inconsistency = -1321 ) between these two alignments
+			Real Alignment 2: 3778255 3800513 | 4231 26488 | 22259 22258 | 99.42 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-125_26488
+
+CONTIG: scaffold-112_53350 (53350bp)
+Top Length: 42837  Top ID: 99.38
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 3977883 3984584 | 53350 46646 | 6702 6705 | 99.27 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-112_53350
+			  Extensive misassembly ( relocation, inconsistency = -3803 ) between these two alignments
+			Real Alignment 2: 3984590 4027425 | 42837 1 | 42836 42837 | 99.38 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-112_53350
+
+CONTIG: scaffold-135_638 (638bp)
+		This contig is unaligned. (638 bp)
+		Unaligned bases: 638  total: 284655
+
+CONTIG: scaffold-275_56425 (56425bp)
+Top Length: 42822  Top ID: 99.17
+		This contig is partially unaligned. (42822 out of 56425)
+		Alignment: 1272170 1315015 | 56425 13604 | 42846 42822 | 99.17 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-275_56425
+		Unaligned bases: 1 to 13603 (13603)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-369_48285 (48285bp)
+Top Length: 6212  Top ID: 99.48
+		This contig is misassembled. 4 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 48285 and total length of all aligns is 11141
+		Alignment: 753806 753887 | 82 1 | 82 82 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-369_48285
+		Alignment: 2320947 2327158 | 48185 41974 | 6212 6212 | 99.48 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-369_48285
+		Alignment: 2359792 2361872 | 34741 32663 | 2081 2079 | 96.78 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-369_48285
+		Alignment: 2365030 2367792 | 30314 27547 | 2763 2768 | 98.95 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-369_48285
+		Unaligned bases: 37144
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scaffold-221_520 (520bp)
+Top Length: 520  Top ID: 99.42
+		Marking as insignificant: 4442213 4442732 | 520 1 | 520 520 | 95.96 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-221_520
+		One align captures most of this contig: 1803144 1803663 | 1 520 | 520 520 | 99.42 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-221_520
+
+CONTIG: scaffold-86_677 (677bp)
+		This contig is unaligned. (677 bp)
+		Unaligned bases: 677  total: 285332
+
+CONTIG: scaffold-142_5645 (5645bp)
+		This contig is unaligned. (5645 bp)
+		Unaligned bases: 5645  total: 290977
+
+CONTIG: scaffold-350_18377 (18377bp)
+Top Length: 10105  Top ID: 99.21
+		This contig is partially unaligned. (10105 out of 18377)
+		Alignment: 471248 481353 | 8273 18377 | 10106 10105 | 99.21 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-350_18377
+		Unaligned bases: 1 to 8272 (8272)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: scaffold-190_5579 (5579bp)
+Top Length: 234  Top ID: 98.72
+		This contig is partially unaligned. (234 out of 5579)
+		Alignment: 1121379 1121612 | 5579 5346 | 234 234 | 98.72 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-190_5579
+		Unaligned bases: 1 to 5345 (5345)
+
+CONTIG: scaffold-225_4888 (4888bp)
+		This contig is unaligned. (4888 bp)
+		Unaligned bases: 4888  total: 295865
+
+CONTIG: scaffold-132_44298 (44298bp)
+Top Length: 44298  Top ID: 99.56
+		One align captures most of this contig: 3195132 3239416 | 44298 1 | 44285 44298 | 99.56 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-132_44298
+
+CONTIG: scaffold-98_39859 (39859bp)
+Top Length: 25058  Top ID: 99.15
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2275436 2290087 | 76 14727 | 14652 14652 | 99.65 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-98_39859
+			  Extensive misassembly ( relocation, inconsistency = 4225 ) between these two alignments
+			Real Alignment 2: 2294312 2319336 | 14727 39784 | 25025 25058 | 99.15 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-98_39859
+
+CONTIG: scaffold-315_16651 (16651bp)
+Top Length: 13166  Top ID: 99.44
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2224951 2225872 | 16651 15730 | 922 922 | 99.02 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-315_16651
+			  Extensive misassembly ( relocation, inconsistency = -1686 ) between these two alignments
+			Real Alignment 2: 2226675 2239839 | 13241 76 | 13165 13166 | 99.44 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-315_16651
+
+CONTIG: scaffold-38_28345 (28345bp)
+Top Length: 17600  Top ID: 99.48
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 4126709 4129800 | 28345 25255 | 3092 3091 | 99.55 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-38_28345
+			  Gap between these two alignments (local misassembly). Inconsistency = 318
+			Real Alignment 2: 4131163 4134792 | 24210 20581 | 3630 3630 | 99.48 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-38_28345
+			  Extensive misassembly ( relocation, inconsistency = 1778 ) between these two alignments
+			Real Alignment 3: 4136591 4154189 | 20560 2961 | 17599 17600 | 99.48 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-38_28345
+			  Extensive misassembly ( relocation, inconsistency = -2619 ) between these two alignments
+			Real Alignment 4: 4154178 4154260 | 353 271 | 83 83 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome scaffold-38_28345
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1816/dataset_1898_files/Scaffold/contigs_reports/nucmer_output/BF-H-Sga-Scaffold.used_snps
+	Reference gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome: 272 total alignments. 1 total regions.
+		Region: 1 to 5373121 (5373121 bp)
+			Align 1: 1 44197 scaffold-202_51984 7794 51984
+				Gap between this and next alignment: 44197 to 44714 (516 bp)
+				Next Alignment: 44714 47803 scaffold-361_3092 3092 1
+
+			Align 2: 44714 47803 scaffold-361_3092 3092 1
+				Gap between this and next alignment: 47803 to 49897 (2093 bp)
+				Next Alignment: 49897 79888 scaffold-167_30518 520 30518
+
+			Align 3: 49897 79888 scaffold-167_30518 520 30518
+				Gap between this and next alignment: 79888 to 80993 (1104 bp)
+				Next Alignment: 80993 81901 scaffold-354_909 909 1
+
+			Align 4: 80993 81901 scaffold-354_909 909 1
+				Negative gap (overlap) between this and next alignment: 81901 to 81826 (-75 bp)
+				Next Alignment: 81826 81971 scaffold-297_1153 146 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 146 to 70.
+			Align 5: 81902 81971 scaffold-297_1153 70 1
+				Gap between this and next alignment: 81971 to 82276 (304 bp)
+				Next Alignment: 82276 109032 scaffold-16_33154 1 26757
+
+			Align 6: 82276 109032 scaffold-16_33154 1 26757
+				Gap between this and next alignment: 109032 to 112289 (3256 bp)
+				Next Alignment: 112289 113318 scaffold-16_33154 29281 30309
+
+			Align 7: 112289 113318 scaffold-16_33154 29281 30309
+				Gap between this and next alignment: 113318 to 113571 (252 bp)
+				Next Alignment: 113571 116417 scaffold-16_33154 30309 33154
+
+			Align 8: 113571 116417 scaffold-16_33154 30309 33154
+				Gap between this and next alignment: 116417 to 117385 (967 bp)
+				Next Alignment: 117385 129876 scaffold-7_81080 3 12494
+
+			Align 9: 117385 129876 scaffold-7_81080 3 12494
+				Gap between this and next alignment: 129876 to 129896 (19 bp)
+				Next Alignment: 129896 163656 scaffold-7_81080 13970 47752
+
+			Align 10: 129896 163656 scaffold-7_81080 13970 47752
+				Gap between this and next alignment: 163656 to 168602 (4945 bp)
+				Next Alignment: 168602 199174 scaffold-7_81080 50234 80806
+
+			Align 11: 168602 199174 scaffold-7_81080 50234 80806
+				Gap between this and next alignment: 199174 to 199639 (464 bp)
+				Next Alignment: 199639 213500 scaffold-281_126463 126463 112597
+
+			Align 12: 199639 213500 scaffold-281_126463 126463 112597
+				Gap between this and next alignment: 213500 to 273108 (59607 bp)
+				Next Alignment: 273108 341989 scaffold-281_126463 112466 43585
+
+			Align 13: 273108 341989 scaffold-281_126463 112466 43585
+				Gap between this and next alignment: 341989 to 346123 (4133 bp)
+				Next Alignment: 346123 379288 scaffold-281_126463 43364 10199
+
+			Align 14: 346123 379288 scaffold-281_126463 43364 10199
+				Gap between this and next alignment: 379288 to 381456 (2167 bp)
+				Next Alignment: 381456 386514 scaffold-281_126463 10114 5056
+
+			Align 15: 381456 386514 scaffold-281_126463 10114 5056
+				Gap between this and next alignment: 386514 to 391605 (5090 bp)
+				Next Alignment: 391605 393314 scaffold-145_1707 1707 1
+
+			Align 16: 391605 393314 scaffold-145_1707 1707 1
+				Gap between this and next alignment: 393314 to 393674 (359 bp)
+				Next Alignment: 393674 403845 scaffold-129_10171 1 10171
+
+			Align 17: 393674 403845 scaffold-129_10171 1 10171
+				Negative gap (overlap) between this and next alignment: 403845 to 403747 (-98 bp)
+				Next Alignment: 403747 406845 scaffold-31_46773 46773 43675
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 46773 to 46674.
+			Align 18: 403846 406845 scaffold-31_46773 46674 43675
+				Gap between this and next alignment: 406845 to 409405 (2559 bp)
+				Next Alignment: 409405 452869 scaffold-31_46773 43464 1
+
+			Align 19: 409405 452869 scaffold-31_46773 43464 1
+				Negative gap (overlap) between this and next alignment: 452869 to 452846 (-23 bp)
+				Next Alignment: 452846 454695 scaffold-12_22529 1850 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1850 to 1826.
+			Align 20: 452870 454695 scaffold-12_22529 1826 1
+				Negative gap (overlap) between this and next alignment: 454695 to 454672 (-23 bp)
+				Next Alignment: 454672 461765 scaffold-12_22529 1827 8920
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1827 to 1851.
+			Align 21: 454696 461765 scaffold-12_22529 1851 8920
+				Gap between this and next alignment: 461765 to 461857 (91 bp)
+				Next Alignment: 461857 466916 scaffold-12_22529 9036 14093
+
+			Align 22: 461857 466916 scaffold-12_22529 9036 14093
+				Gap between this and next alignment: 466916 to 469467 (2550 bp)
+				Next Alignment: 469467 470798 scaffold-12_22529 21199 22529
+
+			Align 23: 469467 470798 scaffold-12_22529 21199 22529
+				Gap between this and next alignment: 470798 to 471248 (449 bp)
+				Next Alignment: 471248 481353 scaffold-350_18377 8273 18377
+
+			Align 24: 471248 481353 scaffold-350_18377 8273 18377
+				Gap between this and next alignment: 481353 to 481379 (25 bp)
+				Next Alignment: 481379 483466 scaffold-177_57684 57682 55595
+
+			Align 25: 481379 483466 scaffold-177_57684 57682 55595
+				Gap between this and next alignment: 483466 to 483689 (222 bp)
+				Next Alignment: 483689 487824 scaffold-177_57684 55300 51164
+
+			Align 26: 483689 487824 scaffold-177_57684 55300 51164
+				Gap between this and next alignment: 487824 to 501793 (13968 bp)
+				Next Alignment: 501793 553417 scaffold-177_57684 51630 1
+
+			Align 27: 501793 553417 scaffold-177_57684 51630 1
+				Gap between this and next alignment: 553417 to 553816 (398 bp)
+				Next Alignment: 553816 555801 scaffold-33_51632 51632 49648
+
+			Align 28: 553816 555801 scaffold-33_51632 51632 49648
+				Gap between this and next alignment: 555801 to 558699 (2897 bp)
+				Next Alignment: 558699 560129 scaffold-33_51632 50250 48801
+
+			Align 29: 558699 560129 scaffold-33_51632 50250 48801
+				Negative gap (overlap) between this and next alignment: 560129 to 559897 (-232 bp)
+				Next Alignment: 559897 562942 scaffold-33_51632 46490 43445
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 46490 to 46244.
+			Align 30: 560130 562942 scaffold-33_51632 46244 43445
+				Negative gap (overlap) between this and next alignment: 562942 to 562926 (-16 bp)
+				Next Alignment: 562926 605822 scaffold-33_51632 42889 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 42889 to 42873.
+			Align 31: 562943 605822 scaffold-33_51632 42873 1
+				Negative gap (overlap) between this and next alignment: 605822 to 605748 (-74 bp)
+				Next Alignment: 605748 617708 scaffold-185_11961 1 11961
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 76.
+			Align 32: 605823 617708 scaffold-185_11961 76 11961
+				Negative gap (overlap) between this and next alignment: 617708 to 617629 (-79 bp)
+				Next Alignment: 617629 658846 scaffold-332_41244 41244 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 41244 to 41164.
+			Align 33: 617709 658846 scaffold-332_41244 41164 1
+				Gap between this and next alignment: 658846 to 659149 (302 bp)
+				Next Alignment: 659149 683511 scaffold-78_31288 1 24363
+
+			Align 34: 659149 683511 scaffold-78_31288 1 24363
+				Gap between this and next alignment: 683511 to 690388 (6876 bp)
+				Next Alignment: 690388 697135 scaffold-78_31288 24543 31288
+
+			Align 35: 690388 697135 scaffold-78_31288 24543 31288
+				Negative gap (overlap) between this and next alignment: 697135 to 697112 (-23 bp)
+				Next Alignment: 697112 716020 scaffold-341_28206 28206 9301
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 28206 to 28182.
+			Align 36: 697136 716020 scaffold-341_28206 28182 9301
+				Gap between this and next alignment: 716020 to 716448 (427 bp)
+				Next Alignment: 716448 725338 scaffold-341_28206 8890 1
+
+			Align 37: 716448 725338 scaffold-341_28206 8890 1
+				Gap between this and next alignment: 725338 to 725356 (17 bp)
+				Next Alignment: 725356 764382 scaffold-6_41485 1 39027
+
+			Align 38: 725356 764382 scaffold-6_41485 1 39027
+				Negative gap (overlap) between this and next alignment: 764382 to 764359 (-23 bp)
+				Next Alignment: 764359 769274 scaffold-305_4916 4916 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4916 to 4892.
+			Align 39: 764383 769274 scaffold-305_4916 4892 1
+				Negative gap (overlap) between this and next alignment: 769274 to 769274 (0 bp)
+				Next Alignment: 769274 771732 scaffold-6_41485 39027 41485
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 39027 to 39028.
+			Align 40: 769275 771732 scaffold-6_41485 39028 41485
+				Negative gap (overlap) between this and next alignment: 771732 to 771707 (-25 bp)
+				Next Alignment: 771707 786762 scaffold-339_15061 1 15061
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 27.
+			Align 41: 771733 786762 scaffold-339_15061 27 15061
+				Negative gap (overlap) between this and next alignment: 786762 to 786663 (-99 bp)
+				Next Alignment: 786663 795489 scaffold-290_29804 1 8828
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 101.
+			Align 42: 786763 795489 scaffold-290_29804 101 8828
+				Gap between this and next alignment: 795489 to 803237 (7747 bp)
+				Next Alignment: 803237 805957 scaffold-290_29804 9832 12528
+
+			Align 43: 803237 805957 scaffold-290_29804 9832 12528
+				Gap between this and next alignment: 805957 to 813963 (8005 bp)
+				Next Alignment: 813963 830967 scaffold-290_29804 12797 29804
+
+			Align 44: 813963 830967 scaffold-290_29804 12797 29804
+				Gap between this and next alignment: 830967 to 831659 (691 bp)
+				Next Alignment: 831659 891372 scaffold-81_110457 2828 62573
+
+			Align 45: 831659 891372 scaffold-81_110457 2828 62573
+				Gap between this and next alignment: 891372 to 894046 (2673 bp)
+				Next Alignment: 894046 931742 scaffold-81_110457 62871 100566
+
+			Align 46: 894046 931742 scaffold-81_110457 62871 100566
+				Gap between this and next alignment: 931742 to 933978 (2235 bp)
+				Next Alignment: 933978 941324 scaffold-81_110457 100725 108071
+
+			Align 47: 933978 941324 scaffold-81_110457 100725 108071
+				Gap between this and next alignment: 941324 to 942960 (1635 bp)
+				Next Alignment: 942960 945337 scaffold-81_110457 108079 110457
+
+			Align 48: 942960 945337 scaffold-81_110457 108079 110457
+				Negative gap (overlap) between this and next alignment: 945337 to 945239 (-98 bp)
+				Next Alignment: 945239 946693 scaffold-103_21243 21243 19789
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 21243 to 21144.
+			Align 49: 945338 946693 scaffold-103_21243 21144 19789
+				Gap between this and next alignment: 946693 to 971870 (25176 bp)
+				Next Alignment: 971870 972022 scaffold-17_2328 2328 2174
+
+			Align 50: 971870 972022 scaffold-17_2328 2328 2174
+				Negative gap (overlap) between this and next alignment: 972022 to 971870 (-152 bp)
+				Next Alignment: 971870 972045 scaffold-286_3726 1 176
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 154.
+			Align 51: 972023 972045 scaffold-286_3726 154 176
+				Gap between this and next alignment: 972045 to 973730 (1684 bp)
+				Next Alignment: 973730 977219 scaffold-286_3726 238 3726
+
+			Align 52: 973730 977219 scaffold-286_3726 238 3726
+				Gap between this and next alignment: 977219 to 983336 (6116 bp)
+				Next Alignment: 983336 1065194 scaffold-23_87987 81857 1
+
+			Align 53: 983336 1065194 scaffold-23_87987 81857 1
+				Gap between this and next alignment: 1065194 to 1065580 (385 bp)
+				Next Alignment: 1065580 1119369 scaffold-133_53721 53721 1
+
+			Align 54: 1065580 1119369 scaffold-133_53721 53721 1
+				Gap between this and next alignment: 1119369 to 1121379 (2009 bp)
+				Next Alignment: 1121379 1121612 scaffold-190_5579 5579 5346
+
+			Align 55: 1121379 1121612 scaffold-190_5579 5579 5346
+				Negative gap (overlap) between this and next alignment: 1121612 to 1121528 (-84 bp)
+				Next Alignment: 1121528 1126826 scaffold-265_5304 5304 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5304 to 5219.
+			Align 56: 1121613 1126826 scaffold-265_5304 5219 1
+				Gap between this and next alignment: 1126826 to 1127286 (459 bp)
+				Next Alignment: 1127286 1132893 scaffold-358_5610 5610 3
+
+			Align 57: 1127286 1132893 scaffold-358_5610 5610 3
+				Gap between this and next alignment: 1132893 to 1138257 (5363 bp)
+				Next Alignment: 1138257 1140680 scaffold-257_2421 2421 1
+
+			Align 58: 1138257 1140680 scaffold-257_2421 2421 1
+				Gap between this and next alignment: 1140680 to 1141333 (652 bp)
+				Next Alignment: 1141333 1146195 scaffold-197_8726 8726 3864
+
+			Align 59: 1141333 1146195 scaffold-197_8726 8726 3864
+				Gap between this and next alignment: 1146195 to 1146222 (26 bp)
+				Next Alignment: 1146222 1147605 scaffold-197_8726 1383 1
+
+			Align 60: 1146222 1147605 scaffold-197_8726 1383 1
+				Gap between this and next alignment: 1147605 to 1147650 (44 bp)
+				Next Alignment: 1147650 1160509 scaffold-201_13023 13023 168
+
+			Align 61: 1147650 1160509 scaffold-201_13023 13023 168
+				Gap between this and next alignment: 1160509 to 1161687 (1177 bp)
+				Next Alignment: 1161687 1161854 scaffold-201_13023 168 1
+
+			Align 62: 1161687 1161854 scaffold-201_13023 168 1
+				Negative gap (overlap) between this and next alignment: 1161854 to 1161807 (-47 bp)
+				Next Alignment: 1161807 1167540 scaffold-364_5734 5734 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5734 to 5686.
+			Align 63: 1161855 1167540 scaffold-364_5734 5686 1
+				Gap between this and next alignment: 1167540 to 1168074 (533 bp)
+				Next Alignment: 1168074 1212496 scaffold-260_56941 1 44412
+
+			Align 64: 1168074 1212496 scaffold-260_56941 1 44412
+				Gap between this and next alignment: 1212496 to 1213874 (1377 bp)
+				Next Alignment: 1213874 1226354 scaffold-260_56941 44461 56941
+
+			Align 65: 1213874 1226354 scaffold-260_56941 44461 56941
+				Negative gap (overlap) between this and next alignment: 1226354 to 1226319 (-35 bp)
+				Next Alignment: 1226319 1272168 scaffold-61_45852 45852 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 45852 to 45816.
+			Align 66: 1226355 1272168 scaffold-61_45852 45816 1
+				Gap between this and next alignment: 1272168 to 1272170 (1 bp)
+				Next Alignment: 1272170 1315015 scaffold-275_56425 56425 13604
+
+			Align 67: 1272170 1315015 scaffold-275_56425 56425 13604
+				Gap between this and next alignment: 1315015 to 1336439 (21423 bp)
+				Next Alignment: 1336439 1362131 scaffold-261_53185 52203 26497
+
+			Align 68: 1336439 1362131 scaffold-261_53185 52203 26497
+				Gap between this and next alignment: 1362131 to 1365358 (3226 bp)
+				Next Alignment: 1365358 1381368 scaffold-261_53185 26078 10068
+
+			Align 69: 1365358 1381368 scaffold-261_53185 26078 10068
+				Gap between this and next alignment: 1381368 to 1408022 (26653 bp)
+				Next Alignment: 1408022 1418103 scaffold-261_53185 10082 1
+
+			Align 70: 1408022 1418103 scaffold-261_53185 10082 1
+				Negative gap (overlap) between this and next alignment: 1418103 to 1418088 (-15 bp)
+				Next Alignment: 1418088 1418825 scaffold-304_738 738 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 738 to 722.
+			Align 71: 1418104 1418825 scaffold-304_738 722 1
+				Negative gap (overlap) between this and next alignment: 1418825 to 1418810 (-15 bp)
+				Next Alignment: 1418810 1421361 scaffold-371_2552 1 2552
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 17.
+			Align 72: 1418826 1421361 scaffold-371_2552 17 2552
+				Negative gap (overlap) between this and next alignment: 1421361 to 1421350 (-11 bp)
+				Next Alignment: 1421350 1454973 scaffold-175_33623 1 33623
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 13.
+			Align 73: 1421362 1454973 scaffold-175_33623 13 33623
+				Gap between this and next alignment: 1454973 to 1455719 (745 bp)
+				Next Alignment: 1455719 1462002 scaffold-293_21873 21873 15589
+
+			Align 74: 1455719 1462002 scaffold-293_21873 21873 15589
+				Gap between this and next alignment: 1462002 to 1486268 (24265 bp)
+				Next Alignment: 1486268 1501865 scaffold-293_21873 15596 1
+
+			Align 75: 1486268 1501865 scaffold-293_21873 15596 1
+				Negative gap (overlap) between this and next alignment: 1501865 to 1501771 (-94 bp)
+				Next Alignment: 1501771 1507213 scaffold-75_15611 15611 10169
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 15611 to 15516.
+			Align 76: 1501866 1507213 scaffold-75_15611 15516 10169
+				Negative gap (overlap) between this and next alignment: 1507213 to 1507187 (-26 bp)
+				Next Alignment: 1507187 1534268 scaffold-154_98005 70824 97906
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 70824 to 70851.
+			Align 77: 1507214 1534268 scaffold-154_98005 70851 97906
+				Negative gap (overlap) between this and next alignment: 1534268 to 1534265 (-3 bp)
+				Next Alignment: 1534265 1542046 scaffold-349_7876 7780 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 7780 to 7776.
+			Align 78: 1534269 1542046 scaffold-349_7876 7776 1
+				Negative gap (overlap) between this and next alignment: 1542046 to 1541962 (-84 bp)
+				Next Alignment: 1541962 1563136 scaffold-91_62582 1 21177
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 86.
+			Align 79: 1542047 1563136 scaffold-91_62582 86 21177
+				Negative gap (overlap) between this and next alignment: 1563136 to 1563136 (0 bp)
+				Next Alignment: 1563136 1604382 scaffold-91_62582 21338 62582
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 21338 to 21339.
+			Align 80: 1563137 1604382 scaffold-91_62582 21339 62582
+				The next alignment (1604296 1604382 scaffold-67_53794 53794 53708) is redundant. Skipping.
+				Gap between this and next alignment: 1604382 to 1649829 (45446 bp)
+				Next Alignment: 1649829 1684998 scaffold-67_53794 37485 2315
+
+			Align 82: 1649829 1684998 scaffold-67_53794 37485 2315
+				Negative gap (overlap) between this and next alignment: 1684998 to 1684998 (0 bp)
+				Next Alignment: 1684998 1687084 scaffold-67_53794 2088 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2088 to 2087.
+			Align 83: 1684999 1687084 scaffold-67_53794 2087 1
+				Gap between this and next alignment: 1687084 to 1687219 (134 bp)
+				Next Alignment: 1687219 1694712 scaffold-191_7494 1 7494
+
+			Align 84: 1687219 1694712 scaffold-191_7494 1 7494
+				Gap between this and next alignment: 1694712 to 1720535 (25822 bp)
+				Next Alignment: 1720535 1731183 scaffold-100_84107 1 10649
+
+			Align 85: 1720535 1731183 scaffold-100_84107 1 10649
+				Gap between this and next alignment: 1731183 to 1731573 (389 bp)
+				Next Alignment: 1731573 1793677 scaffold-100_84107 10649 72769
+
+			Align 86: 1731573 1793677 scaffold-100_84107 10649 72769
+				Gap between this and next alignment: 1793677 to 1793766 (88 bp)
+				Next Alignment: 1793766 1801005 scaffold-100_84107 72769 80008
+
+			Align 87: 1793766 1801005 scaffold-100_84107 72769 80008
+				Gap between this and next alignment: 1801005 to 1801911 (905 bp)
+				Next Alignment: 1801911 1802418 scaffold-251_508 508 1
+
+			Align 88: 1801911 1802418 scaffold-251_508 508 1
+				Negative gap (overlap) between this and next alignment: 1802418 to 1802320 (-98 bp)
+				Next Alignment: 1802320 1803191 scaffold-110_851 1 851
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 100.
+			Align 89: 1802419 1803191 scaffold-110_851 100 851
+				Negative gap (overlap) between this and next alignment: 1803191 to 1803144 (-47 bp)
+				Next Alignment: 1803144 1803663 scaffold-221_520 1 520
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 49.
+			Align 90: 1803192 1803663 scaffold-221_520 49 520
+				Gap between this and next alignment: 1803663 to 1804344 (680 bp)
+				Next Alignment: 1804344 1805666 scaffold-311_11537 1 1323
+
+			Align 91: 1804344 1805666 scaffold-311_11537 1 1323
+				Gap between this and next alignment: 1805666 to 1827905 (22238 bp)
+				Next Alignment: 1827905 1839012 scaffold-106_59887 59885 48778
+
+			Align 92: 1827905 1839012 scaffold-106_59887 59885 48778
+				Gap between this and next alignment: 1839012 to 1839216 (203 bp)
+				Next Alignment: 1839216 1844518 scaffold-106_59887 48778 43476
+
+			Align 93: 1839216 1844518 scaffold-106_59887 48778 43476
+				Gap between this and next alignment: 1844518 to 1846019 (1500 bp)
+				Next Alignment: 1846019 1872035 scaffold-106_59887 40397 14381
+
+			Align 94: 1846019 1872035 scaffold-106_59887 40397 14381
+				Negative gap (overlap) between this and next alignment: 1872035 to 1872031 (-4 bp)
+				Next Alignment: 1872031 1878708 scaffold-35_137379 36250 42927
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 36250 to 36255.
+			Align 95: 1872036 1878708 scaffold-35_137379 36255 42927
+				Gap between this and next alignment: 1878708 to 1878788 (79 bp)
+				Next Alignment: 1878788 1922925 scaffold-35_137379 45381 89463
+
+			Align 96: 1878788 1922925 scaffold-35_137379 45381 89463
+				Gap between this and next alignment: 1922925 to 1926731 (3805 bp)
+				Next Alignment: 1926731 1941423 scaffold-35_137379 91856 106571
+
+			Align 97: 1926731 1941423 scaffold-35_137379 91856 106571
+				Gap between this and next alignment: 1941423 to 1942816 (1392 bp)
+				Next Alignment: 1942816 1961814 scaffold-35_137379 107918 126917
+
+			Align 98: 1942816 1961814 scaffold-35_137379 107918 126917
+				Negative gap (overlap) between this and next alignment: 1961814 to 1961814 (0 bp)
+				Next Alignment: 1961814 1968539 scaffold-35_137379 130655 137379
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 130655 to 130656.
+			Align 99: 1961815 1968539 scaffold-35_137379 130656 137379
+				Negative gap (overlap) between this and next alignment: 1968539 to 1968538 (-1 bp)
+				Next Alignment: 1968538 1971493 scaffold-219_37208 37208 34253
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 37208 to 37206.
+			Align 100: 1968540 1971493 scaffold-219_37208 37206 34253
+				Gap between this and next alignment: 1971493 to 1971660 (166 bp)
+				Next Alignment: 1971660 1992402 scaffold-219_37208 34086 13336
+
+			Align 101: 1971660 1992402 scaffold-219_37208 34086 13336
+				Negative gap (overlap) between this and next alignment: 1992402 to 1992400 (-2 bp)
+				Next Alignment: 1992400 2005369 scaffold-219_37208 12961 2
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 12961 to 12958.
+			Align 102: 1992403 2005369 scaffold-219_37208 12958 2
+				Gap between this and next alignment: 2005369 to 2005402 (32 bp)
+				Next Alignment: 2005402 2015120 scaffold-291_9744 1 9744
+
+			Align 103: 2005402 2015120 scaffold-291_9744 1 9744
+				Gap between this and next alignment: 2015120 to 2021175 (6054 bp)
+				Next Alignment: 2021175 2051364 scaffold-83_48627 48627 18439
+
+			Align 104: 2021175 2051364 scaffold-83_48627 48627 18439
+				Negative gap (overlap) between this and next alignment: 2051364 to 2051361 (-3 bp)
+				Next Alignment: 2051361 2059506 scaffold-83_48627 15580 7435
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 15580 to 15576.
+			Align 105: 2051365 2059506 scaffold-83_48627 15576 7435
+				Gap between this and next alignment: 2059506 to 2078680 (19173 bp)
+				Next Alignment: 2078680 2084964 scaffold-83_48627 7915 1630
+
+			Align 106: 2078680 2084964 scaffold-83_48627 7915 1630
+				Gap between this and next alignment: 2084964 to 2102349 (17384 bp)
+				Next Alignment: 2102349 2104800 scaffold-347_59477 395 2849
+
+			Align 107: 2102349 2104800 scaffold-347_59477 395 2849
+				Gap between this and next alignment: 2104800 to 2146427 (41626 bp)
+				Next Alignment: 2146427 2203074 scaffold-347_59477 2840 59477
+
+			Align 108: 2146427 2203074 scaffold-347_59477 2840 59477
+				Gap between this and next alignment: 2203074 to 2203257 (182 bp)
+				Next Alignment: 2203257 2204321 scaffold-119_9861 1 1065
+
+			Align 109: 2203257 2204321 scaffold-119_9861 1 1065
+				Gap between this and next alignment: 2204321 to 2205525 (1203 bp)
+				Next Alignment: 2205525 2211074 scaffold-119_9861 1150 6699
+
+			Align 110: 2205525 2211074 scaffold-119_9861 1150 6699
+				Gap between this and next alignment: 2211074 to 2219661 (8586 bp)
+				Next Alignment: 2219661 2225012 scaffold-143_12721 5352 1
+
+			Align 111: 2219661 2225012 scaffold-143_12721 5352 1
+				Negative gap (overlap) between this and next alignment: 2225012 to 2224951 (-61 bp)
+				Next Alignment: 2224951 2225872 scaffold-315_16651 16651 15730
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 16651 to 16589.
+			Align 112: 2225013 2225872 scaffold-315_16651 16589 15730
+				Gap between this and next alignment: 2225872 to 2226675 (802 bp)
+				Next Alignment: 2226675 2239839 scaffold-315_16651 13241 76
+
+			Align 113: 2226675 2239839 scaffold-315_16651 13241 76
+				Negative gap (overlap) between this and next alignment: 2239839 to 2239835 (-4 bp)
+				Next Alignment: 2239835 2241384 scaffold-161_2356 2295 747
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2295 to 2290.
+			Align 114: 2239840 2241384 scaffold-161_2356 2290 747
+				Gap between this and next alignment: 2241384 to 2244229 (2844 bp)
+				Next Alignment: 2244229 2251308 scaffold-310_7844 7179 100
+
+			Align 115: 2244229 2251308 scaffold-310_7844 7179 100
+				Negative gap (overlap) between this and next alignment: 2251308 to 2251302 (-6 bp)
+				Next Alignment: 2251302 2275312 scaffold-29_24099 88 24099
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 88 to 95.
+			Align 116: 2251309 2275312 scaffold-29_24099 95 24099
+				Gap between this and next alignment: 2275312 to 2275436 (123 bp)
+				Next Alignment: 2275436 2290087 scaffold-98_39859 76 14727
+
+			Align 117: 2275436 2290087 scaffold-98_39859 76 14727
+				Gap between this and next alignment: 2290087 to 2294312 (4224 bp)
+				Next Alignment: 2294312 2319336 scaffold-98_39859 14727 39784
+
+			Align 118: 2294312 2319336 scaffold-98_39859 14727 39784
+				Negative gap (overlap) between this and next alignment: 2319336 to 2319332 (-4 bp)
+				Next Alignment: 2319332 2320951 scaffold-93_1778 62 1682
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 62 to 67.
+			Align 119: 2319337 2320951 scaffold-93_1778 67 1682
+				Gap between this and next alignment: 2320951 to 2367862 (46910 bp)
+				Next Alignment: 2367862 2369691 scaffold-17_2328 2099 266
+
+			Align 120: 2367862 2369691 scaffold-17_2328 2099 266
+				Gap between this and next alignment: 2369691 to 2436862 (67170 bp)
+				Next Alignment: 2436862 2440523 scaffold-352_11915 5525 9184
+
+			Align 121: 2436862 2440523 scaffold-352_11915 5525 9184
+				Gap between this and next alignment: 2440523 to 2471244 (30720 bp)
+				Next Alignment: 2471244 2490494 scaffold-166_79080 79080 59820
+
+			Align 122: 2471244 2490494 scaffold-166_79080 79080 59820
+				Gap between this and next alignment: 2490494 to 2491137 (642 bp)
+				Next Alignment: 2491137 2551002 scaffold-166_79080 59820 1
+
+			Align 123: 2491137 2551002 scaffold-166_79080 59820 1
+				Gap between this and next alignment: 2551002 to 2551106 (103 bp)
+				Next Alignment: 2551106 2560089 scaffold-279_13894 13894 4913
+
+			Align 124: 2551106 2560089 scaffold-279_13894 13894 4913
+				Gap between this and next alignment: 2560089 to 2570035 (9945 bp)
+				Next Alignment: 2570035 2574949 scaffold-279_13894 4916 1
+
+			Align 125: 2570035 2574949 scaffold-279_13894 4916 1
+				Gap between this and next alignment: 2574949 to 2575144 (194 bp)
+				Next Alignment: 2575144 2585117 scaffold-57_10054 10054 61
+
+			Align 126: 2575144 2585117 scaffold-57_10054 10054 61
+				Negative gap (overlap) between this and next alignment: 2585117 to 2585113 (-4 bp)
+				Next Alignment: 2585113 2602308 scaffold-15_45774 54 17249
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 54 to 59.
+			Align 127: 2585118 2602308 scaffold-15_45774 59 17249
+				Gap between this and next alignment: 2602308 to 2606282 (3973 bp)
+				Next Alignment: 2606282 2634353 scaffold-15_45774 17704 45774
+
+			Align 128: 2606282 2634353 scaffold-15_45774 17704 45774
+				Negative gap (overlap) between this and next alignment: 2634353 to 2634335 (-18 bp)
+				Next Alignment: 2634335 2652904 scaffold-334_28394 1 18570
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 20.
+			Align 129: 2634354 2652904 scaffold-334_28394 20 18570
+				Gap between this and next alignment: 2652904 to 2655874 (2969 bp)
+				Next Alignment: 2655874 2665673 scaffold-334_28394 18535 28334
+
+			Align 130: 2655874 2665673 scaffold-334_28394 18535 28334
+				Negative gap (overlap) between this and next alignment: 2665673 to 2665668 (-5 bp)
+				Next Alignment: 2665668 2671344 scaffold-187_5825 74 5751
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 74 to 80.
+			Align 131: 2665674 2671344 scaffold-187_5825 80 5751
+				Negative gap (overlap) between this and next alignment: 2671344 to 2671339 (-5 bp)
+				Next Alignment: 2671339 2673090 scaffold-30_1813 1752 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1752 to 1746.
+			Align 132: 2671345 2673090 scaffold-30_1813 1746 1
+				Negative gap (overlap) between this and next alignment: 2673090 to 2672991 (-99 bp)
+				Next Alignment: 2672991 2719621 scaffold-155_61976 1 46663
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 101.
+			Align 133: 2673091 2719621 scaffold-155_61976 101 46663
+				Gap between this and next alignment: 2719621 to 2724950 (5328 bp)
+				Next Alignment: 2724950 2733414 scaffold-155_61976 47157 55621
+
+			Align 134: 2724950 2733414 scaffold-155_61976 47157 55621
+				Negative gap (overlap) between this and next alignment: 2733414 to 2733401 (-13 bp)
+				Next Alignment: 2733401 2802555 scaffold-217_81718 69219 100
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 69219 to 69205.
+			Align 135: 2733415 2802555 scaffold-217_81718 69205 100
+				Negative gap (overlap) between this and next alignment: 2802555 to 2802551 (-4 bp)
+				Next Alignment: 2802551 2822612 scaffold-206_20144 99 20144
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 99 to 104.
+			Align 136: 2802556 2822612 scaffold-206_20144 104 20144
+				Gap between this and next alignment: 2822612 to 2822641 (28 bp)
+				Next Alignment: 2822641 2823400 scaffold-205_38383 38383 37623
+
+			Align 137: 2822641 2823400 scaffold-205_38383 38383 37623
+				Negative gap (overlap) between this and next alignment: 2823400 to 2823396 (-4 bp)
+				Next Alignment: 2823396 2845294 scaffold-205_38383 36826 14976
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 36826 to 36821.
+			Align 138: 2823401 2845294 scaffold-205_38383 36821 14976
+				Gap between this and next alignment: 2845294 to 2845862 (567 bp)
+				Next Alignment: 2845862 2874098 scaffold-218_31040 1091 29331
+
+			Align 139: 2845862 2874098 scaffold-218_31040 1091 29331
+				Gap between this and next alignment: 2874098 to 2874738 (639 bp)
+				Next Alignment: 2874738 2876435 scaffold-218_31040 29395 31040
+
+			Align 140: 2874738 2876435 scaffold-218_31040 29395 31040
+				Gap between this and next alignment: 2876435 to 2876557 (121 bp)
+				Next Alignment: 2876557 2915244 scaffold-262_38763 1 38689
+
+			Align 141: 2876557 2915244 scaffold-262_38763 1 38689
+				Negative gap (overlap) between this and next alignment: 2915244 to 2915239 (-5 bp)
+				Next Alignment: 2915239 2925122 scaffold-367_11222 11162 1280
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 11162 to 11156.
+			Align 142: 2915245 2925122 scaffold-367_11222 11156 1280
+				Gap between this and next alignment: 2925122 to 2925264 (141 bp)
+				Next Alignment: 2925264 2926543 scaffold-367_11222 1280 1
+
+			Align 143: 2925264 2926543 scaffold-367_11222 1280 1
+				Negative gap (overlap) between this and next alignment: 2926543 to 2926518 (-25 bp)
+				Next Alignment: 2926518 2933302 scaffold-19_46208 46208 39424
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 46208 to 46182.
+			Align 144: 2926544 2933302 scaffold-19_46208 46182 39424
+				Gap between this and next alignment: 2933302 to 2934358 (1055 bp)
+				Next Alignment: 2934358 2940183 scaffold-19_46208 28821 22990
+
+			Align 145: 2934358 2940183 scaffold-19_46208 28821 22990
+				Gap between this and next alignment: 2940183 to 2940959 (775 bp)
+				Next Alignment: 2940959 2962771 scaffold-19_46208 21798 1
+
+			Align 146: 2940959 2962771 scaffold-19_46208 21798 1
+				Gap between this and next alignment: 2962771 to 2962953 (181 bp)
+				Next Alignment: 2962953 2963931 scaffold-252_979 979 1
+
+			Align 147: 2962953 2963931 scaffold-252_979 979 1
+				The next alignment (2962953 2963089 scaffold-172_998 1 137) is redundant. Skipping.
+				Gap between this and next alignment: 2963931 to 2964844 (912 bp)
+				Next Alignment: 2964844 2965306 scaffold-340_676 676 214
+
+			Align 149: 2964844 2965306 scaffold-340_676 676 214
+				Gap between this and next alignment: 2965306 to 2966683 (1376 bp)
+				Next Alignment: 2966683 2967414 scaffold-246_732 1 732
+
+			Align 150: 2966683 2967414 scaffold-246_732 1 732
+				Gap between this and next alignment: 2967414 to 2972265 (4850 bp)
+				Next Alignment: 2972265 2972460 scaffold-340_676 196 1
+
+			Align 151: 2972265 2972460 scaffold-340_676 196 1
+				Negative gap (overlap) between this and next alignment: 2972460 to 2972364 (-96 bp)
+				Next Alignment: 2972364 2985366 scaffold-59_13050 13047 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 13047 to 12950.
+			Align 152: 2972461 2985366 scaffold-59_13050 12950 1
+				Gap between this and next alignment: 2985366 to 2986090 (723 bp)
+				Next Alignment: 2986090 2986658 scaffold-113_569 569 1
+
+			Align 153: 2986090 2986658 scaffold-113_569 569 1
+				Negative gap (overlap) between this and next alignment: 2986658 to 2986610 (-48 bp)
+				Next Alignment: 2986610 2987186 scaffold-270_3680 1 577
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 50.
+			Align 154: 2986659 2987186 scaffold-270_3680 50 577
+				Gap between this and next alignment: 2987186 to 2987218 (31 bp)
+				Next Alignment: 2987218 2989575 scaffold-270_3680 1322 3680
+
+			Align 155: 2987218 2989575 scaffold-270_3680 1322 3680
+				Gap between this and next alignment: 2989575 to 2989753 (177 bp)
+				Next Alignment: 2989753 2991969 scaffold-249_2217 2217 1
+
+			Align 156: 2989753 2991969 scaffold-249_2217 2217 1
+				Gap between this and next alignment: 2991969 to 2992813 (843 bp)
+				Next Alignment: 2992813 2995213 scaffold-77_2401 1 2401
+
+			Align 157: 2992813 2995213 scaffold-77_2401 1 2401
+				Gap between this and next alignment: 2995213 to 2995690 (476 bp)
+				Next Alignment: 2995690 2997033 scaffold-150_1402 1402 59
+
+			Align 158: 2995690 2997033 scaffold-150_1402 1402 59
+				Gap between this and next alignment: 2997033 to 2997159 (125 bp)
+				Next Alignment: 2997159 3008815 scaffold-292_26305 180 11847
+
+			Align 159: 2997159 3008815 scaffold-292_26305 180 11847
+				Gap between this and next alignment: 3008815 to 3017590 (8774 bp)
+				Next Alignment: 3017590 3041501 scaffold-156_26028 2095 26028
+
+			Align 160: 3017590 3041501 scaffold-156_26028 2095 26028
+				Gap between this and next alignment: 3041501 to 3057342 (15840 bp)
+				Next Alignment: 3057342 3066785 scaffold-301_9444 9444 1
+
+			Align 161: 3057342 3066785 scaffold-301_9444 9444 1
+				Negative gap (overlap) between this and next alignment: 3066785 to 3066713 (-72 bp)
+				Next Alignment: 3066713 3100873 scaffold-212_34155 1 34155
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 74.
+			Align 162: 3066786 3100873 scaffold-212_34155 74 34155
+				Negative gap (overlap) between this and next alignment: 3100873 to 3100827 (-46 bp)
+				Next Alignment: 3100827 3102500 scaffold-102_83032 1 1674
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 48.
+			Align 163: 3100874 3102500 scaffold-102_83032 48 1674
+				Negative gap (overlap) between this and next alignment: 3102500 to 3102483 (-17 bp)
+				Next Alignment: 3102483 3128178 scaffold-102_83032 2297 27982
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2297 to 2315.
+			Align 164: 3102501 3128178 scaffold-102_83032 2315 27982
+				Gap between this and next alignment: 3128178 to 3139476 (11297 bp)
+				Next Alignment: 3139476 3183572 scaffold-102_83032 28858 72957
+
+			Align 165: 3139476 3183572 scaffold-102_83032 28858 72957
+				Gap between this and next alignment: 3183572 to 3185093 (1520 bp)
+				Next Alignment: 3185093 3195179 scaffold-102_83032 72943 83032
+
+			Align 166: 3185093 3195179 scaffold-102_83032 72943 83032
+				Negative gap (overlap) between this and next alignment: 3195179 to 3195132 (-47 bp)
+				Next Alignment: 3195132 3239416 scaffold-132_44298 44298 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 44298 to 44250.
+			Align 167: 3195180 3239416 scaffold-132_44298 44250 1
+				Gap between this and next alignment: 3239416 to 3245084 (5667 bp)
+				Next Alignment: 3245084 3277130 scaffold-147_32124 32124 1
+
+			Align 168: 3245084 3277130 scaffold-147_32124 32124 1
+				Gap between this and next alignment: 3277130 to 3277417 (286 bp)
+				Next Alignment: 3277417 3284082 scaffold-168_19909 1 6667
+
+			Align 169: 3277417 3284082 scaffold-168_19909 1 6667
+				Gap between this and next alignment: 3284082 to 3284180 (97 bp)
+				Next Alignment: 3284180 3287896 scaffold-168_19909 6820 10536
+
+			Align 170: 3284180 3287896 scaffold-168_19909 6820 10536
+				Gap between this and next alignment: 3287896 to 3303419 (15522 bp)
+				Next Alignment: 3303419 3318993 scaffold-285_24644 15574 1
+
+			Align 171: 3303419 3318993 scaffold-285_24644 15574 1
+				Gap between this and next alignment: 3318993 to 3319057 (63 bp)
+				Next Alignment: 3319057 3321029 scaffold-8_1973 1973 1
+
+			Align 172: 3319057 3321029 scaffold-8_1973 1973 1
+				Negative gap (overlap) between this and next alignment: 3321029 to 3320976 (-53 bp)
+				Next Alignment: 3320976 3372115 scaffold-300_55656 55656 4511
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 55656 to 55602.
+			Align 173: 3321030 3372115 scaffold-300_55656 55602 4511
+				Gap between this and next alignment: 3372115 to 3372262 (146 bp)
+				Next Alignment: 3372262 3376608 scaffold-300_55656 4351 5
+
+			Align 174: 3372262 3376608 scaffold-300_55656 4351 5
+				Gap between this and next alignment: 3376608 to 3377644 (1035 bp)
+				Next Alignment: 3377644 3378210 scaffold-193_567 1 567
+
+			Align 175: 3377644 3378210 scaffold-193_567 1 567
+				Negative gap (overlap) between this and next alignment: 3378210 to 3378161 (-49 bp)
+				Next Alignment: 3378161 3380486 scaffold-198_2326 1 2326
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 51.
+			Align 176: 3378211 3380486 scaffold-198_2326 51 2326
+				Gap between this and next alignment: 3380486 to 3381913 (1426 bp)
+				Next Alignment: 3381913 3389499 scaffold-224_7588 7588 1
+
+			Align 177: 3381913 3389499 scaffold-224_7588 7588 1
+				Gap between this and next alignment: 3389499 to 3389706 (206 bp)
+				Next Alignment: 3389706 3393060 scaffold-109_3356 3356 1
+
+			Align 178: 3389706 3393060 scaffold-109_3356 3356 1
+				Negative gap (overlap) between this and next alignment: 3393060 to 3392987 (-73 bp)
+				Next Alignment: 3392987 3394851 scaffold-237_58301 58301 56436
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 58301 to 58227.
+			Align 179: 3393061 3394851 scaffold-237_58301 58227 56436
+				Negative gap (overlap) between this and next alignment: 3394851 to 3394837 (-14 bp)
+				Next Alignment: 3394837 3395241 scaffold-237_58301 55689 55285
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 55689 to 55675.
+			Align 180: 3394852 3395241 scaffold-237_58301 55675 55285
+				Gap between this and next alignment: 3395241 to 3397335 (2093 bp)
+				Next Alignment: 3397335 3452469 scaffold-237_58301 55117 1
+
+			Align 181: 3397335 3452469 scaffold-237_58301 55117 1
+				Negative gap (overlap) between this and next alignment: 3452469 to 3452372 (-97 bp)
+				Next Alignment: 3452372 3452928 scaffold-162_558 558 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 558 to 460.
+			Align 182: 3452470 3452928 scaffold-162_558 460 1
+				Negative gap (overlap) between this and next alignment: 3452928 to 3452830 (-98 bp)
+				Next Alignment: 3452830 3483730 scaffold-316_34845 1 30901
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 100.
+			Align 183: 3452929 3483730 scaffold-316_34845 100 30901
+				Gap between this and next alignment: 3483730 to 3486598 (2867 bp)
+				Next Alignment: 3486598 3487716 scaffold-316_34845 33673 34792
+
+			Align 184: 3486598 3487716 scaffold-316_34845 33673 34792
+				Negative gap (overlap) between this and next alignment: 3487716 to 3487712 (-4 bp)
+				Next Alignment: 3487712 3527059 scaffold-239_86902 61 39387
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 61 to 66.
+			Align 185: 3487717 3527059 scaffold-239_86902 66 39387
+				Gap between this and next alignment: 3527059 to 3527536 (476 bp)
+				Next Alignment: 3527536 3572403 scaffold-239_86902 39864 84727
+
+			Align 186: 3527536 3572403 scaffold-239_86902 39864 84727
+				Gap between this and next alignment: 3572403 to 3588446 (16042 bp)
+				Next Alignment: 3588446 3628034 scaffold-169_110727 711 40285
+
+			Align 187: 3588446 3628034 scaffold-169_110727 711 40285
+				Gap between this and next alignment: 3628034 to 3628168 (133 bp)
+				Next Alignment: 3628168 3698555 scaffold-169_110727 40371 110721
+
+			Align 188: 3628168 3698555 scaffold-169_110727 40371 110721
+				Gap between this and next alignment: 3698555 to 3698558 (2 bp)
+				Next Alignment: 3698558 3706374 scaffold-302_49960 1 7818
+
+			Align 189: 3698558 3706374 scaffold-302_49960 1 7818
+				Next Alignment: 3706375 3748418 scaffold-302_49960 7927 49960
+
+			Align 190: 3706375 3748418 scaffold-302_49960 7927 49960
+				Negative gap (overlap) between this and next alignment: 3748418 to 3748310 (-108 bp)
+				Next Alignment: 3748310 3755836 scaffold-264_16108 16108 8592
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 16108 to 16009.
+			Align 191: 3748419 3755836 scaffold-264_16108 16009 8592
+				Gap between this and next alignment: 3755836 to 3756507 (670 bp)
+				Next Alignment: 3756507 3764971 scaffold-264_16108 8460 1
+
+			Align 192: 3756507 3764971 scaffold-264_16108 8460 1
+				Negative gap (overlap) between this and next alignment: 3764971 to 3764873 (-98 bp)
+				Next Alignment: 3764873 3774600 scaffold-351_9731 9731 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 9731 to 9632.
+			Align 193: 3764972 3774600 scaffold-351_9731 9632 1
+				Gap between this and next alignment: 3774600 to 3775346 (745 bp)
+				Next Alignment: 3775346 3778262 scaffold-125_26488 1 2917
+
+			Align 194: 3775346 3778262 scaffold-125_26488 1 2917
+				Negative gap (overlap) between this and next alignment: 3778262 to 3778255 (-7 bp)
+				Next Alignment: 3778255 3800513 scaffold-125_26488 4231 26488
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4231 to 4239.
+			Align 195: 3778263 3800513 scaffold-125_26488 4239 26488
+				Negative gap (overlap) between this and next alignment: 3800513 to 3800415 (-98 bp)
+				Next Alignment: 3800415 3800935 scaffold-46_521 521 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 521 to 422.
+			Align 196: 3800514 3800935 scaffold-46_521 422 1
+				Negative gap (overlap) between this and next alignment: 3800935 to 3800837 (-98 bp)
+				Next Alignment: 3800837 3808017 scaffold-213_7280 7280 100
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 7280 to 7181.
+			Align 197: 3800936 3808017 scaffold-213_7280 7181 100
+				Negative gap (overlap) between this and next alignment: 3808017 to 3808013 (-4 bp)
+				Next Alignment: 3808013 3836148 scaffold-215_28232 99 28232
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 99 to 104.
+			Align 198: 3808018 3836148 scaffold-215_28232 104 28232
+				Gap between this and next alignment: 3836148 to 3836435 (286 bp)
+				Next Alignment: 3836435 3847437 scaffold-99_11057 11018 1
+
+			Align 199: 3836435 3847437 scaffold-99_11057 11018 1
+				Gap between this and next alignment: 3847437 to 3849023 (1585 bp)
+				Next Alignment: 3849023 3856732 scaffold-181_37601 37601 29893
+
+			Align 200: 3849023 3856732 scaffold-181_37601 37601 29893
+				Gap between this and next alignment: 3856732 to 3857908 (1175 bp)
+				Next Alignment: 3857908 3859574 scaffold-181_37601 29895 28229
+
+			Align 201: 3857908 3859574 scaffold-181_37601 29895 28229
+				Gap between this and next alignment: 3859574 to 3859714 (139 bp)
+				Next Alignment: 3859714 3887626 scaffold-181_37601 27913 1
+
+			Align 202: 3859714 3887626 scaffold-181_37601 27913 1
+				Gap between this and next alignment: 3887626 to 3887902 (275 bp)
+				Next Alignment: 3887902 3899534 scaffold-158_11633 1 11633
+
+			Align 203: 3887902 3899534 scaffold-158_11633 1 11633
+				Gap between this and next alignment: 3899534 to 3905609 (6074 bp)
+				Next Alignment: 3905609 3911658 scaffold-245_6097 6050 1
+
+			Align 204: 3905609 3911658 scaffold-245_6097 6050 1
+				Negative gap (overlap) between this and next alignment: 3911658 to 3911579 (-79 bp)
+				Next Alignment: 3911579 3918354 scaffold-287_39725 39725 32951
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 39725 to 39645.
+			Align 205: 3911659 3918354 scaffold-287_39725 39645 32951
+				Gap between this and next alignment: 3918354 to 3922358 (4003 bp)
+				Next Alignment: 3922358 3950957 scaffold-287_39725 28599 1
+
+			Align 206: 3922358 3950957 scaffold-287_39725 28599 1
+				Negative gap (overlap) between this and next alignment: 3950957 to 3950890 (-67 bp)
+				Next Alignment: 3950890 3954075 scaffold-344_3194 1 3194
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 69.
+			Align 207: 3950958 3954075 scaffold-344_3194 69 3194
+				Gap between this and next alignment: 3954075 to 3954480 (404 bp)
+				Next Alignment: 3954480 3977931 scaffold-37_23457 1 23457
+
+			Align 208: 3954480 3977931 scaffold-37_23457 1 23457
+				Negative gap (overlap) between this and next alignment: 3977931 to 3977883 (-48 bp)
+				Next Alignment: 3977883 3984584 scaffold-112_53350 53350 46646
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 53350 to 53301.
+			Align 209: 3977932 3984584 scaffold-112_53350 53301 46646
+				Gap between this and next alignment: 3984584 to 3984590 (5 bp)
+				Next Alignment: 3984590 4027425 scaffold-112_53350 42837 1
+
+			Align 210: 3984590 4027425 scaffold-112_53350 42837 1
+				Gap between this and next alignment: 4027425 to 4027439 (13 bp)
+				Next Alignment: 4027439 4037764 scaffold-319_10326 10326 1
+
+			Align 211: 4027439 4037764 scaffold-319_10326 10326 1
+				Negative gap (overlap) between this and next alignment: 4037764 to 4037692 (-72 bp)
+				Next Alignment: 4037692 4042914 scaffold-346_5322 5322 100
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5322 to 5249.
+			Align 212: 4037765 4042914 scaffold-346_5322 5249 100
+				Negative gap (overlap) between this and next alignment: 4042914 to 4042907 (-7 bp)
+				Next Alignment: 4042907 4073269 scaffold-220_77135 77050 46707
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 77050 to 77042.
+			Align 213: 4042915 4073269 scaffold-220_77135 77042 46707
+				Gap between this and next alignment: 4073269 to 4075483 (2213 bp)
+				Next Alignment: 4075483 4079475 scaffold-220_77135 46401 42397
+
+			Align 214: 4075483 4079475 scaffold-220_77135 46401 42397
+				Gap between this and next alignment: 4079475 to 4083512 (4036 bp)
+				Next Alignment: 4083512 4091123 scaffold-220_77135 38360 30759
+
+			Align 215: 4083512 4091123 scaffold-220_77135 38360 30759
+				Gap between this and next alignment: 4091123 to 4091134 (10 bp)
+				Next Alignment: 4091134 4112182 scaffold-220_77135 22417 1371
+
+			Align 216: 4091134 4112182 scaffold-220_77135 22417 1371
+				Gap between this and next alignment: 4112182 to 4124138 (11955 bp)
+				Next Alignment: 4124138 4126582 scaffold-128_11723 9279 11723
+
+			Align 217: 4124138 4126582 scaffold-128_11723 9279 11723
+				Gap between this and next alignment: 4126582 to 4126709 (126 bp)
+				Next Alignment: 4126709 4129800 scaffold-38_28345 28345 25255
+
+			Align 218: 4126709 4129800 scaffold-38_28345 28345 25255
+				Gap between this and next alignment: 4129800 to 4131163 (1362 bp)
+				Next Alignment: 4131163 4134792 scaffold-38_28345 24210 20581
+
+			Align 219: 4131163 4134792 scaffold-38_28345 24210 20581
+				Gap between this and next alignment: 4134792 to 4136591 (1798 bp)
+				Next Alignment: 4136591 4154189 scaffold-38_28345 20560 2961
+
+			Align 220: 4136591 4154189 scaffold-38_28345 20560 2961
+				Negative gap (overlap) between this and next alignment: 4154189 to 4154178 (-11 bp)
+				Next Alignment: 4154178 4154260 scaffold-38_28345 353 271
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 353 to 341.
+			Align 221: 4154190 4154260 scaffold-38_28345 341 271
+				Gap between this and next alignment: 4154260 to 4154741 (480 bp)
+				Next Alignment: 4154741 4231255 scaffold-148_188622 1 76525
+
+			Align 222: 4154741 4231255 scaffold-148_188622 1 76525
+				Gap between this and next alignment: 4231255 to 4232940 (1684 bp)
+				Next Alignment: 4232940 4289861 scaffold-148_188622 78272 135195
+
+			Align 223: 4232940 4289861 scaffold-148_188622 78272 135195
+				Gap between this and next alignment: 4289861 to 4322485 (32623 bp)
+				Next Alignment: 4322485 4322742 scaffold-171_1571 959 1216
+
+			Align 224: 4322485 4322742 scaffold-171_1571 959 1216
+				Gap between this and next alignment: 4322742 to 4329075 (6332 bp)
+				Next Alignment: 4329075 4337663 scaffold-148_188622 135180 143776
+
+			Align 225: 4329075 4337663 scaffold-148_188622 135180 143776
+				Gap between this and next alignment: 4337663 to 4337671 (7 bp)
+				Next Alignment: 4337671 4350878 scaffold-148_188622 148300 161507
+
+			Align 226: 4337671 4350878 scaffold-148_188622 148300 161507
+				Negative gap (overlap) between this and next alignment: 4350878 to 4350868 (-10 bp)
+				Next Alignment: 4350868 4352767 scaffold-148_188622 169986 171885
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 169986 to 169997.
+			Align 227: 4350879 4352767 scaffold-148_188622 169997 171885
+				Gap between this and next alignment: 4352767 to 4353277 (509 bp)
+				Next Alignment: 4353277 4376746 scaffold-276_27282 3817 27282
+
+			Align 228: 4353277 4376746 scaffold-276_27282 3817 27282
+				Negative gap (overlap) between this and next alignment: 4376746 to 4376731 (-15 bp)
+				Next Alignment: 4376731 4377656 scaffold-101_1588 1588 662
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1588 to 1572.
+			Align 229: 4376747 4377656 scaffold-101_1588 1572 662
+				Gap between this and next alignment: 4377656 to 4377693 (36 bp)
+				Next Alignment: 4377693 4414942 scaffold-104_37869 1 37251
+
+			Align 230: 4377693 4414942 scaffold-104_37869 1 37251
+				Gap between this and next alignment: 4414942 to 4443327 (28384 bp)
+				Next Alignment: 4443327 4490285 scaffold-189_46963 46963 1
+
+			Align 231: 4443327 4490285 scaffold-189_46963 46963 1
+				The next alignment (4490187 4490283 scaffold-49_52441 97 1) is redundant. Skipping.
+				Gap between this and next alignment: 4490285 to 4496722 (6436 bp)
+				Next Alignment: 4496722 4515428 scaffold-55_53107 292 18993
+
+			Align 233: 4496722 4515428 scaffold-55_53107 292 18993
+				Gap between this and next alignment: 4515428 to 4519435 (4006 bp)
+				Next Alignment: 4519435 4542544 scaffold-55_53107 18993 42102
+
+			Align 234: 4519435 4542544 scaffold-55_53107 18993 42102
+				Gap between this and next alignment: 4542544 to 4543593 (1048 bp)
+				Next Alignment: 4543593 4552709 scaffold-55_53107 43991 53107
+
+			Align 235: 4543593 4552709 scaffold-55_53107 43991 53107
+				Negative gap (overlap) between this and next alignment: 4552709 to 4552612 (-97 bp)
+				Next Alignment: 4552612 4556712 scaffold-222_4101 1 4101
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 99.
+			Align 236: 4552710 4556712 scaffold-222_4101 99 4101
+				Gap between this and next alignment: 4556712 to 4556867 (154 bp)
+				Next Alignment: 4556867 4591370 scaffold-204_76810 76810 42283
+
+			Align 237: 4556867 4591370 scaffold-204_76810 76810 42283
+				Gap between this and next alignment: 4591370 to 4600722 (9351 bp)
+				Next Alignment: 4600722 4601686 scaffold-204_76810 33027 32063
+
+			Align 238: 4600722 4601686 scaffold-204_76810 33027 32063
+				Gap between this and next alignment: 4601686 to 4621129 (19442 bp)
+				Next Alignment: 4621129 4645929 scaffold-204_76810 24800 1
+
+			Align 239: 4621129 4645929 scaffold-204_76810 24800 1
+				Gap between this and next alignment: 4645929 to 4652524 (6594 bp)
+				Next Alignment: 4652524 4690356 scaffold-49_52441 52433 14603
+
+			Align 240: 4652524 4690356 scaffold-49_52441 52433 14603
+				Gap between this and next alignment: 4690356 to 4690371 (14 bp)
+				Next Alignment: 4690371 4697660 scaffold-49_52441 162 7452
+
+			Align 241: 4690371 4697660 scaffold-49_52441 162 7452
+				Gap between this and next alignment: 4697660 to 4697719 (58 bp)
+				Next Alignment: 4697719 4704840 scaffold-49_52441 7448 14569
+
+			Align 242: 4697719 4704840 scaffold-49_52441 7448 14569
+				Gap between this and next alignment: 4704840 to 4711319 (6478 bp)
+				Next Alignment: 4711319 4711483 scaffold-55_53107 1 165
+
+			Align 243: 4711319 4711483 scaffold-55_53107 1 165
+				Gap between this and next alignment: 4711483 to 4721056 (9572 bp)
+				Next Alignment: 4721056 4776202 scaffold-85_55814 677 55814
+
+			Align 244: 4721056 4776202 scaffold-85_55814 677 55814
+				Negative gap (overlap) between this and next alignment: 4776202 to 4776129 (-73 bp)
+				Next Alignment: 4776129 4777645 scaffold-214_1517 1517 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1517 to 1443.
+			Align 245: 4776203 4777645 scaffold-214_1517 1443 1
+				Gap between this and next alignment: 4777645 to 4777831 (185 bp)
+				Next Alignment: 4777831 4800153 scaffold-223_29680 29680 7372
+
+			Align 246: 4777831 4800153 scaffold-223_29680 29680 7372
+				Gap between this and next alignment: 4800153 to 4857785 (57631 bp)
+				Next Alignment: 4857785 4865193 scaffold-223_29680 7395 1
+
+			Align 247: 4857785 4865193 scaffold-223_29680 7395 1
+				Negative gap (overlap) between this and next alignment: 4865193 to 4865184 (-9 bp)
+				Next Alignment: 4865184 4880302 scaffold-53_15130 1 15130
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 11.
+			Align 248: 4865194 4880302 scaffold-53_15130 11 15130
+				Gap between this and next alignment: 4880302 to 4880679 (376 bp)
+				Next Alignment: 4880679 4883354 scaffold-233_19189 19189 16506
+
+			Align 249: 4880679 4883354 scaffold-233_19189 19189 16506
+				Gap between this and next alignment: 4883354 to 4894479 (11124 bp)
+				Next Alignment: 4894479 4910852 scaffold-233_19189 16367 1
+
+			Align 250: 4894479 4910852 scaffold-233_19189 16367 1
+				Negative gap (overlap) between this and next alignment: 4910852 to 4910807 (-45 bp)
+				Next Alignment: 4910807 4917760 scaffold-2_7841 7841 923
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 7841 to 7795.
+			Align 251: 4910853 4917760 scaffold-2_7841 7795 923
+				Gap between this and next alignment: 4917760 to 4939619 (21858 bp)
+				Next Alignment: 4939619 4952883 scaffold-5_18856 13266 1
+
+			Align 252: 4939619 4952883 scaffold-5_18856 13266 1
+				Gap between this and next alignment: 4952883 to 4953003 (119 bp)
+				Next Alignment: 4953003 4955221 scaffold-136_2220 2220 1
+
+			Align 253: 4953003 4955221 scaffold-136_2220 2220 1
+				Gap between this and next alignment: 4955221 to 4957663 (2441 bp)
+				Next Alignment: 4957663 4984135 scaffold-52_96186 96186 69716
+
+			Align 254: 4957663 4984135 scaffold-52_96186 96186 69716
+				Gap between this and next alignment: 4984135 to 4984363 (227 bp)
+				Next Alignment: 4984363 5045020 scaffold-52_96186 69495 8839
+
+			Align 255: 4984363 5045020 scaffold-52_96186 69495 8839
+				Gap between this and next alignment: 5045020 to 5051765 (6744 bp)
+				Next Alignment: 5051765 5054506 scaffold-52_96186 2990 249
+
+			Align 256: 5051765 5054506 scaffold-52_96186 2990 249
+				Gap between this and next alignment: 5054506 to 5055599 (1092 bp)
+				Next Alignment: 5055599 5055832 scaffold-52_96186 234 1
+
+			Align 257: 5055599 5055832 scaffold-52_96186 234 1
+				Gap between this and next alignment: 5055832 to 5061956 (6123 bp)
+				Next Alignment: 5061956 5084231 scaffold-289_48528 2576 24842
+
+			Align 258: 5061956 5084231 scaffold-289_48528 2576 24842
+				Gap between this and next alignment: 5084231 to 5100453 (16221 bp)
+				Next Alignment: 5100453 5103927 scaffold-289_48528 24841 28315
+
+			Align 259: 5100453 5103927 scaffold-289_48528 24841 28315
+				Gap between this and next alignment: 5103927 to 5106162 (2234 bp)
+				Next Alignment: 5106162 5110276 scaffold-289_48528 28344 32459
+
+			Align 260: 5106162 5110276 scaffold-289_48528 28344 32459
+				Gap between this and next alignment: 5110276 to 5116639 (6362 bp)
+				Next Alignment: 5116639 5132708 scaffold-289_48528 32453 48528
+
+			Align 261: 5116639 5132708 scaffold-289_48528 32453 48528
+				Gap between this and next alignment: 5132708 to 5133135 (426 bp)
+				Next Alignment: 5133135 5174344 scaffold-366_51439 51439 10232
+
+			Align 262: 5133135 5174344 scaffold-366_51439 51439 10232
+				Gap between this and next alignment: 5174344 to 5250874 (76529 bp)
+				Next Alignment: 5250874 5261108 scaffold-366_51439 10236 1
+
+			Align 263: 5250874 5261108 scaffold-366_51439 10236 1
+				Gap between this and next alignment: 5261108 to 5263840 (2731 bp)
+				Next Alignment: 5263840 5267962 scaffold-370_4253 131 4253
+
+			Align 264: 5263840 5267962 scaffold-370_4253 131 4253
+				Negative gap (overlap) between this and next alignment: 5267962 to 5267943 (-19 bp)
+				Next Alignment: 5267943 5268798 scaffold-151_19935 1 856
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 21.
+			Align 265: 5267963 5268798 scaffold-151_19935 21 856
+				Gap between this and next alignment: 5268798 to 5270219 (1420 bp)
+				Next Alignment: 5270219 5287889 scaffold-151_19935 2270 19935
+
+			Align 266: 5270219 5287889 scaffold-151_19935 2270 19935
+				Gap between this and next alignment: 5287889 to 5293817 (5927 bp)
+				Next Alignment: 5293817 5305194 scaffold-335_11378 1 11378
+
+			Align 267: 5293817 5305194 scaffold-335_11378 1 11378
+				Gap between this and next alignment: 5305194 to 5308587 (3392 bp)
+				Next Alignment: 5308587 5309300 scaffold-255_714 714 1
+
+			Align 268: 5308587 5309300 scaffold-255_714 714 1
+				Gap between this and next alignment: 5309300 to 5309748 (447 bp)
+				Next Alignment: 5309748 5336072 scaffold-248_26391 26391 61
+
+			Align 269: 5309748 5336072 scaffold-248_26391 26391 61
+				Negative gap (overlap) between this and next alignment: 5336072 to 5336068 (-4 bp)
+				Next Alignment: 5336068 5338795 scaffold-94_29134 54 2779
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 54 to 59.
+			Align 270: 5336073 5338795 scaffold-94_29134 59 2779
+				Gap between this and next alignment: 5338795 to 5340638 (1842 bp)
+				Next Alignment: 5340638 5365030 scaffold-94_29134 4741 29133
+
+			Align 271: 5340638 5365030 scaffold-94_29134 4741 29133
+				Gap between this and next alignment: 5365030 to 5365329 (298 bp)
+				Next Alignment: 5365329 5373121 scaffold-202_51984 1 7793
+
+			Align 272: 5365329 5373121 scaffold-202_51984 1 7793
+			END in current alignment.  Modifying 5373121 to 5373121.
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1816/dataset_1898_files/Scaffold/contigs_reports/nucmer_output/BF-H-Sga-Scaffold.used_snps
+
+Results:
+	Local Misassemblies: 41
+	Misassemblies: 68
+		Relocations: 68
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 47
+	Misassembled Contig Bases: 2361708
+	Misassmblies Inter-Contig Overlap: 1735
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 55 + 42 part
+Partially Unaligned Contigs with Misassemblies: 7
+Unaligned Contig Bases: 623746
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 4247387
+
+	SNPs: 27247
+	Insertions: 1223
+	Deletions: 1322
+
+	Positive Gaps: 186
+		Internal Gaps:  87
+		External Gaps:  99
+		External Gap Total:  589838
+		External Gap Average: 5958
+	Negative Gaps: 81
+		Internal Overlaps:  14
+		External Overlaps:  67
+		External Overlaps Total: -3210
+		External Overlaps Average: -48
+	Contigs with Redundant Alignments: 3 (321)

@@ -1,0 +1,2084 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 5373121
+Analyzing contigs...
+CONTIG: NODE_278_length_147440_cov_54.234943_1 (39159bp)
+Top Length: 13166  Top ID: 99.44
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 2203257 2204321 | 39159 38095 | 1065 1065 | 99.72 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_278_length_147440_cov_54.234943_1
+			  Extensive misassembly ( relocation, inconsistency = 1119 ) between these two alignments
+			Real Alignment 2: 2205525 2211074 | 38010 32461 | 5550 5550 | 99.51 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_278_length_147440_cov_54.234943_1
+			  Extensive misassembly ( relocation, inconsistency = -1937 ) between these two alignments
+			Real Alignment 3: 2219661 2225872 | 21937 15726 | 6212 6212 | 99.2 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_278_length_147440_cov_54.234943_1
+			  Extensive misassembly ( relocation, inconsistency = -1686 ) between these two alignments
+			Real Alignment 4: 2226675 2239839 | 13237 72 | 13165 13166 | 99.44 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_278_length_147440_cov_54.234943_1
+
+CONTIG: NODE_64_length_18406_cov_55.345322_1 (18478bp)
+Top Length: 14940  Top ID: 96.31
+		Skipping redundant alignment 3380388 3380459 | 72 1 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_64_length_18406_cov_55.345322_1
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2972265 2987186 | 18015 3076 | 14922 14940 | 96.31 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_64_length_18406_cov_55.345322_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -713
+			Real Alignment 2: 2987218 2989547 | 2331 1 | 2330 2331 | 99.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_64_length_18406_cov_55.345322_1
+
+CONTIG: NODE_24_length_13273_cov_53.582687_1 (13345bp)
+Top Length: 1309  Top ID: 98.85
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 13345 and total length of all aligns is 1393
+		Alignment: 1718544 1718627 | 13262 13345 | 84 84 | 98.81 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_24_length_13273_cov_53.582687_1
+		Alignment: 4440208 4441516 | 1309 1 | 1309 1309 | 98.85 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_24_length_13273_cov_53.582687_1
+		Unaligned bases: 11952
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_151_length_2275_cov_56.339340_1 (2347bp)
+		This contig is unaligned. (2347 bp)
+		Unaligned bases: 2347  total: 2347
+
+CONTIG: NODE_3_length_162066_cov_57.140160_1 (162138bp)
+Top Length: 44083  Top ID: 98.99
+		Skipping redundant alignment 1881965 1882076 | 48641 48530 | 112 112 | 99.11 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_3_length_162066_cov_57.140160_1
+		Skipping redundant alignment 2242309 2242880 | 87400 87971 | 572 572 | 95.98 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_3_length_162066_cov_57.140160_1
+		This contig is misassembled. 9 total aligns.
+			Real Alignment 1: 1872031 1878708 | 36222 42899 | 6678 6678 | 98.88 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_3_length_162066_cov_57.140160_1
+			  Extensive misassembly ( relocation, inconsistency = -2374 ) between these two alignments
+			Real Alignment 2: 1878788 1922925 | 45353 89435 | 44138 44083 | 98.99 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_3_length_162066_cov_57.140160_1
+			  Extensive misassembly ( relocation, inconsistency = 1413 ) between these two alignments
+			Real Alignment 3: 1926731 1941423 | 91828 106543 | 14693 14716 | 99.38 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_3_length_162066_cov_57.140160_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 46
+			Real Alignment 4: 1942816 1961823 | 107890 126898 | 19008 19009 | 99.44 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_3_length_162066_cov_57.140160_1
+			  Extensive misassembly ( relocation, inconsistency = -3738 ) between these two alignments
+			Real Alignment 5: 1961814 1971493 | 130627 140305 | 9680 9679 | 98.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_3_length_162066_cov_57.140160_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 6: 1971660 1992395 | 140472 161215 | 20736 20744 | 98.14 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_3_length_162066_cov_57.140160_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -377
+			Real Alignment 7: 1992400 1992942 | 161597 162138 | 543 542 | 99.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_3_length_162066_cov_57.140160_1
+
+CONTIG: NODE_56_length_3040_cov_114.058556_1 (3112bp)
+		This contig is unaligned. (3112 bp)
+		Unaligned bases: 3112  total: 5459
+
+CONTIG: NODE_88_length_538_cov_336.410767_1 (610bp)
+		This contig is unaligned. (610 bp)
+		Unaligned bases: 610  total: 6069
+
+CONTIG: NODE_10_length_186544_cov_60.013256_1 (186616bp)
+Top Length: 78215  Top ID: 99.28
+		Skipping redundant alignment 1455417 1455786 | 1 370 | 370 370 | 98.92 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_10_length_186544_cov_60.013256_1
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 3588446 3628034 | 185934 146386 | 39589 39549 | 99.17 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_10_length_186544_cov_60.013256_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 48
+			Real Alignment 2: 3628168 3706374 | 146300 68086 | 78207 78215 | 99.28 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_10_length_186544_cov_60.013256_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -108
+			Real Alignment 3: 3706375 3755836 | 67977 18526 | 49462 49452 | 99.12 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_10_length_186544_cov_60.013256_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 539
+			Real Alignment 4: 3756507 3774902 | 18394 1 | 18396 18394 | 99.38 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_10_length_186544_cov_60.013256_1
+
+CONTIG: NODE_300_length_55356_cov_55.415077_1 (55428bp)
+Top Length: 11648  Top ID: 99.18
+		Skipping redundant alignment 605745 605831 | 52401 52487 | 87 87 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_300_length_55356_cov_55.415077_1
+		Skipping redundant alignment 605748 605822 | 52727 52801 | 75 75 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_300_length_55356_cov_55.415077_1
+		Skipping redundant alignment 605748 605822 | 52955 53029 | 75 75 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_300_length_55356_cov_55.415077_1
+		Skipping redundant alignment 3381840 3382025 | 55428 55243 | 186 186 | 99.46 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_300_length_55356_cov_55.415077_1
+		This contig is misassembled. 6 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 55428 and total length of all aligns is 15943
+		Alignment: 2992740 2997033 | 55428 51134 | 4294 4295 | 99.39 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_300_length_55356_cov_55.415077_1
+		Alignment: 2997159 3008815 | 50996 39349 | 11657 11648 | 99.18 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_300_length_55356_cov_55.415077_1
+		Unaligned bases: 39485
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_44_length_24613_cov_55.162598_2 (12712bp)
+		This contig is unaligned. (12712 bp)
+		Unaligned bases: 12712  total: 18781
+
+CONTIG: NODE_44_length_24613_cov_55.162598_1 (11890bp)
+Top Length: 3660  Top ID: 95.8
+		This contig is partially unaligned. (3660 out of 11890)
+		Alignment: 2436862 2440523 | 6364 2705 | 3662 3660 | 95.8 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_44_length_24613_cov_55.162598_1
+		Unaligned bases: 1 to 2704 (2704)
+		Unaligned bases: 6365 to 11890 (5526)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_204_length_576_cov_44.786457_1 (648bp)
+		This contig is unaligned. (648 bp)
+		Unaligned bases: 648  total: 19429
+
+CONTIG: NODE_165_length_96718_cov_59.660995_1 (96790bp)
+Top Length: 30344  Top ID: 99.57
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 1: 4042907 4073269 | 2369 32712 | 30363 30344 | 99.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_165_length_96718_cov_59.660995_1
+			  Extensive misassembly ( relocation, inconsistency = 1908 ) between these two alignments
+			Real Alignment 2: 4075483 4079475 | 33018 37022 | 3993 4005 | 97.18 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_165_length_96718_cov_59.660995_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 3: 4083512 4091123 | 41059 48660 | 7612 7602 | 97.23 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_165_length_96718_cov_59.660995_1
+			  Extensive misassembly ( relocation, inconsistency = -8331 ) between these two alignments
+			Real Alignment 4: 4091134 4112182 | 57002 78048 | 21049 21047 | 99.32 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_165_length_96718_cov_59.660995_1
+			  Extensive misassembly ( relocation, inconsistency = -4340 ) between these two alignments
+			Real Alignment 5: 4124138 4126584 | 94344 96790 | 2447 2447 | 99.59 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_165_length_96718_cov_59.660995_1
+			  Extensive misassembly ( relocation, inconsistency = 291539 ) between these two alignments
+			Real Alignment 6: 4322485 4322742 | 1152 1409 | 258 258 | 99.22 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_165_length_96718_cov_59.660995_1
+
+CONTIG: NODE_59_length_5807_cov_50.801273_1 (5879bp)
+Top Length: 1045  Top ID: 95.12
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 5879 and total length of all aligns is 1553
+		Alignment: 1825884 1826928 | 2831 3875 | 1045 1045 | 95.12 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_59_length_5807_cov_50.801273_1
+		Alignment: 1826929 1827436 | 5372 5879 | 508 508 | 98.43 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_59_length_5807_cov_50.801273_1
+		Unaligned bases: 4326
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_174_length_1735_cov_55.453602_1 (1807bp)
+		This contig is unaligned. (1807 bp)
+		Unaligned bases: 1807  total: 21236
+
+CONTIG: NODE_268_length_48479_cov_62.659626_1 (48551bp)
+Top Length: 48551  Top ID: 99.33
+		One align captures most of this contig: 4441712 4490258 | 1 48551 | 48547 48551 | 99.33 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_268_length_48479_cov_62.659626_1
+
+CONTIG: NODE_70_length_1056_cov_63.938446_1 (1128bp)
+		This contig is unaligned. (1128 bp)
+		Unaligned bases: 1128  total: 22364
+
+CONTIG: NODE_205_length_576_cov_50.574654_1 (648bp)
+		This contig is unaligned. (648 bp)
+		Unaligned bases: 648  total: 23012
+
+CONTIG: NODE_17_length_279671_cov_62.122593_1 (279743bp)
+Top Length: 135955  Top ID: 99.46
+		Skipping redundant alignment 4880240 4880747 | 226110 225602 | 508 509 | 95.09 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_17_length_279671_cov_62.122593_1
+		This contig is misassembled. 9 total aligns.
+			Real Alignment 1: 831659 891372 | 2846 62565 | 59714 59720 | 99.27 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_17_length_279671_cov_62.122593_1
+			  Extensive misassembly ( relocation, inconsistency = 2376 ) between these two alignments
+			Real Alignment 2: 894046 931742 | 62863 100558 | 37697 37696 | 99.43 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_17_length_279671_cov_62.122593_1
+			  Extensive misassembly ( relocation, inconsistency = 2077 ) between these two alignments
+			Real Alignment 3: 933978 941324 | 100717 108063 | 7347 7347 | 99.66 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_17_length_279671_cov_62.122593_1
+			  Extensive misassembly ( relocation, inconsistency = 1628 ) between these two alignments
+			Real Alignment 4: 942960 946693 | 108071 111805 | 3734 3735 | 98.66 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_17_length_279671_cov_62.122593_1
+			  Extensive misassembly ( relocation, inconsistency = 3038 ) between these two alignments
+			Real Alignment 5: 971785 972045 | 133859 134119 | 261 261 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_17_length_279671_cov_62.122593_1
+			  Extensive misassembly ( relocation, inconsistency = 1623 ) between these two alignments
+			Real Alignment 6: 973730 982479 | 134181 142929 | 8750 8749 | 95.06 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_17_length_279671_cov_62.122593_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -3
+			Real Alignment 7: 983336 1119343 | 143789 279743 | 136008 135955 | 99.46 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_17_length_279671_cov_62.122593_1
+			  Extensive misassembly ( relocation, inconsistency = 1396525 ) between these two alignments
+			Real Alignment 8: 2367862 2369691 | 131737 133570 | 1830 1834 | 95.69 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_17_length_279671_cov_62.122593_1
+
+CONTIG: NODE_252_length_2073_cov_112.366135_1 (2145bp)
+		This contig is unaligned. (2145 bp)
+		Unaligned bases: 2145  total: 25157
+
+CONTIG: NODE_334_length_378434_cov_65.161682_1 (125214bp)
+Top Length: 41208  Top ID: 99.57
+		Skipping redundant alignment 3239311 3239469 | 159 1 | 159 159 | 98.11 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+		Skipping redundant alignment 4490383 4490454 | 72 1 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+		Skipping redundant alignment 4645867 4645938 | 72 1 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+		Skipping redundant alignment 4705118 4705189 | 72 1 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+		Skipping redundant alignment 4880240 4880747 | 24660 24153 | 508 508 | 95.08 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+		Skipping redundant alignment 470824 471255 | 24666 24235 | 432 432 | 95.37 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+		This contig is misassembled. 16 total aligns.
+			Real Alignment 1: 5048759 5049085 | 125214 124888 | 327 327 | 96.94 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+			  Extensive misassembly ( relocation, inconsistency = 10385 ) between these two alignments
+			Real Alignment 2: 5061956 5084231 | 122402 100136 | 22276 22267 | 99.18 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+			  Extensive misassembly ( relocation, inconsistency = 16223 ) between these two alignments
+			Real Alignment 3: 5100453 5103927 | 100137 96663 | 3475 3475 | 99.28 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+			  Extensive misassembly ( relocation, inconsistency = 2206 ) between these two alignments
+			Real Alignment 4: 5106162 5110276 | 96634 92519 | 4115 4116 | 99.44 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+			  Extensive misassembly ( relocation, inconsistency = 6369 ) between these two alignments
+			Real Alignment 5: 5116639 5132708 | 92525 76450 | 16070 16076 | 99.38 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 6: 5132693 5133150 | 76008 76465 | 458 458 | 98.91 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 7: 5133135 5174344 | 76023 34816 | 41210 41208 | 99.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+			  Extensive misassembly ( relocation, inconsistency = 76534 ) between these two alignments
+			Real Alignment 8: 5250874 5261570 | 34820 24122 | 10697 10699 | 99.33 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+			  Extensive misassembly ( relocation, inconsistency = 2239 ) between these two alignments
+			Real Alignment 9: 5263840 5268798 | 24091 19133 | 4959 4959 | 99.19 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 7
+			Real Alignment 10: 5270219 5287942 | 17719 1 | 17724 17719 | 99.31 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_1
+
+CONTIG: NODE_334_length_378434_cov_65.161682_2 (99802bp)
+Top Length: 60657  Top ID: 99.27
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 4957691 4984135 | 99802 73360 | 26445 26443 | 99.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_2
+			  Gap between these two alignments (local misassembly). Inconsistency = 7
+			Real Alignment 2: 4984363 5045020 | 73139 12483 | 60658 60657 | 99.27 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_2
+			  Extensive misassembly ( relocation, inconsistency = -5968 ) between these two alignments
+			Real Alignment 3: 5047839 5049107 | 3696 2429 | 1269 1268 | 95.43 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_2
+			  Extensive misassembly ( relocation, inconsistency = 6863 ) between these two alignments
+			Real Alignment 4: 5051765 5054506 | 6634 3893 | 2742 2742 | 99.6 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_2
+			  Extensive misassembly ( relocation, inconsistency = 1078 ) between these two alignments
+			Real Alignment 5: 5055599 5057027 | 3878 2450 | 1429 1429 | 99.3 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_2
+
+CONTIG: NODE_334_length_378434_cov_65.161682_3 (153367bp)
+Top Length: 79075  Top ID: 99.51
+		Skipping redundant alignment 393252 393757 | 50959 50454 | 506 506 | 96.05 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_3
+		Skipping redundant alignment 553376 553860 | 50454 50938 | 485 485 | 95.26 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_3
+		Skipping redundant alignment 5261033 5261536 | 50959 50456 | 504 504 | 95.83 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_3
+		Skipping redundant alignment 1065199 1065642 | 50516 50960 | 444 445 | 95.28 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_3
+		Skipping redundant alignment 470830 471255 | 50959 50534 | 426 426 | 95.54 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_3
+		Skipping redundant alignment 1720529 1720613 | 95702 95618 | 85 85 | 98.82 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_3
+		Skipping redundant alignment 1447286 1447370 | 95620 95705 | 85 86 | 97.67 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_3
+		Skipping redundant alignment 4037691 4037764 | 97325 97398 | 74 74 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_3
+		This contig is misassembled. 14 total aligns.
+			Real Alignment 1: 4496034 4496251 | 153367 153150 | 218 218 | 96.79 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_3
+			  Extensive misassembly ( relocation, inconsistency = 224117 ) between these two alignments
+			Real Alignment 2: 4721056 4800153 | 152462 73388 | 79098 79075 | 99.51 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_3
+			  Extensive misassembly ( relocation, inconsistency = 57655 ) between these two alignments
+			Real Alignment 3: 4857785 4883354 | 73411 47837 | 25570 25575 | 98.97 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_3
+			  Extensive misassembly ( relocation, inconsistency = 10986 ) between these two alignments
+			Real Alignment 4: 4894479 4917760 | 47698 24459 | 23282 23240 | 98.89 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_3
+			  Extensive misassembly ( relocation, inconsistency = 15392 ) between these two alignments
+			Real Alignment 5: 4939619 4955366 | 17992 2243 | 15748 15750 | 99.18 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_3
+			  Gap between these two alignments (local misassembly). Inconsistency = 21
+			Real Alignment 6: 4957138 4957629 | 492 1 | 492 492 | 97.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_334_length_378434_cov_65.161682_3
+
+CONTIG: NODE_12_length_59189_cov_51.077381_1 (59261bp)
+Top Length: 21851  Top ID: 98.88
+		Skipping redundant alignment 2800917 2800992 | 1783 1858 | 76 76 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_12_length_59189_cov_51.077381_1
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2802551 2823400 | 71 20905 | 20850 20835 | 99.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_12_length_59189_cov_51.077381_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -801
+			Real Alignment 2: 2823396 2845294 | 21702 43552 | 21899 21851 | 98.88 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_12_length_59189_cov_51.077381_1
+
+CONTIG: NODE_318_length_1049_cov_54.764538_1 (1121bp)
+Top Length: 1121  Top ID: 95.9
+		One align captures most of this contig: 3380423 3381507 | 1121 1 | 1085 1121 | 95.9 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_318_length_1049_cov_54.764538_1
+
+CONTIG: NODE_1_length_116350_cov_65.461594_1 (116422bp)
+Top Length: 48626  Top ID: 98.5
+		Skipping redundant alignment 46299 46461 | 29415 29253 | 163 163 | 98.16 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_1_length_116350_cov_65.461594_1
+		Skipping redundant alignment 3100793 3100873 | 87098 87018 | 81 81 | 97.53 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_1_length_116350_cov_65.461594_1
+		Skipping redundant alignment 1226306 1226389 | 87351 87268 | 84 84 | 98.81 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_1_length_116350_cov_65.461594_1
+		Skipping redundant alignment 3100793 3100873 | 87350 87270 | 81 81 | 97.53 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_1_length_116350_cov_65.461594_1
+		This contig is misassembled. 8 total aligns.
+			Real Alignment 2: 49897 80211 | 30323 2 | 30315 30322 | 99.24 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_1_length_116350_cov_65.461594_1
+			  Extensive misassembly ( relocation, inconsistency = 5372205 ) between these two alignments
+			Real Alignment 3: 5336068 5338795 | 116350 113625 | 2728 2726 | 99.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_1_length_116350_cov_65.461594_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -119
+			Real Alignment 4: 5340638 5373121 | 111663 79176 | 32484 32488 | 99.6 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_1_length_116350_cov_65.461594_1
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 1: 1 48616 | 79175 30550 | 48616 48626 | 98.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_1_length_116350_cov_65.461594_1
+
+CONTIG: NODE_16_length_63598_cov_53.548775_1 (63670bp)
+Top Length: 48315  Top ID: 99.22
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2671339 2719621 | 71 48385 | 48283 48315 | 99.22 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_16_length_63598_cov_53.548775_1
+			  Extensive misassembly ( relocation, inconsistency = 4835 ) between these two alignments
+			Real Alignment 2: 2724950 2733414 | 48879 57343 | 8465 8465 | 99.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_16_length_63598_cov_53.548775_1
+
+CONTIG: NODE_340_length_1794_cov_59.545708_1 (1297bp)
+		This contig is unaligned. (1297 bp)
+		Unaligned bases: 1297  total: 26454
+
+CONTIG: NODE_22_length_60126_cov_58.055450_1 (60198bp)
+Top Length: 26017  Top ID: 99.54
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1827538 1839012 | 60198 48724 | 11475 11475 | 98.97 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_22_length_60126_cov_58.055450_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 204
+			Real Alignment 2: 1839216 1844518 | 48724 43422 | 5303 5303 | 98.49 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_22_length_60126_cov_58.055450_1
+			  Extensive misassembly ( relocation, inconsistency = -1578 ) between these two alignments
+			Real Alignment 3: 1846019 1872035 | 40343 14327 | 26017 26017 | 99.54 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_22_length_60126_cov_58.055450_1
+
+CONTIG: NODE_340_length_1794_cov_59.545708_2 (559bp)
+		This contig is unaligned. (559 bp)
+		Unaligned bases: 559  total: 27013
+
+CONTIG: NODE_198_length_721_cov_123.429962_1 (793bp)
+		This contig is unaligned. (793 bp)
+		Unaligned bases: 793  total: 27806
+
+CONTIG: NODE_346_length_1786_cov_58.920494_1 (1858bp)
+		This contig is unaligned. (1858 bp)
+		Unaligned bases: 1858  total: 29664
+
+CONTIG: NODE_49_length_286904_cov_62.520607_1 (286976bp)
+Top Length: 76849  Top ID: 99.32
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 4126724 4129800 | 1 3076 | 3077 3076 | 99.55 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_49_length_286904_cov_62.520607_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 318
+			Real Alignment 2: 4131163 4134792 | 4121 7750 | 3630 3630 | 99.48 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_49_length_286904_cov_62.520607_1
+			  Extensive misassembly ( relocation, inconsistency = 1778 ) between these two alignments
+			Real Alignment 3: 4136591 4154189 | 7771 25370 | 17599 17600 | 99.48 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_49_length_286904_cov_62.520607_1
+			  Extensive misassembly ( relocation, inconsistency = -2619 ) between these two alignments
+			Real Alignment 4: 4154178 4154260 | 27978 28060 | 83 83 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_49_length_286904_cov_62.520607_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -44
+			Real Alignment 5: 4154418 4231255 | 28262 105110 | 76838 76849 | 99.32 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_49_length_286904_cov_62.520607_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -62
+			Real Alignment 6: 4232940 4289861 | 106857 163780 | 56922 56924 | 99.52 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_49_length_286904_cov_62.520607_1
+			  Extensive misassembly ( relocation, inconsistency = 39229 ) between these two alignments
+			Real Alignment 7: 4329075 4337663 | 163765 172361 | 8589 8597 | 99.38 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_49_length_286904_cov_62.520607_1
+			  Extensive misassembly ( relocation, inconsistency = -4516 ) between these two alignments
+			Real Alignment 8: 4337671 4350878 | 176885 190092 | 13208 13208 | 99.43 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_49_length_286904_cov_62.520607_1
+			  Extensive misassembly ( relocation, inconsistency = -8489 ) between these two alignments
+			Real Alignment 9: 4350868 4352767 | 198571 200470 | 1900 1900 | 98.58 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_49_length_286904_cov_62.520607_1
+			  Extensive misassembly ( relocation, inconsistency = -20023 ) between these two alignments
+			Real Alignment 10: 4353277 4377656 | 221003 245379 | 24380 24377 | 99.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_49_length_286904_cov_62.520607_1
+			  Extensive misassembly ( relocation, inconsistency = -3719 ) between these two alignments
+			Real Alignment 11: 4377660 4414942 | 249102 286385 | 37283 37284 | 99.44 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_49_length_286904_cov_62.520607_1
+
+CONTIG: NODE_269_length_1021_cov_113.904999_1 (1093bp)
+Top Length: 1093  Top ID: 98.45
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2963834 2964932 | 1 1093 | 1099 1093 | 98.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_269_length_1021_cov_113.904999_1
+		Skipping alignment  2968252 2969344 | 1 1093 | 1093 1093 | 98.44 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_269_length_1021_cov_113.904999_1
+
+CONTIG: NODE_195_length_615_cov_48.414635_1 (687bp)
+		This contig is unaligned. (687 bp)
+		Unaligned bases: 687  total: 30351
+
+CONTIG: NODE_153_length_448_cov_66.004463_1 (520bp)
+		This contig is unaligned. (520 bp)
+		Unaligned bases: 520  total: 30871
+
+CONTIG: NODE_66_length_2296_cov_49.069252_1 (2368bp)
+		This contig is unaligned. (2368 bp)
+		Unaligned bases: 2368  total: 33239
+
+CONTIG: NODE_13_length_133924_cov_63.953175_1 (133996bp)
+Top Length: 47778  Top ID: 99.32
+		Skipping redundant alignment 4652096 4652167 | 133996 133925 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_13_length_133924_cov_63.953175_1
+		This contig is misassembled. 7 total aligns.
+			Real Alignment 1: 4496722 4515428 | 133733 115032 | 18707 18702 | 99.39 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_13_length_133924_cov_63.953175_1
+			  Extensive misassembly ( relocation, inconsistency = 4007 ) between these two alignments
+			Real Alignment 2: 4519435 4542544 | 115032 91923 | 23110 23110 | 99.4 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_13_length_133924_cov_63.953175_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -840
+			Real Alignment 3: 4543593 4591370 | 90034 42257 | 47778 47778 | 99.32 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_13_length_133924_cov_63.953175_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 96
+			Real Alignment 4: 4600722 4601686 | 33001 32037 | 965 965 | 98.65 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_13_length_133924_cov_63.953175_1
+			  Extensive misassembly ( relocation, inconsistency = 12180 ) between these two alignments
+			Real Alignment 5: 4621129 4645903 | 24774 1 | 24775 24774 | 99.56 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_13_length_133924_cov_63.953175_1
+			  Extensive misassembly ( relocation, inconsistency = 199439 ) between these two alignments
+			Real Alignment 6: 4711347 4711483 | 133996 133860 | 137 137 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_13_length_133924_cov_63.953175_1
+
+CONTIG: NODE_278_length_147440_cov_54.234943_3 (108000bp)
+Top Length: 56565  Top ID: 99.27
+		Skipping redundant alignment 2077981 2078610 | 27457 26829 | 630 629 | 98.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_278_length_147440_cov_54.234943_3
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 1: 2021175 2051364 | 108000 77812 | 30190 30189 | 99.3 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_278_length_147440_cov_54.234943_3
+			  Extensive misassembly ( relocation, inconsistency = -2862 ) between these two alignments
+			Real Alignment 2: 2051361 2059506 | 74953 66808 | 8146 8146 | 99.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_278_length_147440_cov_54.234943_3
+			  Extensive misassembly ( relocation, inconsistency = 19654 ) between these two alignments
+			Real Alignment 3: 2078680 2084964 | 67288 61003 | 6285 6286 | 99.05 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_278_length_147440_cov_54.234943_3
+			  Extensive misassembly ( relocation, inconsistency = 15394 ) between these two alignments
+			Real Alignment 4: 2102349 2104800 | 59012 56558 | 2452 2455 | 98.82 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_278_length_147440_cov_54.234943_3
+			  Extensive misassembly ( relocation, inconsistency = 41636 ) between these two alignments
+			Real Alignment 5: 2146427 2203001 | 56567 3 | 56575 56565 | 99.27 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_278_length_147440_cov_54.234943_3
+
+CONTIG: NODE_194_length_615_cov_47.032520_1 (687bp)
+		This contig is unaligned. (687 bp)
+		Unaligned bases: 687  total: 33926
+
+CONTIG: NODE_273_length_6992_cov_50.903603_1 (7064bp)
+Top Length: 379  Top ID: 97.36
+		Skipping redundant alignment 2020981 2021052 | 1 72 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_273_length_6992_cov_50.903603_1
+		This contig is partially unaligned. (379 out of 7064)
+		Alignment: 2015303 2015681 | 1 379 | 379 379 | 97.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_273_length_6992_cov_50.903603_1
+		Unaligned bases: 380 to 7064 (6685)
+
+CONTIG: NODE_73_length_70663_cov_52.614395_1 (70735bp)
+Top Length: 40456  Top ID: 99.44
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2845862 2874098 | 1906 30146 | 28237 28241 | 99.42 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_73_length_70663_cov_52.614395_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 576
+			Real Alignment 2: 2874738 2915244 | 30210 70665 | 40507 40456 | 99.44 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_73_length_70663_cov_52.614395_1
+
+CONTIG: NODE_190_length_808_cov_64.596535_1 (880bp)
+		This contig is unaligned. (880 bp)
+		Unaligned bases: 880  total: 34806
+
+CONTIG: NODE_105_length_1056_cov_55.459282_1 (1128bp)
+		This contig is unaligned. (1128 bp)
+		Unaligned bases: 1128  total: 35934
+
+CONTIG: NODE_230_length_688_cov_123.601746_1 (760bp)
+		This contig is unaligned. (760 bp)
+		Unaligned bases: 760  total: 36694
+
+CONTIG: NODE_317_length_2777_cov_53.909256_1 (2849bp)
+Top Length: 2849  Top ID: 97.86
+		Marking as insignificant: 3381048 3381507 | 460 1 | 460 460 | 96.09 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_317_length_2777_cov_53.909256_1
+		One align captures most of this contig: 2989511 2992407 | 2849 1 | 2897 2849 | 97.86 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_317_length_2777_cov_53.909256_1
+
+CONTIG: NODE_7_length_52659_cov_56.544502_1 (52731bp)
+Top Length: 39492  Top ID: 99.11
+		Skipping redundant alignment 5293182 5293705 | 52731 52209 | 524 523 | 95.25 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_7_length_52659_cov_56.544502_1
+		Skipping redundant alignment 3904737 3905241 | 52731 52227 | 505 505 | 96.24 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_7_length_52659_cov_56.544502_1
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 3244701 3284082 | 52731 13240 | 39382 39492 | 99.11 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_7_length_52659_cov_56.544502_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -55
+			Real Alignment 2: 3284180 3287896 | 13087 9371 | 3717 3717 | 99.52 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_7_length_52659_cov_56.544502_1
+
+CONTIG: NODE_320_length_65283_cov_57.874821_1 (57630bp)
+Top Length: 51015  Top ID: 99.12
+		Skipping redundant alignment 2550958 2551216 | 57630 57371 | 259 260 | 95.4 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_320_length_65283_cov_57.874821_1
+		Skipping redundant alignment 3389455 3389526 | 57630 57559 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_320_length_65283_cov_57.874821_1
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 3389559 3394851 | 57630 52334 | 5293 5297 | 99.04 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_320_length_65283_cov_57.874821_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -761
+			Real Alignment 2: 3394837 3395241 | 51587 51183 | 405 405 | 99.75 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_320_length_65283_cov_57.874821_1
+			  Extensive misassembly ( relocation, inconsistency = 1926 ) between these two alignments
+			Real Alignment 3: 3397335 3448367 | 51015 1 | 51033 51015 | 99.12 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_320_length_65283_cov_57.874821_1
+
+CONTIG: NODE_320_length_65283_cov_57.874821_2 (7715bp)
+Top Length: 7715  Top ID: 99.51
+		Marking as insignificant: 3389541 3389630 | 120 28 | 90 93 | 95.7 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_320_length_65283_cov_57.874821_2
+		Marking as insignificant: 2992740 2992925 | 7715 7530 | 186 186 | 98.39 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_320_length_65283_cov_57.874821_2
+		One align captures most of this contig: 3381840 3389553 | 7715 1 | 7714 7715 | 99.51 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_320_length_65283_cov_57.874821_2
+
+CONTIG: NODE_61_length_34186_cov_59.504036_1 (34258bp)
+Top Length: 29762  Top ID: 99.44
+		Skipping redundant alignment 1454865 1455168 | 305 1 | 304 305 | 98.03 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_61_length_34186_cov_59.504036_1
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 3775151 3778262 | 1 3112 | 3112 3112 | 98.59 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_61_length_34186_cov_59.504036_1
+			  Extensive misassembly ( relocation, inconsistency = -1321 ) between these two alignments
+			Real Alignment 2: 3778255 3808017 | 4426 34187 | 29763 29762 | 99.44 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_61_length_34186_cov_59.504036_1
+
+CONTIG: NODE_74_length_1616_cov_51.286510_1 (1688bp)
+		This contig is unaligned. (1688 bp)
+		Unaligned bases: 1688  total: 38382
+
+CONTIG: NODE_28_length_14095_cov_64.614548_1 (12134bp)
+Top Length: 12117  Top ID: 99.32
+		One align captures most of this contig: 5293631 5305747 | 18 12134 | 12117 12117 | 99.32 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_28_length_14095_cov_64.614548_1
+
+CONTIG: NODE_83_length_132176_cov_58.185055_1 (132248bp)
+Top Length: 41245  Top ID: 99.49
+		Skipping redundant alignment 1541904 1542048 | 62048 61904 | 145 145 | 97.93 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_83_length_132176_cov_58.185055_1
+		Skipping redundant alignment 1604238 1604389 | 124543 124392 | 152 152 | 98.03 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_83_length_132176_cov_58.185055_1
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 1: 1534265 1563136 | 132180 103309 | 28872 28872 | 99.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_83_length_132176_cov_58.185055_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -161
+			Real Alignment 2: 1563136 1604382 | 103148 61904 | 41247 41245 | 99.49 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_83_length_132176_cov_58.185055_1
+			  Extensive misassembly ( relocation, inconsistency = 29224 ) between these two alignments
+			Real Alignment 3: 1649829 1685002 | 45681 10507 | 35174 35175 | 99.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_83_length_132176_cov_58.185055_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -227
+			Real Alignment 4: 1684998 1695279 | 10284 1 | 10282 10284 | 99.35 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_83_length_132176_cov_58.185055_1
+
+CONTIG: NODE_28_length_14095_cov_64.614548_2 (2023bp)
+Top Length: 413  Top ID: 97.58
+		Skipping redundant alignment 117122 117410 | 2023 1735 | 289 289 | 96.89 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_28_length_14095_cov_64.614548_2
+		Skipping redundant alignment 5307412 5307693 | 1742 2023 | 282 282 | 98.58 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_28_length_14095_cov_64.614548_2
+		This contig is partially unaligned. (413 out of 2023)
+		Alignment: 4955203 4955615 | 1611 2023 | 413 413 | 97.58 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_28_length_14095_cov_64.614548_2
+		Unaligned bases: 1 to 1610 (1610)
+
+CONTIG: NODE_38_length_97877_cov_60.139328_1 (97949bp)
+Top Length: 27083  Top ID: 99.42
+		This contig is partially unaligned. (27083 out of 97949)
+		Alignment: 1507187 1534268 | 27154 72 | 27082 27083 | 99.42 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_38_length_97877_cov_60.139328_1
+		Unaligned bases: 1 to 71 (71)
+		Unaligned bases: 27155 to 97949 (70795)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_109_length_1690_cov_49.800591_1 (1762bp)
+Top Length: 1621  Top ID: 99.57
+		This contig is partially unaligned. (1621 out of 1762)
+		Alignment: 2319332 2320951 | 1691 71 | 1620 1621 | 99.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_109_length_1690_cov_49.800591_1
+		Unaligned bases: 1 to 70 (70)
+		Unaligned bases: 1692 to 1762 (71)
+
+CONTIG: NODE_227_length_1165_cov_52.309013_1 (1237bp)
+		This contig is unaligned. (1237 bp)
+		Unaligned bases: 1237  total: 39619
+
+CONTIG: NODE_239_length_13349_cov_54.336430_1 (12694bp)
+		This contig is unaligned. (12694 bp)
+		Unaligned bases: 12694  total: 52313
+
+CONTIG: NODE_239_length_13349_cov_54.336430_2 (587bp)
+		This contig is unaligned. (587 bp)
+		Unaligned bases: 587  total: 52900
+
+CONTIG: NODE_67_length_794_cov_919.687683_1 (866bp)
+		This contig is unaligned. (866 bp)
+		Unaligned bases: 866  total: 53766
+
+CONTIG: NODE_6_length_112918_cov_52.036045_1 (112990bp)
+Top Length: 69167  Top ID: 99.3
+		Skipping redundant alignment 2804279 2804354 | 111282 111357 | 76 76 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_6_length_112918_cov_52.036045_1
+		This contig is partially unaligned. (69167 out of 112990)
+		Alignment: 2733401 2802555 | 43753 112919 | 69155 69167 | 99.3 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_6_length_112918_cov_52.036045_1
+		Unaligned bases: 1 to 43752 (43752)
+		Unaligned bases: 112920 to 112990 (71)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_25_length_5745_cov_53.525673_1 (5817bp)
+Top Length: 5678  Top ID: 99.61
+		This contig is partially unaligned. (5678 out of 5817)
+		Alignment: 2665668 2671344 | 71 5748 | 5677 5678 | 99.61 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_25_length_5745_cov_53.525673_1
+		Unaligned bases: 1 to 70 (70)
+		Unaligned bases: 5749 to 5817 (69)
+
+CONTIG: NODE_122_length_5727_cov_61.916710_1 (5799bp)
+Top Length: 5585  Top ID: 99.57
+		Skipping redundant alignment 1140774 1140845 | 5728 5799 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_122_length_5727_cov_61.916710_1
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1119272 1119343 | 72 1 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_122_length_5727_cov_61.916710_1
+			  Extensive misassembly ( relocation, inconsistency = 13769 ) between these two alignments
+			Real Alignment 2: 1127314 1132898 | 5799 215 | 5585 5585 | 99.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_122_length_5727_cov_61.916710_1
+
+CONTIG: NODE_14_length_10106_cov_54.529289_1 (10178bp)
+Top Length: 7080  Top ID: 99.73
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2239835 2241384 | 69 1617 | 1550 1549 | 99.48 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_14_length_10106_cov_54.529289_1
+			  Extensive misassembly ( relocation, inconsistency = 1435 ) between these two alignments
+			Real Alignment 2: 2244229 2251308 | 3027 10106 | 7080 7080 | 99.73 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_14_length_10106_cov_54.529289_1
+
+CONTIG: NODE_154_length_1488_cov_122.942879_1 (1560bp)
+Top Length: 1560  Top ID: 99.42
+		One align captures most of this contig: 1718556 1720115 | 1560 1 | 1560 1560 | 99.42 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_154_length_1488_cov_122.942879_1
+
+CONTIG: NODE_139_length_5784_cov_60.341457_1 (5856bp)
+Top Length: 5856  Top ID: 98.86
+		Marking as insignificant: 1141200 1141421 | 1 222 | 222 222 | 98.2 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_139_length_5784_cov_60.341457_1
+		One align captures most of this contig: 1121109 1126959 | 5856 1 | 5851 5856 | 98.86 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_139_length_5784_cov_60.341457_1
+
+CONTIG: NODE_65_length_3356_cov_53.676998_1 (3428bp)
+Top Length: 204  Top ID: 98.04
+		This contig is partially unaligned. (204 out of 3428)
+		Alignment: 2962886 2963089 | 2392 2595 | 204 204 | 98.04 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_65_length_3356_cov_53.676998_1
+		Unaligned bases: 1 to 2391 (2391)
+		Unaligned bases: 2596 to 3428 (833)
+
+CONTIG: NODE_39_length_34310_cov_67.260155_1 (34382bp)
+Top Length: 28013  Top ID: 99.52
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 81020 109032 | 34382 6370 | 28013 28013 | 99.52 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_39_length_34310_cov_67.260155_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 733
+			Real Alignment 2: 112289 113318 | 3846 2818 | 1030 1029 | 99.22 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_39_length_34310_cov_67.260155_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 253
+			Real Alignment 3: 113571 116389 | 2818 1 | 2819 2818 | 97.91 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_39_length_34310_cov_67.260155_1
+
+CONTIG: NODE_62_length_12951_cov_59.618332_1 (13023bp)
+		This contig is unaligned. (13023 bp)
+		Unaligned bases: 13023  total: 66789
+
+CONTIG: NODE_15_length_53190_cov_64.147957_1 (53262bp)
+Top Length: 38481  Top ID: 99.37
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 4490187 4490258 | 53191 53262 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_15_length_53190_cov_64.147957_1
+			  Extensive misassembly ( relocation, inconsistency = 214687 ) between these two alignments
+			Real Alignment 2: 4651888 4690356 | 205 38685 | 38469 38481 | 99.37 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_15_length_53190_cov_64.147957_1
+			  Extensive misassembly ( relocation, inconsistency = -14426 ) between these two alignments
+			Real Alignment 3: 4690371 4697660 | 53126 45836 | 7290 7291 | 99.62 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_15_length_53190_cov_64.147957_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 63
+			Real Alignment 4: 4697719 4704840 | 45840 38719 | 7122 7122 | 99.51 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_15_length_53190_cov_64.147957_1
+			  Extensive misassembly ( relocation, inconsistency = 14399 ) between these two alignments
+			Real Alignment 5: 4704839 4704967 | 53119 53247 | 129 129 | 98.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_15_length_53190_cov_64.147957_1
+
+CONTIG: NODE_85_length_1493_cov_383.275940_1 (1565bp)
+Top Length: 1565  Top ID: 99.81
+		This contig has 6 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 4493994 4495558 | 1565 1 | 1565 1565 | 99.81 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_85_length_1493_cov_383.275940_1
+		Skipping alignment  3243008 3244572 | 1565 1 | 1565 1565 | 99.74 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_85_length_1493_cov_383.275940_1
+		Skipping alignment  3903044 3904608 | 1565 1 | 1565 1565 | 99.68 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_85_length_1493_cov_383.275940_1
+		Skipping alignment  4649486 4651050 | 1565 1 | 1565 1565 | 99.68 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_85_length_1493_cov_383.275940_1
+		Skipping alignment  4708737 4710301 | 1565 1 | 1565 1565 | 99.68 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_85_length_1493_cov_383.275940_1
+		Skipping alignment  5291489 5293053 | 1565 1 | 1565 1565 | 99.62 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_85_length_1493_cov_383.275940_1
+
+CONTIG: NODE_146_length_1447_cov_133.423630_1 (1519bp)
+		This contig is unaligned. (1519 bp)
+		Unaligned bases: 1519  total: 68308
+
+CONTIG: NODE_209_length_1837_cov_40.657593_2 (1018bp)
+		This contig is unaligned. (1018 bp)
+		Unaligned bases: 1018  total: 69326
+
+CONTIG: NODE_248_length_663_cov_118.220215_1 (735bp)
+		This contig is unaligned. (735 bp)
+		Unaligned bases: 735  total: 70061
+
+CONTIG: NODE_159_length_1901_cov_47.339294_1 (1973bp)
+		This contig is unaligned. (1973 bp)
+		Unaligned bases: 1973  total: 72034
+
+CONTIG: NODE_21_length_21196_cov_52.371956_1 (21268bp)
+Top Length: 1150  Top ID: 99.74
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 21268 and total length of all aligns is 1242
+		Alignment: 1695473 1696622 | 1 1150 | 1150 1150 | 99.74 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_21_length_21196_cov_52.371956_1
+		Alignment: 1718536 1718627 | 21177 21268 | 92 92 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_21_length_21196_cov_52.371956_1
+		Unaligned bases: 20026
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_55_length_474610_cov_65.376259_2 (264720bp)
+Top Length: 95999  Top ID: 99.4
+		Skipping redundant alignment 553358 553767 | 411 2 | 410 410 | 95.12 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+		Skipping redundant alignment 4880354 4880747 | 2 395 | 394 394 | 96.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+		Skipping redundant alignment 1065199 1065527 | 331 2 | 329 330 | 95.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+		Skipping redundant alignment 470949 471255 | 7 313 | 307 307 | 95.78 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+		Skipping redundant alignment 487825 487898 | 108881 108954 | 74 74 | 98.65 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+		Skipping redundant alignment 487896 488207 | 109925 110248 | 312 324 | 95.06 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+		Skipping redundant alignment 4880261 4880747 | 160023 159537 | 487 487 | 95.48 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+		Skipping redundant alignment 3848779 3849063 | 159739 160023 | 285 285 | 95.09 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+		Skipping redundant alignment 2995680 2995766 | 211619 211533 | 87 87 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+		Skipping redundant alignment 2995139 2995213 | 211610 211536 | 75 75 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+		Skipping redundant alignment 2995366 2995440 | 211610 211536 | 75 75 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+		Skipping redundant alignment 3911556 3911658 | 223518 223417 | 103 102 | 95.15 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+		This contig is misassembled. 23 total aligns.
+			Real Alignment 1: 393365 406845 | 1 13480 | 13481 13480 | 99.32 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+			  Extensive misassembly ( relocation, inconsistency = 2349 ) between these two alignments
+			Real Alignment 2: 409405 461765 | 13691 66050 | 52361 52360 | 99.28 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+			  Overlap between these two alignments (local misassembly). Inconsistency = -24
+			Real Alignment 3: 461857 466916 | 66166 71223 | 5060 5058 | 99.05 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+			  Extensive misassembly ( relocation, inconsistency = -4553 ) between these two alignments
+			Real Alignment 4: 469362 471255 | 78222 80116 | 1894 1895 | 96.47 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+			  Extensive misassembly ( relocation, inconsistency = -11660 ) between these two alignments
+			Real Alignment 5: 471248 483466 | 91769 103986 | 12219 12218 | 99.24 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+			  Overlap between these two alignments (local misassembly). Inconsistency = -72
+			Real Alignment 6: 483689 487824 | 104281 108417 | 4136 4137 | 97.61 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+			  Extensive misassembly ( relocation, inconsistency = 14435 ) between these two alignments
+			Real Alignment 7: 501793 555801 | 107951 161963 | 54009 54013 | 99.4 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+			  Extensive misassembly ( relocation, inconsistency = 3500 ) between these two alignments
+			Real Alignment 8: 558699 560129 | 161361 162810 | 1431 1450 | 96.62 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+			  Extensive misassembly ( relocation, inconsistency = -2543 ) between these two alignments
+			Real Alignment 9: 559897 562942 | 165121 168166 | 3046 3046 | 95.79 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+			  Overlap between these two alignments (local misassembly). Inconsistency = -572
+			Real Alignment 10: 562926 658906 | 168722 264720 | 95981 95999 | 99.4 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+			  Extensive misassembly ( relocation, inconsistency = 4406363 ) between these two alignments
+			Real Alignment 11: 4880240 4880748 | 79691 80195 | 509 505 | 95.09 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_2
+
+CONTIG: NODE_26_length_5467_cov_41.910370_1 (5539bp)
+		This contig is unaligned. (5539 bp)
+		Unaligned bases: 5539  total: 77573
+
+CONTIG: NODE_55_length_474610_cov_65.376259_1 (209869bp)
+Top Length: 68882  Top ID: 99.47
+		Skipping redundant alignment 470825 470896 | 209798 209869 | 72 72 | 98.61 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_1
+		Skipping redundant alignment 5261028 5261099 | 209798 209869 | 72 72 | 98.61 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_1
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 117385 129876 | 323 12814 | 12492 12492 | 99.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_1
+			  Extensive misassembly ( relocation, inconsistency = -1456 ) between these two alignments
+			Real Alignment 2: 129896 163656 | 14290 48072 | 33761 33783 | 99.4 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_1
+			  Extensive misassembly ( relocation, inconsistency = 2464 ) between these two alignments
+			Real Alignment 3: 168602 199174 | 50554 81126 | 30573 30573 | 99.56 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -126
+			Real Alignment 4: 199172 213500 | 81250 95583 | 14329 14334 | 99.48 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_1
+			  Extensive misassembly ( relocation, inconsistency = 59477 ) between these two alignments
+			Real Alignment 5: 273108 341989 | 95714 164595 | 68882 68882 | 99.47 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_1
+			  Extensive misassembly ( relocation, inconsistency = 3913 ) between these two alignments
+			Real Alignment 6: 346123 379288 | 164816 197981 | 33166 33166 | 99.47 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_1
+			  Extensive misassembly ( relocation, inconsistency = 2083 ) between these two alignments
+			Real Alignment 7: 381456 386514 | 198066 203124 | 5059 5059 | 97.39 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 56
+			Real Alignment 8: 391401 393318 | 207955 209869 | 1918 1915 | 96.66 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_1
+			  Extensive misassembly ( relocation, inconsistency = 5123753 ) between these two alignments
+			Real Alignment 9: 5307412 5307620 | 210 2 | 209 209 | 98.09 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_55_length_474610_cov_65.376259_1
+
+CONTIG: NODE_175_length_597_cov_116.527641_1 (669bp)
+		This contig is unaligned. (669 bp)
+		Unaligned bases: 669  total: 78242
+
+CONTIG: NODE_108_length_2315_cov_121.820305_1 (2387bp)
+		This contig is unaligned. (2387 bp)
+		Unaligned bases: 2387  total: 80629
+
+CONTIG: NODE_206_length_1865_cov_45.751743_1 (651bp)
+		This contig is unaligned. (651 bp)
+		Unaligned bases: 651  total: 81280
+
+CONTIG: NODE_206_length_1865_cov_45.751743_2 (1197bp)
+		This contig is unaligned. (1197 bp)
+		Unaligned bases: 1197  total: 82477
+
+CONTIG: NODE_307_length_1488_cov_396.461700_1 (1560bp)
+Top Length: 1560  Top ID: 99.81
+		This contig has 6 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 5289465 5291024 | 1560 1 | 1560 1560 | 99.81 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_307_length_1488_cov_396.461700_1
+		Skipping alignment  4491978 4493538 | 1560 1 | 1561 1560 | 99.55 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_307_length_1488_cov_396.461700_1
+		Skipping alignment  4647461 4649021 | 1560 1 | 1561 1560 | 99.55 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_307_length_1488_cov_396.461700_1
+		Skipping alignment  4706712 4708272 | 1560 1 | 1561 1560 | 99.55 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_307_length_1488_cov_396.461700_1
+		Skipping alignment  3240992 3242552 | 1560 1 | 1561 1560 | 99.49 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_307_length_1488_cov_396.461700_1
+		Skipping alignment  3901028 3902588 | 1560 1 | 1561 1560 | 99.49 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_307_length_1488_cov_396.461700_1
+
+CONTIG: NODE_43_length_74107_cov_52.787266_1 (74179bp)
+Top Length: 46622  Top ID: 99.5
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2585113 2602308 | 74107 56912 | 17196 17196 | 99.38 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_43_length_74107_cov_52.787266_1
+			  Extensive misassembly ( relocation, inconsistency = 3519 ) between these two alignments
+			Real Alignment 2: 2606282 2652904 | 56457 9836 | 46623 46622 | 99.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_43_length_74107_cov_52.787266_1
+			  Extensive misassembly ( relocation, inconsistency = 3005 ) between these two alignments
+			Real Alignment 3: 2655874 2665673 | 9871 72 | 9800 9800 | 99.67 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_43_length_74107_cov_52.787266_1
+
+CONTIG: NODE_51_length_34765_cov_58.359413_1 (34837bp)
+Top Length: 30874  Top ID: 99.57
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 3452857 3483730 | 1 30874 | 30874 30874 | 99.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_51_length_34765_cov_58.359413_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 96
+			Real Alignment 2: 3486598 3487716 | 33646 34765 | 1119 1120 | 95.99 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_51_length_34765_cov_58.359413_1
+
+CONTIG: NODE_87_length_11414_cov_51.799896_1 (11486bp)
+		This contig is unaligned. (11486 bp)
+		Unaligned bases: 11486  total: 93963
+
+CONTIG: NODE_222_length_2397_cov_56.100124_1 (2469bp)
+		This contig is unaligned. (2469 bp)
+		Unaligned bases: 2469  total: 96432
+
+CONTIG: NODE_238_length_13633_cov_58.909485_2 (587bp)
+		This contig is unaligned. (587 bp)
+		Unaligned bases: 587  total: 97019
+
+CONTIG: NODE_287_length_533_cov_46.148216_1 (605bp)
+Top Length: 605  Top ID: 98.52
+		Marking as insignificant: 4493467 4494065 | 1 605 | 599 605 | 97.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_287_length_533_cov_46.148216_1
+		Marking as insignificant: 3902517 3903115 | 1 605 | 599 605 | 97.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_287_length_533_cov_46.148216_1
+		Marking as insignificant: 3242481 3243079 | 1 605 | 599 605 | 97.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_287_length_533_cov_46.148216_1
+		This contig has 3 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 5290953 5291560 | 1 605 | 608 605 | 98.52 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_287_length_533_cov_46.148216_1
+		Skipping alignment  4648950 4649557 | 1 605 | 608 605 | 98.19 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_287_length_533_cov_46.148216_1
+		Skipping alignment  4708201 4708808 | 1 605 | 608 605 | 98.19 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_287_length_533_cov_46.148216_1
+
+CONTIG: NODE_238_length_13633_cov_58.909485_1 (12973bp)
+		This contig is unaligned. (12973 bp)
+		Unaligned bases: 12973  total: 109992
+
+CONTIG: NODE_178_length_1975_cov_62.545822_1 (2047bp)
+		This contig is unaligned. (2047 bp)
+		Unaligned bases: 2047  total: 112039
+
+CONTIG: NODE_164_length_26033_cov_55.813160_1 (26105bp)
+Top Length: 24012  Top ID: 99.45
+		This contig is partially unaligned. (24012 out of 26105)
+		Alignment: 2251302 2275312 | 2094 26105 | 24011 24012 | 99.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_164_length_26033_cov_55.813160_1
+		Unaligned bases: 1 to 2093 (2093)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_45_length_9881_cov_53.356342_1 (9953bp)
+Top Length: 9896  Top ID: 99.19
+		One align captures most of this contig: 2005355 2015225 | 58 9953 | 9871 9896 | 99.19 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_45_length_9881_cov_53.356342_1
+
+CONTIG: NODE_4_length_3934_cov_50.701321_1 (4006bp)
+		This contig is unaligned. (4006 bp)
+		Unaligned bases: 4006  total: 116045
+
+CONTIG: NODE_50_length_1293_cov_54.963650_1 (1365bp)
+		This contig is unaligned. (1365 bp)
+		Unaligned bases: 1365  total: 117410
+
+CONTIG: NODE_228_length_1166_cov_58.510292_1 (1238bp)
+		This contig is unaligned. (1238 bp)
+		Unaligned bases: 1238  total: 118648
+
+CONTIG: NODE_104_length_1230_cov_381.622772_1 (1302bp)
+Top Length: 1302  Top ID: 100.0
+		This contig has 6 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 5288084 5289385 | 1302 1 | 1302 1302 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_104_length_1230_cov_381.622772_1
+		Skipping alignment  3239611 3240912 | 1302 1 | 1302 1302 | 99.92 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_104_length_1230_cov_381.622772_1
+		Skipping alignment  4646080 4647381 | 1302 1 | 1302 1302 | 99.92 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_104_length_1230_cov_381.622772_1
+		Skipping alignment  4705331 4706632 | 1302 1 | 1302 1302 | 99.92 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_104_length_1230_cov_381.622772_1
+		Skipping alignment  4490596 4491898 | 1302 1 | 1303 1302 | 99.77 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_104_length_1230_cov_381.622772_1
+		Skipping alignment  3899646 3900948 | 1302 1 | 1303 1302 | 99.23 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_104_length_1230_cov_381.622772_1
+
+CONTIG: NODE_114_length_112813_cov_56.935165_1 (112885bp)
+Top Length: 62098  Top ID: 99.42
+		Skipping redundant alignment 3318850 3319104 | 21177 21431 | 255 255 | 95.69 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_114_length_112813_cov_56.935165_1
+		Skipping redundant alignment 4777825 4777909 | 112683 112599 | 85 85 | 98.82 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_114_length_112813_cov_56.935165_1
+		Skipping redundant alignment 1447286 1447366 | 112601 112682 | 81 82 | 98.78 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_114_length_112813_cov_56.935165_1
+		This contig is misassembled. 8 total aligns.
+			Real Alignment 1: 1720327 1731183 | 112885 102029 | 10857 10857 | 99.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_114_length_112813_cov_56.935165_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 390
+			Real Alignment 2: 1731573 1793677 | 102029 39932 | 62105 62098 | 99.42 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_114_length_112813_cov_56.935165_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 89
+			Real Alignment 3: 1793766 1801005 | 39932 32693 | 7240 7240 | 99.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_114_length_112813_cov_56.935165_1
+			  Extensive misassembly ( relocation, inconsistency = -9244 ) between these two alignments
+			Real Alignment 4: 1801385 1801781 | 23069 22673 | 397 397 | 96.98 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_114_length_112813_cov_56.935165_1
+			  Extensive misassembly ( relocation, inconsistency = -1223 ) between these two alignments
+			Real Alignment 5: 1801782 1805666 | 21449 17586 | 3885 3864 | 97.81 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_114_length_112813_cov_56.935165_1
+
+CONTIG: NODE_89_length_277456_cov_59.837009_1 (277528bp)
+Top Length: 101120  Top ID: 99.27
+		Skipping redundant alignment 1126738 1126959 | 222 1 | 222 222 | 96.4 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_89_length_277456_cov_59.837009_1
+		Skipping redundant alignment 5364950 5365030 | 85038 85118 | 81 81 | 98.77 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_89_length_277456_cov_59.837009_1
+		Skipping redundant alignment 3100793 3100873 | 85039 85119 | 81 81 | 98.77 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_89_length_277456_cov_59.837009_1
+		Skipping redundant alignment 4777822 4777907 | 269730 269646 | 86 85 | 97.67 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_89_length_277456_cov_59.837009_1
+		Skipping redundant alignment 1720530 1720611 | 269726 269646 | 82 81 | 98.78 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_89_length_277456_cov_59.837009_1
+		Skipping redundant alignment 3775151 3775455 | 277528 277225 | 305 304 | 98.69 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_89_length_277456_cov_59.837009_1
+		This contig is misassembled. 13 total aligns.
+			Real Alignment 1: 1141200 1146195 | 1 4996 | 4996 4996 | 98.98 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_89_length_277456_cov_59.837009_1
+			  Extensive misassembly ( relocation, inconsistency = -2454 ) between these two alignments
+			Real Alignment 2: 1146222 1160509 | 7477 21759 | 14288 14283 | 99.45 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_89_length_277456_cov_59.837009_1
+			  Extensive misassembly ( relocation, inconsistency = 1178 ) between these two alignments
+			Real Alignment 3: 1161683 1212496 | 21755 72557 | 50814 50803 | 99.52 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_89_length_277456_cov_59.837009_1
+			  Extensive misassembly ( relocation, inconsistency = 1329 ) between these two alignments
+			Real Alignment 4: 1213874 1315015 | 72606 173725 | 101142 101120 | 99.27 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_89_length_277456_cov_59.837009_1
+			  Extensive misassembly ( relocation, inconsistency = 6887 ) between these two alignments
+			Real Alignment 5: 1336439 1362131 | 188262 213968 | 25693 25707 | 99.4 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_89_length_277456_cov_59.837009_1
+			  Extensive misassembly ( relocation, inconsistency = 2808 ) between these two alignments
+			Real Alignment 6: 1365358 1381368 | 214387 230397 | 16011 16011 | 99.63 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_89_length_277456_cov_59.837009_1
+			  Extensive misassembly ( relocation, inconsistency = 26668 ) between these two alignments
+			Real Alignment 7: 1408022 1455168 | 230383 277528 | 47147 47146 | 99.78 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_89_length_277456_cov_59.837009_1
+
+CONTIG: NODE_82_length_60873_cov_59.715244_1 (60945bp)
+Top Length: 39793  Top ID: 98.81
+		Skipping redundant alignment 553374 553860 | 11019 11505 | 487 487 | 95.07 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_82_length_60873_cov_59.715244_1
+		Skipping redundant alignment 4490385 4490456 | 60874 60945 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_82_length_60873_cov_59.715244_1
+		Skipping redundant alignment 4645869 4645940 | 60874 60945 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_82_length_60873_cov_59.715244_1
+		Skipping redundant alignment 4705120 4705191 | 60874 60945 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_82_length_60873_cov_59.715244_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [393257][393759] redundant alignment 393257 393759 | 11521 11019 | 503 503 | 96.82 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_82_length_60873_cov_59.715244_1
+		This contig is misassembled. 10 total aligns.
+			Real Alignment 1: 3836435 3847597 | 40 11217 | 11163 11178 | 98.99 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_82_length_60873_cov_59.715244_1
+			  Extensive misassembly ( relocation, inconsistency = 1178 ) between these two alignments
+			Real Alignment 2: 3848779 3856732 | 11221 19173 | 7954 7953 | 99.33 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_82_length_60873_cov_59.715244_1
+			  Extensive misassembly ( relocation, inconsistency = 1178 ) between these two alignments
+			Real Alignment 3: 3857908 3859574 | 19171 20837 | 1667 1667 | 99.22 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_82_length_60873_cov_59.715244_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -176
+			Real Alignment 4: 3859714 3899506 | 21153 60945 | 39793 39793 | 98.81 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_82_length_60873_cov_59.715244_1
+			  Extensive misassembly ( relocation, inconsistency = 1030163 ) between these two alignments
+			Real Alignment 5: 4880245 4880747 | 11521 11019 | 503 503 | 96.22 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_82_length_60873_cov_59.715244_1
+
+CONTIG: NODE_76_length_1523_cov_293.918579_1 (1595bp)
+		This contig is unaligned. (1595 bp)
+		Unaligned bases: 1595  total: 120243
+
+CONTIG: NODE_112_length_2546_cov_49.572662_1 (2618bp)
+		This contig is unaligned. (2618 bp)
+		Unaligned bases: 2618  total: 122861
+
+CONTIG: NODE_107_length_163782_cov_63.252617_1 (52944bp)
+Top Length: 23789  Top ID: 99.23
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 771707 795489 | 52935 29147 | 23783 23789 | 99.23 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_107_length_163782_cov_63.252617_1
+			  Extensive misassembly ( relocation, inconsistency = 6744 ) between these two alignments
+			Real Alignment 2: 803237 805957 | 28143 25447 | 2721 2697 | 95.78 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_107_length_163782_cov_63.252617_1
+			  Extensive misassembly ( relocation, inconsistency = 7737 ) between these two alignments
+			Real Alignment 3: 813963 830968 | 25178 8170 | 17006 17009 | 99.35 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_107_length_163782_cov_63.252617_1
+
+CONTIG: NODE_107_length_163782_cov_63.252617_3 (2412bp)
+Top Length: 2412  Top ID: 98.92
+		One align captures most of this contig: 769249 771660 | 2412 1 | 2412 2412 | 98.92 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_107_length_163782_cov_63.252617_3
+
+CONTIG: NODE_107_length_163782_cov_63.252617_2 (9721bp)
+Top Length: 4846  Top ID: 99.4
+		This contig is partially unaligned. (4846 out of 9721)
+		Alignment: 764429 769274 | 1 4846 | 4846 4846 | 99.4 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_107_length_163782_cov_63.252617_2
+		Unaligned bases: 4847 to 9721 (4875)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_107_length_163782_cov_63.252617_5 (59460bp)
+Top Length: 25628  Top ID: 99.19
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 659089 683511 | 59460 35038 | 24423 24423 | 99.51 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_107_length_163782_cov_63.252617_5
+			  Extensive misassembly ( relocation, inconsistency = 6697 ) between these two alignments
+			Real Alignment 2: 690388 716020 | 34858 9231 | 25633 25628 | 99.19 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_107_length_163782_cov_63.252617_5
+			  Gap between these two alignments (local misassembly). Inconsistency = 17
+			Real Alignment 3: 716448 725268 | 8820 1 | 8821 8820 | 99.26 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_107_length_163782_cov_63.252617_5
+
+CONTIG: NODE_107_length_163782_cov_63.252617_4 (38986bp)
+Top Length: 38982  Top ID: 99.64
+		Marking as insignificant: 2471244 2471324 | 10516 10436 | 81 81 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_107_length_163782_cov_63.252617_4
+		One align captures most of this contig: 725342 764322 | 38982 1 | 38981 38982 | 99.64 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_107_length_163782_cov_63.252617_4
+
+CONTIG: NODE_138_length_475_cov_130.031586_1 (547bp)
+		This contig is unaligned. (547 bp)
+		Unaligned bases: 547  total: 123408
+
+CONTIG: NODE_276_length_5254_cov_47.379711_1 (5326bp)
+Top Length: 383  Top ID: 96.61
+		Skipping redundant alignment 2020981 2021052 | 1 72 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_276_length_5254_cov_47.379711_1
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 5326 and total length of all aligns is 606
+		Alignment: 2015303 2015684 | 1 383 | 382 383 | 96.61 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_276_length_5254_cov_47.379711_1
+		Alignment: 2015520 2015742 | 5326 5104 | 223 223 | 95.07 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_276_length_5254_cov_47.379711_1
+		Unaligned bases: 4720
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_54_length_86068_cov_57.127769_1 (86140bp)
+Top Length: 68702  Top ID: 99.49
+		Skipping redundant alignment 2989476 2989547 | 86069 86140 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_54_length_86068_cov_57.127769_1
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 3303419 3372115 | 9082 77783 | 68697 68702 | 99.49 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_54_length_86068_cov_57.127769_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -13
+			Real Alignment 2: 3372262 3380459 | 77943 86140 | 8198 8198 | 98.9 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_54_length_86068_cov_57.127769_1
+
+CONTIG: NODE_271_length_12416_cov_50.979141_1 (12488bp)
+Top Length: 12487  Top ID: 99.26
+		One align captures most of this contig: 1992874 2005369 | 12488 2 | 12496 12487 | 99.26 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_271_length_12416_cov_50.979141_1
+
+CONTIG: NODE_218_length_1316_cov_57.240120_1 (1388bp)
+		This contig is unaligned. (1388 bp)
+		Unaligned bases: 1388  total: 124796
+
+CONTIG: NODE_11_length_1148_cov_122.167244_1 (1220bp)
+		This contig is unaligned. (1220 bp)
+		Unaligned bases: 1220  total: 126016
+
+CONTIG: NODE_84_length_1969_cov_49.813610_2 (1352bp)
+		This contig is unaligned. (1352 bp)
+		Unaligned bases: 1352  total: 127368
+
+CONTIG: NODE_84_length_1969_cov_49.813610_1 (679bp)
+		This contig is unaligned. (679 bp)
+		Unaligned bases: 679  total: 128047
+
+CONTIG: NODE_179_length_3812_cov_64.643234_2 (2788bp)
+		This contig is unaligned. (2788 bp)
+		Unaligned bases: 2788  total: 130835
+
+CONTIG: NODE_179_length_3812_cov_64.643234_1 (1086bp)
+		This contig is unaligned. (1086 bp)
+		Unaligned bases: 1086  total: 131921
+
+CONTIG: NODE_5_length_25917_cov_55.125130_1 (25989bp)
+Top Length: 23885  Top ID: 99.34
+		This contig is partially unaligned. (23885 out of 25989)
+		Alignment: 3017590 3041475 | 2105 25989 | 23886 23885 | 99.34 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_5_length_25917_cov_55.125130_1
+		Unaligned bases: 1 to 2104 (2104)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_27_length_28132_cov_60.350456_1 (28204bp)
+Top Length: 28134  Top ID: 99.55
+		One align captures most of this contig: 3808013 3836148 | 71 28204 | 28136 28134 | 99.55 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_27_length_28132_cov_60.350456_1
+
+CONTIG: NODE_46_length_30429_cov_58.120708_1 (30501bp)
+		This contig is unaligned. (30501 bp)
+		Unaligned bases: 30501  total: 162422
+
+CONTIG: NODE_18_length_32497_cov_56.087761_1 (32569bp)
+		This contig is unaligned. (32569 bp)
+		Unaligned bases: 32569  total: 194991
+
+CONTIG: NODE_141_length_8786_cov_54.206238_1 (8858bp)
+Top Length: 2586  Top ID: 98.73
+		Skipping redundant alignment 1127314 1127385 | 1 72 | 72 72 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_141_length_8786_cov_54.206238_1
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [1140786][1141277] redundant alignment 1140786 1141277 | 2579 3071 | 492 493 | 95.94 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_141_length_8786_cov_54.206238_1
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 8858 and total length of all aligns is 3575
+		Alignment: 1121109 1121612 | 8858 8355 | 504 504 | 98.21 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_141_length_8786_cov_54.206238_1
+		Alignment: 1126882 1127373 | 3071 2579 | 492 493 | 95.94 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_141_length_8786_cov_54.206238_1
+		Alignment: 1138257 1140845 | 2586 1 | 2589 2586 | 98.73 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_141_length_8786_cov_54.206238_1
+		Unaligned bases: 5283
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_72_length_9721_cov_117.832634_1 (9793bp)
+		This contig is unaligned. (9793 bp)
+		Unaligned bases: 9793  total: 204784
+
+CONTIG: NODE_42_length_28150_cov_67.017441_1 (28222bp)
+Top Length: 28152  Top ID: 99.66
+		Marking as insignificant: 4955849 4956669 | 28222 27402 | 821 821 | 99.27 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_42_length_28150_cov_67.017441_1
+		One align captures most of this contig: 5307927 5336072 | 28222 71 | 28146 28152 | 99.66 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_42_length_28150_cov_67.017441_1
+
+CONTIG: NODE_47_length_40921_cov_62.588402_1 (40993bp)
+		This contig is unaligned. (40993 bp)
+		Unaligned bases: 40993  total: 245777
+
+CONTIG: NODE_101_length_4095_cov_57.834431_1 (4167bp)
+Top Length: 4167  Top ID: 99.69
+		One align captures most of this contig: 3448304 3452470 | 1 4167 | 4167 4167 | 99.69 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_101_length_4095_cov_57.834431_1
+
+CONTIG: NODE_68_length_2293_cov_56.040558_1 (2365bp)
+		This contig is unaligned. (2365 bp)
+		Unaligned bases: 2365  total: 248142
+
+CONTIG: NODE_283_length_39817_cov_53.173820_2 (39566bp)
+Top Length: 25058  Top ID: 99.15
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2275648 2290087 | 1 14440 | 14440 14440 | 99.65 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_283_length_39817_cov_53.173820_2
+			  Extensive misassembly ( relocation, inconsistency = 4225 ) between these two alignments
+			Real Alignment 2: 2294312 2319336 | 14440 39497 | 25025 25058 | 99.15 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_283_length_39817_cov_53.173820_2
+
+CONTIG: NODE_8_length_86812_cov_57.052620_1 (86884bp)
+Top Length: 44864  Top ID: 99.48
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 3487712 3527059 | 86814 47488 | 39348 39327 | 98.88 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_8_length_86812_cov_57.052620_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 2: 3527536 3572403 | 47011 2148 | 44868 44864 | 99.48 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_8_length_86812_cov_57.052620_1
+
+CONTIG: NODE_9_length_185390_cov_55.819992_1 (185462bp)
+Top Length: 54606  Top ID: 99.55
+		Skipping redundant alignment 1226307 1226387 | 57881 57961 | 81 81 | 98.77 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+		Skipping redundant alignment 5365199 5365279 | 57881 57961 | 81 81 | 97.53 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+		Skipping redundant alignment 5364951 5365030 | 57881 57960 | 80 80 | 97.5 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+		Skipping redundant alignment 5287784 5288155 | 185091 185462 | 372 372 | 97.58 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+		Skipping redundant alignment 4490383 4490667 | 185178 185462 | 285 285 | 98.95 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+		Skipping redundant alignment 4645867 4646151 | 185178 185462 | 285 285 | 98.95 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+		Skipping redundant alignment 4705118 4705402 | 185178 185462 | 285 285 | 98.95 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+		Skipping redundant alignment 3899435 3899717 | 185180 185462 | 283 283 | 98.59 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+		This contig is misassembled. 15 total aligns.
+			Real Alignment 1: 3041577 3041903 | 1 327 | 327 327 | 97.86 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+			  Extensive misassembly ( relocation, inconsistency = 1330 ) between these two alignments
+			Real Alignment 2: 3055988 3057172 | 13082 14266 | 1185 1185 | 99.83 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 3: 3057154 3057359 | 14453 14248 | 206 206 | 98.54 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 4: 3057341 3102500 | 14435 59588 | 45160 45154 | 99.56 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -640
+			Real Alignment 5: 3102483 3128178 | 60211 85896 | 25696 25686 | 99.19 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+			  Extensive misassembly ( relocation, inconsistency = 10422 ) between these two alignments
+			Real Alignment 6: 3139476 3183572 | 86772 130871 | 44097 44100 | 99.36 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+			  Extensive misassembly ( relocation, inconsistency = 1535 ) between these two alignments
+			Real Alignment 7: 3185093 3239682 | 130857 185462 | 54590 54606 | 99.55 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_9_length_185390_cov_55.819992_1
+
+CONTIG: NODE_209_length_1837_cov_40.657593_1 (747bp)
+		This contig is unaligned. (747 bp)
+		Unaligned bases: 747  total: 248889
+
+CONTIG: NODE_184_length_3384_cov_112.052597_1 (3456bp)
+		This contig is unaligned. (3456 bp)
+		Unaligned bases: 3456  total: 252345
+
+CONTIG: NODE_236_length_1991_cov_58.866901_1 (2063bp)
+		This contig is unaligned. (2063 bp)
+		Unaligned bases: 2063  total: 254408
+
+CONTIG: NODE_110_length_141492_cov_59.934669_1 (141564bp)
+Top Length: 62242  Top ID: 99.24
+		Skipping redundant alignment 617629 617730 | 135495 135597 | 102 103 | 95.15 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_110_length_141492_cov_59.934669_1
+		Skipping redundant alignment 4652096 4652169 | 141564 141491 | 74 74 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_110_length_141492_cov_59.934669_1
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 1: 3905609 3918354 | 141544 128800 | 12746 12745 | 98.27 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_110_length_141492_cov_59.934669_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -348
+			Real Alignment 2: 3922358 3984584 | 124448 62207 | 62227 62242 | 99.24 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_110_length_141492_cov_59.934669_1
+			  Extensive misassembly ( relocation, inconsistency = -3803 ) between these two alignments
+			Real Alignment 3: 3984590 4042914 | 58398 73 | 58325 58326 | 99.4 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_110_length_141492_cov_59.934669_1
+			  Extensive misassembly ( relocation, inconsistency = 809924 ) between these two alignments
+			Real Alignment 4: 4711347 4711425 | 141564 141486 | 79 79 | 98.73 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_110_length_141492_cov_59.934669_1
+
+CONTIG: NODE_23_length_151419_cov_53.882355_1 (151491bp)
+Top Length: 68905  Top ID: 99.14
+		Skipping redundant alignment 393265 393759 | 9813 10306 | 495 494 | 95.35 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_23_length_151419_cov_53.882355_1
+		Skipping redundant alignment 3389541 3389782 | 24301 24056 | 242 246 | 95.14 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_23_length_151419_cov_53.882355_1
+		Skipping redundant alignment 753806 753887 | 103316 103235 | 82 82 | 100.0 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_23_length_151419_cov_53.882355_1
+		This contig is misassembled. 9 total aligns.
+			Real Alignment 1: 2320947 2327158 | 151419 145208 | 6212 6212 | 99.48 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_23_length_151419_cov_53.882355_1
+			  Extensive misassembly ( relocation, inconsistency = 25401 ) between these two alignments
+			Real Alignment 2: 2359792 2361872 | 137975 135897 | 2081 2079 | 96.78 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_23_length_151419_cov_53.882355_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 809
+			Real Alignment 3: 2365030 2367792 | 133548 130781 | 2763 2768 | 98.95 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_23_length_151419_cov_53.882355_1
+			  Extensive misassembly ( relocation, inconsistency = 75985 ) between these two alignments
+			Real Alignment 4: 2471134 2490494 | 103424 84055 | 19361 19370 | 98.65 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_23_length_151419_cov_53.882355_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 643
+			Real Alignment 5: 2491137 2560089 | 84055 15151 | 68953 68905 | 99.14 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_23_length_151419_cov_53.882355_1
+			  Extensive misassembly ( relocation, inconsistency = 9949 ) between these two alignments
+			Real Alignment 6: 2570035 2585117 | 15154 73 | 15083 15082 | 98.28 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_23_length_151419_cov_53.882355_1
+
+CONTIG: NODE_189_length_808_cov_53.297031_1 (880bp)
+		This contig is unaligned. (880 bp)
+		Unaligned bases: 880  total: 255288
+
+CONTIG: NODE_19_length_58476_cov_54.983841_1 (58548bp)
+Top Length: 22932  Top ID: 99.09
+		Skipping redundant alignment 2967300 2967489 | 1006 817 | 190 190 | 96.32 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_19_length_58476_cov_54.983841_1
+		Skipping redundant alignment 2966493 2966627 | 1208 1074 | 135 135 | 97.78 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_19_length_58476_cov_54.983841_1
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 1: 2915239 2925122 | 58478 48596 | 9884 9883 | 99.1 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_19_length_58476_cov_54.983841_1
+			  Gap between these two alignments (local misassembly). Inconsistency = 142
+			Real Alignment 2: 2925264 2933302 | 48596 40558 | 8039 8039 | 99.15 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_19_length_58476_cov_54.983841_1
+			  Extensive misassembly ( relocation, inconsistency = -9547 ) between these two alignments
+			Real Alignment 3: 2934358 2940183 | 29955 24124 | 5826 5832 | 99.23 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_19_length_58476_cov_54.983841_1
+			  Overlap between these two alignments (local misassembly). Inconsistency = -416
+			Real Alignment 4: 2940959 2963905 | 22932 1 | 22947 22932 | 99.09 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_19_length_58476_cov_54.983841_1
+
+CONTIG: NODE_20_length_37591_cov_58.717381_1 (37663bp)
+Top Length: 20944  Top ID: 99.51
+		Skipping redundant alignment 4291582 4293635 | 13014 15067 | 2054 2054 | 98.83 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_20_length_37591_cov_58.717381_1
+		Skipping redundant alignment 3774533 3774902 | 37294 37663 | 370 370 | 97.57 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_20_length_37591_cov_58.717381_1
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1455417 1462002 | 37663 31077 | 6586 6587 | 99.54 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_20_length_37591_cov_58.717381_1
+			  Extensive misassembly ( relocation, inconsistency = 24273 ) between these two alignments
+			Real Alignment 2: 1486268 1507213 | 31084 10141 | 20946 20944 | 99.51 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_20_length_37591_cov_58.717381_1
+
+CONTIG: NODE_69_length_3079_cov_115.148102_1 (3151bp)
+Top Length: 2543  Top ID: 99.1
+		This contig is partially unaligned. (2543 out of 3151)
+		Alignment: 4813214 4815756 | 3151 609 | 2543 2543 | 99.1 | gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome NODE_69_length_3079_cov_115.148102_1
+		Unaligned bases: 1 to 608 (608)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: NODE_217_length_1316_cov_50.879181_1 (1388bp)
+		This contig is unaligned. (1388 bp)
+		Unaligned bases: 1388  total: 256676
+
+CONTIG: NODE_192_length_448_cov_56.004463_1 (520bp)
+		This contig is unaligned. (520 bp)
+		Unaligned bases: 520  total: 257196
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/contigs_reports/nucmer_output/BF-H-Velvet-Scaffold_broken.used_snps
+	Reference gi|375356399|ref|NC_016776.1|_Bacteroides_fragilis_638R__complete_genome: 218 total alignments. 1 total regions.
+		Region: 1 to 5373121 (5373121 bp)
+			Align 1: 1 48616 NODE_1_length_116350_cov_65.461594_1 79175 30550
+				Gap between this and next alignment: 48616 to 49897 (1280 bp)
+				Next Alignment: 49897 80211 NODE_1_length_116350_cov_65.461594_1 30323 2
+
+			Align 2: 49897 80211 NODE_1_length_116350_cov_65.461594_1 30323 2
+				Gap between this and next alignment: 80211 to 81020 (808 bp)
+				Next Alignment: 81020 109032 NODE_39_length_34310_cov_67.260155_1 34382 6370
+
+			Align 3: 81020 109032 NODE_39_length_34310_cov_67.260155_1 34382 6370
+				Gap between this and next alignment: 109032 to 112289 (3256 bp)
+				Next Alignment: 112289 113318 NODE_39_length_34310_cov_67.260155_1 3846 2818
+
+			Align 4: 112289 113318 NODE_39_length_34310_cov_67.260155_1 3846 2818
+				Gap between this and next alignment: 113318 to 113571 (252 bp)
+				Next Alignment: 113571 116389 NODE_39_length_34310_cov_67.260155_1 2818 1
+
+			Align 5: 113571 116389 NODE_39_length_34310_cov_67.260155_1 2818 1
+				Gap between this and next alignment: 116389 to 117385 (995 bp)
+				Next Alignment: 117385 129876 NODE_55_length_474610_cov_65.376259_1 323 12814
+
+			Align 6: 117385 129876 NODE_55_length_474610_cov_65.376259_1 323 12814
+				Gap between this and next alignment: 129876 to 129896 (19 bp)
+				Next Alignment: 129896 163656 NODE_55_length_474610_cov_65.376259_1 14290 48072
+
+			Align 7: 129896 163656 NODE_55_length_474610_cov_65.376259_1 14290 48072
+				Gap between this and next alignment: 163656 to 168602 (4945 bp)
+				Next Alignment: 168602 199174 NODE_55_length_474610_cov_65.376259_1 50554 81126
+
+			Align 8: 168602 199174 NODE_55_length_474610_cov_65.376259_1 50554 81126
+				Negative gap (overlap) between this and next alignment: 199174 to 199172 (-2 bp)
+				Next Alignment: 199172 213500 NODE_55_length_474610_cov_65.376259_1 81250 95583
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 81250 to 81253.
+			Align 9: 199175 213500 NODE_55_length_474610_cov_65.376259_1 81253 95583
+				Gap between this and next alignment: 213500 to 273108 (59607 bp)
+				Next Alignment: 273108 341989 NODE_55_length_474610_cov_65.376259_1 95714 164595
+
+			Align 10: 273108 341989 NODE_55_length_474610_cov_65.376259_1 95714 164595
+				Gap between this and next alignment: 341989 to 346123 (4133 bp)
+				Next Alignment: 346123 379288 NODE_55_length_474610_cov_65.376259_1 164816 197981
+
+			Align 11: 346123 379288 NODE_55_length_474610_cov_65.376259_1 164816 197981
+				Gap between this and next alignment: 379288 to 381456 (2167 bp)
+				Next Alignment: 381456 386514 NODE_55_length_474610_cov_65.376259_1 198066 203124
+
+			Align 12: 381456 386514 NODE_55_length_474610_cov_65.376259_1 198066 203124
+				Gap between this and next alignment: 386514 to 391401 (4886 bp)
+				Next Alignment: 391401 393318 NODE_55_length_474610_cov_65.376259_1 207955 209869
+
+			Align 13: 391401 393318 NODE_55_length_474610_cov_65.376259_1 207955 209869
+				Gap between this and next alignment: 393318 to 393365 (46 bp)
+				Next Alignment: 393365 406845 NODE_55_length_474610_cov_65.376259_2 1 13480
+
+			Align 14: 393365 406845 NODE_55_length_474610_cov_65.376259_2 1 13480
+				Gap between this and next alignment: 406845 to 409405 (2559 bp)
+				Next Alignment: 409405 461765 NODE_55_length_474610_cov_65.376259_2 13691 66050
+
+			Align 15: 409405 461765 NODE_55_length_474610_cov_65.376259_2 13691 66050
+				Gap between this and next alignment: 461765 to 461857 (91 bp)
+				Next Alignment: 461857 466916 NODE_55_length_474610_cov_65.376259_2 66166 71223
+
+			Align 16: 461857 466916 NODE_55_length_474610_cov_65.376259_2 66166 71223
+				Gap between this and next alignment: 466916 to 469362 (2445 bp)
+				Next Alignment: 469362 471255 NODE_55_length_474610_cov_65.376259_2 78222 80116
+
+			Align 17: 469362 471255 NODE_55_length_474610_cov_65.376259_2 78222 80116
+				Negative gap (overlap) between this and next alignment: 471255 to 471248 (-7 bp)
+				Next Alignment: 471248 483466 NODE_55_length_474610_cov_65.376259_2 91769 103986
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 91769 to 91777.
+			Align 18: 471256 483466 NODE_55_length_474610_cov_65.376259_2 91777 103986
+				Gap between this and next alignment: 483466 to 483689 (222 bp)
+				Next Alignment: 483689 487824 NODE_55_length_474610_cov_65.376259_2 104281 108417
+
+			Align 19: 483689 487824 NODE_55_length_474610_cov_65.376259_2 104281 108417
+				Gap between this and next alignment: 487824 to 501793 (13968 bp)
+				Next Alignment: 501793 555801 NODE_55_length_474610_cov_65.376259_2 107951 161963
+
+			Align 20: 501793 555801 NODE_55_length_474610_cov_65.376259_2 107951 161963
+				Gap between this and next alignment: 555801 to 558699 (2897 bp)
+				Next Alignment: 558699 560129 NODE_55_length_474610_cov_65.376259_2 161361 162810
+
+			Align 21: 558699 560129 NODE_55_length_474610_cov_65.376259_2 161361 162810
+				Negative gap (overlap) between this and next alignment: 560129 to 559897 (-232 bp)
+				Next Alignment: 559897 562942 NODE_55_length_474610_cov_65.376259_2 165121 168166
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 165121 to 165367.
+			Align 22: 560130 562942 NODE_55_length_474610_cov_65.376259_2 165367 168166
+				Negative gap (overlap) between this and next alignment: 562942 to 562926 (-16 bp)
+				Next Alignment: 562926 658906 NODE_55_length_474610_cov_65.376259_2 168722 264720
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 168722 to 168738.
+			Align 23: 562943 658906 NODE_55_length_474610_cov_65.376259_2 168738 264720
+				Gap between this and next alignment: 658906 to 659089 (182 bp)
+				Next Alignment: 659089 683511 NODE_107_length_163782_cov_63.252617_5 59460 35038
+
+			Align 24: 659089 683511 NODE_107_length_163782_cov_63.252617_5 59460 35038
+				Gap between this and next alignment: 683511 to 690388 (6876 bp)
+				Next Alignment: 690388 716020 NODE_107_length_163782_cov_63.252617_5 34858 9231
+
+			Align 25: 690388 716020 NODE_107_length_163782_cov_63.252617_5 34858 9231
+				Gap between this and next alignment: 716020 to 716448 (427 bp)
+				Next Alignment: 716448 725268 NODE_107_length_163782_cov_63.252617_5 8820 1
+
+			Align 26: 716448 725268 NODE_107_length_163782_cov_63.252617_5 8820 1
+				Gap between this and next alignment: 725268 to 725342 (73 bp)
+				Next Alignment: 725342 764322 NODE_107_length_163782_cov_63.252617_4 38982 1
+
+			Align 27: 725342 764322 NODE_107_length_163782_cov_63.252617_4 38982 1
+				Gap between this and next alignment: 764322 to 764429 (106 bp)
+				Next Alignment: 764429 769274 NODE_107_length_163782_cov_63.252617_2 1 4846
+
+			Align 28: 764429 769274 NODE_107_length_163782_cov_63.252617_2 1 4846
+				Negative gap (overlap) between this and next alignment: 769274 to 769249 (-25 bp)
+				Next Alignment: 769249 771660 NODE_107_length_163782_cov_63.252617_3 2412 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2412 to 2386.
+			Align 29: 769275 771660 NODE_107_length_163782_cov_63.252617_3 2386 1
+				Gap between this and next alignment: 771660 to 771707 (46 bp)
+				Next Alignment: 771707 795489 NODE_107_length_163782_cov_63.252617_1 52935 29147
+
+			Align 30: 771707 795489 NODE_107_length_163782_cov_63.252617_1 52935 29147
+				Gap between this and next alignment: 795489 to 803237 (7747 bp)
+				Next Alignment: 803237 805957 NODE_107_length_163782_cov_63.252617_1 28143 25447
+
+			Align 31: 803237 805957 NODE_107_length_163782_cov_63.252617_1 28143 25447
+				Gap between this and next alignment: 805957 to 813963 (8005 bp)
+				Next Alignment: 813963 830968 NODE_107_length_163782_cov_63.252617_1 25178 8170
+
+			Align 32: 813963 830968 NODE_107_length_163782_cov_63.252617_1 25178 8170
+				Gap between this and next alignment: 830968 to 831659 (690 bp)
+				Next Alignment: 831659 891372 NODE_17_length_279671_cov_62.122593_1 2846 62565
+
+			Align 33: 831659 891372 NODE_17_length_279671_cov_62.122593_1 2846 62565
+				Gap between this and next alignment: 891372 to 894046 (2673 bp)
+				Next Alignment: 894046 931742 NODE_17_length_279671_cov_62.122593_1 62863 100558
+
+			Align 34: 894046 931742 NODE_17_length_279671_cov_62.122593_1 62863 100558
+				Gap between this and next alignment: 931742 to 933978 (2235 bp)
+				Next Alignment: 933978 941324 NODE_17_length_279671_cov_62.122593_1 100717 108063
+
+			Align 35: 933978 941324 NODE_17_length_279671_cov_62.122593_1 100717 108063
+				Gap between this and next alignment: 941324 to 942960 (1635 bp)
+				Next Alignment: 942960 946693 NODE_17_length_279671_cov_62.122593_1 108071 111805
+
+			Align 36: 942960 946693 NODE_17_length_279671_cov_62.122593_1 108071 111805
+				Gap between this and next alignment: 946693 to 971785 (25091 bp)
+				Next Alignment: 971785 972045 NODE_17_length_279671_cov_62.122593_1 133859 134119
+
+			Align 37: 971785 972045 NODE_17_length_279671_cov_62.122593_1 133859 134119
+				Gap between this and next alignment: 972045 to 973730 (1684 bp)
+				Next Alignment: 973730 982479 NODE_17_length_279671_cov_62.122593_1 134181 142929
+
+			Align 38: 973730 982479 NODE_17_length_279671_cov_62.122593_1 134181 142929
+				Gap between this and next alignment: 982479 to 983336 (856 bp)
+				Next Alignment: 983336 1119343 NODE_17_length_279671_cov_62.122593_1 143789 279743
+
+			Align 39: 983336 1119343 NODE_17_length_279671_cov_62.122593_1 143789 279743
+				The next alignment (1119272 1119343 NODE_122_length_5727_cov_61.916710_1 72 1) is redundant. Skipping.
+				Gap between this and next alignment: 1119343 to 1121109 (1765 bp)
+				Next Alignment: 1121109 1126959 NODE_139_length_5784_cov_60.341457_1 5856 1
+
+			Align 41: 1121109 1126959 NODE_139_length_5784_cov_60.341457_1 5856 1
+				Gap between this and next alignment: 1126959 to 1127314 (354 bp)
+				Next Alignment: 1127314 1132898 NODE_122_length_5727_cov_61.916710_1 5799 215
+
+			Align 42: 1127314 1132898 NODE_122_length_5727_cov_61.916710_1 5799 215
+				Gap between this and next alignment: 1132898 to 1141200 (8301 bp)
+				Next Alignment: 1141200 1146195 NODE_89_length_277456_cov_59.837009_1 1 4996
+
+			Align 43: 1141200 1146195 NODE_89_length_277456_cov_59.837009_1 1 4996
+				Gap between this and next alignment: 1146195 to 1146222 (26 bp)
+				Next Alignment: 1146222 1160509 NODE_89_length_277456_cov_59.837009_1 7477 21759
+
+			Align 44: 1146222 1160509 NODE_89_length_277456_cov_59.837009_1 7477 21759
+				Gap between this and next alignment: 1160509 to 1161683 (1173 bp)
+				Next Alignment: 1161683 1212496 NODE_89_length_277456_cov_59.837009_1 21755 72557
+
+			Align 45: 1161683 1212496 NODE_89_length_277456_cov_59.837009_1 21755 72557
+				Gap between this and next alignment: 1212496 to 1213874 (1377 bp)
+				Next Alignment: 1213874 1315015 NODE_89_length_277456_cov_59.837009_1 72606 173725
+
+			Align 46: 1213874 1315015 NODE_89_length_277456_cov_59.837009_1 72606 173725
+				Gap between this and next alignment: 1315015 to 1336439 (21423 bp)
+				Next Alignment: 1336439 1362131 NODE_89_length_277456_cov_59.837009_1 188262 213968
+
+			Align 47: 1336439 1362131 NODE_89_length_277456_cov_59.837009_1 188262 213968
+				Gap between this and next alignment: 1362131 to 1365358 (3226 bp)
+				Next Alignment: 1365358 1381368 NODE_89_length_277456_cov_59.837009_1 214387 230397
+
+			Align 48: 1365358 1381368 NODE_89_length_277456_cov_59.837009_1 214387 230397
+				Gap between this and next alignment: 1381368 to 1408022 (26653 bp)
+				Next Alignment: 1408022 1455168 NODE_89_length_277456_cov_59.837009_1 230383 277528
+
+			Align 49: 1408022 1455168 NODE_89_length_277456_cov_59.837009_1 230383 277528
+				Gap between this and next alignment: 1455168 to 1455417 (248 bp)
+				Next Alignment: 1455417 1462002 NODE_20_length_37591_cov_58.717381_1 37663 31077
+
+			Align 50: 1455417 1462002 NODE_20_length_37591_cov_58.717381_1 37663 31077
+				Gap between this and next alignment: 1462002 to 1486268 (24265 bp)
+				Next Alignment: 1486268 1507213 NODE_20_length_37591_cov_58.717381_1 31084 10141
+
+			Align 51: 1486268 1507213 NODE_20_length_37591_cov_58.717381_1 31084 10141
+				Negative gap (overlap) between this and next alignment: 1507213 to 1507187 (-26 bp)
+				Next Alignment: 1507187 1534268 NODE_38_length_97877_cov_60.139328_1 27154 72
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 27154 to 27127.
+			Align 52: 1507214 1534268 NODE_38_length_97877_cov_60.139328_1 27127 72
+				Negative gap (overlap) between this and next alignment: 1534268 to 1534265 (-3 bp)
+				Next Alignment: 1534265 1563136 NODE_83_length_132176_cov_58.185055_1 132180 103309
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 132180 to 132176.
+			Align 53: 1534269 1563136 NODE_83_length_132176_cov_58.185055_1 132176 103309
+				Negative gap (overlap) between this and next alignment: 1563136 to 1563136 (0 bp)
+				Next Alignment: 1563136 1604382 NODE_83_length_132176_cov_58.185055_1 103148 61904
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 103148 to 103147.
+			Align 54: 1563137 1604382 NODE_83_length_132176_cov_58.185055_1 103147 61904
+				Gap between this and next alignment: 1604382 to 1649829 (45446 bp)
+				Next Alignment: 1649829 1685002 NODE_83_length_132176_cov_58.185055_1 45681 10507
+
+			Align 55: 1649829 1685002 NODE_83_length_132176_cov_58.185055_1 45681 10507
+				Negative gap (overlap) between this and next alignment: 1685002 to 1684998 (-4 bp)
+				Next Alignment: 1684998 1695279 NODE_83_length_132176_cov_58.185055_1 10284 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 10284 to 10279.
+			Align 56: 1685003 1695279 NODE_83_length_132176_cov_58.185055_1 10279 1
+				Gap between this and next alignment: 1695279 to 1718556 (23276 bp)
+				Next Alignment: 1718556 1720115 NODE_154_length_1488_cov_122.942879_1 1560 1
+
+			Align 57: 1718556 1720115 NODE_154_length_1488_cov_122.942879_1 1560 1
+				Gap between this and next alignment: 1720115 to 1720327 (211 bp)
+				Next Alignment: 1720327 1731183 NODE_114_length_112813_cov_56.935165_1 112885 102029
+
+			Align 58: 1720327 1731183 NODE_114_length_112813_cov_56.935165_1 112885 102029
+				Gap between this and next alignment: 1731183 to 1731573 (389 bp)
+				Next Alignment: 1731573 1793677 NODE_114_length_112813_cov_56.935165_1 102029 39932
+
+			Align 59: 1731573 1793677 NODE_114_length_112813_cov_56.935165_1 102029 39932
+				Gap between this and next alignment: 1793677 to 1793766 (88 bp)
+				Next Alignment: 1793766 1801005 NODE_114_length_112813_cov_56.935165_1 39932 32693
+
+			Align 60: 1793766 1801005 NODE_114_length_112813_cov_56.935165_1 39932 32693
+				Gap between this and next alignment: 1801005 to 1801385 (379 bp)
+				Next Alignment: 1801385 1801781 NODE_114_length_112813_cov_56.935165_1 23069 22673
+
+			Align 61: 1801385 1801781 NODE_114_length_112813_cov_56.935165_1 23069 22673
+				Next Alignment: 1801782 1805666 NODE_114_length_112813_cov_56.935165_1 21449 17586
+
+			Align 62: 1801782 1805666 NODE_114_length_112813_cov_56.935165_1 21449 17586
+				Gap between this and next alignment: 1805666 to 1827538 (21871 bp)
+				Next Alignment: 1827538 1839012 NODE_22_length_60126_cov_58.055450_1 60198 48724
+
+			Align 63: 1827538 1839012 NODE_22_length_60126_cov_58.055450_1 60198 48724
+				Gap between this and next alignment: 1839012 to 1839216 (203 bp)
+				Next Alignment: 1839216 1844518 NODE_22_length_60126_cov_58.055450_1 48724 43422
+
+			Align 64: 1839216 1844518 NODE_22_length_60126_cov_58.055450_1 48724 43422
+				Gap between this and next alignment: 1844518 to 1846019 (1500 bp)
+				Next Alignment: 1846019 1872035 NODE_22_length_60126_cov_58.055450_1 40343 14327
+
+			Align 65: 1846019 1872035 NODE_22_length_60126_cov_58.055450_1 40343 14327
+				Negative gap (overlap) between this and next alignment: 1872035 to 1872031 (-4 bp)
+				Next Alignment: 1872031 1878708 NODE_3_length_162066_cov_57.140160_1 36222 42899
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 36222 to 36227.
+			Align 66: 1872036 1878708 NODE_3_length_162066_cov_57.140160_1 36227 42899
+				Gap between this and next alignment: 1878708 to 1878788 (79 bp)
+				Next Alignment: 1878788 1922925 NODE_3_length_162066_cov_57.140160_1 45353 89435
+
+			Align 67: 1878788 1922925 NODE_3_length_162066_cov_57.140160_1 45353 89435
+				Gap between this and next alignment: 1922925 to 1926731 (3805 bp)
+				Next Alignment: 1926731 1941423 NODE_3_length_162066_cov_57.140160_1 91828 106543
+
+			Align 68: 1926731 1941423 NODE_3_length_162066_cov_57.140160_1 91828 106543
+				Gap between this and next alignment: 1941423 to 1942816 (1392 bp)
+				Next Alignment: 1942816 1961823 NODE_3_length_162066_cov_57.140160_1 107890 126898
+
+			Align 69: 1942816 1961823 NODE_3_length_162066_cov_57.140160_1 107890 126898
+				Negative gap (overlap) between this and next alignment: 1961823 to 1961814 (-9 bp)
+				Next Alignment: 1961814 1971493 NODE_3_length_162066_cov_57.140160_1 130627 140305
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 130627 to 130637.
+			Align 70: 1961824 1971493 NODE_3_length_162066_cov_57.140160_1 130637 140305
+				Gap between this and next alignment: 1971493 to 1971660 (166 bp)
+				Next Alignment: 1971660 1992395 NODE_3_length_162066_cov_57.140160_1 140472 161215
+
+			Align 71: 1971660 1992395 NODE_3_length_162066_cov_57.140160_1 140472 161215
+				Gap between this and next alignment: 1992395 to 1992400 (4 bp)
+				Next Alignment: 1992400 1992942 NODE_3_length_162066_cov_57.140160_1 161597 162138
+
+			Align 72: 1992400 1992942 NODE_3_length_162066_cov_57.140160_1 161597 162138
+				Negative gap (overlap) between this and next alignment: 1992942 to 1992874 (-68 bp)
+				Next Alignment: 1992874 2005369 NODE_271_length_12416_cov_50.979141_1 12488 2
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 12488 to 12419.
+			Align 73: 1992943 2005369 NODE_271_length_12416_cov_50.979141_1 12419 2
+				Negative gap (overlap) between this and next alignment: 2005369 to 2005355 (-14 bp)
+				Next Alignment: 2005355 2015225 NODE_45_length_9881_cov_53.356342_1 58 9953
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 58 to 73.
+			Align 74: 2005370 2015225 NODE_45_length_9881_cov_53.356342_1 73 9953
+				Gap between this and next alignment: 2015225 to 2015303 (77 bp)
+				Next Alignment: 2015303 2015681 NODE_273_length_6992_cov_50.903603_1 1 379
+
+			Align 75: 2015303 2015681 NODE_273_length_6992_cov_50.903603_1 1 379
+				Gap between this and next alignment: 2015681 to 2021175 (5493 bp)
+				Next Alignment: 2021175 2051364 NODE_278_length_147440_cov_54.234943_3 108000 77812
+
+			Align 76: 2021175 2051364 NODE_278_length_147440_cov_54.234943_3 108000 77812
+				Negative gap (overlap) between this and next alignment: 2051364 to 2051361 (-3 bp)
+				Next Alignment: 2051361 2059506 NODE_278_length_147440_cov_54.234943_3 74953 66808
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 74953 to 74949.
+			Align 77: 2051365 2059506 NODE_278_length_147440_cov_54.234943_3 74949 66808
+				Gap between this and next alignment: 2059506 to 2078680 (19173 bp)
+				Next Alignment: 2078680 2084964 NODE_278_length_147440_cov_54.234943_3 67288 61003
+
+			Align 78: 2078680 2084964 NODE_278_length_147440_cov_54.234943_3 67288 61003
+				Gap between this and next alignment: 2084964 to 2102349 (17384 bp)
+				Next Alignment: 2102349 2104800 NODE_278_length_147440_cov_54.234943_3 59012 56558
+
+			Align 79: 2102349 2104800 NODE_278_length_147440_cov_54.234943_3 59012 56558
+				Gap between this and next alignment: 2104800 to 2146427 (41626 bp)
+				Next Alignment: 2146427 2203001 NODE_278_length_147440_cov_54.234943_3 56567 3
+
+			Align 80: 2146427 2203001 NODE_278_length_147440_cov_54.234943_3 56567 3
+				Gap between this and next alignment: 2203001 to 2203257 (255 bp)
+				Next Alignment: 2203257 2204321 NODE_278_length_147440_cov_54.234943_1 39159 38095
+
+			Align 81: 2203257 2204321 NODE_278_length_147440_cov_54.234943_1 39159 38095
+				Gap between this and next alignment: 2204321 to 2205525 (1203 bp)
+				Next Alignment: 2205525 2211074 NODE_278_length_147440_cov_54.234943_1 38010 32461
+
+			Align 82: 2205525 2211074 NODE_278_length_147440_cov_54.234943_1 38010 32461
+				Gap between this and next alignment: 2211074 to 2219661 (8586 bp)
+				Next Alignment: 2219661 2225872 NODE_278_length_147440_cov_54.234943_1 21937 15726
+
+			Align 83: 2219661 2225872 NODE_278_length_147440_cov_54.234943_1 21937 15726
+				Gap between this and next alignment: 2225872 to 2226675 (802 bp)
+				Next Alignment: 2226675 2239839 NODE_278_length_147440_cov_54.234943_1 13237 72
+
+			Align 84: 2226675 2239839 NODE_278_length_147440_cov_54.234943_1 13237 72
+				Negative gap (overlap) between this and next alignment: 2239839 to 2239835 (-4 bp)
+				Next Alignment: 2239835 2241384 NODE_14_length_10106_cov_54.529289_1 69 1617
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 69 to 74.
+			Align 85: 2239840 2241384 NODE_14_length_10106_cov_54.529289_1 74 1617
+				Gap between this and next alignment: 2241384 to 2244229 (2844 bp)
+				Next Alignment: 2244229 2251308 NODE_14_length_10106_cov_54.529289_1 3027 10106
+
+			Align 86: 2244229 2251308 NODE_14_length_10106_cov_54.529289_1 3027 10106
+				Negative gap (overlap) between this and next alignment: 2251308 to 2251302 (-6 bp)
+				Next Alignment: 2251302 2275312 NODE_164_length_26033_cov_55.813160_1 2094 26105
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2094 to 2101.
+			Align 87: 2251309 2275312 NODE_164_length_26033_cov_55.813160_1 2101 26105
+				Gap between this and next alignment: 2275312 to 2275648 (335 bp)
+				Next Alignment: 2275648 2290087 NODE_283_length_39817_cov_53.173820_2 1 14440
+
+			Align 88: 2275648 2290087 NODE_283_length_39817_cov_53.173820_2 1 14440
+				Gap between this and next alignment: 2290087 to 2294312 (4224 bp)
+				Next Alignment: 2294312 2319336 NODE_283_length_39817_cov_53.173820_2 14440 39497
+
+			Align 89: 2294312 2319336 NODE_283_length_39817_cov_53.173820_2 14440 39497
+				Negative gap (overlap) between this and next alignment: 2319336 to 2319332 (-4 bp)
+				Next Alignment: 2319332 2320951 NODE_109_length_1690_cov_49.800591_1 1691 71
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1691 to 1686.
+			Align 90: 2319337 2320951 NODE_109_length_1690_cov_49.800591_1 1686 71
+				Negative gap (overlap) between this and next alignment: 2320951 to 2320947 (-4 bp)
+				Next Alignment: 2320947 2327158 NODE_23_length_151419_cov_53.882355_1 151419 145208
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 151419 to 151414.
+			Align 91: 2320952 2327158 NODE_23_length_151419_cov_53.882355_1 151414 145208
+				Gap between this and next alignment: 2327158 to 2359792 (32633 bp)
+				Next Alignment: 2359792 2361872 NODE_23_length_151419_cov_53.882355_1 137975 135897
+
+			Align 92: 2359792 2361872 NODE_23_length_151419_cov_53.882355_1 137975 135897
+				Gap between this and next alignment: 2361872 to 2365030 (3157 bp)
+				Next Alignment: 2365030 2367792 NODE_23_length_151419_cov_53.882355_1 133548 130781
+
+			Align 93: 2365030 2367792 NODE_23_length_151419_cov_53.882355_1 133548 130781
+				Gap between this and next alignment: 2367792 to 2367862 (69 bp)
+				Next Alignment: 2367862 2369691 NODE_17_length_279671_cov_62.122593_1 131737 133570
+
+			Align 94: 2367862 2369691 NODE_17_length_279671_cov_62.122593_1 131737 133570
+				Gap between this and next alignment: 2369691 to 2436862 (67170 bp)
+				Next Alignment: 2436862 2440523 NODE_44_length_24613_cov_55.162598_1 6364 2705
+
+			Align 95: 2436862 2440523 NODE_44_length_24613_cov_55.162598_1 6364 2705
+				Gap between this and next alignment: 2440523 to 2471134 (30610 bp)
+				Next Alignment: 2471134 2490494 NODE_23_length_151419_cov_53.882355_1 103424 84055
+
+			Align 96: 2471134 2490494 NODE_23_length_151419_cov_53.882355_1 103424 84055
+				Gap between this and next alignment: 2490494 to 2491137 (642 bp)
+				Next Alignment: 2491137 2560089 NODE_23_length_151419_cov_53.882355_1 84055 15151
+
+			Align 97: 2491137 2560089 NODE_23_length_151419_cov_53.882355_1 84055 15151
+				Gap between this and next alignment: 2560089 to 2570035 (9945 bp)
+				Next Alignment: 2570035 2585117 NODE_23_length_151419_cov_53.882355_1 15154 73
+
+			Align 98: 2570035 2585117 NODE_23_length_151419_cov_53.882355_1 15154 73
+				Negative gap (overlap) between this and next alignment: 2585117 to 2585113 (-4 bp)
+				Next Alignment: 2585113 2602308 NODE_43_length_74107_cov_52.787266_1 74107 56912
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 74107 to 74102.
+			Align 99: 2585118 2602308 NODE_43_length_74107_cov_52.787266_1 74102 56912
+				Gap between this and next alignment: 2602308 to 2606282 (3973 bp)
+				Next Alignment: 2606282 2652904 NODE_43_length_74107_cov_52.787266_1 56457 9836
+
+			Align 100: 2606282 2652904 NODE_43_length_74107_cov_52.787266_1 56457 9836
+				Gap between this and next alignment: 2652904 to 2655874 (2969 bp)
+				Next Alignment: 2655874 2665673 NODE_43_length_74107_cov_52.787266_1 9871 72
+
+			Align 101: 2655874 2665673 NODE_43_length_74107_cov_52.787266_1 9871 72
+				Negative gap (overlap) between this and next alignment: 2665673 to 2665668 (-5 bp)
+				Next Alignment: 2665668 2671344 NODE_25_length_5745_cov_53.525673_1 71 5748
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 71 to 77.
+			Align 102: 2665674 2671344 NODE_25_length_5745_cov_53.525673_1 77 5748
+				Negative gap (overlap) between this and next alignment: 2671344 to 2671339 (-5 bp)
+				Next Alignment: 2671339 2719621 NODE_16_length_63598_cov_53.548775_1 71 48385
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 71 to 77.
+			Align 103: 2671345 2719621 NODE_16_length_63598_cov_53.548775_1 77 48385
+				Gap between this and next alignment: 2719621 to 2724950 (5328 bp)
+				Next Alignment: 2724950 2733414 NODE_16_length_63598_cov_53.548775_1 48879 57343
+
+			Align 104: 2724950 2733414 NODE_16_length_63598_cov_53.548775_1 48879 57343
+				Negative gap (overlap) between this and next alignment: 2733414 to 2733401 (-13 bp)
+				Next Alignment: 2733401 2802555 NODE_6_length_112918_cov_52.036045_1 43753 112919
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 43753 to 43767.
+			Align 105: 2733415 2802555 NODE_6_length_112918_cov_52.036045_1 43767 112919
+				Negative gap (overlap) between this and next alignment: 2802555 to 2802551 (-4 bp)
+				Next Alignment: 2802551 2823400 NODE_12_length_59189_cov_51.077381_1 71 20905
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 71 to 76.
+			Align 106: 2802556 2823400 NODE_12_length_59189_cov_51.077381_1 76 20905
+				Negative gap (overlap) between this and next alignment: 2823400 to 2823396 (-4 bp)
+				Next Alignment: 2823396 2845294 NODE_12_length_59189_cov_51.077381_1 21702 43552
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 21702 to 21707.
+			Align 107: 2823401 2845294 NODE_12_length_59189_cov_51.077381_1 21707 43552
+				Gap between this and next alignment: 2845294 to 2845862 (567 bp)
+				Next Alignment: 2845862 2874098 NODE_73_length_70663_cov_52.614395_1 1906 30146
+
+			Align 108: 2845862 2874098 NODE_73_length_70663_cov_52.614395_1 1906 30146
+				Gap between this and next alignment: 2874098 to 2874738 (639 bp)
+				Next Alignment: 2874738 2915244 NODE_73_length_70663_cov_52.614395_1 30210 70665
+
+			Align 109: 2874738 2915244 NODE_73_length_70663_cov_52.614395_1 30210 70665
+				Negative gap (overlap) between this and next alignment: 2915244 to 2915239 (-5 bp)
+				Next Alignment: 2915239 2925122 NODE_19_length_58476_cov_54.983841_1 58478 48596
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 58478 to 58472.
+			Align 110: 2915245 2925122 NODE_19_length_58476_cov_54.983841_1 58472 48596
+				Gap between this and next alignment: 2925122 to 2925264 (141 bp)
+				Next Alignment: 2925264 2933302 NODE_19_length_58476_cov_54.983841_1 48596 40558
+
+			Align 111: 2925264 2933302 NODE_19_length_58476_cov_54.983841_1 48596 40558
+				Gap between this and next alignment: 2933302 to 2934358 (1055 bp)
+				Next Alignment: 2934358 2940183 NODE_19_length_58476_cov_54.983841_1 29955 24124
+
+			Align 112: 2934358 2940183 NODE_19_length_58476_cov_54.983841_1 29955 24124
+				Gap between this and next alignment: 2940183 to 2940959 (775 bp)
+				Next Alignment: 2940959 2963905 NODE_19_length_58476_cov_54.983841_1 22932 1
+
+			Align 113: 2940959 2963905 NODE_19_length_58476_cov_54.983841_1 22932 1
+				The next alignment (2962886 2963089 NODE_65_length_3356_cov_53.676998_1 2392 2595) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2963905 to 2963834 (-71 bp)
+				Next Alignment: 2963834 2964932 NODE_269_length_1021_cov_113.904999_1 1 1093
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 73.
+			Align 115: 2963906 2964932 NODE_269_length_1021_cov_113.904999_1 73 1093
+				Gap between this and next alignment: 2964932 to 2972265 (7332 bp)
+				Next Alignment: 2972265 2987186 NODE_64_length_18406_cov_55.345322_1 18015 3076
+
+			Align 116: 2972265 2987186 NODE_64_length_18406_cov_55.345322_1 18015 3076
+				Gap between this and next alignment: 2987186 to 2987218 (31 bp)
+				Next Alignment: 2987218 2989547 NODE_64_length_18406_cov_55.345322_1 2331 1
+
+			Align 117: 2987218 2989547 NODE_64_length_18406_cov_55.345322_1 2331 1
+				Negative gap (overlap) between this and next alignment: 2989547 to 2989511 (-36 bp)
+				Next Alignment: 2989511 2992407 NODE_317_length_2777_cov_53.909256_1 2849 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2849 to 2812.
+			Align 118: 2989548 2992407 NODE_317_length_2777_cov_53.909256_1 2812 1
+				Gap between this and next alignment: 2992407 to 3017590 (25182 bp)
+				Next Alignment: 3017590 3041475 NODE_5_length_25917_cov_55.125130_1 2105 25989
+
+			Align 119: 3017590 3041475 NODE_5_length_25917_cov_55.125130_1 2105 25989
+				Gap between this and next alignment: 3041475 to 3041577 (101 bp)
+				Next Alignment: 3041577 3041903 NODE_9_length_185390_cov_55.819992_1 1 327
+
+			Align 120: 3041577 3041903 NODE_9_length_185390_cov_55.819992_1 1 327
+				Gap between this and next alignment: 3041903 to 3055988 (14084 bp)
+				Next Alignment: 3055988 3057172 NODE_9_length_185390_cov_55.819992_1 13082 14266
+
+			Align 121: 3055988 3057172 NODE_9_length_185390_cov_55.819992_1 13082 14266
+				Negative gap (overlap) between this and next alignment: 3057172 to 3057154 (-18 bp)
+				Next Alignment: 3057154 3057359 NODE_9_length_185390_cov_55.819992_1 14453 14248
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 14453 to 14434.
+			Align 122: 3057173 3057359 NODE_9_length_185390_cov_55.819992_1 14434 14248
+				Negative gap (overlap) between this and next alignment: 3057359 to 3057341 (-18 bp)
+				Next Alignment: 3057341 3102500 NODE_9_length_185390_cov_55.819992_1 14435 59588
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 14435 to 14454.
+			Align 123: 3057360 3102500 NODE_9_length_185390_cov_55.819992_1 14454 59588
+				Negative gap (overlap) between this and next alignment: 3102500 to 3102483 (-17 bp)
+				Next Alignment: 3102483 3128178 NODE_9_length_185390_cov_55.819992_1 60211 85896
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 60211 to 60229.
+			Align 124: 3102501 3128178 NODE_9_length_185390_cov_55.819992_1 60229 85896
+				Gap between this and next alignment: 3128178 to 3139476 (11297 bp)
+				Next Alignment: 3139476 3183572 NODE_9_length_185390_cov_55.819992_1 86772 130871
+
+			Align 125: 3139476 3183572 NODE_9_length_185390_cov_55.819992_1 86772 130871
+				Gap between this and next alignment: 3183572 to 3185093 (1520 bp)
+				Next Alignment: 3185093 3239682 NODE_9_length_185390_cov_55.819992_1 130857 185462
+
+			Align 126: 3185093 3239682 NODE_9_length_185390_cov_55.819992_1 130857 185462
+				Gap between this and next alignment: 3239682 to 3244701 (5018 bp)
+				Next Alignment: 3244701 3284082 NODE_7_length_52659_cov_56.544502_1 52731 13240
+
+			Align 127: 3244701 3284082 NODE_7_length_52659_cov_56.544502_1 52731 13240
+				Gap between this and next alignment: 3284082 to 3284180 (97 bp)
+				Next Alignment: 3284180 3287896 NODE_7_length_52659_cov_56.544502_1 13087 9371
+
+			Align 128: 3284180 3287896 NODE_7_length_52659_cov_56.544502_1 13087 9371
+				Gap between this and next alignment: 3287896 to 3303419 (15522 bp)
+				Next Alignment: 3303419 3372115 NODE_54_length_86068_cov_57.127769_1 9082 77783
+
+			Align 129: 3303419 3372115 NODE_54_length_86068_cov_57.127769_1 9082 77783
+				Gap between this and next alignment: 3372115 to 3372262 (146 bp)
+				Next Alignment: 3372262 3380459 NODE_54_length_86068_cov_57.127769_1 77943 86140
+
+			Align 130: 3372262 3380459 NODE_54_length_86068_cov_57.127769_1 77943 86140
+				Negative gap (overlap) between this and next alignment: 3380459 to 3380423 (-36 bp)
+				Next Alignment: 3380423 3381507 NODE_318_length_1049_cov_54.764538_1 1121 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1121 to 1084.
+			Align 131: 3380460 3381507 NODE_318_length_1049_cov_54.764538_1 1084 1
+				Gap between this and next alignment: 3381507 to 3381840 (332 bp)
+				Next Alignment: 3381840 3389553 NODE_320_length_65283_cov_57.874821_2 7715 1
+
+			Align 132: 3381840 3389553 NODE_320_length_65283_cov_57.874821_2 7715 1
+				Gap between this and next alignment: 3389553 to 3389559 (5 bp)
+				Next Alignment: 3389559 3394851 NODE_320_length_65283_cov_57.874821_1 57630 52334
+
+			Align 133: 3389559 3394851 NODE_320_length_65283_cov_57.874821_1 57630 52334
+				Negative gap (overlap) between this and next alignment: 3394851 to 3394837 (-14 bp)
+				Next Alignment: 3394837 3395241 NODE_320_length_65283_cov_57.874821_1 51587 51183
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 51587 to 51573.
+			Align 134: 3394852 3395241 NODE_320_length_65283_cov_57.874821_1 51573 51183
+				Gap between this and next alignment: 3395241 to 3397335 (2093 bp)
+				Next Alignment: 3397335 3448367 NODE_320_length_65283_cov_57.874821_1 51015 1
+
+			Align 135: 3397335 3448367 NODE_320_length_65283_cov_57.874821_1 51015 1
+				Negative gap (overlap) between this and next alignment: 3448367 to 3448304 (-63 bp)
+				Next Alignment: 3448304 3452470 NODE_101_length_4095_cov_57.834431_1 1 4167
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 65.
+			Align 136: 3448368 3452470 NODE_101_length_4095_cov_57.834431_1 65 4167
+				Gap between this and next alignment: 3452470 to 3452857 (386 bp)
+				Next Alignment: 3452857 3483730 NODE_51_length_34765_cov_58.359413_1 1 30874
+
+			Align 137: 3452857 3483730 NODE_51_length_34765_cov_58.359413_1 1 30874
+				Gap between this and next alignment: 3483730 to 3486598 (2867 bp)
+				Next Alignment: 3486598 3487716 NODE_51_length_34765_cov_58.359413_1 33646 34765
+
+			Align 138: 3486598 3487716 NODE_51_length_34765_cov_58.359413_1 33646 34765
+				Negative gap (overlap) between this and next alignment: 3487716 to 3487712 (-4 bp)
+				Next Alignment: 3487712 3527059 NODE_8_length_86812_cov_57.052620_1 86814 47488
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 86814 to 86809.
+			Align 139: 3487717 3527059 NODE_8_length_86812_cov_57.052620_1 86809 47488
+				Gap between this and next alignment: 3527059 to 3527536 (476 bp)
+				Next Alignment: 3527536 3572403 NODE_8_length_86812_cov_57.052620_1 47011 2148
+
+			Align 140: 3527536 3572403 NODE_8_length_86812_cov_57.052620_1 47011 2148
+				Gap between this and next alignment: 3572403 to 3588446 (16042 bp)
+				Next Alignment: 3588446 3628034 NODE_10_length_186544_cov_60.013256_1 185934 146386
+
+			Align 141: 3588446 3628034 NODE_10_length_186544_cov_60.013256_1 185934 146386
+				Gap between this and next alignment: 3628034 to 3628168 (133 bp)
+				Next Alignment: 3628168 3706374 NODE_10_length_186544_cov_60.013256_1 146300 68086
+
+			Align 142: 3628168 3706374 NODE_10_length_186544_cov_60.013256_1 146300 68086
+				Next Alignment: 3706375 3755836 NODE_10_length_186544_cov_60.013256_1 67977 18526
+
+			Align 143: 3706375 3755836 NODE_10_length_186544_cov_60.013256_1 67977 18526
+				Gap between this and next alignment: 3755836 to 3756507 (670 bp)
+				Next Alignment: 3756507 3774902 NODE_10_length_186544_cov_60.013256_1 18394 1
+
+			Align 144: 3756507 3774902 NODE_10_length_186544_cov_60.013256_1 18394 1
+				Gap between this and next alignment: 3774902 to 3775151 (248 bp)
+				Next Alignment: 3775151 3778262 NODE_61_length_34186_cov_59.504036_1 1 3112
+
+			Align 145: 3775151 3778262 NODE_61_length_34186_cov_59.504036_1 1 3112
+				Negative gap (overlap) between this and next alignment: 3778262 to 3778255 (-7 bp)
+				Next Alignment: 3778255 3808017 NODE_61_length_34186_cov_59.504036_1 4426 34187
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4426 to 4434.
+			Align 146: 3778263 3808017 NODE_61_length_34186_cov_59.504036_1 4434 34187
+				Negative gap (overlap) between this and next alignment: 3808017 to 3808013 (-4 bp)
+				Next Alignment: 3808013 3836148 NODE_27_length_28132_cov_60.350456_1 71 28204
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 71 to 76.
+			Align 147: 3808018 3836148 NODE_27_length_28132_cov_60.350456_1 76 28204
+				Gap between this and next alignment: 3836148 to 3836435 (286 bp)
+				Next Alignment: 3836435 3847597 NODE_82_length_60873_cov_59.715244_1 40 11217
+
+			Align 148: 3836435 3847597 NODE_82_length_60873_cov_59.715244_1 40 11217
+				Gap between this and next alignment: 3847597 to 3848779 (1181 bp)
+				Next Alignment: 3848779 3856732 NODE_82_length_60873_cov_59.715244_1 11221 19173
+
+			Align 149: 3848779 3856732 NODE_82_length_60873_cov_59.715244_1 11221 19173
+				Gap between this and next alignment: 3856732 to 3857908 (1175 bp)
+				Next Alignment: 3857908 3859574 NODE_82_length_60873_cov_59.715244_1 19171 20837
+
+			Align 150: 3857908 3859574 NODE_82_length_60873_cov_59.715244_1 19171 20837
+				Gap between this and next alignment: 3859574 to 3859714 (139 bp)
+				Next Alignment: 3859714 3899506 NODE_82_length_60873_cov_59.715244_1 21153 60945
+
+			Align 151: 3859714 3899506 NODE_82_length_60873_cov_59.715244_1 21153 60945
+				Gap between this and next alignment: 3899506 to 3905609 (6102 bp)
+				Next Alignment: 3905609 3918354 NODE_110_length_141492_cov_59.934669_1 141544 128800
+
+			Align 152: 3905609 3918354 NODE_110_length_141492_cov_59.934669_1 141544 128800
+				Gap between this and next alignment: 3918354 to 3922358 (4003 bp)
+				Next Alignment: 3922358 3984584 NODE_110_length_141492_cov_59.934669_1 124448 62207
+
+			Align 153: 3922358 3984584 NODE_110_length_141492_cov_59.934669_1 124448 62207
+				Gap between this and next alignment: 3984584 to 3984590 (5 bp)
+				Next Alignment: 3984590 4042914 NODE_110_length_141492_cov_59.934669_1 58398 73
+
+			Align 154: 3984590 4042914 NODE_110_length_141492_cov_59.934669_1 58398 73
+				Negative gap (overlap) between this and next alignment: 4042914 to 4042907 (-7 bp)
+				Next Alignment: 4042907 4073269 NODE_165_length_96718_cov_59.660995_1 2369 32712
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2369 to 2377.
+			Align 155: 4042915 4073269 NODE_165_length_96718_cov_59.660995_1 2377 32712
+				Gap between this and next alignment: 4073269 to 4075483 (2213 bp)
+				Next Alignment: 4075483 4079475 NODE_165_length_96718_cov_59.660995_1 33018 37022
+
+			Align 156: 4075483 4079475 NODE_165_length_96718_cov_59.660995_1 33018 37022
+				Gap between this and next alignment: 4079475 to 4083512 (4036 bp)
+				Next Alignment: 4083512 4091123 NODE_165_length_96718_cov_59.660995_1 41059 48660
+
+			Align 157: 4083512 4091123 NODE_165_length_96718_cov_59.660995_1 41059 48660
+				Gap between this and next alignment: 4091123 to 4091134 (10 bp)
+				Next Alignment: 4091134 4112182 NODE_165_length_96718_cov_59.660995_1 57002 78048
+
+			Align 158: 4091134 4112182 NODE_165_length_96718_cov_59.660995_1 57002 78048
+				Gap between this and next alignment: 4112182 to 4124138 (11955 bp)
+				Next Alignment: 4124138 4126584 NODE_165_length_96718_cov_59.660995_1 94344 96790
+
+			Align 159: 4124138 4126584 NODE_165_length_96718_cov_59.660995_1 94344 96790
+				Gap between this and next alignment: 4126584 to 4126724 (139 bp)
+				Next Alignment: 4126724 4129800 NODE_49_length_286904_cov_62.520607_1 1 3076
+
+			Align 160: 4126724 4129800 NODE_49_length_286904_cov_62.520607_1 1 3076
+				Gap between this and next alignment: 4129800 to 4131163 (1362 bp)
+				Next Alignment: 4131163 4134792 NODE_49_length_286904_cov_62.520607_1 4121 7750
+
+			Align 161: 4131163 4134792 NODE_49_length_286904_cov_62.520607_1 4121 7750
+				Gap between this and next alignment: 4134792 to 4136591 (1798 bp)
+				Next Alignment: 4136591 4154189 NODE_49_length_286904_cov_62.520607_1 7771 25370
+
+			Align 162: 4136591 4154189 NODE_49_length_286904_cov_62.520607_1 7771 25370
+				Negative gap (overlap) between this and next alignment: 4154189 to 4154178 (-11 bp)
+				Next Alignment: 4154178 4154260 NODE_49_length_286904_cov_62.520607_1 27978 28060
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 27978 to 27990.
+			Align 163: 4154190 4154260 NODE_49_length_286904_cov_62.520607_1 27990 28060
+				Gap between this and next alignment: 4154260 to 4154418 (157 bp)
+				Next Alignment: 4154418 4231255 NODE_49_length_286904_cov_62.520607_1 28262 105110
+
+			Align 164: 4154418 4231255 NODE_49_length_286904_cov_62.520607_1 28262 105110
+				Gap between this and next alignment: 4231255 to 4232940 (1684 bp)
+				Next Alignment: 4232940 4289861 NODE_49_length_286904_cov_62.520607_1 106857 163780
+
+			Align 165: 4232940 4289861 NODE_49_length_286904_cov_62.520607_1 106857 163780
+				Gap between this and next alignment: 4289861 to 4322485 (32623 bp)
+				Next Alignment: 4322485 4322742 NODE_165_length_96718_cov_59.660995_1 1152 1409
+
+			Align 166: 4322485 4322742 NODE_165_length_96718_cov_59.660995_1 1152 1409
+				Gap between this and next alignment: 4322742 to 4329075 (6332 bp)
+				Next Alignment: 4329075 4337663 NODE_49_length_286904_cov_62.520607_1 163765 172361
+
+			Align 167: 4329075 4337663 NODE_49_length_286904_cov_62.520607_1 163765 172361
+				Gap between this and next alignment: 4337663 to 4337671 (7 bp)
+				Next Alignment: 4337671 4350878 NODE_49_length_286904_cov_62.520607_1 176885 190092
+
+			Align 168: 4337671 4350878 NODE_49_length_286904_cov_62.520607_1 176885 190092
+				Negative gap (overlap) between this and next alignment: 4350878 to 4350868 (-10 bp)
+				Next Alignment: 4350868 4352767 NODE_49_length_286904_cov_62.520607_1 198571 200470
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 198571 to 198582.
+			Align 169: 4350879 4352767 NODE_49_length_286904_cov_62.520607_1 198582 200470
+				Gap between this and next alignment: 4352767 to 4353277 (509 bp)
+				Next Alignment: 4353277 4377656 NODE_49_length_286904_cov_62.520607_1 221003 245379
+
+			Align 170: 4353277 4377656 NODE_49_length_286904_cov_62.520607_1 221003 245379
+				Gap between this and next alignment: 4377656 to 4377660 (3 bp)
+				Next Alignment: 4377660 4414942 NODE_49_length_286904_cov_62.520607_1 249102 286385
+
+			Align 171: 4377660 4414942 NODE_49_length_286904_cov_62.520607_1 249102 286385
+				Gap between this and next alignment: 4414942 to 4441712 (26769 bp)
+				Next Alignment: 4441712 4490258 NODE_268_length_48479_cov_62.659626_1 1 48551
+
+			Align 172: 4441712 4490258 NODE_268_length_48479_cov_62.659626_1 1 48551
+				The next alignment (4490187 4490258 NODE_15_length_53190_cov_64.147957_1 53191 53262) is redundant. Skipping.
+				Gap between this and next alignment: 4490258 to 4493994 (3735 bp)
+				Next Alignment: 4493994 4495558 NODE_85_length_1493_cov_383.275940_1 1565 1
+
+			Align 174: 4493994 4495558 NODE_85_length_1493_cov_383.275940_1 1565 1
+				Gap between this and next alignment: 4495558 to 4496034 (475 bp)
+				Next Alignment: 4496034 4496251 NODE_334_length_378434_cov_65.161682_3 153367 153150
+
+			Align 175: 4496034 4496251 NODE_334_length_378434_cov_65.161682_3 153367 153150
+				Gap between this and next alignment: 4496251 to 4496722 (470 bp)
+				Next Alignment: 4496722 4515428 NODE_13_length_133924_cov_63.953175_1 133733 115032
+
+			Align 176: 4496722 4515428 NODE_13_length_133924_cov_63.953175_1 133733 115032
+				Gap between this and next alignment: 4515428 to 4519435 (4006 bp)
+				Next Alignment: 4519435 4542544 NODE_13_length_133924_cov_63.953175_1 115032 91923
+
+			Align 177: 4519435 4542544 NODE_13_length_133924_cov_63.953175_1 115032 91923
+				Gap between this and next alignment: 4542544 to 4543593 (1048 bp)
+				Next Alignment: 4543593 4591370 NODE_13_length_133924_cov_63.953175_1 90034 42257
+
+			Align 178: 4543593 4591370 NODE_13_length_133924_cov_63.953175_1 90034 42257
+				Gap between this and next alignment: 4591370 to 4600722 (9351 bp)
+				Next Alignment: 4600722 4601686 NODE_13_length_133924_cov_63.953175_1 33001 32037
+
+			Align 179: 4600722 4601686 NODE_13_length_133924_cov_63.953175_1 33001 32037
+				Gap between this and next alignment: 4601686 to 4621129 (19442 bp)
+				Next Alignment: 4621129 4645903 NODE_13_length_133924_cov_63.953175_1 24774 1
+
+			Align 180: 4621129 4645903 NODE_13_length_133924_cov_63.953175_1 24774 1
+				Gap between this and next alignment: 4645903 to 4651888 (5984 bp)
+				Next Alignment: 4651888 4690356 NODE_15_length_53190_cov_64.147957_1 205 38685
+
+			Align 181: 4651888 4690356 NODE_15_length_53190_cov_64.147957_1 205 38685
+				Gap between this and next alignment: 4690356 to 4690371 (14 bp)
+				Next Alignment: 4690371 4697660 NODE_15_length_53190_cov_64.147957_1 53126 45836
+
+			Align 182: 4690371 4697660 NODE_15_length_53190_cov_64.147957_1 53126 45836
+				Gap between this and next alignment: 4697660 to 4697719 (58 bp)
+				Next Alignment: 4697719 4704840 NODE_15_length_53190_cov_64.147957_1 45840 38719
+
+			Align 183: 4697719 4704840 NODE_15_length_53190_cov_64.147957_1 45840 38719
+				Negative gap (overlap) between this and next alignment: 4704840 to 4704839 (-1 bp)
+				Next Alignment: 4704839 4704967 NODE_15_length_53190_cov_64.147957_1 53119 53247
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 53119 to 53121.
+			Align 184: 4704841 4704967 NODE_15_length_53190_cov_64.147957_1 53121 53247
+				Gap between this and next alignment: 4704967 to 4711347 (6379 bp)
+				Next Alignment: 4711347 4711483 NODE_13_length_133924_cov_63.953175_1 133996 133860
+
+			Align 185: 4711347 4711483 NODE_13_length_133924_cov_63.953175_1 133996 133860
+				The next alignment (4711347 4711425 NODE_110_length_141492_cov_59.934669_1 141564 141486) is redundant. Skipping.
+				Gap between this and next alignment: 4711483 to 4721056 (9572 bp)
+				Next Alignment: 4721056 4800153 NODE_334_length_378434_cov_65.161682_3 152462 73388
+
+			Align 187: 4721056 4800153 NODE_334_length_378434_cov_65.161682_3 152462 73388
+				Gap between this and next alignment: 4800153 to 4813214 (13060 bp)
+				Next Alignment: 4813214 4815756 NODE_69_length_3079_cov_115.148102_1 3151 609
+
+			Align 188: 4813214 4815756 NODE_69_length_3079_cov_115.148102_1 3151 609
+				Gap between this and next alignment: 4815756 to 4857785 (42028 bp)
+				Next Alignment: 4857785 4883354 NODE_334_length_378434_cov_65.161682_3 73411 47837
+
+			Align 189: 4857785 4883354 NODE_334_length_378434_cov_65.161682_3 73411 47837
+				The next alignment (4880240 4880748 NODE_55_length_474610_cov_65.376259_2 79691 80195) is redundant. Skipping.
+				The next alignment (4880245 4880747 NODE_82_length_60873_cov_59.715244_1 11521 11019) is redundant. Skipping.
+				Gap between this and next alignment: 4883354 to 4894479 (11124 bp)
+				Next Alignment: 4894479 4917760 NODE_334_length_378434_cov_65.161682_3 47698 24459
+
+			Align 192: 4894479 4917760 NODE_334_length_378434_cov_65.161682_3 47698 24459
+				Gap between this and next alignment: 4917760 to 4939619 (21858 bp)
+				Next Alignment: 4939619 4955366 NODE_334_length_378434_cov_65.161682_3 17992 2243
+
+			Align 193: 4939619 4955366 NODE_334_length_378434_cov_65.161682_3 17992 2243
+				Negative gap (overlap) between this and next alignment: 4955366 to 4955203 (-163 bp)
+				Next Alignment: 4955203 4955615 NODE_28_length_14095_cov_64.614548_2 1611 2023
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1611 to 1775.
+			Align 194: 4955367 4955615 NODE_28_length_14095_cov_64.614548_2 1775 2023
+				Gap between this and next alignment: 4955615 to 4957138 (1522 bp)
+				Next Alignment: 4957138 4957629 NODE_334_length_378434_cov_65.161682_3 492 1
+
+			Align 195: 4957138 4957629 NODE_334_length_378434_cov_65.161682_3 492 1
+				Gap between this and next alignment: 4957629 to 4957691 (61 bp)
+				Next Alignment: 4957691 4984135 NODE_334_length_378434_cov_65.161682_2 99802 73360
+
+			Align 196: 4957691 4984135 NODE_334_length_378434_cov_65.161682_2 99802 73360
+				Gap between this and next alignment: 4984135 to 4984363 (227 bp)
+				Next Alignment: 4984363 5045020 NODE_334_length_378434_cov_65.161682_2 73139 12483
+
+			Align 197: 4984363 5045020 NODE_334_length_378434_cov_65.161682_2 73139 12483
+				Gap between this and next alignment: 5045020 to 5047839 (2818 bp)
+				Next Alignment: 5047839 5049107 NODE_334_length_378434_cov_65.161682_2 3696 2429
+
+			Align 198: 5047839 5049107 NODE_334_length_378434_cov_65.161682_2 3696 2429
+				The next alignment (5048759 5049085 NODE_334_length_378434_cov_65.161682_1 125214 124888) is redundant. Skipping.
+				Gap between this and next alignment: 5049107 to 5051765 (2657 bp)
+				Next Alignment: 5051765 5054506 NODE_334_length_378434_cov_65.161682_2 6634 3893
+
+			Align 200: 5051765 5054506 NODE_334_length_378434_cov_65.161682_2 6634 3893
+				Gap between this and next alignment: 5054506 to 5055599 (1092 bp)
+				Next Alignment: 5055599 5057027 NODE_334_length_378434_cov_65.161682_2 3878 2450
+
+			Align 201: 5055599 5057027 NODE_334_length_378434_cov_65.161682_2 3878 2450
+				Gap between this and next alignment: 5057027 to 5061956 (4928 bp)
+				Next Alignment: 5061956 5084231 NODE_334_length_378434_cov_65.161682_1 122402 100136
+
+			Align 202: 5061956 5084231 NODE_334_length_378434_cov_65.161682_1 122402 100136
+				Gap between this and next alignment: 5084231 to 5100453 (16221 bp)
+				Next Alignment: 5100453 5103927 NODE_334_length_378434_cov_65.161682_1 100137 96663
+
+			Align 203: 5100453 5103927 NODE_334_length_378434_cov_65.161682_1 100137 96663
+				Gap between this and next alignment: 5103927 to 5106162 (2234 bp)
+				Next Alignment: 5106162 5110276 NODE_334_length_378434_cov_65.161682_1 96634 92519
+
+			Align 204: 5106162 5110276 NODE_334_length_378434_cov_65.161682_1 96634 92519
+				Gap between this and next alignment: 5110276 to 5116639 (6362 bp)
+				Next Alignment: 5116639 5132708 NODE_334_length_378434_cov_65.161682_1 92525 76450
+
+			Align 205: 5116639 5132708 NODE_334_length_378434_cov_65.161682_1 92525 76450
+				Negative gap (overlap) between this and next alignment: 5132708 to 5132693 (-15 bp)
+				Next Alignment: 5132693 5133150 NODE_334_length_378434_cov_65.161682_1 76008 76465
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 76008 to 76024.
+			Align 206: 5132709 5133150 NODE_334_length_378434_cov_65.161682_1 76024 76465
+				Negative gap (overlap) between this and next alignment: 5133150 to 5133135 (-15 bp)
+				Next Alignment: 5133135 5174344 NODE_334_length_378434_cov_65.161682_1 76023 34816
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 76023 to 76007.
+			Align 207: 5133151 5174344 NODE_334_length_378434_cov_65.161682_1 76007 34816
+				Gap between this and next alignment: 5174344 to 5250874 (76529 bp)
+				Next Alignment: 5250874 5261570 NODE_334_length_378434_cov_65.161682_1 34820 24122
+
+			Align 208: 5250874 5261570 NODE_334_length_378434_cov_65.161682_1 34820 24122
+				Gap between this and next alignment: 5261570 to 5263840 (2269 bp)
+				Next Alignment: 5263840 5268798 NODE_334_length_378434_cov_65.161682_1 24091 19133
+
+			Align 209: 5263840 5268798 NODE_334_length_378434_cov_65.161682_1 24091 19133
+				Gap between this and next alignment: 5268798 to 5270219 (1420 bp)
+				Next Alignment: 5270219 5287942 NODE_334_length_378434_cov_65.161682_1 17719 1
+
+			Align 210: 5270219 5287942 NODE_334_length_378434_cov_65.161682_1 17719 1
+				Gap between this and next alignment: 5287942 to 5288084 (141 bp)
+				Next Alignment: 5288084 5289385 NODE_104_length_1230_cov_381.622772_1 1302 1
+
+			Align 211: 5288084 5289385 NODE_104_length_1230_cov_381.622772_1 1302 1
+				Gap between this and next alignment: 5289385 to 5289465 (79 bp)
+				Next Alignment: 5289465 5291024 NODE_307_length_1488_cov_396.461700_1 1560 1
+
+			Align 212: 5289465 5291024 NODE_307_length_1488_cov_396.461700_1 1560 1
+				Negative gap (overlap) between this and next alignment: 5291024 to 5290953 (-71 bp)
+				Next Alignment: 5290953 5291560 NODE_287_length_533_cov_46.148216_1 1 605
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 73.
+			Align 213: 5291025 5291560 NODE_287_length_533_cov_46.148216_1 73 605
+				Gap between this and next alignment: 5291560 to 5293631 (2070 bp)
+				Next Alignment: 5293631 5305747 NODE_28_length_14095_cov_64.614548_1 18 12134
+
+			Align 214: 5293631 5305747 NODE_28_length_14095_cov_64.614548_1 18 12134
+				Gap between this and next alignment: 5305747 to 5307412 (1664 bp)
+				Next Alignment: 5307412 5307620 NODE_55_length_474610_cov_65.376259_1 210 2
+
+			Align 215: 5307412 5307620 NODE_55_length_474610_cov_65.376259_1 210 2
+				Gap between this and next alignment: 5307620 to 5307927 (306 bp)
+				Next Alignment: 5307927 5336072 NODE_42_length_28150_cov_67.017441_1 28222 71
+
+			Align 216: 5307927 5336072 NODE_42_length_28150_cov_67.017441_1 28222 71
+				Negative gap (overlap) between this and next alignment: 5336072 to 5336068 (-4 bp)
+				Next Alignment: 5336068 5338795 NODE_1_length_116350_cov_65.461594_1 116350 113625
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 116350 to 116345.
+			Align 217: 5336073 5338795 NODE_1_length_116350_cov_65.461594_1 116345 113625
+				Gap between this and next alignment: 5338795 to 5340638 (1842 bp)
+				Next Alignment: 5340638 5373121 NODE_1_length_116350_cov_65.461594_1 111663 79176
+
+			Align 218: 5340638 5373121 NODE_1_length_116350_cov_65.461594_1 111663 79176
+			END in current alignment.  Modifying 5373121 to 5373121.
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1623/dataset_1705_files/Scaffold/contigs_reports/nucmer_output/BF-H-Velvet-Scaffold_broken.used_snps
+
+Results:
+	Local Misassemblies: 46
+	Misassemblies: 98
+		Relocations: 94
+		Translocations: 0
+		Inversions: 4
+	Misassembled Contigs: 33
+	Misassembled Contig Bases: 3745674
+	Misassmblies Inter-Contig Overlap: 1784
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 63 + 18 part
+Partially Unaligned Contigs with Misassemblies: 6
+Unaligned Contig Bases: 487386
+
+Ambiguously Mapped Contigs: 5
+Total Bases in Ambiguously Mapped Contigs: 6125
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 4281808
+
+	SNPs: 28261
+	Insertions: 1217
+	Deletions: 1336
+
+	Positive Gaps: 163
+		Internal Gaps:  108
+		External Gaps:  55
+		External Gap Total:  398441
+		External Gap Average: 7244
+	Negative Gaps: 45
+		Internal Overlaps:  19
+		External Overlaps:  26
+		External Overlaps Total: -653
+		External Overlaps Average: -25
+	Contigs with Redundant Alignments: 6 (1766)

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <body>
+    <a name="top"><h1>Tool output</h1></a>
+    <small>Compare this output? Use the tool <i>Compare statistics</i> from the tool menu.</small><br>
+    <p><h2>Content</h2>
+    <dl>
+    <dt><a href="#Contig"><strong><font color="black">Contig</font></strong></a>        <a href="Contig.zip">Download</a></dt>
+<dd>    <a href="#Contig-aligned_stats"><font color="black">aligned_stats</font></a><br>
+    <a href="#Contig-basic_stats"><font color="black">basic_stats</font></a><br>
+    <a href="#Contig-contigs_reports"><font color="black">contigs_reports</font></a><br>
+    <a href="#Contig-contigs_reports-nucmer_output"><font color="black">nucmer_output</font></a><br>
+    <a href="#Contig-genome_stats"><font color="black">genome_stats</font></a><br>
+    <a href="#Contig-json"><font color="black">json</font></a><br>
+    </dd><br>
+    </dl>
+    <hr>
+<a name="Contig"><h3>Contig</h3></a><ul>
+    <li><a href="Contig/plots.pdf">plots.pdf</a><br>
+    <li><a href="Contig/quast.log">quast.log</a><br>
+    <li><a href="Contig/report.html">report.html</a><br>
+    <li><a href="Contig/report.tex">report.tex</a><br>
+    <li><a href="Contig/report.tsv">report.tsv</a><br>
+    <li><a href="Contig/report.txt">report.txt</a><br>
+    <li><a href="Contig/transposed_report.tex">transposed_report.tex</a><br>
+    <li><a href="Contig/transposed_report.tsv">transposed_report.tsv</a><br>
+    <li><a href="Contig/transposed_report.txt">transposed_report.txt</a><br>
+    </ul></p>
+   <p><a name="Contig-aligned_stats"><strong>aligned_stats</strong></a><ul>
+    <li><a href="Contig/aligned_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="Contig/aligned_stats/NAx_plot.pdf">NAx_plot.pdf</a><br>
+    <li><a href="Contig/aligned_stats/NGAx_plot.pdf">NGAx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="Contig-basic_stats"><strong>basic_stats</strong></a><ul>
+    <li><a href="Contig/basic_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="Contig/basic_stats/GC_content_plot.pdf">GC_content_plot.pdf</a><br>
+    <li><a href="Contig/basic_stats/NGx_plot.pdf">NGx_plot.pdf</a><br>
+    <li><a href="Contig/basic_stats/Nx_plot.pdf">Nx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="Contig-contigs_reports"><strong>contigs_reports</strong></a><ul>
+    <li><a href="Contig/contigs_reports/alignments_XA-H-Abyss-Contig.tsv">alignments_XA-H-Abyss-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_XA-H-Cabog-Contig.tsv">alignments_XA-H-Cabog-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_XA-H-Mira-Contig.tsv">alignments_XA-H-Mira-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_XA-H-Msrca-Contig.tsv">alignments_XA-H-Msrca-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_XA-H-Sga-Contig.tsv">alignments_XA-H-Sga-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_XA-H-Soap-Contig.tsv">alignments_XA-H-Soap-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_XA-H-Spades-Contig.tsv">alignments_XA-H-Spades-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_XA-H-Velvet-Contig.tsv">alignments_XA-H-Velvet-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Abyss-Contig.stderr">contigs_report_XA-H-Abyss-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Abyss-Contig.stdout">contigs_report_XA-H-Abyss-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Cabog-Contig.stderr">contigs_report_XA-H-Cabog-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Cabog-Contig.stdout">contigs_report_XA-H-Cabog-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Mira-Contig.stderr">contigs_report_XA-H-Mira-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Mira-Contig.stdout">contigs_report_XA-H-Mira-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Msrca-Contig.stderr">contigs_report_XA-H-Msrca-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Msrca-Contig.stdout">contigs_report_XA-H-Msrca-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Sga-Contig.stderr">contigs_report_XA-H-Sga-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Sga-Contig.stdout">contigs_report_XA-H-Sga-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Soap-Contig.stderr">contigs_report_XA-H-Soap-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Soap-Contig.stdout">contigs_report_XA-H-Soap-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Spades-Contig.stderr">contigs_report_XA-H-Spades-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Spades-Contig.stdout">contigs_report_XA-H-Spades-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Velvet-Contig.stderr">contigs_report_XA-H-Velvet-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_XA-H-Velvet-Contig.stdout">contigs_report_XA-H-Velvet-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/misassemblies_report.tex">misassemblies_report.tex</a><br>
+    <li><a href="Contig/contigs_reports/misassemblies_report.tsv">misassemblies_report.tsv</a><br>
+    <li><a href="Contig/contigs_reports/misassemblies_report.txt">misassemblies_report.txt</a><br>
+    <li><a href="Contig/contigs_reports/unaligned_report.tex">unaligned_report.tex</a><br>
+    <li><a href="Contig/contigs_reports/unaligned_report.tsv">unaligned_report.tsv</a><br>
+    <li><a href="Contig/contigs_reports/unaligned_report.txt">unaligned_report.txt</a><br>
+    <li><a href="Contig/contigs_reports/XA-H-Abyss-Contig.mis_contigs.fa">XA-H-Abyss-Contig.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/XA-H-Cabog-Contig.mis_contigs.fa">XA-H-Cabog-Contig.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/XA-H-Mira-Contig.mis_contigs.fa">XA-H-Mira-Contig.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/XA-H-Msrca-Contig.mis_contigs.fa">XA-H-Msrca-Contig.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/XA-H-Sga-Contig.mis_contigs.fa">XA-H-Sga-Contig.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/XA-H-Soap-Contig.mis_contigs.fa">XA-H-Soap-Contig.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/XA-H-Spades-Contig.mis_contigs.fa">XA-H-Spades-Contig.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/XA-H-Velvet-Contig.mis_contigs.fa">XA-H-Velvet-Contig.mis_contigs.fa</a><br>
+    <li><a name="Contig-contigs_reports-nucmer_output"><strong>nucmer_output</strong></a><br><ul>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Abyss-Contig.all_snps">XA-H-Abyss-Contig.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Abyss-Contig.coords">XA-H-Abyss-Contig.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Abyss-Contig.coords.filtered">XA-H-Abyss-Contig.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Abyss-Contig.sf">XA-H-Abyss-Contig.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Abyss-Contig.unaligned">XA-H-Abyss-Contig.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Abyss-Contig.used_snps">XA-H-Abyss-Contig.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Cabog-Contig.all_snps">XA-H-Cabog-Contig.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Cabog-Contig.coords">XA-H-Cabog-Contig.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Cabog-Contig.coords.filtered">XA-H-Cabog-Contig.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Cabog-Contig.sf">XA-H-Cabog-Contig.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Cabog-Contig.unaligned">XA-H-Cabog-Contig.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Cabog-Contig.used_snps">XA-H-Cabog-Contig.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Mira-Contig.all_snps">XA-H-Mira-Contig.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Mira-Contig.coords">XA-H-Mira-Contig.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Mira-Contig.coords.filtered">XA-H-Mira-Contig.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Mira-Contig.sf">XA-H-Mira-Contig.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Mira-Contig.unaligned">XA-H-Mira-Contig.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Mira-Contig.used_snps">XA-H-Mira-Contig.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Msrca-Contig.all_snps">XA-H-Msrca-Contig.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Msrca-Contig.coords">XA-H-Msrca-Contig.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Msrca-Contig.coords.filtered">XA-H-Msrca-Contig.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Msrca-Contig.sf">XA-H-Msrca-Contig.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Msrca-Contig.unaligned">XA-H-Msrca-Contig.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Msrca-Contig.used_snps">XA-H-Msrca-Contig.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Sga-Contig.all_snps">XA-H-Sga-Contig.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Sga-Contig.coords">XA-H-Sga-Contig.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Sga-Contig.coords.filtered">XA-H-Sga-Contig.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Sga-Contig.sf">XA-H-Sga-Contig.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Sga-Contig.unaligned">XA-H-Sga-Contig.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Sga-Contig.used_snps">XA-H-Sga-Contig.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Soap-Contig.all_snps">XA-H-Soap-Contig.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Soap-Contig.coords">XA-H-Soap-Contig.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Soap-Contig.coords.filtered">XA-H-Soap-Contig.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Soap-Contig.sf">XA-H-Soap-Contig.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Soap-Contig.unaligned">XA-H-Soap-Contig.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Soap-Contig.used_snps">XA-H-Soap-Contig.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Spades-Contig.all_snps">XA-H-Spades-Contig.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Spades-Contig.coords">XA-H-Spades-Contig.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Spades-Contig.coords.filtered">XA-H-Spades-Contig.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Spades-Contig.sf">XA-H-Spades-Contig.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Spades-Contig.unaligned">XA-H-Spades-Contig.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Spades-Contig.used_snps">XA-H-Spades-Contig.used_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Velvet-Contig.all_snps">XA-H-Velvet-Contig.all_snps</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Velvet-Contig.coords">XA-H-Velvet-Contig.coords</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Velvet-Contig.coords.filtered">XA-H-Velvet-Contig.coords.filtered</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Velvet-Contig.sf">XA-H-Velvet-Contig.sf</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Velvet-Contig.unaligned">XA-H-Velvet-Contig.unaligned</a><br>
+    <li><a href="/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2395/dataset_2477_files/Contig/XA-H-Velvet-Contig.used_snps">XA-H-Velvet-Contig.used_snps</a><br>
+     </ul>
+    </ul></p>
+   <p><a name="Contig-genome_stats"><strong>genome_stats</strong></a><ul>
+    <li><a href="Contig/genome_stats/complete_genes_histogram.pdf">complete_genes_histogram.pdf</a><br>
+    <li><a href="Contig/genome_stats/genes_cumulative_plot.pdf">genes_cumulative_plot.pdf</a><br>
+    <li><a href="Contig/genome_stats/genome_fraction_histogram.pdf">genome_fraction_histogram.pdf</a><br>
+    <li><a href="Contig/genome_stats/genome_info.txt">genome_info.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Abyss-Contig_gaps.txt">XA-H-Abyss-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Abyss-Contig_genes.txt">XA-H-Abyss-Contig_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Cabog-Contig_gaps.txt">XA-H-Cabog-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Cabog-Contig_genes.txt">XA-H-Cabog-Contig_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Mira-Contig_gaps.txt">XA-H-Mira-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Mira-Contig_genes.txt">XA-H-Mira-Contig_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Msrca-Contig_gaps.txt">XA-H-Msrca-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Msrca-Contig_genes.txt">XA-H-Msrca-Contig_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Sga-Contig_gaps.txt">XA-H-Sga-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Sga-Contig_genes.txt">XA-H-Sga-Contig_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Soap-Contig_gaps.txt">XA-H-Soap-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Soap-Contig_genes.txt">XA-H-Soap-Contig_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Spades-Contig_gaps.txt">XA-H-Spades-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Spades-Contig_genes.txt">XA-H-Spades-Contig_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Velvet-Contig_gaps.txt">XA-H-Velvet-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/XA-H-Velvet-Contig_genes.txt">XA-H-Velvet-Contig_genes.txt</a><br>
+    </ul></p>
+   <p><a name="Contig-json"><strong>json</strong></a><ul>
+    <li><a href="Contig/json/aligned_contigs_lengths.json">aligned_contigs_lengths.json</a><br>
+    <li><a href="Contig/json/assemblies_lengths.json">assemblies_lengths.json</a><br>
+    <li><a href="Contig/json/contigs_lengths.json">contigs_lengths.json</a><br>
+    <li><a href="Contig/json/gc.json">gc.json</a><br>
+    <li><a href="Contig/json/genes_in_contigs.json">genes_in_contigs.json</a><br>
+    <li><a href="Contig/json/ref_length.json">ref_length.json</a><br>
+    <li><a href="Contig/json/report.json">report.json</a><br>
+    </ul></p>
+    <a href="#top"><font color="black">[To the top]</font></a><br>    </body>
+</html>

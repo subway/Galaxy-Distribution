@@ -1,0 +1,130 @@
+make: Entering directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux'
+mkdir -p /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/aux_bin
+cd /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/src/kurtz; make mummer
+make[1]: Entering directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/src/kurtz'
+cd libbasedir; make libbase.a
+make[2]: Entering directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/src/kurtz/libbasedir'
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3   -c -o cleanMUMcand.o cleanMUMcand.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3   -c -o clock.o clock.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3   -c -o mapfile.o mapfile.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3   -c -o multiseq.o multiseq.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3   -c -o procopt.o procopt.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3   -c -o safescpy.o safescpy.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3   -c -o seterror.o seterror.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3   -c -o space.o space.c
+ar sruv libbase.a cleanMUMcand.o clock.o mapfile.o multiseq.o procopt.o safescpy.o seterror.o space.o
+a - cleanMUMcand.o
+a - clock.o
+a - mapfile.o
+a - multiseq.o
+a - procopt.o
+a - safescpy.o
+a - seterror.o
+a - space.o
+make[2]: Leaving directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/src/kurtz/libbasedir'
+cd streesrc; make libstree.a
+make[2]: Entering directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/src/kurtz/streesrc'
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o construct.o construct.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o access.o access.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o scanpref.o scanpref.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o linkloc.o linkloc.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o depthtab.o depthtab.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o ex2leav.o ex2leav.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o dfs.o dfs.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o overmax.o overmax.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o oversucc.o oversucc.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o addleafcount.o addleafcount.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -DSTREEHUGE   -c -o iterator.o iterator.c
+ar sruv libstree.a construct.o access.o scanpref.o linkloc.o depthtab.o ex2leav.o dfs.o overmax.o oversucc.o addleafcount.o iterator.o
+a - construct.o
+a - access.o
+a - scanpref.o
+a - linkloc.o
+a - depthtab.o
+a - ex2leav.o
+a - dfs.o
+a - overmax.o
+a - oversucc.o
+a - addleafcount.o
+a - iterator.o
+make[2]: Leaving directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/src/kurtz/streesrc'
+cd mm3src; make mummer
+make[2]: Entering directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/src/kurtz/mm3src'
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -I../streesrc   -c -o maxmat3.o maxmat3.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -I../streesrc   -c -o maxmatopt.o maxmatopt.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -I../streesrc   -c -o maxmatinp.o maxmatinp.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -I../streesrc   -c -o findmumcand.o findmumcand.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -I../streesrc   -c -o findmaxmat.o findmaxmat.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc -O3 -I../libbasedir -I../streesrc   -c -o procmaxmat.o procmaxmat.c
+/software/VERSIONS/gcc-4.7.2/bin/gcc  maxmat3.o maxmatopt.o maxmatinp.o findmumcand.o findmaxmat.o procmaxmat.o ../streesrc/libstree.a ../libbasedir/libbase.a \
+	-o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/mummer; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/mummer
+make[2]: Leaving directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/src/kurtz/mm3src'
+make[1]: Leaving directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/src/kurtz'
+cd /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/src/tigr; make all
+make[1]: Entering directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/src/tigr'
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  tigrinc.cc -c -o tigrinc.o
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  annotate.cc tigrinc.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/annotate; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/annotate
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  combineMUMs.cc tigrinc.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/combineMUMs; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/combineMUMs
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  delta.cc -c -o delta.o
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  delta-filter.cc tigrinc.o delta.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/delta-filter; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/delta-filter
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  gaps.cc tigrinc.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/gaps; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/gaps
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  mgaps.cc tigrinc.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/mgaps; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/mgaps
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  sw_align.cc -c -o sw_align.o
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  postnuc.cc tigrinc.o sw_align.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/aux_bin/postnuc; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/aux_bin/postnuc
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  translate.cc -c -o translate.o
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  postpro.cc tigrinc.o sw_align.o translate.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/aux_bin/postpro; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/aux_bin/postpro
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  prenuc.cc tigrinc.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/aux_bin/prenuc; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/aux_bin/prenuc
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  prepro.cc tigrinc.o translate.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/aux_bin/prepro; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/aux_bin/prepro
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  repeat-match.cc tigrinc.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/repeat-match; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/repeat-match
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  show-aligns.cc tigrinc.o translate.o delta.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-aligns; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-aligns
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  show-coords.cc tigrinc.o delta.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-coords; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-coords
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  show-tiling.cc tigrinc.o delta.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-tiling; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-tiling
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  show-snps.cc tigrinc.o translate.o delta.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-snps; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-snps
+/software/VERSIONS/gcc-4.7.2/bin/g++ -O3  show-diff.cc tigrinc.o delta.o -o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-diff; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-diff
+make[1]: Leaving directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/src/tigr'
+cd /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/scripts; make all
+make[1]: Entering directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/scripts'
+/bin/sed  -e 's?__CSH_PATH?/bin/csh?g' \
+		-e 's?__BIN_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux?g' \
+		-e 's?__SCRIPT_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/scripts?g' \
+		exact-tandems.csh > /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/exact-tandems
+chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/exact-tandems
+/bin/sed  -e 's?__PERL_PATH?/usr/bin/perl?g' \
+		-e 's?__SCRIPT_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/scripts?g' \
+                mapview.pl > /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/mapview
+chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/mapview
+/bin/sed  -e 's?__PERL_PATH?/usr/bin/perl?g' \
+                -e 's?__SCRIPT_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/scripts?g' \
+                -e 's?__BIN_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux?g' \
+                mummerplot.pl > /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/mummerplot
+chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/mummerplot
+/bin/sed  -e 's?__PERL_PATH?/usr/bin/perl?g' \
+                -e 's?__SCRIPT_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/scripts?g' \
+                -e 's?__AUX_BIN_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/aux_bin?g' \
+                -e 's?__BIN_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux?g' \
+                 nucmer.pl > /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/nucmer
+chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/nucmer
+/bin/sed  -e 's?__PERL_PATH?/usr/bin/perl?g' \
+                -e 's?__SCRIPT_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/scripts?g' \
+                -e 's?__AUX_BIN_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/aux_bin?g' \
+                -e 's?__BIN_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux?g' \
+                promer.pl > /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/promer
+chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/promer
+/bin/sed  -e 's?__CSH_PATH?/bin/csh?g' \
+		-e 's?__BIN_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux?g' \
+		run-mummer1.csh > /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/run-mummer1
+chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/run-mummer1
+/bin/sed  -e 's?__CSH_PATH?/bin/csh?g' \
+		-e 's?__BIN_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux?g' \
+		run-mummer3.csh > /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/run-mummer3
+chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/run-mummer3
+/bin/sed  -e 's?__PERL_PATH?/usr/bin/perl?g' \
+		nucmer2xfig.pl > /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/nucmer2xfig
+chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/nucmer2xfig
+/bin/sed -e 's?__PERL_PATH?/usr/bin/perl?g' \
+               -e 's?__SCRIPT_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/scripts?g' \
+               -e 's?__BIN_DIR?/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux?g' \
+                 dnadiff.pl > /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/dnadiff
+chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/dnadiff
+make[1]: Leaving directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/scripts'
+make: Leaving directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux'

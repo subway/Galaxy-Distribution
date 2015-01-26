@@ -1,0 +1,55 @@
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py test_data/contigs_10k_1.fasta test_data/contigs_10k_2.fasta -R test_data/reference_10k.fasta.gz -G test_data/genes_10k.txt -O test_data/operons_10k.txt
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.32-431.11.2.el6.x86_64-x86_64-with-redhat-6.5-Santiago
+  Python version: 2.7.6
+  CPUs number: 64
+
+Started: 2014-06-12 10:31:57
+
+Logging to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/quast.log
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  test_data/reference_10k.fasta.gz ==> reference_10k
+
+Contigs:
+  test_data/contigs_10k_1.fasta ==> contigs_10k_1
+  test_data/contigs_10k_2.fasta ==> contigs_10k_2
+
+2014-06-12 10:31:59
+Running Basic statistics processor...
+  Reference genome:
+    reference_10k.fasta, Reference length = 10000, Reference GC % = 52.07
+  Contig files: 
+    1  contigs_10k_1
+    2  contigs_10k_2
+  Calculating N50 and L50...
+    1  contigs_10k_1, N50 = 3980, L50 = 1, Total length = 6710, GC % = 51.28, # N's per 100 kbp =  0.00
+    2  contigs_10k_2, N50 = 3360, L50 = 1, Total length = 5460, GC % = 52.44, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/basic_stats/NGx_plot.pdf
+Done.
+
+2014-06-12 10:32:01
+Running Contig analyzer...
+Compiling MUMmer...
+
+ERROR! Failed to compile MUMmer (/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux)! Try to compile it manually!
+
+  1  contigs_10k_1
+  2  contigs_10k_2
+  1  Logging to files /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/contigs_reports/contigs_report_contigs_10k_1.stdout and contigs_report_contigs_10k_1.stderr...
+  1  Running Nucmer... 
+  2  Logging to files /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_06_12_10_31_57/contigs_reports/contigs_report_contigs_10k_2.stdout and contigs_report_contigs_10k_2.stderr...
+  2  Running Nucmer... 

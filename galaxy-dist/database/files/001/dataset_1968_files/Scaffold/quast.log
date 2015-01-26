@@ -1,0 +1,53 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1886/dataset_1968_files/Scaffold --scaffolds /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_671.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.8.1.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-05-21 18:52:40
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1886/dataset_1968_files/Scaffold/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_671.dat ==> dataset_671.dat
+  breaking scaffolds into contigs:
+      1 scaffolds (dataset_671) were broken into 258 contigs (dataset_671_broken)
+
+2014-05-21 18:52:42
+Running Basic statistics processor...
+  Contig files: 
+    1  dataset_671.dat broken
+    2  dataset_671.dat
+  Calculating N50 and L50...
+    1  dataset_671.dat broken, N50 = 83025, L50 = 20, Total length = 4889453, GC % = 65.12, # N's per 100 kbp =  0.00
+    2  dataset_671.dat, N50 = 105255, L50 = 16, Total length = 4893641, GC % = 65.12, # N's per 100 kbp =  81.37
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1886/dataset_1968_files/Scaffold/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1886/dataset_1968_files/Scaffold/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1886/dataset_1968_files/Scaffold/basic_stats/Nx_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-05-21 18:52:44
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1886/dataset_1968_files/Scaffold/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1886/dataset_1968_files/Scaffold/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1886/dataset_1968_files/Scaffold/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1886/dataset_1968_files/Scaffold/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1886/dataset_1968_files/Scaffold/quast.log
+
+Finished: 2014-05-21 18:52:44
+Elapsed time: 0:00:03.945261

@@ -1,0 +1,13 @@
+Assembly	CABOG_miseq_ctg	CABOG_hiseq_ctg	MIRA_miseq_ctg	MIRA_hiseq_ctg	MaSuRCA_miseq_ctg	MaSuRCA_hiseq_ctg	SOAPdenovo_miseq_ctg	SOAPdenovo_hiseq_ctg	SPAdes_miseq_ctg	SPAdes_hiseq_ctg	Velvet_miseq_ctg	Velvet_hiseq_ctg	CABOG_miseq_scf	CABOG_hiseq_scf	MaSuRCA_miseq_scf	MaSuRCA_hiseq_scf	SOAPdenovo_miseq_scf	SOAPdenovo_hiseq_scf	SPAdes_miseq_scf	SPAdes_hiseq_scf	Velvet_miseq_scf	Velvet_hiseq_scf
+# misassemblies	7	10	23	45	19	8	2	2	5	4	5	9	7	11	19	10	6	8	5	7	6	10
+    # relocations	5	8	20	41	14	7	2	2	5	4	5	9	5	9	14	8	6	8	5	6	6	9
+    # translocations	2	2	3	4	5	1	0	0	0	0	0	0	2	2	5	2	0	0	0	1	0	1
+    # inversions	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+# misassembled contigs	7	10	21	34	19	7	2	2	5	4	5	9	7	11	19	7	6	7	5	7	6	9
+Misassembled contigs length	15751	94087	357376	125492	216881	422752	6284	9685	385887	463075	28731	127292	15751	183425	216881	788570	231931	505899	385887	620123	45660	273985
+# local misassemblies	1	7	4	10	3	4	0	0	4	9	3	9	1	13	3	15	274	383	4	11	6	123
+# mismatches	112	297	209	665	247	2728	117	129	195	264	164	229	112	285	247	2725	154	319	195	280	168	225
+# indels	53	285	117	169	125	262	101	111	124	137	102	122	53	721	125	478	117	117	124	148	103	205
+    # short indels (<= 5 bp)	51	280	114	168	120	257	99	110	118	134	98	116	51	693	120	460	114	116	118	138	98	196
+    # long indels (> 5 bp)	2	5	3	1	5	5	2	1	6	3	4	6	2	28	5	18	3	1	6	10	5	9
+Indels length	84	335	145	179	167	317	119	120	184	169	137	174	84	1195	167	828	143	131	184	273	145	374

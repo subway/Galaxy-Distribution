@@ -1,0 +1,15 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                      GAGE-B  cabog_70  cabog_81
+# misassemblies               17      7         8       
+    # relocations             11      5         7       
+    # translocations          6       2         1       
+    # inversions              0       0         0       
+# misassembled contigs        17      7         7       
+Misassembled contigs length   128064  15751     30914   
+# local misassemblies         7       1         6       
+# mismatches                  319     112       263     
+# indels                      142     53        140     
+    # short indels (<= 5 bp)  136     51        138     
+    # long indels (> 5 bp)    6       2         2       
+Indels length                 188     84        158     

@@ -1,0 +1,15 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                      GAGE-B broken  GAGE-B  Velvet_1_2_08 broken  Velvet_1_2_08  Velvet_1_2_10 broken  Velvet_1_2_10
+# misassemblies               4              10      8                     10             8                     10           
+    # relocations             4              8       8                     9              8                     9            
+    # translocations          0              2       0                     1              0                     1            
+    # inversions              0              0       0                     0              0                     0            
+# misassembled contigs        4              8       8                     9              8                     9            
+Misassembled contigs length   55189          395034  69468                 273985         69468                 273985       
+# local misassemblies         8              129     6                     123            6                     123          
+# mismatches                  175            203     221                   225            221                   225          
+# indels                      190            370     131                   205            131                   205          
+    # short indels (<= 5 bp)  181            346     126                   196            126                   196          
+    # long indels (> 5 bp)    9              24      5                     9              5                     9            
+Indels length                 262            708     173                   374            173                   374          

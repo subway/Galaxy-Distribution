@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+ 	<script type="text/javascript">google.load('visualization', '1.0', {'packages':['corechart']});</script>
+ 	<script type="text/javascript" src="report_html_aux/scripts/draw_custom_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="report_html_aux/flot/jquery.flot.min.js"></script>
+    <script type="text/javascript" src="report_html_aux/flot/jquery.flot.dashes.js"></script>
+    <!–[if lte IE 8]><script type="text/javascript" src="report_html_aux/flot/excanvas.min.js"></script><![endif]–>
+
+    <script type="text/javascript" src="report_html_aux/dragtable.js"></script>
+
+    <script type="text/javascript" src="report_html_aux/scripts/hsvToRgb.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/utils.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/build_total_report.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/draw_cumulative_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/draw_nx_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/draw_gc_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/draw_genes_plot.js"></script>
+    <script type="text/javascript" src="report_html_aux/scripts/build_report.js"></script>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="report_html_aux/ie_html5.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        $(function() {
+            buildReport();
+            $('#contigs_are_ordered').show();
+        });
+    </script>
+
+    <style type="text/css">
+        body {
+            padding-bottom: 30px;
+        }
+        .content {
+            margin-left: 120px;
+            padding-top: 50px;
+            clear: both;
+        }
+        #header {
+            display: block;
+            width: 100%;
+            margin-bottom: 1em;
+        }
+        #subheader { /* not used in Quast html report */
+            margin-top: -13px;
+            margin-bottom: 20px;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="report_html_aux/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="report_html_aux/common.css" />
+    <link rel="stylesheet" type="text/css" href="report_html_aux/report.css" />
+</head>
+
+<body>
+<div class="content">
+    <div id='header'>
+        <span style='font-size: 1.5em;'><span class='smallcapitals'>QUAST</span> report</span><br><br>
+        <span id='subheader'></span>
+
+
+
+<select id="ddl1">
+  <option value="">--- Select ---</option>
+  <option value="# contigs"># contigs</option>
+  <option value="# contigs (>= 500 bp)"># contigs (>= 500 bp)</option>
+  <option value="# contigs (>= 1000 bp)"># contigs (>= 1000 bp)</option>
+  <option value="Largest contig">Largest contig</option>
+  <option value="Total length">Total length</option>
+  <option value="Total length (>= 500 bp)">Total length (>= 500 bp)</option>
+  <option value="Total length (>= 1000 bp)">Total length (>= 1000 bp)</option>
+  <option value="N50">N50</option>
+  <option value="N75">N75</option>
+  <option value="L50">L50</option>
+  <option value="L75">L75</option>
+  <option value="GC (%)">GC (%)</option>
+  <option value="# misassemblies"># misassemblies</option>
+  <option value="    # relocations">    # relocations</option>
+  <option value="    # translocations">    # translocations</option>
+  <option value="    # inversions">    # inversions</option>
+  <option value="# misassembled contigs"># misassembled contigs</option>
+  <option value="Misassembled contigs length">Misassembled contigs length</option>
+  <option value="# local misassemblies"># local misassemblies</option>
+  <option value="# fully unaligned contigs"># fully unaligned contigs</option>
+  <option value="Fully unaligned length">Fully unaligned length</option>
+  <option value="# partially unaligned contigs"># partially unaligned contigs</option>
+  <option value="    # with misassembly">    # with misassembly</option>
+  <option value="    # both parts are significant">    # both parts are significant</option>
+  <option value="Partially unaligned length">Partially unaligned length</option>
+  <option value="# mismatches"># mismatches</option>
+  <option value="# indels"># indels</option>
+  <option value="Indels length">Indels length</option>
+  <option value="# mismatches per 100 kbp"># mismatches per 100 kbp</option>
+  <option value="# indels per 100 kbp"># indels per 100 kbp</option>
+  <option value="    # short indels (<= 5 bp)">    # short indels (<= 5 bp)</option>
+  <option value="    # long indels (> 5 bp)">    # long indels (> 5 bp)</option>
+  <option value="# N's"># N's</option>
+  <option value="# N's per 100 kbp"># N's per 100 kbp</option>
+  <option value="Genome fraction (%)">Genome fraction (%)</option>
+  <option value="Duplication ratio">Duplication ratio</option>
+  <option value="# genes"># genes</option>
+  <option value="Largest alignment">Largest alignment</option>
+  <option value="NG50">NG50</option>
+  <option value="NG75">NG75</option>
+  <option value="NA50">NA50</option>
+  <option value="NA75">NA75</option>
+  <option value="NGA50">NGA50</option>
+  <option value="NGA75">NGA75</option>
+  <option value="LG50">LG50</option>
+  <option value="LG75">LG75</option>
+  <option value="LA50">LA50</option>
+  <option value="LA75">LA75</option>
+  <option value="LGA50">LGA50</option>
+  <option value="LGA75">LGA75</option>
+  <option value="Reference length">Reference length</option>
+  <option value="Reference GC (%)">Reference GC (%)</option>
+  <option value="Reference genes">Reference genes</option>
+  <option value="Reference operons">Reference operons</option>
+</select>
+<button name="btn1" type="button" onClick="javascript:drawColumnChart();">Create bar chart</button><br>
+<select id="ddl2">
+  <option value="">--- Select ---</option>
+  <option value="# contigs"># contigs</option>
+  <option value="# contigs (>= 500 bp)"># contigs (>= 500 bp)</option>
+  <option value="# contigs (>= 1000 bp)"># contigs (>= 1000 bp)</option>
+  <option value="Largest contig">Largest contig</option>
+  <option value="Total length">Total length</option>
+  <option value="Total length (>= 500 bp)">Total length (>= 500 bp)</option>
+  <option value="Total length (>= 1000 bp)">Total length (>= 1000 bp)</option>
+  <option value="N50">N50</option>
+  <option value="N75">N75</option>
+  <option value="L50">L50</option>
+  <option value="L75">L75</option>
+  <option value="GC (%)">GC (%)</option>
+  <option value="# misassemblies"># misassemblies</option>
+  <option value="    # relocations">    # relocations</option>
+  <option value="    # translocations">    # translocations</option>
+  <option value="    # inversions">    # inversions</option>
+  <option value="# misassembled contigs"># misassembled contigs</option>
+  <option value="Misassembled contigs length">Misassembled contigs length</option>
+  <option value="# local misassemblies"># local misassemblies</option>
+  <option value="# fully unaligned contigs"># fully unaligned contigs</option>
+  <option value="Fully unaligned length">Fully unaligned length</option>
+  <option value="# partially unaligned contigs"># partially unaligned contigs</option>
+  <option value="    # with misassembly">    # with misassembly</option>
+  <option value="    # both parts are significant">    # both parts are significant</option>
+  <option value="Partially unaligned length">Partially unaligned length</option>
+  <option value="# mismatches"># mismatches</option>
+  <option value="# indels"># indels</option>
+  <option value="Indels length">Indels length</option>
+  <option value="# mismatches per 100 kbp"># mismatches per 100 kbp</option>
+  <option value="# indels per 100 kbp"># indels per 100 kbp</option>
+  <option value="    # short indels (<= 5 bp)">    # short indels (<= 5 bp)</option>
+  <option value="    # long indels (> 5 bp)">    # long indels (> 5 bp)</option>
+  <option value="# N's"># N's</option>
+  <option value="# N's per 100 kbp"># N's per 100 kbp</option>
+  <option value="Genome fraction (%)">Genome fraction (%)</option>
+  <option value="Duplication ratio">Duplication ratio</option>
+  <option value="# genes"># genes</option>
+  <option value="Largest alignment">Largest alignment</option>
+  <option value="NG50">NG50</option>
+  <option value="NG75">NG75</option>
+  <option value="NA50">NA50</option>
+  <option value="NA75">NA75</option>
+  <option value="NGA50">NGA50</option>
+  <option value="NGA75">NGA75</option>
+  <option value="LG50">LG50</option>
+  <option value="LG75">LG75</option>
+  <option value="LA50">LA50</option>
+  <option value="LA75">LA75</option>
+  <option value="LGA50">LGA50</option>
+  <option value="LGA75">LGA75</option>
+  <option value="Reference length">Reference length</option>
+  <option value="Reference GC (%)">Reference GC (%)</option>
+  <option value="Reference genes">Reference genes</option>
+  <option value="Reference operons">Reference operons</option>
+</select>
+<select id="ddl3">
+  <option value="">--- Select ---</option>
+  <option value="# contigs"># contigs</option>
+  <option value="# contigs (>= 500 bp)"># contigs (>= 500 bp)</option>
+  <option value="# contigs (>= 1000 bp)"># contigs (>= 1000 bp)</option>
+  <option value="Largest contig">Largest contig</option>
+  <option value="Total length">Total length</option>
+  <option value="Total length (>= 500 bp)">Total length (>= 500 bp)</option>
+  <option value="Total length (>= 1000 bp)">Total length (>= 1000 bp)</option>
+  <option value="N50">N50</option>
+  <option value="N75">N75</option>
+  <option value="L50">L50</option>
+  <option value="L75">L75</option>
+  <option value="GC (%)">GC (%)</option>
+  <option value="# misassemblies"># misassemblies</option>
+  <option value="    # relocations">    # relocations</option>
+  <option value="    # translocations">    # translocations</option>
+  <option value="    # inversions">    # inversions</option>
+  <option value="# misassembled contigs"># misassembled contigs</option>
+  <option value="Misassembled contigs length">Misassembled contigs length</option>
+  <option value="# local misassemblies"># local misassemblies</option>
+  <option value="# fully unaligned contigs"># fully unaligned contigs</option>
+  <option value="Fully unaligned length">Fully unaligned length</option>
+  <option value="# partially unaligned contigs"># partially unaligned contigs</option>
+  <option value="    # with misassembly">    # with misassembly</option>
+  <option value="    # both parts are significant">    # both parts are significant</option>
+  <option value="Partially unaligned length">Partially unaligned length</option>
+  <option value="# mismatches"># mismatches</option>
+  <option value="# indels"># indels</option>
+  <option value="Indels length">Indels length</option>
+  <option value="# mismatches per 100 kbp"># mismatches per 100 kbp</option>
+  <option value="# indels per 100 kbp"># indels per 100 kbp</option>
+  <option value="    # short indels (<= 5 bp)">    # short indels (<= 5 bp)</option>
+  <option value="    # long indels (> 5 bp)">    # long indels (> 5 bp)</option>
+  <option value="# N's"># N's</option>
+  <option value="# N's per 100 kbp"># N's per 100 kbp</option>
+  <option value="Genome fraction (%)">Genome fraction (%)</option>
+  <option value="Duplication ratio">Duplication ratio</option>
+  <option value="# genes"># genes</option>
+  <option value="Largest alignment">Largest alignment</option>
+  <option value="NG50">NG50</option>
+  <option value="NG75">NG75</option>
+  <option value="NA50">NA50</option>
+  <option value="NA75">NA75</option>
+  <option value="NGA50">NGA50</option>
+  <option value="NGA75">NGA75</option>
+  <option value="LG50">LG50</option>
+  <option value="LG75">LG75</option>
+  <option value="LA50">LA50</option>
+  <option value="LA75">LA75</option>
+  <option value="LGA50">LGA50</option>
+  <option value="LGA75">LGA75</option>
+  <option value="Reference length">Reference length</option>
+  <option value="Reference GC (%)">Reference GC (%)</option>
+  <option value="Reference genes">Reference genes</option>
+  <option value="Reference operons">Reference operons</option>
+</select>
+<button name="btn2" type="button" onClick="javascript:drawScatterPlot();">Create scatter plot</button><br>
+<!--Div that will hold the chart-->
+ 	<a id="hideplot" href="javascript:toggleImg()" style="display:none"><b>Hide plot</b></a>
+ 	<div id="chart_div" style="display:block"></div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <span id='mincontig'>Loading...</span>
+        <span id="extended_link"></span>
+    </div>
+
+    <noscript>
+        <div style="margin-left: 0px;">
+            Unfortunately, <span style="font-weight: bold">JavaScript</span> in your
+            browser <span style="font-weight: bold">is disabled</span> or is not supported.</br>
+            We need JavaScript to build report and plots.
+        </div>
+    </noscript>
+
+    <div class='report-and-plots'>
+        <div id='report'>
+        </div>
+
+        <div class='plots'>
+            <table style='margin: -3px;'>
+                <tr id='all-switches'>
+                    <td>
+                        <div id='plots-switches'></div>
+                    </td>
+                    <td style='text-align: right; padding-right: 22px;'>
+                        <span id='scale-placeholder'></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div id='plot-placeholder' style=''></div>
+                    </td>
+                    <td>
+                        <div id='legend-placeholder'></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="contigs_are_ordered">Contigs are ordered from largest (contig #1) to smallest.</p>
+                        <p id="gc_info">Contigs are broken into nonoverlapping 100<span class="rhs">&nbsp;</span>bp windows.
+                            Plot shows numbers of windows for each GC percentage.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div style="clear: left"></div>
+        <div style="clear: right"></div>
+
+        <div class='json-code'>
+            <div id='total-report-json'>
+                {"date": "17 June 2014, Tuesday, 03:07:32", "report": [["Statistics without reference", [{"quality": "Less is better", "metricName": "# contigs", "values": [85, 104, 104, 138, 133, 133], "isMain": true}, {"quality": "Less is better", "metricName": "# contigs (>= 500 bp)", "values": [85, 104, 104, 138, 133, 133], "isMain": false}, {"quality": "Less is better", "metricName": "# contigs (>= 1000 bp)", "values": [65, 79, 79, 113, 108, 108], "isMain": false}, {"quality": "More is better", "metricName": "Largest contig", "values": [524347, 411927, 411927, 246346, 246346, 246346], "isMain": true}, {"quality": "More is better", "metricName": "Total length", "values": [3940257, 3903678, 3903678, 3945576, 3892321, 3892321], "isMain": true}, {"quality": "More is better", "metricName": "Total length (>= 500 bp)", "values": [3940257, 3903678, 3903678, 3945576, 3892321, 3892321], "isMain": false}, {"quality": "More is better", "metricName": "Total length (>= 1000 bp)", "values": [3927326, 3886781, 3886781, 3928680, 3875057, 3875057], "isMain": false}, {"quality": "More is better", "metricName": "N50", "values": [172545, 163386, 163386, 109996, 105176, 105176], "isMain": true}, {"quality": "More is better", "metricName": "N75", "values": [92099, 75755, 75755, 47047, 43442, 43442], "isMain": false}, {"quality": "Less is better", "metricName": "L50", "values": [7, 8, 8, 11, 12, 12], "isMain": false}, {"quality": "Less is better", "metricName": "L75", "values": [14, 18, 18, 25, 26, 26], "isMain": false}, {"quality": "Equal", "metricName": "GC (%)", "values": ["47.50", "47.63", "47.63", "47.51", "47.69", "47.69"], "isMain": false}]], ["Misassemblies", [{"quality": "Less is better", "metricName": "# misassemblies", "values": [10, 10, 10, 22, 6, 6], "isMain": true}, {"quality": "Less is better", "metricName": "    # relocations", "values": [8, 9, 9, 20, 6, 6], "isMain": false}, {"quality": "Less is better", "metricName": "    # translocations", "values": [2, 1, 1, 2, 0, 0], "isMain": false}, {"quality": "Less is better", "metricName": "    # inversions", "values": [0, 0, 0, 0, 0, 0], "isMain": false}, {"quality": "Less is better", "metricName": "# misassembled contigs", "values": [8, 9, 9, 17, 6, 6], "isMain": false}, {"quality": "Less is better", "metricName": "Misassembled contigs length", "values": [395034, 273985, 273985, 1210318, 45660, 45660], "isMain": true}, {"quality": "Less is better", "metricName": "# local misassemblies", "values": [129, 123, 123, 13, 6, 6], "isMain": false}]], ["Unaligned", [{"quality": "Less is better", "metricName": "# fully unaligned contigs", "values": [1, 1, 1, 1, 1, 1], "isMain": false}, {"quality": "Less is better", "metricName": "Fully unaligned length", "values": [549, 549, 549, 5482, 5482, 5482], "isMain": false}, {"quality": "Less is better", "metricName": "# partially unaligned contigs", "values": [0, 0, 0, 3, 2, 2], "isMain": false}, {"quality": "Less is better", "metricName": "    # with misassembly", "values": [0, 0, 0, 1, 1, 1], "isMain": false}, {"quality": "Less is better", "metricName": "    # both parts are significant", "values": [0, 0, 0, 0, 0, 0], "isMain": false}, {"quality": "Less is better", "metricName": "Partially unaligned length", "values": [0, 0, 0, 842, 815, 815], "isMain": false}]], ["Mismatches", [{"quality": "Less is better", "metricName": "# mismatches", "values": [203, 225, 225, 156, 168, 168], "isMain": false}, {"quality": "Less is better", "metricName": "# indels", "values": [370, 205, 205, 192, 103, 103], "isMain": false}, {"quality": "Less is better", "metricName": "Indels length", "values": [708, 374, 374, 352, 145, 145], "isMain": false}, {"quality": "Less is better", "metricName": "# mismatches per 100 kbp", "values": ["5.18", "5.80", "5.80", "3.96", "4.33", "4.33"], "isMain": true}, {"quality": "Less is better", "metricName": "# indels per 100 kbp", "values": ["9.44", "5.28", "5.28", "4.88", "2.65", "2.65"], "isMain": true}, {"quality": "Less is better", "metricName": "    # short indels (<= 5 bp)", "values": [346, 196, 196, 183, 98, 98], "isMain": false}, {"quality": "Less is better", "metricName": "    # long indels (> 5 bp)", "values": [24, 9, 9, 9, 5, 5], "isMain": false}, {"quality": "Less is better", "metricName": "# N's", "values": [21557, 20135, 20135, 220, 50, 50], "isMain": false}, {"quality": "Less is better", "metricName": "# N's per 100 kbp", "values": ["547.10", "515.80", "515.80", "5.58", "1.28", "1.28"], "isMain": true}]], ["Genome statistics", [{"quality": "More is better", "metricName": "Genome fraction (%)", "values": ["97.140", "96.251", "96.251", "97.598", "96.242", "96.242"], "isMain": true}, {"quality": "Less is better", "metricName": "Duplication ratio", "values": ["1.016", "1.016", "1.016", "1.007", "1.007", "1.007"], "isMain": true}, {"quality": "More is better", "metricName": "# genes", "values": ["3400 + 128 part", "3379 + 130 part", "3379 + 130 part", "3492 + 78 part", "3459 + 71 part", "3459 + 71 part"], "isMain": true}, {"quality": "More is better", "metricName": "Largest alignment", "values": [521619, 409820, 409820, 246346, 246346, 246346], "isMain": false}, {"quality": "More is better", "metricName": "NG50", "values": [172545, 157209, 157209, 109996, 105176, 105176], "isMain": false}, {"quality": "More is better", "metricName": "NG75", "values": [82167, 71623, 71623, 46531, 39408, 39408], "isMain": false}, {"quality": "More is better", "metricName": "NA50", "values": [171505, 163055, 163055, 75901, 105176, 105176], "isMain": false}, {"quality": "More is better", "metricName": "NA75", "values": [91938, 71376, 71376, 43122, 43442, 43442], "isMain": false}, {"quality": "More is better", "metricName": "NGA50", "values": [171505, 156829, 156829, 67096, 105176, 105176], "isMain": true}, {"quality": "More is better", "metricName": "NGA75", "values": [80883, 59664, 59664, 40333, 39408, 39408], "isMain": false}, {"quality": "Less is better", "metricName": "LG50", "values": [7, 9, 9, 11, 12, 12], "isMain": false}, {"quality": "Less is better", "metricName": "LG75", "values": [15, 19, 19, 26, 28, 28], "isMain": false}, {"quality": "Less is better", "metricName": "LA50", "values": [7, 8, 8, 13, 12, 12], "isMain": false}, {"quality": "Less is better", "metricName": "LA75", "values": [14, 18, 18, 32, 26, 26], "isMain": false}, {"quality": "Less is better", "metricName": "LGA50", "values": [7, 9, 9, 14, 12, 12], "isMain": false}, {"quality": "Less is better", "metricName": "LGA75", "values": [15, 20, 20, 33, 28, 28], "isMain": false}]], ["Predicted genes", []], ["Reference statistics", [{"quality": "Equal", "metricName": "Reference length", "values": [4033464, 4033464, 4033464, 4033464, 4033464, 4033464], "isMain": false}, {"quality": "Equal", "metricName": "Reference GC (%)", "values": ["47.49", "47.49", "47.49", "47.49", "47.49", "47.49"], "isMain": false}, {"quality": "Equal", "metricName": "Reference genes", "values": [3693, 3693, 3693, 3693, 3693, 3693], "isMain": false}, {"quality": "Equal", "metricName": "Reference operons", "values": [0, 0, 0, 0, 0, 0], "isMain": false}]]], "minContig": 500, "assembliesNames": ["1_GAGE-B-Hiseq", "1_Velvet_1.2.08-Hiseq", "1_Velvet_1.2.10-Hiseq", "2_GAGE-B-Miseq", "2_Velvet_1.2.08-Miseq", "2_Velvet_1.2.10-Miseq"]}
+            </div>
+            <div id='qualities-json'>
+                {{ qualities }}
+            </div>
+            <div id='main-metrics-json'>
+                {{ mainMetrics }}
+            </div>
+            <div id="contigs-lengths-json">
+                {"lists_of_lengths": [[524347, 356432, 346024, 259623, 246648, 218967, 172545, 169203, 163385, 157209, 114502, 107569, 95685, 92099, 82167, 75767, 71623, 63562, 62073, 60364, 55556, 45765, 42204, 38751, 36843, 35178, 23791, 19173, 18535, 17340, 17151, 13619, 13582, 12007, 9599, 9017, 8345, 5849, 5320, 4723, 4718, 4601, 4556, 3493, 3352, 3176, 2750, 2593, 2579, 2153, 2090, 1914, 1887, 1591, 1523, 1450, 1394, 1315, 1299, 1197, 1183, 1174, 1106, 1075, 1015, 987, 980, 870, 766, 759, 734, 729, 701, 588, 585, 568, 549, 539, 536, 519, 511, 509, 501, 500, 500], [411927, 356436, 246647, 218250, 215911, 213709, 169630, 163386, 157209, 114502, 95685, 92165, 92099, 91465, 91089, 85208, 82167, 75755, 71623, 60364, 55556, 51334, 45525, 41373, 40653, 38751, 37576, 36843, 35178, 31433, 30803, 24036, 22284, 19173, 18535, 18195, 17340, 17151, 16792, 14657, 13194, 12007, 11430, 11261, 11042, 9017, 8397, 8109, 5849, 5745, 4718, 4634, 4556, 4364, 4221, 4039, 3237, 3209, 3176, 3073, 3040, 2578, 2256, 2167, 2149, 2016, 1944, 1911, 1797, 1729, 1591, 1532, 1450, 1208, 1183, 1174, 1155, 1104, 1104, 980, 968, 964, 860, 821, 766, 759, 736, 734, 726, 701, 650, 623, 614, 608, 596, 585, 549, 539, 536, 535, 519, 517, 511, 500], [411927, 356436, 246647, 218250, 215911, 213709, 169630, 163386, 157209, 114502, 95685, 92165, 92099, 91465, 91089, 85208, 82167, 75755, 71623, 60364, 55556, 51334, 45525, 41373, 40653, 38751, 37576, 36843, 35178, 31433, 30803, 24036, 22284, 19173, 18535, 18195, 17340, 17151, 16792, 14657, 13194, 12007, 11430, 11261, 11042, 9017, 8397, 8109, 5849, 5745, 4718, 4634, 4556, 4364, 4221, 4039, 3237, 3209, 3176, 3073, 3040, 2578, 2256, 2167, 2149, 2016, 1944, 1911, 1797, 1729, 1591, 1532, 1450, 1208, 1183, 1174, 1155, 1104, 1104, 980, 968, 964, 860, 821, 766, 759, 736, 734, 726, 701, 650, 623, 614, 608, 596, 585, 549, 539, 536, 535, 519, 517, 511, 500], [246346, 240727, 229102, 217962, 206921, 187929, 180000, 176085, 129572, 111013, 109996, 108194, 92036, 85832, 79090, 75901, 67096, 63574, 62259, 61984, 53390, 49571, 49382, 49003, 47047, 46531, 43442, 40333, 39974, 39408, 38638, 37124, 35972, 28442, 26147, 24823, 24405, 22200, 21620, 20660, 20185, 19851, 19184, 18945, 18398, 18211, 17401, 17336, 16809, 16713, 13568, 11116, 10380, 10227, 10060, 9526, 9272, 9127, 8967, 8596, 8273, 8241, 7985, 7877, 7674, 7529, 6876, 5977, 5674, 5482, 5346, 5135, 5003, 4783, 4649, 4032, 3579, 3457, 3410, 3396, 3280, 2972, 2966, 2888, 2885, 2830, 2750, 2689, 2616, 2516, 2379, 2353, 2218, 1714, 1694, 1503, 1407, 1388, 1374, 1353, 1331, 1314, 1222, 1207, 1189, 1183, 1126, 1109, 1068, 1067, 1049, 1032, 1027, 932, 886, 842, 839, 828, 786, 743, 725, 715, 705, 704, 701, 691, 674, 621, 605, 582, 559, 551, 544, 541, 539, 534, 528, 521], [246346, 229572, 217622, 216036, 206498, 180000, 175994, 131915, 118025, 113897, 107376, 105176, 104085, 93025, 92036, 77000, 75901, 63574, 58845, 53626, 49602, 49571, 49003, 47047, 46531, 43442, 41435, 39408, 38638, 35972, 35549, 31561, 31262, 28442, 26147, 25706, 25378, 24405, 24378, 22323, 21620, 20511, 19917, 19184, 18945, 18764, 18211, 17401, 16929, 16809, 16713, 16662, 16464, 13568, 12644, 11058, 10833, 10227, 10060, 9836, 9272, 9127, 8831, 8734, 8596, 7877, 7674, 7133, 6876, 5821, 5730, 5482, 4797, 4741, 4604, 4513, 4485, 4142, 4003, 3985, 3377, 3280, 2972, 2616, 2566, 2538, 2218, 2141, 2044, 2042, 2008, 1961, 1650, 1554, 1407, 1388, 1353, 1314, 1304, 1258, 1222, 1198, 1189, 1119, 1100, 1054, 1029, 1027, 899, 871, 841, 839, 821, 813, 778, 743, 740, 725, 715, 704, 701, 699, 691, 674, 631, 621, 553, 544, 542, 539, 531, 528, 521], [246346, 229572, 217622, 216036, 206498, 180000, 175994, 131915, 118025, 113897, 107376, 105176, 104085, 93025, 92036, 77000, 75901, 63574, 58845, 53626, 49602, 49571, 49003, 47047, 46531, 43442, 41435, 39408, 38638, 35972, 35549, 31561, 31262, 28442, 26147, 25706, 25378, 24405, 24378, 22323, 21620, 20511, 19917, 19184, 18945, 18764, 18211, 17401, 16929, 16809, 16713, 16662, 16464, 13568, 12644, 11058, 10833, 10227, 10060, 9836, 9272, 9127, 8831, 8734, 8596, 7877, 7674, 7133, 6876, 5821, 5730, 5482, 4797, 4741, 4604, 4513, 4485, 4142, 4003, 3985, 3377, 3280, 2972, 2616, 2566, 2538, 2218, 2141, 2044, 2042, 2008, 1961, 1650, 1554, 1407, 1388, 1353, 1314, 1304, 1258, 1222, 1198, 1189, 1119, 1100, 1054, 1029, 1027, 899, 871, 841, 839, 821, 813, 778, 743, 740, 725, 715, 704, 701, 699, 691, 674, 631, 621, 553, 544, 542, 539, 531, 528, 521]], "filenames": ["1_GAGE-B-Hiseq", "1_Velvet_1.2.08-Hiseq", "1_Velvet_1.2.10-Hiseq", "2_GAGE-B-Miseq", "2_Velvet_1.2.08-Miseq", "2_Velvet_1.2.10-Miseq"]}
+            </div>
+            <div id='aligned-contigs-lengths-json'>
+                {"lists_of_lengths": [[521619, 354771, 343630, 259431, 246126, 217459, 171505, 167801, 163054, 156828, 112860, 106065, 95257, 91938, 80883, 75524, 71376, 61964, 59664, 55226, 51033, 45085, 42021, 38555, 36843, 35178, 23622, 18827, 18535, 17340, 17151, 13582, 12007, 10740, 8817, 8159, 8108, 8071, 5849, 5320, 4723, 4601, 4556, 4476, 3291, 3176, 2750, 2686, 2579, 2125, 2115, 2090, 2083, 2037, 1887, 1764, 1591, 1523, 1450, 1440, 1394, 1315, 1299, 1237, 1197, 1183, 1174, 1108, 1106, 1075, 1015, 987, 980, 874, 870, 766, 759, 734, 729, 701, 615, 588, 585, 568, 539, 536, 519, 511, 509, 501, 500, 500, 206, 116], [409820, 354771, 246126, 216898, 214410, 213465, 168385, 163055, 156829, 113747, 95257, 91983, 91938, 90897, 83704, 80931, 75524, 71376, 64507, 59664, 55224, 50942, 45190, 41373, 39349, 38555, 37389, 36843, 35178, 31260, 30624, 23866, 22114, 18828, 18535, 18195, 17672, 17340, 17151, 16558, 14455, 13194, 12007, 11430, 11261, 11042, 8819, 8636, 7737, 6968, 5849, 5641, 4634, 4556, 4476, 4364, 4221, 4039, 3176, 3100, 3073, 3072, 2821, 2578, 2256, 2149, 1989, 1965, 1944, 1911, 1591, 1532, 1450, 1429, 1208, 1183, 1174, 1155, 1115, 1104, 1104, 1060, 980, 964, 880, 860, 821, 804, 766, 759, 734, 726, 702, 701, 682, 650, 647, 623, 615, 608, 596, 585, 539, 536, 535, 519, 517, 511, 510, 500, 266, 104, 27], [409820, 354771, 246126, 216898, 214410, 213465, 168385, 163055, 156829, 113747, 95257, 91983, 91938, 90897, 83704, 80931, 75524, 71376, 64507, 59664, 55224, 50942, 45190, 41373, 39349, 38555, 37389, 36843, 35178, 31260, 30624, 23866, 22114, 18828, 18535, 18195, 17672, 17340, 17151, 16558, 14455, 13194, 12007, 11430, 11261, 11042, 8819, 8636, 7737, 6968, 5849, 5641, 4634, 4556, 4476, 4364, 4221, 4039, 3176, 3100, 3073, 3072, 2821, 2578, 2256, 2149, 1989, 1965, 1944, 1911, 1591, 1532, 1450, 1429, 1208, 1183, 1174, 1155, 1115, 1104, 1104, 1060, 980, 964, 880, 860, 821, 804, 766, 759, 734, 726, 702, 701, 682, 650, 647, 623, 615, 608, 596, 585, 539, 536, 535, 519, 517, 511, 510, 500, 266, 104, 27], [246346, 240717, 217962, 206724, 179993, 175994, 144807, 131432, 108194, 92036, 84801, 77749, 75901, 67096, 63574, 62259, 61894, 58816, 56287, 54726, 53625, 53390, 52738, 49571, 49382, 49003, 47047, 46531, 46461, 44922, 43442, 43122, 40333, 39974, 39408, 38638, 37124, 35972, 35385, 28442, 26147, 25465, 24823, 24405, 22190, 21620, 20660, 20185, 19851, 19184, 18945, 18398, 18211, 17401, 17336, 16809, 16713, 15460, 13568, 11116, 10380, 10227, 10060, 9526, 9269, 9039, 8967, 8596, 8273, 8159, 7877, 7529, 7133, 7089, 5674, 5388, 5248, 5135, 5003, 4718, 4690, 4649, 4604, 4032, 3579, 3457, 3410, 3396, 3280, 2972, 2966, 2888, 2750, 2739, 2689, 2616, 2516, 2379, 2353, 2218, 2081, 1714, 1694, 1503, 1488, 1407, 1388, 1374, 1343, 1331, 1314, 1222, 1207, 1189, 1183, 1126, 1109, 1068, 1067, 1049, 1032, 1031, 1027, 976, 966, 932, 886, 839, 828, 815, 786, 784, 775, 743, 725, 715, 704, 691, 674, 621, 605, 585, 582, 559, 551, 544, 541, 539, 534, 528, 367, 338, 179, 164, 154, 152, 101, 96, 91, 80], [246346, 228749, 217622, 216036, 206498, 179993, 175994, 131915, 118025, 113897, 107376, 105176, 104085, 93025, 92036, 77000, 75901, 63574, 58845, 53626, 49602, 49571, 49003, 47047, 46531, 43442, 41435, 39408, 38638, 35972, 35549, 31561, 31262, 28442, 26147, 25706, 25378, 24405, 24378, 22323, 21620, 20511, 19917, 19184, 18945, 18764, 18211, 17401, 16809, 16713, 16662, 16464, 13568, 12644, 11058, 10833, 10227, 10060, 9836, 9269, 9039, 8871, 8734, 8596, 8028, 7877, 7800, 7133, 7089, 5821, 5730, 5388, 4741, 4633, 4604, 4513, 4485, 4142, 4003, 3985, 3377, 3280, 2972, 2616, 2566, 2538, 2218, 2141, 2044, 2042, 2008, 1961, 1650, 1554, 1488, 1407, 1388, 1343, 1314, 1304, 1258, 1222, 1198, 1189, 1119, 1100, 1054, 1031, 1029, 1027, 899, 871, 841, 839, 821, 813, 778, 743, 740, 725, 715, 704, 699, 691, 674, 631, 621, 585, 544, 542, 539, 531, 528, 464, 164, 154, 152, 101, 89], [246346, 228749, 217622, 216036, 206498, 179993, 175994, 131915, 118025, 113897, 107376, 105176, 104085, 93025, 92036, 77000, 75901, 63574, 58845, 53626, 49602, 49571, 49003, 47047, 46531, 43442, 41435, 39408, 38638, 35972, 35549, 31561, 31262, 28442, 26147, 25706, 25378, 24405, 24378, 22323, 21620, 20511, 19917, 19184, 18945, 18764, 18211, 17401, 16809, 16713, 16662, 16464, 13568, 12644, 11058, 10833, 10227, 10060, 9836, 9269, 9039, 8871, 8734, 8596, 8028, 7877, 7800, 7133, 7089, 5821, 5730, 5388, 4741, 4633, 4604, 4513, 4485, 4142, 4003, 3985, 3377, 3280, 2972, 2616, 2566, 2538, 2218, 2141, 2044, 2042, 2008, 1961, 1650, 1554, 1488, 1407, 1388, 1343, 1314, 1304, 1258, 1222, 1198, 1189, 1119, 1100, 1054, 1031, 1029, 1027, 899, 871, 841, 839, 821, 813, 778, 743, 740, 725, 715, 704, 699, 691, 674, 631, 621, 585, 544, 542, 539, 531, 528, 464, 164, 154, 152, 101, 89]], "filenames": ["1_GAGE-B-Hiseq", "1_Velvet_1.2.08-Hiseq", "1_Velvet_1.2.10-Hiseq", "2_GAGE-B-Miseq", "2_Velvet_1.2.08-Miseq", "2_Velvet_1.2.10-Miseq"]}
+            </div>
+            <div id='assemblies-lengths-json'>
+                {"assemblies_lengths": [3940257, 3903678, 3903678, 3945576, 3892321, 3892321], "filenames": ["1_GAGE-B-Hiseq", "1_Velvet_1.2.08-Hiseq", "1_Velvet_1.2.10-Hiseq", "2_GAGE-B-Miseq", "2_Velvet_1.2.08-Miseq", "2_Velvet_1.2.10-Miseq"]}
+            </div>
+            <div id='reference-length-json'>
+                {"reflen": 4033464}
+            </div>
+            <div id='genes-in-contigs-json'>
+                {"ref_genes_number": 3693, "genes_in_contigs": {"1_GAGE-B-Hiseq": [440, 295, 275, 227, 240, 185, 146, 140, 161, 123, 97, 92, 87, 91, 65, 77, 55, 45, 48, 45, 43, 44, 34, 35, 37, 30, 17, 15, 22, 9, 13, 15, 9, 16, 9, 5, 12, 9, 9, 2, 6, 6, 6, 4, 8, 1, 4, 2, 4, 2, 4, 1, 1, 2, 1, 0, 3, 2, 0, 1, 1, 0, 0, 1, 0, 1, 2, 1, 0, 2, 1, 0, 2, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 4, 1], "1_Velvet_1.2.10-Hiseq": [349, 295, 240, 175, 180, 189, 145, 161, 123, 97, 87, 78, 91, 74, 80, 69, 65, 77, 55, 45, 43, 48, 46, 37, 30, 35, 32, 37, 30, 24, 21, 17, 15, 15, 22, 14, 9, 13, 15, 1, 9, 16, 10, 11, 11, 5, 9, 9, 9, 6, 6, 6, 6, 8, 4, 2, 3, 5, 1, 5, 4, 4, 3, 1, 4, 2, 0, 4, 3, 2, 2, 1, 0, 1, 1, 0, 1, 1, 2, 0, 1, 1, 1, 0, 0, 2, 0, 1, 2, 2, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 4], "1_Velvet_1.2.08-Hiseq": [349, 295, 240, 175, 180, 189, 145, 161, 123, 97, 87, 78, 91, 74, 80, 69, 65, 77, 55, 45, 43, 48, 46, 37, 30, 35, 32, 37, 30, 24, 21, 17, 15, 15, 22, 14, 9, 13, 15, 1, 9, 16, 10, 11, 11, 5, 9, 9, 9, 6, 6, 6, 6, 8, 4, 2, 3, 5, 1, 5, 4, 4, 3, 1, 4, 2, 0, 4, 3, 2, 2, 1, 0, 1, 1, 0, 1, 1, 2, 0, 1, 1, 1, 0, 0, 2, 0, 1, 2, 2, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 4], "2_Velvet_1.2.10-Miseq": [243, 204, 182, 192, 186, 158, 149, 135, 107, 101, 98, 93, 86, 71, 93, 68, 79, 53, 47, 37, 39, 39, 34, 45, 49, 38, 33, 36, 36, 30, 31, 31, 28, 19, 19, 22, 21, 19, 22, 21, 22, 23, 13, 13, 17, 21, 21, 15, 19, 12, 13, 14, 9, 13, 9, 11, 6, 10, 7, 3, 8, 9, 6, 9, 9, 6, 11, 5, 7, 5, 10, 0, 5, 6, 6, 8, 3, 4, 3, 5, 4, 5, 4, 3, 2, 0, 3, 2, 2, 2, 3, 0, 1, 0, 0, 0, 1, 3, 2, 2, 1, 1, 2, 1, 1, 0, 1, 0, 1, 1, 0, 2, 1, 1, 2, 0, 1, 0, 0, 1, 0, 0, 1, 5, 1, 1, 1, 1, 0, 1, 1, 1, 0], "2_GAGE-B-Miseq": [243, 215, 185, 193, 188, 180, 158, 148, 116, 86, 96, 98, 93, 74, 57, 79, 56, 53, 49, 63, 41, 39, 43, 34, 45, 49, 38, 34, 40, 36, 36, 38, 30, 19, 19, 22, 19, 20, 22, 17, 14, 21, 13, 17, 17, 21, 15, 9, 12, 13, 13, 7, 3, 10, 7, 12, 8, 9, 6, 9, 13, 6, 7, 6, 11, 3, 7, 6, 10, 0, 7, 5, 1, 11, 6, 3, 4, 4, 3, 6, 5, 4, 3, 2, 5, 1, 0, 2, 3, 2, 2, 0, 3, 0, 0, 3, 0, 0, 1, 1, 1, 3, 1, 0, 1, 1, 2, 1, 1, 2, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 1, 5, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0], "2_Velvet_1.2.08-Miseq": [243, 204, 182, 192, 186, 158, 149, 135, 107, 101, 98, 93, 86, 71, 93, 68, 79, 53, 47, 37, 39, 39, 34, 45, 49, 38, 33, 36, 36, 30, 31, 31, 28, 19, 19, 22, 21, 19, 22, 21, 22, 23, 13, 13, 17, 21, 21, 15, 19, 12, 13, 14, 9, 13, 9, 11, 6, 10, 7, 3, 8, 9, 6, 9, 9, 6, 11, 5, 7, 5, 10, 0, 5, 6, 6, 8, 3, 4, 3, 5, 4, 5, 4, 3, 2, 0, 3, 2, 2, 2, 3, 0, 1, 0, 0, 0, 1, 3, 2, 2, 1, 1, 2, 1, 1, 0, 1, 0, 1, 1, 0, 2, 1, 1, 2, 0, 1, 0, 0, 1, 0, 0, 1, 5, 1, 1, 1, 1, 0, 1, 1, 1, 0]}, "filenames": ["1_GAGE-B-Hiseq", "1_Velvet_1.2.08-Hiseq", "1_Velvet_1.2.10-Hiseq", "2_GAGE-B-Miseq", "2_Velvet_1.2.08-Miseq", "2_Velvet_1.2.10-Miseq"]}
+            </div>
+            <div id='operons-in-contigs-json'>
+                {{ operonsInContigs }}
+            </div>
+            <div id='gc-json'>
+                {"list_of_GC_distributions": [[[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0, 34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0, 41.0, 42.0, 43.0, 44.0, 45.0, 46.0, 47.0, 48.0, 49.0, 50.0, 51.0, 52.0, 53.0, 54.0, 55.0, 56.0, 57.0, 58.0, 59.0, 60.0, 61.0, 62.0, 63.0, 64.0, 65.0, 66.0, 67.0, 68.0, 69.0, 70.0, 71.0, 72.0, 73.0, 74.0, 75.0, 76.0, 77.0, 78.0, 79.0, 80.0, 81.0, 82.0, 83.0, 84.0, 85.0, 86.0, 87.0, 88.0, 89.0, 90.0, 91.0, 92.0, 93.0, 94.0, 95.0, 96.0, 97.0, 98.0, 99.0, 100.0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2, 2, 3, 4, 8, 12, 20, 20, 39, 41, 56, 67, 104, 104, 139, 195, 205, 281, 295, 383, 482, 616, 723, 889, 1056, 1365, 1635, 1941, 2247, 2406, 2729, 2875, 2755, 2764, 2566, 2381, 2002, 1600, 1250, 985, 701, 499, 298, 196, 116, 65, 39, 19, 8, 4, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0, 34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0, 41.0, 42.0, 43.0, 44.0, 45.0, 46.0, 47.0, 48.0, 49.0, 50.0, 51.0, 52.0, 53.0, 54.0, 55.0, 56.0, 57.0, 58.0, 59.0, 60.0, 61.0, 62.0, 63.0, 64.0, 65.0, 66.0, 67.0, 68.0, 69.0, 70.0, 71.0, 72.0, 73.0, 74.0, 75.0, 76.0, 77.0, 78.0, 79.0, 80.0, 81.0, 82.0, 83.0, 84.0, 85.0, 86.0, 87.0, 88.0, 89.0, 90.0, 91.0, 92.0, 93.0, 94.0, 95.0, 96.0, 97.0, 98.0, 99.0, 100.0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 5, 6, 7, 12, 21, 22, 37, 28, 62, 66, 84, 111, 163, 180, 266, 281, 378, 453, 589, 722, 883, 1078, 1320, 1575, 1995, 2204, 2492, 2674, 2846, 2787, 2705, 2587, 2407, 2043, 1612, 1270, 968, 671, 472, 287, 201, 119, 68, 32, 21, 10, 5, 5, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0, 34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0, 41.0, 42.0, 43.0, 44.0, 45.0, 46.0, 47.0, 48.0, 49.0, 50.0, 51.0, 52.0, 53.0, 54.0, 55.0, 56.0, 57.0, 58.0, 59.0, 60.0, 61.0, 62.0, 63.0, 64.0, 65.0, 66.0, 67.0, 68.0, 69.0, 70.0, 71.0, 72.0, 73.0, 74.0, 75.0, 76.0, 77.0, 78.0, 79.0, 80.0, 81.0, 82.0, 83.0, 84.0, 85.0, 86.0, 87.0, 88.0, 89.0, 90.0, 91.0, 92.0, 93.0, 94.0, 95.0, 96.0, 97.0, 98.0, 99.0, 100.0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 5, 6, 7, 12, 21, 22, 37, 28, 62, 66, 84, 111, 163, 180, 266, 281, 378, 453, 589, 722, 883, 1078, 1320, 1575, 1995, 2204, 2492, 2674, 2846, 2787, 2705, 2587, 2407, 2043, 1612, 1270, 968, 671, 472, 287, 201, 119, 68, 32, 21, 10, 5, 5, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0, 34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0, 41.0, 42.0, 43.0, 44.0, 45.0, 46.0, 47.0, 48.0, 49.0, 50.0, 51.0, 52.0, 53.0, 54.0, 55.0, 56.0, 57.0, 58.0, 59.0, 60.0, 61.0, 62.0, 63.0, 64.0, 65.0, 66.0, 67.0, 68.0, 69.0, 70.0, 71.0, 72.0, 73.0, 74.0, 75.0, 76.0, 77.0, 78.0, 79.0, 80.0, 81.0, 82.0, 83.0, 84.0, 85.0, 86.0, 87.0, 88.0, 89.0, 90.0, 91.0, 92.0, 93.0, 94.0, 95.0, 96.0, 97.0, 98.0, 99.0, 100.0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 4, 6, 4, 8, 9, 25, 37, 40, 55, 67, 80, 116, 142, 194, 206, 286, 321, 404, 474, 587, 733, 914, 1097, 1344, 1634, 1886, 2169, 2514, 2751, 2871, 2959, 2766, 2575, 2302, 1976, 1647, 1278, 1048, 726, 472, 297, 198, 113, 50, 35, 9, 11, 5, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0, 34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0, 41.0, 42.0, 43.0, 44.0, 45.0, 46.0, 47.0, 48.0, 49.0, 50.0, 51.0, 52.0, 53.0, 54.0, 55.0, 56.0, 57.0, 58.0, 59.0, 60.0, 61.0, 62.0, 63.0, 64.0, 65.0, 66.0, 67.0, 68.0, 69.0, 70.0, 71.0, 72.0, 73.0, 74.0, 75.0, 76.0, 77.0, 78.0, 79.0, 80.0, 81.0, 82.0, 83.0, 84.0, 85.0, 86.0, 87.0, 88.0, 89.0, 90.0, 91.0, 92.0, 93.0, 94.0, 95.0, 96.0, 97.0, 98.0, 99.0, 100.0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 4, 4, 3, 5, 9, 15, 22, 22, 41, 48, 60, 77, 124, 160, 192, 241, 279, 364, 428, 580, 682, 889, 1119, 1315, 1627, 1987, 2122, 2509, 2685, 2795, 2886, 2748, 2681, 2407, 1918, 1623, 1314, 990, 732, 465, 316, 213, 89, 51, 35, 17, 13, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0, 28.0, 29.0, 30.0, 31.0, 32.0, 33.0, 34.0, 35.0, 36.0, 37.0, 38.0, 39.0, 40.0, 41.0, 42.0, 43.0, 44.0, 45.0, 46.0, 47.0, 48.0, 49.0, 50.0, 51.0, 52.0, 53.0, 54.0, 55.0, 56.0, 57.0, 58.0, 59.0, 60.0, 61.0, 62.0, 63.0, 64.0, 65.0, 66.0, 67.0, 68.0, 69.0, 70.0, 71.0, 72.0, 73.0, 74.0, 75.0, 76.0, 77.0, 78.0, 79.0, 80.0, 81.0, 82.0, 83.0, 84.0, 85.0, 86.0, 87.0, 88.0, 89.0, 90.0, 91.0, 92.0, 93.0, 94.0, 95.0, 96.0, 97.0, 98.0, 99.0, 100.0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 4, 4, 3, 5, 9, 15, 22, 22, 41, 48, 60, 77, 124, 160, 192, 241, 279, 364, 428, 580, 682, 889, 1119, 1315, 1627, 1987, 2122, 2509, 2685, 2795, 2886, 2748, 2681, 2407, 1918, 1623, 1314, 990, 732, 465, 316, 213, 89, 51, 35, 17, 13, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]], "lists_of_gc_info": null, "filenames": ["1_GAGE-B-Hiseq", "1_Velvet_1.2.08-Hiseq", "1_Velvet_1.2.10-Hiseq", "2_GAGE-B-Miseq", "2_Velvet_1.2.08-Miseq", "2_Velvet_1.2.10-Miseq"]}
+            </div>
+        </div>
+    </div>
+    <div class='json-code'>
+        <div id='glossary-json'>
+            {
+    "# contigs"                     : "<span>is the total number of contigs in the assembly.</span>",
+    "Largest contig"                : "<span>is the length of the longest contig in the assembly.</span>",
+    "Total length"                  : "<span>is the total number of bases in the assembly.</span>",
+    "Reference length"              : "<span>is the total number of bases in the reference.</span>",
+
+    "N50"                           : "<span>is the contig length such that using longer or equal length contigs produces half (50%) of the bases of the assembly. Usually there is no value that produces exactly 50%, so the technical definition is the maximum length x such that using contigs of length at least x accounts for at least 50% of the total assembly length.</span>",
+    "NG50"                          : "<span>is the contig length such that using longer or equal length contigs produces half (50%) of the bases of the reference genome. This metric is computed only if a reference genome is provided.</span>",
+    "N75"                           : "<span>is the contig length such that using longer or equal length contigs produces 75% of the bases of the assembly. Usually there is no value that produces exactly 75%, so the technical definition is the maximum length x such that using contigs of length at least x accounts for at least 75% of the total assembly length.</span>",
+    "NG75"                          : "<span>is the contig length such that using longer or equal length contigs produces 75% of the bases of the reference genome. This metric is computed only if a reference genome is provided.</span>",
+
+    "L50"                           : "<span>is the minimum number of contigs that produce half (50%) of the bases of the assembly. In other words, it's the number of contigs of length at least N50.</span>",
+    "LG50"                          : "<span>is the minimum number of contigs that produce half (50%) of the bases of the reference genome. In other words, it's the number of contigs of length at least NG50. This metric is computed only if a reference genome is provided.</span>",
+    "L75"                           : "<span>is the minimum number of contigs that produce 75% of the bases of the assembly. In other words, it's the number of contigs of length at least N75.</span>",
+    "LG75"                          : "<span>is the minimum number of contigs that produce 75% of the bases of the reference genome. In other words, it's the number of contigs of length at least NG75. This metric is computed only if a reference genome is provided.</span>",
+
+    "NA50"                          : "<span>is N50 where the lengths of aligned blocks are counted instead of contig lengths. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces. This metric is computed only if a reference genome is provided.</span>",
+    "NGA50"                         : "<span>is NG50 where the lengths of aligned blocks are counted instead of contig lengths. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces. This metric is computed only if a reference genome is provided.</span>",
+    "NA75"                          : "<span>is N75 where the lengths of aligned blocks are counted instead of contig lengths. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces. This metric is computed only if a reference genome is provided.</span>",
+    "NGA75"                         : "<span>is NG75 where the lengths of aligned blocks are counted instead of contig lengths. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces. This metric is computed only if a reference genome is provided.</span>",
+
+    "LA50"                          : "<span>is L50 where aligned blocks are counted instead of contigs. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces.</span>",
+    "LGA50"                         : "<span>is LG50 where aligned blocks are counted instead of contigs. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces.</span>",
+    "LA75"                          : "<span>is L75 where aligned blocks are counted instead of contigs. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces.</span>",
+    "LGA75"                         : "<span>is LG75 where aligned blocks are counted instead of contigs. I.e., if a contig has a misassembly with respect to the reference, the contig is broken into smaller pieces.</span>",
+
+    "Average %IDY"                  : "<span>is the average of alignment identity percent (Nucmer measure of alignment accuracy) among all contigs.</span>",
+    "# misassemblies"               : "<span>is the number of positions in the assembled contigs where the left flanking sequence aligns over 1 kbp away from the right flanking sequence on the reference (<i>relocation</i>) or they overlap on more than 1 kbp (<i>relocation</i>) or flanking sequences align on different strands (<i>inversion</i>) or different chromosomes (<i>translocation</i>).</span>",
+    "# misassembled contigs"        : "<span>is the number of contigs that contain misassembly events.</span>",
+    "Misassembled contigs length"   : "<span>is the number of total bases contained in all contigs that have one or more misassemblies.</span>",
+
+    "# relocations"                 : "<span>is the number of relocation events among all misassembly events. Relocation is a misassembly where the left flanking sequence aligns over 1 kbp away from the right flanking sequence on the reference, or they overlap by more than 1 kbp and both flanking sequences align on the same chromosome.</span>",
+    "# translocations"              : "<span>is the number of translocation events among all misassembly events. Translocation is a misassembly where the flanking sequences align on different chromosomes.</span>",
+    "# inversions"                  : "<span>is the number of inversion events among all misassembly events. Inversion is a misassembly where it is not a <i>relocation</i> and the flanking sequences align on opposite strands of the same chromosome.</span>",
+    "# local misassemblies"         : "<span>is the number of local misassemblies. We define a local misassembly breakpoint as a breakpoint that satisfies these conditions: <ol> <li>Two or more distinct alignments cover the breakpoint.</li> <li>The gap between left and right flanking sequences is less than 1 kbp.</li> <li>The left and right flanking sequences both are on the same strand of the same chromosome of the reference genome.</li> </ol> </span>",
+
+    "# fully unaligned contigs"     : "<span>is the number of contigs that have no alignment to the reference sequence.</span>",
+    "Fully unaligned length"        : "<span>is the total number of bases contained in all fully unaligned contigs.</span>",
+    "# partially unaligned contigs" : "<span>is the number of contigs that are not fully unaligned ones but have fragments with no alignment to the reference.</span>",
+    "# with misassembly"            : "<span>is the number of partially unaligned contigs that contain misassembly events in their aligned fragment. Note that such misassemblies are not counted in <i># misassemblies</i> and other <i>misassemblies</i> statistics.</span>",
+    "# both parts are significant"  : "<span>is the number of partially unaligned contigs that contain both aligned and unaligned fragments of length &ge; <i>min-contig threshold</i>.</span>",
+    "Partially unaligned length"    : "<span>is the total number of unaligned bases in all partially unaligned contigs.</span>",
+
+    "# ambiguous contigs"           : "<span>is the number of contigs that have reference alignments of equal quality in multiple locations on the reference.</span>",
+    "Ambiguous contigs length"      : "<span>is the total number of bases contained in all ambiguous contigs.</span>",
+
+    "Genome fraction (%)"           : "<span>is the total number of aligned bases in the reference, divided by the genome size. A base in the reference genome is counted as aligned if there is at least one contig with at least one alignment to this base. Contigs from repeat regions may map to multiple places, and thus may be counted multiple times in this quantity.</span>",
+    "GC (%)"                        : "<span>is the total number of G and C nucleotides in the assembly, divided by the total length of the assembly.</span>",
+    "Reference GC (%)"              : "<span>is the total number of G and C nucleotides in the reference, divided by the total length of the reference.</span>",
+
+    "# mismatches per 100 kbp"      : "<span>is the average number of mismatches per 100000 aligned bases.</span>",
+    "# mismatches"                  : "<span>is the number of mismatches in all aligned bases.</span>",
+    "# indels per 100 kbp"          : "<span>is the average number of indels per 100000 aligned bases.</span>",
+    "# indels"                      : "<span>is the number of indels in all aligned bases</span>",
+    "# short indels (<= 5 bp)"      : "<span>is the number of indels of length &le; 5 bp</span>",
+    "# long indels (> 5 bp)"        : "<span>is the number of indels of length &gt; 5 bp</span>",
+    "Indels length"                 : "<span>is the number of total bases contained in all indels</span>",
+
+    "# genes"                       : "<span>is the number of genes in the assembly (complete and partial), based on a user-provided annotated list of gene positions in the reference genome. A gene counts as 'partially covered' if the assembly contains at least 100 bp of this gene but not the whole gene.</span>",
+    "# operons"                     : "<span>is the number of operons in the assembly (complete and partial), based on a user-provided annotated list of operon positions in the reference genome. An operon counts as 'partially covered' if the assembly contains at least 100 bp of this operon but not the whole operon.</span>",
+
+    "Cumulative length"             : "<span>plot shows the growth of assembly contig lengths. On the x-axis, contigs are ordered from largest (contig #1) to smallest. The y-axis gives the size of the x largest contigs in the assembly.</span>",
+    "Nx"                            : "<span>plot shows the Nx metric value as x varies from 0 to 100.</span>  <span>Nx is the minimum contig length <b>y</b> such that using contigs of length at least <b>y</b> accounts for at least x% of the total assembly length.</span>",
+    "NGx"                           : "<span>plot shows the NGx metric value as x varies from 0 to 100.</span> <span>NGx is the minimum contig length <b>y</b> such that using contigs of length at least <b>y</b> accounts for at least x% of the bases of the reference genome. This metric is computed only if a reference genome is provided.</span>",
+    "NAx"                           : "<span>plot shows the NAx metric value as x varies from 0 to 100.</span> <span>NAx is computed similarly to Nx, but based on lengths of aligned blocks instead of contig lengths. Contigs are broken into aligned blocks at misassembly breakpoints. NAx is the minimum block length <b>y</b> such that using blocks of length at least <b>y</b> accounts for at least x% of the bases of the assembly. This metric is computed only if a reference genome is provided.</span>",
+    "NGAx"                          : "<span>plot shows the NGAx metric value as x varies from 0 to 100.</span><span>NGAx is computed similarly to NGx, but based on lengths of aligned blocks instead of contig lengths. Contigs are broken at misassembly breakpoints. NGAx is the minimum block length <b>y</b> such that using blocks of length at least <b>y</b> accounts for at least x% of the bases of the reference genome. This metric is computed only if a reference genome is provided.</span>",
+    "GC content"                    : "<span>plot shows the distribution of GC percentage among the contigs, i.e., the total number of bases in contigs with such GC content. Typically, the distribution is approximately Gaussian. However, for some genomes it is not Gaussian. For assembly projects with contaminants, the GC distribution of the contaminants often differs from the reference genome and may give a superposition of multiple curves with different peaks.</span>",
+
+    "Duplication ratio"             : "<span>is the total number of aligned bases in the assembly (i.e. <i>Total length</i> - <i>Unaligned contigs length</i>), divided by the total number of aligned bases in the reference (see the <b>Genome fraction (%)</b> metric). If the assembly contains many contigs that cover the same regions of the reference, its <i>Duplication ratio</i> may be much larger than 1. This may occur due to overestimating repeat multiplicities and due to small overlaps between contigs, among other reasons.</span>",
+    "Largest alignment"             : "<span>is the length of the largest continuous alignment in the assembly. This metric is always equal to the <i>Largest contig</i> metric but it can be smaller if the largest contig of the assembly contains a misassembly event.</span>",
+
+    "# N's"                         : "<span>is the total number of uncalled bases (N's) in the assembly.</span>",
+    "# N's per 100 kbp"             : "<span>is the average number of uncalled bases (N's) per 100000 assembly bases.</span>"
+}
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="report_html_aux/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="report_html_aux/bootstrap/bootstrap-tooltip-vlad.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("[rel=tooltip]").tooltip({
+                animation: false,
+            });
+        });
+    </script>
+</div>
+</body>
+</html>

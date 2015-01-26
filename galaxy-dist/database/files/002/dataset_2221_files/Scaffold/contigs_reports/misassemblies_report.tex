@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{6}{|r}|}
+\hline
+Assembly & GAGE-B broken & GAGE-B & Spades\_2\_3\_0 broken & Spades\_2\_3\_0 & Spades\_2\_5\_0 broken & Spades\_2\_5\_0 \\ \hline
+\# misassemblies & 21 & 21 & {\bf 7} & {\bf 7} & 8 & 8 \\ \hline
+\hspace{5mm}\# relocations & 19 & 19 & {\bf 6} & {\bf 6} & 7 & 7 \\ \hline
+\hspace{5mm}\# translocations & 2 & 2 & {\bf 1} & {\bf 1} & {\bf 1} & {\bf 1} \\ \hline
+\hspace{5mm}\# inversions & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# misassembled contigs & 17 & 17 & {\bf 7} & {\bf 7} & {\bf 7} & {\bf 7} \\ \hline
+Misassembled contigs length & {\bf 390381} & {\bf 390381} & 620123 & 620123 & 613488 & 613488 \\ \hline
+\# local misassemblies & 17 & 17 & 11 & 11 & {\bf 6} & {\bf 6} \\ \hline
+\# mismatches & 322 & 367 & 286 & 280 & {\bf 262} & {\bf 262} \\ \hline
+\# indels & 310 & 317 & {\bf 148} & {\bf 148} & 152 & 152 \\ \hline
+\hspace{5mm}\# short indels ($\leq$ 5 bp) & 258 & 263 & {\bf 138} & {\bf 138} & 142 & 142 \\ \hline
+\hspace{5mm}\# long indels ($>$ 5 bp) & 52 & 54 & {\bf 10} & {\bf 10} & {\bf 10} & {\bf 10} \\ \hline
+Indels length & 1369 & 1428 & {\bf 273} & {\bf 273} & 358 & 358 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

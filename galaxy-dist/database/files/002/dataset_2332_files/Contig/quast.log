@@ -1,0 +1,123 @@
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig -R /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna -G /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/V_cholerae_O1_biovar_eltor_str_N1696.gff -l miseq, hiseq, abyss, abyss_hiseq --contig-thresholds 200,1000 /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2026.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2028.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2030.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2022.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.32-431.11.2.el6.x86_64-x86_64-with-redhat-6.5-Santiago
+  Python version: 2.7.6
+  CPUs number: 64
+
+Started: 2014-06-26 18:23:29
+
+Logging to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna ==> V_cholerae_O1_biovar_eltor_str_N1696
+
+Contigs:
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2026.dat ==> miseq
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2028.dat ==> hiseq
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2030.dat ==> abyss
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2022.dat ==> abyss_hiseq
+
+2014-06-26 18:23:33
+Running Basic statistics processor...
+  Reference genome:
+    V_cholerae_O1_biovar_eltor_str_N1696.fna, Reference length = 4033464, Reference GC % = 47.49
+  Contig files: 
+    1  miseq
+    2  hiseq
+    3  abyss
+    4  abyss_hiseq
+  Calculating N50 and L50...
+    1  miseq, N50 = 60973, L50 = 21, Total length = 3904784, GC % = 47.56, # N's per 100 kbp =  0.00
+    2  hiseq, N50 = 94508, L50 = 13, Total length = 4086478, GC % = 47.57, # N's per 100 kbp =  100.94
+    3  abyss, N50 = 59545, L50 = 21, Total length = 3904884, GC % = 47.56, # N's per 100 kbp =  0.00
+    4  abyss_hiseq, N50 = 25689, L50 = 44, Total length = 3895189, GC % = 47.52, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/basic_stats/NGx_plot.pdf
+Done.
+
+2014-06-26 18:23:37
+Running Contig analyzer...
+  1  miseq
+  1  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/contigs_reports/contigs_report_miseq.stdout and contigs_report_miseq.stderr...
+  1  Running Nucmer... 
+  2  hiseq
+  3  abyss
+  4  abyss_hiseq
+  2  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/contigs_reports/contigs_report_hiseq.stdout and contigs_report_hiseq.stderr...
+  3  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/contigs_reports/contigs_report_abyss.stdout and contigs_report_abyss.stderr...
+  4  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/contigs_reports/contigs_report_abyss_hiseq.stdout and contigs_report_abyss_hiseq.stderr...
+  3  Running Nucmer... 
+  4  Running Nucmer... 
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/contigs_reports/alignments_abyss.tsv
+  110292 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/contigs_reports/alignments_miseq.tsv
+  110290 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/contigs_reports/alignments_abyss_hiseq.tsv
+  25610 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/contigs_reports/alignments_hiseq.tsv
+  27391 Analysis is finished.
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-06-26 18:23:52
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    1  miseq, Largest alignment = 178118, NA50 = 60473, NGA50 = 60272, LA50 = 21, LGA50 = 22
+    2  hiseq, Largest alignment = 246076, NA50 = 92996, NGA50 = 92996, LA50 = 14, LGA50 = 14
+    3  abyss, Largest alignment = 178122, NA50 = 59545, NGA50 = 59400, LA50 = 21, LGA50 = 22
+    4  abyss_hiseq, Largest alignment = 145939, NA50 = 25689, NGA50 = 25448, LA50 = 44, LGA50 = 47
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-06-26 18:23:54
+Running Genome analyzer...
+  Loaded 3693 genes
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  1  miseq
+  2  hiseq
+  3  abyss
+  4  abyss_hiseq
+  Drawing genes cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-06-26 18:24:06
+Summarizing...
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/report.html
+  All pdf files are merged to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/plots.pdf
+Log saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2250/dataset_2332_files/Contig/quast.log
+
+Finished: 2014-06-26 18:24:06
+Elapsed time: 0:00:36.155413

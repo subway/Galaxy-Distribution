@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{4}{|r}|}
+\hline
+Assembly & GAGE-B-Hiseq & Velvet\_1208-Hiseq & GAGE-B-Miseq & Velvet\_1208-Miseq \\ \hline
+\# misassemblies & 10 & 10 & 22 & {\bf 6} \\ \hline
+\hspace{5mm}\# relocations & 8 & 9 & 20 & {\bf 6} \\ \hline
+\hspace{5mm}\# translocations & 2 & 1 & 2 & {\bf 0} \\ \hline
+\hspace{5mm}\# inversions & 0 & 0 & 0 & 0 \\ \hline
+\# misassembled contigs & 8 & 9 & 17 & {\bf 6} \\ \hline
+Misassembled contigs length & 395034 & 273985 & 1210318 & {\bf 45660} \\ \hline
+\# local misassemblies & 129 & 123 & 13 & {\bf 6} \\ \hline
+\# mismatches & 203 & 225 & {\bf 156} & 168 \\ \hline
+\# indels & 370 & 205 & 192 & {\bf 103} \\ \hline
+\hspace{5mm}\# short indels ($\leq$ 5 bp) & 346 & 196 & 183 & {\bf 98} \\ \hline
+\hspace{5mm}\# long indels ($>$ 5 bp) & 24 & 9 & 9 & {\bf 5} \\ \hline
+Indels length & 708 & 374 & 352 & {\bf 145} \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

@@ -1,0 +1,72 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1763/dataset_1845_files/B_cereus_ATCC_1098 -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/B_cereus_ATCC_1098.fna -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/B_cereus_ATCC_1098.gff -l cabog --scaffolds /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_586.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-05-04 16:54:27
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1763/dataset_1845_files/B_cereus_ATCC_1098/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/B_cereus_ATCC_1098.fna ==> B_cereus_ATCC_1098
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_586.dat ==> cabog
+  breaking scaffolds into contigs:
+      257035 scaffolds (cabog) were broken into 113 contigs (cabog_broken)
+
+2014-05-04 16:54:29
+Running Basic statistics processor...
+  Reference genome:
+    B_cereus_ATCC_1098.fna, Reference length = 5432652, Reference GC % = 35.50
+  Contig files: 
+    1  cabog broken
+    2  cabog
+  Calculating N50 and L50...
+    1  cabog broken, N50 = 278382, L50 = 6, Total length = 5004541, GC % = 61.60, # N's per 100 kbp =  0.00
+    2  cabog, N50 = 278382, L50 = 6, Total length = 5010956, GC % = 61.60, # N's per 100 kbp =  31.65
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1763/dataset_1845_files/B_cereus_ATCC_1098/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1763/dataset_1845_files/B_cereus_ATCC_1098/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1763/dataset_1845_files/B_cereus_ATCC_1098/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1763/dataset_1845_files/B_cereus_ATCC_1098/basic_stats/NGx_plot.pdf
+Done.
+
+2014-05-04 16:54:32
+Running Contig analyzer...
+  1  cabog broken
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1763/dataset_1845_files/B_cereus_ATCC_1098/contigs_reports/contigs_report_cabog_broken.stdout and contigs_report_cabog_broken.stderr...
+  2  cabog
+  1  Running Nucmer... 
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1763/dataset_1845_files/B_cereus_ATCC_1098/contigs_reports/contigs_report_cabog.stdout and contigs_report_cabog.stderr...
+  2  Running Nucmer... 
+  2  Nucmer: nothing aligned for 'cabog'.
+  1  Nucmer: nothing aligned for 'cabog_broken'.
+Failed aligning the contigs for all the assemblies. Only basic stats are going to be evaluated.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-05-04 16:54:42
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1763/dataset_1845_files/B_cereus_ATCC_1098/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1763/dataset_1845_files/B_cereus_ATCC_1098/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1763/dataset_1845_files/B_cereus_ATCC_1098/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1763/dataset_1845_files/B_cereus_ATCC_1098/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1763/dataset_1845_files/B_cereus_ATCC_1098/quast.log
+
+Finished: 2014-05-04 16:54:42
+Elapsed time: 0:00:15.473378

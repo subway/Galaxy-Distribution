@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <body>
+    <a name="top"><h1>Tool output</h1></a>
+    <small>Compare this output? Use the tool <i>Compare statistics</i> from the tool menu.</small><br>
+    <p><h2>Content</h2>
+    <dl>
+    <dt><a href="#Contig"><strong><font color="black">Contig</font></strong></a>        <a href="Contig.zip">Download</a></dt>
+<dd>    <a href="#Contig-aligned_stats"><font color="black">aligned_stats</font></a><br>
+    <a href="#Contig-basic_stats"><font color="black">basic_stats</font></a><br>
+    <a href="#Contig-contigs_reports"><font color="black">contigs_reports</font></a><br>
+    <a href="#Contig-contigs_reports-nucmer_output"><font color="black">nucmer_output</font></a><br>
+    <a href="#Contig-genome_stats"><font color="black">genome_stats</font></a><br>
+    <a href="#Contig-json"><font color="black">json</font></a><br>
+    </dd><br>
+    </dl>
+    <hr>
+<a name="Contig"><h3>Contig</h3></a><ul>
+    <li><a href="Contig/plots.pdf">plots.pdf</a><br>
+    <li><a href="Contig/quast.log">quast.log</a><br>
+    <li><a href="Contig/report.html">report.html</a><br>
+    <li><a href="Contig/report.tex">report.tex</a><br>
+    <li><a href="Contig/report.tsv">report.tsv</a><br>
+    <li><a href="Contig/report.txt">report.txt</a><br>
+    <li><a href="Contig/transposed_report.tex">transposed_report.tex</a><br>
+    <li><a href="Contig/transposed_report.tsv">transposed_report.tsv</a><br>
+    <li><a href="Contig/transposed_report.txt">transposed_report.txt</a><br>
+    </ul></p>
+   <p><a name="Contig-aligned_stats"><strong>aligned_stats</strong></a><ul>
+    <li><a href="Contig/aligned_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="Contig/aligned_stats/NAx_plot.pdf">NAx_plot.pdf</a><br>
+    <li><a href="Contig/aligned_stats/NGAx_plot.pdf">NGAx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="Contig-basic_stats"><strong>basic_stats</strong></a><ul>
+    <li><a href="Contig/basic_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="Contig/basic_stats/GC_content_plot.pdf">GC_content_plot.pdf</a><br>
+    <li><a href="Contig/basic_stats/NGx_plot.pdf">NGx_plot.pdf</a><br>
+    <li><a href="Contig/basic_stats/Nx_plot.pdf">Nx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="Contig-contigs_reports"><strong>contigs_reports</strong></a><ul>
+    <li><a href="Contig/contigs_reports/alignments_VC-M-Abyss-Contig.tsv">alignments_VC-M-Abyss-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_VC-M-Cabog-Contig.tsv">alignments_VC-M-Cabog-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_VC-M-Mira-Contig.tsv">alignments_VC-M-Mira-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_VC-M-Msrca-Contig.tsv">alignments_VC-M-Msrca-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_VC-M-Sga-Contig.tsv">alignments_VC-M-Sga-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_VC-M-Soap-Contig.tsv">alignments_VC-M-Soap-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_VC-M-Spades-Contig.tsv">alignments_VC-M-Spades-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_VC-M-Velvet-Contig.tsv">alignments_VC-M-Velvet-Contig.tsv</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Abyss-Contig.stderr">contigs_report_VC-M-Abyss-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Abyss-Contig.stdout">contigs_report_VC-M-Abyss-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Cabog-Contig.stderr">contigs_report_VC-M-Cabog-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Cabog-Contig.stdout">contigs_report_VC-M-Cabog-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Mira-Contig.stderr">contigs_report_VC-M-Mira-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Mira-Contig.stdout">contigs_report_VC-M-Mira-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Msrca-Contig.stderr">contigs_report_VC-M-Msrca-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Msrca-Contig.stdout">contigs_report_VC-M-Msrca-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Sga-Contig.stderr">contigs_report_VC-M-Sga-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Sga-Contig.stdout">contigs_report_VC-M-Sga-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Soap-Contig.stderr">contigs_report_VC-M-Soap-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Soap-Contig.stdout">contigs_report_VC-M-Soap-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Spades-Contig.stderr">contigs_report_VC-M-Spades-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Spades-Contig.stdout">contigs_report_VC-M-Spades-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Velvet-Contig.stderr">contigs_report_VC-M-Velvet-Contig.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_VC-M-Velvet-Contig.stdout">contigs_report_VC-M-Velvet-Contig.stdout</a><br>
+    <li><a href="Contig/contigs_reports/misassemblies_report.tex">misassemblies_report.tex</a><br>
+    <li><a href="Contig/contigs_reports/misassemblies_report.tsv">misassemblies_report.tsv</a><br>
+    <li><a href="Contig/contigs_reports/misassemblies_report.txt">misassemblies_report.txt</a><br>
+    <li><a href="Contig/contigs_reports/unaligned_report.tex">unaligned_report.tex</a><br>
+    <li><a href="Contig/contigs_reports/unaligned_report.tsv">unaligned_report.tsv</a><br>
+    <li><a href="Contig/contigs_reports/unaligned_report.txt">unaligned_report.txt</a><br>
+    <li><a href="Contig/contigs_reports/VC-M-Abyss-Contig.mis_contigs.fa">VC-M-Abyss-Contig.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/VC-M-Cabog-Contig.mis_contigs.fa">VC-M-Cabog-Contig.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/VC-M-Mira-Contig.mis_contigs.fa">VC-M-Mira-Contig.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/VC-M-Msrca-Contig.mis_contigs.fa">VC-M-Msrca-Contig.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/VC-M-Sga-Contig.mis_contigs.fa">VC-M-Sga-Contig.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/VC-M-Soap-Contig.mis_contigs.fa">VC-M-Soap-Contig.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/VC-M-Spades-Contig.mis_contigs.fa">VC-M-Spades-Contig.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/VC-M-Velvet-Contig.mis_contigs.fa">VC-M-Velvet-Contig.mis_contigs.fa</a><br>
+    <li><a name="Contig-contigs_reports-nucmer_output"><strong>nucmer_output</strong></a><br><ul>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Abyss-Contig.all_snps">VC-M-Abyss-Contig.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Abyss-Contig.coords">VC-M-Abyss-Contig.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Abyss-Contig.coords.filtered">VC-M-Abyss-Contig.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Abyss-Contig.sf">VC-M-Abyss-Contig.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Abyss-Contig.unaligned">VC-M-Abyss-Contig.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Abyss-Contig.used_snps">VC-M-Abyss-Contig.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Cabog-Contig.all_snps">VC-M-Cabog-Contig.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Cabog-Contig.coords">VC-M-Cabog-Contig.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Cabog-Contig.coords.filtered">VC-M-Cabog-Contig.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Cabog-Contig.sf">VC-M-Cabog-Contig.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Cabog-Contig.unaligned">VC-M-Cabog-Contig.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Cabog-Contig.used_snps">VC-M-Cabog-Contig.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Mira-Contig.all_snps">VC-M-Mira-Contig.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Mira-Contig.coords">VC-M-Mira-Contig.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Mira-Contig.coords.filtered">VC-M-Mira-Contig.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Mira-Contig.sf">VC-M-Mira-Contig.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Mira-Contig.unaligned">VC-M-Mira-Contig.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Mira-Contig.used_snps">VC-M-Mira-Contig.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Msrca-Contig.all_snps">VC-M-Msrca-Contig.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Msrca-Contig.coords">VC-M-Msrca-Contig.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Msrca-Contig.coords.filtered">VC-M-Msrca-Contig.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Msrca-Contig.sf">VC-M-Msrca-Contig.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Msrca-Contig.unaligned">VC-M-Msrca-Contig.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Msrca-Contig.used_snps">VC-M-Msrca-Contig.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Sga-Contig.all_snps">VC-M-Sga-Contig.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Sga-Contig.coords">VC-M-Sga-Contig.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Sga-Contig.coords.filtered">VC-M-Sga-Contig.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Sga-Contig.sf">VC-M-Sga-Contig.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Sga-Contig.unaligned">VC-M-Sga-Contig.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Sga-Contig.used_snps">VC-M-Sga-Contig.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Soap-Contig.all_snps">VC-M-Soap-Contig.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Soap-Contig.coords">VC-M-Soap-Contig.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Soap-Contig.coords.filtered">VC-M-Soap-Contig.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Soap-Contig.sf">VC-M-Soap-Contig.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Soap-Contig.unaligned">VC-M-Soap-Contig.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Soap-Contig.used_snps">VC-M-Soap-Contig.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Spades-Contig.all_snps">VC-M-Spades-Contig.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Spades-Contig.coords">VC-M-Spades-Contig.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Spades-Contig.coords.filtered">VC-M-Spades-Contig.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Spades-Contig.sf">VC-M-Spades-Contig.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Spades-Contig.unaligned">VC-M-Spades-Contig.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Spades-Contig.used_snps">VC-M-Spades-Contig.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Velvet-Contig.all_snps">VC-M-Velvet-Contig.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Velvet-Contig.coords">VC-M-Velvet-Contig.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Velvet-Contig.coords.filtered">VC-M-Velvet-Contig.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Velvet-Contig.sf">VC-M-Velvet-Contig.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Velvet-Contig.unaligned">VC-M-Velvet-Contig.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1637/dataset_1719_files/Contig/VC-M-Velvet-Contig.used_snps">VC-M-Velvet-Contig.used_snps</a><br>
+     </ul>
+    </ul></p>
+   <p><a name="Contig-genome_stats"><strong>genome_stats</strong></a><ul>
+    <li><a href="Contig/genome_stats/complete_genes_histogram.pdf">complete_genes_histogram.pdf</a><br>
+    <li><a href="Contig/genome_stats/genes_cumulative_plot.pdf">genes_cumulative_plot.pdf</a><br>
+    <li><a href="Contig/genome_stats/genome_fraction_histogram.pdf">genome_fraction_histogram.pdf</a><br>
+    <li><a href="Contig/genome_stats/genome_info.txt">genome_info.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Abyss-Contig_gaps.txt">VC-M-Abyss-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Abyss-Contig_genes.txt">VC-M-Abyss-Contig_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Cabog-Contig_gaps.txt">VC-M-Cabog-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Cabog-Contig_genes.txt">VC-M-Cabog-Contig_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Mira-Contig_gaps.txt">VC-M-Mira-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Mira-Contig_genes.txt">VC-M-Mira-Contig_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Msrca-Contig_gaps.txt">VC-M-Msrca-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Msrca-Contig_genes.txt">VC-M-Msrca-Contig_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Sga-Contig_gaps.txt">VC-M-Sga-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Sga-Contig_genes.txt">VC-M-Sga-Contig_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Soap-Contig_gaps.txt">VC-M-Soap-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Soap-Contig_genes.txt">VC-M-Soap-Contig_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Spades-Contig_gaps.txt">VC-M-Spades-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Spades-Contig_genes.txt">VC-M-Spades-Contig_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Velvet-Contig_gaps.txt">VC-M-Velvet-Contig_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/VC-M-Velvet-Contig_genes.txt">VC-M-Velvet-Contig_genes.txt</a><br>
+    </ul></p>
+   <p><a name="Contig-json"><strong>json</strong></a><ul>
+    <li><a href="Contig/json/aligned_contigs_lengths.json">aligned_contigs_lengths.json</a><br>
+    <li><a href="Contig/json/assemblies_lengths.json">assemblies_lengths.json</a><br>
+    <li><a href="Contig/json/contigs_lengths.json">contigs_lengths.json</a><br>
+    <li><a href="Contig/json/gc.json">gc.json</a><br>
+    <li><a href="Contig/json/genes_in_contigs.json">genes_in_contigs.json</a><br>
+    <li><a href="Contig/json/ref_length.json">ref_length.json</a><br>
+    <li><a href="Contig/json/report.json">report.json</a><br>
+    </ul></p>
+    <a href="#top"><font color="black">[To the top]</font></a><br>    </body>
+</html>

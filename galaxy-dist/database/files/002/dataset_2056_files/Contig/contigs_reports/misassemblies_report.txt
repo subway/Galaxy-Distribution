@@ -1,0 +1,15 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                      GAGE-B_abyss_hiseq_ctg  GAGE-B_abyss_hiseq_scf  abyss_1.3.4  abyss_1.3.6
+# misassemblies               6                       16                      1            1          
+    # relocations             5                       14                      1            1          
+    # translocations          1                       2                       0            0          
+    # inversions              0                       0                       0            0          
+# misassembled contigs        5                       14                      1            1          
+Misassembled contigs length   376802                  924513                  7351         7351       
+# local misassemblies         17                      68                      0            0          
+# mismatches                  208                     290                     0            0          
+# indels                      225                     264                     0            0          
+    # short indels (<= 5 bp)  189                     230                     0            0          
+    # long indels (> 5 bp)    36                      34                      0            0          
+Indels length                 703                     730                     0            0          

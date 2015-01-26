@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <body>
+    <a name="top"><h1>Tool output</h1></a>
+    <small>Compare this output? Use the tool <i>Compare statistics</i> from the tool menu.</small><br>
+    <p><h2>Content</h2>
+    <dl>
+    <dt><a href="#Contig"><strong><font color="black">Contig</font></strong></a>        <a href="Contig.zip">Download</a></dt>
+<dd>    <a href="#Contig-aligned_stats"><font color="black">aligned_stats</font></a><br>
+    <a href="#Contig-basic_stats"><font color="black">basic_stats</font></a><br>
+    <a href="#Contig-contigs_reports"><font color="black">contigs_reports</font></a><br>
+    <a href="#Contig-contigs_reports-nucmer_output"><font color="black">nucmer_output</font></a><br>
+    <a href="#Contig-genome_stats"><font color="black">genome_stats</font></a><br>
+    <a href="#Contig-json"><font color="black">json</font></a><br>
+    </dd><br>
+    </dl>
+    <hr>
+<a name="Contig"><h3>Contig</h3></a><ul>
+    <li><a href="Contig/plots.pdf">plots.pdf</a><br>
+    <li><a href="Contig/quast.log">quast.log</a><br>
+    <li><a href="Contig/report.html">report.html</a><br>
+    <li><a href="Contig/report.tex">report.tex</a><br>
+    <li><a href="Contig/report.tsv">report.tsv</a><br>
+    <li><a href="Contig/report.txt">report.txt</a><br>
+    <li><a href="Contig/transposed_report.tex">transposed_report.tex</a><br>
+    <li><a href="Contig/transposed_report.tsv">transposed_report.tsv</a><br>
+    <li><a href="Contig/transposed_report.txt">transposed_report.txt</a><br>
+    </ul></p>
+   <p><a name="Contig-aligned_stats"><strong>aligned_stats</strong></a><ul>
+    <li><a href="Contig/aligned_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="Contig/aligned_stats/NAx_plot.pdf">NAx_plot.pdf</a><br>
+    <li><a href="Contig/aligned_stats/NGAx_plot.pdf">NGAx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="Contig-basic_stats"><strong>basic_stats</strong></a><ul>
+    <li><a href="Contig/basic_stats/cumulative_plot.pdf">cumulative_plot.pdf</a><br>
+    <li><a href="Contig/basic_stats/GC_content_plot.pdf">GC_content_plot.pdf</a><br>
+    <li><a href="Contig/basic_stats/NGx_plot.pdf">NGx_plot.pdf</a><br>
+    <li><a href="Contig/basic_stats/Nx_plot.pdf">Nx_plot.pdf</a><br>
+    </ul></p>
+   <p><a name="Contig-contigs_reports"><strong>contigs_reports</strong></a><ul>
+    <li><a href="Contig/contigs_reports/abyss_1.3.mis_contigs.fa">abyss_1.3.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/alignments_abyss_1.3.tsv">alignments_abyss_1.3.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_GAGE-B_abyss_hiseq_ctg.tsv">alignments_GAGE-B_abyss_hiseq_ctg.tsv</a><br>
+    <li><a href="Contig/contigs_reports/alignments_GAGE-B_abyss_hiseq_scf.tsv">alignments_GAGE-B_abyss_hiseq_scf.tsv</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_abyss_1.3.stderr">contigs_report_abyss_1.3.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_abyss_1.3.stdout">contigs_report_abyss_1.3.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_GAGE-B_abyss_hiseq_ctg.stderr">contigs_report_GAGE-B_abyss_hiseq_ctg.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_GAGE-B_abyss_hiseq_ctg.stdout">contigs_report_GAGE-B_abyss_hiseq_ctg.stdout</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_GAGE-B_abyss_hiseq_scf.stderr">contigs_report_GAGE-B_abyss_hiseq_scf.stderr</a><br>
+    <li><a href="Contig/contigs_reports/contigs_report_GAGE-B_abyss_hiseq_scf.stdout">contigs_report_GAGE-B_abyss_hiseq_scf.stdout</a><br>
+    <li><a href="Contig/contigs_reports/GAGE-B_abyss_hiseq_ctg.mis_contigs.fa">GAGE-B_abyss_hiseq_ctg.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/GAGE-B_abyss_hiseq_scf.mis_contigs.fa">GAGE-B_abyss_hiseq_scf.mis_contigs.fa</a><br>
+    <li><a href="Contig/contigs_reports/misassemblies_report.tex">misassemblies_report.tex</a><br>
+    <li><a href="Contig/contigs_reports/misassemblies_report.tsv">misassemblies_report.tsv</a><br>
+    <li><a href="Contig/contigs_reports/misassemblies_report.txt">misassemblies_report.txt</a><br>
+    <li><a href="Contig/contigs_reports/unaligned_report.tex">unaligned_report.tex</a><br>
+    <li><a href="Contig/contigs_reports/unaligned_report.tsv">unaligned_report.tsv</a><br>
+    <li><a href="Contig/contigs_reports/unaligned_report.txt">unaligned_report.txt</a><br>
+    <li><a name="Contig-contigs_reports-nucmer_output"><strong>nucmer_output</strong></a><br><ul>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/abyss_1.3.all_snps">abyss_1.3.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/abyss_1.3.coords">abyss_1.3.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/abyss_1.3.coords.filtered">abyss_1.3.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/abyss_1.3.sf">abyss_1.3.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/abyss_1.3.unaligned">abyss_1.3.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/abyss_1.3.used_snps">abyss_1.3.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/GAGE-B_abyss_hiseq_ctg.all_snps">GAGE-B_abyss_hiseq_ctg.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/GAGE-B_abyss_hiseq_ctg.coords">GAGE-B_abyss_hiseq_ctg.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/GAGE-B_abyss_hiseq_ctg.coords.filtered">GAGE-B_abyss_hiseq_ctg.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/GAGE-B_abyss_hiseq_ctg.sf">GAGE-B_abyss_hiseq_ctg.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/GAGE-B_abyss_hiseq_ctg.unaligned">GAGE-B_abyss_hiseq_ctg.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/GAGE-B_abyss_hiseq_ctg.used_snps">GAGE-B_abyss_hiseq_ctg.used_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/GAGE-B_abyss_hiseq_scf.all_snps">GAGE-B_abyss_hiseq_scf.all_snps</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/GAGE-B_abyss_hiseq_scf.coords">GAGE-B_abyss_hiseq_scf.coords</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/GAGE-B_abyss_hiseq_scf.coords.filtered">GAGE-B_abyss_hiseq_scf.coords.filtered</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/GAGE-B_abyss_hiseq_scf.sf">GAGE-B_abyss_hiseq_scf.sf</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/GAGE-B_abyss_hiseq_scf.unaligned">GAGE-B_abyss_hiseq_scf.unaligned</a><br>
+    <li><a href="/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1970/dataset_2052_files/Contig/GAGE-B_abyss_hiseq_scf.used_snps">GAGE-B_abyss_hiseq_scf.used_snps</a><br>
+     </ul>
+    </ul></p>
+   <p><a name="Contig-genome_stats"><strong>genome_stats</strong></a><ul>
+    <li><a href="Contig/genome_stats/abyss_1.3_gaps.txt">abyss_1.3_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/abyss_1.3_genes.txt">abyss_1.3_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/complete_genes_histogram.pdf">complete_genes_histogram.pdf</a><br>
+    <li><a href="Contig/genome_stats/GAGE-B_abyss_hiseq_ctg_gaps.txt">GAGE-B_abyss_hiseq_ctg_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/GAGE-B_abyss_hiseq_ctg_genes.txt">GAGE-B_abyss_hiseq_ctg_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/GAGE-B_abyss_hiseq_scf_gaps.txt">GAGE-B_abyss_hiseq_scf_gaps.txt</a><br>
+    <li><a href="Contig/genome_stats/GAGE-B_abyss_hiseq_scf_genes.txt">GAGE-B_abyss_hiseq_scf_genes.txt</a><br>
+    <li><a href="Contig/genome_stats/genes_cumulative_plot.pdf">genes_cumulative_plot.pdf</a><br>
+    <li><a href="Contig/genome_stats/genome_fraction_histogram.pdf">genome_fraction_histogram.pdf</a><br>
+    <li><a href="Contig/genome_stats/genome_info.txt">genome_info.txt</a><br>
+    </ul></p>
+   <p><a name="Contig-json"><strong>json</strong></a><ul>
+    <li><a href="Contig/json/aligned_contigs_lengths.json">aligned_contigs_lengths.json</a><br>
+    <li><a href="Contig/json/assemblies_lengths.json">assemblies_lengths.json</a><br>
+    <li><a href="Contig/json/contigs_lengths.json">contigs_lengths.json</a><br>
+    <li><a href="Contig/json/gc.json">gc.json</a><br>
+    <li><a href="Contig/json/genes_in_contigs.json">genes_in_contigs.json</a><br>
+    <li><a href="Contig/json/ref_length.json">ref_length.json</a><br>
+    <li><a href="Contig/json/report.json">report.json</a><br>
+    </ul></p>
+    <a href="#top"><font color="black">[To the top]</font></a><br>    </body>
+</html>

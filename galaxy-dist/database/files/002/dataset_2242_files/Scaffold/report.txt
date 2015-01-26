@@ -1,0 +1,41 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     GAGE-B broken   GAGE-B          SOAPdenovo2 broken  SOAPdenovo2    
+# contigs (>= 500 bp)        100             75              338                 78             
+# contigs (>= 1000 bp)       81              58              280                 58             
+Total length (>= 500 bp)     3932751         3935433         3891092             3967072        
+Total length (>= 1000 bp)    3919085         3923264         3850636             3952597        
+# contigs                    100             75              338                 78             
+Total length                 3932751         3935433         3891092             3967072        
+Largest contig               425556          574497          69634               577829         
+Reference length             4033464         4033464         4033464             4033464        
+GC (%)                       47.52           47.52           47.52               47.51          
+Reference GC (%)             47.49           47.49           47.49               47.49          
+N50                          135118          200529          23972               202254         
+NG50                         125939          181109          22807               202254         
+N75                          65780           102918          13646               104018         
+NG75                         62739           102918          12268               104018         
+L50                          10              6               53                  6              
+LG50                         11              7               56                  6              
+L75                          21              13              107                 13             
+LG75                         22              13              115                 13             
+# misassemblies              15              15              3                   8              
+Misassembled contigs length  1155029         1605854         19717               505899         
+# local misassemblies        50              76              17                  383            
+# unaligned contigs          1 + 1 part      1 + 1 part      1 + 0 part          1 + 3 part     
+Unaligned contigs length     603             603             551                 1307           
+Genome fraction (%)          97.295          97.305          96.389              97.200         
+Duplication ratio            1.009           1.009           1.001               1.012          
+# N's per 100 kbp            0.00            56.11           0.05                1287.95        
+# mismatches per 100 kbp     14.02           14.01           7.51                8.16           
+# indels per 100 kbp         5.58            5.58            2.91                2.99           
+# genes                      3479 + 50 part  3480 + 50 part  3267 + 207 part     3299 + 215 part
+Largest alignment            425699          574463          69634               573310         
+NA50                         112904          181115          23972               180945         
+NGA50                        112904          181115          22807               180945         
+NA75                         62739           92025           13646               92058          
+NGA75                        62256           92025           12268               92058          
+LA50                         11              7               53                  7              
+LGA50                        11              7               56                  7              
+LA75                         22              14              107                 14             
+LGA75                        23              14              115                 14             

@@ -1,0 +1,177 @@
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/quast.py -o /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig -R /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna -G /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/V_cholerae_O1_biovar_eltor_str_N1696.gff -l GAGE-B, abyss_134, abyss_136 /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2028.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2022.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2024.dat
+
+Version 2.3, build 28.02.2014 16:10
+
+System information:
+  OS: Linux-2.6.32-431.11.2.el6.x86_64-x86_64-with-redhat-6.5-Santiago (linux_64)
+  Python version: 2.7.6
+  CPUs number: 64
+
+Started: 2014-06-11 14:21:41
+
+Logging to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna ==> V_cholerae_O1_biovar_eltor_str_N1696
+
+Contigs:
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2028.dat ==> GAGE-B
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2022.dat ==> abyss_134
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2024.dat ==> abyss_136
+
+2014-06-11 14:21:44
+Running Basic statistics processor...
+  Reference genome:
+    V_cholerae_O1_biovar_eltor_str_N1696.fna, Reference length = 4033464, Reference GC % = 47.49
+  Contig files: 
+    1  GAGE-B
+    2  abyss_134
+    3  abyss_136
+  Calculating N50 and L50...
+    1  GAGE-B, N50 = 94508, L50 = 13, Total length = 4086478, GC % = 47.57, # N's per 100 kbp =  100.94
+    2  abyss_134, N50 = 25689, L50 = 44, Total length = 3895189, GC % = 47.52, # N's per 100 kbp =  0.00
+    3  abyss_136, N50 = 25689, L50 = 44, Total length = 3895189, GC % = 47.52, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/basic_stats/NGx_plot.pdf
+Done.
+
+2014-06-11 14:21:48
+Running Contig analyzer...
+  1  GAGE-B
+  2  abyss_134
+  3  abyss_136
+  1  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/contigs_reports/contigs_report_GAGE-B.stdout and contigs_report_GAGE-B.stderr...
+  2  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/contigs_reports/contigs_report_abyss_134.stdout and contigs_report_abyss_134.stderr...
+  3  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/contigs_reports/contigs_report_abyss_136.stdout and contigs_report_abyss_136.stderr...
+  2  Running Nucmer
+  1  Running Nucmer
+  3  Running Nucmer
+  2  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/nucmer \
+     -c 65 -l 65 --maxmatch -p dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_134 \
+     dataset_2114_files/Contig/quast_corrected_input/V_cholerae_O1_biovar_eltor_str_N1696.fna \
+     dataset_2114_files/Contig/quast_corrected_input/abyss_134 >> dataset_2114_files/Contig/contigs_reports/contigs_report_abyss_134.stdout \
+     2>> dataset_2114_files/Contig/contigs_reports/contigs_report_abyss_134.stderr
+  1  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/nucmer \
+     -c 65 -l 65 --maxmatch -p dataset_2114_files/Contig/contigs_reports/nucmer_output/GAGE-B \
+     dataset_2114_files/Contig/quast_corrected_input/V_cholerae_O1_biovar_eltor_str_N1696.fna \
+     dataset_2114_files/Contig/quast_corrected_input/GAGE-B >> dataset_2114_files/Contig/contigs_reports/contigs_report_GAGE-B.stdout \
+     2>> dataset_2114_files/Contig/contigs_reports/contigs_report_GAGE-B.stderr
+  3  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/nucmer \
+     -c 65 -l 65 --maxmatch -p dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_136 \
+     dataset_2114_files/Contig/quast_corrected_input/V_cholerae_O1_biovar_eltor_str_N1696.fna \
+     dataset_2114_files/Contig/quast_corrected_input/abyss_136 >> dataset_2114_files/Contig/contigs_reports/contigs_report_abyss_136.stdout \
+     2>> dataset_2114_files/Contig/contigs_reports/contigs_report_abyss_136.stderr
+  3  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/delta-filter \
+     -i 95 dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_136.delta \
+     > dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_136.fdelta 2> \
+     dataset_2114_files/Contig/contigs_reports/contigs_report_abyss_136.stderr
+  3  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-coords \
+     dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_136.delta > dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_136.coords_tmp \
+     2> dataset_2114_files/Contig/contigs_reports/contigs_report_abyss_136.stderr
+  3  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-snps \
+     -S -T -H dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_136.delta \
+     < dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_136.coords.headless \
+     > dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_136.all_snps \
+     2> dataset_2114_files/Contig/contigs_reports/contigs_report_abyss_136.stderr
+  2  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/delta-filter \
+     -i 95 dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_134.delta \
+     > dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_134.fdelta 2> \
+     dataset_2114_files/Contig/contigs_reports/contigs_report_abyss_134.stderr
+  2  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-coords \
+     dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_134.delta > dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_134.coords_tmp \
+     2> dataset_2114_files/Contig/contigs_reports/contigs_report_abyss_134.stderr
+  2  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-snps \
+     -S -T -H dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_134.delta \
+     < dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_134.coords.headless \
+     > dataset_2114_files/Contig/contigs_reports/nucmer_output/abyss_134.all_snps \
+     2> dataset_2114_files/Contig/contigs_reports/contigs_report_abyss_134.stderr
+  3  Alignments: dataset_2114_files/Contig/contigs_reports/alignments_abyss_136.tsv
+  3  Analysis is finished.
+
+  2  Alignments: dataset_2114_files/Contig/contigs_reports/alignments_abyss_134.tsv
+  2  Analysis is finished.
+
+  1  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/delta-filter \
+     -i 95 dataset_2114_files/Contig/contigs_reports/nucmer_output/GAGE-B.delta > \
+     dataset_2114_files/Contig/contigs_reports/nucmer_output/GAGE-B.fdelta 2> dataset_2114_files/Contig/contigs_reports/contigs_report_GAGE-B.stderr
+  1  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-coords \
+     dataset_2114_files/Contig/contigs_reports/nucmer_output/GAGE-B.delta > dataset_2114_files/Contig/contigs_reports/nucmer_output/GAGE-B.coords_tmp \
+     2> dataset_2114_files/Contig/contigs_reports/contigs_report_GAGE-B.stderr
+  1  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.3/libs/MUMmer3.23-linux/show-snps \
+     -S -T -H dataset_2114_files/Contig/contigs_reports/nucmer_output/GAGE-B.delta \
+     < dataset_2114_files/Contig/contigs_reports/nucmer_output/GAGE-B.coords.headless \
+     > dataset_2114_files/Contig/contigs_reports/nucmer_output/GAGE-B.all_snps 2> \
+     dataset_2114_files/Contig/contigs_reports/contigs_report_GAGE-B.stderr
+  1  Alignments: dataset_2114_files/Contig/contigs_reports/alignments_GAGE-B.tsv
+  1  Analysis is finished.
+
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-06-11 14:22:06
+Running NA-NGA calculation...
+  1  GAGE-B, Largest alignment = 246076, NA50 = 92996, NGA50 = 92996, LA50 = 14, LGA50 = 14
+  2  abyss_134, Largest alignment = 145939, NA50 = 25689, NGA50 = 25448, LA50 = 44, LGA50 = 47
+  3  abyss_136, Largest alignment = 145939, NA50 = 25689, NGA50 = 25448, LA50 = 44, LGA50 = 47
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/aligned_stats/NGAx_plot.pdf
+Done.
+
+2014-06-11 14:22:07
+Running Genome analyzer...
+  Loaded 3693 genes
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  1  GAGE-B
+  2  abyss_134
+  3  abyss_136
+  1  Analysis is finished.
+  2  Analysis is finished.
+  3  Analysis is finished.
+  Drawing genes cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-06-11 14:22:11
+Drawing large plots...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating contig alignment plot...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2014-06-11 14:22:18
+RESULTS:
+  Text versions of total report are saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/report.html
+  PDF version (tables and plots) saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/report.pdf
+  Contig alignment plot: /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/alignment.svg
+  Log saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2032/dataset_2114_files/Contig/quast.log
+
+Finished: 2014-06-11 14:22:18
+Elapsed time: 0:00:37.585732
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

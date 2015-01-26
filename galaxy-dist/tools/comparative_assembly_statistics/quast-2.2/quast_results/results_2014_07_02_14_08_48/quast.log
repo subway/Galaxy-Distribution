@@ -1,0 +1,28 @@
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py --gage -R ../reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna -G ../reference/genefiles/V_cholerae_O1_biovar_eltor_str_N1696.gff /projects/cees/in_progress/sabba/analysis/gage-b-original/vibrio_cholerae_miseq/cabog_ctg.fasta
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.32-431.11.2.el6.x86_64-x86_64-with-redhat-6.5-Santiago
+  Python version: 2.7.6
+  CPUs number: 64
+
+Started: 2014-07-02 14:08:48
+
+Logging to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_14_08_48/quast.log
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  ../reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna ==> V_cholerae_O1_biovar_eltor_str_N1696
+
+Contigs:
+  /projects/cees/in_progress/sabba/analysis/gage-b-original/vibrio_cholerae_miseq/cabog_ctg.fasta ==> cabog_ctg
+
+2014-07-02 14:08:49
+Running GAGE...
+  cabog_ctg...
+  Logging to files gage_cabog_ctg.stdout and gage_cabog_ctg.stderr...
+  Done.
+WARNING: Error occurred while GAGE was processing assemblies. See GAGE error logs for details (/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_14_08_48/gage/gage_*.stderr)

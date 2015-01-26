@@ -1,0 +1,126 @@
+<tool id="compute_stat" name="Compute statistics">
+  <description>for assemblies</description>
+  <command interpreter="python">computeStat.py 
+    workDir$html_file.files_path
+    currentDir${GALAXY_DATA_INDEX_DIR}
+    #if $choices.choiceSet == "multiDataChoice":
+       #for $d in $choices.dataset:
+           Dataset"${d.label}",${d.file},${d.fileContent}
+       #end for
+       #if $choices.reference.refGenome == "builtIn":
+            dbRef${choices.reference.dbkey}:${choices.reference.dbgene}
+       #elif $choices.reference.refGenome == "uploadYour":
+            Ref${choices.reference.uploadYourRef},False,${choices.reference.genes}
+       #end if
+    #elif $choices.choiceSet == "multiRefChoice":
+       Dataset"${choices.label}",${choices.file},${choices.fileContent}
+       #if $choices.reference.refGenome == "builtIn":
+          dbRef${choices.reference.dbkey}:${choices.reference.dbgene}
+       #elif $choices.reference.refGenome == "uploadYour":
+          Ref${choices.reference.uploadYourRef},${choices.reference.multiRef},${choices.reference.genes}
+       #end if
+    #end if
+    #if str($thresholdMin) != "0":
+        Min$thresholdMin
+    #end if
+    #if str($thresholdMax) != "1000":
+        Max$thresholdMax
+    #end if
+    #if str($threads) != "0":
+        Thr$threads
+    #end if
+  </command>
+  <inputs>
+    <conditional name="choices">
+      <param name="choiceSet" type="select" label="Choose input type">
+	<option value="" selected="true">--- Select ---</option>
+	<option value="multiDataChoice" selected="false">One or more datasets with at most one reference</option>
+	<option value="multiRefChoice" selected="false">One dataset with multiple reference files</option>
+      </param>
+      <when value="multiDataChoice">
+	<repeat name="dataset" title="Dataset">
+	  <param name="label" label="Label" format="text" type="text" help="Name to use in reports (Recommended)"/>
+	  <param name="file" label="File" format="fasta" type="data" help="File with assembly"/>
+	  <param name="fileContent" type="select" label="Does the uploaded file contain contigs or scaffolds?">
+            <option value="contig">Contig</option>
+            <option value="scaffold">Scaffold</option>
+	  </param>
+	</repeat>
+	<conditional name="reference">
+	  <param name="refGenome" type="select" label="Reference">
+            <option value="">Do not use reference</option>
+            <option value="builtIn">Use built in reference</option>
+            <option value="uploadYour">Upload your reference</option>
+	  </param>
+	  <when value="builtIn">
+	    <param name="dbkey" type="select" multiple="false" label="Reference genome" help="Select one from the list">
+              <option value="A_hydrophila_ATCC_7966">A.hydrophila ATCC 7966</option>
+              <option value="B_cereus_ATCC_1098">B.cereus ATCC 10987</option>
+              <option value="B_fragilis_638R">B.fragilis 638R</option>
+              <option value="M_abscessus_ATCC_19977">M.abscessus ATCC 19977</option>
+              <option value="R_sphaeroides_2-4-1">R.sphaeroides 2.4.1</option>
+              <option value="S_aureus_USA300_TCH151">S.aureus USA300_TCH1516</option>
+              <option value="V_cholerae_O1_biovar_eltor_str_N1696">V.cholerae O1 biovar eltor str. N16961</option>
+              <option value="X_axonopodis_pv_citrumel">X.axonopodis pv. citrumelo</option>
+            </param>
+            <param name="dbgene" type="select" label="Include genefile?" help="Do you want to include the corresponding genefile to the reference genome?">
+              <option value="True">Yes</option>
+              <option value="False" selected="True">No</option>
+            </param>
+	  </when>
+	  <when value="uploadYour">
+            <param name="uploadYourRef" type="data" format="fasta" label="Upload your reference"/>
+            <param name="genes" type="data" optional="true" label="Genes" help="File with gene coordinates in the reference"/>
+	  </when>
+	</conditional>
+      </when>
+      <when value="multiRefChoice">
+	<param name="label" label="Label" format="text" type="text" help="Name to use in reports (Recommended)"/>
+	<param name="file" label="File" format="fasta" type="data" help="File with assembly"/>
+	<param name="fileContent" type="select" label="Does the uploaded file contain contigs or scaffolds?">
+          <option value="contig">Contig</option>
+          <option value="scaffold">Scaffold</option>
+	</param>
+	<conditional name="reference">
+	  <param name="refGenome" type="select" label="Reference">
+            <option value="builtIn">Use built in reference</option>
+            <option value="uploadYour">Upload your reference</option>
+	  </param>
+	  <when value="builtIn">
+	    <param name="dbkey" type="select" multiple="true" label="Reference genome" help="Hold the ctrl/shift button to select more than one">
+              <option value="A_hydrophila_ATCC_7966">A.hydrophila ATCC 7966</option>
+              <option value="B_cereus_ATCC_1098">B.cereus ATCC 10987</option>
+              <option value="B_fragilis_638R">B.fragilis 638R</option>
+              <option value="M_abscessus_ATCC_19977">M.abscessus ATCC 19977</option>
+              <option value="R_sphaeroides_2-4-1">R.sphaeroides 2.4.1</option>
+              <option value="S_aureus_USA300_TCH151">S.aureus USA300_TCH1516</option>
+              <option value="V_cholerae_O1_biovar_eltor_str_N1696">V.cholerae O1 biovar eltor str. N16961</option>
+              <option value="X_axonopodis_pv_citrumel">X.axonopodis pv. citrumelo</option>
+            </param>
+            <param name="dbgene" type="select" label="Include genefile?" help="Do you want to include the corresponding genefile to the reference genome?">
+              <option value="True">Yes</option>
+              <option value="False" selected="True">No</option>
+            </param>
+	  </when>
+	  <when value="uploadYour">
+            <param name="uploadYourRef" type="data" format="fasta" label="Upload your reference"/>
+            <param name="multiRef" type="select"  label="Multiple Referencefiles?" help="Is this a merged reference file with multiple sequences?">
+              <option value="True" selected="True">Yes</option>
+              <option value="False">No</option>
+            </param>
+            <param name="genes" type="data" optional="true" label="Genes" help="File with gene coordinates in the reference"/>
+	  </when>
+	</conditional>
+      </when>
+    </conditional>
+    <param name="thresholdMin" type="integer" size="5" value="0" label="Thresholds Minimum" help="Lower minimum contig length thresholds (default: 0)"/>
+    <param name="thresholdMax" type="integer" size="5" value="1000" label="Thresholds Maximum" help="Upper minimum contig length thresholds (default: 1000)"/>
+    <param name="threads" type="integer" size="3" value="0" label="Threads" help="Maximum number of threads (default: 0 -> number of CPUs available)"/>
+  </inputs>
+  <outputs>
+    <data name="html_file" format="html" from_work_dir="result.html"/>
+  </outputs>
+  <help>
+This tool uses at least one assembly (reference genome and genefile is optional) to compute statistics as QUAST results with improved visualization features. The output from this tool can be used as input for 'Compare statistics'-tool where 2 or more results can be merged into one.
+  </help>
+</tool>

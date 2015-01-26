@@ -1,0 +1,25 @@
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2057/dataset_2139_files/Contig -R /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna -G /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/V_cholerae_O1_biovar_eltor_str_N1696.gff -l GAGE-B, abyss_134, abyss_136 /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2028.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2022.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2024.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.32-431.11.2.el6.x86_64-x86_64-with-redhat-6.5-Santiago
+  Python version: 2.7.6
+  CPUs number: 64
+
+Started: 2014-06-12 10:15:17
+
+Logging to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2057/dataset_2139_files/Contig/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna ==> V_cholerae_O1_biovar_eltor_str_N1696
+
+Contigs:
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2028.dat ==> GAGE-B
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2022.dat ==> abyss_134
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2024.dat ==> abyss_136

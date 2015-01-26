@@ -1,0 +1,52 @@
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2280/dataset_2362_files/Contig -l ctg, scf --contig-thresholds 200,1000 /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2323.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2324.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.32-431.11.2.el6.x86_64-x86_64-with-redhat-6.5-Santiago
+  Python version: 2.7.6
+  CPUs number: 64
+
+Started: 2014-06-30 17:10:16
+
+Logging to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2280/dataset_2362_files/Contig/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Contigs:
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2323.dat ==> ctg
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2324.dat ==> scf
+
+2014-06-30 17:10:29
+Running Basic statistics processor...
+  Contig files: 
+    1  ctg
+    2  scf
+  Calculating N50 and L50...
+    1  ctg, N50 = 1707, L50 = 69, Total length = 318746, GC % = 41.54, # N's per 100 kbp =  0.00
+    2  scf, N50 = 1707, L50 = 69, Total length = 318746, GC % = 41.54, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2280/dataset_2362_files/Contig/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2280/dataset_2362_files/Contig/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2280/dataset_2362_files/Contig/basic_stats/Nx_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-06-30 17:10:30
+Summarizing...
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2280/dataset_2362_files/Contig/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2280/dataset_2362_files/Contig/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2280/dataset_2362_files/Contig/report.html
+  All pdf files are merged to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2280/dataset_2362_files/Contig/plots.pdf
+Log saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2280/dataset_2362_files/Contig/quast.log
+
+Finished: 2014-06-30 17:10:30
+Elapsed time: 0:00:14.666553

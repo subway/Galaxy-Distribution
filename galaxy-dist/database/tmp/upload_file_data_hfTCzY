@@ -1,0 +1,14 @@
+"""
+                        if len(contig) != 0:
+                                while (not os.path.exists(path+'/Contig/json/report.json')) | (os.path.exists(path+'/Contig/newReport.html')):
+                                        print '******************Contig '+str(os.path.exists(path+'/Contig/json/report.json'))+' '+str(os.path.exists(path+'/Contig/new\
+Report.html'))
+                        if len(scaffold) != 0:
+                                while (not os.path.exists(path+'/Scaffold/json/report.json')) | (os.path.exists(path+'/Scaffold/newReport.html')):
+                                        print '******************Scaffold '+str(os.path.exists(path+'/Scaffold/json/report.json'))+' '+str(os.path.exists(path+'/Scaffo\
+ld/newReport.html'))
+                        if (len(contig) != 0) & (len(scaffold) != 0):
+                                while (not os.path.exists(path+'/Combined_dataset/json/report.json')) | (os.path.exists(path+'/Combined_dataset/newReport.html')):
+                                        print '******************Combined '+str(os.path.exists(path+'/Combined_dataset/json/report.json'))+' '+str(os.path.exists(path+\
+'/Combined_dataset/newReport.html'))
+                        """

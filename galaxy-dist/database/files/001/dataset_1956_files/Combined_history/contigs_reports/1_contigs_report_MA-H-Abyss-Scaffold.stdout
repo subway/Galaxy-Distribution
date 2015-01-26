@@ -1,0 +1,905 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence]
+	Loaded [gi|169786809|ref|NC_010394.1|_Mycobacterium_abscessus_plasmid__complete_sequence]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 2
+	Total Region Length: 5090491
+Analyzing contigs...
+CONTIG: 290_3771_116119 (3771bp)
+Top Length: 3771  Top ID: 100.0
+		One align captures most of this contig: 4369676 4373446 | 3771 1 | 3771 3771 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 290_3771_116119
+
+CONTIG: 528_299995_10432473_80+_..._476+ (299995bp)
+Top Length: 109929  Top ID: 99.99
+		Skipping redundant alignment 4210034 4226363 | 139766 156062 | 16330 16297 | 99.8 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 528_299995_10432473_80+_..._476+
+		This contig is misassembled. 10 total aligns.
+			Real Alignment 1: 4068077 4068349 | 1 273 | 273 273 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 528_299995_10432473_80+_..._476+
+			  Overlap between these two alignments (local misassembly). Inconsistency = -95
+			Real Alignment 2: 4068305 4103635 | 324 35625 | 35331 35302 | 99.9 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 528_299995_10432473_80+_..._476+
+			  Overlap between these two alignments (local misassembly). Inconsistency = -30
+			Real Alignment 3: 4083572 4144799 | 15592 76775 | 61228 61184 | 99.91 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 528_299995_10432473_80+_..._476+
+			  Extensive misassembly ( relocation, inconsistency = 2244 ) between these two alignments
+			Real Alignment 4: 4147042 4226318 | 76774 156017 | 79277 79244 | 99.96 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 528_299995_10432473_80+_..._476+
+			  Overlap between these two alignments (local misassembly). Inconsistency = -96
+			Real Alignment 5: 4226318 4227316 | 156113 157111 | 999 999 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 528_299995_10432473_80+_..._476+
+			  Overlap between these two alignments (local misassembly). Inconsistency = -96
+			Real Alignment 6: 4227271 4337206 | 157162 267090 | 109936 109929 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 528_299995_10432473_80+_..._476+
+			  Overlap between these two alignments (local misassembly). Inconsistency = -95
+			Real Alignment 7: 4337162 4356944 | 267141 286925 | 19783 19785 | 99.97 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 528_299995_10432473_80+_..._476+
+			  Overlap between these two alignments (local misassembly). Inconsistency = -252
+			Real Alignment 8: 4356550 4356762 | 286783 286995 | 213 213 | 98.59 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 528_299995_10432473_80+_..._476+
+			  Overlap between these two alignments (local misassembly). Inconsistency = -68
+			Real Alignment 9: 4356944 4369647 | 287245 299995 | 12704 12751 | 99.59 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 528_299995_10432473_80+_..._476+
+
+CONTIG: 83_5520_167302 (5520bp)
+Top Length: 5485  Top ID: 99.96
+		One align captures most of this contig: 458295 463778 | 5485 1 | 5484 5485 | 99.96 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 83_5520_167302
+
+CONTIG: 506_70112_2276757_289+_..._42+ (70112bp)
+Top Length: 70112  Top ID: 99.99
+		One align captures most of this contig: 756461 826570 | 1 70112 | 70110 70112 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 506_70112_2276757_289+_..._42+
+
+CONTIG: 482_119446_4065515_168-_..._121- (119446bp)
+Top Length: 73063  Top ID: 99.95
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 3283123 3349503 | 119446 53057 | 66381 66390 | 99.97 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 482_119446_4065515_168-_..._121-
+			  Gap between these two alignments (local misassembly). Inconsistency = 9
+			Real Alignment 2: 3329506 3402573 | 73063 1 | 73068 73063 | 99.95 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 482_119446_4065515_168-_..._121-
+
+CONTIG: 520_2969_108589_372+_386+ (2969bp)
+Top Length: 2969  Top ID: 99.19
+		Marking as insignificant: 4811131 4811613 | 2487 2969 | 483 483 | 99.79 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 520_2969_108589_372+_386+
+		One align captures most of this contig: 4811562 4814530 | 1 2969 | 2969 2969 | 99.19 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 520_2969_108589_372+_386+
+
+CONTIG: 536_3113_131056_385+_..._461+ (3113bp)
+Top Length: 1123  Top ID: 98.4
+		Skipping redundant alignment 2253427 2253880 | 454 1 | 454 454 | 98.9 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 536_3113_131056_385+_..._461+
+		Skipping redundant alignment 669875 670485 | 2503 3113 | 611 611 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 536_3113_131056_385+_..._461+
+		Skipping redundant alignment 2251297 2251904 | 3113 2506 | 608 608 | 97.86 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 536_3113_131056_385+_..._461+
+		This contig is misassembled. 7 total aligns.
+			Real Alignment 1: 43863 44316 | 1 454 | 454 454 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 536_3113_131056_385+_..._461+
+			  Gap between these two alignments (local misassembly). Inconsistency = 49
+			Real Alignment 2: 44416 45538 | 505 1627 | 1123 1123 | 98.4 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 536_3113_131056_385+_..._461+
+			  Overlap between these two alignments (local misassembly). Inconsistency = -612
+			Real Alignment 3: 45379 46412 | 2080 3113 | 1034 1034 | 99.71 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 536_3113_131056_385+_..._461+
+			  Extensive misassembly ( relocation, inconsistency = 2206466 ) between these two alignments
+			Real Alignment 4: 2251794 2252460 | 2029 1363 | 667 667 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 536_3113_131056_385+_..._461+
+
+CONTIG: 545_113145_3954950_513+_..._525- (113145bp)
+Top Length: 111963  Top ID: 99.97
+		Skipping redundant alignment 1277874 1279106 | 111763 110531 | 1233 1233 | 99.11 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 545_113145_3954950_513+_..._525-
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 342928 454877 | 1 111963 | 111950 111963 | 99.97 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 545_113145_3954950_513+_..._525-
+			  Overlap between these two alignments (local misassembly). Inconsistency = -461
+			Real Alignment 2: 454741 455598 | 112288 113145 | 858 858 | 98.6 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 545_113145_3954950_513+_..._525-
+
+CONTIG: 481_11512_427573_166+_440+_374- (11512bp)
+Top Length: 11512  Top ID: 99.63
+		One align captures most of this contig: 1083186 1094739 | 11512 1 | 11554 11512 | 99.63 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 481_11512_427573_166+_440+_374-
+
+CONTIG: 534_86244_3056192_371-_..._502- (86244bp)
+Top Length: 73935  Top ID: 99.99
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 473914 547850 | 86244 12310 | 73937 73935 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 534_86244_3056192_371-_..._502-
+			  Overlap between these two alignments (local misassembly). Inconsistency = -95
+			Real Alignment 2: 547806 560064 | 12259 1 | 12259 12259 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 534_86244_3056192_371-_..._502-
+
+CONTIG: 487_28727_1010460_192+_167+ (28727bp)
+Top Length: 28727  Top ID: 100.0
+		One align captures most of this contig: 987840 1016566 | 1 28727 | 28727 28727 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 487_28727_1010460_192+_167+
+
+CONTIG: 542_3669_108304_484-_..._495- (3669bp)
+Top Length: 3105  Top ID: 99.94
+		Skipping redundant alignment 3020356 3020543 | 335 148 | 188 188 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 542_3669_108304_484-_..._495-
+		Skipping redundant alignment 3024262 3024415 | 3669 3516 | 154 154 | 98.7 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 542_3669_108304_484-_..._495-
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 3020645 3023749 | 3669 565 | 3105 3105 | 99.94 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 542_3669_108304_484-_..._495-
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 2: 3023979 3024313 | 335 1 | 335 335 | 99.7 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 542_3669_108304_484-_..._495-
+
+CONTIG: 529_76766_2689231_126+_267-_517- (76766bp)
+Top Length: 70649  Top ID: 99.99
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 559983 630631 | 70649 1 | 70649 70649 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 529_76766_2689231_126+_267-_517-
+			  Extensive misassembly ( relocation, inconsistency = 2691269 ) between these two alignments
+			Real Alignment 2: 3251859 3258583 | 70042 76766 | 6725 6725 | 99.96 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 529_76766_2689231_126+_267-_517-
+
+CONTIG: 207_652_15985 (652bp)
+Top Length: 652  Top ID: 100.0
+		One align captures most of this contig: 2252468 2253119 | 1 652 | 652 652 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 207_652_15985
+
+CONTIG: 223_2622_76223 (2622bp)
+Top Length: 2622  Top ID: 100.0
+		One align captures most of this contig: 455547 458168 | 1 2622 | 2622 2622 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 223_2622_76223
+
+CONTIG: 527_821_23724_76-_102N_29+ (821bp)
+Top Length: 498  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 4067147 4067419 | 1 273 | 273 273 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 527_821_23724_76-_102N_29+
+			  Overlap between these two alignments (local misassembly). Inconsistency = -95
+			Real Alignment 2: 4067375 4067872 | 324 821 | 498 498 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 527_821_23724_76-_102N_29+
+
+CONTIG: 44_25909_837126 (25909bp)
+Top Length: 25909  Top ID: 100.0
+		One align captures most of this contig: 1278983 1304891 | 25909 1 | 25909 25909 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 44_25909_837126
+
+CONTIG: 214_27795_908648 (27795bp)
+Top Length: 27795  Top ID: 99.99
+		One align captures most of this contig: 2493533 2521327 | 27795 1 | 27795 27795 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 214_27795_908648
+
+CONTIG: 454_20180_639487_12+_169- (20180bp)
+Top Length: 6514  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 20180 and total length of all aligns is 8281
+		Alignment: 463855 470368 | 1 6514 | 6514 6514 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 454_20180_639487_12+_169-
+		Alignment: 470367 472133 | 18414 20180 | 1767 1767 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 454_20180_639487_12+_169-
+		Unaligned bases: 11899
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: 539_147937_5031270_471-_..._456+ (147937bp)
+Top Length: 147937  Top ID: 99.94
+		Marking as insignificant: 3020645 3020798 | 147937 147784 | 154 154 | 98.7 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 539_147937_5031270_471-_..._456+
+		One align captures most of this contig: 3024262 3172117 | 147937 1 | 147856 147937 | 99.94 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 539_147937_5031270_471-_..._456+
+
+CONTIG: 165_10738_399106 (10738bp)
+Top Length: 10738  Top ID: 100.0
+		One align captures most of this contig: 4609441 4620178 | 1 10738 | 10738 10738 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 165_10738_399106
+
+CONTIG: 465_39506_1486329_77-_..._373- (39506bp)
+Top Length: 39506  Top ID: 99.99
+		Marking as insignificant: 2251297 2251904 | 1 608 | 608 608 | 97.86 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 465_39506_1486329_77-_..._373-
+		Marking as insignificant: 45802 46412 | 611 1 | 611 611 | 99.51 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 465_39506_1486329_77-_..._373-
+		One align captures most of this contig: 630983 670485 | 39506 1 | 39503 39506 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 465_39506_1486329_77-_..._373-
+
+CONTIG: 469_121077_4226044_93+_..._270+ (121077bp)
+Top Length: 121077  Top ID: 99.98
+		One align captures most of this contig: 221790 342885 | 121077 1 | 121096 121077 | 99.98 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 469_121077_4226044_93+_..._270+
+
+CONTIG: 458_63300_2331164_21+_..._162- (63300bp)
+Top Length: 63300  Top ID: 99.99
+		One align captures most of this contig: 46361 109654 | 63300 1 | 63294 63300 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 458_63300_2331164_21+_..._162-
+
+CONTIG: 474_711_25686_107+_335-_103+ (711bp)
+Top Length: 711  Top ID: 100.0
+		One align captures most of this contig: 1385042 1385752 | 711 1 | 711 711 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 474_711_25686_107+_335-_103+
+
+CONTIG: 519_6983_246419_366+_..._205+ (6983bp)
+Top Length: 6983  Top ID: 100.0
+		Marking as insignificant: 4796902 4797073 | 6470 6641 | 172 172 | 96.51 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 519_6983_246419_366+_..._205+
+		Marking as insignificant: 4797224 4797415 | 6792 6983 | 192 192 | 97.4 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 519_6983_246419_366+_..._205+
+		One align captures most of this contig: 4767355 4774337 | 1 6983 | 6983 6983 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 519_6983_246419_366+_..._205+
+
+CONTIG: 467_30406_1055243_82+_..._84- (30406bp)
+Top Length: 30406  Top ID: 99.93
+		One align captures most of this contig: 836460 866885 | 30406 1 | 30426 30406 | 99.93 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 467_30406_1055243_82+_..._84-
+
+CONTIG: 530_253027_8397986_141+_..._522+ (253027bp)
+Top Length: 154480  Top ID: 99.99
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1640412 1794906 | 1 154480 | 154495 154480 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 530_253027_8397986_141+_..._522+
+			  Overlap between these two alignments (local misassembly). Inconsistency = -418
+			Real Alignment 2: 1794897 1893056 | 154889 253027 | 98160 98139 | 99.97 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 530_253027_8397986_141+_..._522+
+
+CONTIG: 460_79589_2680613_23+_..._115- (79589bp)
+Top Length: 79589  Top ID: 99.96
+		One align captures most of this contig: 3172293 3251910 | 79589 1 | 79618 79589 | 99.96 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 460_79589_2680613_23+_..._115-
+
+CONTIG: 514_3371_114231_343+_..._78+ (3371bp)
+Top Length: 3371  Top ID: 100.0
+		Marking as insignificant: 4773824 4773995 | 2973 3144 | 172 172 | 96.51 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 514_3371_114231_343+_..._78+
+		One align captures most of this contig: 4793930 4797300 | 1 3371 | 3371 3371 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 514_3371_114231_343+_..._78+
+
+CONTIG: 538_965933_32845350_463+_..._470+ (965933bp)
+Top Length: 570834  Top ID: 99.98
+		Skipping redundant alignment 472009 474127 | 281782 283900 | 2119 2119 | 98.54 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 538_965933_32845350_463+_..._470+
+		Skipping redundant alignment 3402264 3403248 | 300962 301943 | 985 982 | 96.14 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 538_965933_32845350_463+_..._470+
+		Skipping redundant alignment 3967646 3977718 | 866380 876482 | 10073 10103 | 99.67 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 538_965933_32845350_463+_..._470+
+		This contig is misassembled. 9 total aligns.
+			Real Alignment 1: 2596697 2658473 | 301943 240170 | 61777 61774 | 99.43 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 538_965933_32845350_463+_..._470+
+			  Overlap between these two alignments (local misassembly). Inconsistency = -99
+			Real Alignment 2: 2658425 2735833 | 240119 162748 | 77409 77372 | 99.88 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 538_965933_32845350_463+_..._470+
+			  Overlap between these two alignments (local misassembly). Inconsistency = -30
+			Real Alignment 3: 2715791 2898538 | 182760 1 | 182748 182760 | 99.94 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 538_965933_32845350_463+_..._470+
+			  Extensive misassembly ( relocation, inconsistency = 806659 ) between these two alignments
+			Real Alignment 4: 3403204 3426873 | 301994 325633 | 23670 23640 | 99.87 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 538_965933_32845350_463+_..._470+
+			  Overlap between these two alignments (local misassembly). Inconsistency = -30
+			Real Alignment 5: 3406829 3977718 | 305619 876452 | 570890 570834 | 99.98 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 538_965933_32845350_463+_..._470+
+			  Overlap between these two alignments (local misassembly). Inconsistency = -270
+			Real Alignment 6: 3977589 4066942 | 876593 965933 | 89354 89341 | 99.97 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 538_965933_32845350_463+_..._470+
+
+CONTIG: 479_4910_177355_135+_366+ (4910bp)
+Top Length: 4910  Top ID: 100.0
+		Marking as insignificant: 4793679 4793981 | 4608 4910 | 303 303 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 479_4910_177355_135+_366+
+		One align captures most of this contig: 4762748 4767657 | 1 4910 | 4910 4910 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 479_4910_177355_135+_366+
+
+CONTIG: 477_18708_599840_113+_428+_211- (18708bp)
+Top Length: 18708  Top ID: 99.98
+		One align captures most of this contig: 1944767 1963471 | 18708 1 | 18705 18708 | 99.98 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 477_18708_599840_113+_428+_211-
+
+CONTIG: 488_115738_4055347_193+_..._171- (115738bp)
+Top Length: 115738  Top ID: 99.96
+		One align captures most of this contig: 4493624 4609389 | 115738 1 | 115766 115738 | 99.96 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 488_115738_4055347_193+_..._171-
+
+CONTIG: 546_279037_9404144_516-_471N_462- (279037bp)
+Top Length: 141381  Top ID: 99.97
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1972982 2048242 | 279037 203777 | 75261 75261 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 546_279037_9404144_516-_471N_462-
+			  Overlap between these two alignments (local misassembly). Inconsistency = -281
+			Real Alignment 2: 2048258 2109892 | 203480 141846 | 61635 61635 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 546_279037_9404144_516-_471N_462-
+			  Overlap between these two alignments (local misassembly). Inconsistency = -420
+			Real Alignment 3: 2109937 2251341 | 141381 1 | 141405 141381 | 99.97 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 546_279037_9404144_516-_471N_462-
+
+CONTIG: 541_65147_2377404_483+_102N_499- (65147bp)
+Top Length: 63630  Top ID: 99.99
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 109933 173560 | 1 63630 | 63628 63630 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 541_65147_2377404_483+_102N_499-
+			  Overlap between these two alignments (local misassembly). Inconsistency = -89
+			Real Alignment 2: 173522 174988 | 63681 65147 | 1467 1467 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 541_65147_2377404_483+_102N_499-
+
+CONTIG: 537_202747_6599808_389+_..._493- (202747bp)
+Top Length: 95371  Top ID: 99.98
+		Skipping redundant alignment 1094688 1095017 | 1 330 | 330 330 | 96.67 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 537_202747_6599808_389+_..._493-
+		Skipping redundant alignment 1096148 1102750 | 330 6900 | 6603 6571 | 99.52 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 537_202747_6599808_389+_..._493-
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 1: 1095819 1102713 | 1 6863 | 6895 6863 | 99.52 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 537_202747_6599808_389+_..._493-
+			  Extensive misassembly ( relocation, inconsistency = -54251 ) between these two alignments
+			Real Alignment 2: 1102713 1148013 | 61114 106416 | 45301 45303 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 537_202747_6599808_389+_..._493-
+			  Overlap between these two alignments (local misassembly). Inconsistency = -101
+			Real Alignment 3: 1147963 1149409 | 106467 107913 | 1447 1447 | 99.24 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 537_202747_6599808_389+_..._493-
+			  Extensive misassembly ( relocation, inconsistency = 1009586 ) between these two alignments
+			Real Alignment 4: 2253829 2349208 | 202747 107377 | 95380 95371 | 99.98 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 537_202747_6599808_389+_..._493-
+
+CONTIG: 464_121307_4096881_72+_..._17+ (121307bp)
+Top Length: 121307  Top ID: 99.96
+		One align captures most of this contig: 2898555 3019909 | 1 121307 | 121355 121307 | 99.96 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 464_121307_4096881_72+_..._17+
+
+CONTIG: 490_31754_1128074_206+_381+ (31754bp)
+Top Length: 31754  Top ID: 99.97
+		One align captures most of this contig: 1051379 1083132 | 1 31754 | 31754 31754 | 99.97 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 490_31754_1128074_206+_381+
+
+CONTIG: 268_8944_320680 (8944bp)
+Top Length: 8944  Top ID: 100.0
+		One align captures most of this contig: 1963946 1972889 | 8944 1 | 8944 8944 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 268_8944_320680
+
+CONTIG: 531_79821_2792160_153+_480- (79821bp)
+Top Length: 79821  Top ID: 99.99
+		One align captures most of this contig: 1305273 1385093 | 79821 1 | 79821 79821 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 531_79821_2792160_153+_480-
+
+CONTIG: 497_18556_631331_230+_265- (18556bp)
+Top Length: 18556  Top ID: 100.0
+		One align captures most of this contig: 2474882 2493437 | 18556 1 | 18556 18556 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 497_18556_631331_230+_265-
+
+CONTIG: 505_629_23063_287+_2+_111+ (629bp)
+Top Length: 629  Top ID: 100.0
+		One align captures most of this contig: 987121 987749 | 629 1 | 629 629 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 505_629_23063_287+_2+_111+
+
+CONTIG: 35_905_28370 (905bp)
+Top Length: 905  Top ID: 100.0
+		One align captures most of this contig: 1094966 1095870 | 905 1 | 905 905 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 35_905_28370
+
+CONTIG: 507_19271_705217_294+_345+ (19271bp)
+Top Length: 19271  Top ID: 100.0
+		Marking as insignificant: 4797529 4797867 | 19271 18933 | 339 339 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 507_19271_705217_294+_345+
+		One align captures most of this contig: 4774460 4793730 | 19271 1 | 19271 19271 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 507_19271_705217_294+_345+
+
+CONTIG: 116_13407_433120 (13407bp)
+Top Length: 13407  Top ID: 99.99
+		One align captures most of this contig: 4797816 4811223 | 1 13407 | 13408 13407 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 116_13407_433120
+
+CONTIG: 532_50913_1674070_225-_512- (50913bp)
+Top Length: 50913  Top ID: 99.99
+		One align captures most of this contig: 1893139 1944046 | 1 50913 | 50908 50913 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 532_50913_1674070_225-_512-
+
+CONTIG: 269_9801_329858 (9801bp)
+Top Length: 9801  Top ID: 100.0
+		One align captures most of this contig: 826612 836412 | 9801 1 | 9801 9801 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 269_9801_329858
+
+CONTIG: 99_75123_2494731 (75123bp)
+Top Length: 75123  Top ID: 99.99
+		One align captures most of this contig: 2521617 2596739 | 75123 1 | 75123 75123 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 99_75123_2494731
+
+CONTIG: 491_127411_4383059_215-_63+_231- (127411bp)
+Top Length: 110662  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1149312 1166059 | 1 16748 | 16748 16748 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 491_127411_4383059_215-_63+_231-
+			  Gap between these two alignments (local misassembly). Inconsistency = 315
+			Real Alignment 2: 1166376 1277037 | 16750 127411 | 110662 110662 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 491_127411_4383059_215-_63+_231-
+
+CONTIG: 494_142423_5040841_218-_143+ (142423bp)
+Top Length: 142423  Top ID: 100.0
+		One align captures most of this contig: 4620273 4762695 | 1 142423 | 142423 142423 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 494_142423_5040841_218-_143+
+
+CONTIG: 543_220444_7759610_489-_..._523+ (220444bp)
+Top Length: 121058  Top ID: 99.97
+		Skipping redundant alignment 4811172 4811627 | 220444 219989 | 456 456 | 99.12 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 543_220444_7759610_489-_..._523+
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 4814089 4913715 | 220444 120817 | 99627 99628 | 99.96 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 543_220444_7759610_489-_..._523+
+			  Gap between these two alignments (local misassembly). Inconsistency = 153
+			Real Alignment 2: 4913627 5034683 | 121058 1 | 121057 121058 | 99.97 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 543_220444_7759610_489-_..._523+
+
+CONTIG: 468_45386_1555479_87+_418+_326- (45386bp)
+Top Length: 45386  Top ID: 99.98
+		One align captures most of this contig: 175044 220436 | 45386 1 | 45393 45386 | 99.98 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 468_45386_1555479_87+_418+_326-
+
+CONTIG: 457_125764_4308946_20+_..._189- (125764bp)
+Top Length: 125764  Top ID: 99.97
+		One align captures most of this contig: 2349082 2474844 | 125764 1 | 125763 125764 | 99.97 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 457_125764_4308946_20+_..._189-
+
+CONTIG: 540_83738_2917048_478-_..._498- (83738bp)
+Top Length: 73589  Top ID: 99.99
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 670441 679603 | 1 9163 | 9163 9163 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 540_83738_2917048_478-_..._498-
+			  Extensive misassembly ( relocation, inconsistency = 2429 ) between these two alignments
+			Real Alignment 2: 682031 755619 | 9162 82750 | 73589 73589 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 540_83738_2917048_478-_..._498-
+			  Overlap between these two alignments (local misassembly). Inconsistency = -538
+			Real Alignment 3: 755797 756069 | 83466 83738 | 273 273 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 540_83738_2917048_478-_..._498-
+			  Extensive misassembly ( relocation, inconsistency = 1841565 ) between these two alignments
+			Real Alignment 4: 2596697 2597094 | 82801 83198 | 398 398 | 96.23 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 540_83738_2917048_478-_..._498-
+
+CONTIG: 313_1278_40027 (1278bp)
+Top Length: 1278  Top ID: 100.0
+		One align captures most of this contig: 2615166 2616443 | 1278 1 | 1278 1278 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 313_1278_40027
+
+CONTIG: 533_247273_8458994_353+_..._459- (247273bp)
+Top Length: 117593  Top ID: 99.94
+		Skipping redundant alignment 220385 220998 | 61892 61279 | 614 614 | 99.35 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 533_247273_8458994_353+_..._459-
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1393448 1462113 | 247273 178609 | 68666 68665 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 533_247273_8458994_353+_..._459-
+			  Gap between these two alignments (local misassembly). Inconsistency = 127
+			Real Alignment 2: 1461978 1579611 | 178871 61279 | 117634 117593 | 99.94 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 533_247273_8458994_353+_..._459-
+			  Overlap between these two alignments (local misassembly). Inconsistency = -515
+			Real Alignment 3: 1579341 1640374 | 61034 1 | 61034 61034 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 533_247273_8458994_353+_..._459-
+
+CONTIG: 492_119653_4019877_216+_..._308- (119653bp)
+Top Length: 119653  Top ID: 99.97
+		One align captures most of this contig: 867007 986689 | 1 119653 | 119683 119653 | 99.97 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 492_119653_4019877_216+_..._308-
+
+CONTIG: 64_24288_818791 (24288bp)
+Top Length: 24288  Top ID: 100.0
+		One align captures most of this contig: 3258744 3283031 | 24288 1 | 24288 24288 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 64_24288_818791
+
+CONTIG: 504_14722_495107_285+_..._194+ (14722bp)
+Top Length: 14722  Top ID: 100.0
+		One align captures most of this contig: 1036709 1051430 | 14722 1 | 14722 14722 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 504_14722_495107_285+_..._194+
+
+CONTIG: 323_19806_662817 (19806bp)
+Top Length: 19806  Top ID: 99.99
+		One align captures most of this contig: 1016739 1036544 | 19806 1 | 19806 19806 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 323_19806_662817
+
+CONTIG: 544_76376_2623654_508+_102N_245- (76376bp)
+Top Length: 43924  Top ID: 99.83
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 2: 5034721 5067172 | 1 32452 | 32452 32452 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 544_76376_2623654_508+_102N_245-
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 1: 1 43914 | 32453 76376 | 43914 43924 | 99.83 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 544_76376_2623654_508+_102N_245-
+
+CONTIG: 535_131941_4473911_383+_384+ (131941bp)
+Top Length: 99014  Top ID: 99.99
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 4373569 4394614 | 1 21046 | 21046 21046 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 535_131941_4473911_383+_384+
+			  Extensive misassembly ( relocation, inconsistency = -11926 ) between these two alignments
+			Real Alignment 2: 4394570 4493582 | 32928 131941 | 99013 99014 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 535_131941_4473911_383+_384+
+
+CONTIG: 475_7408_267743_108+_335+_136- (7408bp)
+Top Length: 7408  Top ID: 100.0
+		One align captures most of this contig: 1385918 1393325 | 1 7408 | 7408 7408 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence 475_7408_267743_108+_335+_136-
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1625/dataset_1707_files/Scaffold/contigs_reports/nucmer_output/MA-H-Abyss-Scaffold.used_snps
+	Reference gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence: 101 total alignments. 1 total regions.
+		Region: 1 to 5067172 (5067172 bp)
+			Align 1: 1 43914 544_76376_2623654_508+_102N_245- 32453 76376
+				Negative gap (overlap) between this and next alignment: 43914 to 43863 (-51 bp)
+				Next Alignment: 43863 44316 536_3113_131056_385+_..._461+ 1 454
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 53.
+			Align 2: 43915 44316 536_3113_131056_385+_..._461+ 53 454
+				Gap between this and next alignment: 44316 to 44416 (99 bp)
+				Next Alignment: 44416 45538 536_3113_131056_385+_..._461+ 505 1627
+
+			Align 3: 44416 45538 536_3113_131056_385+_..._461+ 505 1627
+				Negative gap (overlap) between this and next alignment: 45538 to 45379 (-159 bp)
+				Next Alignment: 45379 46412 536_3113_131056_385+_..._461+ 2080 3113
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2080 to 2240.
+			Align 4: 45539 46412 536_3113_131056_385+_..._461+ 2240 3113
+				Negative gap (overlap) between this and next alignment: 46412 to 46361 (-51 bp)
+				Next Alignment: 46361 109654 458_63300_2331164_21+_..._162- 63300 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 63300 to 63248.
+			Align 5: 46413 109654 458_63300_2331164_21+_..._162- 63248 1
+				Gap between this and next alignment: 109654 to 109933 (278 bp)
+				Next Alignment: 109933 173560 541_65147_2377404_483+_102N_499- 1 63630
+
+			Align 6: 109933 173560 541_65147_2377404_483+_102N_499- 1 63630
+				Negative gap (overlap) between this and next alignment: 173560 to 173522 (-38 bp)
+				Next Alignment: 173522 174988 541_65147_2377404_483+_102N_499- 63681 65147
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 63681 to 63720.
+			Align 7: 173561 174988 541_65147_2377404_483+_102N_499- 63720 65147
+				Gap between this and next alignment: 174988 to 175044 (55 bp)
+				Next Alignment: 175044 220436 468_45386_1555479_87+_418+_326- 45386 1
+
+			Align 8: 175044 220436 468_45386_1555479_87+_418+_326- 45386 1
+				Gap between this and next alignment: 220436 to 221790 (1353 bp)
+				Next Alignment: 221790 342885 469_121077_4226044_93+_..._270+ 121077 1
+
+			Align 9: 221790 342885 469_121077_4226044_93+_..._270+ 121077 1
+				Gap between this and next alignment: 342885 to 342928 (42 bp)
+				Next Alignment: 342928 454877 545_113145_3954950_513+_..._525- 1 111963
+
+			Align 10: 342928 454877 545_113145_3954950_513+_..._525- 1 111963
+				Negative gap (overlap) between this and next alignment: 454877 to 454741 (-136 bp)
+				Next Alignment: 454741 455598 545_113145_3954950_513+_..._525- 112288 113145
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 112288 to 112425.
+			Align 11: 454878 455598 545_113145_3954950_513+_..._525- 112425 113145
+				Negative gap (overlap) between this and next alignment: 455598 to 455547 (-51 bp)
+				Next Alignment: 455547 458168 223_2622_76223 1 2622
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 53.
+			Align 12: 455599 458168 223_2622_76223 53 2622
+				Gap between this and next alignment: 458168 to 458295 (126 bp)
+				Next Alignment: 458295 463778 83_5520_167302 5485 1
+
+			Align 13: 458295 463778 83_5520_167302 5485 1
+				Gap between this and next alignment: 463778 to 473914 (10135 bp)
+				Next Alignment: 473914 547850 534_86244_3056192_371-_..._502- 86244 12310
+
+			Align 14: 473914 547850 534_86244_3056192_371-_..._502- 86244 12310
+				Negative gap (overlap) between this and next alignment: 547850 to 547806 (-44 bp)
+				Next Alignment: 547806 560064 534_86244_3056192_371-_..._502- 12259 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 12259 to 12214.
+			Align 15: 547851 560064 534_86244_3056192_371-_..._502- 12214 1
+				Negative gap (overlap) between this and next alignment: 560064 to 559983 (-81 bp)
+				Next Alignment: 559983 630631 529_76766_2689231_126+_267-_517- 70649 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 70649 to 70567.
+			Align 16: 560065 630631 529_76766_2689231_126+_267-_517- 70567 1
+				Gap between this and next alignment: 630631 to 630983 (351 bp)
+				Next Alignment: 630983 670485 465_39506_1486329_77-_..._373- 39506 1
+
+			Align 17: 630983 670485 465_39506_1486329_77-_..._373- 39506 1
+				Negative gap (overlap) between this and next alignment: 670485 to 670441 (-44 bp)
+				Next Alignment: 670441 679603 540_83738_2917048_478-_..._498- 1 9163
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 46.
+			Align 18: 670486 679603 540_83738_2917048_478-_..._498- 46 9163
+				Gap between this and next alignment: 679603 to 682031 (2427 bp)
+				Next Alignment: 682031 755619 540_83738_2917048_478-_..._498- 9162 82750
+
+			Align 19: 682031 755619 540_83738_2917048_478-_..._498- 9162 82750
+				Gap between this and next alignment: 755619 to 755797 (177 bp)
+				Next Alignment: 755797 756069 540_83738_2917048_478-_..._498- 83466 83738
+
+			Align 20: 755797 756069 540_83738_2917048_478-_..._498- 83466 83738
+				Gap between this and next alignment: 756069 to 756461 (391 bp)
+				Next Alignment: 756461 826570 506_70112_2276757_289+_..._42+ 1 70112
+
+			Align 21: 756461 826570 506_70112_2276757_289+_..._42+ 1 70112
+				Gap between this and next alignment: 826570 to 826612 (41 bp)
+				Next Alignment: 826612 836412 269_9801_329858 9801 1
+
+			Align 22: 826612 836412 269_9801_329858 9801 1
+				Gap between this and next alignment: 836412 to 836460 (47 bp)
+				Next Alignment: 836460 866885 467_30406_1055243_82+_..._84- 30406 1
+
+			Align 23: 836460 866885 467_30406_1055243_82+_..._84- 30406 1
+				Gap between this and next alignment: 866885 to 867007 (121 bp)
+				Next Alignment: 867007 986689 492_119653_4019877_216+_..._308- 1 119653
+
+			Align 24: 867007 986689 492_119653_4019877_216+_..._308- 1 119653
+				Gap between this and next alignment: 986689 to 987121 (431 bp)
+				Next Alignment: 987121 987749 505_629_23063_287+_2+_111+ 629 1
+
+			Align 25: 987121 987749 505_629_23063_287+_2+_111+ 629 1
+				Gap between this and next alignment: 987749 to 987840 (90 bp)
+				Next Alignment: 987840 1016566 487_28727_1010460_192+_167+ 1 28727
+
+			Align 26: 987840 1016566 487_28727_1010460_192+_167+ 1 28727
+				Gap between this and next alignment: 1016566 to 1016739 (172 bp)
+				Next Alignment: 1016739 1036544 323_19806_662817 19806 1
+
+			Align 27: 1016739 1036544 323_19806_662817 19806 1
+				Gap between this and next alignment: 1036544 to 1036709 (164 bp)
+				Next Alignment: 1036709 1051430 504_14722_495107_285+_..._194+ 14722 1
+
+			Align 28: 1036709 1051430 504_14722_495107_285+_..._194+ 14722 1
+				Negative gap (overlap) between this and next alignment: 1051430 to 1051379 (-51 bp)
+				Next Alignment: 1051379 1083132 490_31754_1128074_206+_381+ 1 31754
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 53.
+			Align 29: 1051431 1083132 490_31754_1128074_206+_381+ 53 31754
+				Gap between this and next alignment: 1083132 to 1083186 (53 bp)
+				Next Alignment: 1083186 1094739 481_11512_427573_166+_440+_374- 11512 1
+
+			Align 30: 1083186 1094739 481_11512_427573_166+_440+_374- 11512 1
+				Gap between this and next alignment: 1094739 to 1094966 (226 bp)
+				Next Alignment: 1094966 1095870 35_905_28370 905 1
+
+			Align 31: 1094966 1095870 35_905_28370 905 1
+				Negative gap (overlap) between this and next alignment: 1095870 to 1095819 (-51 bp)
+				Next Alignment: 1095819 1102713 537_202747_6599808_389+_..._493- 1 6863
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 53.
+			Align 32: 1095871 1102713 537_202747_6599808_389+_..._493- 53 6863
+				Negative gap (overlap) between this and next alignment: 1102713 to 1102713 (0 bp)
+				Next Alignment: 1102713 1148013 537_202747_6599808_389+_..._493- 61114 106416
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 61114 to 61115.
+			Align 33: 1102714 1148013 537_202747_6599808_389+_..._493- 61115 106416
+				Negative gap (overlap) between this and next alignment: 1148013 to 1147963 (-50 bp)
+				Next Alignment: 1147963 1149409 537_202747_6599808_389+_..._493- 106467 107913
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 106467 to 106518.
+			Align 34: 1148014 1149409 537_202747_6599808_389+_..._493- 106518 107913
+				Negative gap (overlap) between this and next alignment: 1149409 to 1149312 (-97 bp)
+				Next Alignment: 1149312 1166059 491_127411_4383059_215-_63+_231- 1 16748
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 99.
+			Align 35: 1149410 1166059 491_127411_4383059_215-_63+_231- 99 16748
+				Gap between this and next alignment: 1166059 to 1166376 (316 bp)
+				Next Alignment: 1166376 1277037 491_127411_4383059_215-_63+_231- 16750 127411
+
+			Align 36: 1166376 1277037 491_127411_4383059_215-_63+_231- 16750 127411
+				Gap between this and next alignment: 1277037 to 1278983 (1945 bp)
+				Next Alignment: 1278983 1304891 44_25909_837126 25909 1
+
+			Align 37: 1278983 1304891 44_25909_837126 25909 1
+				Gap between this and next alignment: 1304891 to 1305273 (381 bp)
+				Next Alignment: 1305273 1385093 531_79821_2792160_153+_480- 79821 1
+
+			Align 38: 1305273 1385093 531_79821_2792160_153+_480- 79821 1
+				Negative gap (overlap) between this and next alignment: 1385093 to 1385042 (-51 bp)
+				Next Alignment: 1385042 1385752 474_711_25686_107+_335-_103+ 711 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 711 to 659.
+			Align 39: 1385094 1385752 474_711_25686_107+_335-_103+ 659 1
+				Gap between this and next alignment: 1385752 to 1385918 (165 bp)
+				Next Alignment: 1385918 1393325 475_7408_267743_108+_335+_136- 1 7408
+
+			Align 40: 1385918 1393325 475_7408_267743_108+_335+_136- 1 7408
+				Gap between this and next alignment: 1393325 to 1393448 (122 bp)
+				Next Alignment: 1393448 1462113 533_247273_8458994_353+_..._459- 247273 178609
+
+			Align 41: 1393448 1462113 533_247273_8458994_353+_..._459- 247273 178609
+				Negative gap (overlap) between this and next alignment: 1462113 to 1461978 (-135 bp)
+				Next Alignment: 1461978 1579611 533_247273_8458994_353+_..._459- 178871 61279
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 178871 to 178736.
+			Align 42: 1462114 1579611 533_247273_8458994_353+_..._459- 178736 61279
+				Negative gap (overlap) between this and next alignment: 1579611 to 1579341 (-270 bp)
+				Next Alignment: 1579341 1640374 533_247273_8458994_353+_..._459- 61034 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 61034 to 60790.
+			Align 43: 1579612 1640374 533_247273_8458994_353+_..._459- 60790 1
+				Gap between this and next alignment: 1640374 to 1640412 (37 bp)
+				Next Alignment: 1640412 1794906 530_253027_8397986_141+_..._522+ 1 154480
+
+			Align 44: 1640412 1794906 530_253027_8397986_141+_..._522+ 1 154480
+				Negative gap (overlap) between this and next alignment: 1794906 to 1794897 (-9 bp)
+				Next Alignment: 1794897 1893056 530_253027_8397986_141+_..._522+ 154889 253027
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 154889 to 154899.
+			Align 45: 1794907 1893056 530_253027_8397986_141+_..._522+ 154899 253027
+				Gap between this and next alignment: 1893056 to 1893139 (82 bp)
+				Next Alignment: 1893139 1944046 532_50913_1674070_225-_512- 1 50913
+
+			Align 46: 1893139 1944046 532_50913_1674070_225-_512- 1 50913
+				Gap between this and next alignment: 1944046 to 1944767 (720 bp)
+				Next Alignment: 1944767 1963471 477_18708_599840_113+_428+_211- 18708 1
+
+			Align 47: 1944767 1963471 477_18708_599840_113+_428+_211- 18708 1
+				Gap between this and next alignment: 1963471 to 1963946 (474 bp)
+				Next Alignment: 1963946 1972889 268_8944_320680 8944 1
+
+			Align 48: 1963946 1972889 268_8944_320680 8944 1
+				Gap between this and next alignment: 1972889 to 1972982 (92 bp)
+				Next Alignment: 1972982 2048242 546_279037_9404144_516-_471N_462- 279037 203777
+
+			Align 49: 1972982 2048242 546_279037_9404144_516-_471N_462- 279037 203777
+				Gap between this and next alignment: 2048242 to 2048258 (15 bp)
+				Next Alignment: 2048258 2109892 546_279037_9404144_516-_471N_462- 203480 141846
+
+			Align 50: 2048258 2109892 546_279037_9404144_516-_471N_462- 203480 141846
+				Gap between this and next alignment: 2109892 to 2109937 (44 bp)
+				Next Alignment: 2109937 2251341 546_279037_9404144_516-_471N_462- 141381 1
+
+			Align 51: 2109937 2251341 546_279037_9404144_516-_471N_462- 141381 1
+				Gap between this and next alignment: 2251341 to 2251794 (452 bp)
+				Next Alignment: 2251794 2252460 536_3113_131056_385+_..._461+ 2029 1363
+
+			Align 52: 2251794 2252460 536_3113_131056_385+_..._461+ 2029 1363
+				Gap between this and next alignment: 2252460 to 2252468 (7 bp)
+				Next Alignment: 2252468 2253119 207_652_15985 1 652
+
+			Align 53: 2252468 2253119 207_652_15985 1 652
+				Gap between this and next alignment: 2253119 to 2253829 (709 bp)
+				Next Alignment: 2253829 2349208 537_202747_6599808_389+_..._493- 202747 107377
+
+			Align 54: 2253829 2349208 537_202747_6599808_389+_..._493- 202747 107377
+				Negative gap (overlap) between this and next alignment: 2349208 to 2349082 (-126 bp)
+				Next Alignment: 2349082 2474844 457_125764_4308946_20+_..._189- 125764 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 125764 to 125637.
+			Align 55: 2349209 2474844 457_125764_4308946_20+_..._189- 125637 1
+				Gap between this and next alignment: 2474844 to 2474882 (37 bp)
+				Next Alignment: 2474882 2493437 497_18556_631331_230+_265- 18556 1
+
+			Align 56: 2474882 2493437 497_18556_631331_230+_265- 18556 1
+				Gap between this and next alignment: 2493437 to 2493533 (95 bp)
+				Next Alignment: 2493533 2521327 214_27795_908648 27795 1
+
+			Align 57: 2493533 2521327 214_27795_908648 27795 1
+				Gap between this and next alignment: 2521327 to 2521617 (289 bp)
+				Next Alignment: 2521617 2596739 99_75123_2494731 75123 1
+
+			Align 58: 2521617 2596739 99_75123_2494731 75123 1
+				Negative gap (overlap) between this and next alignment: 2596739 to 2596697 (-42 bp)
+				Next Alignment: 2596697 2658473 538_965933_32845350_463+_..._470+ 301943 240170
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 301943 to 301900.
+			Align 59: 2596740 2658473 538_965933_32845350_463+_..._470+ 301900 240170
+				The next alignment (2596697 2597094 540_83738_2917048_478-_..._498- 82801 83198) is redundant. Skipping.
+				The next alignment (2615166 2616443 313_1278_40027 1278 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2658473 to 2658425 (-48 bp)
+				Next Alignment: 2658425 2735833 538_965933_32845350_463+_..._470+ 240119 162748
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 240119 to 240070.
+			Align 62: 2658474 2735833 538_965933_32845350_463+_..._470+ 240070 162748
+				Negative gap (overlap) between this and next alignment: 2735833 to 2715791 (-20042 bp)
+				Next Alignment: 2715791 2898538 538_965933_32845350_463+_..._470+ 182760 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 182760 to 162777.
+			Align 63: 2735834 2898538 538_965933_32845350_463+_..._470+ 162777 1
+				Gap between this and next alignment: 2898538 to 2898555 (16 bp)
+				Next Alignment: 2898555 3019909 464_121307_4096881_72+_..._17+ 1 121307
+
+			Align 64: 2898555 3019909 464_121307_4096881_72+_..._17+ 1 121307
+				Gap between this and next alignment: 3019909 to 3020645 (735 bp)
+				Next Alignment: 3020645 3023749 542_3669_108304_484-_..._495- 3669 565
+
+			Align 65: 3020645 3023749 542_3669_108304_484-_..._495- 3669 565
+				Gap between this and next alignment: 3023749 to 3023979 (229 bp)
+				Next Alignment: 3023979 3024313 542_3669_108304_484-_..._495- 335 1
+
+			Align 66: 3023979 3024313 542_3669_108304_484-_..._495- 335 1
+				Negative gap (overlap) between this and next alignment: 3024313 to 3024262 (-51 bp)
+				Next Alignment: 3024262 3172117 539_147937_5031270_471-_..._456+ 147937 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 147937 to 147885.
+			Align 67: 3024314 3172117 539_147937_5031270_471-_..._456+ 147885 1
+				Gap between this and next alignment: 3172117 to 3172293 (175 bp)
+				Next Alignment: 3172293 3251910 460_79589_2680613_23+_..._115- 79589 1
+
+			Align 68: 3172293 3251910 460_79589_2680613_23+_..._115- 79589 1
+				Negative gap (overlap) between this and next alignment: 3251910 to 3251859 (-51 bp)
+				Next Alignment: 3251859 3258583 529_76766_2689231_126+_267-_517- 70042 76766
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 70042 to 70094.
+			Align 69: 3251911 3258583 529_76766_2689231_126+_267-_517- 70094 76766
+				Gap between this and next alignment: 3258583 to 3258744 (160 bp)
+				Next Alignment: 3258744 3283031 64_24288_818791 24288 1
+
+			Align 70: 3258744 3283031 64_24288_818791 24288 1
+				Gap between this and next alignment: 3283031 to 3283123 (91 bp)
+				Next Alignment: 3283123 3349503 482_119446_4065515_168-_..._121- 119446 53057
+
+			Align 71: 3283123 3349503 482_119446_4065515_168-_..._121- 119446 53057
+				Negative gap (overlap) between this and next alignment: 3349503 to 3329506 (-19997 bp)
+				Next Alignment: 3329506 3402573 482_119446_4065515_168-_..._121- 73063 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 73063 to 53047.
+			Align 72: 3349504 3402573 482_119446_4065515_168-_..._121- 53047 1
+				Gap between this and next alignment: 3402573 to 3403204 (630 bp)
+				Next Alignment: 3403204 3426873 538_965933_32845350_463+_..._470+ 301994 325633
+
+			Align 73: 3403204 3426873 538_965933_32845350_463+_..._470+ 301994 325633
+				Negative gap (overlap) between this and next alignment: 3426873 to 3406829 (-20044 bp)
+				Next Alignment: 3406829 3977718 538_965933_32845350_463+_..._470+ 305619 876452
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 305619 to 325604.
+			Align 74: 3426874 3977718 538_965933_32845350_463+_..._470+ 325604 876452
+				Negative gap (overlap) between this and next alignment: 3977718 to 3977589 (-129 bp)
+				Next Alignment: 3977589 4066942 538_965933_32845350_463+_..._470+ 876593 965933
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 876593 to 876753.
+			Align 75: 3977719 4066942 538_965933_32845350_463+_..._470+ 876753 965933
+				Gap between this and next alignment: 4066942 to 4067147 (204 bp)
+				Next Alignment: 4067147 4067419 527_821_23724_76-_102N_29+ 1 273
+
+			Align 76: 4067147 4067419 527_821_23724_76-_102N_29+ 1 273
+				Negative gap (overlap) between this and next alignment: 4067419 to 4067375 (-44 bp)
+				Next Alignment: 4067375 4067872 527_821_23724_76-_102N_29+ 324 821
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 324 to 369.
+			Align 77: 4067420 4067872 527_821_23724_76-_102N_29+ 369 821
+				Gap between this and next alignment: 4067872 to 4068077 (204 bp)
+				Next Alignment: 4068077 4068349 528_299995_10432473_80+_..._476+ 1 273
+
+			Align 78: 4068077 4068349 528_299995_10432473_80+_..._476+ 1 273
+				Negative gap (overlap) between this and next alignment: 4068349 to 4068305 (-44 bp)
+				Next Alignment: 4068305 4103635 528_299995_10432473_80+_..._476+ 324 35625
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 324 to 369.
+			Align 79: 4068350 4103635 528_299995_10432473_80+_..._476+ 369 35625
+				Negative gap (overlap) between this and next alignment: 4103635 to 4083572 (-20063 bp)
+				Next Alignment: 4083572 4144799 528_299995_10432473_80+_..._476+ 15592 76775
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 15592 to 35596.
+			Align 80: 4103636 4144799 528_299995_10432473_80+_..._476+ 35596 76775
+				Gap between this and next alignment: 4144799 to 4147042 (2242 bp)
+				Next Alignment: 4147042 4226318 528_299995_10432473_80+_..._476+ 76774 156017
+
+			Align 81: 4147042 4226318 528_299995_10432473_80+_..._476+ 76774 156017
+				Negative gap (overlap) between this and next alignment: 4226318 to 4226318 (0 bp)
+				Next Alignment: 4226318 4227316 528_299995_10432473_80+_..._476+ 156113 157111
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 156113 to 156114.
+			Align 82: 4226319 4227316 528_299995_10432473_80+_..._476+ 156114 157111
+				Negative gap (overlap) between this and next alignment: 4227316 to 4227271 (-45 bp)
+				Next Alignment: 4227271 4337206 528_299995_10432473_80+_..._476+ 157162 267090
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 157162 to 157208.
+			Align 83: 4227317 4337206 528_299995_10432473_80+_..._476+ 157208 267090
+				Negative gap (overlap) between this and next alignment: 4337206 to 4337162 (-44 bp)
+				Next Alignment: 4337162 4356944 528_299995_10432473_80+_..._476+ 267141 286925
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 267141 to 267186.
+			Align 84: 4337207 4356944 528_299995_10432473_80+_..._476+ 267186 286925
+				The next alignment (4356550 4356762 528_299995_10432473_80+_..._476+ 286783 286995) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4356944 to 4356944 (0 bp)
+				Next Alignment: 4356944 4369647 528_299995_10432473_80+_..._476+ 287245 299995
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 287245 to 287246.
+			Align 86: 4356945 4369647 528_299995_10432473_80+_..._476+ 287246 299995
+				Gap between this and next alignment: 4369647 to 4369676 (28 bp)
+				Next Alignment: 4369676 4373446 290_3771_116119 3771 1
+
+			Align 87: 4369676 4373446 290_3771_116119 3771 1
+				Gap between this and next alignment: 4373446 to 4373569 (122 bp)
+				Next Alignment: 4373569 4394614 535_131941_4473911_383+_384+ 1 21046
+
+			Align 88: 4373569 4394614 535_131941_4473911_383+_384+ 1 21046
+				Negative gap (overlap) between this and next alignment: 4394614 to 4394570 (-44 bp)
+				Next Alignment: 4394570 4493582 535_131941_4473911_383+_384+ 32928 131941
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 32928 to 32973.
+			Align 89: 4394615 4493582 535_131941_4473911_383+_384+ 32973 131941
+				Gap between this and next alignment: 4493582 to 4493624 (41 bp)
+				Next Alignment: 4493624 4609389 488_115738_4055347_193+_..._171- 115738 1
+
+			Align 90: 4493624 4609389 488_115738_4055347_193+_..._171- 115738 1
+				Gap between this and next alignment: 4609389 to 4609441 (51 bp)
+				Next Alignment: 4609441 4620178 165_10738_399106 1 10738
+
+			Align 91: 4609441 4620178 165_10738_399106 1 10738
+				Gap between this and next alignment: 4620178 to 4620273 (94 bp)
+				Next Alignment: 4620273 4762695 494_142423_5040841_218-_143+ 1 142423
+
+			Align 92: 4620273 4762695 494_142423_5040841_218-_143+ 1 142423
+				Gap between this and next alignment: 4762695 to 4762748 (52 bp)
+				Next Alignment: 4762748 4767657 479_4910_177355_135+_366+ 1 4910
+
+			Align 93: 4762748 4767657 479_4910_177355_135+_366+ 1 4910
+				Negative gap (overlap) between this and next alignment: 4767657 to 4767355 (-302 bp)
+				Next Alignment: 4767355 4774337 519_6983_246419_366+_..._205+ 1 6983
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 304.
+			Align 94: 4767658 4774337 519_6983_246419_366+_..._205+ 304 6983
+				Gap between this and next alignment: 4774337 to 4774460 (122 bp)
+				Next Alignment: 4774460 4793730 507_19271_705217_294+_345+ 19271 1
+
+			Align 95: 4774460 4793730 507_19271_705217_294+_345+ 19271 1
+				Gap between this and next alignment: 4793730 to 4793930 (199 bp)
+				Next Alignment: 4793930 4797300 514_3371_114231_343+_..._78+ 1 3371
+
+			Align 96: 4793930 4797300 514_3371_114231_343+_..._78+ 1 3371
+				Gap between this and next alignment: 4797300 to 4797816 (515 bp)
+				Next Alignment: 4797816 4811223 116_13407_433120 1 13407
+
+			Align 97: 4797816 4811223 116_13407_433120 1 13407
+				Gap between this and next alignment: 4811223 to 4811562 (338 bp)
+				Next Alignment: 4811562 4814530 520_2969_108589_372+_386+ 1 2969
+
+			Align 98: 4811562 4814530 520_2969_108589_372+_386+ 1 2969
+				Negative gap (overlap) between this and next alignment: 4814530 to 4814089 (-441 bp)
+				Next Alignment: 4814089 4913715 543_220444_7759610_489-_..._523+ 220444 120817
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 220444 to 220002.
+			Align 99: 4814531 4913715 543_220444_7759610_489-_..._523+ 220002 120817
+				Negative gap (overlap) between this and next alignment: 4913715 to 4913627 (-88 bp)
+				Next Alignment: 4913627 5034683 543_220444_7759610_489-_..._523+ 121058 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 121058 to 120969.
+			Align 100: 4913716 5034683 543_220444_7759610_489-_..._523+ 120969 1
+				Gap between this and next alignment: 5034683 to 5034721 (37 bp)
+				Next Alignment: 5034721 5067172 544_76376_2623654_508+_102N_245- 1 32452
+
+			Align 101: 5034721 5067172 544_76376_2623654_508+_102N_245- 1 32452
+			END in current alignment.  Modifying 5067172 to 5067172.
+
+ERROR: Reference [$ref] does not have any alignments!  Check that this is the same file used for alignment.
+ERROR: Alignment Reference Headers: ['gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence']
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1625/dataset_1707_files/Scaffold/contigs_reports/nucmer_output/MA-H-Abyss-Scaffold.used_snps
+
+Results:
+	Local Misassemblies: 28
+	Misassemblies: 9
+		Relocations: 9
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 7
+	Misassembled Contig Bases: 1764233
+	Misassmblies Inter-Contig Overlap: 81866
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 1 part
+Partially Unaligned Contigs with Misassemblies: 1
+Unaligned Contig Bases: 11899
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 5038126
+
+	SNPs: 492
+	Insertions: 234
+	Deletions: 567
+
+	Positive Gaps: 59
+		Internal Gaps:  8
+		External Gaps:  51
+		External Gap Total:  23497
+		External Gap Average: 461
+	Negative Gaps: 38
+		Internal Overlaps:  23
+		External Overlaps:  15
+		External Overlaps Total: -1541
+		External Overlaps Average: -103
+	Contigs with Redundant Alignments: 2 (1889)

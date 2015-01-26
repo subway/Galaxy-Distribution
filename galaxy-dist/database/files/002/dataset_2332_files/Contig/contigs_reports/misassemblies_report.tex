@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{4}{|r}|}
+\hline
+Assembly & miseq & hiseq & abyss & abyss\_hiseq \\ \hline
+\# misassemblies & {\bf 2} & 6 & {\bf 2} & {\bf 2} \\ \hline
+\hspace{5mm}\# relocations & {\bf 2} & 5 & {\bf 2} & {\bf 2} \\ \hline
+\hspace{5mm}\# translocations & {\bf 0} & 1 & {\bf 0} & {\bf 0} \\ \hline
+\hspace{5mm}\# inversions & 0 & 0 & 0 & 0 \\ \hline
+\# misassembled contigs & {\bf 2} & 5 & {\bf 2} & {\bf 2} \\ \hline
+Misassembled contigs length & 70441 & 376802 & 10790 & {\bf 9653} \\ \hline
+\# local misassemblies & {\bf 0} & 17 & {\bf 0} & {\bf 0} \\ \hline
+\# mismatches & 129 & 208 & {\bf 115} & 118 \\ \hline
+\# indels & {\bf 103} & 225 & {\bf 103} & 110 \\ \hline
+\hspace{5mm}\# short indels ($\leq$ 5 bp) & {\bf 101} & 189 & {\bf 101} & 109 \\ \hline
+\hspace{5mm}\# long indels ($>$ 5 bp) & 2 & 36 & 2 & {\bf 1} \\ \hline
+Indels length & 121 & 703 & 121 & {\bf 119} \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

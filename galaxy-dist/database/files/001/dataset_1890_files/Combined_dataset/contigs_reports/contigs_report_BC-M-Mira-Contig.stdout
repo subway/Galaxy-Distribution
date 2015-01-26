@@ -1,0 +1,2033 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome]
+	Loaded [gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 2
+	Total Region Length: 5432652
+Analyzing contigs...
+CONTIG: mira_rep_c132 (530bp)
+Top Length: 493  Top ID: 96.55
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 4464764 4465256 | 530 38 | 493 493 | 96.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c132
+			  Overlap between these two alignments (local misassembly). Inconsistency = -216
+			Real Alignment 2: 4464807 4465077 | 271 1 | 271 271 | 97.79 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c132
+
+CONTIG: mira_rep_c133 (502bp)
+Top Length: 502  Top ID: 100.0
+		One align captures most of this contig: 5017111 5017612 | 502 1 | 502 502 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c133
+
+CONTIG: mira_rep_c163 (578bp)
+Top Length: 472  Top ID: 95.34
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2367354 2367825 | 1 472 | 472 472 | 95.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c163
+			  Overlap between these two alignments (local misassembly). Inconsistency = -216
+			Real Alignment 2: 2367412 2367715 | 275 578 | 304 304 | 98.03 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c163
+
+CONTIG: mira_rep_c161 (736bp)
+Top Length: 736  Top ID: 97.83
+		One align captures most of this contig: 124789 125524 | 1 736 | 736 736 | 97.83 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c161
+
+CONTIG: mira_c87 (11703bp)
+Top Length: 11703  Top ID: 99.99
+		Marking as insignificant: 2198584 2198723 | 856 717 | 140 140 | 95.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c87
+		Marking as insignificant: 74781 75397 | 617 1 | 617 617 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c87
+		One align captures most of this contig: 3120964 3132665 | 11703 1 | 11702 11703 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c87
+
+CONTIG: mira_c86 (9981bp)
+Top Length: 9981  Top ID: 99.98
+		Marking as insignificant: 38615 38815 | 8801 8599 | 201 203 | 95.57 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c86
+		Marking as insignificant: 83135 83339 | 8599 8804 | 205 206 | 95.63 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c86
+		Marking as insignificant: 3446550 3446993 | 9981 9538 | 444 444 | 99.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c86
+		One align captures most of this contig: 99654 109634 | 1 9981 | 9981 9981 | 99.98 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c86
+
+CONTIG: mira_c85 (10465bp)
+Top Length: 10465  Top ID: 99.98
+		One align captures most of this contig: 89204 99668 | 1 10465 | 10465 10465 | 99.98 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c85
+
+CONTIG: mira_c84 (20939bp)
+Top Length: 20939  Top ID: 99.43
+		One align captures most of this contig: 2367458 2388507 | 1 20939 | 21050 20939 | 99.43 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c84
+
+CONTIG: mira_c83 (10701bp)
+Top Length: 10701  Top ID: 99.97
+		One align captures most of this contig: 2669971 2680671 | 10701 1 | 10701 10701 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c83
+
+CONTIG: mira_c82 (7026bp)
+Top Length: 7026  Top ID: 99.94
+		This contig has 3 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2360476 2367502 | 1 7026 | 7027 7026 | 99.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c82
+		Skipping alignment  2360476 2367511 | 1 7026 | 7036 7026 | 99.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c82
+		Skipping alignment  2360476 2367529 | 1 7026 | 7054 7026 | 99.56 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c82
+
+CONTIG: mira_c81 (12504bp)
+Top Length: 12504  Top ID: 100.0
+		Marking as insignificant: 38615 38816 | 5891 6093 | 202 203 | 96.55 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c81
+		Marking as insignificant: 108252 108457 | 6092 5888 | 206 205 | 95.63 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c81
+		Marking as insignificant: 38615 38817 | 7641 7843 | 203 203 | 97.04 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c81
+		Marking as insignificant: 3133991 3134441 | 12504 12054 | 451 451 | 99.33 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c81
+		One align captures most of this contig: 76723 89226 | 12504 1 | 12504 12504 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c81
+
+CONTIG: mira_c80 (1288bp)
+Top Length: 1288  Top ID: 100.0
+		One align captures most of this contig: 4047623 4048910 | 1 1288 | 1288 1288 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c80
+
+CONTIG: mira_c89 (2501bp)
+Top Length: 2501  Top ID: 100.0
+		Marking as insignificant: 279525 279856 | 333 1 | 332 333 | 99.7 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c89
+		Marking as insignificant: 818041 818395 | 355 1 | 355 355 | 98.31 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c89
+		Marking as insignificant: 313764 314117 | 355 1 | 354 355 | 98.31 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c89
+		Marking as insignificant: 330681 331034 | 355 1 | 354 355 | 98.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c89
+		Marking as insignificant: 322863 323216 | 355 1 | 354 355 | 98.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c89
+		Marking as insignificant: 604814 605188 | 375 1 | 375 375 | 96.81 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c89
+		Marking as insignificant: 145377 145751 | 375 1 | 375 375 | 97.07 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c89
+		Marking as insignificant: 300531 300906 | 376 1 | 376 376 | 97.08 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c89
+		Marking as insignificant: 4655465 4655840 | 1 375 | 376 375 | 97.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c89
+		One align captures most of this contig: 80183 82683 | 2501 1 | 2501 2501 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c89
+
+CONTIG: mira_c88 (8476bp)
+Top Length: 8476  Top ID: 100.0
+		Marking as insignificant: 2950351 2950594 | 8476 8233 | 244 244 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c88
+		One align captures most of this contig: 5691 14166 | 8476 1 | 8476 8476 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c88
+
+CONTIG: mira_c32 (12477bp)
+Top Length: 12477  Top ID: 99.98
+		One align captures most of this contig: 3759922 3772399 | 1 12477 | 12478 12477 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c32
+
+CONTIG: mira_c33 (116480bp)
+Top Length: 116480  Top ID: 99.99
+		One align captures most of this contig: 3881980 3998460 | 116480 1 | 116481 116480 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c33
+
+CONTIG: mira_c30 (168019bp)
+Top Length: 168019  Top ID: 99.99
+		Marking as insignificant: 1662972 1663128 | 11897 11742 | 157 156 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c30
+		Marking as insignificant: 2076392 2076548 | 11897 11742 | 157 156 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c30
+		Marking as insignificant: 111399 112079 | 168019 167339 | 681 681 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c30
+		One align captures most of this contig: 3276768 3444785 | 1 168019 | 168018 168019 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c30
+
+CONTIG: mira_c31 (77918bp)
+Top Length: 77918  Top ID: 99.98
+		One align captures most of this contig: 3682012 3759929 | 77918 1 | 77918 77918 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c31
+
+CONTIG: mira_c36 (37891bp)
+Top Length: 37891  Top ID: 99.99
+		Marking as insignificant: 283625 284382 | 1 758 | 758 758 | 99.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c36
+		Marking as insignificant: 334804 335563 | 1 760 | 760 760 | 99.61 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c36
+		Marking as insignificant: 326986 327745 | 1 760 | 760 760 | 99.61 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c36
+		Marking as insignificant: 304677 305469 | 1 791 | 793 791 | 98.87 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c36
+		Marking as insignificant: 13561 14353 | 1 791 | 793 791 | 98.87 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c36
+		Marking as insignificant: 317885 318684 | 1 799 | 800 799 | 98.75 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c36
+		Marking as insignificant: 33335 34136 | 1 800 | 802 800 | 98.75 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c36
+		One align captures most of this contig: 86452 124342 | 1 37891 | 37891 37891 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c36
+
+CONTIG: mira_c37 (104119bp)
+Top Length: 104119  Top ID: 99.99
+		Marking as insignificant: 9239 9632 | 103725 104119 | 394 395 | 99.24 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Marking as insignificant: 29012 29406 | 103725 104119 | 395 395 | 99.75 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Marking as insignificant: 279525 279923 | 103720 104119 | 399 400 | 99.75 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Marking as insignificant: 82309 82750 | 103677 104119 | 442 443 | 97.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Marking as insignificant: 330619 331101 | 103633 104119 | 483 487 | 97.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Marking as insignificant: 322801 323283 | 103633 104119 | 483 487 | 97.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Marking as insignificant: 313702 314184 | 103633 104119 | 483 487 | 97.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Marking as insignificant: 300491 300973 | 103633 104119 | 483 487 | 97.95 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Marking as insignificant: 817939 818462 | 103596 104119 | 524 524 | 96.19 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Marking as insignificant: 604731 605255 | 103593 104119 | 525 527 | 98.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Marking as insignificant: 145296 145818 | 103596 104119 | 523 524 | 99.24 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		One align captures most of this contig: 4655398 4759516 | 104119 1 | 104119 104119 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+
+CONTIG: mira_c34 (25952bp)
+Top Length: 25952  Top ID: 100.0
+		One align captures most of this contig: 3856038 3881989 | 1 25952 | 25952 25952 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c34
+
+CONTIG: mira_c35 (96387bp)
+Top Length: 91213  Top ID: 99.97
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 3024117 3030154 | 6041 1 | 6038 6041 | 99.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c35
+			  Extensive misassembly ( relocation, inconsistency = 96316 ) between these two alignments
+			Real Alignment 2: 3030084 3121293 | 96387 5175 | 91210 91213 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c35
+
+CONTIG: mira_c38 (35541bp)
+Top Length: 35541  Top ID: 99.99
+		Marking as insignificant: 29012 29532 | 35022 35541 | 521 520 | 99.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c38
+		Marking as insignificant: 9239 9758 | 35022 35541 | 520 520 | 99.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c38
+		Marking as insignificant: 279526 280049 | 35018 35541 | 524 524 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c38
+		Marking as insignificant: 82329 82876 | 34994 35541 | 548 548 | 98.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c38
+		Marking as insignificant: 300511 301099 | 34952 35541 | 589 590 | 97.29 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c38
+		Marking as insignificant: 313722 314310 | 34952 35541 | 589 590 | 97.46 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c38
+		Marking as insignificant: 330639 331227 | 34952 35541 | 589 590 | 97.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c38
+		Marking as insignificant: 322821 323409 | 34952 35541 | 589 590 | 97.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c38
+		Marking as insignificant: 604734 605381 | 34892 35541 | 648 650 | 96.15 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c38
+		Marking as insignificant: 145296 145944 | 34892 35541 | 649 650 | 96.92 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c38
+		Marking as insignificant: 4655272 4655921 | 35541 34892 | 650 650 | 96.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c38
+		One align captures most of this contig: 783048 818588 | 1 35541 | 35541 35541 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c38
+
+CONTIG: mira_c39 (46372bp)
+Top Length: 46372  Top ID: 100.0
+		Marking as insignificant: 609961 610032 | 15675 15604 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+		Marking as insignificant: 278581 278652 | 15675 15604 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+		Marking as insignificant: 150501 150572 | 15675 15604 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+		Marking as insignificant: 5203884 5203956 | 15603 15675 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+		Marking as insignificant: 4649986 4650061 | 15689 15764 | 76 76 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+		Marking as insignificant: 824722 824801 | 15675 15596 | 80 80 | 97.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+		Marking as insignificant: 4648905 4648989 | 15593 15675 | 85 83 | 97.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+		Marking as insignificant: 284119 284382 | 46372 46109 | 264 264 | 99.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+		Marking as insignificant: 318379 318646 | 46372 46105 | 268 268 | 99.25 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+		Marking as insignificant: 305171 305438 | 46372 46105 | 268 268 | 99.25 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+		Marking as insignificant: 335298 335600 | 46372 46067 | 303 306 | 96.42 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+		Marking as insignificant: 327480 327782 | 46372 46067 | 303 306 | 96.42 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+		Marking as insignificant: 86946 87251 | 46372 46065 | 306 308 | 97.08 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+		Marking as insignificant: 14055 14354 | 46372 46073 | 300 300 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+		One align captures most of this contig: 33829 80200 | 46372 1 | 46372 46372 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c39
+
+CONTIG: mira_rep_c97 (910bp)
+Top Length: 910  Top ID: 97.91
+		Marking as insignificant: 30945 31197 | 252 1 | 253 252 | 99.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c97
+		Marking as insignificant: 11171 11423 | 252 1 | 253 252 | 99.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c97
+		Marking as insignificant: 30061 30702 | 910 270 | 642 641 | 96.88 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c97
+		Marking as insignificant: 10287 10928 | 910 270 | 642 641 | 96.88 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c97
+		This contig has 10 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 83405 84313 | 910 1 | 909 910 | 97.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c97
+		Skipping alignment  280578 281486 | 910 1 | 909 910 | 97.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c97
+		Skipping alignment  331756 332666 | 910 1 | 911 910 | 97.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c97
+		Skipping alignment  605910 606819 | 910 1 | 910 910 | 97.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c97
+		Skipping alignment  819117 820026 | 910 1 | 910 910 | 97.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c97
+		Skipping alignment  4653835 4654743 | 1 910 | 909 910 | 97.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c97
+		Skipping alignment  146473 147383 | 910 1 | 911 910 | 97.8 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c97
+		Skipping alignment  314839 315747 | 910 1 | 909 910 | 97.8 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c97
+		Skipping alignment  301628 302538 | 910 1 | 911 910 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c97
+		Skipping alignment  323938 324848 | 910 1 | 911 910 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c97
+
+CONTIG: mira_c25 (20224bp)
+Top Length: 20224  Top ID: 99.99
+		Marking as insignificant: 2733858 2735054 | 20224 19028 | 1197 1197 | 99.16 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c25
+		One align captures most of this contig: 1368747 1388969 | 20224 1 | 20223 20224 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c25
+
+CONTIG: mira_c24 (234565bp)
+Top Length: 234565  Top ID: 99.99
+		Marking as insignificant: 4416916 4416987 | 8602 8673 | 72 72 | 98.61 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c24
+		Marking as insignificant: 4190254 4191657 | 129984 128581 | 1404 1404 | 97.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c24
+		One align captures most of this contig: 854184 1088750 | 234565 1 | 234567 234565 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c24
+
+CONTIG: mira_c27 (92556bp)
+Top Length: 92556  Top ID: 99.99
+		Marking as insignificant: 645450 645515 | 56231 56296 | 66 66 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 279452 279522 | 86568 86498 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 4649263 4649334 | 86498 86569 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 64526 64597 | 91786 91715 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 5203885 5203957 | 91715 91787 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 824721 824793 | 91787 91715 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 4648918 4648991 | 91715 91788 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 4248301 4248375 | 86495 86569 | 75 75 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 4650434 4650510 | 90785 90861 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 823436 823512 | 90861 90785 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 4650805 4650882 | 91631 91708 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 823158 823235 | 90940 90863 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 824479 824560 | 91172 91091 | 82 82 | 96.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 822979 823059 | 91708 91628 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 4650636 4650719 | 90998 91081 | 84 84 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 823062 823149 | 91264 91177 | 88 88 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 150672 150760 | 91264 91176 | 89 89 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 278928 279022 | 90954 90862 | 95 93 | 96.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 4537072 4537229 | 56008 56164 | 158 157 | 95.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 1471706 1471862 | 56008 56163 | 157 156 | 98.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 150498 150664 | 91789 91624 | 167 166 | 98.8 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 284389 284560 | 91613 91443 | 172 171 | 98.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 284914 285092 | 91618 91443 | 179 176 | 97.21 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 4650884 4651462 | 91979 92556 | 579 578 | 97.07 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Marking as insignificant: 822398 822976 | 92556 91979 | 579 578 | 97.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		One align captures most of this contig: 609191 701745 | 92556 1 | 92555 92556 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+
+CONTIG: mira_c26 (4896bp)
+Top Length: 4893  Top ID: 99.98
+		Marking as insignificant: 284120 284382 | 1 263 | 263 263 | 98.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 335299 335563 | 1 265 | 265 265 | 98.87 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 327481 327745 | 1 265 | 265 265 | 99.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 33830 34096 | 1 267 | 267 267 | 99.25 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 14056 14322 | 1 267 | 267 267 | 99.25 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 86947 87250 | 1 305 | 304 305 | 97.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 305172 305471 | 1 300 | 300 300 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 29012 29395 | 4511 4893 | 384 383 | 99.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 9239 9621 | 4511 4893 | 383 383 | 99.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 279525 279912 | 4506 4893 | 388 388 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 82329 82739 | 4484 4893 | 411 410 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 817999 818451 | 4442 4893 | 453 452 | 96.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 145344 145807 | 4431 4893 | 464 463 | 98.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 4655409 4655884 | 4893 4422 | 476 472 | 97.69 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 604751 605244 | 4401 4893 | 494 493 | 96.36 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 330577 331090 | 4380 4893 | 514 514 | 99.03 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 300420 300962 | 4351 4893 | 543 543 | 96.32 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		Marking as insignificant: 313635 314173 | 4354 4893 | 539 540 | 98.15 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+		One align captures most of this contig: 318380 323272 | 1 4893 | 4893 4893 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c26
+
+CONTIG: mira_c21 (20804bp)
+Top Length: 20804  Top ID: 99.97
+		Marking as insignificant: 5142182 5142636 | 1 455 | 455 455 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c21
+		One align captures most of this contig: 2543851 2564654 | 20804 1 | 20804 20804 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c21
+
+CONTIG: mira_c20 (139325bp)
+Top Length: 103166  Top ID: 99.94
+		Skipping redundant alignment 822658 823056 | 1 398 | 399 398 | 98.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 150580 150657 | 321 398 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 610039 610116 | 321 398 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 278660 278736 | 322 398 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 610666 610749 | 484 567 | 84 84 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 823323 823869 | 580 1126 | 547 547 | 99.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 610886 610962 | 693 769 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 150984 151055 | 695 766 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 279289 279447 | 874 1035 | 159 162 | 96.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 11071 11149 | 1046 1124 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 30845 30923 | 1046 1124 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 151066 151138 | 1051 1123 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 64437 64512 | 1142 1217 | 76 76 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 21771 21863 | 1319 1411 | 93 93 | 97.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 284383 284562 | 1428 1605 | 180 178 | 95.03 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 278782 278861 | 1517 1596 | 80 80 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 5203967 5204047 | 1859 1779 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 150903 150981 | 1781 1859 | 79 79 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 279025 279098 | 1781 1854 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 4248304 4248376 | 1940 1868 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 615178 615249 | 1869 1940 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 279452 279525 | 1870 1943 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 824558 824721 | 1948 2110 | 164 163 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 10988 11069 | 1948 2029 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 30762 30843 | 1948 2029 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 278399 278652 | 2030 2285 | 254 256 | 96.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 150320 150400 | 2030 2110 | 81 81 | 98.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 150499 150572 | 2212 2285 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 609959 610032 | 2212 2285 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 5203884 5203957 | 2286 2213 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 64526 64608 | 2214 2298 | 83 85 | 97.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 645582 645738 | 113694 113851 | 157 158 | 95.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 4109969 4110125 | 113851 113694 | 157 158 | 95.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Skipping redundant alignment 2819954 2820113 | 113854 113695 | 160 160 | 95.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		This contig is misassembled. 36 total aligns.
+			Real Alignment 1: 4511598 4548058 | 139325 102865 | 36461 36461 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+			  Gap between these two alignments (local misassembly). Inconsistency = 243
+			Real Alignment 2: 4548000 4651202 | 103166 1 | 103203 103166 | 99.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+
+CONTIG: mira_c23 (35401bp)
+Top Length: 29640  Top ID: 99.94
+		Skipping redundant alignment 1905283 1905365 | 23036 22954 | 83 83 | 97.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c23
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1975822 1981519 | 35401 29704 | 5698 5698 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c23
+			  Overlap between these two alignments (local misassembly). Inconsistency = -347
+			Real Alignment 2: 1981236 2010873 | 29640 1 | 29638 29640 | 99.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c23
+
+CONTIG: mira_c22 (100038bp)
+Top Length: 53306  Top ID: 99.99
+		Skipping redundant alignment 1243450 1243608 | 5371 5213 | 159 159 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c22
+		Skipping redundant alignment 1080078 1080149 | 5285 5214 | 72 72 | 98.61 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c22
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 4411703 4465008 | 1 53306 | 53306 53306 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c22
+			  Overlap between these two alignments (local misassembly). Inconsistency = -144
+			Real Alignment 2: 4464807 4496631 | 53249 85145 | 31825 31897 | 99.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c22
+			  Gap between these two alignments (local misassembly). Inconsistency = 90
+			Real Alignment 3: 4496456 4511614 | 84880 100038 | 15159 15159 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c22
+
+CONTIG: mira_rep_c117 (868bp)
+Top Length: 868  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 111200 112067 | 1 868 | 868 868 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_rep_c117
+		Skipping alignment  3444117 3444984 | 868 1 | 868 868 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c117
+
+CONTIG: mira_c29 (64895bp)
+Top Length: 38903  Top ID: 99.93
+		Skipping redundant alignment 1107978 1109844 | 1867 1 | 1867 1867 | 96.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c29
+		Skipping redundant alignment 3233471 3235337 | 1866 1 | 1867 1866 | 96.52 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c29
+		Skipping redundant alignment 1 5934 | 50907 44974 | 5934 5934 | 99.92 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c29
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 1: 2944017 2976767 | 51551 18823 | 32751 32729 | 99.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c29
+			  Overlap between these two alignments (local misassembly). Inconsistency = -21
+			Real Alignment 2: 2956666 2995589 | 38903 1 | 38924 38903 | 99.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c29
+			  Extensive misassembly ( translocation ) between these two alignments
+			Real Alignment 3: 193941 208369 | 64895 50467 | 14429 14429 | 99.99 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c29
+
+CONTIG: mira_c28 (166980bp)
+Top Length: 84954  Top ID: 99.88
+		Skipping redundant alignment 50584 51898 | 165666 166980 | 1315 1315 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c28
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1134828 1212419 | 166980 89389 | 77592 77592 | 99.92 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c28
+			  Extensive misassembly ( relocation, inconsistency = 76075 ) between these two alignments
+			Real Alignment 2: 1284991 1369943 | 92892 7939 | 84953 84954 | 99.88 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c28
+			  Extensive misassembly ( relocation, inconsistency = 1365111 ) between these two alignments
+			Real Alignment 3: 2733513 2742992 | 9480 1 | 9480 9480 | 99.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c28
+
+CONTIG: mira_rep_c105 (653bp)
+Top Length: 653  Top ID: 98.93
+		Marking as insignificant: 109191 109685 | 159 653 | 495 495 | 98.99 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_rep_c105
+		One align captures most of this contig: 3446499 3447151 | 653 1 | 653 653 | 98.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c105
+
+CONTIG: mira_rep_c104 (1367bp)
+Top Length: 1367  Top ID: 99.93
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2564207 2565573 | 1 1367 | 1367 1367 | 99.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c104
+		Skipping alignment  5141263 5142629 | 1367 1 | 1367 1367 | 99.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c104
+
+CONTIG: mira_rep_c106 (669bp)
+Top Length: 669  Top ID: 100.0
+		Marking as insignificant: 30945 31244 | 372 669 | 300 298 | 99.33 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c106
+		Marking as insignificant: 11171 11470 | 372 669 | 300 298 | 99.33 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c106
+		Marking as insignificant: 30348 30702 | 1 354 | 355 354 | 99.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c106
+		Marking as insignificant: 10574 10928 | 1 354 | 355 354 | 99.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c106
+		This contig has 10 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 280865 281533 | 1 669 | 669 669 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c106
+		Skipping alignment  4653788 4654456 | 669 1 | 669 669 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c106
+		Skipping alignment  83692 84360 | 1 669 | 669 669 | 99.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c106
+		Skipping alignment  315126 315794 | 1 669 | 669 669 | 99.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c106
+		Skipping alignment  819404 820073 | 1 669 | 670 669 | 99.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c106
+		Skipping alignment  332043 332713 | 1 669 | 671 669 | 99.7 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c106
+		Skipping alignment  606197 606866 | 1 669 | 670 669 | 99.7 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c106
+		Skipping alignment  146760 147430 | 1 669 | 671 669 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c106
+		Skipping alignment  301915 302585 | 1 669 | 671 669 | 99.11 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c106
+		Skipping alignment  324225 324895 | 1 669 | 671 669 | 99.11 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c106
+
+CONTIG: mira_rep_c101 (545bp)
+Top Length: 367  Top ID: 100.0
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [76153][76519] redundant alignment 76153 76519 | 1 367 | 367 367 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_rep_c101
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 3133421 3133787 | 1 367 | 367 367 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c101
+			  Extensive misassembly ( relocation, inconsistency = 916340 ) between these two alignments
+			Real Alignment 2: 4050119 4050305 | 359 545 | 187 187 | 99.47 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c101
+
+CONTIG: mira_rep_c100 (1533bp)
+Top Length: 625  Top ID: 96.52
+		Skipping redundant alignment 609342 609769 | 1 429 | 428 429 | 96.28 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping redundant alignment 278657 278736 | 429 508 | 80 80 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping redundant alignment 150581 150657 | 432 508 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping redundant alignment 610040 610116 | 432 508 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping redundant alignment 5203966 5204049 | 680 597 | 84 84 | 98.81 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping redundant alignment 150903 150982 | 601 680 | 80 80 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping redundant alignment 279025 279098 | 601 674 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping redundant alignment 610886 610962 | 799 875 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping redundant alignment 150984 151055 | 801 872 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping redundant alignment 11074 11155 | 1147 1228 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping redundant alignment 30848 30929 | 1147 1228 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping redundant alignment 29012 29312 | 1233 1533 | 301 301 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping redundant alignment 9239 9538 | 1233 1533 | 300 301 | 99.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [82352][82656] redundant alignment 82352 82656 | 1229 1533 | 305 305 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping [145421][145724] redundant alignment 145421 145724 | 1229 1533 | 304 305 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping [300576][300879] redundant alignment 300576 300879 | 1229 1533 | 304 305 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping [313787][314090] redundant alignment 313787 314090 | 1229 1533 | 304 305 | 99.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping [322886][323189] redundant alignment 322886 323189 | 1229 1533 | 304 305 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping [330704][331007] redundant alignment 330704 331007 | 1229 1533 | 304 305 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping [604858][605161] redundant alignment 604858 605161 | 1229 1533 | 304 305 | 99.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		Skipping [4655492][4655796] redundant alignment 4655492 4655796 | 1533 1229 | 305 305 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+		This contig is misassembled. 24 total aligns.
+			Real Alignment 1: 818064 818368 | 1228 1533 | 305 306 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+			  Extensive misassembly ( relocation, inconsistency = 5713 ) between these two alignments
+			Real Alignment 2: 822549 823056 | 1 508 | 508 508 | 98.04 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+			  Gap between these two alignments (local misassembly). Inconsistency = 89
+			Real Alignment 3: 823235 823867 | 598 1222 | 633 625 | 96.52 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c100
+
+CONTIG: mira_rep_c103 (604bp)
+Top Length: 604  Top ID: 99.83
+		Marking as insignificant: 3133921 3134441 | 604 84 | 521 521 | 99.42 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c103
+		One align captures most of this contig: 76653 77256 | 604 1 | 604 604 | 99.83 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_rep_c103
+
+CONTIG: mira_rep_c102 (1547bp)
+Top Length: 1510  Top ID: 100.0
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2994133][2995679] redundant alignment 2994133 2995679 | 1547 1 | 1547 1547 | 96.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c102
+		Skipping [3233881][3235390] redundant alignment 3233881 3235390 | 1547 38 | 1510 1510 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c102
+		This contig is partially unaligned. (1510 out of 1547)
+		Alignment: 1108388 1109897 | 1547 38 | 1510 1510 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c102
+		Unaligned bases: 1 to 37 (37)
+
+CONTIG: mira_c116 (787bp)
+Top Length: 787  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1134695 1135481 | 1 787 | 787 787 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c116
+		Skipping alignment  51245 52030 | 787 2 | 786 786 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c116
+
+CONTIG: mira_rep_c135 (611bp)
+Top Length: 611  Top ID: 100.0
+		One align captures most of this contig: 112727 113337 | 1 611 | 611 611 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c135
+
+CONTIG: mira_c50 (24399bp)
+Top Length: 24399  Top ID: 100.0
+		One align captures most of this contig: 4387345 4411743 | 24399 1 | 24399 24399 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c50
+
+CONTIG: mira_c51 (14041bp)
+Top Length: 14041  Top ID: 100.0
+		Marking as insignificant: 108252 108454 | 11986 12186 | 203 201 | 95.57 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c51
+		Marking as insignificant: 83134 83336 | 11985 12186 | 203 202 | 96.55 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c51
+		Marking as insignificant: 81384 81586 | 11984 12186 | 203 203 | 97.04 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c51
+		Marking as insignificant: 1135926 1136142 | 1 217 | 217 217 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c51
+		One align captures most of this contig: 36760 50800 | 14041 1 | 14041 14041 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c51
+
+CONTIG: mira_c52 (25964bp)
+Top Length: 25964  Top ID: 99.95
+		Marking as insignificant: 51467 52030 | 25964 25401 | 564 564 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c52
+		Marking as insignificant: 2995041 2995642 | 1 602 | 602 602 | 96.35 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c52
+		Marking as insignificant: 3234789 3235391 | 1 603 | 603 603 | 99.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c52
+		One align captures most of this contig: 1109296 1135259 | 1 25964 | 25964 25964 | 99.95 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c52
+
+CONTIG: mira_c53 (89390bp)
+Top Length: 89390  Top ID: 99.97
+		One align captures most of this contig: 2454476 2543862 | 89390 1 | 89387 89390 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c53
+
+CONTIG: mira_c54 (201269bp)
+Top Length: 201269  Top ID: 99.99
+		Marking as insignificant: 1662972 1663128 | 124151 124307 | 157 157 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c54
+		Marking as insignificant: 2076392 2076550 | 128880 129038 | 159 159 | 95.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c54
+		Marking as insignificant: 4109969 4110124 | 124307 124151 | 156 157 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c54
+		Marking as insignificant: 4109969 4110124 | 129036 128880 | 156 157 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c54
+		Marking as insignificant: 2076392 2076548 | 160787 160943 | 157 157 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c54
+		Marking as insignificant: 1662971 1663128 | 160786 160943 | 158 158 | 96.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c54
+		Marking as insignificant: 4537069 4537228 | 124310 124151 | 160 160 | 95.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c54
+		Marking as insignificant: 2076391 2076549 | 124150 124308 | 159 159 | 96.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c54
+		Marking as insignificant: 4109969 4110124 | 160943 160787 | 156 157 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c54
+		Marking as insignificant: 207285 207529 | 245 1 | 245 245 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c54
+		One align captures most of this contig: 2742994 2944261 | 201269 1 | 201268 201269 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c54
+
+CONTIG: mira_c55 (28914bp)
+Top Length: 28914  Top ID: 99.97
+		One align captures most of this contig: 2995622 3024535 | 1 28914 | 28914 28914 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c55
+
+CONTIG: mira_c56 (74370bp)
+Top Length: 69736  Top ID: 99.99
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 119387 189122 | 74370 4635 | 69736 69736 | 99.99 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c56
+			  Gap between these two alignments (local misassembly). Inconsistency = 192
+			Real Alignment 2: 189123 193946 | 4826 1 | 4824 4826 | 99.81 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c56
+
+CONTIG: mira_c57 (24597bp)
+Top Length: 24597  Top ID: 100.0
+		One align captures most of this contig: 758474 783070 | 24597 1 | 24597 24597 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c57
+
+CONTIG: mira_c58 (23432bp)
+Top Length: 23432  Top ID: 100.0
+		Marking as insignificant: 29012 29613 | 22832 23432 | 602 601 | 99.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c58
+		Marking as insignificant: 9239 9839 | 22832 23432 | 601 601 | 99.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c58
+		Marking as insignificant: 279525 280130 | 22827 23432 | 606 606 | 99.83 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c58
+		Marking as insignificant: 82309 82957 | 22784 23432 | 649 649 | 98.15 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c58
+		Marking as insignificant: 330598 331308 | 22721 23432 | 711 712 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c58
+		Marking as insignificant: 322780 323490 | 22721 23432 | 711 712 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c58
+		Marking as insignificant: 313681 314391 | 22721 23432 | 711 712 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c58
+		Marking as insignificant: 300470 301180 | 22721 23432 | 711 712 | 97.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c58
+		Marking as insignificant: 817939 818669 | 22704 23432 | 731 729 | 96.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c58
+		Marking as insignificant: 145296 146025 | 22704 23432 | 730 729 | 98.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c58
+		Marking as insignificant: 4655191 4655924 | 23432 22701 | 734 732 | 98.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c58
+		One align captures most of this contig: 582031 605462 | 1 23432 | 23432 23432 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c58
+
+CONTIG: mira_c59 (28708bp)
+Top Length: 28708  Top ID: 99.99
+		One align captures most of this contig: 1947112 1975819 | 1 28708 | 28708 28708 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c59
+
+CONTIG: mira_rep_c114 (951bp)
+Top Length: 951  Top ID: 100.0
+		One align captures most of this contig: 123696 124646 | 951 1 | 951 951 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c114
+
+CONTIG: mira_rep_c115 (708bp)
+Top Length: 708  Top ID: 98.02
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2948911 2949618 | 1 708 | 708 708 | 98.02 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c115
+		Skipping alignment  4251 4958 | 1 708 | 708 708 | 98.02 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_rep_c115
+
+CONTIG: mira_rep_c98 (1167bp)
+Top Length: 1167  Top ID: 98.97
+		Marking as insignificant: 30360 30702 | 1167 825 | 343 343 | 98.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c98
+		Marking as insignificant: 10586 10928 | 1167 825 | 343 343 | 98.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c98
+		Marking as insignificant: 11171 11979 | 807 1 | 809 807 | 98.27 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c98
+		Marking as insignificant: 30945 31753 | 807 1 | 809 807 | 98.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c98
+		This contig has 10 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 146772 147939 | 1167 1 | 1168 1167 | 98.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c98
+		Skipping alignment  280877 282042 | 1167 1 | 1166 1167 | 98.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c98
+		Skipping alignment  332055 333222 | 1167 1 | 1168 1167 | 98.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c98
+		Skipping alignment  4653279 4654444 | 1 1167 | 1166 1167 | 98.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c98
+		Skipping alignment  83704 84869 | 1167 1 | 1166 1167 | 98.8 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c98
+		Skipping alignment  315138 316303 | 1167 1 | 1166 1167 | 98.8 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c98
+		Skipping alignment  819416 820582 | 1167 1 | 1167 1167 | 98.8 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c98
+		Skipping alignment  606209 607375 | 1167 1 | 1167 1167 | 98.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c98
+		Skipping alignment  301927 303094 | 1167 1 | 1168 1167 | 98.54 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c98
+		Skipping alignment  324237 325404 | 1167 1 | 1168 1167 | 98.37 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c98
+
+CONTIG: mira_rep_c99 (830bp)
+Top Length: 830  Top ID: 100.0
+		Marking as insignificant: 151066 151138 | 485 557 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 4650079 4650157 | 558 480 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 823789 823867 | 480 558 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 4649174 4649255 | 478 397 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 824558 824639 | 397 478 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 324597 324846 | 580 830 | 250 251 | 98.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 302287 302536 | 580 830 | 250 251 | 98.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 4653837 4654085 | 830 580 | 249 251 | 99.2 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 315497 315745 | 580 830 | 249 251 | 99.2 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 281236 281484 | 580 830 | 249 251 | 99.2 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 84063 84311 | 580 830 | 249 251 | 99.2 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 819775 820024 | 580 830 | 250 251 | 99.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 606568 606817 | 580 830 | 250 251 | 99.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 332415 332664 | 580 830 | 250 251 | 99.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 147132 147381 | 580 830 | 250 251 | 99.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 324243 324579 | 1 337 | 337 337 | 98.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 301933 302269 | 1 337 | 337 337 | 98.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 146778 147114 | 1 337 | 337 337 | 98.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 606215 606550 | 1 337 | 336 337 | 99.11 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 332061 332397 | 1 337 | 337 337 | 99.11 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 315144 315479 | 1 337 | 336 337 | 99.11 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 4654103 4654438 | 337 1 | 336 337 | 99.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 819422 819757 | 1 337 | 336 337 | 99.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 280883 281218 | 1 337 | 336 337 | 99.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Marking as insignificant: 83710 84045 | 1 337 | 336 337 | 99.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 10592 11421 | 1 830 | 830 830 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+		Skipping alignment  30366 31195 | 1 830 | 830 830 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c99
+
+CONTIG: mira_rep_c110 (701bp)
+Top Length: 701  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 3445576 3446276 | 1 701 | 701 701 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c110
+		Skipping alignment  109908 110608 | 701 1 | 701 701 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_rep_c110
+
+CONTIG: mira_c128 (656bp)
+Top Length: 656  Top ID: 100.0
+		One align captures most of this contig: 5128191 5128846 | 656 1 | 656 656 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c128
+
+CONTIG: mira_rep_c96 (5224bp)
+Top Length: 5224  Top ID: 99.58
+		Marking as insignificant: 29012 30702 | 181 1870 | 1691 1690 | 99.47 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c96
+		Marking as insignificant: 9239 10928 | 181 1870 | 1690 1690 | 99.47 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c96
+		Marking as insignificant: 11171 14354 | 1888 5069 | 3184 3182 | 99.4 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c96
+		Marking as insignificant: 30945 34134 | 1888 5075 | 3190 3188 | 99.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c96
+		Marking as insignificant: 817999 822976 | 112 5036 | 4978 4925 | 98.21 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c96
+		Marking as insignificant: 279525 284382 | 176 5034 | 4858 4859 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c96
+		Marking as insignificant: 4650884 4655884 | 5036 92 | 5001 4945 | 98.32 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c96
+		Marking as insignificant: 82329 87217 | 154 5042 | 4889 4889 | 99.47 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c96
+		Marking as insignificant: 145344 150312 | 101 5031 | 4969 4931 | 98.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c96
+		Marking as insignificant: 604751 609768 | 71 5036 | 5018 4966 | 98.19 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c96
+		Marking as insignificant: 313661 318646 | 51 5038 | 4986 4988 | 99.52 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c96
+		Marking as insignificant: 300434 305438 | 35 5038 | 5005 5004 | 99.28 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c96
+		Marking as insignificant: 322759 327846 | 50 5139 | 5088 5090 | 99.31 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c96
+		One align captures most of this contig: 330528 335749 | 1 5224 | 5222 5224 | 99.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c96
+
+CONTIG: mira_c8 (31944bp)
+Top Length: 31944  Top ID: 99.99
+		Marking as insignificant: 150984 151055 | 30752 30681 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 609960 610032 | 29469 29397 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 278580 278652 | 29469 29397 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 151066 151138 | 30396 30324 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 150500 150572 | 29469 29397 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 5203884 5203957 | 29396 29469 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 610886 610962 | 30754 30678 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 30845 30923 | 30401 30323 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 11071 11149 | 30401 30323 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 610807 610884 | 31032 30955 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 278660 278737 | 31210 31133 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 64526 64605 | 29468 29389 | 80 80 | 97.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 610575 610656 | 29711 29630 | 82 82 | 96.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 5203965 5204045 | 30872 30952 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 610039 610119 | 31211 31131 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 278398 278479 | 29550 29469 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 30762 30843 | 29632 29551 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 10988 11069 | 29632 29551 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 278778 278860 | 29963 29881 | 83 83 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 150318 150400 | 29551 29469 | 83 83 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 610483 610570 | 31128 31041 | 88 88 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 21769 21863 | 30161 30067 | 95 95 | 97.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 278944 279098 | 31032 30879 | 155 154 | 98.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 279289 279447 | 30573 30412 | 159 162 | 96.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 4649093 4649255 | 29469 29632 | 163 164 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 284918 285085 | 30046 29881 | 168 166 | 98.81 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 284383 284553 | 30050 29881 | 171 170 | 99.42 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 4650077 4650623 | 30321 30867 | 547 547 | 99.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 149603 150315 | 31944 31216 | 713 729 | 95.22 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 609039 609768 | 31944 31214 | 730 731 | 98.08 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		Marking as insignificant: 4650805 4651614 | 31134 31944 | 810 811 | 99.26 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+		One align captures most of this contig: 822246 854189 | 31944 1 | 31944 31944 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c8
+
+CONTIG: mira_c9 (56977bp)
+Top Length: 56977  Top ID: 99.98
+		Marking as insignificant: 109191 111859 | 54309 56977 | 2669 2669 | 99.96 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c9
+		One align captures most of this contig: 3444325 3501299 | 56977 1 | 56975 56977 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c9
+
+CONTIG: mira_c2 (22170bp)
+Top Length: 22170  Top ID: 99.99
+		Marking as insignificant: 29012 29491 | 479 1 | 480 479 | 99.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c2
+		Marking as insignificant: 9239 9717 | 479 1 | 479 479 | 99.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c2
+		Marking as insignificant: 279525 280008 | 484 1 | 484 484 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c2
+		Marking as insignificant: 82309 82835 | 527 1 | 527 527 | 97.92 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c2
+		Marking as insignificant: 330628 331186 | 560 1 | 559 560 | 98.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c2
+		Marking as insignificant: 322810 323368 | 560 1 | 559 560 | 98.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c2
+		Marking as insignificant: 313711 314269 | 560 1 | 559 560 | 98.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c2
+		Marking as insignificant: 300500 301058 | 560 1 | 559 560 | 99.11 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c2
+		Marking as insignificant: 817939 818547 | 608 1 | 609 608 | 96.72 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c2
+		Marking as insignificant: 604734 605340 | 608 1 | 607 608 | 98.36 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c2
+		Marking as insignificant: 4655313 4655921 | 1 608 | 609 608 | 99.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c2
+		One align captures most of this contig: 123734 145903 | 22170 1 | 22170 22170 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c2
+
+CONTIG: mira_c3 (291688bp)
+Top Length: 291688  Top ID: 99.99
+		Marking as insignificant: 3288509 3288582 | 46048 46121 | 74 74 | 97.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c3
+		Marking as insignificant: 4817793 4817872 | 46126 46205 | 80 80 | 97.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c3
+		Marking as insignificant: 3288509 3288664 | 237473 237317 | 156 157 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c3
+		Marking as insignificant: 2819957 2820113 | 237473 237317 | 157 157 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c3
+		Marking as insignificant: 231661 231816 | 46046 46204 | 156 159 | 95.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c3
+		Marking as insignificant: 4109969 4110124 | 237473 237317 | 156 157 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c3
+		Marking as insignificant: 1424135 1424290 | 172624 172469 | 156 156 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c3
+		Marking as insignificant: 2783320 2783477 | 237473 237316 | 158 158 | 96.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c3
+		Marking as insignificant: 645583 645738 | 46204 46048 | 156 157 | 98.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c3
+		Marking as insignificant: 4997818 4997976 | 172624 172467 | 159 158 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c3
+		Marking as insignificant: 2076392 2076555 | 237317 237479 | 164 163 | 97.56 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c3
+		One align captures most of this contig: 1425659 1717343 | 1 291688 | 291685 291688 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c3
+
+CONTIG: mira_c1 (190878bp)
+Top Length: 190878  Top ID: 99.99
+		Marking as insignificant: 1598122 1598279 | 46830 46672 | 158 159 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c1
+		Marking as insignificant: 2564812 2565856 | 190878 189834 | 1045 1045 | 99.9 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c1
+		One align captures most of this contig: 4951147 5142024 | 1 190878 | 190878 190878 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c1
+
+CONTIG: mira_c6 (83697bp)
+Top Length: 83697  Top ID: 99.99
+		One align captures most of this contig: 3772365 3856061 | 1 83697 | 83697 83697 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c6
+
+CONTIG: mira_c7 (241126bp)
+Top Length: 241126  Top ID: 99.99
+		One align captures most of this contig: 340912 582035 | 1 241126 | 241124 241126 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c7
+
+CONTIG: mira_c4 (50527bp)
+Top Length: 50527  Top ID: 99.96
+		One align captures most of this contig: 4048897 4099421 | 1 50527 | 50525 50527 | 99.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c4
+
+CONTIG: mira_c5 (79121bp)
+Top Length: 79121  Top ID: 99.99
+		Marking as insignificant: 4650437 4650508 | 1322 1251 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 823438 823509 | 1251 1322 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 64526 64597 | 768 839 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 5203885 5203957 | 839 767 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 4650080 4650152 | 1405 1333 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 824721 824793 | 767 839 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 823794 823866 | 1333 1405 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 30850 30922 | 1333 1405 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 11076 11148 | 1333 1405 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 4648918 4648991 | 839 766 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 4650805 4650882 | 924 847 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 4649344 4649422 | 1248 1170 | 79 79 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 5203966 5204045 | 1249 1170 | 80 80 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 4649093 4649173 | 667 587 | 81 81 | 98.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 824639 824721 | 585 667 | 83 83 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 610483 610571 | 939 1027 | 89 89 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 278944 279098 | 1089 1243 | 155 155 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 609958 610123 | 765 931 | 166 167 | 98.8 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		Marking as insignificant: 609170 609851 | 1 668 | 682 668 | 95.03 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+		One align captures most of this contig: 149734 228854 | 1 79121 | 79121 79121 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c5
+
+CONTIG: mira_rep_c119 (582bp)
+Top Length: 582  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 3132251 3132832 | 582 1 | 582 582 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c119
+		Skipping alignment  74983 75564 | 582 1 | 582 582 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_rep_c119
+
+CONTIG: mira_c43 (42542bp)
+Top Length: 42542  Top ID: 99.98
+		Marking as insignificant: 2994551 2995642 | 42542 41451 | 1092 1092 | 96.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c43
+		Marking as insignificant: 1108806 1109898 | 42542 41450 | 1093 1093 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c43
+		One align captures most of this contig: 3234299 3276840 | 42542 1 | 42542 42542 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c43
+
+CONTIG: mira_c42 (9174bp)
+Top Length: 9174  Top ID: 100.0
+		Marking as insignificant: 609653 609768 | 9073 8958 | 116 116 | 97.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 150196 150312 | 9079 8963 | 117 117 | 97.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 4650884 4651003 | 8958 9077 | 120 120 | 96.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 822857 822976 | 9077 8958 | 120 120 | 96.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 284168 284382 | 9174 8960 | 215 215 | 98.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 335347 335563 | 9174 8958 | 217 217 | 98.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 327529 327745 | 9174 8958 | 217 217 | 99.54 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 33878 34096 | 9174 8956 | 219 219 | 99.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 14104 14322 | 9174 8956 | 219 219 | 99.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 86995 87242 | 9174 8925 | 248 250 | 97.2 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 318428 318679 | 9174 8923 | 252 252 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 29012 29615 | 603 1 | 604 603 | 99.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 9239 9841 | 603 1 | 603 603 | 99.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 279525 280132 | 608 1 | 608 608 | 99.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 82329 82959 | 630 1 | 631 630 | 99.05 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 817999 818671 | 672 1 | 673 672 | 97.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 145344 146027 | 683 1 | 684 683 | 99.12 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 4655189 4655884 | 1 692 | 696 692 | 98.42 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 604751 605464 | 713 1 | 714 713 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 330578 331310 | 733 1 | 733 733 | 99.05 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 300432 301182 | 751 1 | 751 751 | 97.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		Marking as insignificant: 322733 323492 | 759 1 | 760 759 | 98.68 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+		One align captures most of this contig: 305220 314393 | 9174 1 | 9174 9174 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c42
+
+CONTIG: mira_c41 (45138bp)
+Top Length: 45138  Top ID: 99.98
+		One align captures most of this contig: 3998455 4043591 | 1 45138 | 45137 45138 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c41
+
+CONTIG: mira_c40 (76174bp)
+Top Length: 67558  Top ID: 99.86
+		Skipping redundant alignment 4416915 4417073 | 43309 43151 | 159 159 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c40
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1208916 1276474 | 8617 76174 | 67559 67558 | 99.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c40
+			  Extensive misassembly ( relocation, inconsistency = 76074 ) between these two alignments
+			Real Alignment 2: 1276375 1288494 | 1 12120 | 12120 12120 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c40
+
+CONTIG: mira_c47 (34980bp)
+Top Length: 34975  Top ID: 99.99
+		One align captures most of this contig: 4310795 4345769 | 6 34980 | 34975 34975 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c47
+
+CONTIG: mira_c46 (40851bp)
+Top Length: 39489  Top ID: 99.99
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 4345729 4347099 | 1 1371 | 1371 1371 | 99.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c46
+			  Gap between these two alignments (local misassembly). Inconsistency = 777
+			Real Alignment 2: 4347868 4387356 | 1363 40851 | 39489 39489 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c46
+
+CONTIG: mira_c45 (34069bp)
+Top Length: 34069  Top ID: 99.99
+		Marking as insignificant: 4537072 4537229 | 10579 10735 | 158 157 | 95.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c45
+		Marking as insignificant: 2819957 2820113 | 10579 10734 | 157 156 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c45
+		Marking as insignificant: 2815228 2815384 | 10579 10734 | 157 156 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c45
+		Marking as insignificant: 1662972 1663128 | 10734 10579 | 157 156 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c45
+		Marking as insignificant: 2076392 2076548 | 10734 10579 | 157 156 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c45
+		Marking as insignificant: 2783320 2783476 | 10579 10734 | 157 156 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c45
+		One align captures most of this contig: 4099391 4133459 | 1 34069 | 34069 34069 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c45
+
+CONTIG: mira_c44 (10661bp)
+Top Length: 10661  Top ID: 100.0
+		Marking as insignificant: 279452 279522 | 219 149 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c44
+		Marking as insignificant: 4649263 4649335 | 149 221 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c44
+		Marking as insignificant: 615178 615252 | 220 146 | 75 75 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c44
+		One align captures most of this contig: 4248156 4258816 | 1 10661 | 10661 10661 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c44
+
+CONTIG: mira_rep_c122 (895bp)
+Top Length: 207  Top ID: 95.17
+		This contig is partially unaligned. (207 out of 895)
+		Alignment: 3490530 3490736 | 207 1 | 207 207 | 95.17 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c122
+		Unaligned bases: 208 to 895 (688)
+
+CONTIG: mira_c49 (15463bp)
+Top Length: 15463  Top ID: 99.99
+		Marking as insignificant: 4649792 4649884 | 7811 7719 | 93 93 | 97.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 824029 824123 | 7717 7811 | 95 95 | 97.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 284117 284382 | 1 266 | 266 266 | 99.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 335296 335563 | 1 268 | 268 268 | 99.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 327478 327745 | 1 268 | 268 268 | 99.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 318377 318646 | 1 270 | 270 270 | 99.26 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 305169 305438 | 1 270 | 270 270 | 99.26 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 86944 87242 | 1 301 | 299 301 | 97.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 33827 34128 | 1 302 | 302 302 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 604862 605364 | 14960 15463 | 503 504 | 99.4 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 313791 314293 | 14960 15463 | 503 504 | 99.4 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 818069 818571 | 14960 15463 | 503 504 | 99.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 330708 331210 | 14960 15463 | 503 504 | 99.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 322890 323392 | 14960 15463 | 503 504 | 99.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 300580 301082 | 14960 15463 | 503 504 | 99.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 279530 280032 | 14960 15463 | 503 504 | 99.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 145425 145927 | 14960 15463 | 503 504 | 99.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 4655289 4655792 | 15463 14960 | 504 504 | 99.8 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 9201 9741 | 14922 15463 | 541 542 | 99.26 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		Marking as insignificant: 82285 82859 | 14892 15463 | 575 572 | 96.36 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+		One align captures most of this contig: 14053 29515 | 1 15463 | 15463 15463 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c49
+
+CONTIG: mira_c48 (36731bp)
+Top Length: 36731  Top ID: 100.0
+		Marking as insignificant: 1598124 1598279 | 1391 1546 | 156 156 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c48
+		One align captures most of this contig: 1388950 1425680 | 36731 1 | 36731 36731 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c48
+
+CONTIG: mira_rep_c126 (653bp)
+Top Length: 577  Top ID: 98.44
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 4547725 4548301 | 653 77 | 577 577 | 98.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c126
+			  Overlap between these two alignments (local misassembly). Inconsistency = -243
+			Real Alignment 2: 4547757 4548134 | 378 1 | 378 378 | 97.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c126
+
+CONTIG: mira_rep_c125 (769bp)
+Top Length: 554  Top ID: 99.64
+		Skipping redundant alignment 2949333 2949440 | 1 108 | 108 108 | 96.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c125
+		Skipping redundant alignment 4673 4780 | 1 108 | 108 108 | 96.3 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_rep_c125
+		Skipping redundant alignment 2949351 2949438 | 307 394 | 88 88 | 95.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c125
+		Skipping redundant alignment 4691 4778 | 307 394 | 88 88 | 95.45 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_rep_c125
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2949171][2949349] redundant alignment 2949171 2949349 | 1 179 | 179 179 | 99.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c125
+		Skipping [2949440][2949993] redundant alignment 2949440 2949993 | 216 769 | 554 554 | 99.64 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c125
+		This contig is misassembled. 8 total aligns.
+			Real Alignment 1: 4511 4689 | 1 179 | 179 179 | 99.44 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_rep_c125
+			  Gap between these two alignments (local misassembly). Inconsistency = 54
+			Real Alignment 2: 4780 5333 | 216 769 | 554 554 | 99.64 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_rep_c125
+
+CONTIG: mira_rep_c124 (820bp)
+Top Length: 820  Top ID: 99.88
+		One align captures most of this contig: 338551 339370 | 1 820 | 820 820 | 99.88 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c124
+
+CONTIG: mira_rep_c113 (960bp)
+Top Length: 960  Top ID: 98.75
+		This contig has 12 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 4652101 4653060 | 960 1 | 960 960 | 98.75 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c113
+		Skipping alignment  148158 149116 | 1 960 | 959 960 | 98.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c113
+		Skipping alignment  282261 283220 | 1 960 | 960 960 | 98.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c113
+		Skipping alignment  303313 304272 | 1 960 | 960 960 | 98.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c113
+		Skipping alignment  316522 317480 | 1 960 | 959 960 | 98.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c113
+		Skipping alignment  325623 326581 | 1 960 | 959 960 | 98.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c113
+		Skipping alignment  333441 334399 | 1 960 | 959 960 | 98.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c113
+		Skipping alignment  12198 13156 | 1 960 | 959 960 | 98.54 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c113
+		Skipping alignment  31972 32930 | 1 960 | 959 960 | 98.54 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c113
+		Skipping alignment  85088 86047 | 1 960 | 960 960 | 98.54 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c113
+		Skipping alignment  607594 608552 | 1 960 | 959 960 | 98.54 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c113
+		Skipping alignment  820801 821759 | 1 960 | 959 960 | 98.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c113
+
+CONTIG: mira_c76 (2046bp)
+Top Length: 2046  Top ID: 100.0
+		One align captures most of this contig: 4760040 4762085 | 2046 1 | 2046 2046 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+
+CONTIG: mira_c77 (7969bp)
+Top Length: 7969  Top ID: 99.99
+		Marking as insignificant: 3444105 3444748 | 644 1 | 644 644 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c77
+		One align captures most of this contig: 111436 119403 | 1 7969 | 7968 7969 | 99.99 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c77
+
+CONTIG: mira_c74 (51055bp)
+Top Length: 51055  Top ID: 99.99
+		Marking as insignificant: 4248304 4248374 | 373 443 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 615179 615249 | 443 373 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 64526 64597 | 1314 1243 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 5203885 5203957 | 1243 1315 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 824721 824793 | 1315 1243 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 4649349 4649422 | 797 870 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 4649260 4649333 | 370 443 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 4650805 4650881 | 1159 1235 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 4817793 4817871 | 48157 48079 | 79 79 | 97.47 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 822980 823057 | 1235 1158 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 4649607 4649686 | 1034 1113 | 80 80 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 5203783 5203864 | 1034 1114 | 82 81 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 5203960 5204045 | 787 870 | 86 84 | 96.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 824640 824721 | 1497 1416 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 824227 824309 | 1117 1035 | 83 83 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 285003 285087 | 1117 1033 | 85 85 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 284471 284555 | 1117 1033 | 85 85 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 610793 610885 | 967 873 | 93 95 | 96.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 1471704 1471862 | 48234 48079 | 159 156 | 95.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 823158 823311 | 951 797 | 154 155 | 98.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 4650168 4650329 | 448 606 | 162 159 | 96.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 823617 823778 | 606 448 | 162 159 | 96.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 150822 150976 | 951 797 | 155 155 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 4648918 4649173 | 1243 1496 | 256 254 | 96.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 29012 29377 | 365 1 | 366 365 | 99.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 9239 9603 | 365 1 | 365 365 | 99.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 818065 818433 | 369 1 | 369 369 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 4655427 4655797 | 1 370 | 371 370 | 99.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 604857 605226 | 370 1 | 370 370 | 99.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 313786 314155 | 370 1 | 370 370 | 99.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 82351 82721 | 370 1 | 371 370 | 99.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 330703 331072 | 370 1 | 370 370 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 322885 323254 | 370 1 | 370 370 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 300575 300944 | 370 1 | 370 370 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		Marking as insignificant: 145420 145789 | 370 1 | 370 370 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+		One align captures most of this contig: 228840 279894 | 51055 1 | 51055 51055 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c74
+
+CONTIG: mira_c75 (10158bp)
+Top Length: 10158  Top ID: 99.93
+		One align captures most of this contig: 2640641 2650797 | 1 10158 | 10157 10158 | 99.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c75
+
+CONTIG: mira_c72 (13092bp)
+Top Length: 13092  Top ID: 99.98
+		Marking as insignificant: 1368402 1369101 | 700 1 | 700 700 | 99.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c72
+		One align captures most of this contig: 2721122 2734212 | 13092 1 | 13091 13092 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c72
+
+CONTIG: mira_c73 (20204bp)
+Top Length: 20204  Top ID: 100.0
+		Marking as insignificant: 2993723 2994680 | 19247 20204 | 958 958 | 96.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c73
+		Marking as insignificant: 3233471 3234428 | 19248 20204 | 958 957 | 97.81 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c73
+		One align captures most of this contig: 1088732 1108935 | 1 20204 | 20204 20204 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c73
+
+CONTIG: mira_c70 (2469bp)
+Top Length: 2469  Top ID: 100.0
+		One align captures most of this contig: 4043579 4046047 | 2469 1 | 2469 2469 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c70
+
+CONTIG: mira_c71 (5589bp)
+Top Length: 5589  Top ID: 100.0
+		Marking as insignificant: 150198 150312 | 5488 5374 | 115 115 | 97.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c71
+		Marking as insignificant: 609653 609768 | 5484 5369 | 116 116 | 97.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c71
+		Marking as insignificant: 318424 318644 | 5589 5369 | 221 221 | 98.64 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c71
+		Marking as insignificant: 305216 305436 | 5589 5369 | 221 221 | 98.64 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c71
+		Marking as insignificant: 284164 284382 | 5589 5371 | 219 219 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c71
+		Marking as insignificant: 86991 87211 | 5589 5369 | 221 221 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c71
+		Marking as insignificant: 14100 14320 | 5589 5369 | 221 221 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c71
+		Marking as insignificant: 33874 34134 | 5589 5332 | 261 258 | 95.8 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c71
+		Marking as insignificant: 327525 327846 | 5589 5268 | 322 322 | 97.2 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c71
+		One align captures most of this contig: 335343 340931 | 5589 1 | 5589 5589 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c71
+
+CONTIG: mira_rep_c138 (745bp)
+Top Length: 745  Top ID: 98.26
+		This contig has 12 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 282152 282896 | 1 745 | 745 745 | 98.26 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c138
+		Skipping alignment  303204 303948 | 1 745 | 745 745 | 98.26 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c138
+		Skipping alignment  12089 12832 | 1 745 | 744 745 | 98.12 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c138
+		Skipping alignment  31863 32606 | 1 745 | 744 745 | 98.12 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c138
+		Skipping alignment  607485 608228 | 1 745 | 744 745 | 98.12 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c138
+		Skipping alignment  4652425 4653169 | 745 1 | 745 745 | 98.12 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c138
+		Skipping alignment  84979 85723 | 1 745 | 745 745 | 97.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c138
+		Skipping alignment  148049 148792 | 1 745 | 744 745 | 97.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c138
+		Skipping alignment  316413 317156 | 1 745 | 744 745 | 97.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c138
+		Skipping alignment  325514 326257 | 1 745 | 744 745 | 97.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c138
+		Skipping alignment  333332 334075 | 1 745 | 744 745 | 97.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c138
+		Skipping alignment  820692 821435 | 1 745 | 744 745 | 97.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c138
+
+CONTIG: mira_c78 (22654bp)
+Top Length: 22654  Top ID: 100.0
+		One align captures most of this contig: 14127 36780 | 22654 1 | 22654 22654 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c78
+
+CONTIG: mira_c79 (4003bp)
+Top Length: 4003  Top ID: 100.0
+		Marking as insignificant: 29012 29318 | 3698 4003 | 307 306 | 99.35 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 9239 9544 | 3698 4003 | 306 306 | 99.35 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 279525 279835 | 3693 4003 | 311 311 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 82329 82662 | 3671 4003 | 334 333 | 98.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 817999 818374 | 3629 4003 | 376 375 | 96.28 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 145344 145730 | 3618 4003 | 387 386 | 98.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 4655486 4655884 | 4003 3609 | 399 395 | 97.24 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 604751 605167 | 3588 4003 | 417 416 | 95.69 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 313661 314096 | 3568 4003 | 436 436 | 98.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 322759 323195 | 3567 4003 | 437 437 | 98.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 300434 300885 | 3552 4003 | 452 452 | 96.46 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 283650 284382 | 1 733 | 733 733 | 99.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 86477 87211 | 1 735 | 735 735 | 99.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 317910 318644 | 1 735 | 735 735 | 99.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 304702 305436 | 1 735 | 735 735 | 99.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 13586 14320 | 1 735 | 735 735 | 99.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 33360 34134 | 1 772 | 775 772 | 98.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		Marking as insignificant: 334829 335664 | 1 836 | 836 836 | 98.92 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+		One align captures most of this contig: 327011 331013 | 1 4003 | 4003 4003 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c79
+
+CONTIG: mira_c69 (58582bp)
+Top Length: 58582  Top ID: 99.98
+		Marking as insignificant: 1987841 1987923 | 41917 41835 | 83 83 | 97.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c69
+		One align captures most of this contig: 1888618 1947198 | 58582 1 | 58581 58582 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c69
+
+CONTIG: mira_c68 (14108bp)
+Top Length: 14108  Top ID: 99.98
+		One align captures most of this contig: 2707029 2721136 | 14108 1 | 14108 14108 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c68
+
+CONTIG: mira_c61 (26382bp)
+Top Length: 26382  Top ID: 99.95
+		One align captures most of this contig: 2680648 2707026 | 26382 1 | 26379 26382 | 99.95 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c61
+
+CONTIG: mira_c60 (38025bp)
+Top Length: 38025  Top ID: 99.96
+		One align captures most of this contig: 2322497 2360521 | 1 38025 | 38025 38025 | 99.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c60
+
+CONTIG: mira_c63 (19196bp)
+Top Length: 19196  Top ID: 99.96
+		One align captures most of this contig: 2650792 2669985 | 1 19196 | 19194 19196 | 99.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c63
+
+CONTIG: mira_c62 (41683bp)
+Top Length: 41683  Top ID: 99.97
+		One align captures most of this contig: 2388486 2430168 | 1 41683 | 41683 41683 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c62
+
+CONTIG: mira_c65 (16342bp)
+Top Length: 16073  Top ID: 99.98
+		Skipping redundant alignment 335299 335561 | 1 263 | 263 263 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 14056 14318 | 1 263 | 263 263 | 99.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 33830 34092 | 1 263 | 263 263 | 99.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 86947 87209 | 1 263 | 263 263 | 99.24 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 327481 327743 | 1 263 | 263 263 | 99.24 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 305172 305434 | 1 263 | 263 263 | 98.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 318380 318642 | 1 263 | 263 263 | 98.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 4649598 4649775 | 443 264 | 178 180 | 95.03 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 824140 824309 | 264 434 | 170 171 | 99.42 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 610134 610304 | 270 441 | 171 172 | 98.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 278778 278862 | 352 436 | 85 85 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 5203783 5203864 | 435 355 | 82 81 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 322730 323302 | 15770 16342 | 573 573 | 96.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 313643 314203 | 15782 16342 | 561 561 | 96.79 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 330562 331120 | 15784 16342 | 559 559 | 97.14 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 604751 605274 | 15820 16342 | 524 523 | 96.76 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 4655379 4655884 | 16342 15841 | 506 502 | 98.02 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 145344 145837 | 15850 16342 | 494 493 | 98.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 817999 818481 | 15861 16342 | 483 482 | 96.69 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 82308 82769 | 15881 16342 | 462 462 | 97.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 279525 279942 | 15925 16342 | 418 418 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 9239 9651 | 15930 16342 | 413 413 | 99.52 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Skipping redundant alignment 29012 29425 | 15930 16342 | 414 413 | 99.52 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		This contig is misassembled. 25 total aligns.
+			Real Alignment 1: 284120 284921 | 1 802 | 802 802 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+			  Gap between these two alignments (local misassembly). Inconsistency = 530
+			Real Alignment 2: 284919 300992 | 270 16342 | 16074 16073 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+
+CONTIG: mira_c64 (75037bp)
+Top Length: 75037  Top ID: 99.95
+		Marking as insignificant: 5140980 5141216 | 74801 75037 | 237 237 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c64
+		One align captures most of this contig: 2565620 2640651 | 75037 1 | 75032 75037 | 99.95 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c64
+
+CONTIG: mira_c67 (24210bp)
+Top Length: 24210  Top ID: 99.97
+		Marking as insignificant: 4189491 4189599 | 11045 10937 | 109 109 | 97.25 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c67
+		One align captures most of this contig: 2430282 2454490 | 24210 1 | 24209 24210 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c67
+
+CONTIG: mira_c66 (52231bp)
+Top Length: 52231  Top ID: 99.99
+		One align captures most of this contig: 4258805 4311035 | 52231 1 | 52231 52231 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c66
+
+CONTIG: mira_rep_c140 (558bp)
+Top Length: 558  Top ID: 100.0
+		Marking as insignificant: 30945 31184 | 321 558 | 240 238 | 99.17 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c140
+		Marking as insignificant: 11171 11410 | 321 558 | 240 238 | 99.17 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c140
+		Marking as insignificant: 30399 30702 | 1 303 | 304 303 | 99.01 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c140
+		Marking as insignificant: 10625 10928 | 1 303 | 304 303 | 99.01 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c140
+		Marking as insignificant: 324276 324835 | 1 558 | 560 558 | 98.75 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c140
+		Marking as insignificant: 301966 302525 | 1 558 | 560 558 | 98.75 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c140
+		This contig has 8 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 315177 315734 | 1 558 | 558 558 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c140
+		Skipping alignment  83743 84300 | 1 558 | 558 558 | 99.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c140
+		Skipping alignment  280916 281473 | 1 558 | 558 558 | 99.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c140
+		Skipping alignment  4653848 4654405 | 558 1 | 558 558 | 99.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c140
+		Skipping alignment  819455 820013 | 1 558 | 559 558 | 99.64 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c140
+		Skipping alignment  332094 332653 | 1 558 | 560 558 | 99.46 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c140
+		Skipping alignment  606248 606806 | 1 558 | 559 558 | 99.46 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c140
+		Skipping alignment  146811 147370 | 1 558 | 560 558 | 99.29 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c140
+
+CONTIG: mira_rep_c145 (551bp)
+		This contig is unaligned. (551 bp)
+		Unaligned bases: 551  total: 551
+
+CONTIG: mira_rep_c147 (529bp)
+		This contig is unaligned. (529 bp)
+		Unaligned bases: 529  total: 1080
+
+CONTIG: mira_rep_c146 (784bp)
+		This contig is unaligned. (784 bp)
+		Unaligned bases: 784  total: 1864
+
+CONTIG: mira_c150 (577bp)
+Top Length: 387  Top ID: 98.19
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 188929 189312 | 47 433 | 384 387 | 98.19 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c150
+			  Overlap between these two alignments (local misassembly). Inconsistency = -189
+			Real Alignment 2: 188932 189264 | 242 577 | 333 336 | 97.92 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c150
+
+CONTIG: mira_c18 (56849bp)
+Top Length: 56849  Top ID: 100.0
+		One align captures most of this contig: 701647 758495 | 1 56849 | 56849 56849 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c18
+
+CONTIG: mira_c19 (171358bp)
+Top Length: 171358  Top ID: 99.99
+		One align captures most of this contig: 1717327 1888680 | 171358 1 | 171354 171358 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c19
+
+CONTIG: mira_c14 (11874bp)
+Top Length: 11874  Top ID: 100.0
+		One align captures most of this contig: 3670190 3682063 | 1 11874 | 11874 11874 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c14
+
+CONTIG: mira_c15 (126165bp)
+Top Length: 102705  Top ID: 99.99
+		Skipping redundant alignment 1107979 1109261 | 1284 1 | 1283 1284 | 98.36 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c15
+		Skipping redundant alignment 2993724 2995006 | 1284 1 | 1283 1284 | 96.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c15
+		Skipping redundant alignment 1134696 1135405 | 125456 126165 | 710 710 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c15
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 3132049 3234754 | 102705 1 | 102706 102705 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c15
+			  Extensive misassembly ( translocation ) between these two alignments
+			Real Alignment 2: 51321 77173 | 126165 100313 | 25853 25853 | 99.97 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c15
+
+CONTIG: mira_c16 (92252bp)
+Top Length: 82130  Top ID: 99.99
+		Skipping redundant alignment 2564200 2564681 | 482 1 | 482 482 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 278781 278861 | 61710 61629 | 81 82 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 284474 284554 | 61710 61629 | 81 82 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 285006 285086 | 61710 61629 | 81 82 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 824721 824794 | 61803 61730 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 4648917 4648990 | 61730 61803 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 64526 64598 | 61802 61730 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 150500 150572 | 61803 61731 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 278580 278652 | 61803 61731 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 609960 610032 | 61803 61731 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 279025 279108 | 61891 61806 | 84 86 | 96.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 823238 823318 | 61891 61811 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 150903 150982 | 61891 61812 | 80 80 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 4649344 4649424 | 61813 61893 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 82275 83240 | 91291 92252 | 966 962 | 97.42 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 28974 29896 | 91331 92252 | 923 922 | 99.46 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 145425 146308 | 91369 92252 | 884 884 | 99.66 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 279530 280413 | 91369 92252 | 884 884 | 99.66 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 300580 301463 | 91369 92252 | 884 884 | 99.66 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 322890 323773 | 91369 92252 | 884 884 | 99.66 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 330708 331591 | 91369 92252 | 884 884 | 99.66 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 818069 818952 | 91369 92252 | 884 884 | 99.66 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 313791 314674 | 91369 92252 | 884 884 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 604862 605745 | 91369 92252 | 884 884 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		Skipping redundant alignment 4654908 4655792 | 92252 91369 | 885 884 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+		This contig is misassembled. 27 total aligns.
+			Real Alignment 2: 5142155 5224283 | 1 82130 | 82129 82130 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 1: 1 10122 | 82131 92252 | 10122 10122 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c16
+
+CONTIG: mira_c17 (51519bp)
+Top Length: 51519  Top ID: 99.99
+		One align captures most of this contig: 4196692 4248210 | 51519 1 | 51519 51519 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c17
+
+CONTIG: mira_c10 (168916bp)
+Top Length: 168916  Top ID: 99.99
+		One align captures most of this contig: 3501295 3670211 | 1 168916 | 168917 168916 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c10
+
+CONTIG: mira_c11 (63293bp)
+Top Length: 63293  Top ID: 99.99
+		Marking as insignificant: 2443446 2443554 | 7223 7115 | 109 109 | 97.25 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c11
+		Marking as insignificant: 958767 960170 | 6460 5057 | 1404 1404 | 97.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c11
+		One align captures most of this contig: 4133422 4196713 | 63293 1 | 63292 63293 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c11
+
+CONTIG: mira_c12 (189193bp)
+Top Length: 189193  Top ID: 99.99
+		Marking as insignificant: 231738 231816 | 133378 133300 | 79 79 | 97.47 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c12
+		Marking as insignificant: 1471784 1471863 | 133378 133299 | 80 80 | 97.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c12
+		One align captures most of this contig: 4761978 4951169 | 189193 1 | 189192 189193 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c12
+
+CONTIG: mira_c13 (311769bp)
+Top Length: 311769  Top ID: 99.99
+		Marking as insignificant: 3131810 3131949 | 187854 187993 | 140 140 | 95.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c13
+		Marking as insignificant: 2815226 2815384 | 65815 65657 | 159 159 | 95.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c13
+		Marking as insignificant: 4109969 4110124 | 65813 65657 | 156 157 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c13
+		Marking as insignificant: 3288509 3288664 | 65813 65657 | 156 157 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c13
+		Marking as insignificant: 2783320 2783476 | 65813 65657 | 157 157 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c13
+		Marking as insignificant: 2819956 2820114 | 65814 65656 | 159 159 | 96.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c13
+		Marking as insignificant: 1662972 1663134 | 65657 65820 | 163 164 | 97.56 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c13
+		One align captures most of this contig: 2010737 2322497 | 1 311769 | 311761 311769 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c13
+
+CONTIG: mira_rep_c156 (538bp)
+Top Length: 538  Top ID: 99.44
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1368598 1369135 | 1 538 | 538 538 | 99.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c156
+		Skipping alignment  2733709 2734244 | 1 536 | 536 536 | 99.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c156
+
+CONTIG: mira_c94 (708bp)
+Top Length: 708  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 3132971 3133678 | 1 708 | 708 708 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c94
+		Skipping alignment  75703 76410 | 1 708 | 708 708 | 99.86 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence mira_c94
+
+CONTIG: mira_c90 (550bp)
+Top Length: 550  Top ID: 100.0
+		One align captures most of this contig: 4759497 4760046 | 1 550 | 550 550 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c90
+
+CONTIG: mira_c91 (2901bp)
+Top Length: 460  Top ID: 98.26
+		Skipping redundant alignment 313635 314090 | 457 1 | 456 457 | 96.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 330577 331007 | 431 1 | 431 431 | 98.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 4655492 4655884 | 1 389 | 393 389 | 97.46 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 604771 605161 | 389 1 | 391 389 | 97.19 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 145344 145724 | 380 1 | 381 380 | 98.69 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 817999 818368 | 369 1 | 370 369 | 96.22 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 82329 82656 | 327 1 | 328 327 | 98.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 279525 279829 | 305 1 | 305 305 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 29012 29312 | 300 1 | 301 300 | 99.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 9239 9538 | 300 1 | 300 300 | 99.33 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 86946 87242 | 2901 2603 | 297 299 | 97.32 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 14055 14322 | 2901 2634 | 268 268 | 99.25 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 33829 34096 | 2901 2634 | 268 268 | 99.25 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 327480 327745 | 2901 2636 | 266 266 | 99.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 335298 335563 | 2901 2636 | 266 266 | 98.87 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignment 284119 284382 | 2901 2638 | 264 264 | 98.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [300416][300879] redundant alignment 300416 300879 | 464 1 | 464 464 | 96.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Skipping [305171][305471] redundant alignment 305171 305471 | 2901 2601 | 301 301 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		This contig is misassembled. 20 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 2901 and total length of all aligns is 762
+		Alignment: 318379 318680 | 2901 2600 | 302 302 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Alignment: 322730 323189 | 460 1 | 460 460 | 98.26 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c91
+		Unaligned bases: 2139
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: mira_c93 (1698bp)
+Top Length: 1698  Top ID: 100.0
+		One align captures most of this contig: 4046029 4047726 | 1 1698 | 1698 1698 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c93
+
+CONTIG: mira_rep_c136 (751bp)
+Top Length: 110  Top ID: 98.18
+		This contig is partially unaligned. (110 out of 751)
+		Alignment: 4310681 4310790 | 751 642 | 110 110 | 98.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c136
+		Unaligned bases: 1 to 641 (641)
+
+CONTIG: mira_rep_c137 (503bp)
+Top Length: 503  Top ID: 99.2
+		One align captures most of this contig: 4496198 4496700 | 1 503 | 503 503 | 99.2 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c137
+
+CONTIG: mira_c160 (788bp)
+Top Length: 788  Top ID: 99.75
+		One align captures most of this contig: 2218894 2219681 | 1 788 | 788 788 | 99.75 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c160
+
+CONTIG: mira_rep_c131 (639bp)
+Top Length: 639  Top ID: 100.0
+		One align captures most of this contig: 4342258 4342896 | 1 639 | 639 639 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_rep_c131
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1808/dataset_1890_files/Combined_dataset/contigs_reports/nucmer_output/BC-M-Mira-Contig.used_snps
+	Reference gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome: 134 total alignments. 1 total regions.
+		Region: 1 to 5224283 (5224283 bp)
+			Align 1: 1 10122 mira_c16 82131 92252
+				Gap between this and next alignment: 10122 to 10592 (469 bp)
+				Next Alignment: 10592 11421 mira_rep_c99 1 830
+
+			Align 2: 10592 11421 mira_rep_c99 1 830
+				Gap between this and next alignment: 11421 to 14053 (2631 bp)
+				Next Alignment: 14053 29515 mira_c49 1 15463
+
+			Align 3: 14053 29515 mira_c49 1 15463
+				Gap between this and next alignment: 29515 to 33829 (4313 bp)
+				Next Alignment: 33829 80200 mira_c39 46372 1
+
+			Align 4: 33829 80200 mira_c39 46372 1
+				Negative gap (overlap) between this and next alignment: 80200 to 80183 (-17 bp)
+				Next Alignment: 80183 82683 mira_c89 2501 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2501 to 2483.
+			Align 5: 80201 82683 mira_c89 2483 1
+				Gap between this and next alignment: 82683 to 83405 (721 bp)
+				Next Alignment: 83405 84313 mira_rep_c97 910 1
+
+			Align 6: 83405 84313 mira_rep_c97 910 1
+				Gap between this and next alignment: 84313 to 86452 (2138 bp)
+				Next Alignment: 86452 124342 mira_c36 1 37891
+
+			Align 7: 86452 124342 mira_c36 1 37891
+				The next alignment (112727 113337 mira_rep_c135 1 611) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 124342 to 123696 (-646 bp)
+				Next Alignment: 123696 124646 mira_rep_c114 951 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 951 to 304.
+			Align 9: 124343 124646 mira_rep_c114 304 1
+				Negative gap (overlap) between this and next alignment: 124646 to 123734 (-912 bp)
+				Next Alignment: 123734 145903 mira_c2 22170 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 22170 to 21257.
+			Align 10: 124647 145903 mira_c2 21257 1
+				The next alignment (124789 125524 mira_rep_c161 1 736) is redundant. Skipping.
+				Gap between this and next alignment: 145903 to 146772 (868 bp)
+				Next Alignment: 146772 147939 mira_rep_c98 1167 1
+
+			Align 12: 146772 147939 mira_rep_c98 1167 1
+				Gap between this and next alignment: 147939 to 149734 (1794 bp)
+				Next Alignment: 149734 228854 mira_c5 1 79121
+
+			Align 13: 149734 228854 mira_c5 1 79121
+				Negative gap (overlap) between this and next alignment: 228854 to 228840 (-14 bp)
+				Next Alignment: 228840 279894 mira_c74 51055 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 51055 to 51040.
+			Align 14: 228855 279894 mira_c74 51040 1
+				Gap between this and next alignment: 279894 to 280865 (970 bp)
+				Next Alignment: 280865 281533 mira_rep_c106 1 669
+
+			Align 15: 280865 281533 mira_rep_c106 1 669
+				Gap between this and next alignment: 281533 to 282152 (618 bp)
+				Next Alignment: 282152 282896 mira_rep_c138 1 745
+
+			Align 16: 282152 282896 mira_rep_c138 1 745
+				Gap between this and next alignment: 282896 to 284120 (1223 bp)
+				Next Alignment: 284120 284921 mira_c65 1 802
+
+			Align 17: 284120 284921 mira_c65 1 802
+				Negative gap (overlap) between this and next alignment: 284921 to 284919 (-2 bp)
+				Next Alignment: 284919 300992 mira_c65 270 16342
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 270 to 273.
+			Align 18: 284922 300992 mira_c65 273 16342
+				Gap between this and next alignment: 300992 to 305220 (4227 bp)
+				Next Alignment: 305220 314393 mira_c42 9174 1
+
+			Align 19: 305220 314393 mira_c42 9174 1
+				Gap between this and next alignment: 314393 to 315177 (783 bp)
+				Next Alignment: 315177 315734 mira_rep_c140 1 558
+
+			Align 20: 315177 315734 mira_rep_c140 1 558
+				Gap between this and next alignment: 315734 to 318380 (2645 bp)
+				Next Alignment: 318380 323272 mira_c26 1 4893
+
+			Align 21: 318380 323272 mira_c26 1 4893
+				Gap between this and next alignment: 323272 to 327011 (3738 bp)
+				Next Alignment: 327011 331013 mira_c79 1 4003
+
+			Align 22: 327011 331013 mira_c79 1 4003
+				Negative gap (overlap) between this and next alignment: 331013 to 330528 (-485 bp)
+				Next Alignment: 330528 335749 mira_rep_c96 1 5224
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 487.
+			Align 23: 331014 335749 mira_rep_c96 487 5224
+				Negative gap (overlap) between this and next alignment: 335749 to 335343 (-406 bp)
+				Next Alignment: 335343 340931 mira_c71 5589 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5589 to 5182.
+			Align 24: 335750 340931 mira_c71 5182 1
+				The next alignment (338551 339370 mira_rep_c124 1 820) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 340931 to 340912 (-19 bp)
+				Next Alignment: 340912 582035 mira_c7 1 241126
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 21.
+			Align 26: 340932 582035 mira_c7 21 241126
+				Negative gap (overlap) between this and next alignment: 582035 to 582031 (-4 bp)
+				Next Alignment: 582031 605462 mira_c58 1 23432
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 6.
+			Align 27: 582036 605462 mira_c58 6 23432
+				Gap between this and next alignment: 605462 to 609191 (3728 bp)
+				Next Alignment: 609191 701745 mira_c27 92556 1
+
+			Align 28: 609191 701745 mira_c27 92556 1
+				Negative gap (overlap) between this and next alignment: 701745 to 701647 (-98 bp)
+				Next Alignment: 701647 758495 mira_c18 1 56849
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 100.
+			Align 29: 701746 758495 mira_c18 100 56849
+				Negative gap (overlap) between this and next alignment: 758495 to 758474 (-21 bp)
+				Next Alignment: 758474 783070 mira_c57 24597 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 24597 to 24575.
+			Align 30: 758496 783070 mira_c57 24575 1
+				Negative gap (overlap) between this and next alignment: 783070 to 783048 (-22 bp)
+				Next Alignment: 783048 818588 mira_c38 1 35541
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 24.
+			Align 31: 783071 818588 mira_c38 24 35541
+				The next alignment (818064 818368 mira_rep_c100 1228 1533) is redundant. Skipping.
+				Gap between this and next alignment: 818588 to 822246 (3657 bp)
+				Next Alignment: 822246 854189 mira_c8 31944 1
+
+			Align 33: 822246 854189 mira_c8 31944 1
+				The next alignment (822549 823056 mira_rep_c100 1 508) is redundant. Skipping.
+				The next alignment (823235 823867 mira_rep_c100 598 1222) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 854189 to 854184 (-5 bp)
+				Next Alignment: 854184 1088750 mira_c24 234565 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 234565 to 234559.
+			Align 36: 854190 1088750 mira_c24 234559 1
+				Negative gap (overlap) between this and next alignment: 1088750 to 1088732 (-18 bp)
+				Next Alignment: 1088732 1108935 mira_c73 1 20204
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 20.
+			Align 37: 1088751 1108935 mira_c73 20 20204
+				Negative gap (overlap) between this and next alignment: 1108935 to 1108388 (-547 bp)
+				Next Alignment: 1108388 1109897 mira_rep_c102 1547 38
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1547 to 999.
+			Align 38: 1108936 1109897 mira_rep_c102 999 38
+				Negative gap (overlap) between this and next alignment: 1109897 to 1109296 (-601 bp)
+				Next Alignment: 1109296 1135259 mira_c52 1 25964
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 603.
+			Align 39: 1109898 1135259 mira_c52 603 25964
+				Negative gap (overlap) between this and next alignment: 1135259 to 1134695 (-564 bp)
+				Next Alignment: 1134695 1135481 mira_c116 1 787
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 566.
+			Align 40: 1135260 1135481 mira_c116 566 787
+				Negative gap (overlap) between this and next alignment: 1135481 to 1134828 (-653 bp)
+				Next Alignment: 1134828 1212419 mira_c28 166980 89389
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 166980 to 166326.
+			Align 41: 1135482 1212419 mira_c28 166326 89389
+				Negative gap (overlap) between this and next alignment: 1212419 to 1208916 (-3503 bp)
+				Next Alignment: 1208916 1276474 mira_c40 8617 76174
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 8617 to 12121.
+			Align 42: 1212420 1276474 mira_c40 12121 76174
+				Negative gap (overlap) between this and next alignment: 1276474 to 1276375 (-99 bp)
+				Next Alignment: 1276375 1288494 mira_c40 1 12120
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 101.
+			Align 43: 1276475 1288494 mira_c40 101 12120
+				Negative gap (overlap) between this and next alignment: 1288494 to 1284991 (-3503 bp)
+				Next Alignment: 1284991 1369943 mira_c28 92892 7939
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 92892 to 89388.
+			Align 44: 1288495 1369943 mira_c28 89388 7939
+				The next alignment (1368598 1369135 mira_rep_c156 1 538) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1369943 to 1368747 (-1196 bp)
+				Next Alignment: 1368747 1388969 mira_c25 20224 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 20224 to 19027.
+			Align 46: 1369944 1388969 mira_c25 19027 1
+				Negative gap (overlap) between this and next alignment: 1388969 to 1388950 (-19 bp)
+				Next Alignment: 1388950 1425680 mira_c48 36731 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 36731 to 36711.
+			Align 47: 1388970 1425680 mira_c48 36711 1
+				Negative gap (overlap) between this and next alignment: 1425680 to 1425659 (-21 bp)
+				Next Alignment: 1425659 1717343 mira_c3 1 291688
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 23.
+			Align 48: 1425681 1717343 mira_c3 23 291688
+				Negative gap (overlap) between this and next alignment: 1717343 to 1717327 (-16 bp)
+				Next Alignment: 1717327 1888680 mira_c19 171358 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 171358 to 171341.
+			Align 49: 1717344 1888680 mira_c19 171341 1
+				Negative gap (overlap) between this and next alignment: 1888680 to 1888618 (-62 bp)
+				Next Alignment: 1888618 1947198 mira_c69 58582 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 58582 to 58519.
+			Align 50: 1888681 1947198 mira_c69 58519 1
+				Negative gap (overlap) between this and next alignment: 1947198 to 1947112 (-86 bp)
+				Next Alignment: 1947112 1975819 mira_c59 1 28708
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 88.
+			Align 51: 1947199 1975819 mira_c59 88 28708
+				Gap between this and next alignment: 1975819 to 1975822 (2 bp)
+				Next Alignment: 1975822 1981519 mira_c23 35401 29704
+
+			Align 52: 1975822 1981519 mira_c23 35401 29704
+				Negative gap (overlap) between this and next alignment: 1981519 to 1981236 (-283 bp)
+				Next Alignment: 1981236 2010873 mira_c23 29640 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 29640 to 29357.
+			Align 53: 1981520 2010873 mira_c23 29357 1
+				Negative gap (overlap) between this and next alignment: 2010873 to 2010737 (-136 bp)
+				Next Alignment: 2010737 2322497 mira_c13 1 311769
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 138.
+			Align 54: 2010874 2322497 mira_c13 138 311769
+				The next alignment (2218894 2219681 mira_c160 1 788) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2322497 to 2322497 (0 bp)
+				Next Alignment: 2322497 2360521 mira_c60 1 38025
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 2.
+			Align 56: 2322498 2360521 mira_c60 2 38025
+				Negative gap (overlap) between this and next alignment: 2360521 to 2360476 (-45 bp)
+				Next Alignment: 2360476 2367502 mira_c82 1 7026
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 47.
+			Align 57: 2360522 2367502 mira_c82 47 7026
+				Negative gap (overlap) between this and next alignment: 2367502 to 2367354 (-148 bp)
+				Next Alignment: 2367354 2367825 mira_rep_c163 1 472
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 150.
+			Align 58: 2367503 2367825 mira_rep_c163 150 472
+				The next alignment (2367412 2367715 mira_rep_c163 275 578) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2367825 to 2367458 (-367 bp)
+				Next Alignment: 2367458 2388507 mira_c84 1 20939
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 288.
+			Align 60: 2367826 2388507 mira_c84 288 20939
+				Negative gap (overlap) between this and next alignment: 2388507 to 2388486 (-21 bp)
+				Next Alignment: 2388486 2430168 mira_c62 1 41683
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 23.
+			Align 61: 2388508 2430168 mira_c62 23 41683
+				Gap between this and next alignment: 2430168 to 2430282 (113 bp)
+				Next Alignment: 2430282 2454490 mira_c67 24210 1
+
+			Align 62: 2430282 2454490 mira_c67 24210 1
+				Negative gap (overlap) between this and next alignment: 2454490 to 2454476 (-14 bp)
+				Next Alignment: 2454476 2543862 mira_c53 89390 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 89390 to 89375.
+			Align 63: 2454491 2543862 mira_c53 89375 1
+				Negative gap (overlap) between this and next alignment: 2543862 to 2543851 (-11 bp)
+				Next Alignment: 2543851 2564654 mira_c21 20804 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 20804 to 20792.
+			Align 64: 2543863 2564654 mira_c21 20792 1
+				Negative gap (overlap) between this and next alignment: 2564654 to 2564207 (-447 bp)
+				Next Alignment: 2564207 2565573 mira_rep_c104 1 1367
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 449.
+			Align 65: 2564655 2565573 mira_rep_c104 449 1367
+				Gap between this and next alignment: 2565573 to 2565620 (46 bp)
+				Next Alignment: 2565620 2640651 mira_c64 75037 1
+
+			Align 66: 2565620 2640651 mira_c64 75037 1
+				Negative gap (overlap) between this and next alignment: 2640651 to 2640641 (-10 bp)
+				Next Alignment: 2640641 2650797 mira_c75 1 10158
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 12.
+			Align 67: 2640652 2650797 mira_c75 12 10158
+				Negative gap (overlap) between this and next alignment: 2650797 to 2650792 (-5 bp)
+				Next Alignment: 2650792 2669985 mira_c63 1 19196
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 7.
+			Align 68: 2650798 2669985 mira_c63 7 19196
+				Negative gap (overlap) between this and next alignment: 2669985 to 2669971 (-14 bp)
+				Next Alignment: 2669971 2680671 mira_c83 10701 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 10701 to 10686.
+			Align 69: 2669986 2680671 mira_c83 10686 1
+				Negative gap (overlap) between this and next alignment: 2680671 to 2680648 (-23 bp)
+				Next Alignment: 2680648 2707026 mira_c61 26382 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 26382 to 26358.
+			Align 70: 2680672 2707026 mira_c61 26358 1
+				Gap between this and next alignment: 2707026 to 2707029 (2 bp)
+				Next Alignment: 2707029 2721136 mira_c68 14108 1
+
+			Align 71: 2707029 2721136 mira_c68 14108 1
+				Negative gap (overlap) between this and next alignment: 2721136 to 2721122 (-14 bp)
+				Next Alignment: 2721122 2734212 mira_c72 13092 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 13092 to 13077.
+			Align 72: 2721137 2734212 mira_c72 13077 1
+				Negative gap (overlap) between this and next alignment: 2734212 to 2733513 (-699 bp)
+				Next Alignment: 2733513 2742992 mira_c28 9480 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 9480 to 8780.
+			Align 73: 2734213 2742992 mira_c28 8780 1
+				Gap between this and next alignment: 2742992 to 2742994 (1 bp)
+				Next Alignment: 2742994 2944261 mira_c54 201269 1
+
+			Align 74: 2742994 2944261 mira_c54 201269 1
+				Negative gap (overlap) between this and next alignment: 2944261 to 2944017 (-244 bp)
+				Next Alignment: 2944017 2976767 mira_c29 51551 18823
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 51551 to 51306.
+			Align 75: 2944262 2976767 mira_c29 51306 18823
+				The next alignment (2948911 2949618 mira_rep_c115 1 708) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2976767 to 2956666 (-20101 bp)
+				Next Alignment: 2956666 2995589 mira_c29 38903 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 38903 to 18843.
+			Align 77: 2976768 2995589 mira_c29 18843 1
+				Gap between this and next alignment: 2995589 to 2995622 (32 bp)
+				Next Alignment: 2995622 3024535 mira_c55 1 28914
+
+			Align 78: 2995622 3024535 mira_c55 1 28914
+				Negative gap (overlap) between this and next alignment: 3024535 to 3024117 (-418 bp)
+				Next Alignment: 3024117 3030154 mira_c35 6041 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 6041 to 5619.
+			Align 79: 3024536 3030154 mira_c35 5619 1
+				Negative gap (overlap) between this and next alignment: 3030154 to 3030084 (-70 bp)
+				Next Alignment: 3030084 3121293 mira_c35 96387 5175
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 96387 to 96316.
+			Align 80: 3030155 3121293 mira_c35 96316 5175
+				Negative gap (overlap) between this and next alignment: 3121293 to 3120964 (-329 bp)
+				Next Alignment: 3120964 3132665 mira_c87 11703 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 11703 to 11373.
+			Align 81: 3121294 3132665 mira_c87 11373 1
+				Negative gap (overlap) between this and next alignment: 3132665 to 3132049 (-616 bp)
+				Next Alignment: 3132049 3234754 mira_c15 102705 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 102705 to 102088.
+			Align 82: 3132666 3234754 mira_c15 102088 1
+				The next alignment (3132251 3132832 mira_rep_c119 582 1) is redundant. Skipping.
+				The next alignment (3132971 3133678 mira_c94 1 708) is redundant. Skipping.
+				The next alignment (3133421 3133787 mira_rep_c101 1 367) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 3234754 to 3234299 (-455 bp)
+				Next Alignment: 3234299 3276840 mira_c43 42542 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 42542 to 42086.
+			Align 86: 3234755 3276840 mira_c43 42086 1
+				Negative gap (overlap) between this and next alignment: 3276840 to 3276768 (-72 bp)
+				Next Alignment: 3276768 3444785 mira_c30 1 168019
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 74.
+			Align 87: 3276841 3444785 mira_c30 74 168019
+				Negative gap (overlap) between this and next alignment: 3444785 to 3444325 (-460 bp)
+				Next Alignment: 3444325 3501299 mira_c9 56977 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 56977 to 56516.
+			Align 88: 3444786 3501299 mira_c9 56516 1
+				The next alignment (3445576 3446276 mira_rep_c110 1 701) is redundant. Skipping.
+				The next alignment (3446499 3447151 mira_rep_c105 653 1) is redundant. Skipping.
+				The next alignment (3490530 3490736 mira_rep_c122 207 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 3501299 to 3501295 (-4 bp)
+				Next Alignment: 3501295 3670211 mira_c10 1 168916
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 6.
+			Align 92: 3501300 3670211 mira_c10 6 168916
+				Negative gap (overlap) between this and next alignment: 3670211 to 3670190 (-21 bp)
+				Next Alignment: 3670190 3682063 mira_c14 1 11874
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 23.
+			Align 93: 3670212 3682063 mira_c14 23 11874
+				Negative gap (overlap) between this and next alignment: 3682063 to 3682012 (-51 bp)
+				Next Alignment: 3682012 3759929 mira_c31 77918 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 77918 to 77866.
+			Align 94: 3682064 3759929 mira_c31 77866 1
+				Negative gap (overlap) between this and next alignment: 3759929 to 3759922 (-7 bp)
+				Next Alignment: 3759922 3772399 mira_c32 1 12477
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 9.
+			Align 95: 3759930 3772399 mira_c32 9 12477
+				Negative gap (overlap) between this and next alignment: 3772399 to 3772365 (-34 bp)
+				Next Alignment: 3772365 3856061 mira_c6 1 83697
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 36.
+			Align 96: 3772400 3856061 mira_c6 36 83697
+				Negative gap (overlap) between this and next alignment: 3856061 to 3856038 (-23 bp)
+				Next Alignment: 3856038 3881989 mira_c34 1 25952
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 25.
+			Align 97: 3856062 3881989 mira_c34 25 25952
+				Negative gap (overlap) between this and next alignment: 3881989 to 3881980 (-9 bp)
+				Next Alignment: 3881980 3998460 mira_c33 116480 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 116480 to 116470.
+			Align 98: 3881990 3998460 mira_c33 116470 1
+				Negative gap (overlap) between this and next alignment: 3998460 to 3998455 (-5 bp)
+				Next Alignment: 3998455 4043591 mira_c41 1 45138
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 7.
+			Align 99: 3998461 4043591 mira_c41 7 45138
+				Negative gap (overlap) between this and next alignment: 4043591 to 4043579 (-12 bp)
+				Next Alignment: 4043579 4046047 mira_c70 2469 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2469 to 2456.
+			Align 100: 4043592 4046047 mira_c70 2456 1
+				Negative gap (overlap) between this and next alignment: 4046047 to 4046029 (-18 bp)
+				Next Alignment: 4046029 4047726 mira_c93 1 1698
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 20.
+			Align 101: 4046048 4047726 mira_c93 20 1698
+				Negative gap (overlap) between this and next alignment: 4047726 to 4047623 (-103 bp)
+				Next Alignment: 4047623 4048910 mira_c80 1 1288
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 105.
+			Align 102: 4047727 4048910 mira_c80 105 1288
+				Negative gap (overlap) between this and next alignment: 4048910 to 4048897 (-13 bp)
+				Next Alignment: 4048897 4099421 mira_c4 1 50527
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 15.
+			Align 103: 4048911 4099421 mira_c4 15 50527
+				The next alignment (4050119 4050305 mira_rep_c101 359 545) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4099421 to 4099391 (-30 bp)
+				Next Alignment: 4099391 4133459 mira_c45 1 34069
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 32.
+			Align 105: 4099422 4133459 mira_c45 32 34069
+				Negative gap (overlap) between this and next alignment: 4133459 to 4133422 (-37 bp)
+				Next Alignment: 4133422 4196713 mira_c11 63293 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 63293 to 63255.
+			Align 106: 4133460 4196713 mira_c11 63255 1
+				Negative gap (overlap) between this and next alignment: 4196713 to 4196692 (-21 bp)
+				Next Alignment: 4196692 4248210 mira_c17 51519 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 51519 to 51497.
+			Align 107: 4196714 4248210 mira_c17 51497 1
+				Negative gap (overlap) between this and next alignment: 4248210 to 4248156 (-54 bp)
+				Next Alignment: 4248156 4258816 mira_c44 1 10661
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 108: 4248211 4258816 mira_c44 56 10661
+				Negative gap (overlap) between this and next alignment: 4258816 to 4258805 (-11 bp)
+				Next Alignment: 4258805 4311035 mira_c66 52231 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 52231 to 52219.
+			Align 109: 4258817 4311035 mira_c66 52219 1
+				The next alignment (4310681 4310790 mira_rep_c136 751 642) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4311035 to 4310795 (-240 bp)
+				Next Alignment: 4310795 4345769 mira_c47 6 34980
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 6 to 247.
+			Align 111: 4311036 4345769 mira_c47 247 34980
+				The next alignment (4342258 4342896 mira_rep_c131 1 639) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4345769 to 4345729 (-40 bp)
+				Next Alignment: 4345729 4347099 mira_c46 1 1371
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 42.
+			Align 113: 4345770 4347099 mira_c46 42 1371
+				Gap between this and next alignment: 4347099 to 4347868 (768 bp)
+				Next Alignment: 4347868 4387356 mira_c46 1363 40851
+
+			Align 114: 4347868 4387356 mira_c46 1363 40851
+				Negative gap (overlap) between this and next alignment: 4387356 to 4387345 (-11 bp)
+				Next Alignment: 4387345 4411743 mira_c50 24399 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 24399 to 24387.
+			Align 115: 4387357 4411743 mira_c50 24387 1
+				Negative gap (overlap) between this and next alignment: 4411743 to 4411703 (-40 bp)
+				Next Alignment: 4411703 4465008 mira_c22 1 53306
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 42.
+			Align 116: 4411744 4465008 mira_c22 42 53306
+				Negative gap (overlap) between this and next alignment: 4465008 to 4464764 (-244 bp)
+				Next Alignment: 4464764 4465256 mira_rep_c132 530 38
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 530 to 285.
+			Align 117: 4465009 4465256 mira_rep_c132 285 38
+				The next alignment (4464807 4465077 mira_rep_c132 271 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4465256 to 4464807 (-449 bp)
+				Next Alignment: 4464807 4496631 mira_c22 53249 85145
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 53249 to 53771.
+			Align 119: 4465257 4496631 mira_c22 53771 85145
+				Negative gap (overlap) between this and next alignment: 4496631 to 4496198 (-433 bp)
+				Next Alignment: 4496198 4496700 mira_rep_c137 1 503
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 435.
+			Align 120: 4496632 4496700 mira_rep_c137 435 503
+				Negative gap (overlap) between this and next alignment: 4496700 to 4496456 (-244 bp)
+				Next Alignment: 4496456 4511614 mira_c22 84880 100038
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 84880 to 85125.
+			Align 121: 4496701 4511614 mira_c22 85125 100038
+				Negative gap (overlap) between this and next alignment: 4511614 to 4511598 (-16 bp)
+				Next Alignment: 4511598 4548058 mira_c20 139325 102865
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 139325 to 139308.
+			Align 122: 4511615 4548058 mira_c20 139308 102865
+				Negative gap (overlap) between this and next alignment: 4548058 to 4547725 (-333 bp)
+				Next Alignment: 4547725 4548301 mira_rep_c126 653 77
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 653 to 319.
+			Align 123: 4548059 4548301 mira_rep_c126 319 77
+				The next alignment (4547757 4548134 mira_rep_c126 378 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4548301 to 4548000 (-301 bp)
+				Next Alignment: 4548000 4651202 mira_c20 103166 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 103166 to 102864.
+			Align 125: 4548302 4651202 mira_c20 102864 1
+				Gap between this and next alignment: 4651202 to 4652101 (898 bp)
+				Next Alignment: 4652101 4653060 mira_rep_c113 960 1
+
+			Align 126: 4652101 4653060 mira_rep_c113 960 1
+				Gap between this and next alignment: 4653060 to 4655398 (2337 bp)
+				Next Alignment: 4655398 4759516 mira_c37 104119 1
+
+			Align 127: 4655398 4759516 mira_c37 104119 1
+				Negative gap (overlap) between this and next alignment: 4759516 to 4759497 (-19 bp)
+				Next Alignment: 4759497 4760046 mira_c90 1 550
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 21.
+			Align 128: 4759517 4760046 mira_c90 21 550
+				Negative gap (overlap) between this and next alignment: 4760046 to 4760040 (-6 bp)
+				Next Alignment: 4760040 4762085 mira_c76 2046 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2046 to 2039.
+			Align 129: 4760047 4762085 mira_c76 2039 1
+				Negative gap (overlap) between this and next alignment: 4762085 to 4761978 (-107 bp)
+				Next Alignment: 4761978 4951169 mira_c12 189193 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 189193 to 189085.
+			Align 130: 4762086 4951169 mira_c12 189085 1
+				Negative gap (overlap) between this and next alignment: 4951169 to 4951147 (-22 bp)
+				Next Alignment: 4951147 5142024 mira_c1 1 190878
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 24.
+			Align 131: 4951170 5142024 mira_c1 24 190878
+				The next alignment (5017111 5017612 mira_rep_c133 502 1) is redundant. Skipping.
+				The next alignment (5128191 5128846 mira_c128 656 1) is redundant. Skipping.
+				Gap between this and next alignment: 5142024 to 5142155 (130 bp)
+				Next Alignment: 5142155 5224283 mira_c16 1 82130
+
+			Align 134: 5142155 5224283 mira_c16 1 82130
+			END in current alignment.  Modifying 5224283 to 5224283.
+
+	Reference gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence: 17 total alignments. 1 total regions.
+		Region: 1 to 208369 (208369 bp)
+			START in gap: 1 to 4511 (4510 bp)
+			Align 1: 4511 4689 mira_rep_c125 1 179
+				Gap between this and next alignment: 4689 to 4780 (90 bp)
+				Next Alignment: 4780 5333 mira_rep_c125 216 769
+
+			Align 2: 4780 5333 mira_rep_c125 216 769
+				Gap between this and next alignment: 5333 to 5691 (357 bp)
+				Next Alignment: 5691 14166 mira_c88 8476 1
+
+			Align 3: 5691 14166 mira_c88 8476 1
+				Negative gap (overlap) between this and next alignment: 14166 to 14127 (-39 bp)
+				Next Alignment: 14127 36780 mira_c78 22654 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 22654 to 22614.
+			Align 4: 14167 36780 mira_c78 22614 1
+				Negative gap (overlap) between this and next alignment: 36780 to 36760 (-20 bp)
+				Next Alignment: 36760 50800 mira_c51 14041 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 14041 to 14020.
+			Align 5: 36781 50800 mira_c51 14020 1
+				Gap between this and next alignment: 50800 to 51321 (520 bp)
+				Next Alignment: 51321 77173 mira_c15 126165 100313
+
+			Align 6: 51321 77173 mira_c15 126165 100313
+				Negative gap (overlap) between this and next alignment: 77173 to 76653 (-520 bp)
+				Next Alignment: 76653 77256 mira_rep_c103 604 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 604 to 83.
+			Align 7: 77174 77256 mira_rep_c103 83 1
+				Negative gap (overlap) between this and next alignment: 77256 to 76723 (-533 bp)
+				Next Alignment: 76723 89226 mira_c81 12504 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 12504 to 11970.
+			Align 8: 77257 89226 mira_c81 11970 1
+				Negative gap (overlap) between this and next alignment: 89226 to 89204 (-22 bp)
+				Next Alignment: 89204 99668 mira_c85 1 10465
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 24.
+			Align 9: 89227 99668 mira_c85 24 10465
+				Negative gap (overlap) between this and next alignment: 99668 to 99654 (-14 bp)
+				Next Alignment: 99654 109634 mira_c86 1 9981
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 16.
+			Align 10: 99669 109634 mira_c86 16 9981
+				Gap between this and next alignment: 109634 to 111200 (1565 bp)
+				Next Alignment: 111200 112067 mira_rep_c117 1 868
+
+			Align 11: 111200 112067 mira_rep_c117 1 868
+				Negative gap (overlap) between this and next alignment: 112067 to 111436 (-631 bp)
+				Next Alignment: 111436 119403 mira_c77 1 7969
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 633.
+			Align 12: 112068 119403 mira_c77 633 7969
+				Negative gap (overlap) between this and next alignment: 119403 to 119387 (-16 bp)
+				Next Alignment: 119387 189122 mira_c56 74370 4635
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 74370 to 74353.
+			Align 13: 119404 189122 mira_c56 74353 4635
+				Negative gap (overlap) between this and next alignment: 189122 to 188929 (-193 bp)
+				Next Alignment: 188929 189312 mira_c150 47 433
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 47 to 243.
+			Align 14: 189123 189312 mira_c150 243 433
+				The next alignment (188932 189264 mira_c150 242 577) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 189312 to 189123 (-189 bp)
+				Next Alignment: 189123 193946 mira_c56 4826 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4826 to 4634.
+			Align 16: 189313 193946 mira_c56 4634 1
+				Negative gap (overlap) between this and next alignment: 193946 to 193941 (-5 bp)
+				Next Alignment: 193941 208369 mira_c29 64895 50467
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 64895 to 64889.
+			Align 17: 193947 208369 mira_c29 64889 50467
+			END in current alignment.  Modifying 208369 to 208369.
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1808/dataset_1890_files/Combined_dataset/contigs_reports/nucmer_output/BC-M-Mira-Contig.used_snps
+
+Results:
+	Local Misassemblies: 14
+	Misassemblies: 8
+		Relocations: 6
+		Translocations: 2
+		Inversions: 0
+	Misassembled Contigs: 7
+	Misassembled Contig Bases: 532679
+	Misassmblies Inter-Contig Overlap: 34186
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 3 + 4 part
+Partially Unaligned Contigs with Misassemblies: 1
+Unaligned Contig Bases: 5369
+
+Ambiguously Mapped Contigs: 16
+Total Bases in Ambiguously Mapped Contigs: 19124
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 5386758
+
+	SNPs: 261
+	Insertions: 83
+	Deletions: 152
+
+	Positive Gaps: 31
+		Internal Gaps:  2
+		External Gaps:  29
+		External Gap Total:  45036
+		External Gap Average: 1553
+	Negative Gaps: 95
+		Internal Overlaps:  5
+		External Overlaps:  90
+		External Overlaps Total: -23126
+		External Overlaps Average: -257
+	Contigs with Redundant Alignments: 18 (12245)

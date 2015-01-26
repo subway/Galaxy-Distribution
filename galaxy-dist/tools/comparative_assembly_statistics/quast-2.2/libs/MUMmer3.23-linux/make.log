@@ -1,0 +1,19 @@
+make: Entering directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux'
+mkdir -p /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux/aux_bin    
+cd /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux/src/kurtz; make mummer
+make[1]: Entering directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux/src/kurtz'
+cd libbasedir; make libbase.a
+make[2]: Entering directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux/src/kurtz/libbasedir'
+make[2]: `libbase.a' is up to date.
+make[2]: Leaving directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux/src/kurtz/libbasedir'
+cd streesrc; make libstree.a
+make[2]: Entering directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux/src/kurtz/streesrc'
+make[2]: `libstree.a' is up to date.
+make[2]: Leaving directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux/src/kurtz/streesrc'
+cd mm3src; make mummer
+make[2]: Entering directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux/src/kurtz/mm3src'
+/software/VERSIONS/gcc-4.7.2/bin/gcc -static maxmat3.o maxmatopt.o maxmatinp.o findmumcand.o findmaxmat.o procmaxmat.o ../streesrc/libstree.a ../libbasedir/libbase.a \
+	-o /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux/mummer; chmod 755 /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux/mummer
+make[2]: Leaving directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux/src/kurtz/mm3src'
+make[1]: Leaving directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux/src/kurtz'
+make: Leaving directory `/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/libs/MUMmer3.23-linux'

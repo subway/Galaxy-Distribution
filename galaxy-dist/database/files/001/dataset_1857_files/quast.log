@@ -1,0 +1,54 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1775/dataset_1857_files/ -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1775/dataset_1857_files/.fna -l cabog --scaffolds /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_586.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-05-04 18:29:49
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1775/dataset_1857_files/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1775/dataset_1857_files/.fna ==> .fna
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_586.dat ==> cabog
+  breaking scaffolds into contigs:
+      257035 scaffolds (cabog) were broken into 113 contigs (cabog_broken)
+
+2014-05-04 18:29:51
+Running Basic statistics processor...
+  Reference genome:
+    .fna, Reference length = 210423, Reference GC % = 33.69
+  Contig files: 
+    1  cabog broken
+    2  cabog
+  Calculating N50 and L50...
+    1  cabog broken, N50 = 278382, L50 = 6, Total length = 5004541, GC % = 61.60, # N's per 100 kbp =  0.00
+    2  cabog, N50 = 278382, L50 = 6, Total length = 5010956, GC % = 61.60, # N's per 100 kbp =  31.65
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1775/dataset_1857_files/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1775/dataset_1857_files/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1775/dataset_1857_files/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1775/dataset_1857_files/basic_stats/NGx_plot.pdf
+Done.
+
+2014-05-04 18:29:53
+Running Contig analyzer...
+  1  cabog broken
+  2  cabog
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1775/dataset_1857_files/contigs_reports/contigs_report_cabog_broken.stdout and contigs_report_cabog_broken.stderr...
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1775/dataset_1857_files/contigs_reports/contigs_report_cabog.stdout and contigs_report_cabog.stderr...
+  1  Using existing Nucmer alignments... 
+  2  Using existing Nucmer alignments... 

@@ -1,0 +1,996 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence]
+	Loaded [gi|169786809|ref|NC_010394.1|_Mycobacterium_abscessus_plasmid__complete_sequence]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 2
+	Total Region Length: 5090491
+Analyzing contigs...
+CONTIG: pmyco_c51 (30622bp)
+Top Length: 30622  Top ID: 100.0
+		One align captures most of this contig: 836417 867038 | 1 30622 | 30622 30622 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c51
+
+CONTIG: pmyco_c38 (49467bp)
+Top Length: 49467  Top ID: 99.99
+		One align captures most of this contig: 786958 836424 | 1 49467 | 49467 49467 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c38
+
+CONTIG: pmyco_c39 (59219bp)
+Top Length: 59219  Top ID: 99.99
+		Marking as insignificant: 43854 44635 | 58438 59219 | 782 782 | 95.14 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c39
+		One align captures most of this contig: 2253108 2312326 | 59219 1 | 59219 59219 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c39
+
+CONTIG: pmyco_c1756 (504bp)
+Top Length: 248  Top ID: 98.79
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1108220 1108327 | 224 331 | 108 108 | 95.41 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1756
+			  Extensive misassembly ( relocation, inconsistency = 47856 ) between these two alignments
+			Real Alignment 2: 1156356 1156427 | 504 433 | 72 72 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1756
+			  Extensive misassembly ( relocation, inconsistency = 2396533 ) between these two alignments
+			Real Alignment 3: 3553145 3553392 | 248 1 | 248 248 | 98.79 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1756
+			  Extensive misassembly ( relocation, inconsistency = 474166 ) between these two alignments
+			Real Alignment 4: 4027233 4027348 | 326 441 | 116 116 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1756
+
+CONTIG: pmyco_c2298 (535bp)
+Top Length: 189  Top ID: 98.94
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 275051 275127 | 181 257 | 77 77 | 98.7 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c2298
+			  Extensive misassembly ( relocation, inconsistency = 2287632 ) between these two alignments
+			Real Alignment 2: 2562743 2562899 | 241 397 | 157 157 | 98.73 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c2298
+			  Extensive misassembly ( relocation, inconsistency = 1652749 ) between these two alignments
+			Real Alignment 3: 4215440 4215628 | 189 1 | 189 189 | 98.94 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c2298
+			  Extensive misassembly ( relocation, inconsistency = 551415 ) between these two alignments
+			Real Alignment 4: 4766509 4766652 | 535 392 | 144 144 | 98.61 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c2298
+
+CONTIG: pmyco_c14 (117231bp)
+Top Length: 46604  Top ID: 100.0
+		Skipping redundant alignment 2348756 2349208 | 117231 116788 | 453 444 | 95.36 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c14
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1086337 1102750 | 1 16414 | 16414 16414 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c14
+			  Extensive misassembly ( relocation, inconsistency = -54251 ) between these two alignments
+			Real Alignment 2: 1102713 1149316 | 70628 117231 | 46604 46604 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c14
+
+CONTIG: pmyco_c15 (147272bp)
+Top Length: 147272  Top ID: 99.99
+		Marking as insignificant: 4793679 4793815 | 147136 147272 | 137 137 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c15
+		One align captures most of this contig: 4620220 4767491 | 1 147272 | 147272 147272 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c15
+
+CONTIG: pmyco_c16 (198006bp)
+Top Length: 153507  Top ID: 99.99
+		Skipping redundant alignment 4913512 4913715 | 198006 197803 | 204 204 | 95.12 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c16
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 3: 4913665 5067172 | 198006 44500 | 153508 153507 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c16
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 1: 1 28508 | 44499 15992 | 28508 28508 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c16
+			  Gap between these two alignments (local misassembly). Inconsistency = 66
+			Real Alignment 2: 28450 44565 | 16116 1 | 16116 16116 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c16
+
+CONTIG: pmyco_c17 (135088bp)
+Top Length: 135088  Top ID: 99.99
+		One align captures most of this contig: 2462094 2597181 | 135088 1 | 135088 135088 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c17
+
+CONTIG: pmyco_c10 (220968bp)
+Top Length: 220968  Top ID: 99.99
+		One align captures most of this contig: 3364760 3585727 | 220968 1 | 220968 220968 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c10
+
+CONTIG: pmyco_c11 (9272bp)
+Top Length: 9265  Top ID: 100.0
+		One align captures most of this contig: 3172229 3181493 | 9272 8 | 9265 9265 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c11
+
+CONTIG: pmyco_c12 (142711bp)
+Top Length: 142711  Top ID: 99.99
+		Marking as insignificant: 4067821 4068001 | 142531 142711 | 181 181 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c12
+		One align captures most of this contig: 3924361 4067071 | 1 142711 | 142711 142711 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c12
+
+CONTIG: pmyco_c13 (129228bp)
+Top Length: 129228  Top ID: 99.99
+		One align captures most of this contig: 179110 308337 | 1 129228 | 129228 129228 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c13
+
+CONTIG: pmyco_c36 (27138bp)
+Top Length: 27138  Top ID: 100.0
+		One align captures most of this contig: 1056055 1083192 | 1 27138 | 27138 27138 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c36
+
+CONTIG: pmyco_c37 (87263bp)
+Top Length: 80181  Top ID: 99.94
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1305220 1385400 | 1 80181 | 80181 80181 | 99.94 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c37
+			  Gap between these two alignments (local misassembly). Inconsistency = 879
+			Real Alignment 2: 1385495 1393358 | 79397 87263 | 7864 7867 | 99.3 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c37
+
+CONTIG: pmyco_c34 (46849bp)
+Top Length: 46849  Top ID: 99.99
+		One align captures most of this contig: 4260994 4307842 | 46849 1 | 46849 46849 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c34
+
+CONTIG: pmyco_c35 (69388bp)
+Top Length: 69388  Top ID: 99.99
+		One align captures most of this contig: 109871 179259 | 1 69388 | 69389 69388 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c35
+
+CONTIG: pmyco_c18 (112792bp)
+Top Length: 97471  Top ID: 99.99
+		Skipping redundant alignment 559983 560410 | 112365 112792 | 428 428 | 99.77 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c18
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 3252039 3349503 | 112792 15322 | 97465 97471 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c18
+			  Gap between these two alignments (local misassembly). Inconsistency = 6
+			Real Alignment 2: 3329503 3364824 | 35328 1 | 35322 35328 | 99.98 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c18
+
+CONTIG: pmyco_c19 (191099bp)
+Top Length: 191092  Top ID: 99.99
+		One align captures most of this contig: 1579184 1770275 | 8 191099 | 191092 191092 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c19
+
+CONTIG: pmyco_c30 (96750bp)
+Top Length: 96750  Top ID: 99.99
+		One align captures most of this contig: 4523479 4620228 | 96750 1 | 96750 96750 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c30
+
+CONTIG: pmyco_c31 (18962bp)
+Top Length: 18962  Top ID: 99.99
+		Marking as insignificant: 2521585 2521668 | 18962 18879 | 84 84 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c31
+		One align captures most of this contig: 1944727 1963688 | 1 18962 | 18962 18962 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c31
+
+CONTIG: pmyco_c50 (19567bp)
+Top Length: 19567  Top ID: 100.0
+		One align captures most of this contig: 1036668 1056234 | 1 19567 | 19567 19567 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c50
+
+CONTIG: pmyco_rep_c2070 (504bp)
+Top Length: 401  Top ID: 99.75
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 833617 834017 | 409 9 | 401 401 | 99.75 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_rep_c2070
+			  Extensive misassembly ( relocation, inconsistency = 691667 ) between these two alignments
+			Real Alignment 2: 1525189 1525291 | 504 402 | 103 103 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_rep_c2070
+
+CONTIG: pmyco_c53 (7444bp)
+Top Length: 7440  Top ID: 99.4
+		Marking as insignificant: 4796902 4797073 | 6474 6645 | 172 172 | 96.51 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c53
+		Marking as insignificant: 4793679 4794271 | 5 597 | 593 593 | 96.81 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c53
+		One align captures most of this contig: 4767355 4774794 | 5 7444 | 7440 7440 | 99.4 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c53
+
+CONTIG: pmyco_c74 (861bp)
+Top Length: 861  Top ID: 100.0
+		Marking as insignificant: 2252325 2252460 | 861 726 | 136 136 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c74
+		One align captures most of this contig: 44549 45409 | 1 861 | 861 861 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c74
+
+CONTIG: pmyco_rep_c2132 (565bp)
+Top Length: 565  Top ID: 98.94
+		One align captures most of this contig: 2177121 2177685 | 1 565 | 565 565 | 98.94 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_rep_c2132
+
+CONTIG: pmyco_c94 (1000bp)
+Top Length: 1000  Top ID: 100.0
+		Marking as insignificant: 4067969 4068146 | 1000 823 | 178 178 | 99.44 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c94
+		Marking as insignificant: 4066891 4067108 | 218 1 | 218 218 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c94
+		One align captures most of this contig: 4067039 4068038 | 1000 1 | 1000 1000 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c94
+
+CONTIG: pmyco_c32 (127552bp)
+Top Length: 110705  Top ID: 99.99
+		Skipping redundant alignment 2348663 2348858 | 127357 127552 | 196 196 | 96.43 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c32
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1149214 1166059 | 127552 110707 | 16846 16846 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c32
+			  Gap between these two alignments (local misassembly). Inconsistency = 315
+			Real Alignment 2: 1166376 1277080 | 110705 1 | 110705 110705 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c32
+
+CONTIG: pmyco_c2226 (520bp)
+Top Length: 520  Top ID: 99.04
+		One align captures most of this contig: 2397144 2397663 | 1 520 | 520 520 | 99.04 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c2226
+
+CONTIG: pmyco_c2225 (533bp)
+Top Length: 312  Top ID: 98.72
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 70430 70741 | 533 222 | 312 312 | 98.72 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c2225
+			  Extensive misassembly ( relocation, inconsistency = 1375617 ) between these two alignments
+			Real Alignment 2: 1446346 1446480 | 234 100 | 135 135 | 99.26 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c2225
+
+CONTIG: pmyco_c33 (49231bp)
+Top Length: 49231  Top ID: 99.98
+		One align captures most of this contig: 4307675 4356905 | 49231 1 | 49231 49231 | 99.98 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c33
+
+CONTIG: pmyco_c1898 (507bp)
+Top Length: 261  Top ID: 99.23
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 749909 749984 | 250 175 | 76 76 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1898
+			  Extensive misassembly ( relocation, inconsistency = 1910464 ) between these two alignments
+			Real Alignment 2: 2660442 2660586 | 181 37 | 145 145 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1898
+			  Extensive misassembly ( relocation, inconsistency = 2159241 ) between these two alignments
+			Real Alignment 3: 4819357 4819617 | 507 247 | 261 261 | 99.23 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1898
+
+CONTIG: pmyco_c56 (16191bp)
+Top Length: 16191  Top ID: 100.0
+		One align captures most of this contig: 2866911 2883101 | 16191 1 | 16191 16191 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c56
+
+CONTIG: pmyco_c2865 (536bp)
+Top Length: 536  Top ID: 98.51
+		One align captures most of this contig: 4538962 4539498 | 1 536 | 537 536 | 98.51 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c2865
+
+CONTIG: pmyco_c57 (1619bp)
+Top Length: 1619  Top ID: 100.0
+		Marking as insignificant: 669878 670148 | 271 1 | 271 271 | 95.57 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c57
+		One align captures most of this contig: 2251634 2253252 | 1 1619 | 1619 1619 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c57
+
+CONTIG: pmyco_c6 (19917bp)
+Top Length: 19917  Top ID: 99.99
+		One align captures most of this contig: 1016655 1036571 | 1 19917 | 19917 19917 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c6
+
+CONTIG: pmyco_c7 (69340bp)
+Top Length: 69340  Top ID: 99.99
+		One align captures most of this contig: 1874980 1944318 | 69340 1 | 69339 69340 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c7
+
+CONTIG: pmyco_c4 (313312bp)
+Top Length: 313312  Top ID: 99.99
+		One align captures most of this contig: 3611140 3924452 | 313312 1 | 313313 313312 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c4
+
+CONTIG: pmyco_c5 (63463bp)
+Top Length: 63463  Top ID: 99.99
+		Marking as insignificant: 2251297 2251409 | 113 1 | 113 113 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c5
+		Marking as insignificant: 670373 670485 | 1 113 | 113 113 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c5
+		One align captures most of this contig: 46300 109761 | 1 63463 | 63462 63463 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c5
+
+CONTIG: pmyco_c2 (190936bp)
+Top Length: 114110  Top ID: 99.99
+		Skipping redundant alignment 4067013 4067216 | 1 204 | 204 204 | 99.02 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c2
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 4067943 4103635 | 1 35664 | 35693 35664 | 99.9 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c2
+			  Overlap between these two alignments (local misassembly). Inconsistency = -30
+			Real Alignment 2: 4083572 4144799 | 15631 76828 | 61228 61198 | 99.95 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c2
+			  Extensive misassembly ( relocation, inconsistency = 2244 ) between these two alignments
+			Real Alignment 3: 4147042 4261152 | 76827 190936 | 114111 114110 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c2
+
+CONTIG: pmyco_c3 (265848bp)
+Top Length: 129075  Top ID: 99.99
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 308197 427942 | 119752 7 | 119746 119746 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c3
+			  Extensive misassembly ( relocation, inconsistency = 4081261 ) between these two alignments
+			Real Alignment 2: 4389466 4394614 | 119744 124892 | 5149 5149 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c3
+			  Extensive misassembly ( relocation, inconsistency = -11926 ) between these two alignments
+			Real Alignment 3: 4394570 4523643 | 136774 265848 | 129074 129075 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c3
+
+CONTIG: pmyco_c1 (109690bp)
+Top Length: 109690  Top ID: 99.99
+		Marking as insignificant: 3251859 3252005 | 147 1 | 147 147 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1
+		Marking as insignificant: 2251649 2251904 | 109690 109435 | 256 256 | 95.31 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1
+		Marking as insignificant: 45802 46060 | 109432 109690 | 259 259 | 99.23 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1
+		One align captures most of this contig: 560444 670133 | 1 109690 | 109690 109690 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1
+
+CONTIG: pmyco_c4274 (500bp)
+Top Length: 500  Top ID: 98.0
+		One align captures most of this contig: 1985339 1985838 | 500 1 | 500 500 | 98.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c4274
+
+CONTIG: pmyco_c63 (2105bp)
+Top Length: 2105  Top ID: 100.0
+		One align captures most of this contig: 784980 787084 | 1 2105 | 2105 2105 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c63
+
+CONTIG: pmyco_c8 (285718bp)
+Top Length: 148910  Top ID: 99.94
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2882905 3020798 | 1 137941 | 137894 137941 | 99.93 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c8
+			  Extensive misassembly ( relocation, inconsistency = 3617 ) between these two alignments
+			Real Alignment 2: 3023283 3172192 | 136809 285718 | 148910 148910 | 99.94 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c8
+
+CONTIG: pmyco_c9 (120248bp)
+Top Length: 120248  Top ID: 99.99
+		One align captures most of this contig: 866968 987215 | 120248 1 | 120248 120248 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c9
+
+CONTIG: pmyco_c1789 (560bp)
+Top Length: 454  Top ID: 98.68
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 88275 88354 | 481 560 | 80 80 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1789
+			  Extensive misassembly ( relocation, inconsistency = 4417664 ) between these two alignments
+			Real Alignment 2: 4505912 4506365 | 454 1 | 454 454 | 98.68 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1789
+
+CONTIG: pmyco_rep_c1169 (692bp)
+Top Length: 676  Top ID: 96.48
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 755923 756604 | 17 692 | 682 676 | 96.48 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_rep_c1169
+			  Extensive misassembly ( relocation, inconsistency = 1841114 ) between these two alignments
+			Real Alignment 2: 2597027 2597658 | 1 632 | 632 632 | 99.68 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_rep_c1169
+
+CONTIG: pmyco_c1903 (525bp)
+Top Length: 500  Top ID: 99.4
+		This contig is partially unaligned. (500 out of 525)
+		Alignment: 400527 401026 | 26 525 | 500 500 | 99.4 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1903
+		Unaligned bases: 1 to 25 (25)
+
+CONTIG: pmyco_c62 (706bp)
+Top Length: 705  Top ID: 99.86
+		Marking as insignificant: 2251637 2251904 | 706 439 | 268 268 | 95.15 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c62
+		Marking as insignificant: 669875 670145 | 436 706 | 271 271 | 99.63 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c62
+		One align captures most of this contig: 45368 46072 | 2 706 | 705 705 | 99.86 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c62
+
+CONTIG: pmyco_c29 (45084bp)
+Top Length: 19461  Top ID: 99.96
+		Skipping redundant alignment 756286 756544 | 45084 44826 | 259 259 | 99.23 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c29
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 458287 470368 | 1 12082 | 12082 12082 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c29
+			  Extensive misassembly ( relocation, inconsistency = -11901 ) between these two alignments
+			Real Alignment 2: 470367 472491 | 23982 26106 | 2125 2125 | 98.82 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c29
+			  Extensive misassembly ( relocation, inconsistency = 2105931 ) between these two alignments
+			Real Alignment 3: 2597400 2616860 | 45084 25624 | 19461 19461 | 99.96 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c29
+
+CONTIG: pmyco_c28 (2987bp)
+Top Length: 2987  Top ID: 100.0
+		One align captures most of this contig: 455196 458182 | 1 2987 | 2987 2987 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c28
+
+CONTIG: pmyco_c1827 (578bp)
+Top Length: 578  Top ID: 98.62
+		One align captures most of this contig: 3038280 3038857 | 578 1 | 578 578 | 98.62 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c1827
+
+CONTIG: pmyco_c54 (3723bp)
+Top Length: 3723  Top ID: 99.95
+		One align captures most of this contig: 3020389 3024111 | 3723 1 | 3723 3723 | 99.95 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c54
+
+CONTIG: pmyco_c24 (150083bp)
+Top Length: 150083  Top ID: 99.99
+		One align captures most of this contig: 2312163 2462245 | 1 150083 | 150083 150083 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c24
+
+CONTIG: pmyco_c27 (109542bp)
+Top Length: 109542  Top ID: 99.99
+		Marking as insignificant: 46250 46412 | 109542 109380 | 163 163 | 99.39 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c27
+		Marking as insignificant: 670323 670492 | 109542 109373 | 170 170 | 99.41 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c27
+		One align captures most of this contig: 2141918 2251459 | 1 109542 | 109542 109542 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c27
+
+CONTIG: pmyco_c26 (338337bp)
+Top Length: 250606  Top ID: 99.99
+		Skipping redundant alignment 3252227 3252466 | 338337 338098 | 240 240 | 99.58 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c26
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 472009 560222 | 250124 338337 | 88214 88214 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c26
+			  Extensive misassembly ( relocation, inconsistency = 2143887 ) between these two alignments
+			Real Alignment 2: 2616378 2866984 | 250606 1 | 250607 250606 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c26
+
+CONTIG: pmyco_c21 (185671bp)
+Top Length: 117207  Top ID: 99.98
+		Skipping redundant alignment 220385 220600 | 185456 185671 | 216 216 | 97.69 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c21
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1393386 1462113 | 1 68727 | 68728 68727 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c21
+			  Gap between these two alignments (local misassembly). Inconsistency = 127
+			Real Alignment 2: 1461978 1579186 | 68465 185671 | 117209 117207 | 99.98 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c21
+
+CONTIG: pmyco_c20 (169061bp)
+Top Length: 169061  Top ID: 99.99
+		One align captures most of this contig: 1972961 2142021 | 169061 1 | 169061 169061 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c20
+
+CONTIG: pmyco_c23 (115951bp)
+Top Length: 115903  Top ID: 99.99
+		Marking as insignificant: 4913627 4913772 | 146 1 | 146 146 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c23
+		Marking as insignificant: 4774648 4774798 | 115903 115753 | 151 151 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c23
+		One align captures most of this contig: 4797717 4913619 | 115903 1 | 115903 115903 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c23
+
+CONTIG: pmyco_c22 (83647bp)
+Top Length: 74263  Top ID: 99.99
+		Skipping redundant alignment 2251290 2251564 | 83373 83647 | 275 275 | 97.82 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c22
+		Skipping redundant alignment 46145 46412 | 83647 83380 | 268 268 | 97.76 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c22
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 670218 679603 | 83647 74262 | 9386 9386 | 99.94 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c22
+			  Extensive misassembly ( relocation, inconsistency = 2429 ) between these two alignments
+			Real Alignment 2: 682031 756293 | 74263 1 | 74263 74263 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c22
+
+CONTIG: pmyco_c47 (70567bp)
+Top Length: 70567  Top ID: 99.99
+		Marking as insignificant: 560413 560590 | 1 178 | 178 178 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c47
+		One align captures most of this contig: 3181470 3252036 | 70567 1 | 70567 70567 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c47
+
+CONTIG: pmyco_c46 (104848bp)
+Top Length: 104848  Top ID: 99.99
+		One align captures most of this contig: 1770150 1874997 | 1 104848 | 104848 104848 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c46
+
+CONTIG: pmyco_c45 (26564bp)
+Top Length: 26564  Top ID: 99.99
+		Marking as insignificant: 453445 454160 | 25849 26564 | 716 716 | 97.63 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c45
+		One align captures most of this contig: 1278391 1304954 | 26564 1 | 26564 26564 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c45
+
+CONTIG: pmyco_c44 (28771bp)
+Top Length: 28771  Top ID: 100.0
+		Marking as insignificant: 2597474 2597658 | 1 185 | 185 185 | 98.92 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c44
+		One align captures most of this contig: 756360 785130 | 1 28771 | 28771 28771 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c44
+
+CONTIG: pmyco_c43 (8992bp)
+Top Length: 8992  Top ID: 100.0
+		One align captures most of this contig: 1963911 1972902 | 8992 1 | 8992 8992 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c43
+
+CONTIG: pmyco_c42 (19200bp)
+Top Length: 19200  Top ID: 99.99
+		Marking as insignificant: 4767355 4767491 | 19064 19200 | 137 137 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c42
+		Marking as insignificant: 4797685 4797867 | 1 183 | 183 183 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c42
+		One align captures most of this contig: 4774616 4793815 | 1 19200 | 19200 19200 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c42
+
+CONTIG: pmyco_c41 (26245bp)
+Top Length: 26245  Top ID: 99.99
+		Marking as insignificant: 1278463 1279106 | 26245 25602 | 644 644 | 97.83 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c41
+		One align captures most of this contig: 427844 454088 | 1 26245 | 26245 26245 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c41
+
+CONTIG: pmyco_c40 (32247bp)
+Top Length: 32247  Top ID: 100.0
+		One align captures most of this contig: 4357303 4389549 | 32247 1 | 32247 32247 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c40
+
+CONTIG: pmyco_c83 (999bp)
+Top Length: 999  Top ID: 98.6
+		One align captures most of this contig: 454492 455490 | 1 999 | 999 999 | 98.6 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c83
+
+CONTIG: pmyco_c2113 (529bp)
+Top Length: 529  Top ID: 98.11
+		One align captures most of this contig: 1397848 1398376 | 529 1 | 529 529 | 98.11 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c2113
+
+CONTIG: pmyco_c49 (3408bp)
+Top Length: 3407  Top ID: 100.0
+		One align captures most of this contig: 1083118 1086524 | 1 3407 | 3407 3407 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c49
+
+CONTIG: pmyco_c48 (29526bp)
+Top Length: 29526  Top ID: 99.99
+		One align captures most of this contig: 987124 1016649 | 1 29526 | 29526 29526 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c48
+
+CONTIG: pmyco_rep_c1213 (509bp)
+Top Length: 509  Top ID: 98.23
+		One align captures most of this contig: 1963677 1964185 | 509 1 | 509 509 | 98.23 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_rep_c1213
+
+CONTIG: pmyco_c110 (638bp)
+Top Length: 638  Top ID: 100.0
+		One align captures most of this contig: 1944082 1944719 | 1 638 | 638 638 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c110
+
+CONTIG: pmyco_rep_c1165 (774bp)
+Top Length: 774  Top ID: 99.74
+		Marking as insignificant: 1277874 1278638 | 765 1 | 765 765 | 99.61 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_rep_c1165
+		One align captures most of this contig: 453913 454686 | 1 774 | 774 774 | 99.74 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_rep_c1165
+
+CONTIG: pmyco_rep_c1164 (727bp)
+Top Length: 725  Top ID: 98.34
+		Marking as insignificant: 669901 670485 | 725 141 | 585 585 | 98.46 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_rep_c1164
+		Marking as insignificant: 2251297 2251883 | 141 727 | 587 587 | 99.83 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_rep_c1164
+		One align captures most of this contig: 45828 46552 | 725 1 | 725 725 | 98.34 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_rep_c1164
+
+CONTIG: pmyco_c288 (607bp)
+Top Length: 406  Top ID: 98.52
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2083374 2083779 | 202 607 | 406 406 | 98.52 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c288
+			  Extensive misassembly ( relocation, inconsistency = 1749449 ) between these two alignments
+			Real Alignment 2: 3832622 3832832 | 1 211 | 211 211 | 99.53 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c288
+
+CONTIG: pmyco_c135 (650bp)
+Top Length: 650  Top ID: 99.23
+		One align captures most of this contig: 1277363 1278012 | 1 650 | 650 650 | 99.23 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c135
+
+CONTIG: pmyco_c55 (3345bp)
+Top Length: 3345  Top ID: 100.0
+		Marking as insignificant: 4773824 4773995 | 494 323 | 172 172 | 96.51 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c55
+		Marking as insignificant: 4774146 4774317 | 172 1 | 172 172 | 97.09 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c55
+		One align captures most of this contig: 4794051 4797395 | 3345 1 | 3345 3345 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c55
+
+CONTIG: pmyco_c52 (25635bp)
+Top Length: 25635  Top ID: 99.98
+		One align captures most of this contig: 3585608 3611242 | 25635 1 | 25635 25635 | 99.98 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c52
+
+CONTIG: pmyco_c111 (1059bp)
+Top Length: 1059  Top ID: 95.76
+		One align captures most of this contig: 1385173 1386231 | 1 1059 | 1059 1059 | 95.76 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence pmyco_c111
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1817/dataset_1899_files/Contig/contigs_reports/nucmer_output/MA-H-Mira-Contig.used_snps
+	Reference gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence: 111 total alignments. 1 total regions.
+		Region: 1 to 5067172 (5067172 bp)
+			Align 1: 1 28508 pmyco_c16 44499 15992
+				Negative gap (overlap) between this and next alignment: 28508 to 28450 (-58 bp)
+				Next Alignment: 28450 44565 pmyco_c16 16116 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 16116 to 16057.
+			Align 2: 28509 44565 pmyco_c16 16057 1
+				Negative gap (overlap) between this and next alignment: 44565 to 44549 (-16 bp)
+				Next Alignment: 44549 45409 pmyco_c74 1 861
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 18.
+			Align 3: 44566 45409 pmyco_c74 18 861
+				Negative gap (overlap) between this and next alignment: 45409 to 45368 (-41 bp)
+				Next Alignment: 45368 46072 pmyco_c62 2 706
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2 to 44.
+			Align 4: 45410 46072 pmyco_c62 44 706
+				Negative gap (overlap) between this and next alignment: 46072 to 45828 (-244 bp)
+				Next Alignment: 45828 46552 pmyco_rep_c1164 725 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 725 to 480.
+			Align 5: 46073 46552 pmyco_rep_c1164 480 1
+				Negative gap (overlap) between this and next alignment: 46552 to 46300 (-252 bp)
+				Next Alignment: 46300 109761 pmyco_c5 1 63463
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 254.
+			Align 6: 46553 109761 pmyco_c5 254 63463
+				The next alignment (70430 70741 pmyco_c2225 533 222) is redundant. Skipping.
+				The next alignment (88275 88354 pmyco_c1789 481 560) is redundant. Skipping.
+				Gap between this and next alignment: 109761 to 109871 (109 bp)
+				Next Alignment: 109871 179259 pmyco_c35 1 69388
+
+			Align 9: 109871 179259 pmyco_c35 1 69388
+				Negative gap (overlap) between this and next alignment: 179259 to 179110 (-149 bp)
+				Next Alignment: 179110 308337 pmyco_c13 1 129228
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 151.
+			Align 10: 179260 308337 pmyco_c13 151 129228
+				The next alignment (275051 275127 pmyco_c2298 181 257) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 308337 to 308197 (-140 bp)
+				Next Alignment: 308197 427942 pmyco_c3 119752 7
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 119752 to 119611.
+			Align 12: 308338 427942 pmyco_c3 119611 7
+				The next alignment (400527 401026 pmyco_c1903 26 525) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 427942 to 427844 (-98 bp)
+				Next Alignment: 427844 454088 pmyco_c41 1 26245
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 100.
+			Align 14: 427943 454088 pmyco_c41 100 26245
+				Negative gap (overlap) between this and next alignment: 454088 to 453913 (-175 bp)
+				Next Alignment: 453913 454686 pmyco_rep_c1165 1 774
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 177.
+			Align 15: 454089 454686 pmyco_rep_c1165 177 774
+				Negative gap (overlap) between this and next alignment: 454686 to 454492 (-194 bp)
+				Next Alignment: 454492 455490 pmyco_c83 1 999
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 196.
+			Align 16: 454687 455490 pmyco_c83 196 999
+				Negative gap (overlap) between this and next alignment: 455490 to 455196 (-294 bp)
+				Next Alignment: 455196 458182 pmyco_c28 1 2987
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 296.
+			Align 17: 455491 458182 pmyco_c28 296 2987
+				Gap between this and next alignment: 458182 to 458287 (104 bp)
+				Next Alignment: 458287 470368 pmyco_c29 1 12082
+
+			Align 18: 458287 470368 pmyco_c29 1 12082
+				Negative gap (overlap) between this and next alignment: 470368 to 470367 (-1 bp)
+				Next Alignment: 470367 472491 pmyco_c29 23982 26106
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 23982 to 23984.
+			Align 19: 470369 472491 pmyco_c29 23984 26106
+				Negative gap (overlap) between this and next alignment: 472491 to 472009 (-482 bp)
+				Next Alignment: 472009 560222 pmyco_c26 250124 338337
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 250124 to 250607.
+			Align 20: 472492 560222 pmyco_c26 250607 338337
+				Gap between this and next alignment: 560222 to 560444 (221 bp)
+				Next Alignment: 560444 670133 pmyco_c1 1 109690
+
+			Align 21: 560444 670133 pmyco_c1 1 109690
+				Gap between this and next alignment: 670133 to 670218 (84 bp)
+				Next Alignment: 670218 679603 pmyco_c22 83647 74262
+
+			Align 22: 670218 679603 pmyco_c22 83647 74262
+				Gap between this and next alignment: 679603 to 682031 (2427 bp)
+				Next Alignment: 682031 756293 pmyco_c22 74263 1
+
+			Align 23: 682031 756293 pmyco_c22 74263 1
+				The next alignment (749909 749984 pmyco_c1898 250 175) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 756293 to 755923 (-370 bp)
+				Next Alignment: 755923 756604 pmyco_rep_c1169 17 692
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 17 to 382.
+			Align 25: 756294 756604 pmyco_rep_c1169 382 692
+				Negative gap (overlap) between this and next alignment: 756604 to 756360 (-244 bp)
+				Next Alignment: 756360 785130 pmyco_c44 1 28771
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 246.
+			Align 26: 756605 785130 pmyco_c44 246 28771
+				Negative gap (overlap) between this and next alignment: 785130 to 784980 (-150 bp)
+				Next Alignment: 784980 787084 pmyco_c63 1 2105
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 152.
+			Align 27: 785131 787084 pmyco_c63 152 2105
+				Negative gap (overlap) between this and next alignment: 787084 to 786958 (-126 bp)
+				Next Alignment: 786958 836424 pmyco_c38 1 49467
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 128.
+			Align 28: 787085 836424 pmyco_c38 128 49467
+				The next alignment (833617 834017 pmyco_rep_c2070 409 9) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 836424 to 836417 (-7 bp)
+				Next Alignment: 836417 867038 pmyco_c51 1 30622
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 9.
+			Align 30: 836425 867038 pmyco_c51 9 30622
+				Negative gap (overlap) between this and next alignment: 867038 to 866968 (-70 bp)
+				Next Alignment: 866968 987215 pmyco_c9 120248 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 120248 to 120177.
+			Align 31: 867039 987215 pmyco_c9 120177 1
+				Negative gap (overlap) between this and next alignment: 987215 to 987124 (-91 bp)
+				Next Alignment: 987124 1016649 pmyco_c48 1 29526
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 93.
+			Align 32: 987216 1016649 pmyco_c48 93 29526
+				Gap between this and next alignment: 1016649 to 1016655 (5 bp)
+				Next Alignment: 1016655 1036571 pmyco_c6 1 19917
+
+			Align 33: 1016655 1036571 pmyco_c6 1 19917
+				Gap between this and next alignment: 1036571 to 1036668 (96 bp)
+				Next Alignment: 1036668 1056234 pmyco_c50 1 19567
+
+			Align 34: 1036668 1056234 pmyco_c50 1 19567
+				Negative gap (overlap) between this and next alignment: 1056234 to 1056055 (-179 bp)
+				Next Alignment: 1056055 1083192 pmyco_c36 1 27138
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 181.
+			Align 35: 1056235 1083192 pmyco_c36 181 27138
+				Negative gap (overlap) between this and next alignment: 1083192 to 1083118 (-74 bp)
+				Next Alignment: 1083118 1086524 pmyco_c49 1 3407
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 76.
+			Align 36: 1083193 1086524 pmyco_c49 76 3407
+				Negative gap (overlap) between this and next alignment: 1086524 to 1086337 (-187 bp)
+				Next Alignment: 1086337 1102750 pmyco_c14 1 16414
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 189.
+			Align 37: 1086525 1102750 pmyco_c14 189 16414
+				Negative gap (overlap) between this and next alignment: 1102750 to 1102713 (-37 bp)
+				Next Alignment: 1102713 1149316 pmyco_c14 70628 117231
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 70628 to 70666.
+			Align 38: 1102751 1149316 pmyco_c14 70666 117231
+				The next alignment (1108220 1108327 pmyco_c1756 224 331) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1149316 to 1149214 (-102 bp)
+				Next Alignment: 1149214 1166059 pmyco_c32 127552 110707
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 127552 to 127449.
+			Align 40: 1149317 1166059 pmyco_c32 127449 110707
+				The next alignment (1156356 1156427 pmyco_c1756 504 433) is redundant. Skipping.
+				Gap between this and next alignment: 1166059 to 1166376 (316 bp)
+				Next Alignment: 1166376 1277080 pmyco_c32 110705 1
+
+			Align 42: 1166376 1277080 pmyco_c32 110705 1
+				Gap between this and next alignment: 1277080 to 1277363 (282 bp)
+				Next Alignment: 1277363 1278012 pmyco_c135 1 650
+
+			Align 43: 1277363 1278012 pmyco_c135 1 650
+				Gap between this and next alignment: 1278012 to 1278391 (378 bp)
+				Next Alignment: 1278391 1304954 pmyco_c45 26564 1
+
+			Align 44: 1278391 1304954 pmyco_c45 26564 1
+				Gap between this and next alignment: 1304954 to 1305220 (265 bp)
+				Next Alignment: 1305220 1385400 pmyco_c37 1 80181
+
+			Align 45: 1305220 1385400 pmyco_c37 1 80181
+				Negative gap (overlap) between this and next alignment: 1385400 to 1385173 (-227 bp)
+				Next Alignment: 1385173 1386231 pmyco_c111 1 1059
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 229.
+			Align 46: 1385401 1386231 pmyco_c111 229 1059
+				Negative gap (overlap) between this and next alignment: 1386231 to 1385495 (-736 bp)
+				Next Alignment: 1385495 1393358 pmyco_c37 79397 87263
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 79397 to 80137.
+			Align 47: 1386232 1393358 pmyco_c37 80137 87263
+				Gap between this and next alignment: 1393358 to 1393386 (27 bp)
+				Next Alignment: 1393386 1462113 pmyco_c21 1 68727
+
+			Align 48: 1393386 1462113 pmyco_c21 1 68727
+				The next alignment (1397848 1398376 pmyco_c2113 529 1) is redundant. Skipping.
+				The next alignment (1446346 1446480 pmyco_c2225 234 100) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1462113 to 1461978 (-135 bp)
+				Next Alignment: 1461978 1579186 pmyco_c21 68465 185671
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 68465 to 68600.
+			Align 51: 1462114 1579186 pmyco_c21 68600 185671
+				The next alignment (1525189 1525291 pmyco_rep_c2070 504 402) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1579186 to 1579184 (-2 bp)
+				Next Alignment: 1579184 1770275 pmyco_c19 8 191099
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 8 to 11.
+			Align 53: 1579187 1770275 pmyco_c19 11 191099
+				Negative gap (overlap) between this and next alignment: 1770275 to 1770150 (-125 bp)
+				Next Alignment: 1770150 1874997 pmyco_c46 1 104848
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 127.
+			Align 54: 1770276 1874997 pmyco_c46 127 104848
+				Negative gap (overlap) between this and next alignment: 1874997 to 1874980 (-17 bp)
+				Next Alignment: 1874980 1944318 pmyco_c7 69340 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 69340 to 69322.
+			Align 55: 1874998 1944318 pmyco_c7 69322 1
+				Negative gap (overlap) between this and next alignment: 1944318 to 1944082 (-236 bp)
+				Next Alignment: 1944082 1944719 pmyco_c110 1 638
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 238.
+			Align 56: 1944319 1944719 pmyco_c110 238 638
+				Gap between this and next alignment: 1944719 to 1944727 (7 bp)
+				Next Alignment: 1944727 1963688 pmyco_c31 1 18962
+
+			Align 57: 1944727 1963688 pmyco_c31 1 18962
+				Negative gap (overlap) between this and next alignment: 1963688 to 1963677 (-11 bp)
+				Next Alignment: 1963677 1964185 pmyco_rep_c1213 509 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 509 to 497.
+			Align 58: 1963689 1964185 pmyco_rep_c1213 497 1
+				Negative gap (overlap) between this and next alignment: 1964185 to 1963911 (-274 bp)
+				Next Alignment: 1963911 1972902 pmyco_c43 8992 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 8992 to 8717.
+			Align 59: 1964186 1972902 pmyco_c43 8717 1
+				Gap between this and next alignment: 1972902 to 1972961 (58 bp)
+				Next Alignment: 1972961 2142021 pmyco_c20 169061 1
+
+			Align 60: 1972961 2142021 pmyco_c20 169061 1
+				The next alignment (1985339 1985838 pmyco_c4274 500 1) is redundant. Skipping.
+				The next alignment (2083374 2083779 pmyco_c288 202 607) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2142021 to 2141918 (-103 bp)
+				Next Alignment: 2141918 2251459 pmyco_c27 1 109542
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 105.
+			Align 63: 2142022 2251459 pmyco_c27 105 109542
+				The next alignment (2177121 2177685 pmyco_rep_c2132 1 565) is redundant. Skipping.
+				Gap between this and next alignment: 2251459 to 2251634 (174 bp)
+				Next Alignment: 2251634 2253252 pmyco_c57 1 1619
+
+			Align 65: 2251634 2253252 pmyco_c57 1 1619
+				Negative gap (overlap) between this and next alignment: 2253252 to 2253108 (-144 bp)
+				Next Alignment: 2253108 2312326 pmyco_c39 59219 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 59219 to 59074.
+			Align 66: 2253253 2312326 pmyco_c39 59074 1
+				Negative gap (overlap) between this and next alignment: 2312326 to 2312163 (-163 bp)
+				Next Alignment: 2312163 2462245 pmyco_c24 1 150083
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 165.
+			Align 67: 2312327 2462245 pmyco_c24 165 150083
+				The next alignment (2397144 2397663 pmyco_c2226 1 520) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2462245 to 2462094 (-151 bp)
+				Next Alignment: 2462094 2597181 pmyco_c17 135088 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 135088 to 134936.
+			Align 69: 2462246 2597181 pmyco_c17 134936 1
+				The next alignment (2562743 2562899 pmyco_c2298 241 397) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2597181 to 2597027 (-154 bp)
+				Next Alignment: 2597027 2597658 pmyco_rep_c1169 1 632
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 156.
+			Align 71: 2597182 2597658 pmyco_rep_c1169 156 632
+				Negative gap (overlap) between this and next alignment: 2597658 to 2597400 (-258 bp)
+				Next Alignment: 2597400 2616860 pmyco_c29 45084 25624
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 45084 to 44825.
+			Align 72: 2597659 2616860 pmyco_c29 44825 25624
+				Negative gap (overlap) between this and next alignment: 2616860 to 2616378 (-482 bp)
+				Next Alignment: 2616378 2866984 pmyco_c26 250606 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 250606 to 250123.
+			Align 73: 2616861 2866984 pmyco_c26 250123 1
+				The next alignment (2660442 2660586 pmyco_c1898 181 37) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2866984 to 2866911 (-73 bp)
+				Next Alignment: 2866911 2883101 pmyco_c56 16191 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 16191 to 16117.
+			Align 75: 2866985 2883101 pmyco_c56 16117 1
+				Negative gap (overlap) between this and next alignment: 2883101 to 2882905 (-196 bp)
+				Next Alignment: 2882905 3020798 pmyco_c8 1 137941
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 198.
+			Align 76: 2883102 3020798 pmyco_c8 198 137941
+				Negative gap (overlap) between this and next alignment: 3020798 to 3020389 (-409 bp)
+				Next Alignment: 3020389 3024111 pmyco_c54 3723 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3723 to 3313.
+			Align 77: 3020799 3024111 pmyco_c54 3313 1
+				Negative gap (overlap) between this and next alignment: 3024111 to 3023283 (-828 bp)
+				Next Alignment: 3023283 3172192 pmyco_c8 136809 285718
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 136809 to 137638.
+			Align 78: 3024112 3172192 pmyco_c8 137638 285718
+				The next alignment (3038280 3038857 pmyco_c1827 578 1) is redundant. Skipping.
+				Gap between this and next alignment: 3172192 to 3172229 (36 bp)
+				Next Alignment: 3172229 3181493 pmyco_c11 9272 8
+
+			Align 80: 3172229 3181493 pmyco_c11 9272 8
+				Negative gap (overlap) between this and next alignment: 3181493 to 3181470 (-23 bp)
+				Next Alignment: 3181470 3252036 pmyco_c47 70567 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 70567 to 70543.
+			Align 81: 3181494 3252036 pmyco_c47 70543 1
+				Gap between this and next alignment: 3252036 to 3252039 (2 bp)
+				Next Alignment: 3252039 3349503 pmyco_c18 112792 15322
+
+			Align 82: 3252039 3349503 pmyco_c18 112792 15322
+				Negative gap (overlap) between this and next alignment: 3349503 to 3329503 (-20000 bp)
+				Next Alignment: 3329503 3364824 pmyco_c18 35328 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 35328 to 15315.
+			Align 83: 3349504 3364824 pmyco_c18 15315 1
+				Negative gap (overlap) between this and next alignment: 3364824 to 3364760 (-64 bp)
+				Next Alignment: 3364760 3585727 pmyco_c10 220968 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 220968 to 220903.
+			Align 84: 3364825 3585727 pmyco_c10 220903 1
+				The next alignment (3553145 3553392 pmyco_c1756 248 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 3585727 to 3585608 (-119 bp)
+				Next Alignment: 3585608 3611242 pmyco_c52 25635 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 25635 to 25515.
+			Align 86: 3585728 3611242 pmyco_c52 25515 1
+				Negative gap (overlap) between this and next alignment: 3611242 to 3611140 (-102 bp)
+				Next Alignment: 3611140 3924452 pmyco_c4 313312 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 313312 to 313209.
+			Align 87: 3611243 3924452 pmyco_c4 313209 1
+				The next alignment (3832622 3832832 pmyco_c288 1 211) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 3924452 to 3924361 (-91 bp)
+				Next Alignment: 3924361 4067071 pmyco_c12 1 142711
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 93.
+			Align 89: 3924453 4067071 pmyco_c12 93 142711
+				The next alignment (4027233 4027348 pmyco_c1756 326 441) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4067071 to 4067039 (-32 bp)
+				Next Alignment: 4067039 4068038 pmyco_c94 1000 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1000 to 967.
+			Align 91: 4067072 4068038 pmyco_c94 967 1
+				Negative gap (overlap) between this and next alignment: 4068038 to 4067943 (-95 bp)
+				Next Alignment: 4067943 4103635 pmyco_c2 1 35664
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 97.
+			Align 92: 4068039 4103635 pmyco_c2 97 35664
+				Negative gap (overlap) between this and next alignment: 4103635 to 4083572 (-20063 bp)
+				Next Alignment: 4083572 4144799 pmyco_c2 15631 76828
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 15631 to 35635.
+			Align 93: 4103636 4144799 pmyco_c2 35635 76828
+				Gap between this and next alignment: 4144799 to 4147042 (2242 bp)
+				Next Alignment: 4147042 4261152 pmyco_c2 76827 190936
+
+			Align 94: 4147042 4261152 pmyco_c2 76827 190936
+				The next alignment (4215440 4215628 pmyco_c2298 189 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4261152 to 4260994 (-158 bp)
+				Next Alignment: 4260994 4307842 pmyco_c34 46849 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 46849 to 46690.
+			Align 96: 4261153 4307842 pmyco_c34 46690 1
+				Negative gap (overlap) between this and next alignment: 4307842 to 4307675 (-167 bp)
+				Next Alignment: 4307675 4356905 pmyco_c33 49231 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 49231 to 49063.
+			Align 97: 4307843 4356905 pmyco_c33 49063 1
+				Gap between this and next alignment: 4356905 to 4357303 (397 bp)
+				Next Alignment: 4357303 4389549 pmyco_c40 32247 1
+
+			Align 98: 4357303 4389549 pmyco_c40 32247 1
+				Negative gap (overlap) between this and next alignment: 4389549 to 4389466 (-83 bp)
+				Next Alignment: 4389466 4394614 pmyco_c3 119744 124892
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 119744 to 119828.
+			Align 99: 4389550 4394614 pmyco_c3 119828 124892
+				Negative gap (overlap) between this and next alignment: 4394614 to 4394570 (-44 bp)
+				Next Alignment: 4394570 4523643 pmyco_c3 136774 265848
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 136774 to 136819.
+			Align 100: 4394615 4523643 pmyco_c3 136819 265848
+				The next alignment (4505912 4506365 pmyco_c1789 454 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4523643 to 4523479 (-164 bp)
+				Next Alignment: 4523479 4620228 pmyco_c30 96750 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 96750 to 96585.
+			Align 102: 4523644 4620228 pmyco_c30 96585 1
+				The next alignment (4538962 4539498 pmyco_c2865 1 536) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4620228 to 4620220 (-8 bp)
+				Next Alignment: 4620220 4767491 pmyco_c15 1 147272
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 10.
+			Align 104: 4620229 4767491 pmyco_c15 10 147272
+				The next alignment (4766509 4766652 pmyco_c2298 535 392) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4767491 to 4767355 (-136 bp)
+				Next Alignment: 4767355 4774794 pmyco_c53 5 7444
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5 to 142.
+			Align 106: 4767492 4774794 pmyco_c53 142 7444
+				Negative gap (overlap) between this and next alignment: 4774794 to 4774616 (-178 bp)
+				Next Alignment: 4774616 4793815 pmyco_c42 1 19200
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 180.
+			Align 107: 4774795 4793815 pmyco_c42 180 19200
+				Gap between this and next alignment: 4793815 to 4794051 (235 bp)
+				Next Alignment: 4794051 4797395 pmyco_c55 3345 1
+
+			Align 108: 4794051 4797395 pmyco_c55 3345 1
+				Gap between this and next alignment: 4797395 to 4797717 (321 bp)
+				Next Alignment: 4797717 4913619 pmyco_c23 115903 1
+
+			Align 109: 4797717 4913619 pmyco_c23 115903 1
+				The next alignment (4819357 4819617 pmyco_c1898 507 247) is redundant. Skipping.
+				Gap between this and next alignment: 4913619 to 4913665 (45 bp)
+				Next Alignment: 4913665 5067172 pmyco_c16 198006 44500
+
+			Align 111: 4913665 5067172 pmyco_c16 198006 44500
+			END in current alignment.  Modifying 5067172 to 5067172.
+
+ERROR: Reference [$ref] does not have any alignments!  Check that this is the same file used for alignment.
+ERROR: Alignment Reference Headers: ['gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence']
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1817/dataset_1899_files/Contig/contigs_reports/nucmer_output/MA-H-Mira-Contig.used_snps
+
+Results:
+	Local Misassemblies: 6
+	Misassemblies: 22
+		Relocations: 22
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 15
+	Misassembled Contig Bases: 1331243
+	Misassmblies Inter-Contig Overlap: 43997
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 1 part
+Partially Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 25
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 5059341
+
+	SNPs: 288
+	Insertions: 80
+	Deletions: 61
+
+	Positive Gaps: 22
+		Internal Gaps:  3
+		External Gaps:  19
+		External Gap Total:  2846
+		External Gap Average: 150
+	Negative Gaps: 62
+		Internal Overlaps:  7
+		External Overlaps:  55
+		External Overlaps Total: -9694
+		External Overlaps Average: -176
+	Contigs with Redundant Alignments: 21 (7424)

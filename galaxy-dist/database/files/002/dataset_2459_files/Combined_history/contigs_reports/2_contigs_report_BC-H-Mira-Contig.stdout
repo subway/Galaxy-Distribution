@@ -1,0 +1,3431 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome]
+	Loaded [gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 2
+	Total Region Length: 5432652
+Analyzing contigs...
+CONTIG: mira_c501 (1038bp)
+		This contig is unaligned. (1038 bp)
+		Unaligned bases: 1038  total: 1038
+
+CONTIG: mira_c500 (850bp)
+		This contig is unaligned. (850 bp)
+		Unaligned bases: 850  total: 1888
+
+CONTIG: mira_c503 (1251bp)
+		This contig is unaligned. (1251 bp)
+		Unaligned bases: 1251  total: 3139
+
+CONTIG: mira_c502 (5955bp)
+		This contig is unaligned. (5955 bp)
+		Unaligned bases: 5955  total: 9094
+
+CONTIG: mira_c505 (10069bp)
+		This contig is unaligned. (10069 bp)
+		Unaligned bases: 10069  total: 19163
+
+CONTIG: mira_c504 (819bp)
+		This contig is unaligned. (819 bp)
+		Unaligned bases: 819  total: 19982
+
+CONTIG: mira_c32 (524448bp)
+Top Length: 1789  Top ID: 95.47
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 524448 and total length of all aligns is 1860
+		Alignment: 319525 321313 | 227068 228856 | 1789 1789 | 95.47 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c32
+		Alignment: 1080078 1080148 | 283304 283374 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c32
+		Unaligned bases: 522588
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: mira_c33 (4168bp)
+		This contig is unaligned. (4168 bp)
+		Unaligned bases: 4168  total: 24150
+
+CONTIG: mira_c30 (8453bp)
+Top Length: 4085  Top ID: 96.26
+		This contig is partially unaligned. (4085 out of 8453)
+		Alignment: 4723248 4727338 | 4085 1 | 4091 4085 | 96.26 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c30
+		Unaligned bases: 4086 to 8453 (4368)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c31 (2674bp)
+		This contig is unaligned. (2674 bp)
+		Unaligned bases: 2674  total: 26824
+
+CONTIG: mira_c36 (84302bp)
+		This contig is unaligned. (84302 bp)
+		Unaligned bases: 84302  total: 111126
+
+CONTIG: mira_c37 (86083bp)
+Top Length: 362  Top ID: 99.45
+		Skipping redundant alignment 5203884 5203957 | 84772 84845 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Skipping redundant alignment 150500 150572 | 84845 84773 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Skipping redundant alignment 278580 278652 | 84845 84773 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Skipping redundant alignment 609960 610032 | 84845 84773 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Skipping redundant alignment 150322 150400 | 84923 84845 | 79 79 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Skipping redundant alignment 278401 278479 | 84923 84845 | 79 79 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Skipping redundant alignment 278779 278862 | 85357 85274 | 84 84 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Skipping redundant alignment 21771 21863 | 85706 85614 | 93 93 | 97.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Skipping redundant alignment 11071 11149 | 85802 85724 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Skipping redundant alignment 30845 30923 | 85802 85724 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Skipping redundant alignment 151066 151138 | 85797 85725 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Skipping redundant alignment 279289 279447 | 85974 85813 | 159 162 | 96.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [10977][11069] redundant alignment 10977 11069 | 85016 84924 | 93 93 | 96.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Skipping [284388][284556] redundant alignment 284388 284556 | 85440 85273 | 169 168 | 98.22 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		This contig is misassembled. 21 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 86083 and total length of all aligns is 991
+		Alignment: 21769 21863 | 85552 85458 | 95 95 | 97.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Alignment: 30751 30843 | 85016 84924 | 93 93 | 96.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Alignment: 64526 64607 | 84844 84763 | 82 82 | 97.56 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Alignment: 284915 285088 | 85443 85273 | 174 171 | 96.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Alignment: 4649093 4649255 | 84845 85005 | 163 161 | 98.16 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Alignment: 4649786 4649894 | 85608 85716 | 109 109 | 99.08 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Alignment: 4650077 4650438 | 85722 86083 | 362 362 | 99.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c37
+		Unaligned bases: 85092
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: mira_c34 (13155bp)
+		This contig is unaligned. (13155 bp)
+		Unaligned bases: 13155  total: 124281
+
+CONTIG: mira_c35 (3139bp)
+		This contig is unaligned. (3139 bp)
+		Unaligned bases: 3139  total: 127420
+
+CONTIG: mira_c38 (22209bp)
+		This contig is unaligned. (22209 bp)
+		Unaligned bases: 22209  total: 149629
+
+CONTIG: mira_c39 (6472bp)
+		This contig is unaligned. (6472 bp)
+		Unaligned bases: 6472  total: 156101
+
+CONTIG: mira_c268 (867bp)
+Top Length: 577  Top ID: 96.71
+		This contig is partially unaligned. (577 out of 867)
+		Alignment: 5025826 5026402 | 1 577 | 577 577 | 96.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c268
+		Unaligned bases: 578 to 867 (290)
+
+CONTIG: mira_c269 (1485bp)
+		This contig is unaligned. (1485 bp)
+		Unaligned bases: 1485  total: 157586
+
+CONTIG: mira_c341 (1765bp)
+		This contig is unaligned. (1765 bp)
+		Unaligned bases: 1765  total: 159351
+
+CONTIG: mira_c340 (936bp)
+Top Length: 664  Top ID: 97.59
+		This contig is partially unaligned. (664 out of 936)
+		Alignment: 5028064 5028728 | 664 1 | 665 664 | 97.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c340
+		Unaligned bases: 665 to 936 (272)
+
+CONTIG: mira_c347 (501bp)
+		This contig is unaligned. (501 bp)
+		Unaligned bases: 501  total: 159852
+
+CONTIG: mira_c346 (1777bp)
+		This contig is unaligned. (1777 bp)
+		Unaligned bases: 1777  total: 161629
+
+CONTIG: mira_c345 (864bp)
+		This contig is unaligned. (864 bp)
+		Unaligned bases: 864  total: 162493
+
+CONTIG: mira_c344 (1717bp)
+Top Length: 598  Top ID: 95.48
+		This contig is partially unaligned. (598 out of 1717)
+		Alignment: 4788772 4789368 | 1120 1717 | 597 598 | 95.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c344
+		Unaligned bases: 1 to 1119 (1119)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c260 (2270bp)
+		This contig is unaligned. (2270 bp)
+		Unaligned bases: 2270  total: 164763
+
+CONTIG: mira_c261 (71707bp)
+Top Length: 69  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 71707 and total length of all aligns is 138
+		Alignment: 1080080 1080148 | 3309 3241 | 69 69 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c261
+		Alignment: 1080080 1080148 | 65927 65995 | 69 69 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c261
+		Unaligned bases: 71569
+CONTIG: mira_c262 (20794bp)
+Top Length: 338  Top ID: 97.34
+		Skipping redundant alignment 3233471 3233809 | 338 1 | 339 338 | 96.17 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c262
+		Skipping redundant alignment 1107979 1108316 | 338 1 | 338 338 | 95.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c262
+		This contig is partially unaligned. (338 out of 20794)
+		Alignment: 2993724 2994061 | 338 1 | 338 338 | 97.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c262
+		Unaligned bases: 339 to 20794 (20456)
+
+CONTIG: mira_c263 (35692bp)
+Top Length: 69  Top ID: 100.0
+		This contig is partially unaligned. (69 out of 35692)
+		Alignment: 1080080 1080148 | 13914 13982 | 69 69 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c263
+		Unaligned bases: 1 to 13913 (13913)
+		Unaligned bases: 13983 to 35692 (21710)
+
+CONTIG: mira_c264 (896bp)
+		This contig is unaligned. (896 bp)
+		Unaligned bases: 896  total: 165659
+
+CONTIG: mira_c265 (786bp)
+		This contig is unaligned. (786 bp)
+		Unaligned bases: 786  total: 166445
+
+CONTIG: mira_c266 (47351bp)
+		This contig is unaligned. (47351 bp)
+		Unaligned bases: 47351  total: 213796
+
+CONTIG: mira_c267 (817bp)
+Top Length: 817  Top ID: 95.35
+		One align captures most of this contig: 4835777 4836593 | 817 1 | 817 817 | 95.35 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c267
+
+CONTIG: mira_c563 (515bp)
+		This contig is unaligned. (515 bp)
+		Unaligned bases: 515  total: 214311
+
+CONTIG: mira_c198 (1187bp)
+		This contig is unaligned. (1187 bp)
+		Unaligned bases: 1187  total: 215498
+
+CONTIG: mira_c199 (2054bp)
+		This contig is unaligned. (2054 bp)
+		Unaligned bases: 2054  total: 217552
+
+CONTIG: mira_c196 (1093bp)
+		This contig is unaligned. (1093 bp)
+		Unaligned bases: 1093  total: 218645
+
+CONTIG: mira_c197 (1900bp)
+		This contig is unaligned. (1900 bp)
+		Unaligned bases: 1900  total: 220545
+
+CONTIG: mira_c194 (3751bp)
+		This contig is unaligned. (3751 bp)
+		Unaligned bases: 3751  total: 224296
+
+CONTIG: mira_c195 (666bp)
+		This contig is unaligned. (666 bp)
+		Unaligned bases: 666  total: 224962
+
+CONTIG: mira_c192 (1357bp)
+		This contig is unaligned. (1357 bp)
+		Unaligned bases: 1357  total: 226319
+
+CONTIG: mira_c193 (1404bp)
+		This contig is unaligned. (1404 bp)
+		Unaligned bases: 1404  total: 227723
+
+CONTIG: mira_c190 (2942bp)
+		This contig is unaligned. (2942 bp)
+		Unaligned bases: 2942  total: 230665
+
+CONTIG: mira_c191 (627bp)
+		This contig is unaligned. (627 bp)
+		Unaligned bases: 627  total: 231292
+
+CONTIG: mira_c468 (5133bp)
+		This contig is unaligned. (5133 bp)
+		Unaligned bases: 5133  total: 236425
+
+CONTIG: mira_c469 (33692bp)
+		This contig is unaligned. (33692 bp)
+		Unaligned bases: 33692  total: 270117
+
+CONTIG: mira_c343 (2007bp)
+		This contig is unaligned. (2007 bp)
+		Unaligned bases: 2007  total: 272124
+
+CONTIG: mira_c467 (527bp)
+		This contig is unaligned. (527 bp)
+		Unaligned bases: 527  total: 272651
+
+CONTIG: mira_c464 (9281bp)
+		This contig is unaligned. (9281 bp)
+		Unaligned bases: 9281  total: 281932
+
+CONTIG: mira_c465 (995bp)
+Top Length: 904  Top ID: 98.35
+		Skipping redundant alignment 145420 145576 | 157 1 | 157 157 | 98.1 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 300575 300731 | 157 1 | 157 157 | 98.1 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 313786 313942 | 157 1 | 157 157 | 98.1 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 322885 323041 | 157 1 | 157 157 | 98.1 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 330703 330859 | 157 1 | 157 157 | 98.1 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 604857 605013 | 157 1 | 157 157 | 98.1 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 82351 82508 | 157 1 | 158 157 | 97.47 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 4655640 4655797 | 1 157 | 158 157 | 97.47 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 818065 818220 | 156 1 | 156 156 | 98.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 9239 9390 | 152 1 | 152 152 | 96.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 29012 29164 | 152 1 | 153 152 | 96.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 4649260 4649333 | 157 230 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 615179 615249 | 230 160 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 4248304 4248374 | 160 230 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 823617 823778 | 392 235 | 162 158 | 96.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 4650168 4650329 | 235 392 | 162 158 | 96.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 150822 150976 | 738 584 | 155 155 | 99.35 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 823158 823311 | 738 584 | 154 155 | 98.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 610803 610885 | 742 660 | 83 83 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 284914 285087 | 991 820 | 174 172 | 95.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 284388 284555 | 987 820 | 168 168 | 97.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 4649607 4649765 | 821 981 | 159 161 | 96.27 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 5203783 5203864 | 821 901 | 82 81 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		Skipping redundant alignment 824145 824309 | 986 822 | 165 165 | 97.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+		This contig is misassembled. 26 total aligns.
+			Real Alignment 1: 278778 279681 | 904 1 | 904 904 | 98.35 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+			  Extensive misassembly ( relocation, inconsistency = 331438 ) between these two alignments
+			Real Alignment 2: 610125 610301 | 995 819 | 177 177 | 97.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c465
+
+CONTIG: mira_c462 (1280bp)
+		This contig is unaligned. (1280 bp)
+		Unaligned bases: 1280  total: 283212
+
+CONTIG: mira_c463 (738bp)
+		This contig is unaligned. (738 bp)
+		Unaligned bases: 738  total: 283950
+
+CONTIG: mira_c460 (680bp)
+		This contig is unaligned. (680 bp)
+		Unaligned bases: 680  total: 284630
+
+CONTIG: mira_c461 (2743bp)
+		This contig is unaligned. (2743 bp)
+		Unaligned bases: 2743  total: 287373
+
+CONTIG: mira_c295 (1545bp)
+		This contig is unaligned. (1545 bp)
+		Unaligned bases: 1545  total: 288918
+
+CONTIG: mira_c294 (68590bp)
+		This contig is unaligned. (68590 bp)
+		Unaligned bases: 68590  total: 357508
+
+CONTIG: mira_c297 (1580bp)
+		This contig is unaligned. (1580 bp)
+		Unaligned bases: 1580  total: 359088
+
+CONTIG: mira_c296 (688bp)
+		This contig is unaligned. (688 bp)
+		Unaligned bases: 688  total: 359776
+
+CONTIG: mira_c291 (1035bp)
+Top Length: 290  Top ID: 96.91
+		Skipping redundant alignment 604734 605022 | 290 1 | 289 290 | 95.88 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c291
+		Skipping redundant alignment 313702 313951 | 253 1 | 250 253 | 95.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c291
+		Skipping redundant alignment 322801 323050 | 253 1 | 250 253 | 95.28 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c291
+		Skipping redundant alignment 330619 330868 | 253 1 | 250 253 | 95.28 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c291
+		Skipping redundant alignment 82329 82517 | 188 1 | 189 188 | 95.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c291
+		Skipping redundant alignment 279525 279690 | 166 1 | 166 166 | 98.8 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c291
+		Skipping redundant alignment 9239 9399 | 161 1 | 161 161 | 97.53 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c291
+		Skipping redundant alignment 29012 29173 | 161 1 | 162 161 | 97.53 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c291
+		This contig is partially unaligned. (290 out of 1035)
+		Alignment: 4655631 4655921 | 1 290 | 291 290 | 96.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c291
+		Unaligned bases: 291 to 1035 (745)
+
+CONTIG: mira_c290 (1002bp)
+		This contig is unaligned. (1002 bp)
+		Unaligned bases: 1002  total: 360778
+
+CONTIG: mira_c293 (30302bp)
+		This contig is unaligned. (30302 bp)
+		Unaligned bases: 30302  total: 391080
+
+CONTIG: mira_c292 (987bp)
+		This contig is unaligned. (987 bp)
+		Unaligned bases: 987  total: 392067
+
+CONTIG: mira_c299 (744bp)
+		This contig is unaligned. (744 bp)
+		Unaligned bases: 744  total: 392811
+
+CONTIG: mira_c298 (1113bp)
+		This contig is unaligned. (1113 bp)
+		Unaligned bases: 1113  total: 393924
+
+CONTIG: mira_c408 (867bp)
+Top Length: 255  Top ID: 96.86
+		Skipping redundant alignment 145425 145640 | 651 867 | 216 217 | 97.7 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c408
+		Skipping redundant alignment 279530 279745 | 651 867 | 216 217 | 97.7 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c408
+		Skipping redundant alignment 300580 300795 | 651 867 | 216 217 | 97.7 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c408
+		Skipping redundant alignment 313791 314006 | 651 867 | 216 217 | 97.7 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c408
+		Skipping redundant alignment 322890 323105 | 651 867 | 216 217 | 97.7 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c408
+		Skipping redundant alignment 330708 330923 | 651 867 | 216 217 | 97.7 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c408
+		Skipping redundant alignment 818069 818284 | 651 867 | 216 217 | 97.7 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c408
+		Skipping redundant alignment 604862 605077 | 651 867 | 216 217 | 97.24 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c408
+		Skipping redundant alignment 4655576 4655792 | 867 651 | 217 217 | 97.24 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c408
+		This contig is partially unaligned. (255 out of 867)
+		Alignment: 28974 29228 | 613 867 | 255 255 | 96.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c408
+		Unaligned bases: 1 to 612 (612)
+
+CONTIG: mira_c437 (703bp)
+		This contig is unaligned. (703 bp)
+		Unaligned bases: 703  total: 394627
+
+CONTIG: mira_c409 (564bp)
+Top Length: 560  Top ID: 95.54
+		One align captures most of this contig: 115333 115892 | 3 562 | 560 560 | 95.54 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c409
+
+CONTIG: mira_c436 (589bp)
+		This contig is unaligned. (589 bp)
+		Unaligned bases: 589  total: 395216
+
+CONTIG: mira_c561 (2595bp)
+		This contig is unaligned. (2595 bp)
+		Unaligned bases: 2595  total: 397811
+
+CONTIG: mira_c439 (532bp)
+Top Length: 532  Top ID: 97.37
+		One align captures most of this contig: 4834834 4835365 | 532 1 | 532 532 | 97.37 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c439
+
+CONTIG: mira_c560 (5167bp)
+Top Length: 109  Top ID: 98.17
+		Skipping redundant alignment 2367450 2367558 | 5167 5059 | 109 109 | 96.33 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c560
+		Skipping redundant alignment 2367411 2367513 | 5161 5059 | 103 103 | 98.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c560
+		This contig is partially unaligned. (109 out of 5167)
+		Alignment: 2367414 2367522 | 5167 5059 | 109 109 | 98.17 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c560
+		Unaligned bases: 1 to 5058 (5058)
+
+CONTIG: mira_c438 (44153bp)
+		This contig is unaligned. (44153 bp)
+		Unaligned bases: 44153  total: 441964
+
+CONTIG: mira_c567 (1980bp)
+		This contig is unaligned. (1980 bp)
+		Unaligned bases: 1980  total: 443944
+
+CONTIG: mira_c566 (1340bp)
+Top Length: 144  Top ID: 99.31
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [5140981][5141124] redundant alignment 5140981 5141124 | 1197 1340 | 144 144 | 99.31 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c566
+		This contig is partially unaligned. (144 out of 1340)
+		Alignment: 2565712 2565855 | 1340 1197 | 144 144 | 99.31 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c566
+		Unaligned bases: 1 to 1196 (1196)
+
+CONTIG: mira_c129 (899bp)
+		This contig is unaligned. (899 bp)
+		Unaligned bases: 899  total: 444843
+
+CONTIG: mira_c128 (1639bp)
+Top Length: 299  Top ID: 97.0
+		This contig is partially unaligned. (299 out of 1639)
+		Alignment: 3233471 3233770 | 302 4 | 300 299 | 97.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c128
+		Unaligned bases: 1 to 3 (3)
+		Unaligned bases: 303 to 1639 (1337)
+
+CONTIG: mira_c565 (622bp)
+		This contig is unaligned. (622 bp)
+		Unaligned bases: 622  total: 445465
+
+CONTIG: mira_c123 (2491bp)
+		This contig is unaligned. (2491 bp)
+		Unaligned bases: 2491  total: 447956
+
+CONTIG: mira_c122 (827bp)
+		This contig is unaligned. (827 bp)
+		Unaligned bases: 827  total: 448783
+
+CONTIG: mira_c121 (17407bp)
+Top Length: 959  Top ID: 96.58
+		Skipping redundant alignment 4649263 4649334 | 11634 11705 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 279452 279522 | 11704 11634 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 823436 823517 | 15799 15719 | 82 81 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 4650429 4650510 | 15719 15799 | 82 81 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 278940 279022 | 15882 15800 | 83 83 | 98.8 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 823159 823235 | 15877 15801 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 284914 285092 | 16553 16378 | 179 176 | 96.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 284388 284560 | 16549 16378 | 173 172 | 97.69 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 278778 278863 | 16466 16381 | 86 86 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 278579 278750 | 16858 16686 | 172 173 | 97.13 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 150498 150664 | 16859 16693 | 167 167 | 99.4 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 822979 823059 | 16777 16697 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 4650805 4650882 | 16700 16777 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 4648918 4648991 | 16785 16858 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 824721 824793 | 16857 16785 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 5203885 5203957 | 16785 16857 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 64526 64597 | 16856 16785 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignment 4650884 4651242 | 17051 17407 | 359 357 | 95.26 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [4649433][4649765] redundant alignment 4649433 4649765 | 16212 16543 | 333 332 | 95.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		This contig is misassembled. 23 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 17407 and total length of all aligns is 1852
+		Alignment: 609411 610180 | 17407 16636 | 770 772 | 97.03 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Alignment: 610180 611141 | 16502 15544 | 962 959 | 96.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Alignment: 824145 824473 | 16548 16215 | 329 334 | 95.21 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Alignment: 4248301 4248375 | 11631 11705 | 75 75 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c121
+		Unaligned bases: 15555
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: mira_c120 (3227bp)
+		This contig is unaligned. (3227 bp)
+		Unaligned bases: 3227  total: 452010
+
+CONTIG: mira_c127 (5318bp)
+Top Length: 1078  Top ID: 95.74
+		This contig is partially unaligned. (1078 out of 5318)
+		Alignment: 4827374 4828453 | 1078 1 | 1080 1078 | 95.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c127
+		Unaligned bases: 1079 to 5318 (4240)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c126 (5778bp)
+		This contig is unaligned. (5778 bp)
+		Unaligned bases: 5778  total: 457788
+
+CONTIG: mira_c125 (6251bp)
+		This contig is unaligned. (6251 bp)
+		Unaligned bases: 6251  total: 464039
+
+CONTIG: mira_c124 (4997bp)
+		This contig is unaligned. (4997 bp)
+		Unaligned bases: 4997  total: 469036
+
+CONTIG: mira_c512 (529bp)
+		This contig is unaligned. (529 bp)
+		Unaligned bases: 529  total: 469565
+
+CONTIG: mira_c513 (730bp)
+Top Length: 730  Top ID: 96.71
+		One align captures most of this contig: 131754 132483 | 1 730 | 730 730 | 96.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c513
+
+CONTIG: mira_c510 (1074bp)
+Top Length: 1071  Top ID: 97.11
+		One align captures most of this contig: 126413 127483 | 1 1071 | 1071 1071 | 97.11 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c510
+
+CONTIG: mira_c511 (727bp)
+Top Length: 727  Top ID: 98.49
+		One align captures most of this contig: 128758 129484 | 727 1 | 727 727 | 98.49 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c511
+
+CONTIG: mira_c516 (1339bp)
+		This contig is unaligned. (1339 bp)
+		Unaligned bases: 1339  total: 470904
+
+CONTIG: mira_c517 (1056bp)
+Top Length: 1056  Top ID: 96.88
+		One align captures most of this contig: 52218 53273 | 1 1056 | 1056 1056 | 96.88 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c517
+
+CONTIG: mira_c514 (649bp)
+		This contig is unaligned. (649 bp)
+		Unaligned bases: 649  total: 471553
+
+CONTIG: mira_c515 (6562bp)
+		This contig is unaligned. (6562 bp)
+		Unaligned bases: 6562  total: 478115
+
+CONTIG: mira_c518 (587bp)
+		This contig is unaligned. (587 bp)
+		Unaligned bases: 587  total: 478702
+
+CONTIG: mira_c519 (720bp)
+Top Length: 719  Top ID: 95.97
+		One align captures most of this contig: 106671 107389 | 2 720 | 719 719 | 95.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c519
+
+CONTIG: mira_c569 (737bp)
+		This contig is unaligned. (737 bp)
+		Unaligned bases: 737  total: 479439
+
+CONTIG: mira_c406 (812bp)
+Top Length: 812  Top ID: 96.43
+		One align captures most of this contig: 5043492 5044302 | 812 1 | 811 812 | 96.43 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c406
+
+CONTIG: mira_c407 (828bp)
+		This contig is unaligned. (828 bp)
+		Unaligned bases: 828  total: 480267
+
+CONTIG: mira_c639 (822bp)
+		This contig is unaligned. (822 bp)
+		Unaligned bases: 822  total: 481089
+
+CONTIG: mira_c638 (508bp)
+		This contig is unaligned. (508 bp)
+		Unaligned bases: 508  total: 481597
+
+CONTIG: mira_c633 (1013bp)
+		This contig is unaligned. (1013 bp)
+		Unaligned bases: 1013  total: 482610
+
+CONTIG: mira_c453 (14240bp)
+		This contig is unaligned. (14240 bp)
+		Unaligned bases: 14240  total: 496850
+
+CONTIG: mira_c452 (1428bp)
+		This contig is unaligned. (1428 bp)
+		Unaligned bases: 1428  total: 498278
+
+CONTIG: mira_c451 (519bp)
+		This contig is unaligned. (519 bp)
+		Unaligned bases: 519  total: 498797
+
+CONTIG: mira_c224 (10011bp)
+Top Length: 167  Top ID: 99.4
+		This contig is partially unaligned. (167 out of 10011)
+		Alignment: 3118395 3118561 | 10004 9838 | 167 167 | 99.4 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c224
+		Unaligned bases: 1 to 9837 (9837)
+		Unaligned bases: 10005 to 10011 (7)
+
+CONTIG: mira_c225 (4902bp)
+		This contig is unaligned. (4902 bp)
+		Unaligned bases: 4902  total: 503699
+
+CONTIG: mira_c226 (2579bp)
+		This contig is unaligned. (2579 bp)
+		Unaligned bases: 2579  total: 506278
+
+CONTIG: mira_c227 (592bp)
+		This contig is unaligned. (592 bp)
+		Unaligned bases: 592  total: 506870
+
+CONTIG: mira_c220 (1482bp)
+		This contig is unaligned. (1482 bp)
+		Unaligned bases: 1482  total: 508352
+
+CONTIG: mira_c221 (3821bp)
+		This contig is unaligned. (3821 bp)
+		Unaligned bases: 3821  total: 512173
+
+CONTIG: mira_c222 (4966bp)
+		This contig is unaligned. (4966 bp)
+		Unaligned bases: 4966  total: 517139
+
+CONTIG: mira_c223 (2493bp)
+Top Length: 2493  Top ID: 97.55
+		One align captures most of this contig: 5020311 5022802 | 2493 1 | 2492 2493 | 97.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c223
+
+CONTIG: mira_c457 (3502bp)
+		This contig is unaligned. (3502 bp)
+		Unaligned bases: 3502  total: 520641
+
+CONTIG: mira_c228 (2776bp)
+		This contig is unaligned. (2776 bp)
+		Unaligned bases: 2776  total: 523417
+
+CONTIG: mira_c229 (1833bp)
+		This contig is unaligned. (1833 bp)
+		Unaligned bases: 1833  total: 525250
+
+CONTIG: mira_c455 (1833bp)
+		This contig is unaligned. (1833 bp)
+		Unaligned bases: 1833  total: 527083
+
+CONTIG: mira_c454 (1094bp)
+		This contig is unaligned. (1094 bp)
+		Unaligned bases: 1094  total: 528177
+
+CONTIG: mira_c69 (1458bp)
+Top Length: 180  Top ID: 96.67
+		This contig is partially unaligned. (180 out of 1458)
+		Alignment: 4831103 4831282 | 1277 1456 | 180 180 | 96.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c69
+		Unaligned bases: 1 to 1276 (1276)
+		Unaligned bases: 1457 to 1458 (2)
+
+CONTIG: mira_c68 (3580bp)
+		This contig is unaligned. (3580 bp)
+		Unaligned bases: 3580  total: 531757
+
+CONTIG: mira_c61 (4128bp)
+		This contig is unaligned. (4128 bp)
+		Unaligned bases: 4128  total: 535885
+
+CONTIG: mira_c60 (3025bp)
+		This contig is unaligned. (3025 bp)
+		Unaligned bases: 3025  total: 538910
+
+CONTIG: mira_c63 (594bp)
+		This contig is unaligned. (594 bp)
+		Unaligned bases: 594  total: 539504
+
+CONTIG: mira_c62 (27503bp)
+Top Length: 772  Top ID: 95.12
+		Skipping redundant alignment 145296 145573 | 279 1 | 278 279 | 96.07 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c62
+		Skipping redundant alignment 300510 300728 | 219 1 | 219 219 | 95.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c62
+		Skipping redundant alignment 313721 313939 | 219 1 | 219 219 | 95.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c62
+		Skipping redundant alignment 322820 323038 | 219 1 | 219 219 | 95.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c62
+		Skipping redundant alignment 330638 330856 | 219 1 | 219 219 | 95.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c62
+		Skipping redundant alignment 279525 279678 | 154 1 | 154 154 | 98.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c62
+		Skipping redundant alignment 9239 9387 | 149 1 | 149 149 | 97.33 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c62
+		Skipping redundant alignment 29012 29161 | 149 1 | 150 149 | 97.33 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c62
+		This contig is misassembled. 10 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 27503 and total length of all aligns is 1054
+		Alignment: 603265 604041 | 1689 918 | 777 772 | 95.12 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c62
+		Alignment: 4655643 4655924 | 1 282 | 282 282 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c62
+		Unaligned bases: 26449
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: mira_c65 (63477bp)
+Top Length: 255  Top ID: 98.82
+		Skipping redundant alignment 5142392 5142636 | 1 245 | 245 245 | 99.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		This contig is partially unaligned. (255 out of 63477)
+		Alignment: 2564190 2564444 | 255 1 | 255 255 | 98.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c65
+		Unaligned bases: 256 to 63477 (63222)
+
+CONTIG: mira_c64 (15003bp)
+		This contig is unaligned. (15003 bp)
+		Unaligned bases: 15003  total: 554507
+
+CONTIG: mira_c67 (2069bp)
+Top Length: 785  Top ID: 95.29
+		This contig is partially unaligned. (785 out of 2069)
+		Alignment: 5086274 5087058 | 785 1 | 785 785 | 95.29 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c67
+		Unaligned bases: 786 to 2069 (1284)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c66 (4149bp)
+		This contig is unaligned. (4149 bp)
+		Unaligned bases: 4149  total: 558656
+
+CONTIG: mira_c318 (893bp)
+Top Length: 893  Top ID: 97.76
+		One align captures most of this contig: 133079 133971 | 893 1 | 893 893 | 97.76 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c318
+
+CONTIG: mira_c319 (2993bp)
+		This contig is unaligned. (2993 bp)
+		Unaligned bases: 2993  total: 561649
+
+CONTIG: mira_c310 (1118bp)
+		This contig is unaligned. (1118 bp)
+		Unaligned bases: 1118  total: 562767
+
+CONTIG: mira_c311 (821bp)
+Top Length: 821  Top ID: 95.01
+		One align captures most of this contig: 139703 140523 | 821 1 | 821 821 | 95.01 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c311
+
+CONTIG: mira_c312 (1443bp)
+		This contig is unaligned. (1443 bp)
+		Unaligned bases: 1443  total: 564210
+
+CONTIG: mira_c313 (1393bp)
+		This contig is unaligned. (1393 bp)
+		Unaligned bases: 1393  total: 565603
+
+CONTIG: mira_c314 (564bp)
+Top Length: 564  Top ID: 95.76
+		One align captures most of this contig: 116801 117364 | 564 1 | 564 564 | 95.76 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c314
+
+CONTIG: mira_c315 (31702bp)
+		This contig is unaligned. (31702 bp)
+		Unaligned bases: 31702  total: 597305
+
+CONTIG: mira_c316 (2046bp)
+Top Length: 242  Top ID: 97.96
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 2046 and total length of all aligns is 452
+		Alignment: 3118166 3118375 | 2046 1837 | 210 210 | 97.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c316
+		Alignment: 3118374 3118618 | 242 1 | 245 242 | 97.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c316
+		Unaligned bases: 1594
+CONTIG: mira_c317 (2412bp)
+Top Length: 153  Top ID: 96.73
+		Skipping redundant alignment 305334 305471 | 1 138 | 138 138 | 97.83 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c317
+		Skipping redundant alignment 14218 14322 | 1 105 | 105 105 | 99.05 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c317
+		Skipping redundant alignment 33992 34096 | 1 105 | 105 105 | 99.05 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c317
+		Skipping redundant alignment 327643 327745 | 1 103 | 103 103 | 99.03 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c317
+		Skipping redundant alignment 335461 335563 | 1 103 | 103 103 | 99.03 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c317
+		Skipping redundant alignment 609666 609768 | 1 103 | 103 103 | 97.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c317
+		Skipping redundant alignment 822874 822976 | 1 103 | 103 103 | 97.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c317
+		Skipping redundant alignment 4650884 4650986 | 103 1 | 103 103 | 97.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c317
+		Skipping redundant alignment 284282 284382 | 1 101 | 101 101 | 99.01 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c317
+		Skipping redundant alignment 150215 150312 | 1 98 | 98 98 | 97.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c317
+		This contig is partially unaligned. (153 out of 2412)
+		Alignment: 318542 318694 | 1 153 | 153 153 | 96.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c317
+		Unaligned bases: 154 to 2412 (2259)
+
+CONTIG: mira_c251 (10217bp)
+		This contig is unaligned. (10217 bp)
+		Unaligned bases: 10217  total: 607522
+
+CONTIG: mira_c250 (3133bp)
+Top Length: 153  Top ID: 96.08
+		This contig is partially unaligned. (153 out of 3133)
+		Alignment: 3119562 3119714 | 3133 2981 | 153 153 | 96.08 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c250
+		Unaligned bases: 1 to 2980 (2980)
+
+CONTIG: mira_c253 (1341bp)
+		This contig is unaligned. (1341 bp)
+		Unaligned bases: 1341  total: 608863
+
+CONTIG: mira_c252 (6461bp)
+		This contig is unaligned. (6461 bp)
+		Unaligned bases: 6461  total: 615324
+
+CONTIG: mira_c255 (880bp)
+Top Length: 880  Top ID: 97.27
+		One align captures most of this contig: 4838055 4838934 | 880 1 | 880 880 | 97.27 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c255
+
+CONTIG: mira_c254 (50507bp)
+Top Length: 2675  Top ID: 97.38
+		This contig is partially unaligned. (2675 out of 50507)
+		Alignment: 3015458 3018132 | 3930 1256 | 2675 2675 | 97.38 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c254
+		Unaligned bases: 1 to 1255 (1255)
+		Unaligned bases: 3931 to 50507 (46577)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c257 (726bp)
+		This contig is unaligned. (726 bp)
+		Unaligned bases: 726  total: 616050
+
+CONTIG: mira_c256 (1262bp)
+		This contig is unaligned. (1262 bp)
+		Unaligned bases: 1262  total: 617312
+
+CONTIG: mira_c259 (48092bp)
+		This contig is unaligned. (48092 bp)
+		Unaligned bases: 48092  total: 665404
+
+CONTIG: mira_c258 (15287bp)
+		This contig is unaligned. (15287 bp)
+		Unaligned bases: 15287  total: 680691
+
+CONTIG: mira_c608 (737bp)
+		This contig is unaligned. (737 bp)
+		Unaligned bases: 737  total: 681428
+
+CONTIG: mira_c609 (709bp)
+		This contig is unaligned. (709 bp)
+		Unaligned bases: 709  total: 682137
+
+CONTIG: mira_c480 (3253bp)
+		This contig is unaligned. (3253 bp)
+		Unaligned bases: 3253  total: 685390
+
+CONTIG: mira_c481 (880bp)
+Top Length: 880  Top ID: 97.61
+		One align captures most of this contig: 125727 126606 | 1 880 | 880 880 | 97.61 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c481
+
+CONTIG: mira_c482 (2323bp)
+		This contig is unaligned. (2323 bp)
+		Unaligned bases: 2323  total: 687713
+
+CONTIG: mira_c483 (11592bp)
+Top Length: 94  Top ID: 96.81
+		This contig is partially unaligned. (94 out of 11592)
+		Alignment: 1985283 1985376 | 11497 11590 | 94 94 | 96.81 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c483
+		Unaligned bases: 1 to 11496 (11496)
+		Unaligned bases: 11591 to 11592 (2)
+
+CONTIG: mira_c484 (1023bp)
+		This contig is unaligned. (1023 bp)
+		Unaligned bases: 1023  total: 688736
+
+CONTIG: mira_c485 (1056bp)
+		This contig is unaligned. (1056 bp)
+		Unaligned bases: 1056  total: 689792
+
+CONTIG: mira_c486 (4878bp)
+		This contig is unaligned. (4878 bp)
+		Unaligned bases: 4878  total: 694670
+
+CONTIG: mira_c487 (1218bp)
+		This contig is unaligned. (1218 bp)
+		Unaligned bases: 1218  total: 695888
+
+CONTIG: mira_c488 (619bp)
+		This contig is unaligned. (619 bp)
+		Unaligned bases: 619  total: 696507
+
+CONTIG: mira_c489 (1051bp)
+		This contig is unaligned. (1051 bp)
+		Unaligned bases: 1051  total: 697558
+
+CONTIG: mira_c603 (1597bp)
+		This contig is unaligned. (1597 bp)
+		Unaligned bases: 1597  total: 699155
+
+CONTIG: mira_c94 (1847bp)
+Top Length: 527  Top ID: 95.45
+		This contig is partially unaligned. (527 out of 1847)
+		Alignment: 73425 73951 | 529 3 | 527 527 | 95.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c94
+		Unaligned bases: 1 to 2 (2)
+		Unaligned bases: 530 to 1847 (1318)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c95 (2319bp)
+		This contig is unaligned. (2319 bp)
+		Unaligned bases: 2319  total: 701474
+
+CONTIG: mira_c96 (1742bp)
+		This contig is unaligned. (1742 bp)
+		Unaligned bases: 1742  total: 703216
+
+CONTIG: mira_c97 (1353bp)
+		This contig is unaligned. (1353 bp)
+		Unaligned bases: 1353  total: 704569
+
+CONTIG: mira_c90 (1394bp)
+		This contig is unaligned. (1394 bp)
+		Unaligned bases: 1394  total: 705963
+
+CONTIG: mira_c91 (1814bp)
+		This contig is unaligned. (1814 bp)
+		Unaligned bases: 1814  total: 707777
+
+CONTIG: mira_c92 (668bp)
+Top Length: 668  Top ID: 96.41
+		One align captures most of this contig: 4745548 4746215 | 668 1 | 668 668 | 96.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c92
+
+CONTIG: mira_c342 (24404bp)
+		This contig is unaligned. (24404 bp)
+		Unaligned bases: 24404  total: 732181
+
+CONTIG: mira_c557 (575bp)
+Top Length: 575  Top ID: 98.26
+		One align captures most of this contig: 112024 112598 | 575 1 | 575 575 | 98.26 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c557
+
+CONTIG: mira_c554 (505bp)
+Top Length: 505  Top ID: 97.03
+		One align captures most of this contig: 110192 110696 | 505 1 | 505 505 | 97.03 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c554
+
+CONTIG: mira_c555 (804bp)
+		This contig is unaligned. (804 bp)
+		Unaligned bases: 804  total: 732985
+
+CONTIG: mira_c98 (2032bp)
+		This contig is unaligned. (2032 bp)
+		Unaligned bases: 2032  total: 735017
+
+CONTIG: mira_c99 (1930bp)
+		This contig is unaligned. (1930 bp)
+		Unaligned bases: 1930  total: 736947
+
+CONTIG: mira_c551 (758bp)
+Top Length: 758  Top ID: 96.17
+		One align captures most of this contig: 4836788 4837545 | 758 1 | 758 758 | 96.17 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c551
+
+CONTIG: mira_c417 (646bp)
+		This contig is unaligned. (646 bp)
+		Unaligned bases: 646  total: 737593
+
+CONTIG: mira_c415 (621bp)
+		This contig is unaligned. (621 bp)
+		Unaligned bases: 621  total: 738214
+
+CONTIG: mira_c414 (790bp)
+		This contig is unaligned. (790 bp)
+		Unaligned bases: 790  total: 739004
+
+CONTIG: mira_c413 (5864bp)
+		This contig is unaligned. (5864 bp)
+		Unaligned bases: 5864  total: 744868
+
+CONTIG: mira_c412 (4300bp)
+		This contig is unaligned. (4300 bp)
+		Unaligned bases: 4300  total: 749168
+
+CONTIG: mira_c411 (1109bp)
+		This contig is unaligned. (1109 bp)
+		Unaligned bases: 1109  total: 750277
+
+CONTIG: mira_c410 (906bp)
+		This contig is unaligned. (906 bp)
+		Unaligned bases: 906  total: 751183
+
+CONTIG: mira_c605 (511bp)
+		This contig is unaligned. (511 bp)
+		Unaligned bases: 511  total: 751694
+
+CONTIG: mira_c419 (1055bp)
+		This contig is unaligned. (1055 bp)
+		Unaligned bases: 1055  total: 752749
+
+CONTIG: mira_c418 (528bp)
+		This contig is unaligned. (528 bp)
+		Unaligned bases: 528  total: 753277
+
+CONTIG: mira_c604 (566bp)
+		This contig is unaligned. (566 bp)
+		Unaligned bases: 566  total: 753843
+
+CONTIG: mira_c571 (3510bp)
+		This contig is unaligned. (3510 bp)
+		Unaligned bases: 3510  total: 757353
+
+CONTIG: mira_c349 (2530bp)
+		This contig is unaligned. (2530 bp)
+		Unaligned bases: 2530  total: 759883
+
+CONTIG: mira_c348 (640bp)
+Top Length: 640  Top ID: 95.94
+		One align captures most of this contig: 158971 159610 | 640 1 | 640 640 | 95.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c348
+
+CONTIG: mira_c671 (524bp)
+		This contig is unaligned. (524 bp)
+		Unaligned bases: 524  total: 760407
+
+CONTIG: mira_c676 (538bp)
+Top Length: 523  Top ID: 95.98
+		This contig is partially unaligned. (523 out of 538)
+		Alignment: 108940 109462 | 1 523 | 523 523 | 95.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c676
+		Unaligned bases: 524 to 538 (15)
+
+CONTIG: mira_c170 (1250bp)
+		This contig is unaligned. (1250 bp)
+		Unaligned bases: 1250  total: 761657
+
+CONTIG: mira_c171 (38026bp)
+		This contig is unaligned. (38026 bp)
+		Unaligned bases: 38026  total: 799683
+
+CONTIG: mira_c172 (1902bp)
+		This contig is unaligned. (1902 bp)
+		Unaligned bases: 1902  total: 801585
+
+CONTIG: mira_c173 (9599bp)
+		This contig is unaligned. (9599 bp)
+		Unaligned bases: 9599  total: 811184
+
+CONTIG: mira_c174 (773bp)
+Top Length: 773  Top ID: 98.06
+		One align captures most of this contig: 120803 121575 | 773 1 | 773 773 | 98.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c174
+
+CONTIG: mira_c175 (2030bp)
+		This contig is unaligned. (2030 bp)
+		Unaligned bases: 2030  total: 813214
+
+CONTIG: mira_c176 (1392bp)
+		This contig is unaligned. (1392 bp)
+		Unaligned bases: 1392  total: 814606
+
+CONTIG: mira_c177 (1498bp)
+		This contig is unaligned. (1498 bp)
+		Unaligned bases: 1498  total: 816104
+
+CONTIG: mira_c178 (2984bp)
+		This contig is unaligned. (2984 bp)
+		Unaligned bases: 2984  total: 819088
+
+CONTIG: mira_c179 (1368bp)
+		This contig is unaligned. (1368 bp)
+		Unaligned bases: 1368  total: 820456
+
+CONTIG: mira_c25 (3521bp)
+		This contig is unaligned. (3521 bp)
+		Unaligned bases: 3521  total: 823977
+
+CONTIG: mira_c24 (960bp)
+		This contig is unaligned. (960 bp)
+		Unaligned bases: 960  total: 824937
+
+CONTIG: mira_c27 (100220bp)
+Top Length: 75  Top ID: 100.0
+		Skipping redundant alignment 279452 279522 | 30941 31011 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [615178][615252] redundant alignment 615178 615252 | 30940 31014 | 75 75 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		This contig is partially unaligned. (75 out of 100220)
+		Alignment: 615178 615252 | 30940 31014 | 75 75 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c27
+		Unaligned bases: 1 to 30939 (30939)
+		Unaligned bases: 31015 to 100220 (69206)
+
+CONTIG: mira_c26 (21481bp)
+		This contig is unaligned. (21481 bp)
+		Unaligned bases: 21481  total: 846418
+
+CONTIG: mira_c21 (859bp)
+Top Length: 841  Top ID: 95.12
+		This contig is partially unaligned. (841 out of 859)
+		Alignment: 137229 138069 | 17 857 | 841 841 | 95.12 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c21
+		Unaligned bases: 1 to 16 (16)
+		Unaligned bases: 858 to 859 (2)
+
+CONTIG: mira_c20 (103420bp)
+Top Length: 5197  Top ID: 95.56
+		This contig is partially unaligned. (5197 out of 103420)
+		Alignment: 4375336 4380532 | 79583 74387 | 5197 5197 | 95.56 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c20
+		Unaligned bases: 1 to 74386 (74386)
+		Unaligned bases: 79584 to 103420 (23837)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c23 (13924bp)
+		This contig is unaligned. (13924 bp)
+		Unaligned bases: 13924  total: 860342
+
+CONTIG: mira_c22 (4578bp)
+		This contig is unaligned. (4578 bp)
+		Unaligned bases: 4578  total: 864920
+
+CONTIG: mira_c29 (15750bp)
+Top Length: 176  Top ID: 98.3
+		This contig is partially unaligned. (176 out of 15750)
+		Alignment: 4808894 4809069 | 15750 15575 | 176 176 | 98.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c29
+		Unaligned bases: 1 to 15574 (15574)
+
+CONTIG: mira_c28 (1721bp)
+		This contig is unaligned. (1721 bp)
+		Unaligned bases: 1721  total: 866641
+
+CONTIG: mira_c354 (1787bp)
+		This contig is unaligned. (1787 bp)
+		Unaligned bases: 1787  total: 868428
+
+CONTIG: mira_c355 (4247bp)
+		This contig is unaligned. (4247 bp)
+		Unaligned bases: 4247  total: 872675
+
+CONTIG: mira_c356 (1288bp)
+		This contig is unaligned. (1288 bp)
+		Unaligned bases: 1288  total: 873963
+
+CONTIG: mira_c357 (844bp)
+Top Length: 842  Top ID: 96.32
+		One align captures most of this contig: 105959 106798 | 1 842 | 840 842 | 96.32 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c357
+
+CONTIG: mira_c219 (1118bp)
+		This contig is unaligned. (1118 bp)
+		Unaligned bases: 1118  total: 875081
+
+CONTIG: mira_c218 (985bp)
+		This contig is unaligned. (985 bp)
+		Unaligned bases: 985  total: 876066
+
+CONTIG: mira_c352 (22275bp)
+		This contig is unaligned. (22275 bp)
+		Unaligned bases: 22275  total: 898341
+
+CONTIG: mira_c353 (5164bp)
+		This contig is unaligned. (5164 bp)
+		Unaligned bases: 5164  total: 903505
+
+CONTIG: mira_c215 (2147bp)
+		This contig is unaligned. (2147 bp)
+		Unaligned bases: 2147  total: 905652
+
+CONTIG: mira_c214 (6033bp)
+		This contig is unaligned. (6033 bp)
+		Unaligned bases: 6033  total: 911685
+
+CONTIG: mira_c217 (1279bp)
+		This contig is unaligned. (1279 bp)
+		Unaligned bases: 1279  total: 912964
+
+CONTIG: mira_c216 (5257bp)
+		This contig is unaligned. (5257 bp)
+		Unaligned bases: 5257  total: 918221
+
+CONTIG: mira_c211 (569bp)
+		This contig is unaligned. (569 bp)
+		Unaligned bases: 569  total: 918790
+
+CONTIG: mira_c210 (1498bp)
+		This contig is unaligned. (1498 bp)
+		Unaligned bases: 1498  total: 920288
+
+CONTIG: mira_c213 (2440bp)
+		This contig is unaligned. (2440 bp)
+		Unaligned bases: 2440  total: 922728
+
+CONTIG: mira_c212 (2156bp)
+		This contig is unaligned. (2156 bp)
+		Unaligned bases: 2156  total: 924884
+
+CONTIG: mira_c50 (4609bp)
+		This contig is unaligned. (4609 bp)
+		Unaligned bases: 4609  total: 929493
+
+CONTIG: mira_c51 (25299bp)
+		This contig is unaligned. (25299 bp)
+		Unaligned bases: 25299  total: 954792
+
+CONTIG: mira_c52 (66507bp)
+		This contig is unaligned. (66507 bp)
+		Unaligned bases: 66507  total: 1021299
+
+CONTIG: mira_c53 (4637bp)
+		This contig is unaligned. (4637 bp)
+		Unaligned bases: 4637  total: 1025936
+
+CONTIG: mira_c54 (1082bp)
+Top Length: 1082  Top ID: 97.41
+		One align captures most of this contig: 5016691 5017769 | 1 1082 | 1079 1082 | 97.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c54
+
+CONTIG: mira_c55 (21369bp)
+		This contig is unaligned. (21369 bp)
+		Unaligned bases: 21369  total: 1047305
+
+CONTIG: mira_c56 (2236bp)
+		This contig is unaligned. (2236 bp)
+		Unaligned bases: 2236  total: 1049541
+
+CONTIG: mira_c57 (6491bp)
+		This contig is unaligned. (6491 bp)
+		Unaligned bases: 6491  total: 1056032
+
+CONTIG: mira_c58 (6303bp)
+Top Length: 951  Top ID: 96.53
+		This contig is partially unaligned. (951 out of 6303)
+		Alignment: 228093 229043 | 1 951 | 951 951 | 96.53 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c58
+		Unaligned bases: 952 to 6303 (5352)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c59 (11584bp)
+		This contig is unaligned. (11584 bp)
+		Unaligned bases: 11584  total: 1067616
+
+CONTIG: mira_c321 (1560bp)
+		This contig is unaligned. (1560 bp)
+		Unaligned bases: 1560  total: 1069176
+
+CONTIG: mira_c320 (16915bp)
+		This contig is unaligned. (16915 bp)
+		Unaligned bases: 16915  total: 1086091
+
+CONTIG: mira_c323 (1027bp)
+		This contig is unaligned. (1027 bp)
+		Unaligned bases: 1027  total: 1087118
+
+CONTIG: mira_c322 (1766bp)
+		This contig is unaligned. (1766 bp)
+		Unaligned bases: 1766  total: 1088884
+
+CONTIG: mira_c325 (4992bp)
+		This contig is unaligned. (4992 bp)
+		Unaligned bases: 4992  total: 1093876
+
+CONTIG: mira_c324 (883bp)
+Top Length: 883  Top ID: 96.04
+		One align captures most of this contig: 4840224 4841106 | 1 883 | 883 883 | 96.04 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c324
+
+CONTIG: mira_c327 (2437bp)
+		This contig is unaligned. (2437 bp)
+		Unaligned bases: 2437  total: 1096313
+
+CONTIG: mira_c326 (694bp)
+		This contig is unaligned. (694 bp)
+		Unaligned bases: 694  total: 1097007
+
+CONTIG: mira_c329 (642bp)
+		This contig is unaligned. (642 bp)
+		Unaligned bases: 642  total: 1097649
+
+CONTIG: mira_c328 (1482bp)
+Top Length: 188  Top ID: 95.74
+		Skipping redundant alignment 145425 145573 | 1333 1482 | 149 150 | 98.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c328
+		Skipping redundant alignment 279530 279678 | 1333 1482 | 149 150 | 98.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c328
+		Skipping redundant alignment 300580 300728 | 1333 1482 | 149 150 | 98.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c328
+		Skipping redundant alignment 313791 313939 | 1333 1482 | 149 150 | 98.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c328
+		Skipping redundant alignment 322890 323038 | 1333 1482 | 149 150 | 98.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c328
+		Skipping redundant alignment 330708 330856 | 1333 1482 | 149 150 | 98.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c328
+		Skipping redundant alignment 604862 605010 | 1333 1482 | 149 150 | 98.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c328
+		Skipping redundant alignment 818069 818217 | 1333 1482 | 149 150 | 98.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c328
+		Skipping redundant alignment 82356 82505 | 1333 1482 | 150 150 | 98.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c328
+		Skipping redundant alignment 4655643 4655792 | 1482 1333 | 150 150 | 98.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c328
+		This contig is partially unaligned. (188 out of 1482)
+		Alignment: 9201 9387 | 1295 1482 | 187 188 | 95.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c328
+		Unaligned bases: 1 to 1294 (1294)
+
+CONTIG: mira_c459 (1471bp)
+Top Length: 1465  Top ID: 95.16
+		One align captures most of this contig: 68986 70450 | 1471 7 | 1465 1465 | 95.16 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c459
+
+CONTIG: mira_c458 (1139bp)
+Top Length: 729  Top ID: 96.02
+		Skipping redundant alignment 305247 305434 | 1 189 | 188 189 | 98.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 318455 318642 | 1 189 | 188 189 | 98.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 327556 327743 | 1 189 | 188 189 | 98.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 335374 335561 | 1 189 | 188 189 | 98.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 14131 14318 | 1 189 | 188 189 | 98.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 33905 34092 | 1 189 | 188 189 | 98.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 87022 87209 | 1 189 | 188 189 | 98.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 150198 150317 | 72 191 | 120 120 | 96.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 822857 822971 | 72 186 | 115 115 | 97.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 4650889 4651003 | 186 72 | 115 115 | 97.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 609653 609774 | 76 196 | 122 121 | 95.9 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 4649598 4649775 | 369 190 | 178 180 | 95.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 824140 824309 | 190 360 | 170 171 | 98.83 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 610134 610304 | 196 367 | 171 172 | 98.26 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 278778 278862 | 278 362 | 85 85 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Skipping redundant alignment 5203783 5203864 | 361 281 | 82 81 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		This contig is partially unaligned. (729 out of 1139)
+		Alignment: 284195 284921 | 1 729 | 727 729 | 96.02 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c458
+		Unaligned bases: 730 to 1139 (410)
+
+CONTIG: mira_c286 (2635bp)
+Top Length: 256  Top ID: 96.89
+		Skipping redundant alignment 305221 305469 | 2635 2387 | 249 249 | 97.2 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c286
+		Skipping redundant alignment 14105 14353 | 2635 2387 | 249 249 | 96.4 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c286
+		Skipping redundant alignment 327530 327745 | 2635 2419 | 216 217 | 99.08 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c286
+		Skipping redundant alignment 335348 335563 | 2635 2419 | 216 217 | 99.08 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c286
+		Skipping redundant alignment 822857 822976 | 2538 2419 | 120 120 | 96.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c286
+		Skipping redundant alignment 609653 609768 | 2534 2419 | 116 116 | 97.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c286
+		Skipping redundant alignment 284169 284382 | 2635 2421 | 214 215 | 99.07 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c286
+		Skipping redundant alignment 150198 150312 | 2538 2424 | 115 115 | 97.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c286
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [33879][34134] redundant alignment 33879 34134 | 2635 2380 | 256 256 | 96.11 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c286
+		This contig is partially unaligned. (256 out of 2635)
+		Alignment: 33879 34134 | 2635 2380 | 256 256 | 96.11 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c286
+		Unaligned bases: 1 to 2379 (2379)
+
+CONTIG: mira_c287 (1925bp)
+		This contig is unaligned. (1925 bp)
+		Unaligned bases: 1925  total: 1099574
+
+CONTIG: mira_c284 (1269bp)
+Top Length: 1268  Top ID: 96.85
+		One align captures most of this contig: 292999 294265 | 2 1269 | 1267 1268 | 96.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c284
+
+CONTIG: mira_c285 (2768bp)
+Top Length: 388  Top ID: 95.12
+		This contig is partially unaligned. (388 out of 2768)
+		Alignment: 359855 360241 | 2768 2381 | 387 388 | 95.12 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c285
+		Unaligned bases: 1 to 2380 (2380)
+
+CONTIG: mira_c282 (6203bp)
+		This contig is unaligned. (6203 bp)
+		Unaligned bases: 6203  total: 1105777
+
+CONTIG: mira_c283 (20486bp)
+		This contig is unaligned. (20486 bp)
+		Unaligned bases: 20486  total: 1126263
+
+CONTIG: mira_c280 (9354bp)
+		This contig is unaligned. (9354 bp)
+		Unaligned bases: 9354  total: 1135617
+
+CONTIG: mira_c281 (3225bp)
+Top Length: 278  Top ID: 96.04
+		This contig is partially unaligned. (278 out of 3225)
+		Alignment: 4789144 4789420 | 3 280 | 277 278 | 96.04 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c281
+		Unaligned bases: 1 to 2 (2)
+		Unaligned bases: 281 to 3225 (2945)
+
+CONTIG: mira_c288 (711bp)
+		This contig is unaligned. (711 bp)
+		Unaligned bases: 711  total: 1136328
+
+CONTIG: mira_c289 (18120bp)
+		This contig is unaligned. (18120 bp)
+		Unaligned bases: 18120  total: 1154448
+
+CONTIG: mira_c422 (568bp)
+		This contig is unaligned. (568 bp)
+		Unaligned bases: 568  total: 1155016
+
+CONTIG: mira_c138 (4135bp)
+		This contig is unaligned. (4135 bp)
+		Unaligned bases: 4135  total: 1159151
+
+CONTIG: mira_c139 (1010bp)
+		This contig is unaligned. (1010 bp)
+		Unaligned bases: 1010  total: 1160161
+
+CONTIG: mira_c134 (2627bp)
+		This contig is unaligned. (2627 bp)
+		Unaligned bases: 2627  total: 1162788
+
+CONTIG: mira_c135 (24655bp)
+		This contig is unaligned. (24655 bp)
+		Unaligned bases: 24655  total: 1187443
+
+CONTIG: mira_c136 (1950bp)
+		This contig is unaligned. (1950 bp)
+		Unaligned bases: 1950  total: 1189393
+
+CONTIG: mira_c137 (965bp)
+		This contig is unaligned. (965 bp)
+		Unaligned bases: 965  total: 1190358
+
+CONTIG: mira_c130 (123952bp)
+		This contig is unaligned. (123952 bp)
+		Unaligned bases: 123952  total: 1314310
+
+CONTIG: mira_c131 (1753bp)
+		This contig is unaligned. (1753 bp)
+		Unaligned bases: 1753  total: 1316063
+
+CONTIG: mira_c132 (1967bp)
+		This contig is unaligned. (1967 bp)
+		Unaligned bases: 1967  total: 1318030
+
+CONTIG: mira_c133 (1348bp)
+		This contig is unaligned. (1348 bp)
+		Unaligned bases: 1348  total: 1319378
+
+CONTIG: mira_c527 (19588bp)
+Top Length: 106  Top ID: 99.06
+		This contig is partially unaligned. (106 out of 19588)
+		Alignment: 3233471 3233576 | 19483 19588 | 106 106 | 99.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c527
+		Unaligned bases: 1 to 19482 (19482)
+
+CONTIG: mira_c526 (537bp)
+		This contig is unaligned. (537 bp)
+		Unaligned bases: 537  total: 1319915
+
+CONTIG: mira_c525 (919bp)
+		This contig is unaligned. (919 bp)
+		Unaligned bases: 919  total: 1320834
+
+CONTIG: mira_c524 (625bp)
+		This contig is unaligned. (625 bp)
+		Unaligned bases: 625  total: 1321459
+
+CONTIG: mira_c523 (21286bp)
+		This contig is unaligned. (21286 bp)
+		Unaligned bases: 21286  total: 1342745
+
+CONTIG: mira_c521 (11278bp)
+		This contig is unaligned. (11278 bp)
+		Unaligned bases: 11278  total: 1354023
+
+CONTIG: mira_c520 (9022bp)
+		This contig is unaligned. (9022 bp)
+		Unaligned bases: 9022  total: 1363045
+
+CONTIG: mira_c529 (719bp)
+Top Length: 719  Top ID: 97.22
+		One align captures most of this contig: 122448 123166 | 719 1 | 719 719 | 97.22 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c529
+
+CONTIG: mira_c528 (896bp)
+		This contig is unaligned. (896 bp)
+		Unaligned bases: 896  total: 1363941
+
+CONTIG: mira_c558 (580bp)
+		This contig is unaligned. (580 bp)
+		Unaligned bases: 580  total: 1364521
+
+CONTIG: mira_c93 (12465bp)
+		This contig is unaligned. (12465 bp)
+		Unaligned bases: 12465  total: 1376986
+
+CONTIG: mira_c149 (4008bp)
+		This contig is unaligned. (4008 bp)
+		Unaligned bases: 4008  total: 1380994
+
+CONTIG: mira_c148 (1158bp)
+		This contig is unaligned. (1158 bp)
+		Unaligned bases: 1158  total: 1382152
+
+CONTIG: mira_c626 (568bp)
+Top Length: 568  Top ID: 95.6
+		One align captures most of this contig: 338606 339173 | 1 568 | 568 568 | 95.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c626
+
+CONTIG: mira_c627 (1426bp)
+		This contig is unaligned. (1426 bp)
+		Unaligned bases: 1426  total: 1383578
+
+CONTIG: mira_c141 (3073bp)
+		This contig is unaligned. (3073 bp)
+		Unaligned bases: 3073  total: 1386651
+
+CONTIG: mira_c140 (3687bp)
+		This contig is unaligned. (3687 bp)
+		Unaligned bases: 3687  total: 1390338
+
+CONTIG: mira_c143 (20344bp)
+		This contig is unaligned. (20344 bp)
+		Unaligned bases: 20344  total: 1410682
+
+CONTIG: mira_c142 (21731bp)
+		This contig is unaligned. (21731 bp)
+		Unaligned bases: 21731  total: 1432413
+
+CONTIG: mira_c145 (3194bp)
+		This contig is unaligned. (3194 bp)
+		Unaligned bases: 3194  total: 1435607
+
+CONTIG: mira_c144 (1827bp)
+		This contig is unaligned. (1827 bp)
+		Unaligned bases: 1827  total: 1437434
+
+CONTIG: mira_c147 (3666bp)
+		This contig is unaligned. (3666 bp)
+		Unaligned bases: 3666  total: 1441100
+
+CONTIG: mira_c146 (1513bp)
+		This contig is unaligned. (1513 bp)
+		Unaligned bases: 1513  total: 1442613
+
+CONTIG: mira_c552 (604bp)
+Top Length: 602  Top ID: 97.67
+		One align captures most of this contig: 139095 139696 | 604 3 | 602 602 | 97.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c552
+
+CONTIG: mira_c553 (1013bp)
+		This contig is unaligned. (1013 bp)
+		Unaligned bases: 1013  total: 1443626
+
+CONTIG: mira_c18 (176145bp)
+Top Length: 1404  Top ID: 95.3
+		This contig is partially unaligned. (1404 out of 176145)
+		Alignment: 4190254 4191657 | 108184 106781 | 1404 1404 | 95.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c18
+		Unaligned bases: 1 to 106780 (106780)
+		Unaligned bases: 108185 to 176145 (67961)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c19 (1222bp)
+		This contig is unaligned. (1222 bp)
+		Unaligned bases: 1222  total: 1444848
+
+CONTIG: mira_c14 (1887bp)
+		This contig is unaligned. (1887 bp)
+		Unaligned bases: 1887  total: 1446735
+
+CONTIG: mira_c15 (168094bp)
+Top Length: 194  Top ID: 97.42
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2995449][2995642] redundant alignment 2995449 2995642 | 21880 22073 | 194 194 | 97.42 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c15
+		Skipping [3235197][3235390] redundant alignment 3235197 3235390 | 21880 22073 | 194 194 | 97.42 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c15
+		This contig is partially unaligned. (194 out of 168094)
+		Alignment: 1109704 1109897 | 21880 22073 | 194 194 | 97.42 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c15
+		Unaligned bases: 1 to 21879 (21879)
+		Unaligned bases: 22074 to 168094 (146021)
+
+CONTIG: mira_c16 (1519bp)
+		This contig is unaligned. (1519 bp)
+		Unaligned bases: 1519  total: 1448254
+
+CONTIG: mira_c17 (16725bp)
+		This contig is unaligned. (16725 bp)
+		Unaligned bases: 16725  total: 1464979
+
+CONTIG: mira_c10 (24217bp)
+		This contig is unaligned. (24217 bp)
+		Unaligned bases: 24217  total: 1489196
+
+CONTIG: mira_c11 (67405bp)
+		This contig is unaligned. (67405 bp)
+		Unaligned bases: 67405  total: 1556601
+
+CONTIG: mira_c12 (19326bp)
+		This contig is unaligned. (19326 bp)
+		Unaligned bases: 19326  total: 1575927
+
+CONTIG: mira_c13 (43373bp)
+		This contig is unaligned. (43373 bp)
+		Unaligned bases: 43373  total: 1619300
+
+CONTIG: mira_c369 (1436bp)
+		This contig is unaligned. (1436 bp)
+		Unaligned bases: 1436  total: 1620736
+
+CONTIG: mira_c368 (35594bp)
+		This contig is unaligned. (35594 bp)
+		Unaligned bases: 35594  total: 1656330
+
+CONTIG: mira_c365 (13993bp)
+Top Length: 456  Top ID: 96.72
+		This contig is partially unaligned. (456 out of 13993)
+		Alignment: 3233471 3233927 | 456 1 | 457 456 | 96.72 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c365
+		Unaligned bases: 457 to 13993 (13537)
+
+CONTIG: mira_c364 (746bp)
+Top Length: 746  Top ID: 98.79
+		One align captures most of this contig: 121412 122157 | 1 746 | 746 746 | 98.79 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c364
+
+CONTIG: mira_c367 (1158bp)
+Top Length: 159  Top ID: 97.48
+		Skipping redundant alignment 305317 305436 | 1158 1039 | 120 120 | 99.17 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c367
+		Skipping redundant alignment 318525 318644 | 1158 1039 | 120 120 | 99.17 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c367
+		This contig is partially unaligned. (159 out of 1158)
+		Alignment: 14201 14358 | 1158 1000 | 158 159 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c367
+		Unaligned bases: 1 to 999 (999)
+
+CONTIG: mira_c366 (72857bp)
+		This contig is unaligned. (72857 bp)
+		Unaligned bases: 72857  total: 1729187
+
+CONTIG: mira_c361 (1831bp)
+		This contig is unaligned. (1831 bp)
+		Unaligned bases: 1831  total: 1731018
+
+CONTIG: mira_c360 (851bp)
+		This contig is unaligned. (851 bp)
+		Unaligned bases: 851  total: 1731869
+
+CONTIG: mira_c363 (1252bp)
+		This contig is unaligned. (1252 bp)
+		Unaligned bases: 1252  total: 1733121
+
+CONTIG: mira_c362 (733bp)
+Top Length: 184  Top ID: 96.2
+		This contig is partially unaligned. (184 out of 733)
+		Alignment: 5038185 5038368 | 1 184 | 184 184 | 96.2 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c362
+		Unaligned bases: 185 to 733 (549)
+
+CONTIG: mira_c242 (2768bp)
+		This contig is unaligned. (2768 bp)
+		Unaligned bases: 2768  total: 1735889
+
+CONTIG: mira_c243 (1346bp)
+		This contig is unaligned. (1346 bp)
+		Unaligned bases: 1346  total: 1737235
+
+CONTIG: mira_c240 (1460bp)
+		This contig is unaligned. (1460 bp)
+		Unaligned bases: 1460  total: 1738695
+
+CONTIG: mira_c241 (2565bp)
+		This contig is unaligned. (2565 bp)
+		Unaligned bases: 2565  total: 1741260
+
+CONTIG: mira_c246 (28854bp)
+		This contig is unaligned. (28854 bp)
+		Unaligned bases: 28854  total: 1770114
+
+CONTIG: mira_c247 (19836bp)
+		This contig is unaligned. (19836 bp)
+		Unaligned bases: 19836  total: 1789950
+
+CONTIG: mira_c244 (3027bp)
+		This contig is unaligned. (3027 bp)
+		Unaligned bases: 3027  total: 1792977
+
+CONTIG: mira_c245 (842bp)
+		This contig is unaligned. (842 bp)
+		Unaligned bases: 842  total: 1793819
+
+CONTIG: mira_c248 (6229bp)
+		This contig is unaligned. (6229 bp)
+		Unaligned bases: 6229  total: 1800048
+
+CONTIG: mira_c249 (2178bp)
+		This contig is unaligned. (2178 bp)
+		Unaligned bases: 2178  total: 1802226
+
+CONTIG: mira_c466 (514bp)
+Top Length: 514  Top ID: 95.72
+		One align captures most of this contig: 268553 269066 | 1 514 | 514 514 | 95.72 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c466
+
+CONTIG: mira_c562 (945bp)
+		This contig is unaligned. (945 bp)
+		Unaligned bases: 945  total: 1803171
+
+CONTIG: mira_c87 (149189bp)
+		This contig is unaligned. (149189 bp)
+		Unaligned bases: 149189  total: 1952360
+
+CONTIG: mira_c86 (6572bp)
+Top Length: 173  Top ID: 98.85
+		Skipping redundant alignment 9239 9407 | 6404 6572 | 169 169 | 97.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c86
+		Skipping redundant alignment 29012 29181 | 6404 6572 | 170 169 | 97.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c86
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [82352][82525] redundant alignment 82352 82525 | 6400 6572 | 174 173 | 98.28 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c86
+		This contig is partially unaligned. (173 out of 6572)
+		Alignment: 82352 82525 | 6400 6572 | 174 173 | 98.28 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c86
+		Unaligned bases: 1 to 6399 (6399)
+
+CONTIG: mira_c85 (5545bp)
+Top Length: 253  Top ID: 96.84
+		This contig is partially unaligned. (253 out of 5545)
+		Alignment: 3119462 3119714 | 5545 5293 | 253 253 | 96.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c85
+		Unaligned bases: 1 to 5292 (5292)
+
+CONTIG: mira_c84 (3720bp)
+		This contig is unaligned. (3720 bp)
+		Unaligned bases: 3720  total: 1956080
+
+CONTIG: mira_c83 (2475bp)
+		This contig is unaligned. (2475 bp)
+		Unaligned bases: 2475  total: 1958555
+
+CONTIG: mira_c82 (4422bp)
+		This contig is unaligned. (4422 bp)
+		Unaligned bases: 4422  total: 1962977
+
+CONTIG: mira_c81 (14595bp)
+		This contig is unaligned. (14595 bp)
+		Unaligned bases: 14595  total: 1977572
+
+CONTIG: mira_c80 (14872bp)
+Top Length: 224  Top ID: 99.55
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [5140981][5141204] redundant alignment 5140981 5141204 | 14649 14872 | 224 224 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c80
+		This contig is partially unaligned. (224 out of 14872)
+		Alignment: 2565632 2565855 | 14872 14649 | 224 224 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c80
+		Unaligned bases: 1 to 14648 (14648)
+
+CONTIG: mira_c400 (1311bp)
+		This contig is unaligned. (1311 bp)
+		Unaligned bases: 1311  total: 1978883
+
+CONTIG: mira_c401 (827bp)
+Top Length: 827  Top ID: 97.46
+		One align captures most of this contig: 4839455 4840281 | 1 827 | 827 827 | 97.46 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c401
+
+CONTIG: mira_c402 (1002bp)
+		This contig is unaligned. (1002 bp)
+		Unaligned bases: 1002  total: 1979885
+
+CONTIG: mira_c403 (523bp)
+		This contig is unaligned. (523 bp)
+		Unaligned bases: 523  total: 1980408
+
+CONTIG: mira_c404 (1506bp)
+		This contig is unaligned. (1506 bp)
+		Unaligned bases: 1506  total: 1981914
+
+CONTIG: mira_c405 (621bp)
+		This contig is unaligned. (621 bp)
+		Unaligned bases: 621  total: 1982535
+
+CONTIG: mira_c89 (1594bp)
+Top Length: 1594  Top ID: 95.44
+		One align captures most of this contig: 5023170 5024767 | 1 1594 | 1598 1594 | 95.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c89
+
+CONTIG: mira_c88 (1543bp)
+		This contig is unaligned. (1543 bp)
+		Unaligned bases: 1543  total: 1984078
+
+CONTIG: mira_c588 (566bp)
+		This contig is unaligned. (566 bp)
+		Unaligned bases: 566  total: 1984644
+
+CONTIG: mira_c581 (591bp)
+		This contig is unaligned. (591 bp)
+		Unaligned bases: 591  total: 1985235
+
+CONTIG: mira_c580 (1108bp)
+		This contig is unaligned. (1108 bp)
+		Unaligned bases: 1108  total: 1986343
+
+CONTIG: mira_c583 (693bp)
+Top Length: 693  Top ID: 97.41
+		One align captures most of this contig: 5016143 5016835 | 1 693 | 693 693 | 97.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c583
+
+CONTIG: mira_c582 (2756bp)
+		This contig is unaligned. (2756 bp)
+		Unaligned bases: 2756  total: 1989099
+
+CONTIG: mira_c585 (760bp)
+Top Length: 325  Top ID: 98.15
+		Skipping redundant alignment 11076 11148 | 560 488 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c585
+		Skipping redundant alignment 30850 30922 | 560 488 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c585
+		Skipping redundant alignment 823794 823866 | 560 488 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c585
+		Skipping redundant alignment 4650080 4650152 | 488 560 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c585
+		Skipping redundant alignment 823438 823509 | 642 571 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c585
+		Skipping redundant alignment 4650437 4650508 | 571 642 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c585
+		Skipping redundant alignment 278988 279098 | 760 650 | 111 111 | 99.1 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c585
+		This contig is partially unaligned. (325 out of 760)
+		Alignment: 150866 151189 | 760 436 | 324 325 | 98.15 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c585
+		Unaligned bases: 1 to 435 (435)
+
+CONTIG: mira_c584 (561bp)
+		This contig is unaligned. (561 bp)
+		Unaligned bases: 561  total: 1989660
+
+CONTIG: mira_c587 (764bp)
+Top Length: 764  Top ID: 97.91
+		Marking as insignificant: 824721 824794 | 537 464 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c587
+		Marking as insignificant: 64526 64599 | 536 463 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c587
+		Marking as insignificant: 4648917 4648991 | 464 538 | 75 75 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c587
+		Marking as insignificant: 4650805 4650882 | 380 457 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c587
+		Marking as insignificant: 610807 610885 | 216 138 | 79 79 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c587
+		Marking as insignificant: 5203884 5203969 | 464 548 | 86 85 | 97.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c587
+		Marking as insignificant: 610483 610571 | 366 278 | 89 89 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c587
+		Marking as insignificant: 278944 279098 | 216 62 | 155 155 | 98.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c587
+		Marking as insignificant: 278579 278742 | 538 375 | 164 164 | 97.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c587
+		Marking as insignificant: 609958 610119 | 539 377 | 162 163 | 98.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c587
+		One align captures most of this contig: 150271 151037 | 764 1 | 767 764 | 97.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c587
+
+CONTIG: mira_c586 (561bp)
+		This contig is unaligned. (561 bp)
+		Unaligned bases: 561  total: 1990221
+
+CONTIG: mira_c610 (1200bp)
+		This contig is unaligned. (1200 bp)
+		Unaligned bases: 1200  total: 1991421
+
+CONTIG: mira_c669 (522bp)
+		This contig is unaligned. (522 bp)
+		Unaligned bases: 522  total: 1991943
+
+CONTIG: mira_c665 (559bp)
+		This contig is unaligned. (559 bp)
+		Unaligned bases: 559  total: 1992502
+
+CONTIG: mira_c663 (557bp)
+		This contig is unaligned. (557 bp)
+		Unaligned bases: 557  total: 1993059
+
+CONTIG: mira_c105 (4794bp)
+		This contig is unaligned. (4794 bp)
+		Unaligned bases: 4794  total: 1997853
+
+CONTIG: mira_c104 (8568bp)
+		This contig is unaligned. (8568 bp)
+		Unaligned bases: 8568  total: 2006421
+
+CONTIG: mira_c107 (2009bp)
+		This contig is unaligned. (2009 bp)
+		Unaligned bases: 2009  total: 2008430
+
+CONTIG: mira_c106 (3148bp)
+		This contig is unaligned. (3148 bp)
+		Unaligned bases: 3148  total: 2011578
+
+CONTIG: mira_c101 (2619bp)
+		This contig is unaligned. (2619 bp)
+		Unaligned bases: 2619  total: 2014197
+
+CONTIG: mira_c100 (1301bp)
+		This contig is unaligned. (1301 bp)
+		Unaligned bases: 1301  total: 2015498
+
+CONTIG: mira_c103 (5976bp)
+		This contig is unaligned. (5976 bp)
+		Unaligned bases: 5976  total: 2021474
+
+CONTIG: mira_c102 (1948bp)
+		This contig is unaligned. (1948 bp)
+		Unaligned bases: 1948  total: 2023422
+
+CONTIG: mira_c109 (3015bp)
+Top Length: 632  Top ID: 96.36
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [2995014][2995644] redundant alignment 2995014 2995644 | 2915 2282 | 631 634 | 95.43 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c109
+		Skipping [3234762][3235390] redundant alignment 3234762 3235390 | 2915 2284 | 629 632 | 96.36 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c109
+		This contig is partially unaligned. (632 out of 3015)
+		Alignment: 1109269 1109897 | 2915 2284 | 629 632 | 96.36 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c109
+		Unaligned bases: 1 to 2283 (2283)
+		Unaligned bases: 2916 to 3015 (100)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c108 (2207bp)
+		This contig is unaligned. (2207 bp)
+		Unaligned bases: 2207  total: 2025629
+
+CONTIG: mira_c618 (727bp)
+		This contig is unaligned. (727 bp)
+		Unaligned bases: 727  total: 2026356
+
+CONTIG: mira_c611 (615bp)
+		This contig is unaligned. (615 bp)
+		Unaligned bases: 615  total: 2026971
+
+CONTIG: mira_c564 (949bp)
+Top Length: 949  Top ID: 97.68
+		Marking as insignificant: 150984 151055 | 761 832 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c564
+		Marking as insignificant: 610886 610962 | 759 835 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c564
+		Marking as insignificant: 610040 610116 | 384 460 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c564
+		Marking as insignificant: 150581 150657 | 384 460 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c564
+		Marking as insignificant: 278658 278736 | 382 460 | 79 79 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c564
+		Marking as insignificant: 823323 823626 | 646 949 | 304 304 | 99.01 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c564
+		Marking as insignificant: 609390 609768 | 1 380 | 379 380 | 95.01 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c564
+		Marking as insignificant: 822597 823056 | 1 460 | 460 460 | 97.4 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c564
+		One align captures most of this contig: 4650320 4651263 | 949 1 | 944 949 | 97.68 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c564
+
+CONTIG: mira_c613 (1134bp)
+		This contig is unaligned. (1134 bp)
+		Unaligned bases: 1134  total: 2028105
+
+CONTIG: mira_c614 (775bp)
+		This contig is unaligned. (775 bp)
+		Unaligned bases: 775  total: 2028880
+
+CONTIG: mira_c601 (700bp)
+Top Length: 224  Top ID: 96.44
+		This contig is partially unaligned. (224 out of 700)
+		Alignment: 4655716 4655940 | 1 224 | 225 224 | 96.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c601
+		Unaligned bases: 225 to 700 (476)
+
+CONTIG: mira_c628 (1010bp)
+		This contig is unaligned. (1010 bp)
+		Unaligned bases: 1010  total: 2029890
+
+CONTIG: mira_c678 (500bp)
+Top Length: 500  Top ID: 96.22
+		One align captures most of this contig: 131431 131932 | 1 500 | 502 500 | 96.22 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c678
+
+CONTIG: mira_c208 (3827bp)
+		This contig is unaligned. (3827 bp)
+		Unaligned bases: 3827  total: 2033717
+
+CONTIG: mira_c209 (7789bp)
+		This contig is unaligned. (7789 bp)
+		Unaligned bases: 7789  total: 2041506
+
+CONTIG: mira_c206 (5488bp)
+Top Length: 1618  Top ID: 97.17
+		Skipping redundant alignment 823493 823874 | 1 380 | 382 380 | 97.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 279289 279447 | 125 287 | 159 163 | 95.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 11075 11149 | 300 374 | 75 75 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 30849 30923 | 300 374 | 75 75 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 64437 64512 | 392 467 | 76 76 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 824031 824473 | 568 1021 | 443 454 | 95.37 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 21771 21863 | 568 660 | 93 93 | 97.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 284386 284554 | 679 847 | 169 169 | 99.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 284919 285086 | 682 847 | 168 166 | 98.21 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 278778 278861 | 764 847 | 84 84 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 4248304 4248376 | 1194 1122 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 615178 615249 | 1123 1194 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 279452 279525 | 1124 1197 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 10984 11069 | 1194 1279 | 86 86 | 98.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 30758 30843 | 1194 1279 | 86 86 | 98.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 824558 824721 | 1198 1360 | 164 163 | 99.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 278399 278652 | 1280 1534 | 254 255 | 97.28 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 609958 610032 | 1460 1534 | 75 75 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 5203884 5203957 | 1535 1462 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Skipping redundant alignment 64526 64608 | 1463 1547 | 83 85 | 97.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		This contig is partially unaligned. (1618 out of 5488)
+		Alignment: 4648835 4650453 | 1618 1 | 1619 1618 | 97.17 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c206
+		Unaligned bases: 1619 to 5488 (3870)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c207 (1398bp)
+		This contig is unaligned. (1398 bp)
+		Unaligned bases: 1398  total: 2042904
+
+CONTIG: mira_c204 (2904bp)
+		This contig is unaligned. (2904 bp)
+		Unaligned bases: 2904  total: 2045808
+
+CONTIG: mira_c205 (2647bp)
+		This contig is unaligned. (2647 bp)
+		Unaligned bases: 2647  total: 2048455
+
+CONTIG: mira_c202 (2470bp)
+		This contig is unaligned. (2470 bp)
+		Unaligned bases: 2470  total: 2050925
+
+CONTIG: mira_c203 (8331bp)
+		This contig is unaligned. (8331 bp)
+		Unaligned bases: 8331  total: 2059256
+
+CONTIG: mira_c200 (4162bp)
+		This contig is unaligned. (4162 bp)
+		Unaligned bases: 4162  total: 2063418
+
+CONTIG: mira_c201 (1730bp)
+		This contig is unaligned. (1730 bp)
+		Unaligned bases: 1730  total: 2065148
+
+CONTIG: mira_c450 (2828bp)
+		This contig is unaligned. (2828 bp)
+		Unaligned bases: 2828  total: 2067976
+
+CONTIG: mira_c507 (825bp)
+		This contig is unaligned. (825 bp)
+		Unaligned bases: 825  total: 2068801
+
+CONTIG: mira_c43 (2870bp)
+		This contig is unaligned. (2870 bp)
+		Unaligned bases: 2870  total: 2071671
+
+CONTIG: mira_c42 (21790bp)
+		This contig is unaligned. (21790 bp)
+		Unaligned bases: 21790  total: 2093461
+
+CONTIG: mira_c41 (17676bp)
+		This contig is unaligned. (17676 bp)
+		Unaligned bases: 17676  total: 2111137
+
+CONTIG: mira_c40 (2928bp)
+		This contig is unaligned. (2928 bp)
+		Unaligned bases: 2928  total: 2114065
+
+CONTIG: mira_c47 (2480bp)
+		This contig is unaligned. (2480 bp)
+		Unaligned bases: 2480  total: 2116545
+
+CONTIG: mira_c46 (5509bp)
+		This contig is unaligned. (5509 bp)
+		Unaligned bases: 5509  total: 2122054
+
+CONTIG: mira_c45 (16999bp)
+		This contig is unaligned. (16999 bp)
+		Unaligned bases: 16999  total: 2139053
+
+CONTIG: mira_c44 (3350bp)
+		This contig is unaligned. (3350 bp)
+		Unaligned bases: 3350  total: 2142403
+
+CONTIG: mira_c49 (4430bp)
+		This contig is unaligned. (4430 bp)
+		Unaligned bases: 4430  total: 2146833
+
+CONTIG: mira_c48 (4058bp)
+		This contig is unaligned. (4058 bp)
+		Unaligned bases: 4058  total: 2150891
+
+CONTIG: mira_c332 (691bp)
+		This contig is unaligned. (691 bp)
+		Unaligned bases: 691  total: 2151582
+
+CONTIG: mira_c333 (17783bp)
+		This contig is unaligned. (17783 bp)
+		Unaligned bases: 17783  total: 2169365
+
+CONTIG: mira_c330 (13153bp)
+		This contig is unaligned. (13153 bp)
+		Unaligned bases: 13153  total: 2182518
+
+CONTIG: mira_c331 (34978bp)
+		This contig is unaligned. (34978 bp)
+		Unaligned bases: 34978  total: 2217496
+
+CONTIG: mira_c336 (1153bp)
+		This contig is unaligned. (1153 bp)
+		Unaligned bases: 1153  total: 2218649
+
+CONTIG: mira_c337 (10189bp)
+		This contig is unaligned. (10189 bp)
+		Unaligned bases: 10189  total: 2228838
+
+CONTIG: mira_c334 (6149bp)
+		This contig is unaligned. (6149 bp)
+		Unaligned bases: 6149  total: 2234987
+
+CONTIG: mira_c335 (1490bp)
+		This contig is unaligned. (1490 bp)
+		Unaligned bases: 1490  total: 2236477
+
+CONTIG: mira_c338 (979bp)
+		This contig is unaligned. (979 bp)
+		Unaligned bases: 979  total: 2237456
+
+CONTIG: mira_c339 (6534bp)
+		This contig is unaligned. (6534 bp)
+		Unaligned bases: 6534  total: 2243990
+
+CONTIG: mira_c448 (3968bp)
+		This contig is unaligned. (3968 bp)
+		Unaligned bases: 3968  total: 2247958
+
+CONTIG: mira_c449 (19568bp)
+		This contig is unaligned. (19568 bp)
+		Unaligned bases: 19568  total: 2267526
+
+CONTIG: mira_c606 (542bp)
+		This contig is unaligned. (542 bp)
+		Unaligned bases: 542  total: 2268068
+
+CONTIG: mira_c538 (571bp)
+Top Length: 571  Top ID: 95.1
+		One align captures most of this contig: 359489 360059 | 1 571 | 571 571 | 95.1 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c538
+
+CONTIG: mira_c530 (11797bp)
+		This contig is unaligned. (11797 bp)
+		Unaligned bases: 11797  total: 2279865
+
+CONTIG: mira_c531 (1520bp)
+		This contig is unaligned. (1520 bp)
+		Unaligned bases: 1520  total: 2281385
+
+CONTIG: mira_c532 (544bp)
+		This contig is unaligned. (544 bp)
+		Unaligned bases: 544  total: 2281929
+
+CONTIG: mira_c533 (3734bp)
+		This contig is unaligned. (3734 bp)
+		Unaligned bases: 3734  total: 2285663
+
+CONTIG: mira_c534 (920bp)
+		This contig is unaligned. (920 bp)
+		Unaligned bases: 920  total: 2286583
+
+CONTIG: mira_c535 (6078bp)
+		This contig is unaligned. (6078 bp)
+		Unaligned bases: 6078  total: 2292661
+
+CONTIG: mira_c536 (7293bp)
+		This contig is unaligned. (7293 bp)
+		Unaligned bases: 7293  total: 2299954
+
+CONTIG: mira_c537 (4281bp)
+		This contig is unaligned. (4281 bp)
+		Unaligned bases: 4281  total: 2304235
+
+CONTIG: mira_c431 (794bp)
+		This contig is unaligned. (794 bp)
+		Unaligned bases: 794  total: 2305029
+
+CONTIG: mira_c430 (25107bp)
+		This contig is unaligned. (25107 bp)
+		Unaligned bases: 25107  total: 2330136
+
+CONTIG: mira_c433 (6403bp)
+		This contig is unaligned. (6403 bp)
+		Unaligned bases: 6403  total: 2336539
+
+CONTIG: mira_c432 (1002bp)
+Top Length: 1002  Top ID: 96.71
+		One align captures most of this contig: 5211142 5212142 | 1002 1 | 1001 1002 | 96.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c432
+
+CONTIG: mira_c434 (921bp)
+		This contig is unaligned. (921 bp)
+		Unaligned bases: 921  total: 2337460
+
+CONTIG: mira_c389 (768bp)
+		This contig is unaligned. (768 bp)
+		Unaligned bases: 768  total: 2338228
+
+CONTIG: mira_c388 (8242bp)
+		This contig is unaligned. (8242 bp)
+		Unaligned bases: 8242  total: 2346470
+
+CONTIG: mira_c387 (992bp)
+		This contig is unaligned. (992 bp)
+		Unaligned bases: 992  total: 2347462
+
+CONTIG: mira_c386 (1192bp)
+		This contig is unaligned. (1192 bp)
+		Unaligned bases: 1192  total: 2348654
+
+CONTIG: mira_c385 (1136bp)
+		This contig is unaligned. (1136 bp)
+		Unaligned bases: 1136  total: 2349790
+
+CONTIG: mira_c384 (800bp)
+		This contig is unaligned. (800 bp)
+		Unaligned bases: 800  total: 2350590
+
+CONTIG: mira_c383 (661bp)
+		This contig is unaligned. (661 bp)
+		Unaligned bases: 661  total: 2351251
+
+CONTIG: mira_c382 (1238bp)
+		This contig is unaligned. (1238 bp)
+		Unaligned bases: 1238  total: 2352489
+
+CONTIG: mira_c381 (648bp)
+Top Length: 648  Top ID: 99.38
+		One align captures most of this contig: 129391 130038 | 648 1 | 648 648 | 99.38 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c381
+
+CONTIG: mira_c380 (1763bp)
+		This contig is unaligned. (1763 bp)
+		Unaligned bases: 1763  total: 2354252
+
+CONTIG: mira_c655 (523bp)
+		This contig is unaligned. (523 bp)
+		Unaligned bases: 523  total: 2354775
+
+CONTIG: mira_c158 (31535bp)
+		This contig is unaligned. (31535 bp)
+		Unaligned bases: 31535  total: 2386310
+
+CONTIG: mira_c159 (19850bp)
+		This contig is unaligned. (19850 bp)
+		Unaligned bases: 19850  total: 2406160
+
+CONTIG: mira_c653 (1093bp)
+		This contig is unaligned. (1093 bp)
+		Unaligned bases: 1093  total: 2407253
+
+CONTIG: mira_c152 (3780bp)
+		This contig is unaligned. (3780 bp)
+		Unaligned bases: 3780  total: 2411033
+
+CONTIG: mira_c153 (4717bp)
+		This contig is unaligned. (4717 bp)
+		Unaligned bases: 4717  total: 2415750
+
+CONTIG: mira_c150 (1917bp)
+		This contig is unaligned. (1917 bp)
+		Unaligned bases: 1917  total: 2417667
+
+CONTIG: mira_c151 (2218bp)
+Top Length: 76  Top ID: 100.0
+		Skipping redundant alignment 150501 150572 | 501 572 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c151
+		Skipping redundant alignment 278581 278652 | 501 572 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c151
+		Skipping redundant alignment 609961 610032 | 501 572 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c151
+		This contig is misassembled. 5 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 2218 and total length of all aligns is 149
+		Alignment: 4649986 4650061 | 487 412 | 76 76 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c151
+		Alignment: 5203884 5203956 | 573 501 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c151
+		Unaligned bases: 2069
+CONTIG: mira_c156 (1724bp)
+Top Length: 95  Top ID: 97.89
+		Skipping redundant alignment 4649792 4649884 | 486 394 | 93 93 | 97.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c156
+		This contig is partially unaligned. (95 out of 1724)
+		Alignment: 824029 824123 | 392 486 | 95 95 | 97.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c156
+		Unaligned bases: 1 to 391 (391)
+		Unaligned bases: 487 to 1724 (1238)
+
+CONTIG: mira_c157 (18696bp)
+		This contig is unaligned. (18696 bp)
+		Unaligned bases: 18696  total: 2436363
+
+CONTIG: mira_c154 (2400bp)
+		This contig is unaligned. (2400 bp)
+		Unaligned bases: 2400  total: 2438763
+
+CONTIG: mira_c155 (12888bp)
+		This contig is unaligned. (12888 bp)
+		Unaligned bases: 12888  total: 2451651
+
+CONTIG: mira_c607 (518bp)
+		This contig is unaligned. (518 bp)
+		Unaligned bases: 518  total: 2452169
+
+CONTIG: mira_c541 (8422bp)
+		This contig is unaligned. (8422 bp)
+		Unaligned bases: 8422  total: 2460591
+
+CONTIG: mira_c378 (978bp)
+		This contig is unaligned. (978 bp)
+		Unaligned bases: 978  total: 2461569
+
+CONTIG: mira_c379 (557bp)
+		This contig is unaligned. (557 bp)
+		Unaligned bases: 557  total: 2462126
+
+CONTIG: mira_c376 (1602bp)
+		This contig is unaligned. (1602 bp)
+		Unaligned bases: 1602  total: 2463728
+
+CONTIG: mira_c377 (930bp)
+		This contig is unaligned. (930 bp)
+		Unaligned bases: 930  total: 2464658
+
+CONTIG: mira_c374 (1463bp)
+		This contig is unaligned. (1463 bp)
+		Unaligned bases: 1463  total: 2466121
+
+CONTIG: mira_c375 (54855bp)
+		This contig is unaligned. (54855 bp)
+		Unaligned bases: 54855  total: 2520976
+
+CONTIG: mira_c372 (1058bp)
+		This contig is unaligned. (1058 bp)
+		Unaligned bases: 1058  total: 2522034
+
+CONTIG: mira_c373 (2307bp)
+		This contig is unaligned. (2307 bp)
+		Unaligned bases: 2307  total: 2524341
+
+CONTIG: mira_c370 (12504bp)
+Top Length: 159  Top ID: 97.48
+		Skipping redundant alignment 3235235 3235391 | 1 157 | 157 157 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c370
+		Skipping redundant alignment 2995487 2995642 | 1 156 | 156 156 | 97.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c370
+		This contig is partially unaligned. (159 out of 12504)
+		Alignment: 1109742 1109900 | 1 159 | 159 159 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c370
+		Unaligned bases: 160 to 12504 (12345)
+
+CONTIG: mira_c371 (909bp)
+		This contig is unaligned. (909 bp)
+		Unaligned bases: 909  total: 2525250
+
+CONTIG: mira_c277 (923bp)
+		This contig is unaligned. (923 bp)
+		Unaligned bases: 923  total: 2526173
+
+CONTIG: mira_c276 (986bp)
+		This contig is unaligned. (986 bp)
+		Unaligned bases: 986  total: 2527159
+
+CONTIG: mira_c275 (28345bp)
+		This contig is unaligned. (28345 bp)
+		Unaligned bases: 28345  total: 2555504
+
+CONTIG: mira_c274 (875bp)
+		This contig is unaligned. (875 bp)
+		Unaligned bases: 875  total: 2556379
+
+CONTIG: mira_c273 (1062bp)
+Top Length: 1062  Top ID: 95.39
+		One align captures most of this contig: 113281 114342 | 1 1062 | 1062 1062 | 95.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c273
+
+CONTIG: mira_c272 (1149bp)
+Top Length: 1149  Top ID: 97.21
+		One align captures most of this contig: 368557 369705 | 1 1149 | 1149 1149 | 97.21 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c272
+
+CONTIG: mira_c271 (30775bp)
+		This contig is unaligned. (30775 bp)
+		Unaligned bases: 30775  total: 2587154
+
+CONTIG: mira_c270 (2026bp)
+		This contig is unaligned. (2026 bp)
+		Unaligned bases: 2026  total: 2589180
+
+CONTIG: mira_c420 (684bp)
+		This contig is unaligned. (684 bp)
+		Unaligned bases: 684  total: 2589864
+
+CONTIG: mira_c279 (1822bp)
+		This contig is unaligned. (1822 bp)
+		Unaligned bases: 1822  total: 2591686
+
+CONTIG: mira_c278 (68070bp)
+		This contig is unaligned. (68070 bp)
+		Unaligned bases: 68070  total: 2659756
+
+CONTIG: mira_c421 (11877bp)
+		This contig is unaligned. (11877 bp)
+		Unaligned bases: 11877  total: 2671633
+
+CONTIG: mira_c426 (666bp)
+Top Length: 666  Top ID: 97.3
+		One align captures most of this contig: 125075 125740 | 666 1 | 666 666 | 97.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c426
+
+CONTIG: mira_c427 (2090bp)
+Top Length: 131  Top ID: 98.47
+		Skipping redundant alignment 305341 305436 | 1 96 | 96 96 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c427
+		Skipping redundant alignment 318549 318644 | 1 96 | 96 96 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c427
+		Skipping redundant alignment 327650 327745 | 1 96 | 96 96 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c427
+		Skipping redundant alignment 335468 335563 | 1 96 | 96 96 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c427
+		Skipping redundant alignment 609673 609768 | 1 96 | 96 96 | 97.92 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c427
+		Skipping redundant alignment 822881 822976 | 1 96 | 96 96 | 97.92 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c427
+		Skipping redundant alignment 4650884 4650979 | 96 1 | 96 96 | 97.92 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c427
+		Skipping redundant alignment 284289 284382 | 1 94 | 94 94 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c427
+		Skipping redundant alignment 150222 150312 | 1 91 | 91 91 | 98.9 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c427
+		This contig is partially unaligned. (131 out of 2090)
+		Alignment: 33999 34128 | 1 131 | 130 131 | 98.47 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c427
+		Unaligned bases: 132 to 2090 (1959)
+
+CONTIG: mira_c424 (6032bp)
+		This contig is unaligned. (6032 bp)
+		Unaligned bases: 6032  total: 2677665
+
+CONTIG: mira_c425 (991bp)
+		This contig is unaligned. (991 bp)
+		Unaligned bases: 991  total: 2678656
+
+CONTIG: mira_c189 (1633bp)
+		This contig is unaligned. (1633 bp)
+		Unaligned bases: 1633  total: 2680289
+
+CONTIG: mira_c188 (2543bp)
+		This contig is unaligned. (2543 bp)
+		Unaligned bases: 2543  total: 2682832
+
+CONTIG: mira_c185 (1130bp)
+		This contig is unaligned. (1130 bp)
+		Unaligned bases: 1130  total: 2683962
+
+CONTIG: mira_c184 (3011bp)
+Top Length: 127  Top ID: 99.21
+		Skipping redundant alignment 284258 284382 | 1 125 | 125 125 | 99.2 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c184
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [87085][87211] redundant alignment 87085 87211 | 1 127 | 127 127 | 99.21 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c184
+		This contig is partially unaligned. (127 out of 3011)
+		Alignment: 14194 14320 | 1 127 | 127 127 | 99.21 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c184
+		Unaligned bases: 128 to 3011 (2884)
+
+CONTIG: mira_c187 (2115bp)
+		This contig is unaligned. (2115 bp)
+		Unaligned bases: 2115  total: 2686077
+
+CONTIG: mira_c186 (1893bp)
+		This contig is unaligned. (1893 bp)
+		Unaligned bases: 1893  total: 2687970
+
+CONTIG: mira_c181 (1889bp)
+Top Length: 141  Top ID: 98.59
+		Skipping redundant alignment 14194 14320 | 3 130 | 127 128 | 99.22 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c181
+		Skipping redundant alignment 87085 87211 | 3 130 | 127 128 | 99.22 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c181
+		Skipping redundant alignment 284258 284382 | 3 128 | 125 126 | 99.21 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c181
+		Skipping redundant alignment 822857 822978 | 11 132 | 122 122 | 96.72 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c181
+		Skipping redundant alignment 4650883 4651003 | 131 11 | 121 121 | 96.69 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c181
+		Skipping redundant alignment 150198 150312 | 11 125 | 115 115 | 97.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c181
+		Skipping redundant alignment 609653 609768 | 15 130 | 116 116 | 97.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c181
+		Skipping redundant alignment 9239 9375 | 1753 1889 | 137 137 | 97.1 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c181
+		Skipping redundant alignment 29012 29149 | 1753 1889 | 138 137 | 97.1 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c181
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [82352][82493] redundant alignment 82352 82493 | 1749 1889 | 142 141 | 97.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c181
+		Skipping [318516][318644] redundant alignment 318516 318644 | 1 130 | 129 130 | 99.23 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c181
+		This contig is misassembled. 13 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 1889 and total length of all aligns is 271
+		Alignment: 279526 279666 | 1749 1889 | 141 141 | 98.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c181
+		Alignment: 305308 305436 | 1 130 | 129 130 | 99.23 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c181
+		Unaligned bases: 1618
+CONTIG: mira_c180 (1739bp)
+		This contig is unaligned. (1739 bp)
+		Unaligned bases: 1739  total: 2689709
+
+CONTIG: mira_c183 (3051bp)
+		This contig is unaligned. (3051 bp)
+		Unaligned bases: 3051  total: 2692760
+
+CONTIG: mira_c182 (2084bp)
+		This contig is unaligned. (2084 bp)
+		Unaligned bases: 2084  total: 2694844
+
+CONTIG: mira_c574 (674bp)
+		This contig is unaligned. (674 bp)
+		Unaligned bases: 674  total: 2695518
+
+CONTIG: mira_c575 (762bp)
+		This contig is unaligned. (762 bp)
+		Unaligned bases: 762  total: 2696280
+
+CONTIG: mira_c576 (8839bp)
+		This contig is unaligned. (8839 bp)
+		Unaligned bases: 8839  total: 2705119
+
+CONTIG: mira_c479 (886bp)
+Top Length: 886  Top ID: 97.63
+		One align captures most of this contig: 453865 454750 | 886 1 | 886 886 | 97.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c479
+
+CONTIG: mira_c478 (575bp)
+		This contig is unaligned. (575 bp)
+		Unaligned bases: 575  total: 2705694
+
+CONTIG: mira_c572 (1212bp)
+		This contig is unaligned. (1212 bp)
+		Unaligned bases: 1212  total: 2706906
+
+CONTIG: mira_c573 (1572bp)
+		This contig is unaligned. (1572 bp)
+		Unaligned bases: 1572  total: 2708478
+
+CONTIG: mira_c475 (9241bp)
+		This contig is unaligned. (9241 bp)
+		Unaligned bases: 9241  total: 2717719
+
+CONTIG: mira_c474 (528bp)
+		This contig is unaligned. (528 bp)
+		Unaligned bases: 528  total: 2718247
+
+CONTIG: mira_c477 (784bp)
+		This contig is unaligned. (784 bp)
+		Unaligned bases: 784  total: 2719031
+
+CONTIG: mira_c476 (654bp)
+		This contig is unaligned. (654 bp)
+		Unaligned bases: 654  total: 2719685
+
+CONTIG: mira_c471 (1592bp)
+		This contig is unaligned. (1592 bp)
+		Unaligned bases: 1592  total: 2721277
+
+CONTIG: mira_c470 (510bp)
+		This contig is unaligned. (510 bp)
+		Unaligned bases: 510  total: 2721787
+
+CONTIG: mira_c473 (8396bp)
+		This contig is unaligned. (8396 bp)
+		Unaligned bases: 8396  total: 2730183
+
+CONTIG: mira_c472 (7980bp)
+		This contig is unaligned. (7980 bp)
+		Unaligned bases: 7980  total: 2738163
+
+CONTIG: mira_c598 (1202bp)
+		This contig is unaligned. (1202 bp)
+		Unaligned bases: 1202  total: 2739365
+
+CONTIG: mira_c599 (578bp)
+		This contig is unaligned. (578 bp)
+		Unaligned bases: 578  total: 2739943
+
+CONTIG: mira_c578 (1406bp)
+		This contig is unaligned. (1406 bp)
+		Unaligned bases: 1406  total: 2741349
+
+CONTIG: mira_c590 (1967bp)
+		This contig is unaligned. (1967 bp)
+		Unaligned bases: 1967  total: 2743316
+
+CONTIG: mira_c596 (905bp)
+		This contig is unaligned. (905 bp)
+		Unaligned bases: 905  total: 2744221
+
+CONTIG: mira_c597 (2163bp)
+		This contig is unaligned. (2163 bp)
+		Unaligned bases: 2163  total: 2746384
+
+CONTIG: mira_c579 (527bp)
+Top Length: 527  Top ID: 96.2
+		One align captures most of this contig: 130193 130719 | 527 1 | 527 527 | 96.2 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c579
+
+CONTIG: mira_c116 (24071bp)
+		This contig is unaligned. (24071 bp)
+		Unaligned bases: 24071  total: 2770455
+
+CONTIG: mira_c117 (2997bp)
+		This contig is unaligned. (2997 bp)
+		Unaligned bases: 2997  total: 2773452
+
+CONTIG: mira_c114 (8864bp)
+		This contig is unaligned. (8864 bp)
+		Unaligned bases: 8864  total: 2782316
+
+CONTIG: mira_c115 (6133bp)
+		This contig is unaligned. (6133 bp)
+		Unaligned bases: 6133  total: 2788449
+
+CONTIG: mira_c112 (2378bp)
+		This contig is unaligned. (2378 bp)
+		Unaligned bases: 2378  total: 2790827
+
+CONTIG: mira_c113 (9574bp)
+		This contig is unaligned. (9574 bp)
+		Unaligned bases: 9574  total: 2800401
+
+CONTIG: mira_c110 (6595bp)
+		This contig is unaligned. (6595 bp)
+		Unaligned bases: 6595  total: 2806996
+
+CONTIG: mira_c111 (2255bp)
+Top Length: 169  Top ID: 98.82
+		Skipping redundant alignment 9239 9403 | 165 1 | 165 165 | 97.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c111
+		Skipping redundant alignment 29012 29177 | 165 1 | 166 165 | 97.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c111
+		Skipping redundant alignment 327617 327745 | 2255 2126 | 129 130 | 97.69 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c111
+		Skipping redundant alignment 335437 335563 | 2253 2126 | 127 128 | 97.66 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c111
+		Skipping redundant alignment 284258 284382 | 2253 2128 | 125 126 | 97.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c111
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [279526][279694] redundant alignment 279526 279694 | 169 1 | 169 169 | 98.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c111
+		This contig is misassembled. 8 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 2255 and total length of all aligns is 330
+		Alignment: 82352 82521 | 169 1 | 170 169 | 98.24 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c111
+		Alignment: 87085 87242 | 2253 2093 | 158 161 | 95.03 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c111
+		Unaligned bases: 1925
+CONTIG: mira_c509 (738bp)
+		This contig is unaligned. (738 bp)
+		Unaligned bases: 738  total: 2807734
+
+CONTIG: mira_c508 (20902bp)
+		This contig is unaligned. (20902 bp)
+		Unaligned bases: 20902  total: 2828636
+
+CONTIG: mira_c118 (1896bp)
+		This contig is unaligned. (1896 bp)
+		Unaligned bases: 1896  total: 2830532
+
+CONTIG: mira_c119 (2020bp)
+		This contig is unaligned. (2020 bp)
+		Unaligned bases: 2020  total: 2832552
+
+CONTIG: mira_c444 (1305bp)
+Top Length: 587  Top ID: 95.91
+		This contig is partially unaligned. (587 out of 1305)
+		Alignment: 5039478 5040064 | 1 587 | 587 587 | 95.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c444
+		Unaligned bases: 588 to 1305 (718)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c445 (555bp)
+		This contig is unaligned. (555 bp)
+		Unaligned bases: 555  total: 2833107
+
+CONTIG: mira_c446 (12938bp)
+Top Length: 94  Top ID: 96.81
+		This contig is partially unaligned. (94 out of 12938)
+		Alignment: 1985283 1985376 | 72 165 | 94 94 | 96.81 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c446
+		Unaligned bases: 1 to 71 (71)
+		Unaligned bases: 166 to 12938 (12773)
+
+CONTIG: mira_c447 (594bp)
+		This contig is unaligned. (594 bp)
+		Unaligned bases: 594  total: 2833701
+
+CONTIG: mira_c440 (1012bp)
+		This contig is unaligned. (1012 bp)
+		Unaligned bases: 1012  total: 2834713
+
+CONTIG: mira_c441 (567bp)
+Top Length: 567  Top ID: 97.53
+		One align captures most of this contig: 5019561 5020127 | 1 567 | 567 567 | 97.53 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c441
+
+CONTIG: mira_c442 (1280bp)
+Top Length: 939  Top ID: 95.95
+		This contig is partially unaligned. (939 out of 1280)
+		Alignment: 4998043 4998980 | 939 1 | 938 939 | 95.95 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c442
+		Unaligned bases: 940 to 1280 (341)
+
+CONTIG: mira_c443 (636bp)
+		This contig is unaligned. (636 bp)
+		Unaligned bases: 636  total: 2835349
+
+CONTIG: mira_c8 (30446bp)
+		This contig is unaligned. (30446 bp)
+		Unaligned bases: 30446  total: 2865795
+
+CONTIG: mira_c9 (26061bp)
+		This contig is unaligned. (26061 bp)
+		Unaligned bases: 26061  total: 2891856
+
+CONTIG: mira_c2 (119271bp)
+		This contig is unaligned. (119271 bp)
+		Unaligned bases: 119271  total: 3011127
+
+CONTIG: mira_c3 (36159bp)
+		This contig is unaligned. (36159 bp)
+		Unaligned bases: 36159  total: 3047286
+
+CONTIG: mira_c600 (1319bp)
+		This contig is unaligned. (1319 bp)
+		Unaligned bases: 1319  total: 3048605
+
+CONTIG: mira_c1 (47354bp)
+Top Length: 180  Top ID: 95.58
+		Skipping redundant alignment 279526 279681 | 47199 47354 | 156 156 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c1
+		Skipping redundant alignment 9239 9390 | 47203 47354 | 152 152 | 97.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c1
+		Skipping redundant alignment 29012 29164 | 47203 47354 | 153 152 | 97.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c1
+		This contig is partially unaligned. (180 out of 47354)
+		Alignment: 82329 82508 | 47175 47354 | 180 180 | 95.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c1
+		Unaligned bases: 1 to 47174 (47174)
+
+CONTIG: mira_c6 (3252bp)
+		This contig is unaligned. (3252 bp)
+		Unaligned bases: 3252  total: 3051857
+
+CONTIG: mira_c7 (12883bp)
+		This contig is unaligned. (12883 bp)
+		Unaligned bases: 12883  total: 3064740
+
+CONTIG: mira_c4 (93649bp)
+Top Length: 3516  Top ID: 95.05
+		This contig is partially unaligned. (3516 out of 93649)
+		Alignment: 4539765 4543280 | 19672 16157 | 3516 3516 | 95.05 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c4
+		Unaligned bases: 1 to 16156 (16156)
+		Unaligned bases: 19673 to 93649 (73977)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c5 (9922bp)
+		This contig is unaligned. (9922 bp)
+		Unaligned bases: 9922  total: 3074662
+
+CONTIG: mira_c233 (37663bp)
+		This contig is unaligned. (37663 bp)
+		Unaligned bases: 37663  total: 3112325
+
+CONTIG: mira_c232 (3146bp)
+		This contig is unaligned. (3146 bp)
+		Unaligned bases: 3146  total: 3115471
+
+CONTIG: mira_c231 (9615bp)
+		This contig is unaligned. (9615 bp)
+		Unaligned bases: 9615  total: 3125086
+
+CONTIG: mira_c230 (887bp)
+		This contig is unaligned. (887 bp)
+		Unaligned bases: 887  total: 3125973
+
+CONTIG: mira_c237 (30533bp)
+		This contig is unaligned. (30533 bp)
+		Unaligned bases: 30533  total: 3156506
+
+CONTIG: mira_c236 (24608bp)
+		This contig is unaligned. (24608 bp)
+		Unaligned bases: 24608  total: 3181114
+
+CONTIG: mira_c235 (932bp)
+		This contig is unaligned. (932 bp)
+		Unaligned bases: 932  total: 3182046
+
+CONTIG: mira_c234 (1093bp)
+		This contig is unaligned. (1093 bp)
+		Unaligned bases: 1093  total: 3183139
+
+CONTIG: mira_c239 (106865bp)
+Top Length: 1146  Top ID: 97.29
+		Skipping redundant alignment 1080078 1080148 | 32694 32764 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c239
+		This contig is misassembled. 4 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 106865 and total length of all aligns is 1994
+		Alignment: 2599598 2600288 | 12836 12146 | 691 691 | 95.37 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c239
+		Alignment: 3118569 3119714 | 1 1146 | 1146 1146 | 97.29 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c239
+		Alignment: 4416917 4417073 | 32764 32608 | 157 157 | 95.54 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c239
+		Unaligned bases: 104871
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: mira_c238 (1681bp)
+Top Length: 337  Top ID: 98.52
+		Skipping redundant alignment 284914 285077 | 162 1 | 164 162 | 96.95 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		Skipping redundant alignment 284388 284545 | 158 1 | 158 158 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		Skipping redundant alignment 824145 824301 | 157 1 | 157 157 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		Skipping redundant alignment 4649616 4649765 | 1 152 | 150 152 | 97.37 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		Skipping redundant alignment 5203793 5203864 | 1 72 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		Skipping redundant alignment 150499 150664 | 332 168 | 166 165 | 98.19 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		Skipping redundant alignment 822980 823059 | 251 172 | 80 80 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		Skipping redundant alignment 4650805 4650881 | 175 251 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		Skipping redundant alignment 824721 824793 | 331 259 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		Skipping redundant alignment 5203885 5203957 | 259 331 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		Skipping redundant alignment 64526 64597 | 330 259 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		Skipping redundant alignment 150319 150400 | 515 434 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		Skipping redundant alignment 824640 824721 | 515 434 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		This contig is misassembled. 15 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 1681 and total length of all aligns is 514
+		Alignment: 609955 610290 | 337 1 | 336 337 | 98.52 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		Alignment: 4648918 4649173 | 259 514 | 256 256 | 96.9 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c238
+		Unaligned bases: 1167
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: mira_c559 (760bp)
+Top Length: 209  Top ID: 97.13
+		This contig is partially unaligned. (209 out of 760)
+		Alignment: 159481 159689 | 760 552 | 209 209 | 97.13 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c559
+		Unaligned bases: 1 to 551 (551)
+
+CONTIG: mira_c76 (7264bp)
+Top Length: 513  Top ID: 95.33
+		Skipping redundant alignment 145327 145804 | 476 1 | 478 476 | 95.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 4655412 4655890 | 1 476 | 479 476 | 95.2 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 279526 279909 | 384 1 | 384 384 | 98.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 82352 82736 | 384 1 | 385 384 | 97.92 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 9239 9618 | 380 1 | 380 380 | 97.64 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 29012 29392 | 380 1 | 381 380 | 97.64 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 305337 305471 | 7264 7130 | 135 135 | 97.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 14221 14322 | 7264 7163 | 102 102 | 99.02 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 33995 34096 | 7264 7163 | 102 102 | 99.02 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 327646 327745 | 7264 7165 | 100 100 | 99.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 335464 335563 | 7264 7165 | 100 100 | 99.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 609669 609768 | 7264 7165 | 100 100 | 97.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 822877 822976 | 7264 7165 | 100 100 | 97.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 4650884 4650983 | 7165 7264 | 100 100 | 97.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 284285 284382 | 7264 7167 | 98 98 | 98.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Skipping redundant alignment 150218 150312 | 7264 7170 | 95 95 | 97.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		This contig is misassembled. 18 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 7264 and total length of all aligns is 663
+		Alignment: 318545 318694 | 7264 7115 | 150 150 | 96.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Alignment: 330576 331087 | 513 1 | 512 513 | 95.33 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c76
+		Unaligned bases: 6601
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: mira_c77 (4036bp)
+		This contig is unaligned. (4036 bp)
+		Unaligned bases: 4036  total: 3187175
+
+CONTIG: mira_c74 (2602bp)
+		This contig is unaligned. (2602 bp)
+		Unaligned bases: 2602  total: 3189777
+
+CONTIG: mira_c75 (4133bp)
+Top Length: 791  Top ID: 97.09
+		This contig is partially unaligned. (791 out of 4133)
+		Alignment: 453071 453858 | 3343 4133 | 788 791 | 97.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c75
+		Unaligned bases: 1 to 3342 (3342)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+
+CONTIG: mira_c72 (2831bp)
+Top Length: 2828  Top ID: 95.01
+		One align captures most of this contig: 339131 341958 | 4 2831 | 2828 2828 | 95.01 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c72
+
+CONTIG: mira_c73 (32750bp)
+		This contig is unaligned. (32750 bp)
+		Unaligned bases: 32750  total: 3222527
+
+CONTIG: mira_c70 (156954bp)
+		This contig is unaligned. (156954 bp)
+		Unaligned bases: 156954  total: 3379481
+
+CONTIG: mira_c71 (5152bp)
+		This contig is unaligned. (5152 bp)
+		Unaligned bases: 5152  total: 3384633
+
+CONTIG: mira_c595 (650bp)
+		This contig is unaligned. (650 bp)
+		Unaligned bases: 650  total: 3385283
+
+CONTIG: mira_c78 (2178bp)
+		This contig is unaligned. (2178 bp)
+		Unaligned bases: 2178  total: 3387461
+
+CONTIG: mira_c79 (1464bp)
+		This contig is unaligned. (1464 bp)
+		Unaligned bases: 1464  total: 3388925
+
+CONTIG: mira_c307 (711bp)
+		This contig is unaligned. (711 bp)
+		Unaligned bases: 711  total: 3389636
+
+CONTIG: mira_c306 (2405bp)
+		This contig is unaligned. (2405 bp)
+		Unaligned bases: 2405  total: 3392041
+
+CONTIG: mira_c305 (10457bp)
+		This contig is unaligned. (10457 bp)
+		Unaligned bases: 10457  total: 3402498
+
+CONTIG: mira_c304 (1686bp)
+		This contig is unaligned. (1686 bp)
+		Unaligned bases: 1686  total: 3404184
+
+CONTIG: mira_c303 (2504bp)
+		This contig is unaligned. (2504 bp)
+		Unaligned bases: 2504  total: 3406688
+
+CONTIG: mira_c302 (19670bp)
+		This contig is unaligned. (19670 bp)
+		Unaligned bases: 19670  total: 3426358
+
+CONTIG: mira_c301 (714bp)
+		This contig is unaligned. (714 bp)
+		Unaligned bases: 714  total: 3427072
+
+CONTIG: mira_c300 (1623bp)
+		This contig is unaligned. (1623 bp)
+		Unaligned bases: 1623  total: 3428695
+
+CONTIG: mira_c309 (10327bp)
+		This contig is unaligned. (10327 bp)
+		Unaligned bases: 10327  total: 3439022
+
+CONTIG: mira_c308 (579bp)
+Top Length: 579  Top ID: 95.85
+		One align captures most of this contig: 4808398 4808976 | 1 579 | 579 579 | 95.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c308
+
+CONTIG: mira_c350 (1388bp)
+		This contig is unaligned. (1388 bp)
+		Unaligned bases: 1388  total: 3440410
+
+CONTIG: mira_c351 (1026bp)
+		This contig is unaligned. (1026 bp)
+		Unaligned bases: 1026  total: 3441436
+
+CONTIG: mira_c499 (571bp)
+		This contig is unaligned. (571 bp)
+		Unaligned bases: 571  total: 3442007
+
+CONTIG: mira_c498 (25839bp)
+		This contig is unaligned. (25839 bp)
+		Unaligned bases: 25839  total: 3467846
+
+CONTIG: mira_c497 (10927bp)
+		This contig is unaligned. (10927 bp)
+		Unaligned bases: 10927  total: 3478773
+
+CONTIG: mira_c496 (959bp)
+		This contig is unaligned. (959 bp)
+		Unaligned bases: 959  total: 3479732
+
+CONTIG: mira_c495 (26662bp)
+		This contig is unaligned. (26662 bp)
+		Unaligned bases: 26662  total: 3506394
+
+CONTIG: mira_c494 (1056bp)
+		This contig is unaligned. (1056 bp)
+		Unaligned bases: 1056  total: 3507450
+
+CONTIG: mira_c493 (512bp)
+		This contig is unaligned. (512 bp)
+		Unaligned bases: 512  total: 3507962
+
+CONTIG: mira_c492 (1100bp)
+		This contig is unaligned. (1100 bp)
+		Unaligned bases: 1100  total: 3509062
+
+CONTIG: mira_c491 (3338bp)
+		This contig is unaligned. (3338 bp)
+		Unaligned bases: 3338  total: 3512400
+
+CONTIG: mira_c490 (500bp)
+		This contig is unaligned. (500 bp)
+		Unaligned bases: 500  total: 3512900
+
+CONTIG: mira_c549 (4154bp)
+		This contig is unaligned. (4154 bp)
+		Unaligned bases: 4154  total: 3517054
+
+CONTIG: mira_c548 (1179bp)
+		This contig is unaligned. (1179 bp)
+		Unaligned bases: 1179  total: 3518233
+
+CONTIG: mira_c545 (2706bp)
+		This contig is unaligned. (2706 bp)
+		Unaligned bases: 2706  total: 3520939
+
+CONTIG: mira_c358 (1256bp)
+		This contig is unaligned. (1256 bp)
+		Unaligned bases: 1256  total: 3522195
+
+CONTIG: mira_c547 (957bp)
+		This contig is unaligned. (957 bp)
+		Unaligned bases: 957  total: 3523152
+
+CONTIG: mira_c546 (6471bp)
+		This contig is unaligned. (6471 bp)
+		Unaligned bases: 6471  total: 3529623
+
+CONTIG: mira_c506 (817bp)
+		This contig is unaligned. (817 bp)
+		Unaligned bases: 817  total: 3530440
+
+CONTIG: mira_c540 (4161bp)
+		This contig is unaligned. (4161 bp)
+		Unaligned bases: 4161  total: 3534601
+
+CONTIG: mira_c543 (1300bp)
+		This contig is unaligned. (1300 bp)
+		Unaligned bases: 1300  total: 3535901
+
+CONTIG: mira_c359 (968bp)
+		This contig is unaligned. (968 bp)
+		Unaligned bases: 968  total: 3536869
+
+CONTIG: mira_c390 (903bp)
+		This contig is unaligned. (903 bp)
+		Unaligned bases: 903  total: 3537772
+
+CONTIG: mira_c391 (2148bp)
+		This contig is unaligned. (2148 bp)
+		Unaligned bases: 2148  total: 3539920
+
+CONTIG: mira_c392 (1287bp)
+		This contig is unaligned. (1287 bp)
+		Unaligned bases: 1287  total: 3541207
+
+CONTIG: mira_c393 (3254bp)
+		This contig is unaligned. (3254 bp)
+		Unaligned bases: 3254  total: 3544461
+
+CONTIG: mira_c394 (23630bp)
+		This contig is unaligned. (23630 bp)
+		Unaligned bases: 23630  total: 3568091
+
+CONTIG: mira_c395 (878bp)
+Top Length: 348  Top ID: 95.11
+		This contig is partially unaligned. (348 out of 878)
+		Alignment: 5034683 5035030 | 877 530 | 348 348 | 95.11 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c395
+		Unaligned bases: 1 to 529 (529)
+		Unaligned bases: 878 to 878 (1)
+
+CONTIG: mira_c396 (1918bp)
+Top Length: 82  Top ID: 98.78
+		Skipping redundant alignment 64526 64598 | 1085 1013 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c396
+		Skipping redundant alignment 150500 150572 | 1086 1014 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c396
+		Skipping redundant alignment 278580 278652 | 1086 1014 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c396
+		Skipping redundant alignment 609960 610032 | 1086 1014 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c396
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [278781][278861] redundant alignment 278781 278861 | 993 912 | 81 82 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c396
+		Skipping [284474][284554] redundant alignment 284474 284554 | 993 912 | 81 82 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c396
+		Skipping [4648917][4648990] redundant alignment 4648917 4648990 | 1013 1086 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c396
+		This contig is misassembled. 9 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 1918 and total length of all aligns is 156
+		Alignment: 285006 285086 | 993 912 | 81 82 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c396
+		Alignment: 824721 824794 | 1086 1013 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c396
+		Unaligned bases: 1762
+CONTIG: mira_c397 (2639bp)
+		This contig is unaligned. (2639 bp)
+		Unaligned bases: 2639  total: 3570730
+
+CONTIG: mira_c398 (20475bp)
+		This contig is unaligned. (20475 bp)
+		Unaligned bases: 20475  total: 3591205
+
+CONTIG: mira_c399 (792bp)
+		This contig is unaligned. (792 bp)
+		Unaligned bases: 792  total: 3591997
+
+CONTIG: mira_c428 (876bp)
+		This contig is unaligned. (876 bp)
+		Unaligned bases: 876  total: 3592873
+
+CONTIG: mira_c429 (1141bp)
+Top Length: 1141  Top ID: 96.14
+		One align captures most of this contig: 118537 119677 | 1 1141 | 1141 1141 | 96.14 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome mira_c429
+
+CONTIG: mira_c644 (527bp)
+		This contig is unaligned. (527 bp)
+		Unaligned bases: 527  total: 3593400
+
+CONTIG: mira_c169 (883bp)
+		This contig is unaligned. (883 bp)
+		Unaligned bases: 883  total: 3594283
+
+CONTIG: mira_c168 (47749bp)
+		This contig is unaligned. (47749 bp)
+		Unaligned bases: 47749  total: 3642032
+
+CONTIG: mira_c167 (8505bp)
+		This contig is unaligned. (8505 bp)
+		Unaligned bases: 8505  total: 3650537
+
+CONTIG: mira_c166 (2704bp)
+		This contig is unaligned. (2704 bp)
+		Unaligned bases: 2704  total: 3653241
+
+CONTIG: mira_c165 (2783bp)
+		This contig is unaligned. (2783 bp)
+		Unaligned bases: 2783  total: 3656024
+
+CONTIG: mira_c164 (2173bp)
+		This contig is unaligned. (2173 bp)
+		Unaligned bases: 2173  total: 3658197
+
+CONTIG: mira_c163 (991bp)
+		This contig is unaligned. (991 bp)
+		Unaligned bases: 991  total: 3659188
+
+CONTIG: mira_c162 (3764bp)
+		This contig is unaligned. (3764 bp)
+		Unaligned bases: 3764  total: 3662952
+
+CONTIG: mira_c161 (12848bp)
+		This contig is unaligned. (12848 bp)
+		Unaligned bases: 12848  total: 3675800
+
+CONTIG: mira_c160 (1650bp)
+		This contig is unaligned. (1650 bp)
+		Unaligned bases: 1650  total: 3677450
+
+Analyzing coverage...
+Writing SNPs into /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2360/dataset_2442_files/Contig/contigs_reports/nucmer_output/BC-H-Mira-Contig.used_snps
+	Reference gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome: 108 total alignments. 1 total regions.
+		Region: 1 to 5224283 (5224283 bp)
+			START in gap: 1 to 9201 (9200 bp)
+			Align 1: 9201 9387 mira_c328 1295 1482
+				Gap between this and next alignment: 9387 to 14194 (4806 bp)
+				Next Alignment: 14194 14320 mira_c184 1 127
+
+			Align 2: 14194 14320 mira_c184 1 127
+				Negative gap (overlap) between this and next alignment: 14320 to 14201 (-119 bp)
+				Next Alignment: 14201 14358 mira_c367 1158 1000
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1158 to 1037.
+			Align 3: 14321 14358 mira_c367 1037 1000
+				Gap between this and next alignment: 14358 to 28974 (14615 bp)
+				Next Alignment: 28974 29228 mira_c408 613 867
+
+			Align 4: 28974 29228 mira_c408 613 867
+				Gap between this and next alignment: 29228 to 33879 (4650 bp)
+				Next Alignment: 33879 34134 mira_c286 2635 2380
+
+			Align 5: 33879 34134 mira_c286 2635 2380
+				The next alignment (33999 34128 mira_c427 1 131) is redundant. Skipping.
+				Gap between this and next alignment: 34134 to 52218 (18083 bp)
+				Next Alignment: 52218 53273 mira_c517 1 1056
+
+			Align 7: 52218 53273 mira_c517 1 1056
+				Gap between this and next alignment: 53273 to 68986 (15712 bp)
+				Next Alignment: 68986 70450 mira_c459 1471 7
+
+			Align 8: 68986 70450 mira_c459 1471 7
+				Gap between this and next alignment: 70450 to 73425 (2974 bp)
+				Next Alignment: 73425 73951 mira_c94 529 3
+
+			Align 9: 73425 73951 mira_c94 529 3
+				Gap between this and next alignment: 73951 to 82329 (8377 bp)
+				Next Alignment: 82329 82508 mira_c1 47175 47354
+
+			Align 10: 82329 82508 mira_c1 47175 47354
+				Negative gap (overlap) between this and next alignment: 82508 to 82352 (-156 bp)
+				Next Alignment: 82352 82525 mira_c86 6400 6572
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 6400 to 6556.
+			Align 11: 82509 82525 mira_c86 6556 6572
+				Gap between this and next alignment: 82525 to 105959 (23433 bp)
+				Next Alignment: 105959 106798 mira_c357 1 842
+
+			Align 12: 105959 106798 mira_c357 1 842
+				Negative gap (overlap) between this and next alignment: 106798 to 106671 (-127 bp)
+				Next Alignment: 106671 107389 mira_c519 2 720
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2 to 130.
+			Align 13: 106799 107389 mira_c519 130 720
+				Gap between this and next alignment: 107389 to 108940 (1550 bp)
+				Next Alignment: 108940 109462 mira_c676 1 523
+
+			Align 14: 108940 109462 mira_c676 1 523
+				Gap between this and next alignment: 109462 to 110192 (729 bp)
+				Next Alignment: 110192 110696 mira_c554 505 1
+
+			Align 15: 110192 110696 mira_c554 505 1
+				Gap between this and next alignment: 110696 to 112024 (1327 bp)
+				Next Alignment: 112024 112598 mira_c557 575 1
+
+			Align 16: 112024 112598 mira_c557 575 1
+				Gap between this and next alignment: 112598 to 113281 (682 bp)
+				Next Alignment: 113281 114342 mira_c273 1 1062
+
+			Align 17: 113281 114342 mira_c273 1 1062
+				Gap between this and next alignment: 114342 to 115333 (990 bp)
+				Next Alignment: 115333 115892 mira_c409 3 562
+
+			Align 18: 115333 115892 mira_c409 3 562
+				Gap between this and next alignment: 115892 to 116801 (908 bp)
+				Next Alignment: 116801 117364 mira_c314 564 1
+
+			Align 19: 116801 117364 mira_c314 564 1
+				Gap between this and next alignment: 117364 to 118537 (1172 bp)
+				Next Alignment: 118537 119677 mira_c429 1 1141
+
+			Align 20: 118537 119677 mira_c429 1 1141
+				Gap between this and next alignment: 119677 to 120803 (1125 bp)
+				Next Alignment: 120803 121575 mira_c174 773 1
+
+			Align 21: 120803 121575 mira_c174 773 1
+				Negative gap (overlap) between this and next alignment: 121575 to 121412 (-163 bp)
+				Next Alignment: 121412 122157 mira_c364 1 746
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 165.
+			Align 22: 121576 122157 mira_c364 165 746
+				Gap between this and next alignment: 122157 to 122448 (290 bp)
+				Next Alignment: 122448 123166 mira_c529 719 1
+
+			Align 23: 122448 123166 mira_c529 719 1
+				Gap between this and next alignment: 123166 to 125075 (1908 bp)
+				Next Alignment: 125075 125740 mira_c426 666 1
+
+			Align 24: 125075 125740 mira_c426 666 1
+				Negative gap (overlap) between this and next alignment: 125740 to 125727 (-13 bp)
+				Next Alignment: 125727 126606 mira_c481 1 880
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 15.
+			Align 25: 125741 126606 mira_c481 15 880
+				Negative gap (overlap) between this and next alignment: 126606 to 126413 (-193 bp)
+				Next Alignment: 126413 127483 mira_c510 1 1071
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 195.
+			Align 26: 126607 127483 mira_c510 195 1071
+				Gap between this and next alignment: 127483 to 128758 (1274 bp)
+				Next Alignment: 128758 129484 mira_c511 727 1
+
+			Align 27: 128758 129484 mira_c511 727 1
+				Negative gap (overlap) between this and next alignment: 129484 to 129391 (-93 bp)
+				Next Alignment: 129391 130038 mira_c381 648 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 648 to 554.
+			Align 28: 129485 130038 mira_c381 554 1
+				Gap between this and next alignment: 130038 to 130193 (154 bp)
+				Next Alignment: 130193 130719 mira_c579 527 1
+
+			Align 29: 130193 130719 mira_c579 527 1
+				Gap between this and next alignment: 130719 to 131431 (711 bp)
+				Next Alignment: 131431 131932 mira_c678 1 500
+
+			Align 30: 131431 131932 mira_c678 1 500
+				Negative gap (overlap) between this and next alignment: 131932 to 131754 (-178 bp)
+				Next Alignment: 131754 132483 mira_c513 1 730
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 180.
+			Align 31: 131933 132483 mira_c513 180 730
+				Gap between this and next alignment: 132483 to 133079 (595 bp)
+				Next Alignment: 133079 133971 mira_c318 893 1
+
+			Align 32: 133079 133971 mira_c318 893 1
+				Gap between this and next alignment: 133971 to 137229 (3257 bp)
+				Next Alignment: 137229 138069 mira_c21 17 857
+
+			Align 33: 137229 138069 mira_c21 17 857
+				Gap between this and next alignment: 138069 to 139095 (1025 bp)
+				Next Alignment: 139095 139696 mira_c552 604 3
+
+			Align 34: 139095 139696 mira_c552 604 3
+				Gap between this and next alignment: 139696 to 139703 (6 bp)
+				Next Alignment: 139703 140523 mira_c311 821 1
+
+			Align 35: 139703 140523 mira_c311 821 1
+				Gap between this and next alignment: 140523 to 150271 (9747 bp)
+				Next Alignment: 150271 151037 mira_c587 764 1
+
+			Align 36: 150271 151037 mira_c587 764 1
+				Negative gap (overlap) between this and next alignment: 151037 to 150866 (-171 bp)
+				Next Alignment: 150866 151189 mira_c585 760 436
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 760 to 588.
+			Align 37: 151038 151189 mira_c585 588 436
+				Gap between this and next alignment: 151189 to 158971 (7781 bp)
+				Next Alignment: 158971 159610 mira_c348 640 1
+
+			Align 38: 158971 159610 mira_c348 640 1
+				Negative gap (overlap) between this and next alignment: 159610 to 159481 (-129 bp)
+				Next Alignment: 159481 159689 mira_c559 760 552
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 760 to 630.
+			Align 39: 159611 159689 mira_c559 630 552
+				Gap between this and next alignment: 159689 to 228093 (68403 bp)
+				Next Alignment: 228093 229043 mira_c58 1 951
+
+			Align 40: 228093 229043 mira_c58 1 951
+				Gap between this and next alignment: 229043 to 268553 (39509 bp)
+				Next Alignment: 268553 269066 mira_c466 1 514
+
+			Align 41: 268553 269066 mira_c466 1 514
+				Gap between this and next alignment: 269066 to 278778 (9711 bp)
+				Next Alignment: 278778 279681 mira_c465 904 1
+
+			Align 42: 278778 279681 mira_c465 904 1
+				Gap between this and next alignment: 279681 to 284195 (4513 bp)
+				Next Alignment: 284195 284921 mira_c458 1 729
+
+			Align 43: 284195 284921 mira_c458 1 729
+				Gap between this and next alignment: 284921 to 292999 (8077 bp)
+				Next Alignment: 292999 294265 mira_c284 2 1269
+
+			Align 44: 292999 294265 mira_c284 2 1269
+				Gap between this and next alignment: 294265 to 318542 (24276 bp)
+				Next Alignment: 318542 318694 mira_c317 1 153
+
+			Align 45: 318542 318694 mira_c317 1 153
+				Gap between this and next alignment: 318694 to 338606 (19911 bp)
+				Next Alignment: 338606 339173 mira_c626 1 568
+
+			Align 46: 338606 339173 mira_c626 1 568
+				Negative gap (overlap) between this and next alignment: 339173 to 339131 (-42 bp)
+				Next Alignment: 339131 341958 mira_c72 4 2831
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4 to 47.
+			Align 47: 339174 341958 mira_c72 47 2831
+				Gap between this and next alignment: 341958 to 359489 (17530 bp)
+				Next Alignment: 359489 360059 mira_c538 1 571
+
+			Align 48: 359489 360059 mira_c538 1 571
+				Negative gap (overlap) between this and next alignment: 360059 to 359855 (-204 bp)
+				Next Alignment: 359855 360241 mira_c285 2768 2381
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2768 to 2563.
+			Align 49: 360060 360241 mira_c285 2563 2381
+				Gap between this and next alignment: 360241 to 368557 (8315 bp)
+				Next Alignment: 368557 369705 mira_c272 1 1149
+
+			Align 50: 368557 369705 mira_c272 1 1149
+				Gap between this and next alignment: 369705 to 453071 (83365 bp)
+				Next Alignment: 453071 453858 mira_c75 3343 4133
+
+			Align 51: 453071 453858 mira_c75 3343 4133
+				Gap between this and next alignment: 453858 to 453865 (6 bp)
+				Next Alignment: 453865 454750 mira_c479 886 1
+
+			Align 52: 453865 454750 mira_c479 886 1
+				Gap between this and next alignment: 454750 to 610125 (155374 bp)
+				Next Alignment: 610125 610301 mira_c465 995 819
+
+			Align 53: 610125 610301 mira_c465 995 819
+				Gap between this and next alignment: 610301 to 615178 (4876 bp)
+				Next Alignment: 615178 615252 mira_c27 30940 31014
+
+			Align 54: 615178 615252 mira_c27 30940 31014
+				Gap between this and next alignment: 615252 to 824029 (208776 bp)
+				Next Alignment: 824029 824123 mira_c156 392 486
+
+			Align 55: 824029 824123 mira_c156 392 486
+				Gap between this and next alignment: 824123 to 1080080 (255956 bp)
+				Next Alignment: 1080080 1080148 mira_c263 13914 13982
+
+			Align 56: 1080080 1080148 mira_c263 13914 13982
+				Gap between this and next alignment: 1080148 to 1109269 (29120 bp)
+				Next Alignment: 1109269 1109897 mira_c109 2915 2284
+
+			Align 57: 1109269 1109897 mira_c109 2915 2284
+				The next alignment (1109704 1109897 mira_c15 21880 22073) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1109897 to 1109742 (-155 bp)
+				Next Alignment: 1109742 1109900 mira_c370 1 159
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 157.
+			Align 59: 1109898 1109900 mira_c370 157 159
+				Gap between this and next alignment: 1109900 to 1985283 (875382 bp)
+				Next Alignment: 1985283 1985376 mira_c483 11497 11590
+
+			Align 60: 1985283 1985376 mira_c483 11497 11590
+				The next alignment (1985283 1985376 mira_c446 72 165) is redundant. Skipping.
+				Gap between this and next alignment: 1985376 to 2367414 (382037 bp)
+				Next Alignment: 2367414 2367522 mira_c560 5167 5059
+
+			Align 62: 2367414 2367522 mira_c560 5167 5059
+				Gap between this and next alignment: 2367522 to 2564190 (196667 bp)
+				Next Alignment: 2564190 2564444 mira_c65 255 1
+
+			Align 63: 2564190 2564444 mira_c65 255 1
+				Gap between this and next alignment: 2564444 to 2565632 (1187 bp)
+				Next Alignment: 2565632 2565855 mira_c80 14872 14649
+
+			Align 64: 2565632 2565855 mira_c80 14872 14649
+				The next alignment (2565712 2565855 mira_c566 1340 1197) is redundant. Skipping.
+				Gap between this and next alignment: 2565855 to 2993724 (427868 bp)
+				Next Alignment: 2993724 2994061 mira_c262 338 1
+
+			Align 66: 2993724 2994061 mira_c262 338 1
+				Gap between this and next alignment: 2994061 to 3015458 (21396 bp)
+				Next Alignment: 3015458 3018132 mira_c254 3930 1256
+
+			Align 67: 3015458 3018132 mira_c254 3930 1256
+				Gap between this and next alignment: 3018132 to 3118395 (100262 bp)
+				Next Alignment: 3118395 3118561 mira_c224 10004 9838
+
+			Align 68: 3118395 3118561 mira_c224 10004 9838
+				Gap between this and next alignment: 3118561 to 3119462 (900 bp)
+				Next Alignment: 3119462 3119714 mira_c85 5545 5293
+
+			Align 69: 3119462 3119714 mira_c85 5545 5293
+				The next alignment (3119562 3119714 mira_c250 3133 2981) is redundant. Skipping.
+				Gap between this and next alignment: 3119714 to 3233471 (113756 bp)
+				Next Alignment: 3233471 3233770 mira_c128 302 4
+
+			Align 71: 3233471 3233770 mira_c128 302 4
+				The next alignment (3233471 3233576 mira_c527 19483 19588) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 3233770 to 3233471 (-299 bp)
+				Next Alignment: 3233471 3233927 mira_c365 456 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 456 to 157.
+			Align 73: 3233771 3233927 mira_c365 157 1
+				Gap between this and next alignment: 3233927 to 4190254 (956326 bp)
+				Next Alignment: 4190254 4191657 mira_c18 108184 106781
+
+			Align 74: 4190254 4191657 mira_c18 108184 106781
+				Gap between this and next alignment: 4191657 to 4375336 (183678 bp)
+				Next Alignment: 4375336 4380532 mira_c20 79583 74387
+
+			Align 75: 4375336 4380532 mira_c20 79583 74387
+				Gap between this and next alignment: 4380532 to 4539765 (159232 bp)
+				Next Alignment: 4539765 4543280 mira_c4 19672 16157
+
+			Align 76: 4539765 4543280 mira_c4 19672 16157
+				Gap between this and next alignment: 4543280 to 4648835 (105554 bp)
+				Next Alignment: 4648835 4650453 mira_c206 1618 1
+
+			Align 77: 4648835 4650453 mira_c206 1618 1
+				Negative gap (overlap) between this and next alignment: 4650453 to 4650320 (-133 bp)
+				Next Alignment: 4650320 4651263 mira_c564 949 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 949 to 815.
+			Align 78: 4650454 4651263 mira_c564 815 1
+				Gap between this and next alignment: 4651263 to 4655631 (4367 bp)
+				Next Alignment: 4655631 4655921 mira_c291 1 290
+
+			Align 79: 4655631 4655921 mira_c291 1 290
+				Negative gap (overlap) between this and next alignment: 4655921 to 4655716 (-205 bp)
+				Next Alignment: 4655716 4655940 mira_c601 1 224
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 206.
+			Align 80: 4655922 4655940 mira_c601 206 224
+				Gap between this and next alignment: 4655940 to 4723248 (67307 bp)
+				Next Alignment: 4723248 4727338 mira_c30 4085 1
+
+			Align 81: 4723248 4727338 mira_c30 4085 1
+				Gap between this and next alignment: 4727338 to 4745548 (18209 bp)
+				Next Alignment: 4745548 4746215 mira_c92 668 1
+
+			Align 82: 4745548 4746215 mira_c92 668 1
+				Gap between this and next alignment: 4746215 to 4788772 (42556 bp)
+				Next Alignment: 4788772 4789368 mira_c344 1120 1717
+
+			Align 83: 4788772 4789368 mira_c344 1120 1717
+				Negative gap (overlap) between this and next alignment: 4789368 to 4789144 (-224 bp)
+				Next Alignment: 4789144 4789420 mira_c281 3 280
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3 to 228.
+			Align 84: 4789369 4789420 mira_c281 228 280
+				Gap between this and next alignment: 4789420 to 4808398 (18977 bp)
+				Next Alignment: 4808398 4808976 mira_c308 1 579
+
+			Align 85: 4808398 4808976 mira_c308 1 579
+				Negative gap (overlap) between this and next alignment: 4808976 to 4808894 (-82 bp)
+				Next Alignment: 4808894 4809069 mira_c29 15750 15575
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 15750 to 15667.
+			Align 86: 4808977 4809069 mira_c29 15667 15575
+				Gap between this and next alignment: 4809069 to 4827374 (18304 bp)
+				Next Alignment: 4827374 4828453 mira_c127 1078 1
+
+			Align 87: 4827374 4828453 mira_c127 1078 1
+				Gap between this and next alignment: 4828453 to 4831103 (2649 bp)
+				Next Alignment: 4831103 4831282 mira_c69 1277 1456
+
+			Align 88: 4831103 4831282 mira_c69 1277 1456
+				Gap between this and next alignment: 4831282 to 4834834 (3551 bp)
+				Next Alignment: 4834834 4835365 mira_c439 532 1
+
+			Align 89: 4834834 4835365 mira_c439 532 1
+				Gap between this and next alignment: 4835365 to 4835777 (411 bp)
+				Next Alignment: 4835777 4836593 mira_c267 817 1
+
+			Align 90: 4835777 4836593 mira_c267 817 1
+				Gap between this and next alignment: 4836593 to 4836788 (194 bp)
+				Next Alignment: 4836788 4837545 mira_c551 758 1
+
+			Align 91: 4836788 4837545 mira_c551 758 1
+				Gap between this and next alignment: 4837545 to 4838055 (509 bp)
+				Next Alignment: 4838055 4838934 mira_c255 880 1
+
+			Align 92: 4838055 4838934 mira_c255 880 1
+				Gap between this and next alignment: 4838934 to 4839455 (520 bp)
+				Next Alignment: 4839455 4840281 mira_c401 1 827
+
+			Align 93: 4839455 4840281 mira_c401 1 827
+				Negative gap (overlap) between this and next alignment: 4840281 to 4840224 (-57 bp)
+				Next Alignment: 4840224 4841106 mira_c324 1 883
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 59.
+			Align 94: 4840282 4841106 mira_c324 59 883
+				Gap between this and next alignment: 4841106 to 4998043 (156936 bp)
+				Next Alignment: 4998043 4998980 mira_c442 939 1
+
+			Align 95: 4998043 4998980 mira_c442 939 1
+				Gap between this and next alignment: 4998980 to 5016143 (17162 bp)
+				Next Alignment: 5016143 5016835 mira_c583 1 693
+
+			Align 96: 5016143 5016835 mira_c583 1 693
+				Negative gap (overlap) between this and next alignment: 5016835 to 5016691 (-144 bp)
+				Next Alignment: 5016691 5017769 mira_c54 1 1082
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 146.
+			Align 97: 5016836 5017769 mira_c54 146 1082
+				Gap between this and next alignment: 5017769 to 5019561 (1791 bp)
+				Next Alignment: 5019561 5020127 mira_c441 1 567
+
+			Align 98: 5019561 5020127 mira_c441 1 567
+				Gap between this and next alignment: 5020127 to 5020311 (183 bp)
+				Next Alignment: 5020311 5022802 mira_c223 2493 1
+
+			Align 99: 5020311 5022802 mira_c223 2493 1
+				Gap between this and next alignment: 5022802 to 5023170 (367 bp)
+				Next Alignment: 5023170 5024767 mira_c89 1 1594
+
+			Align 100: 5023170 5024767 mira_c89 1 1594
+				Gap between this and next alignment: 5024767 to 5025826 (1058 bp)
+				Next Alignment: 5025826 5026402 mira_c268 1 577
+
+			Align 101: 5025826 5026402 mira_c268 1 577
+				Gap between this and next alignment: 5026402 to 5028064 (1661 bp)
+				Next Alignment: 5028064 5028728 mira_c340 664 1
+
+			Align 102: 5028064 5028728 mira_c340 664 1
+				Gap between this and next alignment: 5028728 to 5034683 (5954 bp)
+				Next Alignment: 5034683 5035030 mira_c395 877 530
+
+			Align 103: 5034683 5035030 mira_c395 877 530
+				Gap between this and next alignment: 5035030 to 5038185 (3154 bp)
+				Next Alignment: 5038185 5038368 mira_c362 1 184
+
+			Align 104: 5038185 5038368 mira_c362 1 184
+				Gap between this and next alignment: 5038368 to 5039478 (1109 bp)
+				Next Alignment: 5039478 5040064 mira_c444 1 587
+
+			Align 105: 5039478 5040064 mira_c444 1 587
+				Gap between this and next alignment: 5040064 to 5043492 (3427 bp)
+				Next Alignment: 5043492 5044302 mira_c406 812 1
+
+			Align 106: 5043492 5044302 mira_c406 812 1
+				Gap between this and next alignment: 5044302 to 5086274 (41971 bp)
+				Next Alignment: 5086274 5087058 mira_c67 785 1
+
+			Align 107: 5086274 5087058 mira_c67 785 1
+				Gap between this and next alignment: 5087058 to 5211142 (124083 bp)
+				Next Alignment: 5211142 5212142 mira_c432 1002 1
+
+			Align 108: 5211142 5212142 mira_c432 1002 1
+			END in gap: 5212142 to 5224283 (12141 bp)
+
+ERROR: Reference [$ref] does not have any alignments!  Check that this is the same file used for alignment.
+ERROR: Alignment Reference Headers: ['gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome']
+Analysis is finished!
+Founded SNPs were written into /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2360/dataset_2442_files/Contig/contigs_reports/nucmer_output/BC-H-Mira-Contig.used_snps
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 1
+		Relocations: 1
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 1
+	Misassembled Contig Bases: 995
+	Misassmblies Inter-Contig Overlap: 86
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 490 + 70 part
+Partially Unaligned Contigs with Misassemblies: 13
+Unaligned Contig Bases: 5551044
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 76688
+
+	SNPs: 2593
+	Insertions: 55
+	Deletions: 48
+
+	Positive Gaps: 83
+		Internal Gaps:  0
+		External Gaps:  83
+		External Gap Total:  5147595
+		External Gap Average: 62019
+	Negative Gaps: 20
+		Internal Overlaps:  0
+		External Overlaps:  20
+		External Overlaps Total: -2887
+		External Overlaps Average: -144
+	Contigs with Redundant Alignments: 6 (821)

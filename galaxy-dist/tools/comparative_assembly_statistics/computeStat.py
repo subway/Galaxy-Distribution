@@ -1,0 +1,304 @@
+#!/usr/bin/python
+import htmlHelpFile as hhf, combineResult as cr, sys, os
+import subprocess
+def runCommand(customPath, reference, gene, labels, files, filetype):
+	#oscommand = os.getcwd().split("galaxy-dist")[0]+ "galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py "
+	#os.system('mkdir '+customPath) 
+	oscommand = cwd + 'tools/comparative_assembly_statistics/quast-2.2/quast.py '
+	subprocess.call('mkdir '+customPath, shell=True)
+	oscommand += '-o '+customPath
+	
+	if reference != '':
+		oscommand += ' -R ' + reference
+		if gene != '':
+			oscommand += ' -G ' + gene
+	
+	lbl = ''
+	if len(labels) != 0:
+		lbl = ' -l "'
+		for l in labels:
+			lbl += l+', '
+		lbl = lbl[0:len(lbl)-2]+'"'
+		oscommand += lbl
+	if ((minThreshold != 0) | ( maxThreshold != 1000)):
+	    oscommand += ' --contig-thresholds '+str(minThreshold)+','+str(maxThreshold)
+	if filetype:
+	   oscommand += ' --scaffolds'
+	if threads != 0:
+	    oscommand += ' -T '+threads
+
+	dataset = ''
+	for f in files:
+		dataset += ' '+f
+	oscommand += dataset
+	#write to logfile
+	oscommand += ' >quast.log 2>&1'
+	#Run command
+	subprocess.call(oscommand, shell=True)
+
+def writeHtmlFile(path):
+	#Process result, add xy-plot functionality and assessment
+	result = open('result.html', 'w')
+	result.write('<!DOCTYPE html>\n')
+	result.write('<html lang="en">\n')
+	result.write('  <head></head>\n')
+	result.write('  <body>\n')
+	result.write('    <a name="top"><h1>Tool output</h1></a>\n')
+	result.write('    <small>Compare this output? Use the tool <i>Compare statistics</i> from the tool menu.</small><br>\n')
+	result.write('    <p><h2>Content</h2>\n')
+	result.write('    <dl>\n')
+	#path = path.split('job_working_directory/')[1]
+	#jsonpath = cwd + 'database/files/' + str(path.split('job_working_directory/')[1].split('/')[0]) +'/' + str(path.split('job_working_directory')[1].split('/')[-1])
+
+	for pl in [d for d in sorted(os.listdir(path), key=str.lower) if os.path.isdir(path+'/'+d)]:
+		#Make scroll-links
+		result.write('    <dt><a href="#'+pl+'"><strong><font color="black">'+pl+'</font></strong></a>')
+		result.write('        <a href="'+pl+'.zip">Download</a></dt>\n<dd>')
+		for p in [d for d in sorted(os.listdir(path+'/'+pl), key=str.lower) if os.path.isdir(path+'/'+pl+'/'+d)]:
+			if p.strip() != 'report_html_aux':
+				result.write('    <a href="#'+pl+'-'+p+'"><font color="black">'+p+'</font></a><br>\n')
+				if (p.strip() == 'contigs_reports') & (os.path.isdir(path+'/'+pl+'/contigs_reports/nucmer_output')):
+					result.write('    <a href="#'+pl+'-'+p+'-nucmer_output"><font color="black">nucmer_output</font></a><br>\n')
+					
+		result.write('    </dd><br>\n')
+	result.write('    </dl>\n')
+	for pathlist in [d for d in sorted(os.listdir(path), key=str.lower) if os.path.isdir(path+'/'+d)]:
+		path += '/'+pathlist
+		if newRun:
+			#Add modifications to build_total_report.js
+			hhf.addInformationToBuildTotalReport(path)
+			#Add modification to report.html
+			oldReport = open(path+'/report.html', 'r')
+			newReport = open(path+'/newReport.html', 'w')
+			
+		        #Add plot file
+			#plot = os.getcwd().split("galaxy-dist")[0]+ "galaxy-dist/tools/comparative_assembly_statistics/draw_custom_plot.js"
+			plot = cwd + 'tools/comparative_assembly_statistics/draw_custom_plot.js'
+			os.system('cp '+plot+' '+path+'/report_html_aux/scripts/')
+			#Add own modifications
+			for line in oldReport:
+				if line.strip() == '<head>':
+					newReport.write(line+hhf.getScript())
+				elif 'id=\'subheader\'' not in line:
+					newReport.write(line)
+				else:
+					newReport.write(line+hhf.assessOutput(path+'/json/report.json'))
+			oldReport.close()
+			newReport.close()
+			#Replace reportfile
+			os.system('mv '+path+'/newReport.html '+path+'/report.html')
+			
+		#Show result
+		result.write('    <hr>\n<a name="'+pathlist+'"><h3>'+pathlist+'</h3></a><ul>\n')
+		for filename in [f for f in sorted(os.listdir(path), key=str.lower) if os.path.isfile(path+'/'+f)]:
+			result.write('    <li><a href="'+pathlist+'/'+filename+'">'+filename+'</a><br>\n')
+		result.write('    </ul></p>\n')
+		#Add all the other folders
+		for p in [d for d in sorted(os.listdir(path), key=str.lower) if os.path.isdir(path+'/'+d)]:
+			if p.strip() != 'report_html_aux':
+				result.write('   <p><a name="'+pathlist+'-'+p+'"><strong>'+p+'</strong></a><ul>\n')
+				for filename in [f for f in sorted(os.listdir(path+'/'+p), key=str.lower) if os.path.isfile(path+'/'+p+'/'+f)]:
+					result.write('    <li><a href="'+pathlist+'/'+p+'/'+filename+'">'+filename+'</a><br>\n')
+				if (p.strip() == 'contigs_reports') & (os.path.isdir(path+'/contigs_reports/nucmer_output')):
+					result.write('    <li><a name="'+pathlist+'-'+p+'-nucmer_output"><strong>nucmer_output</strong></a><br><ul>\n')
+					tmpPath = path+'/contigs_reports/nucmer_output'
+					for filename in [f for f in sorted(os.listdir(tmpPath), key=str.lower) if os.path.isfile(tmpPath+'/'+f)]:
+						 result.write('    <li><a href="'+path+'/'+filename+'">'+filename+'</a><br>\n')
+					result.write('     </ul>\n')
+				result.write('    </ul></p>\n')
+		result.write('    <a href="#top"><font color="black">[To the top]</font></a><br>')	
+		#Get original path
+		path = path[:-len(pathlist)-1]
+	result.write('    </body>\n')
+	result.write('</html>')
+	result.close()
+
+#Main code handler
+if __name__ == '__main__':
+
+	global newRun; newRun = True
+	global refPath; #refPath = os.getcwd().split("galaxy-dist")[0]+ "galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/"
+	global genePath; #genePath = os.getcwd().split("galaxy-dist")[0]+ "galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/" 
+	
+	global contigLabel; contigLabel = [] #Labels for contig files
+	global scaffoldLabel; scaffoldLabel = [] #Labels for scaffold files
+	global contig; contig = [] #Input contig files
+	global scaffold; scaffold = [] #Input scaffold files
+	global ref; ref = '' #Uploaded reference genome
+	global dbRef; dbRef = [] #Builtin reference genome
+	global multi; multi = False #If uploaded ref is multiple files in one or not
+	global minThreshold; minThreshold = 0;
+	global maxThreshold; maxThreshold = 1000;
+	global threads; threads = 0 #Nr of threads 
+	global path; path = ''	
+	global cwd;
+	for arg in sys.argv:
+		if arg.startswith('Dataset'):
+			data = arg[7:].split(',')
+			#If label contains , merge to one label
+			if len(data) > 3:
+				data[0] = ''.join(data[:-2])
+			#If label contains . remove
+			data[0] = data[0].replace('.','')
+			#If label contains space, replace with _
+			data[0] = data[0].replace(' ','_')
+			if data[-1] == 'contig':
+				contig.append(data[-2])
+				if data[0] != '':
+					contigLabel.append(data[0])
+			else:
+				scaffold.append(data[-2])
+				if data[0] != '':
+					scaffoldLabel.append(data[0])
+		elif arg.startswith('dbRef'):
+			data = arg[5:].split(':')
+			key = data[0].split(',')
+			if data[1] == 'False':
+				for k in key:
+					dbRef.append(refPath+k+'.fna,')
+			else:
+				for k in key:
+					dbRef.append(refPath+k+'.fna,'+genePath+k+'.gff')
+			if len(dbRef) > 1: multi = True
+		elif arg.startswith('Ref'):
+			ref = arg[3:]
+			if ref.split(',')[1] == 'True':
+				multi = True
+		elif arg.startswith('Min'):
+			minThreshold = int(arg[3:])
+		elif arg.startswith('Max'):
+			maxThreshold = int(arg[3:])
+		elif arg.startswith('Thr'):
+			threads = int(arg[3:])
+		elif arg.startswith('workDir'): #path
+			path = arg[7:]
+		elif arg.startswith('currentDir'):
+			cwd = arg[10:].split('tool-data')[0]	
+			refPath = cwd+ "tools/comparative_assembly_statistics/reference/refGen/"
+			genePath = cwd+ "tools/comparative_assembly_statistics/reference/genefiles/"
+		else: pass
+
+	if (len(contig) + len(scaffold) == 0):
+		sys.stderr.write('Provide at least one dataset')
+	elif (len(contigLabel) != 0) and (len(contigLabel) != len(contig)):
+		sys.stderr.write('Number of labels does not match 0 or the number of datasets with contigs')
+	elif (len(scaffoldLabel) != 0) and (len(scaffoldLabel) != len(scaffold)):
+		sys.stderr.write('Number of labels does not match 0 or the number of datasets with scaffolds')
+	elif (minThreshold >= maxThreshold):
+		sys.stderr.write('Threshold minimum cannot be larger than threshold maximum %d vs %d' % (minThreshold, maxThreshold))
+	elif dbRef != []:
+		if dbRef[0].split(',')[0].split('/')[-1] == 'None.fna':
+			sys.stderr.write('Choose a built in reference file or choose the option "Do not use reference" in Reference-dropdown list')
+
+	#Validation complete
+	#os.system('mkdir '+path)
+	subprocess.call('mkdir '+path, shell=True)
+
+	if (len(contig) + len(scaffold) != 0):
+		if ((len(dbRef) < 2) & (not multi)):
+			reference = ''
+			gene = ''
+			if len(ref) != 0:
+				tmpRef = ref.split(',')
+				reference = tmpRef[0]
+				if tmpRef[2] != 'None':
+					gene = tmpRef[2]
+			elif len(dbRef) != 0:
+				data = dbRef[0].split(',')
+				reference = data[0]
+				gene = data[1]
+			#Run command on contig if exists
+			if len(contig) != 0:
+				resultPath = path+'/Contig'
+				runCommand(resultPath, reference, gene, contigLabel, contig, False)
+			#Run command on scaffold if exists
+			if len(scaffold) != 0:
+				resultPath = path+'/Scaffold'
+				runCommand(resultPath, reference, gene, scaffoldLabel, scaffold, True)
+			#Run combined if input contains both contig and scaffold
+			if (len(contig) != 0) & (len(scaffold) != 0):
+				if (len(contigLabel)+len(scaffoldLabel)) == (len(contig)+len(scaffold)):
+					runCommand(path+'/Combined_dataset', reference, gene, contigLabel+scaffoldLabel, contig+scaffold, False)
+				else:
+					runCommand(path+'/Combined_dataset', reference, gene, '', contig+scaffold, False)
+			#Wait until all runs finish before writing the html file
+			writeHtmlFile(path)
+		else:
+			data = []
+			scaff = False
+			inputType = 'contig'
+			if len(contig) != 0:
+				data.append(contigLabel)
+				data.append(contig)
+			else:
+				data.append(scaffoldLabel)
+				data.append(scaffold)
+				scaff = True
+				inputType = 'scaffold'
+			if len(dbRef) != 0:
+				for r in dbRef:
+			       		reference = r.split(',')
+					runCommand(path+'/'+reference[0].split('/')[-1][:-4], reference[0], reference[1], data[0], data[1], scaff)
+				writeHtmlFile(path)
+				for i in range(1,len(dbRef)):
+					if i == 1:
+						cr.combineReference(path+'/'+dbRef[0].split(',')[0].split('/')[-1][:-4], \
+							    path+'/'+dbRef[1].split(',')[0].split('/')[-1][:-4], \
+							    path+'/Combined_reference', False, inputType, minThreshold, maxThreshold)
+					else:
+						cr.combineReference(path+'/Combined_reference', \
+							    path+'/'+dbRef[i].split(',')[0].split('/')[-1][:-4], \
+							    path+'/Combined_reference', True, inputType, minThreshold, maxThreshold)
+				newRun = False
+				writeHtmlFile(path)
+			elif len(ref) != 0:
+				reference = ref.split(',')
+				refSplit = []
+				gene = ''
+				with open(reference[0]) as r:
+					content = r.read()
+					refSplit = content.split('>')[1:]
+				if reference[2] != 'None':
+					with open(reference[2]) as r:
+						content = r.read()
+						gene = content.split('###')
+				for i in range(len(refSplit)):
+					if len(refSplit[i].split('\n')[0].split('|')) > 1:
+						heading = '_'.join(refSplit[i].split('\n')[0].split('|')[:-1]).replace('.','_')
+					else:
+						heading = '_'.join(refSplit[i].split('\n')[0].split('|')).replace('.','_')
+					tmpRef = open(path+'/'+heading+'.fna','w')
+					tmpRef.write('>'+refSplit[i])
+					tmpRef.close()
+					if reference[2] != 'None':	
+						tmpGene = open(path+'/'+heading+'.gff','w')
+						tmpGene.write(gene[i]+'###')
+						tmpGene.close()
+					if reference[2] != 'None':
+						runCommand(path+'/'+heading, path+'/'+heading+'.fna', path+'/'+heading+'.gff', data[0], data[1], scaff)
+					else:
+						runCommand(path+'/'+heading, path+'/'+heading+'.fna', '', data[0], data[1], scaff)
+					#Remove tmp file
+					os.system('rm '+path+'/'+heading+'.*')
+				writeHtmlFile(path)
+				for i in range(1,len(refSplit)):
+					if len(refSplit[i].split('\n')[0].split('|')) > 1:
+						if i == 1:
+							cr.combineReference(path+'/'+'_'.join(refSplit[0].split('\n')[0].split('|')[:-1]).replace('.','_'), \
+										    path+'/'+'_'.join(refSplit[i].split('\n')[0].split('|')[:-1]).replace('.','_'), \
+										    path+'/Combined_reference', False, inputType, minThreshold, maxThreshold)
+						else:
+							cr.combineReference(path+'/Combined_reference', \
+										    path+'/'+'_'.join(refSplit[i].split('\n')[0].split('|')[:-1]).replace('.','_'), \
+										    path+'/Combined_reference', True, inputType, minThreshold, maxThreshold)
+					else:
+						if i == 1:
+							cr.combineReference(path+'/'+'_'.join(refSplit[0].split('\n')[0].split('|')).replace('.','_'), \
+										    path+'/'+'_'.join(refSplit[i].split('\n')[0].split('|')).replace('.','_'), \
+                                                                                    path+'/Combined_reference', False, inputType, minThreshold, maxThreshold)
+                                                else:
+                                                        cr.combineReference(path+'/Combined_reference', \
+										    path+'/'+'_'.join(refSplit[i].split('\n')[0].split('|')).replace('.','_'), \
+                                                                                    path+'/Combined_reference', True, inputType, minThreshold, maxThreshold)
+				newRun = False
+				writeHtmlFile(path)

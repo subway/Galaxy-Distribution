@@ -1,0 +1,50 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0bp)" include all contigs).}
+\begin{tabular}{|l*{6}{|r}|}
+\hline
+Assembly & 1\_GAGE-B-Hiseq & 1\_Velvet\_1.2.08-Hiseq & 1\_Velvet\_1.2.10-Hiseq & 2\_GAGE-B-MiSeq & 2\_Velvet\_1.2.08-Miseq & 2\_Velvet\_1.2.10-Miseq \\ \hline
+\# contigs ($\geq$ 200 bp) & 261 & 246 & 246 & 201 & {\bf 179} & {\bf 179} \\ \hline
+\# contigs ($\geq$ 1000 bp) & 183 & 177 & 177 & 124 & {\bf 108} & {\bf 108} \\ \hline
+Total length ($\geq$ 200 bp) & 3931494 & 3903763 & 3903763 & {\bf 3958933} & 3905232 & 3905232 \\ \hline
+Total length ($\geq$ 1000 bp) & 3894214 & 3870711 & 3870711 & {\bf 3921645} & 3872950 & 3872950 \\ \hline
+\# contigs & 213 & 205 & 205 & 156 & {\bf 135} & {\bf 135} \\ \hline
+Total length & 3914915 & 3889783 & 3889783 & {\bf 3944260} & 3891789 & 3891789 \\ \hline
+Largest contig & 157783 & 157831 & 157831 & {\bf 246346} & {\bf 246346} & {\bf 246346} \\ \hline
+Reference length & 4033464 & 4033464 & 4033464 & 4033464 & 4033464 & 4033464 \\ \hline
+GC (\%) & 47.50 & 47.64 & 47.64 & 47.52 & 47.69 & 47.69 \\ \hline
+Reference GC (\%) & 47.49 & 47.49 & 47.49 & 47.49 & 47.49 & 47.49 \\ \hline
+N50 & 40877 & 46346 & 46346 & {\bf 92036} & 105176 & 105176 \\ \hline
+NG50 & 40085 & 41373 & 41373 & {\bf 92036} & 105176 & 105176 \\ \hline
+N75 & 22754 & 22927 & 22927 & {\bf 43442} & {\bf 43442} & {\bf 43442} \\ \hline
+NG75 & 20673 & 20721 & 20721 & {\bf 39974} & 39408 & 39408 \\ \hline
+L50 & 30 & 28 & 28 & 15 & {\bf 12} & {\bf 12} \\ \hline
+LG50 & 31 & 30 & 30 & 15 & {\bf 12} & {\bf 12} \\ \hline
+L75 & 62 & 59 & 59 & 31 & {\bf 26} & {\bf 26} \\ \hline
+LG75 & 66 & 63 & 63 & 33 & {\bf 28} & {\bf 28} \\ \hline
+\# misassemblies & 4 & 9 & 9 & {\bf 14} & 5 & 5 \\ \hline
+Misassembled contigs length & 55189 & {\bf 127292} & {\bf 127292} & 749414 & 28731 & 28731 \\ \hline
+\# local misassemblies & 8 & 9 & 9 & {\bf 2} & 3 & 3 \\ \hline
+\# unaligned contigs & 1 + 1 part & {\bf 1 + 0 part} & {\bf 1 + 0 part} & 1 + 5 part & 1 + 2 part & 1 + 2 part \\ \hline
+Unaligned contigs length & 576 & {\bf 549} & {\bf 549} & 6703 & 6297 & 6297 \\ \hline
+Genome fraction (\%) & 97.038 & 96.340 & 96.340 & {\bf 97.563} & 96.234 & 96.234 \\ \hline
+Duplication ratio & 1.011 & 1.012 & 1.012 & {\bf 1.007} & {\bf 1.007} & {\bf 1.007} \\ \hline
+\# N's per 100 kbp & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\ \hline
+\# mismatches per 100 kbp & 4.47 & 5.89 & 5.89 & 4.09 & 4.23 & {\bf 0.00} \\ \hline
+\# indels per 100 kbp & 4.85 & 3.14 & 3.14 & 2.80 & 2.63 & {\bf 0.00} \\ \hline
+\# genes & 3386 + 132 part & 3392 + 121 part & 3392 + 121 part & {\bf 3491 + 79 part} & 3460 + 70 part & 3460 + 70 part \\ \hline
+Largest alignment & 157783 & 157831 & 157831 & {\bf 246346} & {\bf 246346} & {\bf 246346} \\ \hline
+NA50 & 40877 & 42805 & 42805 & {\bf 67096} & 105176 & 105176 \\ \hline
+NGA50 & 39468 & 41373 & 41373 & {\bf 63574} & 105176 & 105176 \\ \hline
+NA75 & 22753 & 22638 & 22638 & 40333 & {\bf 43442} & {\bf 43442} \\ \hline
+NGA75 & 20673 & 19470 & 19470 & {\bf 39408} & {\bf 39408} & {\bf 39408} \\ \hline
+LA50 & 30 & 28 & 28 & 16 & {\bf 12} & {\bf 12} \\ \hline
+LGA50 & 31 & 30 & 30 & 17 & {\bf 12} & {\bf 12} \\ \hline
+LA75 & 62 & 59 & 59 & 35 & {\bf 26} & {\bf 26} \\ \hline
+LGA75 & 66 & 64 & 64 & 37 & {\bf 28} & {\bf 28} \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

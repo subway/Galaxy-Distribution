@@ -1,0 +1,41 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     GAGE-B          Spades_2_3_0    Spades_2_5_0  
+# contigs (>= 200 bp)        205             158             134           
+# contigs (>= 1000 bp)       121             83              69            
+Total length (>= 200 bp)     3954925         4000021         3948039       
+Total length (>= 1000 bp)    3912505         3957821         3915729       
+# contigs                    162             126             98            
+Total length                 3939988         3987612         3935605       
+Largest contig               214711          369300          536022        
+Reference length             4033464         4033464         4033464       
+GC (%)                       47.51           47.51           47.51         
+Reference GC (%)             47.49           47.49           47.49         
+N50                          83518           137662          225872        
+NG50                         77074           137662          197838        
+N75                          46841           95826           97170         
+NG75                         44636           95826           95888         
+L50                          16              9               6             
+LG50                         17              9               7             
+L75                          32              17              12            
+LG75                         34              17              13            
+# misassemblies              4               4               8             
+Misassembled contigs length  75745           463075          613451        
+# local misassemblies        2               9               3             
+# unaligned contigs          1 + 1 part      3 + 0 part      3 + 0 part    
+Unaligned contigs length     1261            2685            2685          
+Genome fraction (%)          97.439          98.611          97.468        
+Duplication ratio            1.007           1.007           1.006         
+# N's per 100 kbp            0.00            8.75            0.00          
+# mismatches per 100 kbp     5.19            6.64            6.77          
+# indels per 100 kbp         2.93            3.44            3.38          
+# genes                      3483 + 46 part  3571 + 30 part  3519 + 21 part
+Largest alignment            214707          369299          536022        
+NA50                         83518           137656          197838        
+NGA50                        77065           137656          197838        
+NA75                         46841           95507           95888         
+NGA75                        44636           95507           92090         
+LA50                         16              10              7             
+LGA50                        17              10              7             
+LA75                         32              18              14            
+LGA75                        34              18              15            

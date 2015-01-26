@@ -1,0 +1,24 @@
+<tool id="compare_stat" name="Compare statistics">
+  <description>obtained from 'Compute statistics' tool</description>
+  <command interpreter="python">compareStat.py
+    History${history1}
+    History${history2}
+    #for $r in $results:
+        History${r.result}
+    #end for
+    $html_file.files_path
+  </command>
+  <inputs>
+    <param name="history1" label="Tool output from 'Compute statistics' -tool" type="data"/>
+    <param name="history2" label="Tool output from 'Compute statistics' -tool" type="data"/>
+    <repeat name="results" title="tool output">
+      <param name="result" label="Tool output from 'Compute statistics'-tool" type="data"/>
+    </repeat>
+  </inputs>
+  <outputs>
+    <data name="html_file" format="html" from_work_dir="result.html"/>
+  </outputs>
+  <help>
+    This tool compares tool output (statistics) gotten from 'Compute statistics' tool. Note that each output must have the same thresholds to be compared.
+  </help>
+</tool>

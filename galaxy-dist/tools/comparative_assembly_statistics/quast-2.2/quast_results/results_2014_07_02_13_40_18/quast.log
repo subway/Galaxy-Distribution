@@ -1,0 +1,113 @@
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py --gage --scaffolds -R ../reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna -G ../reference/genefiles/V_cholerae_O1_biovar_eltor_str_N1696.gff /projects/cees/in_progress/sabba/analysis/gage-b-my-own/cabog_7.0_miseq_RAW/9-terminator/asm.scf.fasta
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.32-431.11.2.el6.x86_64-x86_64-with-redhat-6.5-Santiago
+  Python version: 2.7.6
+  CPUs number: 64
+
+Started: 2014-07-02 13:40:18
+
+Logging to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/quast.log
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  ../reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna ==> V_cholerae_O1_biovar_eltor_str_N1696
+
+Contigs:
+  /projects/cees/in_progress/sabba/analysis/gage-b-my-own/cabog_7.0_miseq_RAW/9-terminator/asm.scf.fasta ==> asm.scf
+  breaking scaffolds into contigs:
+      1 scaffolds (asm.scf) were broken into 188 contigs (asm.scf_broken)
+
+2014-07-02 13:40:19
+Running GAGE...
+  1  asm.scf broken...
+  2  asm.scf...
+  1  Logging to files gage_asm.scf_broken.stdout and gage_asm.scf_broken.stderr...
+  2  Logging to files gage_asm.scf.stdout and gage_asm.scf.stderr...
+  1  Done.
+  2  Done.
+WARNING: Error occurred while GAGE was processing assemblies. See GAGE error logs for details (/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/gage/gage_*.stderr)
+
+2014-07-02 13:40:23
+Running Basic statistics processor...
+  Reference genome:
+    V_cholerae_O1_biovar_eltor_str_N1696.fna, Reference length = 4033464, Reference GC % = 47.49
+  Contig files: 
+    1  asm.scf broken
+    2  asm.scf
+  Calculating N50 and L50...
+    1  asm.scf broken, N50 = 1707, L50 = 69, Total length = 318746, GC % = 41.54, # N's per 100 kbp =  0.00
+    2  asm.scf, N50 = 1707, L50 = 69, Total length = 318746, GC % = 41.54, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/basic_stats/NGx_plot.pdf
+Done.
+
+2014-07-02 13:40:25
+Running Contig analyzer...
+  1  asm.scf broken
+  2  asm.scf
+  1  Logging to files /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/contigs_reports/contigs_report_asm.scf_broken.stdout and contigs_report_asm.scf_broken.stderr...
+  2  Logging to files /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/contigs_reports/contigs_report_asm.scf.stdout and contigs_report_asm.scf.stderr...
+  1  Running Nucmer... 
+  2  Running Nucmer... 
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/contigs_reports/alignments_asm.scf.tsv
+  1418 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/contigs_reports/alignments_asm.scf_broken.tsv
+  1418 Analysis is finished.
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-07-02 13:40:29
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    1  asm.scf broken, Largest alignment = 5582, NA50 = 1624, NGA50 = None, LA50 = 72, LGA50 = None
+    2  asm.scf, Largest alignment = 5582, NA50 = 1624, NGA50 = None, LA50 = 72, LGA50 = None
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-07-02 13:40:30
+Running Genome analyzer...
+  Loaded 3693 genes
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  1  asm.scf broken
+  2  asm.scf
+  Drawing genes cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-07-02 13:40:35
+Summarizing...
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/report.html
+  All pdf files are merged to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/plots.pdf
+Log saved to /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast_results/results_2014_07_02_13_40_18/quast.log
+
+Finished: 2014-07-02 13:40:35
+Elapsed time: 0:00:17.037794

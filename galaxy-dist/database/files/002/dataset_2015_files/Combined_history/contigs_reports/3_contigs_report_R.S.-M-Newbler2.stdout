@@ -1,0 +1,1786 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence]
+	Loaded [gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence]
+	Loaded [gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence]
+	Loaded [gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence]
+	Loaded [gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence]
+	Loaded [gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence]
+	Loaded [gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 7
+	Total Region Length: 4602977
+Analyzing contigs...
+CONTIG: scaffold00045__length_2743 (2743bp)
+Top Length: 2743  Top ID: 100.0
+		One align captures most of this contig: 91639 94381 | 1 2743 | 2743 2743 | 100.0 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00045__length_2743
+
+CONTIG: scaffold00007__length_209862 (209862bp)
+Top Length: 43028  Top ID: 100.0
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 373242 409963 | 1 36722 | 36722 36722 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00007__length_209862
+			  Overlap between these two alignments (local misassembly). Inconsistency = -718
+			Real Alignment 2: 409950 411166 | 37427 38643 | 1217 1217 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00007__length_209862
+			  Overlap between these two alignments (local misassembly). Inconsistency = -710
+			Real Alignment 3: 411169 454196 | 39356 82383 | 43028 43028 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00007__length_209862
+			  Overlap between these two alignments (local misassembly). Inconsistency = -450
+			Real Alignment 4: 454134 469740 | 82771 98377 | 15607 15607 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00007__length_209862
+			  Overlap between these two alignments (local misassembly). Inconsistency = -700
+			Real Alignment 5: 469738 488420 | 99075 117757 | 18683 18683 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00007__length_209862
+			  Overlap between these two alignments (local misassembly). Inconsistency = -713
+			Real Alignment 6: 488416 492095 | 118466 122145 | 3680 3680 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00007__length_209862
+			  Overlap between these two alignments (local misassembly). Inconsistency = -636
+			Real Alignment 7: 492040 531251 | 122726 161937 | 39212 39212 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00007__length_209862
+			  Overlap between these two alignments (local misassembly). Inconsistency = -984
+			Real Alignment 8: 531206 553576 | 162876 185246 | 22371 22371 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00007__length_209862
+			  Overlap between these two alignments (local misassembly). Inconsistency = -666
+			Real Alignment 9: 553541 564412 | 185877 196748 | 10872 10872 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00007__length_209862
+			  Overlap between these two alignments (local misassembly). Inconsistency = -432
+			Real Alignment 10: 564346 573622 | 197114 206390 | 9277 9277 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00007__length_209862
+			  Overlap between these two alignments (local misassembly). Inconsistency = -943
+			Real Alignment 11: 573609 576151 | 207320 209862 | 2543 2543 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00007__length_209862
+
+CONTIG: scaffold00046__length_2664 (2664bp)
+Top Length: 2664  Top ID: 99.96
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 39422 42085 | 2664 1 | 2664 2664 | 99.96 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence scaffold00046__length_2664
+		Skipping alignment  74514 77177 | 2664 1 | 2664 2664 | 99.06 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence scaffold00046__length_2664
+
+CONTIG: scaffold00014__length_145694 (145694bp)
+Top Length: 42952  Top ID: 100.0
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 1: 5348 48299 | 1 42952 | 42952 42952 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00014__length_145694
+			  Overlap between these two alignments (local misassembly). Inconsistency = -468
+			Real Alignment 2: 48279 89731 | 43400 84852 | 41453 41453 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00014__length_145694
+			  Overlap between these two alignments (local misassembly). Inconsistency = -639
+			Real Alignment 3: 89723 109983 | 85483 105743 | 20261 20261 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00014__length_145694
+			  Overlap between these two alignments (local misassembly). Inconsistency = -870
+			Real Alignment 4: 109978 125533 | 106608 122163 | 15556 15556 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00014__length_145694
+			  Overlap between these two alignments (local misassembly). Inconsistency = -432
+			Real Alignment 5: 125530 135040 | 122592 132102 | 9511 9511 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00014__length_145694
+			  Overlap between these two alignments (local misassembly). Inconsistency = -914
+			Real Alignment 6: 134982 147718 | 132958 145694 | 12737 12737 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00014__length_145694
+
+CONTIG: scaffold00034__length_23786 (23786bp)
+Top Length: 23786  Top ID: 100.0
+		One align captures most of this contig: 337737 361522 | 1 23786 | 23786 23786 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00034__length_23786
+
+CONTIG: scaffold00037__length_20947 (20947bp)
+Top Length: 14663  Top ID: 99.99
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 94486 97905 | 1 3420 | 3420 3420 | 100.0 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00037__length_20947
+			  Overlap between these two alignments (local misassembly). Inconsistency = -441
+			Real Alignment 2: 97908 99414 | 3864 5370 | 1507 1507 | 100.0 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00037__length_20947
+			  Overlap between these two alignments (local misassembly). Inconsistency = -945
+			Real Alignment 3: 99383 114045 | 6284 20946 | 14663 14663 | 99.99 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00037__length_20947
+
+CONTIG: scaffold00030__length_35565 (35565bp)
+Top Length: 12127  Top ID: 100.0
+		Skipping redundant alignment 85923 86123 | 28618 28418 | 201 201 | 98.51 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00030__length_35565
+		Skipping redundant alignment 5749 5949 | 28618 28418 | 201 201 | 96.02 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence scaffold00030__length_35565
+		This contig is misassembled. 7 total aligns.
+			Real Alignment 1: 5935 6916 | 35565 34584 | 982 982 | 100.0 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence scaffold00030__length_35565
+			  Overlap between these two alignments (local misassembly). Inconsistency = -442
+			Real Alignment 2: 6945 11439 | 34113 29619 | 4495 4495 | 100.0 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence scaffold00030__length_35565
+			  Overlap between these two alignments (local misassembly). Inconsistency = -704
+			Real Alignment 3: 11732 14988 | 28622 25366 | 3257 3257 | 100.0 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence scaffold00030__length_35565
+			  Overlap between these two alignments (local misassembly). Inconsistency = -423
+			Real Alignment 4: 15312 26970 | 24619 12961 | 11659 11659 | 100.0 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence scaffold00030__length_35565
+			  Overlap between these two alignments (local misassembly). Inconsistency = -509
+			Real Alignment 5: 27295 39421 | 12127 1 | 12127 12127 | 100.0 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence scaffold00030__length_35565
+
+CONTIG: scaffold00004__length_244371 (244371bp)
+Top Length: 66448  Top ID: 100.0
+		Skipping redundant alignment 247815 248292 | 22602 23079 | 478 478 | 96.23 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+		Skipping redundant alignment 1843488 1843563 | 39872 39797 | 76 76 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+		Skipping redundant alignment 2138993 2139085 | 124649 124739 | 93 91 | 96.77 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+		This contig is misassembled. 16 total aligns.
+			Real Alignment 1: 646278 650918 | 1 4641 | 4641 4641 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+			  Overlap between these two alignments (local misassembly). Inconsistency = -520
+			Real Alignment 2: 651259 667766 | 5502 22009 | 16508 16508 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+			  Overlap between these two alignments (local misassembly). Inconsistency = -596
+			Real Alignment 3: 667762 668904 | 22601 23743 | 1143 1143 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+			  Overlap between these two alignments (local misassembly). Inconsistency = -674
+			Real Alignment 4: 669030 672939 | 24543 28452 | 3910 3910 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+			  Overlap between these two alignments (local misassembly). Inconsistency = -440
+			Real Alignment 5: 673180 691963 | 29133 47917 | 18784 18785 | 99.91 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+			  Gap between these two alignments (local misassembly). Inconsistency = 343
+			Real Alignment 6: 692038 716485 | 47649 72095 | 24448 24447 | 99.98 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+			  Overlap between these two alignments (local misassembly). Inconsistency = -917
+			Real Alignment 7: 716474 741736 | 73001 98263 | 25263 25263 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+			  Overlap between these two alignments (local misassembly). Inconsistency = -605
+			Real Alignment 8: 741720 763231 | 98852 120363 | 21512 21512 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+			  Overlap between these two alignments (local misassembly). Inconsistency = -680
+			Real Alignment 9: 763210 770833 | 121022 128645 | 7624 7624 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+			  Overlap between these two alignments (local misassembly). Inconsistency = -444
+			Real Alignment 10: 770836 782191 | 129092 140447 | 11356 11356 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+			  Overlap between these two alignments (local misassembly). Inconsistency = -885
+			Real Alignment 11: 782148 848595 | 141289 207736 | 66448 66448 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+			  Overlap between these two alignments (local misassembly). Inconsistency = -447
+			Real Alignment 12: 848550 859982 | 208138 219570 | 11433 11433 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+			  Overlap between these two alignments (local misassembly). Inconsistency = -864
+			Real Alignment 13: 859981 883919 | 220433 244371 | 23939 23939 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00004__length_244371
+
+CONTIG: scaffold00035__length_24609 (24609bp)
+Top Length: 19256  Top ID: 99.99
+		Skipping redundant alignment 90182 90927 | 5354 6129 | 746 776 | 95.88 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00035__length_24609
+		Skipping redundant alignment 65018 65625 | 24006 24609 | 608 604 | 99.18 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00035__length_24609
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 86109 87360 | 1 1252 | 1252 1252 | 100.0 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00035__length_24609
+			  Overlap between these two alignments (local misassembly). Inconsistency = -631
+			Real Alignment 2: 87361 90181 | 1884 4704 | 2821 2821 | 100.0 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00035__length_24609
+			  Extensive misassembly ( translocation ) between these two alignments
+			Real Alignment 3: 65605 84860 | 5354 24609 | 19256 19256 | 99.99 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence scaffold00035__length_24609
+
+CONTIG: scaffold00031__length_26240 (26240bp)
+Top Length: 26240  Top ID: 100.0
+		Marking as insignificant: 905953 906442 | 26239 25750 | 490 490 | 97.35 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00031__length_26240
+		One align captures most of this contig: 712830 739069 | 1 26240 | 26240 26240 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00031__length_26240
+
+CONTIG: scaffold00026__length_45977 (45977bp)
+Top Length: 34071  Top ID: 99.99
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2625092 2659162 | 45977 11907 | 34071 34071 | 99.99 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00026__length_45977
+			  Overlap between these two alignments (local misassembly). Inconsistency = -936
+			Real Alignment 2: 2659175 2670132 | 10958 1 | 10958 10958 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00026__length_45977
+
+CONTIG: scaffold00018__length_117281 (117281bp)
+Top Length: 40202  Top ID: 100.0
+		Skipping redundant alignment 64464 64967 | 40174 40676 | 504 503 | 97.42 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00018__length_117281
+		This contig is misassembled. 9 total aligns.
+			Real Alignment 1: 1569 15032 | 117281 103818 | 13464 13464 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence scaffold00018__length_117281
+			  Overlap between these two alignments (local misassembly). Inconsistency = -645
+			Real Alignment 2: 14995 18566 | 103210 99639 | 3572 3572 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence scaffold00018__length_117281
+			  Overlap between these two alignments (local misassembly). Inconsistency = -621
+			Real Alignment 3: 18538 33812 | 99046 83772 | 15275 15275 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence scaffold00018__length_117281
+			  Overlap between these two alignments (local misassembly). Inconsistency = -904
+			Real Alignment 4: 33804 52161 | 82876 64519 | 18358 18358 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence scaffold00018__length_117281
+			  Overlap between these two alignments (local misassembly). Inconsistency = -667
+			Real Alignment 5: 52143 53933 | 63870 62080 | 1791 1791 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence scaffold00018__length_117281
+			  Overlap between these two alignments (local misassembly). Inconsistency = -426
+			Real Alignment 6: 53900 66406 | 61687 49181 | 12507 12507 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence scaffold00018__length_117281
+			  Overlap between these two alignments (local misassembly). Inconsistency = -612
+			Real Alignment 7: 66365 106566 | 48610 8409 | 40202 40202 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence scaffold00018__length_117281
+			  Overlap between these two alignments (local misassembly). Inconsistency = -834
+			Real Alignment 8: 106525 114140 | 7616 1 | 7616 7616 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence scaffold00018__length_117281
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 0: 106525 114140 | 7616 1 | 7616 7616 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence scaffold00018__length_117281
+
+CONTIG: scaffold00041__length_7422 (7422bp)
+Top Length: 7422  Top ID: 99.96
+		Marking as insignificant: 3 210 | 7215 7422 | 208 208 | 100.0 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence scaffold00041__length_7422
+		Marking as insignificant: 6319 6612 | 5559 5853 | 294 295 | 95.93 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence scaffold00041__length_7422
+		One align captures most of this contig: 72762 80183 | 1 7422 | 7422 7422 | 99.96 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00041__length_7422
+
+CONTIG: scaffold00011__length_172373 (172373bp)
+Top Length: 76682  Top ID: 100.0
+		Skipping redundant alignment 894411 904486 | 10235 20304 | 10076 10070 | 99.94 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00011__length_172373
+		Skipping redundant alignment 904446 904522 | 20228 20304 | 77 77 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00011__length_172373
+		Skipping redundant alignment 904404 914494 | 20967 31027 | 10091 10061 | 99.7 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00011__length_172373
+		Skipping redundant alignment 2715391 2715502 | 153603 153492 | 112 112 | 96.43 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00011__length_172373
+		Skipping redundant alignment 2715366 2715462 | 153600 153504 | 97 97 | 98.97 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00011__length_172373
+		Skipping redundant alignment 2715366 2715455 | 153593 153504 | 90 90 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00011__length_172373
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 884177 904480 | 1 20304 | 20304 20304 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00011__length_172373
+			  Overlap between these two alignments (local misassembly). Inconsistency = -709
+			Real Alignment 2: 904431 981112 | 20964 97645 | 76682 76682 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00011__length_172373
+			  Overlap between these two alignments (local misassembly). Inconsistency = -440
+			Real Alignment 3: 981065 1021461 | 98038 138434 | 40397 40397 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00011__length_172373
+			  Overlap between these two alignments (local misassembly). Inconsistency = -637
+			Real Alignment 4: 1021446 1045970 | 139056 163587 | 24525 24532 | 99.97 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00011__length_172373
+			  Gap between these two alignments (local misassembly). Inconsistency = 7
+			Real Alignment 5: 1025902 1054756 | 143512 172373 | 28855 28862 | 99.98 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00011__length_172373
+
+CONTIG: scaffold00047__length_2423 (2423bp)
+Top Length: 2423  Top ID: 100.0
+		One align captures most of this contig: 3029 5451 | 2423 1 | 2423 2423 | 100.0 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence scaffold00047__length_2423
+
+CONTIG: scaffold00024__length_66444 (66444bp)
+Top Length: 36065  Top ID: 100.0
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 2457376 2462090 | 66444 61730 | 4715 4715 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00024__length_66444
+			  Overlap between these two alignments (local misassembly). Inconsistency = -692
+			Real Alignment 2: 2462067 2473262 | 61061 49866 | 11196 11196 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00024__length_66444
+			  Overlap between these two alignments (local misassembly). Inconsistency = -433
+			Real Alignment 3: 2473222 2509286 | 49473 13409 | 36065 36065 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00024__length_66444
+			  Overlap between these two alignments (local misassembly). Inconsistency = -541
+			Real Alignment 4: 2509494 2522153 | 12660 1 | 12660 12660 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00024__length_66444
+
+CONTIG: scaffold00020__length_104384 (104384bp)
+Top Length: 56722  Top ID: 99.96
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 2522196 2555100 | 104384 71480 | 32905 32905 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00020__length_104384
+			  Overlap between these two alignments (local misassembly). Inconsistency = -887
+			Real Alignment 2: 2555091 2558655 | 70602 67038 | 3565 3565 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00020__length_104384
+			  Overlap between these two alignments (local misassembly). Inconsistency = -461
+			Real Alignment 3: 2558639 2567883 | 66593 57349 | 9245 9245 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00020__length_104384
+			  Overlap between these two alignments (local misassembly). Inconsistency = -695
+			Real Alignment 4: 2567815 2624533 | 56722 1 | 56719 56722 | 99.96 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00020__length_104384
+
+CONTIG: scaffold00012__length_165333 (165333bp)
+Top Length: 45315  Top ID: 99.99
+		Skipping redundant alignment 149256 149344 | 2 90 | 89 89 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00012__length_165333
+		This contig is misassembled. 7 total aligns.
+			Real Alignment 1: 2177732 2217866 | 1 40135 | 40135 40135 | 99.99 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00012__length_165333
+			  Overlap between these two alignments (local misassembly). Inconsistency = -853
+			Real Alignment 2: 2217841 2250567 | 40963 73689 | 32727 32727 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00012__length_165333
+			  Overlap between these two alignments (local misassembly). Inconsistency = -714
+			Real Alignment 3: 2250535 2295849 | 74371 119685 | 45315 45315 | 99.99 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00012__length_165333
+			  Overlap between these two alignments (local misassembly). Inconsistency = -642
+			Real Alignment 4: 2295835 2329190 | 120313 153668 | 33356 33356 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00012__length_165333
+			  Overlap between these two alignments (local misassembly). Inconsistency = -692
+			Real Alignment 5: 2329177 2334030 | 154347 159200 | 4854 4854 | 99.98 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00012__length_165333
+			  Overlap between these two alignments (local misassembly). Inconsistency = -647
+			Real Alignment 6: 2334025 2339516 | 159842 165333 | 5492 5492 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00012__length_165333
+
+CONTIG: scaffold00021__length_97243 (97243bp)
+Top Length: 36952  Top ID: 100.0
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 1: 243789 252580 | 97243 88452 | 8792 8792 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00021__length_97243
+			  Overlap between these two alignments (local misassembly). Inconsistency = -709
+			Real Alignment 2: 252575 281321 | 87748 59001 | 28747 28748 | 99.99 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00021__length_97243
+			  Overlap between these two alignments (local misassembly). Inconsistency = -446
+			Real Alignment 3: 281294 294822 | 58582 45054 | 13529 13529 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00021__length_97243
+			  Overlap between these two alignments (local misassembly). Inconsistency = -971
+			Real Alignment 4: 294786 296379 | 44119 42526 | 1594 1594 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00021__length_97243
+			  Overlap between these two alignments (local misassembly). Inconsistency = -457
+			Real Alignment 5: 296348 333299 | 42100 5149 | 36952 36952 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00021__length_97243
+			  Overlap between these two alignments (local misassembly). Inconsistency = -711
+			Real Alignment 6: 333256 337736 | 4481 1 | 4481 4481 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00021__length_97243
+
+CONTIG: scaffold00023__length_74406 (74406bp)
+Top Length: 32233  Top ID: 100.0
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1507 33739 | 1 32233 | 32233 32233 | 100.0 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence scaffold00023__length_74406
+			  Overlap between these two alignments (local misassembly). Inconsistency = -705
+			Real Alignment 2: 33681 61274 | 32880 60473 | 27594 27594 | 100.0 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence scaffold00023__length_74406
+			  Overlap between these two alignments (local misassembly). Inconsistency = -694
+			Real Alignment 3: 61250 74513 | 61143 74406 | 13264 13264 | 100.0 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence scaffold00023__length_74406
+
+CONTIG: scaffold00015__length_131888 (131888bp)
+Top Length: 64387  Top ID: 100.0
+		Skipping redundant alignment 758326 759139 | 1775 961 | 814 815 | 96.07 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00015__length_131888
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 576249 640635 | 131888 67502 | 64387 64387 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00015__length_131888
+			  Overlap between these two alignments (local misassembly). Inconsistency = -675
+			Real Alignment 2: 640594 647943 | 66868 59519 | 7350 7350 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00015__length_131888
+			  Overlap between these two alignments (local misassembly). Inconsistency = -912
+			Real Alignment 3: 647944 706549 | 58606 1 | 58606 58606 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00015__length_131888
+
+CONTIG: scaffold00002__length_320577 (320577bp)
+Top Length: 113806  Top ID: 99.99
+		Skipping redundant alignment 484254 484354 | 26575 26475 | 101 101 | 97.03 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00002__length_320577
+		This contig is misassembled. 9 total aligns.
+			Real Alignment 1: 1436804 1550609 | 1 113806 | 113806 113806 | 99.99 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00002__length_320577
+			  Overlap between these two alignments (local misassembly). Inconsistency = -634
+			Real Alignment 2: 1550590 1554066 | 114421 117897 | 3477 3477 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00002__length_320577
+			  Overlap between these two alignments (local misassembly). Inconsistency = -642
+			Real Alignment 3: 1554060 1586368 | 118533 150841 | 32309 32309 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00002__length_320577
+			  Overlap between these two alignments (local misassembly). Inconsistency = -440
+			Real Alignment 4: 1586309 1598871 | 151222 163784 | 12563 12563 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00002__length_320577
+			  Overlap between these two alignments (local misassembly). Inconsistency = -732
+			Real Alignment 5: 1598850 1618939 | 164495 184584 | 20090 20090 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00002__length_320577
+			  Overlap between these two alignments (local misassembly). Inconsistency = -937
+			Real Alignment 6: 1618895 1671892 | 185477 238474 | 52998 52998 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00002__length_320577
+			  Overlap between these two alignments (local misassembly). Inconsistency = -675
+			Real Alignment 7: 1671878 1726792 | 239135 294049 | 54915 54915 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00002__length_320577
+			  Overlap between these two alignments (local misassembly). Inconsistency = -653
+			Real Alignment 8: 1726799 1752667 | 294709 320577 | 25869 25869 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00002__length_320577
+
+CONTIG: scaffold00044__length_5118 (5118bp)
+Top Length: 3423  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 708122 711544 | 5118 1696 | 3423 3423 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00044__length_5118
+			  Overlap between these two alignments (local misassembly). Inconsistency = -841
+			Real Alignment 2: 711697 712398 | 702 1 | 702 702 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00044__length_5118
+
+CONTIG: scaffold00040__length_9779 (9779bp)
+Top Length: 9779  Top ID: 100.0
+		One align captures most of this contig: 361856 371634 | 1 9779 | 9779 9779 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00040__length_9779
+
+CONTIG: scaffold00033__length_26694 (26694bp)
+Top Length: 24807  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 79198 80426 | 1 1229 | 1229 1229 | 100.0 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence scaffold00033__length_26694
+			  Overlap between these two alignments (local misassembly). Inconsistency = -711
+			Real Alignment 2: 80374 105180 | 1888 26694 | 24807 24807 | 100.0 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence scaffold00033__length_26694
+
+CONTIG: scaffold00027__length_40761 (40761bp)
+Top Length: 14157  Top ID: 100.0
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2628 15759 | 40761 27630 | 13132 13132 | 100.0 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00027__length_40761
+			  Overlap between these two alignments (local misassembly). Inconsistency = -449
+			Real Alignment 2: 15732 28215 | 27208 14725 | 12484 12484 | 100.0 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00027__length_40761
+			  Overlap between these two alignments (local misassembly). Inconsistency = -606
+			Real Alignment 3: 28177 42333 | 14157 1 | 14157 14157 | 100.0 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00027__length_40761
+
+CONTIG: scaffold00048__length_2058 (2058bp)
+Top Length: 2058  Top ID: 100.0
+		One align captures most of this contig: 573 2630 | 2058 1 | 2058 2058 | 100.0 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00048__length_2058
+
+CONTIG: scaffold00042__length_7173 (7173bp)
+Top Length: 7173  Top ID: 100.0
+		One align captures most of this contig: 601557 608729 | 1 7173 | 7173 7173 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00042__length_7173
+
+CONTIG: scaffold00017__length_119013 (119013bp)
+Top Length: 46967  Top ID: 99.99
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2339484 2375802 | 1 36319 | 36319 36319 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00017__length_119013
+			  Overlap between these two alignments (local misassembly). Inconsistency = -675
+			Real Alignment 2: 2375796 2410418 | 36988 71610 | 34623 34623 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00017__length_119013
+			  Overlap between these two alignments (local misassembly). Inconsistency = -480
+			Real Alignment 3: 2410375 2457341 | 72047 119013 | 46967 46967 | 99.99 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00017__length_119013
+
+CONTIG: scaffold00009__length_209614 (209614bp)
+Top Length: 78262  Top ID: 100.0
+		Skipping redundant alignment 738582 739068 | 36871 37357 | 487 487 | 97.33 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+		Skipping redundant alignment 739453 740792 | 38203 39542 | 1340 1340 | 95.75 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+		Skipping redundant alignment 740816 741486 | 41212 41882 | 671 671 | 95.38 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+		Skipping redundant alignment 704775 705589 | 189647 188834 | 815 814 | 96.07 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+		Skipping redundant alignment 901889 902559 | 207579 208249 | 671 671 | 95.38 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+		Skipping redundant alignment 904229 905568 | 208273 209612 | 1340 1340 | 95.75 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+		This contig is misassembled. 18 total aligns.
+			Real Alignment 1: 739451 743286 | 209614 205779 | 3836 3836 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+			  Overlap between these two alignments (local misassembly). Inconsistency = -436
+			Real Alignment 2: 743445 744327 | 205184 204302 | 883 883 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+			  Overlap between these two alignments (local misassembly). Inconsistency = -656
+			Real Alignment 3: 744535 759766 | 203438 188207 | 15232 15232 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+			  Overlap between these two alignments (local misassembly). Inconsistency = -681
+			Real Alignment 4: 759767 760536 | 187525 186756 | 770 770 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+			  Overlap between these two alignments (local misassembly). Inconsistency = -745
+			Real Alignment 5: 760613 761433 | 185934 185114 | 821 821 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+			  Overlap between these two alignments (local misassembly). Inconsistency = -455
+			Real Alignment 6: 761577 839838 | 184515 106254 | 78262 78262 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+			  Overlap between these two alignments (local misassembly). Inconsistency = -850
+			Real Alignment 7: 839796 847993 | 105446 97249 | 8198 8198 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+			  Overlap between these two alignments (local misassembly). Inconsistency = -437
+			Real Alignment 8: 847956 850368 | 96849 94437 | 2413 2413 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+			  Overlap between these two alignments (local misassembly). Inconsistency = -601
+			Real Alignment 9: 850384 893696 | 93820 50508 | 43313 43313 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+			  Overlap between these two alignments (local misassembly). Inconsistency = -433
+			Real Alignment 10: 894097 905570 | 49674 38201 | 11474 11474 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+			  Overlap between these two alignments (local misassembly). Inconsistency = -461
+			Real Alignment 11: 905952 907434 | 37358 35876 | 1483 1483 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+			  Overlap between these two alignments (local misassembly). Inconsistency = -696
+			Real Alignment 12: 907434 942613 | 35180 1 | 35180 35180 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00009__length_209614
+
+CONTIG: scaffold00036__length_23553 (23553bp)
+Top Length: 21501  Top ID: 100.0
+		Skipping redundant alignment 42755 44103 | 23553 22205 | 1349 1349 | 98.44 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence scaffold00036__length_23553
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 44104 65604 | 21501 1 | 21501 21501 | 100.0 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence scaffold00036__length_23553
+			  Extensive misassembly ( translocation ) between these two alignments
+			Real Alignment 2: 77847 79197 | 23553 22203 | 1351 1351 | 99.41 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence scaffold00036__length_23553
+
+CONTIG: scaffold00043__length_6026 (6026bp)
+Top Length: 6026  Top ID: 100.0
+		One align captures most of this contig: 65626 71651 | 6026 1 | 6026 6026 | 100.0 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00043__length_6026
+
+CONTIG: scaffold00022__length_83172 (83172bp)
+Top Length: 34394  Top ID: 100.0
+		Skipping redundant alignment 761401 761575 | 14599 14773 | 175 175 | 98.29 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00022__length_83172
+		This contig is misassembled. 12 total aligns.
+			Real Alignment 1: 175397 177383 | 83172 81186 | 1987 1987 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00022__length_83172
+			  Overlap between these two alignments (local misassembly). Inconsistency = -708
+			Real Alignment 2: 177338 211731 | 80523 46130 | 34394 34394 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00022__length_83172
+			  Overlap between these two alignments (local misassembly). Inconsistency = -912
+			Real Alignment 3: 211683 223173 | 45266 33776 | 11491 11491 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00022__length_83172
+			  Overlap between these two alignments (local misassembly). Inconsistency = -444
+			Real Alignment 4: 223174 224124 | 33331 32381 | 951 951 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00022__length_83172
+			  Overlap between these two alignments (local misassembly). Inconsistency = -755
+			Real Alignment 5: 224332 226320 | 31418 29430 | 1989 1989 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00022__length_83172
+			  Overlap between these two alignments (local misassembly). Inconsistency = -661
+			Real Alignment 6: 226479 228753 | 28610 26336 | 2275 2275 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00022__length_83172
+			  Overlap between these two alignments (local misassembly). Inconsistency = -283
+			Real Alignment 7: 229154 239384 | 25652 15422 | 10231 10231 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00022__length_83172
+			  Overlap between these two alignments (local misassembly). Inconsistency = -648
+			Real Alignment 8: 239385 241654 | 14773 12504 | 2270 2270 | 99.96 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00022__length_83172
+			  Overlap between these two alignments (local misassembly). Inconsistency = -683
+			Real Alignment 9: 241652 248059 | 11823 5416 | 6408 6408 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00022__length_83172
+			  Overlap between these two alignments (local misassembly). Inconsistency = -861
+			Real Alignment 10: 248245 248766 | 4369 3848 | 522 522 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00022__length_83172
+			  Overlap between these two alignments (local misassembly). Inconsistency = -396
+			Real Alignment 11: 249120 252217 | 3098 1 | 3098 3098 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00022__length_83172
+
+CONTIG: scaffold00008__length_207147 (207147bp)
+Top Length: 63676  Top ID: 100.0
+		This contig is misassembled. 8 total aligns.
+			Real Alignment 1: 2774254 2837929 | 1 63676 | 63676 63676 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00008__length_207147
+			  Overlap between these two alignments (local misassembly). Inconsistency = -643
+			Real Alignment 2: 2837908 2846293 | 64298 72683 | 8386 8386 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00008__length_207147
+			  Overlap between these two alignments (local misassembly). Inconsistency = -674
+			Real Alignment 3: 2846252 2861576 | 73316 88640 | 15325 15325 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00008__length_207147
+			  Overlap between these two alignments (local misassembly). Inconsistency = -656
+			Real Alignment 4: 2861549 2863786 | 89269 91506 | 2238 2238 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00008__length_207147
+			  Overlap between these two alignments (local misassembly). Inconsistency = -729
+			Real Alignment 5: 2863775 2911598 | 92224 140047 | 47824 47824 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00008__length_207147
+			  Overlap between these two alignments (local misassembly). Inconsistency = -427
+			Real Alignment 6: 2911540 2949954 | 140416 178830 | 38415 38415 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00008__length_207147
+			  Overlap between these two alignments (local misassembly). Inconsistency = -895
+			Real Alignment 7: 2949940 2963592 | 179711 193363 | 13653 13653 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00008__length_207147
+			  Overlap between these two alignments (local misassembly). Inconsistency = -702
+			Real Alignment 8: 2963546 2976674 | 194019 207147 | 13129 13129 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00008__length_207147
+
+CONTIG: scaffold00029__length_34690 (34690bp)
+Top Length: 24398  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 253788 278185 | 34690 10293 | 24398 24398 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00029__length_34690
+			  Overlap between these two alignments (local misassembly). Inconsistency = -664
+			Real Alignment 2: 278148 287813 | 9666 1 | 9666 9666 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00029__length_34690
+
+CONTIG: scaffold00025__length_57582 (57582bp)
+Top Length: 27901  Top ID: 100.0
+		Skipping redundant alignment 202447 202592 | 28741 28886 | 146 146 | 99.32 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00025__length_57582
+		Skipping redundant alignment 78320 78614 | 29041 29334 | 295 294 | 95.93 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00025__length_57582
+		Skipping redundant alignment 34783 34989 | 29450 29656 | 207 207 | 98.07 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence scaffold00025__length_57582
+		Skipping redundant alignment 6728 6928 | 57382 57582 | 201 201 | 98.01 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence scaffold00025__length_57582
+		This contig is misassembled. 8 total aligns.
+			Real Alignment 1: 42339 64463 | 1 22125 | 22125 22125 | 100.0 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence scaffold00025__length_57582
+			  Extensive misassembly ( translocation ) between these two alignments
+			Real Alignment 2: 1 6934 | 22723 29656 | 6934 6934 | 100.0 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence scaffold00025__length_57582
+			  Gap between these two alignments (local misassembly). Inconsistency = 123
+			Real Alignment 3: 7083 34983 | 29682 57582 | 27901 27901 | 100.0 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence scaffold00025__length_57582
+			  Extensive misassembly ( relocation, inconsistency = 36977 ) between these two alignments
+			Real Alignment 4: 36497 37100 | 22119 22722 | 604 604 | 100.0 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence scaffold00025__length_57582
+
+CONTIG: scaffold00039__length_14350 (14350bp)
+Top Length: 14350  Top ID: 100.0
+		One align captures most of this contig: 84861 99210 | 14350 1 | 14350 14350 | 100.0 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence scaffold00039__length_14350
+
+CONTIG: scaffold00019__length_108021 (108021bp)
+Top Length: 56461  Top ID: 99.96
+		Skipping redundant alignment 1035882 1035986 | 60370 60474 | 105 105 | 96.19 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00019__length_108021
+		Skipping redundant alignment 1035894 1035983 | 60396 60485 | 90 90 | 98.89 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00019__length_108021
+		This contig is misassembled. 9 total aligns.
+			Real Alignment 1: 2670213 2675432 | 108021 102802 | 5220 5220 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00019__length_108021
+			  Overlap between these two alignments (local misassembly). Inconsistency = -640
+			Real Alignment 2: 2675403 2682828 | 102191 94766 | 7426 7426 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00019__length_108021
+			  Overlap between these two alignments (local misassembly). Inconsistency = -642
+			Real Alignment 3: 2682777 2698540 | 94175 78412 | 15764 15764 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00019__length_108021
+			  Overlap between these two alignments (local misassembly). Inconsistency = -683
+			Real Alignment 4: 2698496 2703415 | 77773 72854 | 4920 4920 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00019__length_108021
+			  Overlap between these two alignments (local misassembly). Inconsistency = -418
+			Real Alignment 5: 2703372 2759853 | 72479 16019 | 56482 56461 | 99.96 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00019__length_108021
+			  Overlap between these two alignments (local misassembly). Inconsistency = -663
+			Real Alignment 6: 2759823 2766261 | 15386 8948 | 6439 6439 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00019__length_108021
+			  Overlap between these two alignments (local misassembly). Inconsistency = -968
+			Real Alignment 7: 2766211 2774240 | 8030 1 | 8030 8030 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00019__length_108021
+
+CONTIG: scaffold00028__length_37194 (37194bp)
+Top Length: 37194  Top ID: 100.0
+		One align captures most of this contig: 608735 645928 | 37194 1 | 37194 37194 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00028__length_37194
+
+CONTIG: scaffold00006__length_209360 (209360bp)
+Top Length: 72329  Top ID: 99.99
+		Skipping redundant alignment 14459 14541 | 4205 4123 | 83 83 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00006__length_209360
+		Skipping redundant alignment 6019 6164 | 167388 167533 | 146 146 | 99.32 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence scaffold00006__length_209360
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 39022 42212 | 1 3191 | 3191 3191 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00006__length_209360
+			  Overlap between these two alignments (local misassembly). Inconsistency = -390
+			Real Alignment 2: 42593 114920 | 3962 76290 | 72328 72329 | 99.99 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00006__length_209360
+			  Gap between these two alignments (local misassembly). Inconsistency = 94
+			Real Alignment 3: 114920 115673 | 76196 76951 | 754 756 | 99.74 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00006__length_209360
+			  Overlap between these two alignments (local misassembly). Inconsistency = -961
+			Real Alignment 4: 115609 135637 | 77848 97876 | 20029 20029 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00006__length_209360
+			  Overlap between these two alignments (local misassembly). Inconsistency = -467
+			Real Alignment 5: 135598 160374 | 98304 123080 | 24777 24777 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00006__length_209360
+			  Overlap between these two alignments (local misassembly). Inconsistency = -648
+			Real Alignment 6: 160390 165969 | 123744 129323 | 5580 5580 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00006__length_209360
+			  Overlap between these two alignments (local misassembly). Inconsistency = -900
+			Real Alignment 7: 165959 166635 | 130213 130889 | 677 677 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00006__length_209360
+			  Overlap between these two alignments (local misassembly). Inconsistency = -687
+			Real Alignment 8: 166601 224015 | 131542 188956 | 57415 57415 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00006__length_209360
+			  Overlap between these two alignments (local misassembly). Inconsistency = -653
+			Real Alignment 9: 224000 243766 | 189594 209360 | 19767 19767 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00006__length_209360
+
+CONTIG: scaffold00038__length_17505 (17505bp)
+Top Length: 17505  Top ID: 100.0
+		One align captures most of this contig: 288986 306490 | 1 17505 | 17505 17505 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00038__length_17505
+
+CONTIG: scaffold00013__length_148779 (148779bp)
+Top Length: 55928  Top ID: 100.0
+		This contig is misassembled. 7 total aligns.
+			Real Alignment 1: 1054967 1056948 | 1 1982 | 1982 1982 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00013__length_148779
+			  Overlap between these two alignments (local misassembly). Inconsistency = -800
+			Real Alignment 2: 1056987 1095295 | 2821 41129 | 38309 38309 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00013__length_148779
+			  Overlap between these two alignments (local misassembly). Inconsistency = -891
+			Real Alignment 3: 1095271 1101015 | 41996 47740 | 5745 5745 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00013__length_148779
+			  Overlap between these two alignments (local misassembly). Inconsistency = -431
+			Real Alignment 4: 1100993 1107693 | 48149 54849 | 6701 6701 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00013__length_148779
+			  Overlap between these two alignments (local misassembly). Inconsistency = -821
+			Real Alignment 5: 1107675 1163602 | 55652 111579 | 55928 55928 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00013__length_148779
+			  Overlap between these two alignments (local misassembly). Inconsistency = -630
+			Real Alignment 6: 1163600 1195619 | 112207 144226 | 32020 32020 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00013__length_148779
+			  Overlap between these two alignments (local misassembly). Inconsistency = -444
+			Real Alignment 7: 1195577 1199728 | 144628 148779 | 4152 4152 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00013__length_148779
+
+CONTIG: scaffold00003__length_250462 (250462bp)
+Top Length: 55290  Top ID: 100.0
+		Skipping redundant alignment 3188298 3188524 | 216765 216991 | 227 227 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00003__length_250462
+		Skipping redundant alignment 942792 943018 | 216765 216991 | 227 227 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00003__length_250462
+		Skipping redundant alignment 1 5349 | 216992 222367 | 5349 5376 | 99.42 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00003__length_250462
+		Skipping redundant alignment 42754 42836 | 231557 231475 | 83 83 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00003__length_250462
+		This contig is misassembled. 14 total aligns.
+			Real Alignment 1: 2976687 3000417 | 1 23731 | 23731 23731 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00003__length_250462
+			  Overlap between these two alignments (local misassembly). Inconsistency = -688
+			Real Alignment 2: 3000350 3055639 | 24352 79641 | 55290 55290 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00003__length_250462
+			  Overlap between these two alignments (local misassembly). Inconsistency = -644
+			Real Alignment 3: 3055605 3091737 | 80251 116383 | 36133 36133 | 99.99 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00003__length_250462
+			  Overlap between these two alignments (local misassembly). Inconsistency = -461
+			Real Alignment 4: 3091731 3104951 | 116838 130058 | 13221 13221 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00003__length_250462
+			  Overlap between these two alignments (local misassembly). Inconsistency = -918
+			Real Alignment 5: 3104903 3138320 | 130928 164345 | 33418 33418 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00003__length_250462
+			  Overlap between these two alignments (local misassembly). Inconsistency = -684
+			Real Alignment 6: 3138303 3141302 | 165012 168011 | 3000 3000 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00003__length_250462
+			  Overlap between these two alignments (local misassembly). Inconsistency = -421
+			Real Alignment 7: 3141303 3180796 | 168433 207926 | 39494 39494 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00003__length_250462
+			  Overlap between these two alignments (local misassembly). Inconsistency = -759
+			Real Alignment 8: 3180806 3188119 | 208695 216008 | 7314 7314 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00003__length_250462
+			  Extensive misassembly ( translocation ) between these two alignments
+			Real Alignment 9: 1 33446 | 216992 250462 | 33446 33471 | 99.93 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00003__length_250462
+			  Extensive misassembly ( relocation, inconsistency = 33698 ) between these two alignments
+			Real Alignment 10: 33447 39022 | 216765 222366 | 5576 5602 | 99.38 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence scaffold00003__length_250462
+
+CONTIG: scaffold00005__length_240768 (240768bp)
+Top Length: 71602  Top ID: 99.99
+		This contig is misassembled. 9 total aligns.
+			Real Alignment 1: 1199720 1229488 | 1 29769 | 29769 29769 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00005__length_240768
+			  Overlap between these two alignments (local misassembly). Inconsistency = -935
+			Real Alignment 2: 1229421 1238939 | 30637 40155 | 9519 9519 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00005__length_240768
+			  Overlap between these two alignments (local misassembly). Inconsistency = -444
+			Real Alignment 3: 1238878 1247287 | 40538 48947 | 8410 8410 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00005__length_240768
+			  Overlap between these two alignments (local misassembly). Inconsistency = -863
+			Real Alignment 4: 1247277 1251280 | 49800 53803 | 4004 4004 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00005__length_240768
+			  Overlap between these two alignments (local misassembly). Inconsistency = -636
+			Real Alignment 5: 1251262 1322864 | 54421 126022 | 71603 71602 | 99.99 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00005__length_240768
+			  Overlap between these two alignments (local misassembly). Inconsistency = -439
+			Real Alignment 6: 1322851 1365489 | 126448 169086 | 42639 42639 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00005__length_240768
+			  Overlap between these two alignments (local misassembly). Inconsistency = -862
+			Real Alignment 7: 1365476 1376287 | 169935 180746 | 10812 10812 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00005__length_240768
+			  Overlap between these two alignments (local misassembly). Inconsistency = -671
+			Real Alignment 8: 1376297 1396958 | 181427 202088 | 20662 20662 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00005__length_240768
+			  Overlap between these two alignments (local misassembly). Inconsistency = -444
+			Real Alignment 9: 1396901 1435194 | 202475 240768 | 38294 38294 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00005__length_240768
+
+CONTIG: scaffold00010__length_178486 (178486bp)
+Top Length: 65197  Top ID: 100.0
+		Skipping redundant alignment 1463278 1463378 | 59265 59165 | 101 101 | 97.03 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00010__length_178486
+		This contig is misassembled. 9 total aligns.
+			Real Alignment 1: 427051 431539 | 1 4489 | 4489 4489 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00010__length_178486
+			  Overlap between these two alignments (local misassembly). Inconsistency = -444
+			Real Alignment 2: 431552 458608 | 4946 32002 | 27057 27057 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00010__length_178486
+			  Overlap between these two alignments (local misassembly). Inconsistency = -653
+			Real Alignment 3: 458612 472619 | 32659 46666 | 14008 14008 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00010__length_178486
+			  Overlap between these two alignments (local misassembly). Inconsistency = -864
+			Real Alignment 4: 472595 537791 | 47506 112702 | 65197 65197 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00010__length_178486
+			  Overlap between these two alignments (local misassembly). Inconsistency = -425
+			Real Alignment 5: 537789 542745 | 113125 118081 | 4957 4957 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00010__length_178486
+			  Overlap between these two alignments (local misassembly). Inconsistency = -992
+			Real Alignment 6: 542718 559126 | 119046 135454 | 16409 16409 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00010__length_178486
+			  Overlap between these two alignments (local misassembly). Inconsistency = -476
+			Real Alignment 7: 559507 594113 | 136311 170917 | 34607 34607 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00010__length_178486
+			  Overlap between these two alignments (local misassembly). Inconsistency = -446
+			Real Alignment 8: 594093 601237 | 171343 178486 | 7145 7144 | 99.99 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00010__length_178486
+
+CONTIG: scaffold00001__length_428108 (428108bp)
+Top Length: 127547  Top ID: 100.0
+		Skipping redundant alignment 683844 683919 | 93168 93093 | 76 76 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00001__length_428108
+		Skipping redundant alignment 766837 766927 | 390907 390999 | 91 93 | 96.77 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00001__length_428108
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 1753337 1762424 | 1 9088 | 9088 9088 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00001__length_428108
+			  Overlap between these two alignments (local misassembly). Inconsistency = -615
+			Real Alignment 2: 1762434 1790647 | 9713 37926 | 28214 28214 | 99.99 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00001__length_428108
+			  Overlap between these two alignments (local misassembly). Inconsistency = -432
+			Real Alignment 3: 1790603 1815534 | 38314 63246 | 24932 24933 | 99.99 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00001__length_428108
+			  Overlap between these two alignments (local misassembly). Inconsistency = -850
+			Real Alignment 4: 1815496 1821556 | 64058 70118 | 6061 6061 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00001__length_428108
+			  Overlap between these two alignments (local misassembly). Inconsistency = -440
+			Real Alignment 5: 1821524 1833367 | 70526 82369 | 11844 11844 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00001__length_428108
+			  Overlap between these two alignments (local misassembly). Inconsistency = -603
+			Real Alignment 6: 1833311 1888023 | 82916 137628 | 54713 54713 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00001__length_428108
+			  Overlap between these two alignments (local misassembly). Inconsistency = -957
+			Real Alignment 7: 1888012 1964928 | 138574 215490 | 76917 76917 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00001__length_428108
+			  Overlap between these two alignments (local misassembly). Inconsistency = -721
+			Real Alignment 8: 1964903 2048641 | 216186 299924 | 83739 83739 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00001__length_428108
+			  Overlap between these two alignments (local misassembly). Inconsistency = -631
+			Real Alignment 9: 2048648 2176194 | 300562 428108 | 127547 127547 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00001__length_428108
+
+CONTIG: scaffold00032__length_27022 (27022bp)
+Top Length: 13781  Top ID: 100.0
+		Skipping redundant alignment 2177733 2177821 | 27021 26933 | 89 89 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00032__length_27022
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 149255 163035 | 27022 13242 | 13781 13781 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00032__length_27022
+			  Overlap between these two alignments (local misassembly). Inconsistency = -892
+			Real Alignment 2: 163009 175384 | 12376 1 | 12376 12376 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00032__length_27022
+
+CONTIG: scaffold00016__length_120763 (120763bp)
+Top Length: 56569  Top ID: 100.0
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 307662 330806 | 120763 97625 | 23145 23139 | 99.97 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00016__length_120763
+			  Overlap between these two alignments (local misassembly). Inconsistency = -44
+			Real Alignment 2: 330788 387356 | 97599 41031 | 56569 56569 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00016__length_120763
+			  Overlap between these two alignments (local misassembly). Inconsistency = -676
+			Real Alignment 3: 387301 402597 | 40410 25114 | 15297 15297 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00016__length_120763
+			  Overlap between these two alignments (local misassembly). Inconsistency = -673
+			Real Alignment 4: 402578 427037 | 24460 1 | 24460 24460 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence scaffold00016__length_120763
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1930/dataset_2012_files/Scaffold/contigs_reports/nucmer_output/R.S.-M-Newbler2.used_snps
+	Reference gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence: 6 total alignments. 1 total regions.
+		Region: 1 to 105284 (105284 bp)
+			START in gap: 1 to 1507 (1506 bp)
+			Align 1: 1507 33739 scaffold00023__length_74406 1 32233
+				Negative gap (overlap) between this and next alignment: 33739 to 33681 (-58 bp)
+				Next Alignment: 33681 61274 scaffold00023__length_74406 32880 60473
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 32880 to 32939.
+			Align 2: 33740 61274 scaffold00023__length_74406 32939 60473
+				Negative gap (overlap) between this and next alignment: 61274 to 61250 (-24 bp)
+				Next Alignment: 61250 74513 scaffold00023__length_74406 61143 74406
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 61143 to 61168.
+			Align 3: 61275 74513 scaffold00023__length_74406 61168 74406
+				Gap between this and next alignment: 74513 to 77847 (3333 bp)
+				Next Alignment: 77847 79197 scaffold00036__length_23553 23553 22203
+
+			Align 4: 77847 79197 scaffold00036__length_23553 23553 22203
+				Next Alignment: 79198 80426 scaffold00033__length_26694 1 1229
+
+			Align 5: 79198 80426 scaffold00033__length_26694 1 1229
+				Negative gap (overlap) between this and next alignment: 80426 to 80374 (-52 bp)
+				Next Alignment: 80374 105180 scaffold00033__length_26694 1888 26694
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1888 to 1941.
+			Align 6: 80427 105180 scaffold00033__length_26694 1941 26694
+			END in gap: 105180 to 105284 (104 bp)
+
+	Reference gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence: 10 total alignments. 1 total regions.
+		Region: 1 to 100827 (100827 bp)
+			START in gap: 1 to 3029 (3028 bp)
+			Align 1: 3029 5451 scaffold00047__length_2423 2423 1
+				Gap between this and next alignment: 5451 to 5935 (483 bp)
+				Next Alignment: 5935 6916 scaffold00030__length_35565 35565 34584
+
+			Align 2: 5935 6916 scaffold00030__length_35565 35565 34584
+				Gap between this and next alignment: 6916 to 6945 (28 bp)
+				Next Alignment: 6945 11439 scaffold00030__length_35565 34113 29619
+
+			Align 3: 6945 11439 scaffold00030__length_35565 34113 29619
+				Gap between this and next alignment: 11439 to 11732 (292 bp)
+				Next Alignment: 11732 14988 scaffold00030__length_35565 28622 25366
+
+			Align 4: 11732 14988 scaffold00030__length_35565 28622 25366
+				Gap between this and next alignment: 14988 to 15312 (323 bp)
+				Next Alignment: 15312 26970 scaffold00030__length_35565 24619 12961
+
+			Align 5: 15312 26970 scaffold00030__length_35565 24619 12961
+				Gap between this and next alignment: 26970 to 27295 (324 bp)
+				Next Alignment: 27295 39421 scaffold00030__length_35565 12127 1
+
+			Align 6: 27295 39421 scaffold00030__length_35565 12127 1
+				Next Alignment: 39422 42085 scaffold00046__length_2664 2664 1
+
+			Align 7: 39422 42085 scaffold00046__length_2664 2664 1
+				Gap between this and next alignment: 42085 to 44104 (2018 bp)
+				Next Alignment: 44104 65604 scaffold00036__length_23553 21501 1
+
+			Align 8: 44104 65604 scaffold00036__length_23553 21501 1
+				Next Alignment: 65605 84860 scaffold00035__length_24609 5354 24609
+
+			Align 9: 65605 84860 scaffold00035__length_24609 5354 24609
+				Next Alignment: 84861 99210 scaffold00039__length_14350 14350 1
+
+			Align 10: 84861 99210 scaffold00039__length_14350 14350 1
+			END in gap: 99210 to 100827 (1617 bp)
+
+	Reference gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence: 48 total alignments. 1 total regions.
+		Region: 1 to 943018 (943018 bp)
+			Align 1: 1 33446 scaffold00003__length_250462 216992 250462
+				Next Alignment: 33447 39022 scaffold00003__length_250462 216765 222366
+
+			Align 2: 33447 39022 scaffold00003__length_250462 216765 222366
+				Negative gap (overlap) between this and next alignment: 39022 to 39022 (0 bp)
+				Next Alignment: 39022 42212 scaffold00006__length_209360 1 3191
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 2.
+			Align 3: 39023 42212 scaffold00006__length_209360 2 3191
+				Gap between this and next alignment: 42212 to 42593 (380 bp)
+				Next Alignment: 42593 114920 scaffold00006__length_209360 3962 76290
+
+			Align 4: 42593 114920 scaffold00006__length_209360 3962 76290
+				Negative gap (overlap) between this and next alignment: 114920 to 114920 (0 bp)
+				Next Alignment: 114920 115673 scaffold00006__length_209360 76196 76951
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 76196 to 76197.
+			Align 5: 114921 115673 scaffold00006__length_209360 76197 76951
+				Negative gap (overlap) between this and next alignment: 115673 to 115609 (-64 bp)
+				Next Alignment: 115609 135637 scaffold00006__length_209360 77848 97876
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 77848 to 77913.
+			Align 6: 115674 135637 scaffold00006__length_209360 77913 97876
+				Negative gap (overlap) between this and next alignment: 135637 to 135598 (-39 bp)
+				Next Alignment: 135598 160374 scaffold00006__length_209360 98304 123080
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 98304 to 98344.
+			Align 7: 135638 160374 scaffold00006__length_209360 98344 123080
+				Gap between this and next alignment: 160374 to 160390 (15 bp)
+				Next Alignment: 160390 165969 scaffold00006__length_209360 123744 129323
+
+			Align 8: 160390 165969 scaffold00006__length_209360 123744 129323
+				Negative gap (overlap) between this and next alignment: 165969 to 165959 (-10 bp)
+				Next Alignment: 165959 166635 scaffold00006__length_209360 130213 130889
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 130213 to 130224.
+			Align 9: 165970 166635 scaffold00006__length_209360 130224 130889
+				Negative gap (overlap) between this and next alignment: 166635 to 166601 (-34 bp)
+				Next Alignment: 166601 224015 scaffold00006__length_209360 131542 188956
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 131542 to 131577.
+			Align 10: 166636 224015 scaffold00006__length_209360 131577 188956
+				Negative gap (overlap) between this and next alignment: 224015 to 224000 (-15 bp)
+				Next Alignment: 224000 243766 scaffold00006__length_209360 189594 209360
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 189594 to 189610.
+			Align 11: 224016 243766 scaffold00006__length_209360 189610 209360
+				Gap between this and next alignment: 243766 to 243789 (22 bp)
+				Next Alignment: 243789 252580 scaffold00021__length_97243 97243 88452
+
+			Align 12: 243789 252580 scaffold00021__length_97243 97243 88452
+				Negative gap (overlap) between this and next alignment: 252580 to 252575 (-5 bp)
+				Next Alignment: 252575 281321 scaffold00021__length_97243 87748 59001
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 87748 to 87742.
+			Align 13: 252581 281321 scaffold00021__length_97243 87742 59001
+				Negative gap (overlap) between this and next alignment: 281321 to 281294 (-27 bp)
+				Next Alignment: 281294 294822 scaffold00021__length_97243 58582 45054
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 58582 to 58554.
+			Align 14: 281322 294822 scaffold00021__length_97243 58554 45054
+				Negative gap (overlap) between this and next alignment: 294822 to 294786 (-36 bp)
+				Next Alignment: 294786 296379 scaffold00021__length_97243 44119 42526
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 44119 to 44082.
+			Align 15: 294823 296379 scaffold00021__length_97243 44082 42526
+				Negative gap (overlap) between this and next alignment: 296379 to 296348 (-31 bp)
+				Next Alignment: 296348 333299 scaffold00021__length_97243 42100 5149
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 42100 to 42068.
+			Align 16: 296380 333299 scaffold00021__length_97243 42068 5149
+				Negative gap (overlap) between this and next alignment: 333299 to 333256 (-43 bp)
+				Next Alignment: 333256 337736 scaffold00021__length_97243 4481 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4481 to 4437.
+			Align 17: 333300 337736 scaffold00021__length_97243 4437 1
+				Next Alignment: 337737 361522 scaffold00034__length_23786 1 23786
+
+			Align 18: 337737 361522 scaffold00034__length_23786 1 23786
+				Gap between this and next alignment: 361522 to 361856 (333 bp)
+				Next Alignment: 361856 371634 scaffold00040__length_9779 1 9779
+
+			Align 19: 361856 371634 scaffold00040__length_9779 1 9779
+				Gap between this and next alignment: 371634 to 373242 (1607 bp)
+				Next Alignment: 373242 409963 scaffold00007__length_209862 1 36722
+
+			Align 20: 373242 409963 scaffold00007__length_209862 1 36722
+				Negative gap (overlap) between this and next alignment: 409963 to 409950 (-13 bp)
+				Next Alignment: 409950 411166 scaffold00007__length_209862 37427 38643
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 37427 to 37441.
+			Align 21: 409964 411166 scaffold00007__length_209862 37441 38643
+				Gap between this and next alignment: 411166 to 411169 (2 bp)
+				Next Alignment: 411169 454196 scaffold00007__length_209862 39356 82383
+
+			Align 22: 411169 454196 scaffold00007__length_209862 39356 82383
+				Negative gap (overlap) between this and next alignment: 454196 to 454134 (-62 bp)
+				Next Alignment: 454134 469740 scaffold00007__length_209862 82771 98377
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 82771 to 82834.
+			Align 23: 454197 469740 scaffold00007__length_209862 82834 98377
+				Negative gap (overlap) between this and next alignment: 469740 to 469738 (-2 bp)
+				Next Alignment: 469738 488420 scaffold00007__length_209862 99075 117757
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 99075 to 99078.
+			Align 24: 469741 488420 scaffold00007__length_209862 99078 117757
+				Negative gap (overlap) between this and next alignment: 488420 to 488416 (-4 bp)
+				Next Alignment: 488416 492095 scaffold00007__length_209862 118466 122145
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 118466 to 118471.
+			Align 25: 488421 492095 scaffold00007__length_209862 118471 122145
+				Negative gap (overlap) between this and next alignment: 492095 to 492040 (-55 bp)
+				Next Alignment: 492040 531251 scaffold00007__length_209862 122726 161937
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 122726 to 122782.
+			Align 26: 492096 531251 scaffold00007__length_209862 122782 161937
+				Negative gap (overlap) between this and next alignment: 531251 to 531206 (-45 bp)
+				Next Alignment: 531206 553576 scaffold00007__length_209862 162876 185246
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 162876 to 162922.
+			Align 27: 531252 553576 scaffold00007__length_209862 162922 185246
+				Negative gap (overlap) between this and next alignment: 553576 to 553541 (-35 bp)
+				Next Alignment: 553541 564412 scaffold00007__length_209862 185877 196748
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 185877 to 185913.
+			Align 28: 553577 564412 scaffold00007__length_209862 185913 196748
+				Negative gap (overlap) between this and next alignment: 564412 to 564346 (-66 bp)
+				Next Alignment: 564346 573622 scaffold00007__length_209862 197114 206390
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 197114 to 197181.
+			Align 29: 564413 573622 scaffold00007__length_209862 197181 206390
+				Negative gap (overlap) between this and next alignment: 573622 to 573609 (-13 bp)
+				Next Alignment: 573609 576151 scaffold00007__length_209862 207320 209862
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 207320 to 207334.
+			Align 30: 573623 576151 scaffold00007__length_209862 207334 209862
+				Gap between this and next alignment: 576151 to 576249 (97 bp)
+				Next Alignment: 576249 640635 scaffold00015__length_131888 131888 67502
+
+			Align 31: 576249 640635 scaffold00015__length_131888 131888 67502
+				Negative gap (overlap) between this and next alignment: 640635 to 640594 (-41 bp)
+				Next Alignment: 640594 647943 scaffold00015__length_131888 66868 59519
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 66868 to 66826.
+			Align 32: 640636 647943 scaffold00015__length_131888 66826 59519
+				Next Alignment: 647944 706549 scaffold00015__length_131888 58606 1
+
+			Align 33: 647944 706549 scaffold00015__length_131888 58606 1
+				Gap between this and next alignment: 706549 to 708122 (1572 bp)
+				Next Alignment: 708122 711544 scaffold00044__length_5118 5118 1696
+
+			Align 34: 708122 711544 scaffold00044__length_5118 5118 1696
+				Gap between this and next alignment: 711544 to 711697 (152 bp)
+				Next Alignment: 711697 712398 scaffold00044__length_5118 702 1
+
+			Align 35: 711697 712398 scaffold00044__length_5118 702 1
+				Gap between this and next alignment: 712398 to 712830 (431 bp)
+				Next Alignment: 712830 739069 scaffold00031__length_26240 1 26240
+
+			Align 36: 712830 739069 scaffold00031__length_26240 1 26240
+				Gap between this and next alignment: 739069 to 739451 (381 bp)
+				Next Alignment: 739451 743286 scaffold00009__length_209614 209614 205779
+
+			Align 37: 739451 743286 scaffold00009__length_209614 209614 205779
+				Gap between this and next alignment: 743286 to 743445 (158 bp)
+				Next Alignment: 743445 744327 scaffold00009__length_209614 205184 204302
+
+			Align 38: 743445 744327 scaffold00009__length_209614 205184 204302
+				Gap between this and next alignment: 744327 to 744535 (207 bp)
+				Next Alignment: 744535 759766 scaffold00009__length_209614 203438 188207
+
+			Align 39: 744535 759766 scaffold00009__length_209614 203438 188207
+				Next Alignment: 759767 760536 scaffold00009__length_209614 187525 186756
+
+			Align 40: 759767 760536 scaffold00009__length_209614 187525 186756
+				Gap between this and next alignment: 760536 to 760613 (76 bp)
+				Next Alignment: 760613 761433 scaffold00009__length_209614 185934 185114
+
+			Align 41: 760613 761433 scaffold00009__length_209614 185934 185114
+				Gap between this and next alignment: 761433 to 761577 (143 bp)
+				Next Alignment: 761577 839838 scaffold00009__length_209614 184515 106254
+
+			Align 42: 761577 839838 scaffold00009__length_209614 184515 106254
+				Negative gap (overlap) between this and next alignment: 839838 to 839796 (-42 bp)
+				Next Alignment: 839796 847993 scaffold00009__length_209614 105446 97249
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 105446 to 105403.
+			Align 43: 839839 847993 scaffold00009__length_209614 105403 97249
+				Negative gap (overlap) between this and next alignment: 847993 to 847956 (-37 bp)
+				Next Alignment: 847956 850368 scaffold00009__length_209614 96849 94437
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 96849 to 96811.
+			Align 44: 847994 850368 scaffold00009__length_209614 96811 94437
+				Gap between this and next alignment: 850368 to 850384 (15 bp)
+				Next Alignment: 850384 893696 scaffold00009__length_209614 93820 50508
+
+			Align 45: 850384 893696 scaffold00009__length_209614 93820 50508
+				Gap between this and next alignment: 893696 to 894097 (400 bp)
+				Next Alignment: 894097 905570 scaffold00009__length_209614 49674 38201
+
+			Align 46: 894097 905570 scaffold00009__length_209614 49674 38201
+				Gap between this and next alignment: 905570 to 905952 (381 bp)
+				Next Alignment: 905952 907434 scaffold00009__length_209614 37358 35876
+
+			Align 47: 905952 907434 scaffold00009__length_209614 37358 35876
+				Negative gap (overlap) between this and next alignment: 907434 to 907434 (0 bp)
+				Next Alignment: 907434 942613 scaffold00009__length_209614 35180 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 35180 to 35179.
+			Align 48: 907435 942613 scaffold00009__length_209614 35179 1
+			END in gap: 942613 to 943018 (405 bp)
+
+	Reference gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence: 9 total alignments. 1 total regions.
+		Region: 1 to 114179 (114179 bp)
+			START in gap: 1 to 1569 (1568 bp)
+			Align 1: 1569 15032 scaffold00018__length_117281 117281 103818
+				Negative gap (overlap) between this and next alignment: 15032 to 14995 (-37 bp)
+				Next Alignment: 14995 18566 scaffold00018__length_117281 103210 99639
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 103210 to 103172.
+			Align 2: 15033 18566 scaffold00018__length_117281 103172 99639
+				Negative gap (overlap) between this and next alignment: 18566 to 18538 (-28 bp)
+				Next Alignment: 18538 33812 scaffold00018__length_117281 99046 83772
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 99046 to 99017.
+			Align 3: 18567 33812 scaffold00018__length_117281 99017 83772
+				Negative gap (overlap) between this and next alignment: 33812 to 33804 (-8 bp)
+				Next Alignment: 33804 52161 scaffold00018__length_117281 82876 64519
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 82876 to 82867.
+			Align 4: 33813 52161 scaffold00018__length_117281 82867 64519
+				Negative gap (overlap) between this and next alignment: 52161 to 52143 (-18 bp)
+				Next Alignment: 52143 53933 scaffold00018__length_117281 63870 62080
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 63870 to 63851.
+			Align 5: 52162 53933 scaffold00018__length_117281 63851 62080
+				Negative gap (overlap) between this and next alignment: 53933 to 53900 (-33 bp)
+				Next Alignment: 53900 66406 scaffold00018__length_117281 61687 49181
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 61687 to 61653.
+			Align 6: 53934 66406 scaffold00018__length_117281 61653 49181
+				Negative gap (overlap) between this and next alignment: 66406 to 66365 (-41 bp)
+				Next Alignment: 66365 106566 scaffold00018__length_117281 48610 8409
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 48610 to 48568.
+			Align 7: 66407 106566 scaffold00018__length_117281 48568 8409
+				Negative gap (overlap) between this and next alignment: 106566 to 106525 (-41 bp)
+				Next Alignment: 106525 114140 scaffold00018__length_117281 7616 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 7616 to 7574.
+			Align 8: 106567 114140 scaffold00018__length_117281 7574 1
+				The next alignment (106567 114140 scaffold00018__length_117281 7574 1) is redundant. Skipping.
+
+	Reference gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence: 129 total alignments. 1 total regions.
+		Region: 1 to 3188524 (3188524 bp)
+			START in gap: 1 to 5348 (5347 bp)
+			Align 1: 5348 48299 scaffold00014__length_145694 1 42952
+				Negative gap (overlap) between this and next alignment: 48299 to 48279 (-20 bp)
+				Next Alignment: 48279 89731 scaffold00014__length_145694 43400 84852
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 43400 to 43421.
+			Align 2: 48300 89731 scaffold00014__length_145694 43421 84852
+				Negative gap (overlap) between this and next alignment: 89731 to 89723 (-8 bp)
+				Next Alignment: 89723 109983 scaffold00014__length_145694 85483 105743
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 85483 to 85492.
+			Align 3: 89732 109983 scaffold00014__length_145694 85492 105743
+				Negative gap (overlap) between this and next alignment: 109983 to 109978 (-5 bp)
+				Next Alignment: 109978 125533 scaffold00014__length_145694 106608 122163
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 106608 to 106614.
+			Align 4: 109984 125533 scaffold00014__length_145694 106614 122163
+				Negative gap (overlap) between this and next alignment: 125533 to 125530 (-3 bp)
+				Next Alignment: 125530 135040 scaffold00014__length_145694 122592 132102
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 122592 to 122596.
+			Align 5: 125534 135040 scaffold00014__length_145694 122596 132102
+				Negative gap (overlap) between this and next alignment: 135040 to 134982 (-58 bp)
+				Next Alignment: 134982 147718 scaffold00014__length_145694 132958 145694
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 132958 to 133017.
+			Align 6: 135041 147718 scaffold00014__length_145694 133017 145694
+				Gap between this and next alignment: 147718 to 149255 (1536 bp)
+				Next Alignment: 149255 163035 scaffold00032__length_27022 27022 13242
+
+			Align 7: 149255 163035 scaffold00032__length_27022 27022 13242
+				Negative gap (overlap) between this and next alignment: 163035 to 163009 (-26 bp)
+				Next Alignment: 163009 175384 scaffold00032__length_27022 12376 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 12376 to 12349.
+			Align 8: 163036 175384 scaffold00032__length_27022 12349 1
+				Gap between this and next alignment: 175384 to 175397 (12 bp)
+				Next Alignment: 175397 177383 scaffold00022__length_83172 83172 81186
+
+			Align 9: 175397 177383 scaffold00022__length_83172 83172 81186
+				Negative gap (overlap) between this and next alignment: 177383 to 177338 (-45 bp)
+				Next Alignment: 177338 211731 scaffold00022__length_83172 80523 46130
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 80523 to 80477.
+			Align 10: 177384 211731 scaffold00022__length_83172 80477 46130
+				Negative gap (overlap) between this and next alignment: 211731 to 211683 (-48 bp)
+				Next Alignment: 211683 223173 scaffold00022__length_83172 45266 33776
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 45266 to 45217.
+			Align 11: 211732 223173 scaffold00022__length_83172 45217 33776
+				Next Alignment: 223174 224124 scaffold00022__length_83172 33331 32381
+
+			Align 12: 223174 224124 scaffold00022__length_83172 33331 32381
+				Gap between this and next alignment: 224124 to 224332 (207 bp)
+				Next Alignment: 224332 226320 scaffold00022__length_83172 31418 29430
+
+			Align 13: 224332 226320 scaffold00022__length_83172 31418 29430
+				Gap between this and next alignment: 226320 to 226479 (158 bp)
+				Next Alignment: 226479 228753 scaffold00022__length_83172 28610 26336
+
+			Align 14: 226479 228753 scaffold00022__length_83172 28610 26336
+				Gap between this and next alignment: 228753 to 229154 (400 bp)
+				Next Alignment: 229154 239384 scaffold00022__length_83172 25652 15422
+
+			Align 15: 229154 239384 scaffold00022__length_83172 25652 15422
+				Next Alignment: 239385 241654 scaffold00022__length_83172 14773 12504
+
+			Align 16: 239385 241654 scaffold00022__length_83172 14773 12504
+				Negative gap (overlap) between this and next alignment: 241654 to 241652 (-2 bp)
+				Next Alignment: 241652 248059 scaffold00022__length_83172 11823 5416
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 11823 to 11820.
+			Align 17: 241655 248059 scaffold00022__length_83172 11820 5416
+				Gap between this and next alignment: 248059 to 248245 (185 bp)
+				Next Alignment: 248245 248766 scaffold00022__length_83172 4369 3848
+
+			Align 18: 248245 248766 scaffold00022__length_83172 4369 3848
+				Gap between this and next alignment: 248766 to 249120 (353 bp)
+				Next Alignment: 249120 252217 scaffold00022__length_83172 3098 1
+
+			Align 19: 249120 252217 scaffold00022__length_83172 3098 1
+				Gap between this and next alignment: 252217 to 253788 (1570 bp)
+				Next Alignment: 253788 278185 scaffold00029__length_34690 34690 10293
+
+			Align 20: 253788 278185 scaffold00029__length_34690 34690 10293
+				Negative gap (overlap) between this and next alignment: 278185 to 278148 (-37 bp)
+				Next Alignment: 278148 287813 scaffold00029__length_34690 9666 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 9666 to 9628.
+			Align 21: 278186 287813 scaffold00029__length_34690 9628 1
+				Gap between this and next alignment: 287813 to 288986 (1172 bp)
+				Next Alignment: 288986 306490 scaffold00038__length_17505 1 17505
+
+			Align 22: 288986 306490 scaffold00038__length_17505 1 17505
+				Gap between this and next alignment: 306490 to 307662 (1171 bp)
+				Next Alignment: 307662 330806 scaffold00016__length_120763 120763 97625
+
+			Align 23: 307662 330806 scaffold00016__length_120763 120763 97625
+				Negative gap (overlap) between this and next alignment: 330806 to 330788 (-18 bp)
+				Next Alignment: 330788 387356 scaffold00016__length_120763 97599 41031
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 97599 to 97580.
+			Align 24: 330807 387356 scaffold00016__length_120763 97580 41031
+				Negative gap (overlap) between this and next alignment: 387356 to 387301 (-55 bp)
+				Next Alignment: 387301 402597 scaffold00016__length_120763 40410 25114
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 40410 to 40354.
+			Align 25: 387357 402597 scaffold00016__length_120763 40354 25114
+				Negative gap (overlap) between this and next alignment: 402597 to 402578 (-19 bp)
+				Next Alignment: 402578 427037 scaffold00016__length_120763 24460 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 24460 to 24440.
+			Align 26: 402598 427037 scaffold00016__length_120763 24440 1
+				Gap between this and next alignment: 427037 to 427051 (13 bp)
+				Next Alignment: 427051 431539 scaffold00010__length_178486 1 4489
+
+			Align 27: 427051 431539 scaffold00010__length_178486 1 4489
+				Gap between this and next alignment: 431539 to 431552 (12 bp)
+				Next Alignment: 431552 458608 scaffold00010__length_178486 4946 32002
+
+			Align 28: 431552 458608 scaffold00010__length_178486 4946 32002
+				Gap between this and next alignment: 458608 to 458612 (3 bp)
+				Next Alignment: 458612 472619 scaffold00010__length_178486 32659 46666
+
+			Align 29: 458612 472619 scaffold00010__length_178486 32659 46666
+				Negative gap (overlap) between this and next alignment: 472619 to 472595 (-24 bp)
+				Next Alignment: 472595 537791 scaffold00010__length_178486 47506 112702
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 47506 to 47531.
+			Align 30: 472620 537791 scaffold00010__length_178486 47531 112702
+				Negative gap (overlap) between this and next alignment: 537791 to 537789 (-2 bp)
+				Next Alignment: 537789 542745 scaffold00010__length_178486 113125 118081
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 113125 to 113128.
+			Align 31: 537792 542745 scaffold00010__length_178486 113128 118081
+				Negative gap (overlap) between this and next alignment: 542745 to 542718 (-27 bp)
+				Next Alignment: 542718 559126 scaffold00010__length_178486 119046 135454
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 119046 to 119074.
+			Align 32: 542746 559126 scaffold00010__length_178486 119074 135454
+				Gap between this and next alignment: 559126 to 559507 (380 bp)
+				Next Alignment: 559507 594113 scaffold00010__length_178486 136311 170917
+
+			Align 33: 559507 594113 scaffold00010__length_178486 136311 170917
+				Negative gap (overlap) between this and next alignment: 594113 to 594093 (-20 bp)
+				Next Alignment: 594093 601237 scaffold00010__length_178486 171343 178486
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 171343 to 171364.
+			Align 34: 594114 601237 scaffold00010__length_178486 171364 178486
+				Gap between this and next alignment: 601237 to 601557 (319 bp)
+				Next Alignment: 601557 608729 scaffold00042__length_7173 1 7173
+
+			Align 35: 601557 608729 scaffold00042__length_7173 1 7173
+				Gap between this and next alignment: 608729 to 608735 (5 bp)
+				Next Alignment: 608735 645928 scaffold00028__length_37194 37194 1
+
+			Align 36: 608735 645928 scaffold00028__length_37194 37194 1
+				Gap between this and next alignment: 645928 to 646278 (349 bp)
+				Next Alignment: 646278 650918 scaffold00004__length_244371 1 4641
+
+			Align 37: 646278 650918 scaffold00004__length_244371 1 4641
+				Gap between this and next alignment: 650918 to 651259 (340 bp)
+				Next Alignment: 651259 667766 scaffold00004__length_244371 5502 22009
+
+			Align 38: 651259 667766 scaffold00004__length_244371 5502 22009
+				Negative gap (overlap) between this and next alignment: 667766 to 667762 (-4 bp)
+				Next Alignment: 667762 668904 scaffold00004__length_244371 22601 23743
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 22601 to 22606.
+			Align 39: 667767 668904 scaffold00004__length_244371 22606 23743
+				Gap between this and next alignment: 668904 to 669030 (125 bp)
+				Next Alignment: 669030 672939 scaffold00004__length_244371 24543 28452
+
+			Align 40: 669030 672939 scaffold00004__length_244371 24543 28452
+				Gap between this and next alignment: 672939 to 673180 (240 bp)
+				Next Alignment: 673180 691963 scaffold00004__length_244371 29133 47917
+
+			Align 41: 673180 691963 scaffold00004__length_244371 29133 47917
+				Gap between this and next alignment: 691963 to 692038 (74 bp)
+				Next Alignment: 692038 716485 scaffold00004__length_244371 47649 72095
+
+			Align 42: 692038 716485 scaffold00004__length_244371 47649 72095
+				Negative gap (overlap) between this and next alignment: 716485 to 716474 (-11 bp)
+				Next Alignment: 716474 741736 scaffold00004__length_244371 73001 98263
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 73001 to 73013.
+			Align 43: 716486 741736 scaffold00004__length_244371 73013 98263
+				Negative gap (overlap) between this and next alignment: 741736 to 741720 (-16 bp)
+				Next Alignment: 741720 763231 scaffold00004__length_244371 98852 120363
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 98852 to 98869.
+			Align 44: 741737 763231 scaffold00004__length_244371 98869 120363
+				Negative gap (overlap) between this and next alignment: 763231 to 763210 (-21 bp)
+				Next Alignment: 763210 770833 scaffold00004__length_244371 121022 128645
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 121022 to 121044.
+			Align 45: 763232 770833 scaffold00004__length_244371 121044 128645
+				Gap between this and next alignment: 770833 to 770836 (2 bp)
+				Next Alignment: 770836 782191 scaffold00004__length_244371 129092 140447
+
+			Align 46: 770836 782191 scaffold00004__length_244371 129092 140447
+				Negative gap (overlap) between this and next alignment: 782191 to 782148 (-43 bp)
+				Next Alignment: 782148 848595 scaffold00004__length_244371 141289 207736
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 141289 to 141333.
+			Align 47: 782192 848595 scaffold00004__length_244371 141333 207736
+				Negative gap (overlap) between this and next alignment: 848595 to 848550 (-45 bp)
+				Next Alignment: 848550 859982 scaffold00004__length_244371 208138 219570
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 208138 to 208184.
+			Align 48: 848596 859982 scaffold00004__length_244371 208184 219570
+				Negative gap (overlap) between this and next alignment: 859982 to 859981 (-1 bp)
+				Next Alignment: 859981 883919 scaffold00004__length_244371 220433 244371
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 220433 to 220435.
+			Align 49: 859983 883919 scaffold00004__length_244371 220435 244371
+				Gap between this and next alignment: 883919 to 884177 (257 bp)
+				Next Alignment: 884177 904480 scaffold00011__length_172373 1 20304
+
+			Align 50: 884177 904480 scaffold00011__length_172373 1 20304
+				Negative gap (overlap) between this and next alignment: 904480 to 904431 (-49 bp)
+				Next Alignment: 904431 981112 scaffold00011__length_172373 20964 97645
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 20964 to 21014.
+			Align 51: 904481 981112 scaffold00011__length_172373 21014 97645
+				Negative gap (overlap) between this and next alignment: 981112 to 981065 (-47 bp)
+				Next Alignment: 981065 1021461 scaffold00011__length_172373 98038 138434
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 98038 to 98086.
+			Align 52: 981113 1021461 scaffold00011__length_172373 98086 138434
+				Negative gap (overlap) between this and next alignment: 1021461 to 1021446 (-15 bp)
+				Next Alignment: 1021446 1045970 scaffold00011__length_172373 139056 163587
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 139056 to 139072.
+			Align 53: 1021462 1045970 scaffold00011__length_172373 139072 163587
+				Negative gap (overlap) between this and next alignment: 1045970 to 1025902 (-20068 bp)
+				Next Alignment: 1025902 1054756 scaffold00011__length_172373 143512 172373
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 143512 to 163595.
+			Align 54: 1045971 1054756 scaffold00011__length_172373 163595 172373
+				Gap between this and next alignment: 1054756 to 1054967 (210 bp)
+				Next Alignment: 1054967 1056948 scaffold00013__length_148779 1 1982
+
+			Align 55: 1054967 1056948 scaffold00013__length_148779 1 1982
+				Gap between this and next alignment: 1056948 to 1056987 (38 bp)
+				Next Alignment: 1056987 1095295 scaffold00013__length_148779 2821 41129
+
+			Align 56: 1056987 1095295 scaffold00013__length_148779 2821 41129
+				Negative gap (overlap) between this and next alignment: 1095295 to 1095271 (-24 bp)
+				Next Alignment: 1095271 1101015 scaffold00013__length_148779 41996 47740
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 41996 to 42021.
+			Align 57: 1095296 1101015 scaffold00013__length_148779 42021 47740
+				Negative gap (overlap) between this and next alignment: 1101015 to 1100993 (-22 bp)
+				Next Alignment: 1100993 1107693 scaffold00013__length_148779 48149 54849
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 48149 to 48172.
+			Align 58: 1101016 1107693 scaffold00013__length_148779 48172 54849
+				Negative gap (overlap) between this and next alignment: 1107693 to 1107675 (-18 bp)
+				Next Alignment: 1107675 1163602 scaffold00013__length_148779 55652 111579
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 55652 to 55671.
+			Align 59: 1107694 1163602 scaffold00013__length_148779 55671 111579
+				Negative gap (overlap) between this and next alignment: 1163602 to 1163600 (-2 bp)
+				Next Alignment: 1163600 1195619 scaffold00013__length_148779 112207 144226
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 112207 to 112210.
+			Align 60: 1163603 1195619 scaffold00013__length_148779 112210 144226
+				Negative gap (overlap) between this and next alignment: 1195619 to 1195577 (-42 bp)
+				Next Alignment: 1195577 1199728 scaffold00013__length_148779 144628 148779
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 144628 to 144671.
+			Align 61: 1195620 1199728 scaffold00013__length_148779 144671 148779
+				Negative gap (overlap) between this and next alignment: 1199728 to 1199720 (-8 bp)
+				Next Alignment: 1199720 1229488 scaffold00005__length_240768 1 29769
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 10.
+			Align 62: 1199729 1229488 scaffold00005__length_240768 10 29769
+				Negative gap (overlap) between this and next alignment: 1229488 to 1229421 (-67 bp)
+				Next Alignment: 1229421 1238939 scaffold00005__length_240768 30637 40155
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 30637 to 30705.
+			Align 63: 1229489 1238939 scaffold00005__length_240768 30705 40155
+				Negative gap (overlap) between this and next alignment: 1238939 to 1238878 (-61 bp)
+				Next Alignment: 1238878 1247287 scaffold00005__length_240768 40538 48947
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 40538 to 40600.
+			Align 64: 1238940 1247287 scaffold00005__length_240768 40600 48947
+				Negative gap (overlap) between this and next alignment: 1247287 to 1247277 (-10 bp)
+				Next Alignment: 1247277 1251280 scaffold00005__length_240768 49800 53803
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 49800 to 49811.
+			Align 65: 1247288 1251280 scaffold00005__length_240768 49811 53803
+				Negative gap (overlap) between this and next alignment: 1251280 to 1251262 (-18 bp)
+				Next Alignment: 1251262 1322864 scaffold00005__length_240768 54421 126022
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 54421 to 54440.
+			Align 66: 1251281 1322864 scaffold00005__length_240768 54440 126022
+				Negative gap (overlap) between this and next alignment: 1322864 to 1322851 (-13 bp)
+				Next Alignment: 1322851 1365489 scaffold00005__length_240768 126448 169086
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 126448 to 126462.
+			Align 67: 1322865 1365489 scaffold00005__length_240768 126462 169086
+				Negative gap (overlap) between this and next alignment: 1365489 to 1365476 (-13 bp)
+				Next Alignment: 1365476 1376287 scaffold00005__length_240768 169935 180746
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 169935 to 169949.
+			Align 68: 1365490 1376287 scaffold00005__length_240768 169949 180746
+				Gap between this and next alignment: 1376287 to 1376297 (9 bp)
+				Next Alignment: 1376297 1396958 scaffold00005__length_240768 181427 202088
+
+			Align 69: 1376297 1396958 scaffold00005__length_240768 181427 202088
+				Negative gap (overlap) between this and next alignment: 1396958 to 1396901 (-57 bp)
+				Next Alignment: 1396901 1435194 scaffold00005__length_240768 202475 240768
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 202475 to 202533.
+			Align 70: 1396959 1435194 scaffold00005__length_240768 202533 240768
+				Gap between this and next alignment: 1435194 to 1436804 (1609 bp)
+				Next Alignment: 1436804 1550609 scaffold00002__length_320577 1 113806
+
+			Align 71: 1436804 1550609 scaffold00002__length_320577 1 113806
+				Negative gap (overlap) between this and next alignment: 1550609 to 1550590 (-19 bp)
+				Next Alignment: 1550590 1554066 scaffold00002__length_320577 114421 117897
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 114421 to 114441.
+			Align 72: 1550610 1554066 scaffold00002__length_320577 114441 117897
+				Negative gap (overlap) between this and next alignment: 1554066 to 1554060 (-6 bp)
+				Next Alignment: 1554060 1586368 scaffold00002__length_320577 118533 150841
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 118533 to 118540.
+			Align 73: 1554067 1586368 scaffold00002__length_320577 118540 150841
+				Negative gap (overlap) between this and next alignment: 1586368 to 1586309 (-59 bp)
+				Next Alignment: 1586309 1598871 scaffold00002__length_320577 151222 163784
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 151222 to 151282.
+			Align 74: 1586369 1598871 scaffold00002__length_320577 151282 163784
+				Negative gap (overlap) between this and next alignment: 1598871 to 1598850 (-21 bp)
+				Next Alignment: 1598850 1618939 scaffold00002__length_320577 164495 184584
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 164495 to 164517.
+			Align 75: 1598872 1618939 scaffold00002__length_320577 164517 184584
+				Negative gap (overlap) between this and next alignment: 1618939 to 1618895 (-44 bp)
+				Next Alignment: 1618895 1671892 scaffold00002__length_320577 185477 238474
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 185477 to 185522.
+			Align 76: 1618940 1671892 scaffold00002__length_320577 185522 238474
+				Negative gap (overlap) between this and next alignment: 1671892 to 1671878 (-14 bp)
+				Next Alignment: 1671878 1726792 scaffold00002__length_320577 239135 294049
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 239135 to 239150.
+			Align 77: 1671893 1726792 scaffold00002__length_320577 239150 294049
+				Gap between this and next alignment: 1726792 to 1726799 (6 bp)
+				Next Alignment: 1726799 1752667 scaffold00002__length_320577 294709 320577
+
+			Align 78: 1726799 1752667 scaffold00002__length_320577 294709 320577
+				Gap between this and next alignment: 1752667 to 1753337 (669 bp)
+				Next Alignment: 1753337 1762424 scaffold00001__length_428108 1 9088
+
+			Align 79: 1753337 1762424 scaffold00001__length_428108 1 9088
+				Gap between this and next alignment: 1762424 to 1762434 (9 bp)
+				Next Alignment: 1762434 1790647 scaffold00001__length_428108 9713 37926
+
+			Align 80: 1762434 1790647 scaffold00001__length_428108 9713 37926
+				Negative gap (overlap) between this and next alignment: 1790647 to 1790603 (-44 bp)
+				Next Alignment: 1790603 1815534 scaffold00001__length_428108 38314 63246
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 38314 to 38359.
+			Align 81: 1790648 1815534 scaffold00001__length_428108 38359 63246
+				Negative gap (overlap) between this and next alignment: 1815534 to 1815496 (-38 bp)
+				Next Alignment: 1815496 1821556 scaffold00001__length_428108 64058 70118
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 64058 to 64097.
+			Align 82: 1815535 1821556 scaffold00001__length_428108 64097 70118
+				Negative gap (overlap) between this and next alignment: 1821556 to 1821524 (-32 bp)
+				Next Alignment: 1821524 1833367 scaffold00001__length_428108 70526 82369
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 70526 to 70559.
+			Align 83: 1821557 1833367 scaffold00001__length_428108 70559 82369
+				Negative gap (overlap) between this and next alignment: 1833367 to 1833311 (-56 bp)
+				Next Alignment: 1833311 1888023 scaffold00001__length_428108 82916 137628
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 82916 to 82973.
+			Align 84: 1833368 1888023 scaffold00001__length_428108 82973 137628
+				Negative gap (overlap) between this and next alignment: 1888023 to 1888012 (-11 bp)
+				Next Alignment: 1888012 1964928 scaffold00001__length_428108 138574 215490
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 138574 to 138586.
+			Align 85: 1888024 1964928 scaffold00001__length_428108 138586 215490
+				Negative gap (overlap) between this and next alignment: 1964928 to 1964903 (-25 bp)
+				Next Alignment: 1964903 2048641 scaffold00001__length_428108 216186 299924
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 216186 to 216212.
+			Align 86: 1964929 2048641 scaffold00001__length_428108 216212 299924
+				Gap between this and next alignment: 2048641 to 2048648 (6 bp)
+				Next Alignment: 2048648 2176194 scaffold00001__length_428108 300562 428108
+
+			Align 87: 2048648 2176194 scaffold00001__length_428108 300562 428108
+				Gap between this and next alignment: 2176194 to 2177732 (1537 bp)
+				Next Alignment: 2177732 2217866 scaffold00012__length_165333 1 40135
+
+			Align 88: 2177732 2217866 scaffold00012__length_165333 1 40135
+				Negative gap (overlap) between this and next alignment: 2217866 to 2217841 (-25 bp)
+				Next Alignment: 2217841 2250567 scaffold00012__length_165333 40963 73689
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 40963 to 40989.
+			Align 89: 2217867 2250567 scaffold00012__length_165333 40989 73689
+				Negative gap (overlap) between this and next alignment: 2250567 to 2250535 (-32 bp)
+				Next Alignment: 2250535 2295849 scaffold00012__length_165333 74371 119685
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 74371 to 74404.
+			Align 90: 2250568 2295849 scaffold00012__length_165333 74404 119685
+				Negative gap (overlap) between this and next alignment: 2295849 to 2295835 (-14 bp)
+				Next Alignment: 2295835 2329190 scaffold00012__length_165333 120313 153668
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 120313 to 120328.
+			Align 91: 2295850 2329190 scaffold00012__length_165333 120328 153668
+				Negative gap (overlap) between this and next alignment: 2329190 to 2329177 (-13 bp)
+				Next Alignment: 2329177 2334030 scaffold00012__length_165333 154347 159200
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 154347 to 154361.
+			Align 92: 2329191 2334030 scaffold00012__length_165333 154361 159200
+				Negative gap (overlap) between this and next alignment: 2334030 to 2334025 (-5 bp)
+				Next Alignment: 2334025 2339516 scaffold00012__length_165333 159842 165333
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 159842 to 159848.
+			Align 93: 2334031 2339516 scaffold00012__length_165333 159848 165333
+				Negative gap (overlap) between this and next alignment: 2339516 to 2339484 (-32 bp)
+				Next Alignment: 2339484 2375802 scaffold00017__length_119013 1 36319
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 34.
+			Align 94: 2339517 2375802 scaffold00017__length_119013 34 36319
+				Negative gap (overlap) between this and next alignment: 2375802 to 2375796 (-6 bp)
+				Next Alignment: 2375796 2410418 scaffold00017__length_119013 36988 71610
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 36988 to 36995.
+			Align 95: 2375803 2410418 scaffold00017__length_119013 36995 71610
+				Negative gap (overlap) between this and next alignment: 2410418 to 2410375 (-43 bp)
+				Next Alignment: 2410375 2457341 scaffold00017__length_119013 72047 119013
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 72047 to 72091.
+			Align 96: 2410419 2457341 scaffold00017__length_119013 72091 119013
+				Gap between this and next alignment: 2457341 to 2457376 (34 bp)
+				Next Alignment: 2457376 2462090 scaffold00024__length_66444 66444 61730
+
+			Align 97: 2457376 2462090 scaffold00024__length_66444 66444 61730
+				Negative gap (overlap) between this and next alignment: 2462090 to 2462067 (-23 bp)
+				Next Alignment: 2462067 2473262 scaffold00024__length_66444 61061 49866
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 61061 to 61037.
+			Align 98: 2462091 2473262 scaffold00024__length_66444 61037 49866
+				Negative gap (overlap) between this and next alignment: 2473262 to 2473222 (-40 bp)
+				Next Alignment: 2473222 2509286 scaffold00024__length_66444 49473 13409
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 49473 to 49432.
+			Align 99: 2473263 2509286 scaffold00024__length_66444 49432 13409
+				Gap between this and next alignment: 2509286 to 2509494 (207 bp)
+				Next Alignment: 2509494 2522153 scaffold00024__length_66444 12660 1
+
+			Align 100: 2509494 2522153 scaffold00024__length_66444 12660 1
+				Gap between this and next alignment: 2522153 to 2522196 (42 bp)
+				Next Alignment: 2522196 2555100 scaffold00020__length_104384 104384 71480
+
+			Align 101: 2522196 2555100 scaffold00020__length_104384 104384 71480
+				Negative gap (overlap) between this and next alignment: 2555100 to 2555091 (-9 bp)
+				Next Alignment: 2555091 2558655 scaffold00020__length_104384 70602 67038
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 70602 to 70592.
+			Align 102: 2555101 2558655 scaffold00020__length_104384 70592 67038
+				Negative gap (overlap) between this and next alignment: 2558655 to 2558639 (-16 bp)
+				Next Alignment: 2558639 2567883 scaffold00020__length_104384 66593 57349
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 66593 to 66576.
+			Align 103: 2558656 2567883 scaffold00020__length_104384 66576 57349
+				Negative gap (overlap) between this and next alignment: 2567883 to 2567815 (-68 bp)
+				Next Alignment: 2567815 2624533 scaffold00020__length_104384 56722 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 56722 to 56653.
+			Align 104: 2567884 2624533 scaffold00020__length_104384 56653 1
+				Gap between this and next alignment: 2624533 to 2625092 (558 bp)
+				Next Alignment: 2625092 2659162 scaffold00026__length_45977 45977 11907
+
+			Align 105: 2625092 2659162 scaffold00026__length_45977 45977 11907
+				Gap between this and next alignment: 2659162 to 2659175 (12 bp)
+				Next Alignment: 2659175 2670132 scaffold00026__length_45977 10958 1
+
+			Align 106: 2659175 2670132 scaffold00026__length_45977 10958 1
+				Gap between this and next alignment: 2670132 to 2670213 (80 bp)
+				Next Alignment: 2670213 2675432 scaffold00019__length_108021 108021 102802
+
+			Align 107: 2670213 2675432 scaffold00019__length_108021 108021 102802
+				Negative gap (overlap) between this and next alignment: 2675432 to 2675403 (-29 bp)
+				Next Alignment: 2675403 2682828 scaffold00019__length_108021 102191 94766
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 102191 to 102161.
+			Align 108: 2675433 2682828 scaffold00019__length_108021 102161 94766
+				Negative gap (overlap) between this and next alignment: 2682828 to 2682777 (-51 bp)
+				Next Alignment: 2682777 2698540 scaffold00019__length_108021 94175 78412
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 94175 to 94123.
+			Align 109: 2682829 2698540 scaffold00019__length_108021 94123 78412
+				Negative gap (overlap) between this and next alignment: 2698540 to 2698496 (-44 bp)
+				Next Alignment: 2698496 2703415 scaffold00019__length_108021 77773 72854
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 77773 to 77728.
+			Align 110: 2698541 2703415 scaffold00019__length_108021 77728 72854
+				Negative gap (overlap) between this and next alignment: 2703415 to 2703372 (-43 bp)
+				Next Alignment: 2703372 2759853 scaffold00019__length_108021 72479 16019
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 72479 to 72435.
+			Align 111: 2703416 2759853 scaffold00019__length_108021 72435 16019
+				Negative gap (overlap) between this and next alignment: 2759853 to 2759823 (-30 bp)
+				Next Alignment: 2759823 2766261 scaffold00019__length_108021 15386 8948
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 15386 to 15355.
+			Align 112: 2759854 2766261 scaffold00019__length_108021 15355 8948
+				Negative gap (overlap) between this and next alignment: 2766261 to 2766211 (-50 bp)
+				Next Alignment: 2766211 2774240 scaffold00019__length_108021 8030 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 8030 to 7979.
+			Align 113: 2766262 2774240 scaffold00019__length_108021 7979 1
+				Gap between this and next alignment: 2774240 to 2774254 (13 bp)
+				Next Alignment: 2774254 2837929 scaffold00008__length_207147 1 63676
+
+			Align 114: 2774254 2837929 scaffold00008__length_207147 1 63676
+				Negative gap (overlap) between this and next alignment: 2837929 to 2837908 (-21 bp)
+				Next Alignment: 2837908 2846293 scaffold00008__length_207147 64298 72683
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 64298 to 64320.
+			Align 115: 2837930 2846293 scaffold00008__length_207147 64320 72683
+				Negative gap (overlap) between this and next alignment: 2846293 to 2846252 (-41 bp)
+				Next Alignment: 2846252 2861576 scaffold00008__length_207147 73316 88640
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 73316 to 73358.
+			Align 116: 2846294 2861576 scaffold00008__length_207147 73358 88640
+				Negative gap (overlap) between this and next alignment: 2861576 to 2861549 (-27 bp)
+				Next Alignment: 2861549 2863786 scaffold00008__length_207147 89269 91506
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 89269 to 89297.
+			Align 117: 2861577 2863786 scaffold00008__length_207147 89297 91506
+				Negative gap (overlap) between this and next alignment: 2863786 to 2863775 (-11 bp)
+				Next Alignment: 2863775 2911598 scaffold00008__length_207147 92224 140047
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 92224 to 92236.
+			Align 118: 2863787 2911598 scaffold00008__length_207147 92236 140047
+				Negative gap (overlap) between this and next alignment: 2911598 to 2911540 (-58 bp)
+				Next Alignment: 2911540 2949954 scaffold00008__length_207147 140416 178830
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 140416 to 140475.
+			Align 119: 2911599 2949954 scaffold00008__length_207147 140475 178830
+				Negative gap (overlap) between this and next alignment: 2949954 to 2949940 (-14 bp)
+				Next Alignment: 2949940 2963592 scaffold00008__length_207147 179711 193363
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 179711 to 179726.
+			Align 120: 2949955 2963592 scaffold00008__length_207147 179726 193363
+				Negative gap (overlap) between this and next alignment: 2963592 to 2963546 (-46 bp)
+				Next Alignment: 2963546 2976674 scaffold00008__length_207147 194019 207147
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 194019 to 194066.
+			Align 121: 2963593 2976674 scaffold00008__length_207147 194066 207147
+				Gap between this and next alignment: 2976674 to 2976687 (12 bp)
+				Next Alignment: 2976687 3000417 scaffold00003__length_250462 1 23731
+
+			Align 122: 2976687 3000417 scaffold00003__length_250462 1 23731
+				Negative gap (overlap) between this and next alignment: 3000417 to 3000350 (-67 bp)
+				Next Alignment: 3000350 3055639 scaffold00003__length_250462 24352 79641
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 24352 to 24420.
+			Align 123: 3000418 3055639 scaffold00003__length_250462 24420 79641
+				Negative gap (overlap) between this and next alignment: 3055639 to 3055605 (-34 bp)
+				Next Alignment: 3055605 3091737 scaffold00003__length_250462 80251 116383
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 80251 to 80286.
+			Align 124: 3055640 3091737 scaffold00003__length_250462 80286 116383
+				Negative gap (overlap) between this and next alignment: 3091737 to 3091731 (-6 bp)
+				Next Alignment: 3091731 3104951 scaffold00003__length_250462 116838 130058
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 116838 to 116845.
+			Align 125: 3091738 3104951 scaffold00003__length_250462 116845 130058
+				Negative gap (overlap) between this and next alignment: 3104951 to 3104903 (-48 bp)
+				Next Alignment: 3104903 3138320 scaffold00003__length_250462 130928 164345
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 130928 to 130977.
+			Align 126: 3104952 3138320 scaffold00003__length_250462 130977 164345
+				Negative gap (overlap) between this and next alignment: 3138320 to 3138303 (-17 bp)
+				Next Alignment: 3138303 3141302 scaffold00003__length_250462 165012 168011
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 165012 to 165030.
+			Align 127: 3138321 3141302 scaffold00003__length_250462 165030 168011
+				Next Alignment: 3141303 3180796 scaffold00003__length_250462 168433 207926
+
+			Align 128: 3141303 3180796 scaffold00003__length_250462 168433 207926
+				Gap between this and next alignment: 3180796 to 3180806 (9 bp)
+				Next Alignment: 3180806 3188119 scaffold00003__length_250462 208695 216008
+
+			Align 129: 3180806 3188119 scaffold00003__length_250462 208695 216008
+			END in gap: 3188119 to 3188524 (405 bp)
+
+	Reference gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence: 13 total alignments. 1 total regions.
+		Region: 1 to 114045 (114045 bp)
+			START in gap: 1 to 573 (572 bp)
+			Align 1: 573 2630 scaffold00048__length_2058 2058 1
+				Negative gap (overlap) between this and next alignment: 2630 to 2628 (-2 bp)
+				Next Alignment: 2628 15759 scaffold00027__length_40761 40761 27630
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 40761 to 40758.
+			Align 2: 2631 15759 scaffold00027__length_40761 40758 27630
+				Negative gap (overlap) between this and next alignment: 15759 to 15732 (-27 bp)
+				Next Alignment: 15732 28215 scaffold00027__length_40761 27208 14725
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 27208 to 27180.
+			Align 3: 15760 28215 scaffold00027__length_40761 27180 14725
+				Negative gap (overlap) between this and next alignment: 28215 to 28177 (-38 bp)
+				Next Alignment: 28177 42333 scaffold00027__length_40761 14157 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 14157 to 14118.
+			Align 4: 28216 42333 scaffold00027__length_40761 14118 1
+				Gap between this and next alignment: 42333 to 42339 (5 bp)
+				Next Alignment: 42339 64463 scaffold00025__length_57582 1 22125
+
+			Align 5: 42339 64463 scaffold00025__length_57582 1 22125
+				Gap between this and next alignment: 64463 to 65626 (1162 bp)
+				Next Alignment: 65626 71651 scaffold00043__length_6026 6026 1
+
+			Align 6: 65626 71651 scaffold00043__length_6026 6026 1
+				Gap between this and next alignment: 71651 to 72762 (1110 bp)
+				Next Alignment: 72762 80183 scaffold00041__length_7422 1 7422
+
+			Align 7: 72762 80183 scaffold00041__length_7422 1 7422
+				Gap between this and next alignment: 80183 to 86109 (5925 bp)
+				Next Alignment: 86109 87360 scaffold00035__length_24609 1 1252
+
+			Align 8: 86109 87360 scaffold00035__length_24609 1 1252
+				Next Alignment: 87361 90181 scaffold00035__length_24609 1884 4704
+
+			Align 9: 87361 90181 scaffold00035__length_24609 1884 4704
+				Gap between this and next alignment: 90181 to 91639 (1457 bp)
+				Next Alignment: 91639 94381 scaffold00045__length_2743 1 2743
+
+			Align 10: 91639 94381 scaffold00045__length_2743 1 2743
+				Gap between this and next alignment: 94381 to 94486 (104 bp)
+				Next Alignment: 94486 97905 scaffold00037__length_20947 1 3420
+
+			Align 11: 94486 97905 scaffold00037__length_20947 1 3420
+				Gap between this and next alignment: 97905 to 97908 (2 bp)
+				Next Alignment: 97908 99414 scaffold00037__length_20947 3864 5370
+
+			Align 12: 97908 99414 scaffold00037__length_20947 3864 5370
+				Negative gap (overlap) between this and next alignment: 99414 to 99383 (-31 bp)
+				Next Alignment: 99383 114045 scaffold00037__length_20947 6284 20946
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 6284 to 6316.
+			Align 13: 99415 114045 scaffold00037__length_20947 6316 20946
+			END in current alignment.  Modifying 114045 to 114045.
+
+	Reference gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence: 3 total alignments. 1 total regions.
+		Region: 1 to 37100 (37100 bp)
+			Align 1: 1 6934 scaffold00025__length_57582 22723 29656
+				Gap between this and next alignment: 6934 to 7083 (148 bp)
+				Next Alignment: 7083 34983 scaffold00025__length_57582 29682 57582
+
+			Align 2: 7083 34983 scaffold00025__length_57582 29682 57582
+				Gap between this and next alignment: 34983 to 36497 (1513 bp)
+				Next Alignment: 36497 37100 scaffold00025__length_57582 22119 22722
+
+			Align 3: 36497 37100 scaffold00025__length_57582 22119 22722
+			END in current alignment.  Modifying 37100 to 37100.
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1930/dataset_2012_files/Scaffold/contigs_reports/nucmer_output/R.S.-M-Newbler2.used_snps
+
+Results:
+	Local Misassemblies: 163
+	Misassemblies: 6
+		Relocations: 2
+		Translocations: 4
+		Inversions: 0
+	Misassembled Contigs: 4
+	Misassembled Contig Bases: 356206
+	Misassmblies Inter-Contig Overlap: 25815
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 0 part
+Partially Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 0
+
+Ambiguously Mapped Contigs: 1
+Total Bases in Ambiguously Mapped Contigs: 2664
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 4549844
+
+	SNPs: 52
+	Insertions: 72
+	Deletions: 41
+
+	Positive Gaps: 84
+		Internal Gaps:  39
+		External Gaps:  45
+		External Gap Total:  45760
+		External Gap Average: 1017
+	Negative Gaps: 123
+		Internal Overlaps:  119
+		External Overlaps:  4
+		External Overlaps Total: -42
+		External Overlaps Average: -10
+	Contigs with Redundant Alignments: 1 (7574)

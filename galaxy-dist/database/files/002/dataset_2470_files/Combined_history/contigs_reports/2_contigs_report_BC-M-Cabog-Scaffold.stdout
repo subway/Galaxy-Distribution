@@ -1,0 +1,1025 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome]
+	Loaded [gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 2
+	Total Region Length: 5432652
+Analyzing contigs...
+CONTIG: scf7180000006943 (256896bp)
+Top Length: 213524  Top ID: 99.96
+		Skipping redundant alignment 5691 5934 | 1 244 | 244 244 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006943
+		Skipping redundant alignment 1107978 1109898 | 43372 45292 | 1921 1921 | 96.88 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006943
+		Skipping redundant alignment 2076392 2076548 | 98564 98409 | 157 156 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006943
+		Skipping redundant alignment 1662972 1663128 | 98564 98409 | 157 156 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006943
+		Skipping redundant alignment 109191 112079 | 256894 254006 | 2889 2889 | 99.97 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006943
+		This contig is misassembled. 7 total aligns.
+			Real Alignment 1: 2950351 2995642 | 1 45291 | 45292 45291 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006943
+			  Extensive misassembly ( relocation, inconsistency = 239747 ) between these two alignments
+			Real Alignment 2: 3233471 3446995 | 43373 256896 | 213525 213524 | 99.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006943
+
+CONTIG: scf7180000006942 (131868bp)
+Top Length: 131868  Top ID: 99.99
+		Marking as insignificant: 4248304 4248374 | 903 973 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 615179 615249 | 973 903 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4650437 4650508 | 129370 129441 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 823438 823509 | 129441 129370 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 64526 64597 | 1844 1773 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 64526 64597 | 129924 129853 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 5203885 5203957 | 129853 129925 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 5203885 5203957 | 1773 1845 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4650080 4650152 | 129287 129359 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 824721 824793 | 1845 1773 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 824721 824793 | 129925 129853 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 823794 823866 | 129359 129287 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 30850 30922 | 129359 129287 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 11076 11148 | 129359 129287 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4649349 4649422 | 1327 1400 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4649260 4649333 | 900 973 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4648918 4648991 | 129853 129926 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4650805 4650881 | 1689 1765 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4817793 4817871 | 48687 48609 | 79 79 | 97.47 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4650805 4650882 | 129768 129845 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 822980 823057 | 1765 1688 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4649344 4649422 | 129444 129522 | 79 79 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 5203966 5204045 | 129443 129522 | 80 80 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4649607 4649686 | 1564 1643 | 80 80 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4649093 4649173 | 130025 130105 | 81 81 | 98.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 5203783 5203864 | 1564 1644 | 82 81 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 5203960 5204045 | 1317 1400 | 86 84 | 96.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 824640 824721 | 2027 1946 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 824639 824721 | 130107 130025 | 83 83 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 824227 824309 | 1647 1565 | 83 83 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 285003 285087 | 1647 1563 | 85 85 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 284471 284555 | 1647 1563 | 85 85 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 610483 610571 | 129753 129665 | 89 89 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 610793 610885 | 1497 1403 | 93 95 | 96.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 1471704 1471862 | 48764 48609 | 159 156 | 95.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 823158 823311 | 1481 1327 | 154 155 | 98.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4650168 4650329 | 978 1136 | 162 159 | 96.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 823617 823778 | 1136 978 | 162 159 | 96.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 609958 610123 | 129927 129761 | 166 167 | 98.8 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4648918 4649173 | 1773 2026 | 256 254 | 96.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 29012 29907 | 895 1 | 896 895 | 99.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 9239 10133 | 895 1 | 895 895 | 99.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 818065 818963 | 899 1 | 899 899 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4654897 4655797 | 1 900 | 901 900 | 99.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 604857 605756 | 900 1 | 900 900 | 99.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 313786 314685 | 900 1 | 900 900 | 99.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 82351 83251 | 900 1 | 901 900 | 99.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 330703 331602 | 900 1 | 900 900 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 322885 323784 | 900 1 | 900 900 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 300575 301474 | 900 1 | 900 900 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 145420 146319 | 900 1 | 900 900 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 85486 87206 | 131868 130113 | 1721 1756 | 97.16 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 333838 335558 | 131868 130113 | 1721 1756 | 97.27 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 32369 34089 | 131868 130113 | 1721 1756 | 97.33 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 12595 14315 | 131868 130113 | 1721 1756 | 97.33 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 326020 327740 | 131868 130113 | 1721 1756 | 97.38 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 316919 318639 | 131868 130113 | 1721 1756 | 97.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 303711 305431 | 131868 130113 | 1721 1756 | 97.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 282659 284384 | 131868 130108 | 1726 1761 | 97.22 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 821198 822974 | 131868 130110 | 1777 1759 | 97.75 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 4650882 4652662 | 130106 131868 | 1781 1763 | 97.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		Marking as insignificant: 607991 609851 | 131868 130024 | 1861 1845 | 97.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+		One align captures most of this contig: 148555 280424 | 131868 1 | 131870 131868 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006942
+
+CONTIG: scf7180000006941 (288228bp)
+Top Length: 170546  Top ID: 99.94
+		Skipping redundant alignment 4650805 4652662 | 1857 1 | 1858 1857 | 99.19 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 333838 335565 | 1 1779 | 1728 1779 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 326020 327747 | 1 1779 | 1728 1779 | 96.13 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 607991 609768 | 1 1777 | 1778 1777 | 98.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 303711 305436 | 1 1777 | 1726 1777 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 316919 318644 | 1 1777 | 1726 1777 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 12595 14320 | 1 1777 | 1726 1777 | 96.12 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 32369 34094 | 1 1777 | 1726 1777 | 96.12 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 85486 87211 | 1 1777 | 1726 1777 | 95.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 148555 150315 | 1 1775 | 1761 1775 | 97.53 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 282659 284379 | 1 1772 | 1721 1772 | 96.23 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 610039 610119 | 1780 1860 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 278660 278737 | 1781 1858 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 610483 610570 | 1863 1950 | 88 88 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 278944 279098 | 1959 2112 | 155 154 | 98.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 610807 610884 | 1959 2036 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 5203965 5204045 | 2119 2039 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 4650077 4650623 | 2670 2124 | 547 547 | 99.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 610886 610962 | 2237 2313 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 150984 151055 | 2239 2310 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 279289 279447 | 2418 2579 | 159 162 | 96.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 11071 11149 | 2590 2668 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 30845 30923 | 2590 2668 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 151066 151138 | 2595 2667 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 21769 21863 | 2830 2924 | 95 95 | 97.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 284383 284553 | 2941 3110 | 171 170 | 99.42 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 284918 285085 | 2945 3110 | 168 166 | 98.81 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 278778 278860 | 3028 3110 | 83 83 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 4650729 4650805 | 3274 3197 | 77 78 | 98.72 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 610575 610656 | 3280 3361 | 82 82 | 96.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 4649093 4649255 | 3522 3359 | 163 164 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 10988 11069 | 3359 3440 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 30762 30843 | 3359 3440 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 150318 150400 | 3440 3522 | 83 83 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 278398 278479 | 3441 3522 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 5203884 5203957 | 3595 3522 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 150500 150572 | 3522 3594 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 278580 278652 | 3522 3594 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 609960 610032 | 3522 3594 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 64526 64605 | 3523 3602 | 80 80 | 97.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 4190254 4191657 | 137582 138985 | 1404 1404 | 97.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 4416916 4416987 | 258688 258617 | 72 72 | 98.61 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 2993723 2995434 | 286517 288228 | 1712 1712 | 96.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		Skipping redundant alignment 3233471 3235182 | 286518 288228 | 1712 1711 | 98.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+		This contig is misassembled. 46 total aligns.
+			Real Alignment 1: 821198 991719 | 1 170546 | 170522 170546 | 99.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+			  Gap between these two alignments (local misassembly). Inconsistency = 288
+			Real Alignment 2: 991083 1109689 | 169622 288228 | 118607 118607 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006941
+
+CONTIG: scf7180000006940 (271204bp)
+Top Length: 158295  Top ID: 99.99
+		Skipping redundant alignment 4654760 4655924 | 1 1163 | 1165 1163 | 99.31 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 145296 146456 | 1160 1 | 1161 1160 | 99.14 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 817939 819100 | 1160 1 | 1162 1160 | 97.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 300470 301611 | 1143 1 | 1142 1143 | 98.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 313681 314822 | 1143 1 | 1142 1143 | 98.43 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 322780 323921 | 1143 1 | 1142 1143 | 98.43 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 330598 331739 | 1143 1 | 1142 1143 | 98.43 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 82309 83388 | 1080 1 | 1080 1080 | 98.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 279525 280561 | 1037 1 | 1037 1037 | 99.9 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 9239 10270 | 1032 1 | 1032 1032 | 99.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 29012 30044 | 1032 1 | 1033 1032 | 99.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 326911 327846 | 271204 270269 | 936 936 | 99.04 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 33260 34134 | 271204 270333 | 875 872 | 98.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 13486 14320 | 271204 270370 | 835 835 | 99.88 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 86377 87211 | 271204 270370 | 835 835 | 99.76 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 304602 305436 | 271204 270370 | 835 835 | 99.64 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 317810 318644 | 271204 270370 | 835 835 | 99.64 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 283550 284382 | 271204 270372 | 833 833 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		Skipping redundant alignment 149446 150312 | 271204 270375 | 867 830 | 95.05 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+		This contig is misassembled. 21 total aligns.
+			Real Alignment 1: 334729 493021 | 271204 112910 | 158293 158295 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+			  Overlap between these two alignments (local misassembly). Inconsistency = -35
+			Real Alignment 2: 493007 605893 | 112889 1 | 112887 112889 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006940
+
+CONTIG: scf7180000006938 (437186bp)
+Top Length: 437186  Top ID: 99.99
+		Marking as insignificant: 231738 231816 | 112321 112399 | 79 79 | 97.47 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006938
+		Marking as insignificant: 1471784 1471863 | 112321 112400 | 80 80 | 97.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006938
+		Marking as insignificant: 1598122 1598279 | 292524 292366 | 158 159 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006938
+		Marking as insignificant: 2564200 2565856 | 437183 435528 | 1657 1656 | 99.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006938
+		One align captures most of this contig: 4705491 5142639 | 1 437186 | 437149 437186 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006938
+
+CONTIG: scf7180000006944 (431479bp)
+Top Length: 153790  Top ID: 99.98
+		Skipping redundant alignment 958816 960170 | 1 1355 | 1355 1355 | 97.49 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 615178 615252 | 58093 58019 | 75 75 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 4649263 4649335 | 58022 58094 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 279452 279522 | 58092 58022 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 1243450 1243608 | 197922 197764 | 159 159 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 1080078 1080149 | 197836 197765 | 72 72 | 98.61 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 2819954 2820113 | 317828 317987 | 160 160 | 95.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 645582 645738 | 317988 317831 | 157 158 | 95.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 4109969 4110125 | 317831 317988 | 157 158 | 95.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 64526 64608 | 429769 429685 | 83 85 | 97.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 5203884 5203957 | 429697 429770 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 278399 278652 | 429953 429698 | 254 256 | 96.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 150499 150572 | 429771 429698 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 609959 610032 | 429771 429698 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 824558 824721 | 430035 429873 | 164 163 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 150320 150400 | 429953 429873 | 81 81 | 98.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 10988 11069 | 430035 429954 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 30762 30843 | 430035 429954 | 82 82 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 279452 279525 | 430113 430040 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 4248304 4248376 | 430043 430115 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 615178 615249 | 430114 430043 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 5203967 5204047 | 430124 430204 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 150903 150981 | 430202 430124 | 79 79 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 279025 279098 | 430202 430129 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 284383 284562 | 430555 430378 | 180 178 | 95.03 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 278782 278861 | 430466 430387 | 80 80 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 21771 21863 | 430664 430572 | 93 93 | 97.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 64437 64512 | 430841 430766 | 76 76 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 823722 823869 | 431004 430857 | 148 148 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 11071 11149 | 430937 430859 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 30845 30923 | 430937 430859 | 79 79 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		Skipping redundant alignment 151066 151138 | 430932 430860 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+		This contig is misassembled. 38 total aligns.
+			Real Alignment 1: 4190303 4257057 | 1 66775 | 66755 66775 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+			  Extensive misassembly ( relocation, inconsistency = -364804 ) between these two alignments
+			Real Alignment 2: 4256533 4256761 | 431055 431283 | 229 229 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+			  Extensive misassembly ( relocation, inconsistency = 392854 ) between these two alignments
+			Real Alignment 3: 4285128 4347099 | 66796 128718 | 61972 61923 | 99.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+			  Extensive misassembly ( relocation, inconsistency = -364267 ) between these two alignments
+			Real Alignment 4: 4285389 4285593 | 431275 431479 | 205 205 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+			  Extensive misassembly ( relocation, inconsistency = 365044 ) between these two alignments
+			Real Alignment 5: 4347868 4496631 | 128710 277480 | 148764 148771 | 99.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+			  Gap between these two alignments (local misassembly). Inconsistency = 90
+			Real Alignment 6: 4496456 4650224 | 277215 431004 | 153769 153790 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006944
+
+CONTIG: scf7180000006939 (211009bp)
+Top Length: 211009  Top ID: 99.98
+		Marking as insignificant: 645450 645515 | 37525 37460 | 66 66 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 279452 279522 | 7188 7258 | 71 71 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 4649263 4649334 | 7258 7187 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 64526 64597 | 1970 2041 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 5203885 5203957 | 2041 1969 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 824721 824793 | 1969 2041 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 4648918 4648991 | 2041 1968 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 4248301 4248375 | 7261 7187 | 75 75 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 4650434 4650510 | 2971 2895 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 823436 823512 | 2895 2971 | 77 77 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 4650805 4650882 | 2125 2048 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 823158 823235 | 2816 2893 | 78 78 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 824479 824560 | 2584 2665 | 82 82 | 96.34 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 822979 823059 | 2048 2128 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 4650636 4650719 | 2758 2675 | 84 84 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 823062 823149 | 2492 2579 | 88 88 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 150672 150760 | 2492 2580 | 89 89 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 278928 279022 | 2802 2894 | 95 93 | 96.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 4537072 4537229 | 37748 37592 | 158 157 | 95.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 1471706 1471862 | 37748 37593 | 157 156 | 98.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 150498 150664 | 1967 2132 | 167 166 | 98.8 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 284389 284560 | 2143 2313 | 172 171 | 98.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 284914 285092 | 2138 2313 | 179 176 | 97.21 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 29012 29942 | 210080 211009 | 931 930 | 99.46 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 9239 10168 | 210080 211009 | 930 930 | 99.46 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 279526 280459 | 210076 211009 | 934 934 | 99.68 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 82329 83286 | 210052 211009 | 958 958 | 99.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 300511 301509 | 210010 211009 | 999 1000 | 98.1 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 313722 314720 | 210010 211009 | 999 1000 | 98.2 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 330639 331637 | 210010 211009 | 999 1000 | 98.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 322821 323819 | 210010 211009 | 999 1000 | 98.3 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 604734 605791 | 209950 211009 | 1058 1060 | 97.36 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 4654862 4655921 | 211009 209950 | 1060 1060 | 97.83 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 145296 146354 | 209950 211009 | 1059 1060 | 97.83 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 85486 87211 | 1 1777 | 1726 1777 | 96.4 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 333838 335563 | 1 1777 | 1726 1777 | 96.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 326020 327745 | 1 1777 | 1726 1777 | 96.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 316919 318644 | 1 1777 | 1726 1777 | 96.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 303711 305436 | 1 1777 | 1726 1777 | 96.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 32369 34094 | 1 1777 | 1726 1777 | 96.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 12595 14320 | 1 1777 | 1726 1777 | 96.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 282659 284389 | 1 1783 | 1731 1783 | 96.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 4650884 4652662 | 1777 1 | 1779 1777 | 98.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 821198 822976 | 1 1777 | 1779 1777 | 99.1 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		Marking as insignificant: 148555 150401 | 1 1860 | 1847 1860 | 98.07 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+		One align captures most of this contig: 607991 818998 | 1 211009 | 211008 211009 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006939
+
+CONTIG: scf7180000006929 (17303bp)
+Top Length: 16425  Top ID: 99.98
+		Skipping redundant alignment 322730 323654 | 925 1 | 925 925 | 97.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 313643 314555 | 913 1 | 913 913 | 98.03 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 330562 331472 | 911 1 | 911 911 | 98.24 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 604751 605626 | 875 1 | 876 875 | 98.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 4655027 4655884 | 1 854 | 858 854 | 98.83 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 145344 146189 | 845 1 | 846 845 | 99.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 817999 818833 | 834 1 | 835 834 | 98.08 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 82308 83121 | 814 1 | 814 814 | 98.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 279525 280294 | 770 1 | 770 770 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 9239 10003 | 765 1 | 765 765 | 99.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 29012 29777 | 765 1 | 766 765 | 99.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 4649598 4649775 | 16252 16431 | 178 180 | 95.03 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 610134 610304 | 16425 16254 | 171 172 | 98.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 278778 278862 | 16343 16259 | 85 85 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 5203783 5203864 | 16260 16340 | 82 81 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 824140 824309 | 16431 16261 | 170 171 | 99.42 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 334690 335561 | 17303 16432 | 872 872 | 99.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 13447 14318 | 17303 16432 | 872 872 | 99.66 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 33221 34092 | 17303 16432 | 872 872 | 99.66 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 86338 87209 | 17303 16432 | 872 872 | 99.54 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 326872 327743 | 17303 16432 | 872 872 | 99.54 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 304563 305434 | 17303 16432 | 872 872 | 99.43 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		Skipping redundant alignment 317771 318642 | 17303 16432 | 872 872 | 99.43 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+		This contig is misassembled. 25 total aligns.
+			Real Alignment 1: 283511 284921 | 17303 15893 | 1411 1411 | 99.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+			  Gap between these two alignments (local misassembly). Inconsistency = 530
+			Real Alignment 2: 284919 301344 | 16425 1 | 16426 16425 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006929
+
+CONTIG: scf7180000006928 (60832bp)
+Top Length: 60832  Top ID: 99.98
+		Marking as insignificant: 29012 29907 | 895 1 | 896 895 | 99.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 9239 10133 | 895 1 | 895 895 | 99.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 279525 280424 | 900 1 | 900 900 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 82309 83251 | 943 1 | 943 943 | 98.83 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 330628 331602 | 976 1 | 975 976 | 99.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 322810 323784 | 976 1 | 975 976 | 99.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 313711 314685 | 976 1 | 975 976 | 99.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 300500 301474 | 976 1 | 975 976 | 99.49 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 817939 818963 | 1024 1 | 1025 1024 | 98.05 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 604734 605756 | 1024 1 | 1023 1024 | 99.02 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 4654897 4655921 | 1 1024 | 1025 1024 | 99.61 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 821198 822976 | 60832 59108 | 1779 1725 | 96.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 607991 609768 | 60832 59108 | 1778 1725 | 96.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 4650884 4652662 | 59108 60832 | 1779 1725 | 96.68 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 148555 150312 | 60832 59113 | 1758 1720 | 97.56 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 282659 284382 | 60832 59110 | 1724 1723 | 99.88 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 333838 335563 | 60832 59108 | 1726 1725 | 99.88 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 326020 327745 | 60832 59108 | 1726 1725 | 99.88 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 303711 305469 | 60832 59077 | 1759 1756 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 12595 14353 | 60832 59077 | 1759 1756 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 316919 318684 | 60832 59069 | 1766 1764 | 99.49 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		Marking as insignificant: 32369 34136 | 60832 59068 | 1768 1765 | 99.49 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+		One align captures most of this contig: 85486 146319 | 60832 1 | 60834 60832 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006928
+
+CONTIG: scf7180000006925 (9790bp)
+Top Length: 9790  Top ID: 99.96
+		Marking as insignificant: 29012 29667 | 655 1 | 656 655 | 98.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 9239 9893 | 655 1 | 655 655 | 98.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 279525 280184 | 660 1 | 660 660 | 99.24 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 82329 83011 | 682 1 | 683 682 | 98.54 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 817999 818723 | 724 1 | 725 724 | 97.38 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 145344 146079 | 735 1 | 736 735 | 98.64 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 4655137 4655884 | 1 744 | 748 744 | 97.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 149500 150312 | 9790 9015 | 813 776 | 95.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 604751 605516 | 765 1 | 766 765 | 97.13 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 330578 331362 | 785 1 | 785 785 | 98.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 283604 284382 | 9790 9012 | 779 779 | 99.61 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 334783 335563 | 9790 9010 | 781 781 | 99.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 326965 327745 | 9790 9010 | 781 781 | 99.87 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 33314 34096 | 9790 9008 | 783 783 | 99.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 13540 14322 | 9790 9008 | 783 783 | 99.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 300432 301234 | 803 1 | 803 803 | 97.26 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 322733 323544 | 811 1 | 812 811 | 98.28 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 86431 87242 | 9790 8977 | 812 814 | 99.02 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		Marking as insignificant: 317864 318679 | 9790 8975 | 816 816 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+		One align captures most of this contig: 304656 314445 | 9790 1 | 9790 9790 | 99.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006925
+
+CONTIG: scf7180000006924 (51345bp)
+Top Length: 51345  Top ID: 100.0
+		Marking as insignificant: 9239 9952 | 50631 51345 | 714 715 | 99.58 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006924
+		Marking as insignificant: 29012 29726 | 50631 51345 | 715 715 | 99.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006924
+		Marking as insignificant: 279525 280243 | 50626 51345 | 719 720 | 99.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006924
+		Marking as insignificant: 82309 83070 | 50583 51345 | 762 763 | 98.69 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006924
+		Marking as insignificant: 330619 331421 | 50539 51345 | 803 807 | 98.64 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006924
+		Marking as insignificant: 322801 323603 | 50539 51345 | 803 807 | 98.64 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006924
+		Marking as insignificant: 313702 314504 | 50539 51345 | 803 807 | 98.64 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006924
+		Marking as insignificant: 300491 301293 | 50539 51345 | 803 807 | 98.76 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006924
+		Marking as insignificant: 817939 818782 | 50502 51345 | 844 844 | 97.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006924
+		Marking as insignificant: 604731 605575 | 50499 51345 | 845 847 | 99.06 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006924
+		Marking as insignificant: 145296 146138 | 50502 51345 | 843 844 | 99.53 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006924
+		One align captures most of this contig: 4655078 4706422 | 51345 1 | 51345 51345 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006924
+
+CONTIG: scf7180000006927 (3949bp)
+Top Length: 922  Top ID: 99.13
+		Skipping redundant alignment 86360 87242 | 1 885 | 883 885 | 98.87 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 13469 14322 | 1 854 | 854 854 | 99.53 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 33243 34096 | 1 854 | 854 854 | 99.53 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 326894 327745 | 1 852 | 852 852 | 99.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 334712 335563 | 1 852 | 852 852 | 99.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 283533 284382 | 1 850 | 850 850 | 99.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 149429 150312 | 1 847 | 884 847 | 95.25 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 330577 331469 | 3057 3949 | 893 893 | 99.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 4655030 4655884 | 3949 3099 | 855 851 | 98.83 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 604771 605623 | 3099 3949 | 853 851 | 98.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 145344 146186 | 3108 3949 | 843 842 | 99.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 817999 818830 | 3119 3949 | 832 831 | 98.32 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 82329 83118 | 3161 3949 | 790 789 | 99.37 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 279525 280291 | 3183 3949 | 767 767 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 9239 10000 | 3188 3949 | 762 762 | 99.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignment 29012 29774 | 3188 3949 | 763 762 | 99.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [300416][301341] redundant alignment 300416 301341 | 3024 3949 | 926 926 | 98.16 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping [304585][305471] redundant alignment 304585 305471 | 1 887 | 887 887 | 99.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Skipping [322730][323651] redundant alignment 322730 323651 | 3028 3949 | 922 922 | 99.13 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		This contig is misassembled. 21 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 3949 and total length of all aligns is 1807
+		Alignment: 313635 314552 | 3031 3949 | 918 919 | 98.37 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Alignment: 317793 318680 | 1 888 | 888 888 | 99.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006927
+		Unaligned bases: 2142
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: scf7180000006926 (5921bp)
+Top Length: 5921  Top ID: 99.97
+		Marking as insignificant: 149500 150312 | 5921 5146 | 813 776 | 95.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 283604 284382 | 5921 5143 | 779 779 | 99.61 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 334783 335563 | 5921 5141 | 781 781 | 99.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 326965 327745 | 5921 5141 | 781 781 | 99.87 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 33314 34096 | 5921 5139 | 783 783 | 99.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 13540 14322 | 5921 5139 | 783 783 | 99.74 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 86431 87250 | 5921 5101 | 820 821 | 98.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 304656 305471 | 5921 5106 | 816 816 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 9239 10133 | 895 1 | 895 895 | 99.66 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 29012 29907 | 895 1 | 896 895 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 279525 280424 | 900 1 | 900 900 | 99.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 82329 83251 | 922 1 | 923 922 | 99.35 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 817999 818963 | 964 1 | 965 964 | 98.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 145344 146319 | 975 1 | 976 975 | 99.28 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 4654897 4655884 | 1 984 | 988 984 | 98.79 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 604751 605756 | 1005 1 | 1006 1005 | 98.11 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 330577 331602 | 1026 1 | 1026 1026 | 99.42 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 300420 301474 | 1055 1 | 1055 1055 | 98.01 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		Marking as insignificant: 313635 314685 | 1052 1 | 1051 1052 | 98.95 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+		One align captures most of this contig: 317864 323784 | 5921 1 | 5921 5921 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006926
+
+CONTIG: scf7180000006921 (747281bp)
+Top Length: 443545  Top ID: 99.93
+		Skipping redundant alignment 109191 112080 | 2890 1 | 2890 2890 | 99.93 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006921
+		Skipping redundant alignment 4537072 4537229 | 666117 666273 | 158 157 | 95.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006921
+		Skipping redundant alignment 2783320 2783476 | 666117 666272 | 157 156 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006921
+		Skipping redundant alignment 2076392 2076548 | 666272 666117 | 157 156 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006921
+		Skipping redundant alignment 1662972 1663128 | 666272 666117 | 157 156 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006921
+		Skipping redundant alignment 2815228 2815384 | 666117 666272 | 157 156 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006921
+		Skipping redundant alignment 2819957 2820113 | 666117 666272 | 157 156 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006921
+		Skipping redundant alignment 2443446 2443554 | 745640 745748 | 109 109 | 97.25 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006921
+		Skipping redundant alignment 958767 959645 | 746403 747281 | 879 879 | 98.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006921
+		This contig is misassembled. 12 total aligns.
+			Real Alignment 1: 3444105 3670210 | 2 226092 | 226106 226091 | 99.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006921
+			  Overlap between these two alignments (local misassembly). Inconsistency = -178
+			Real Alignment 2: 3670210 4113666 | 226270 669814 | 443457 443545 | 99.93 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006921
+			  Gap between these two alignments (local misassembly). Inconsistency = 22
+			Real Alignment 3: 4099429 4191132 | 655555 747281 | 91704 91727 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006921
+
+CONTIG: scf7180000006920 (29059bp)
+Top Length: 28631  Top ID: 99.88
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 4256753 4256960 | 28852 29059 | 208 208 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006920
+			  Extensive misassembly ( relocation, inconsistency = 28622 ) between these two alignments
+			Real Alignment 2: 4256753 4285397 | 230 28860 | 28645 28631 | 99.88 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006920
+			  Extensive misassembly ( relocation, inconsistency = 28622 ) between these two alignments
+			Real Alignment 3: 4285160 4285397 | 1 238 | 238 238 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006920
+
+CONTIG: scf7180000006923 (126422bp)
+Top Length: 126422  Top ID: 99.99
+		Marking as insignificant: 3234944 3235390 | 1 447 | 447 447 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006923
+		Marking as insignificant: 1109451 1109897 | 1 447 | 447 447 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006923
+		One align captures most of this contig: 2995196 3121617 | 1 126422 | 126422 126422 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006923
+
+CONTIG: scf7180000006922 (15635bp)
+Top Length: 15635  Top ID: 100.0
+		One align captures most of this contig: 1213065 1228699 | 15635 1 | 15635 15635 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006922
+
+CONTIG: scf7180000006936 (93351bp)
+Top Length: 83304  Top ID: 99.99
+		Skipping redundant alignment 2564200 2565855 | 1656 1 | 1656 1656 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 278781 278861 | 62884 62803 | 81 82 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 284474 284554 | 62884 62803 | 81 82 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 285006 285086 | 62884 62803 | 81 82 | 98.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 824721 824794 | 62977 62904 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 4648917 4648990 | 62904 62977 | 74 74 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 64526 64598 | 62976 62904 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 150500 150572 | 62977 62905 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 278580 278652 | 62977 62905 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 609960 610032 | 62977 62905 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 279025 279108 | 63065 62980 | 84 86 | 96.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 823238 823318 | 63065 62985 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 150903 150982 | 63065 62986 | 80 80 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 4649344 4649424 | 62987 63067 | 81 81 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 82275 83165 | 92465 93351 | 891 887 | 97.2 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 28974 29821 | 92505 93351 | 848 847 | 99.41 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 145425 146233 | 92543 93351 | 809 809 | 99.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 279530 280338 | 92543 93351 | 809 809 | 99.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 300580 301388 | 92543 93351 | 809 809 | 99.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 322890 323698 | 92543 93351 | 809 809 | 99.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 330708 331516 | 92543 93351 | 809 809 | 99.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 818069 818877 | 92543 93351 | 809 809 | 99.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 313791 314599 | 92543 93351 | 809 809 | 99.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 604862 605670 | 92543 93351 | 809 809 | 99.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		Skipping redundant alignment 4654983 4655792 | 93351 92543 | 810 809 | 99.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+		This contig is misassembled. 27 total aligns.
+			Real Alignment 2: 5140981 5224283 | 1 83304 | 83303 83304 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 1: 1 10047 | 83305 93351 | 10047 10047 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006936
+
+CONTIG: scf7180000006937 (5582bp)
+Top Length: 5582  Top ID: 99.96
+		Marking as insignificant: 29012 29907 | 895 1 | 896 895 | 99.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 9239 10133 | 895 1 | 895 895 | 99.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 279525 280424 | 900 1 | 900 900 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 82329 83251 | 922 1 | 923 922 | 99.46 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 817999 818963 | 964 1 | 965 964 | 98.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 145344 146319 | 975 1 | 976 975 | 99.39 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 4654897 4655884 | 1 984 | 988 984 | 98.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 604751 605756 | 1005 1 | 1006 1005 | 98.21 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 313661 314685 | 1025 1 | 1025 1025 | 99.32 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 322759 323784 | 1026 1 | 1026 1026 | 99.51 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 300434 301474 | 1041 1 | 1041 1041 | 98.46 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 607991 609768 | 5582 3858 | 1778 1725 | 96.57 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 821198 822978 | 5582 3856 | 1781 1727 | 96.52 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 4650883 4652662 | 3857 5582 | 1780 1726 | 96.69 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 148555 150312 | 5582 3863 | 1758 1720 | 97.56 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 85486 87211 | 5582 3858 | 1726 1725 | 99.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 282659 284382 | 5582 3860 | 1724 1723 | 99.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 316919 318644 | 5582 3858 | 1726 1725 | 99.83 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 303711 305436 | 5582 3858 | 1726 1725 | 99.83 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 12595 14320 | 5582 3858 | 1726 1725 | 99.83 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 32369 34134 | 5582 3821 | 1766 1762 | 99.26 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		Marking as insignificant: 333838 335664 | 5582 3757 | 1827 1826 | 99.4 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+		One align captures most of this contig: 326020 331602 | 5582 1 | 5583 5582 | 99.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006937
+
+CONTIG: scf7180000006914 (98335bp)
+Top Length: 88094  Top ID: 99.92
+		Skipping redundant alignment 3444105 3446995 | 2891 1 | 2891 2891 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006914
+		Skipping redundant alignment 2944017 2944235 | 98117 98335 | 219 219 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006914
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 109191 119408 | 3 10221 | 10218 10219 | 99.98 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006914
+			  Overlap between these two alignments (local misassembly). Inconsistency = -40
+			Real Alignment 2: 119389 207503 | 10242 98335 | 88115 88094 | 99.92 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006914
+
+CONTIG: scf7180000006915 (27562bp)
+Top Length: 27562  Top ID: 99.97
+		Marking as insignificant: 2994325 2995642 | 1 1318 | 1318 1318 | 97.04 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006915
+		Marking as insignificant: 3234073 3235391 | 1 1319 | 1319 1319 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006915
+		Marking as insignificant: 50585 52030 | 27562 26117 | 1446 1446 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006915
+		One align captures most of this contig: 1108580 1136141 | 1 27562 | 27562 27562 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006915
+
+CONTIG: scf7180000006916 (170803bp)
+Top Length: 170800  Top ID: 99.9
+		Marking as insignificant: 1368402 1369858 | 1457 1 | 1457 1457 | 99.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006916
+		Marking as insignificant: 5140980 5142639 | 169145 170803 | 1660 1659 | 99.94 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006916
+		One align captures most of this contig: 2564200 2734969 | 170800 1 | 170770 170800 | 99.9 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006916
+
+CONTIG: scf7180000006917 (50892bp)
+Top Length: 50892  Top ID: 99.95
+		Marking as insignificant: 609961 610032 | 18737 18666 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 278581 278652 | 18737 18666 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 150501 150572 | 18737 18666 | 72 72 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 5203884 5203956 | 18665 18737 | 73 73 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 4649986 4650061 | 18751 18826 | 76 76 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 824722 824801 | 18737 18658 | 80 80 | 97.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 4648905 4648989 | 18655 18737 | 85 83 | 97.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 279525 280424 | 901 1 | 900 901 | 99.78 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 818041 818963 | 923 1 | 923 923 | 99.24 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 313764 314685 | 923 1 | 922 923 | 99.24 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 330681 331602 | 923 1 | 922 923 | 99.35 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 322863 323784 | 923 1 | 922 923 | 99.35 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 604814 605756 | 943 1 | 943 943 | 98.62 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 145377 146319 | 943 1 | 943 943 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 4654897 4655840 | 1 943 | 944 943 | 98.83 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 300531 301474 | 944 1 | 944 944 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 28944 29907 | 967 1 | 964 967 | 97.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 9161 10133 | 977 1 | 973 977 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 821198 822976 | 50892 49169 | 1779 1724 | 96.29 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 607991 609768 | 50892 49169 | 1778 1724 | 96.35 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 4650884 4652662 | 49169 50892 | 1779 1724 | 96.4 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 148555 150312 | 50892 49174 | 1758 1719 | 97.27 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 282659 284382 | 50892 49171 | 1724 1722 | 99.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 316919 318646 | 50892 49167 | 1728 1726 | 99.54 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 303711 305438 | 50892 49167 | 1728 1726 | 99.54 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 333838 335600 | 50892 49129 | 1763 1764 | 99.04 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 326020 327782 | 50892 49129 | 1763 1764 | 99.04 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 85486 87251 | 50892 49127 | 1766 1766 | 99.04 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		Marking as insignificant: 12595 14354 | 50892 49135 | 1760 1758 | 99.66 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+		One align captures most of this contig: 32369 83251 | 50892 1 | 50883 50892 | 99.95 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006917
+
+CONTIG: scf7180000006912 (263195bp)
+Top Length: 217061  Top ID: 99.98
+		Skipping redundant alignment 1134695 1136142 | 1 1448 | 1448 1448 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006912
+		Skipping redundant alignment 81384 81516 | 13215 13347 | 133 133 | 99.25 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006912
+		Skipping redundant alignment 83134 83266 | 13216 13347 | 133 132 | 96.99 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006912
+		Skipping redundant alignment 108252 108454 | 13217 13417 | 203 201 | 95.57 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006912
+		Skipping redundant alignment 207285 208369 | 52694 51610 | 1085 1085 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006912
+		Skipping redundant alignment 2076391 2076549 | 176599 176757 | 159 159 | 96.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006912
+		Skipping redundant alignment 4537069 4537228 | 176759 176600 | 160 160 | 95.65 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006912
+		Skipping redundant alignment 4109969 4110124 | 176756 176600 | 156 157 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006912
+		Skipping redundant alignment 1662972 1663128 | 176600 176756 | 157 157 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006912
+		Skipping redundant alignment 2076392 2076550 | 181329 181487 | 159 159 | 95.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006912
+		Skipping redundant alignment 4109969 4110124 | 181485 181329 | 156 157 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006912
+		Skipping redundant alignment 1662971 1663128 | 213235 213392 | 158 158 | 96.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006912
+		Skipping redundant alignment 4109969 4110124 | 213392 213236 | 156 157 | 98.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006912
+		Skipping redundant alignment 2076392 2076548 | 213236 213392 | 157 157 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006912
+		Skipping redundant alignment 3288509 3288599 | 213392 213302 | 91 91 | 96.7 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006912
+		Skipping redundant alignment 1368406 1369943 | 263195 261658 | 1538 1538 | 99.28 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006912
+		This contig is misassembled. 19 total aligns.
+			Real Alignment 1: 2733517 2950594 | 263195 46135 | 217078 217061 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006912
+			  Extensive misassembly ( translocation ) between these two alignments
+			Real Alignment 2: 1 46738 | 52050 5294 | 46738 46757 | 99.86 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006912
+			  Gap between these two alignments (local misassembly). Inconsistency = 25
+			Real Alignment 3: 26786 52030 | 25271 2 | 25245 25270 | 99.9 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006912
+
+CONTIG: scf7180000006913 (37266bp)
+Top Length: 37266  Top ID: 99.77
+		Marking as insignificant: 38615 38815 | 33640 33438 | 201 203 | 95.57 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006913
+		Marking as insignificant: 38615 38816 | 8561 8359 | 202 203 | 96.55 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006913
+		Marking as insignificant: 38615 38817 | 6811 6609 | 203 203 | 97.04 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006913
+		Marking as insignificant: 3132049 3134441 | 6 2398 | 2393 2393 | 99.87 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006913
+		Marking as insignificant: 3444105 3446993 | 37265 34377 | 2889 2889 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006913
+		One align captures most of this contig: 74776 112080 | 1 37266 | 37305 37266 | 99.77 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006913
+
+CONTIG: scf7180000006932 (26580bp)
+Top Length: 26580  Top ID: 99.99
+		Marking as insignificant: 1134696 1136141 | 25135 26580 | 1446 1446 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006932
+		Marking as insignificant: 3132049 3134429 | 2384 4 | 2381 2381 | 99.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006932
+		One align captures most of this contig: 50585 77164 | 26580 1 | 26580 26580 | 99.99 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006932
+
+CONTIG: scf7180000006933 (1198056bp)
+Top Length: 499553  Top ID: 99.98
+		Skipping redundant alignment 5140981 5142636 | 1 1656 | 1656 1656 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 4189491 4189599 | 122390 122282 | 109 109 | 97.25 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 3131810 3131949 | 367439 367300 | 140 140 | 95.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 1662972 1663134 | 489636 489473 | 163 164 | 97.56 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 2815226 2815384 | 489478 489636 | 159 159 | 95.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 2819956 2820114 | 489479 489637 | 159 159 | 96.86 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 2783320 2783476 | 489480 489636 | 157 157 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 3288509 3288664 | 489480 489636 | 156 157 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 4109969 4110124 | 489480 489636 | 156 157 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 1905283 1905365 | 578191 578109 | 83 83 | 97.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 1987841 1987923 | 661110 661028 | 83 83 | 97.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 2076392 2076555 | 903444 903282 | 164 163 | 97.56 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 2783320 2783477 | 903288 903445 | 158 158 | 96.84 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 4109969 4110124 | 903288 903444 | 156 157 | 96.82 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 2819957 2820113 | 903288 903444 | 157 157 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 3288509 3288664 | 903288 903444 | 156 157 | 96.18 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 4997818 4997976 | 968137 968294 | 159 158 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 1424135 1424290 | 968137 968292 | 156 156 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 4817793 4817872 | 1094657 1094578 | 80 80 | 97.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 231661 231816 | 1094737 1094579 | 156 159 | 95.6 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 645583 645738 | 1094579 1094735 | 156 157 | 98.09 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 4537069 4537156 | 1094738 1094651 | 88 88 | 97.73 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 1598124 1598279 | 1142171 1142326 | 156 156 | 97.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		Skipping redundant alignment 2733517 2735054 | 1198056 1196519 | 1538 1538 | 99.22 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+		This contig is misassembled. 29 total aligns.
+			Real Alignment 1: 1368406 1501985 | 1198056 1064434 | 133580 133623 | 99.97 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+			  Gap between these two alignments (local misassembly). Inconsistency = 22
+			Real Alignment 2: 1482030 1981519 | 1084411 584859 | 499490 499553 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+			  Overlap between these two alignments (local misassembly). Inconsistency = -347
+			Real Alignment 3: 1981236 2213508 | 584795 352515 | 232273 232281 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+			  Overlap between these two alignments (local misassembly). Inconsistency = -38
+			Real Alignment 4: 2213491 2367813 | 352494 198171 | 154323 154324 | 99.96 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+			  Overlap between these two alignments (local misassembly). Inconsistency = -144
+			Real Alignment 5: 2367411 2565855 | 198429 1 | 198445 198429 | 99.91 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006933
+
+CONTIG: scf7180000006930 (76333bp)
+Top Length: 76333  Top ID: 99.99
+		Marking as insignificant: 50584 52030 | 74886 76332 | 1447 1447 | 100.0 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006930
+		Marking as insignificant: 1284991 1287102 | 2112 1 | 2112 2112 | 95.5 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006930
+		One align captures most of this contig: 1134695 1211027 | 76333 1 | 76333 76333 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006930
+
+CONTIG: scf7180000006931 (103138bp)
+Top Length: 103133  Top ID: 99.99
+		Marking as insignificant: 2993724 2995434 | 101427 103138 | 1711 1712 | 96.27 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006931
+		Marking as insignificant: 1107979 1109689 | 101427 103138 | 1711 1712 | 98.77 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006931
+		Marking as insignificant: 74776 77173 | 1 2398 | 2398 2398 | 99.75 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006931
+		One align captures most of this contig: 3132049 3235182 | 6 103138 | 103134 103133 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006931
+
+CONTIG: scf7180000006918 (63513bp)
+Top Length: 60565  Top ID: 99.89
+		Skipping redundant alignment 4416915 4417073 | 15680 15522 | 159 159 | 97.48 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006918
+		Skipping redundant alignment 1211352 1212419 | 61235 62302 | 1068 1068 | 95.69 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006918
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 1208916 1213068 | 57062 61214 | 4153 4153 | 97.59 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006918
+			  Extensive misassembly ( relocation, inconsistency = 76085 ) between these two alignments
+			Real Alignment 2: 1227940 1288494 | 1 60565 | 60555 60565 | 99.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006918
+			  Extensive misassembly ( relocation, inconsistency = -1737 ) between these two alignments
+			Real Alignment 3: 1287427 1289705 | 61235 63513 | 2279 2279 | 98.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006918
+
+CONTIG: scf7180000006919 (13541bp)
+Top Length: 13538  Top ID: 99.98
+		Marking as insignificant: 2198584 2198723 | 10919 11058 | 140 140 | 95.71 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006919
+		Marking as insignificant: 74781 77164 | 11158 13541 | 2384 2384 | 99.96 | gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence scf7180000006919
+		One align captures most of this contig: 3120893 3134429 | 1 13538 | 13537 13538 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006919
+
+CONTIG: scf7180000006934 (81015bp)
+Top Length: 81015  Top ID: 99.99
+		Marking as insignificant: 2733513 2734969 | 79559 81015 | 1457 1457 | 99.45 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006934
+		One align captures most of this contig: 1288845 1369858 | 1 81015 | 81014 81015 | 99.99 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006934
+
+CONTIG: scf7180000006935 (16371bp)
+Top Length: 16371  Top ID: 99.98
+		Marking as insignificant: 4649792 4649884 | 8045 8137 | 93 93 | 97.85 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 824029 824123 | 8139 8045 | 95 95 | 97.89 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 283601 284382 | 16371 15590 | 782 782 | 99.87 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 334780 335563 | 16371 15588 | 784 784 | 99.87 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 326962 327745 | 16371 15588 | 784 784 | 99.87 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 317861 318646 | 16371 15586 | 786 786 | 99.75 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 304653 305438 | 16371 15586 | 786 786 | 99.75 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 86428 87242 | 16371 15555 | 815 817 | 99.02 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 33311 34128 | 16371 15554 | 818 818 | 100.0 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 604862 605756 | 896 1 | 895 896 | 99.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 313791 314685 | 896 1 | 895 896 | 99.44 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 818069 818963 | 896 1 | 895 896 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 330708 331602 | 896 1 | 895 896 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 322890 323784 | 896 1 | 895 896 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 300580 301474 | 896 1 | 895 896 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 279530 280424 | 896 1 | 895 896 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 145425 146319 | 896 1 | 895 896 | 99.55 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 4654897 4655792 | 1 896 | 896 896 | 99.67 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 9201 10133 | 934 1 | 933 934 | 99.36 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		Marking as insignificant: 82285 83251 | 964 1 | 967 964 | 97.63 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+		One align captures most of this contig: 13537 29907 | 16371 1 | 16371 16371 | 99.98 | gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome scf7180000006935
+
+Analyzing coverage...
+Writing SNPs into /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2387/dataset_2469_files/Contig/contigs_reports/nucmer_output/BC-M-Cabog-Scaffold.used_snps
+	Reference gi|42779081|ref|NC_003909.8|_Bacillus_cereus_ATCC_10987__complete_genome: 49 total alignments. 1 total regions.
+		Region: 1 to 5224283 (5224283 bp)
+			Align 1: 1 10047 scf7180000006936 83305 93351
+				Gap between this and next alignment: 10047 to 13537 (3489 bp)
+				Next Alignment: 13537 29907 scf7180000006935 16371 1
+
+			Align 2: 13537 29907 scf7180000006935 16371 1
+				Gap between this and next alignment: 29907 to 32369 (2461 bp)
+				Next Alignment: 32369 83251 scf7180000006917 50892 1
+
+			Align 3: 32369 83251 scf7180000006917 50892 1
+				Gap between this and next alignment: 83251 to 85486 (2234 bp)
+				Next Alignment: 85486 146319 scf7180000006928 60832 1
+
+			Align 4: 85486 146319 scf7180000006928 60832 1
+				Gap between this and next alignment: 146319 to 148555 (2235 bp)
+				Next Alignment: 148555 280424 scf7180000006942 131868 1
+
+			Align 5: 148555 280424 scf7180000006942 131868 1
+				Gap between this and next alignment: 280424 to 283511 (3086 bp)
+				Next Alignment: 283511 284921 scf7180000006929 17303 15893
+
+			Align 6: 283511 284921 scf7180000006929 17303 15893
+				Negative gap (overlap) between this and next alignment: 284921 to 284919 (-2 bp)
+				Next Alignment: 284919 301344 scf7180000006929 16425 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 16425 to 16422.
+			Align 7: 284922 301344 scf7180000006929 16422 1
+				Gap between this and next alignment: 301344 to 304656 (3311 bp)
+				Next Alignment: 304656 314445 scf7180000006925 9790 1
+
+			Align 8: 304656 314445 scf7180000006925 9790 1
+				Gap between this and next alignment: 314445 to 317864 (3418 bp)
+				Next Alignment: 317864 323784 scf7180000006926 5921 1
+
+			Align 9: 317864 323784 scf7180000006926 5921 1
+				Gap between this and next alignment: 323784 to 326020 (2235 bp)
+				Next Alignment: 326020 331602 scf7180000006937 5582 1
+
+			Align 10: 326020 331602 scf7180000006937 5582 1
+				Gap between this and next alignment: 331602 to 334729 (3126 bp)
+				Next Alignment: 334729 493021 scf7180000006940 271204 112910
+
+			Align 11: 334729 493021 scf7180000006940 271204 112910
+				Negative gap (overlap) between this and next alignment: 493021 to 493007 (-14 bp)
+				Next Alignment: 493007 605893 scf7180000006940 112889 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 112889 to 112874.
+			Align 12: 493022 605893 scf7180000006940 112874 1
+				Gap between this and next alignment: 605893 to 607991 (2097 bp)
+				Next Alignment: 607991 818998 scf7180000006939 1 211009
+
+			Align 13: 607991 818998 scf7180000006939 1 211009
+				Gap between this and next alignment: 818998 to 821198 (2199 bp)
+				Next Alignment: 821198 991719 scf7180000006941 1 170546
+
+			Align 14: 821198 991719 scf7180000006941 1 170546
+				Negative gap (overlap) between this and next alignment: 991719 to 991083 (-636 bp)
+				Next Alignment: 991083 1109689 scf7180000006941 169622 288228
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 169622 to 170271.
+			Align 15: 991720 1109689 scf7180000006941 170271 288228
+				Negative gap (overlap) between this and next alignment: 1109689 to 1108580 (-1109 bp)
+				Next Alignment: 1108580 1136141 scf7180000006915 1 27562
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 1111.
+			Align 16: 1109690 1136141 scf7180000006915 1111 27562
+				Negative gap (overlap) between this and next alignment: 1136141 to 1134695 (-1446 bp)
+				Next Alignment: 1134695 1211027 scf7180000006930 76333 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 76333 to 74886.
+			Align 17: 1136142 1211027 scf7180000006930 74886 1
+				Negative gap (overlap) between this and next alignment: 1211027 to 1208916 (-2111 bp)
+				Next Alignment: 1208916 1213068 scf7180000006918 57062 61214
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 57062 to 59174.
+			Align 18: 1211028 1213068 scf7180000006918 59174 61214
+				Negative gap (overlap) between this and next alignment: 1213068 to 1213065 (-3 bp)
+				Next Alignment: 1213065 1228699 scf7180000006922 15635 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 15635 to 15631.
+			Align 19: 1213069 1228699 scf7180000006922 15631 1
+				Negative gap (overlap) between this and next alignment: 1228699 to 1227940 (-759 bp)
+				Next Alignment: 1227940 1288494 scf7180000006918 1 60565
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 761.
+			Align 20: 1228700 1288494 scf7180000006918 761 60565
+				Negative gap (overlap) between this and next alignment: 1288494 to 1287427 (-1067 bp)
+				Next Alignment: 1287427 1289705 scf7180000006918 61235 63513
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 61235 to 62303.
+			Align 21: 1288495 1289705 scf7180000006918 62303 63513
+				Negative gap (overlap) between this and next alignment: 1289705 to 1288845 (-860 bp)
+				Next Alignment: 1288845 1369858 scf7180000006934 1 81015
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 862.
+			Align 22: 1289706 1369858 scf7180000006934 862 81015
+				Negative gap (overlap) between this and next alignment: 1369858 to 1368406 (-1452 bp)
+				Next Alignment: 1368406 1501985 scf7180000006933 1198056 1064434
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1198056 to 1196603.
+			Align 23: 1369859 1501985 scf7180000006933 1196603 1064434
+				Negative gap (overlap) between this and next alignment: 1501985 to 1482030 (-19955 bp)
+				Next Alignment: 1482030 1981519 scf7180000006933 1084411 584859
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1084411 to 1064411.
+			Align 24: 1501986 1981519 scf7180000006933 1064411 584859
+				Negative gap (overlap) between this and next alignment: 1981519 to 1981236 (-283 bp)
+				Next Alignment: 1981236 2213508 scf7180000006933 584795 352515
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 584795 to 584512.
+			Align 25: 1981520 2213508 scf7180000006933 584512 352515
+				Negative gap (overlap) between this and next alignment: 2213508 to 2213491 (-17 bp)
+				Next Alignment: 2213491 2367813 scf7180000006933 352494 198171
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 352494 to 352476.
+			Align 26: 2213509 2367813 scf7180000006933 352476 198171
+				Negative gap (overlap) between this and next alignment: 2367813 to 2367411 (-402 bp)
+				Next Alignment: 2367411 2565855 scf7180000006933 198429 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 198429 to 197999.
+			Align 27: 2367814 2565855 scf7180000006933 197999 1
+				Negative gap (overlap) between this and next alignment: 2565855 to 2564200 (-1655 bp)
+				Next Alignment: 2564200 2734969 scf7180000006916 170800 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 170800 to 169145.
+			Align 28: 2565856 2734969 scf7180000006916 169145 1
+				Negative gap (overlap) between this and next alignment: 2734969 to 2733517 (-1452 bp)
+				Next Alignment: 2733517 2950594 scf7180000006912 263195 46135
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 263195 to 261742.
+			Align 29: 2734970 2950594 scf7180000006912 261742 46135
+				Negative gap (overlap) between this and next alignment: 2950594 to 2950351 (-243 bp)
+				Next Alignment: 2950351 2995642 scf7180000006943 1 45291
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 245.
+			Align 30: 2950595 2995642 scf7180000006943 245 45291
+				Negative gap (overlap) between this and next alignment: 2995642 to 2995196 (-446 bp)
+				Next Alignment: 2995196 3121617 scf7180000006923 1 126422
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 448.
+			Align 31: 2995643 3121617 scf7180000006923 448 126422
+				Negative gap (overlap) between this and next alignment: 3121617 to 3120893 (-724 bp)
+				Next Alignment: 3120893 3134429 scf7180000006919 1 13538
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 726.
+			Align 32: 3121618 3134429 scf7180000006919 726 13538
+				Negative gap (overlap) between this and next alignment: 3134429 to 3132049 (-2380 bp)
+				Next Alignment: 3132049 3235182 scf7180000006931 6 103138
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 6 to 2387.
+			Align 33: 3134430 3235182 scf7180000006931 2387 103138
+				Negative gap (overlap) between this and next alignment: 3235182 to 3233471 (-1711 bp)
+				Next Alignment: 3233471 3446995 scf7180000006943 43373 256896
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 43373 to 45084.
+			Align 34: 3235183 3446995 scf7180000006943 45084 256896
+				Negative gap (overlap) between this and next alignment: 3446995 to 3444105 (-2890 bp)
+				Next Alignment: 3444105 3670210 scf7180000006921 2 226092
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2 to 2893.
+			Align 35: 3446996 3670210 scf7180000006921 2893 226092
+				Negative gap (overlap) between this and next alignment: 3670210 to 3670210 (0 bp)
+				Next Alignment: 3670210 4113666 scf7180000006921 226270 669814
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 226270 to 226271.
+			Align 36: 3670211 4113666 scf7180000006921 226271 669814
+				Negative gap (overlap) between this and next alignment: 4113666 to 4099429 (-14237 bp)
+				Next Alignment: 4099429 4191132 scf7180000006921 655555 747281
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 655555 to 669837.
+			Align 37: 4113667 4191132 scf7180000006921 669837 747281
+				Negative gap (overlap) between this and next alignment: 4191132 to 4190303 (-829 bp)
+				Next Alignment: 4190303 4257057 scf7180000006944 1 66775
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 831.
+			Align 38: 4191133 4257057 scf7180000006944 831 66775
+				The next alignment (4256533 4256761 scf7180000006944 431055 431283) is redundant. Skipping.
+				The next alignment (4256753 4256960 scf7180000006920 28852 29059) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4257057 to 4256753 (-304 bp)
+				Next Alignment: 4256753 4285397 scf7180000006920 230 28860
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 230 to 535.
+			Align 41: 4257058 4285397 scf7180000006920 535 28860
+				Negative gap (overlap) between this and next alignment: 4285397 to 4285128 (-269 bp)
+				Next Alignment: 4285128 4347099 scf7180000006944 66796 128718
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 66796 to 67066.
+			Align 42: 4285398 4347099 scf7180000006944 67066 128718
+				The next alignment (4285160 4285397 scf7180000006920 1 238) is redundant. Skipping.
+				The next alignment (4285389 4285593 scf7180000006944 431275 431479) is redundant. Skipping.
+				Gap between this and next alignment: 4347099 to 4347868 (768 bp)
+				Next Alignment: 4347868 4496631 scf7180000006944 128710 277480
+
+			Align 45: 4347868 4496631 scf7180000006944 128710 277480
+				Negative gap (overlap) between this and next alignment: 4496631 to 4496456 (-175 bp)
+				Next Alignment: 4496456 4650224 scf7180000006944 277215 431004
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 277215 to 277391.
+			Align 46: 4496632 4650224 scf7180000006944 277391 431004
+				Gap between this and next alignment: 4650224 to 4655078 (4853 bp)
+				Next Alignment: 4655078 4706422 scf7180000006924 51345 1
+
+			Align 47: 4655078 4706422 scf7180000006924 51345 1
+				Negative gap (overlap) between this and next alignment: 4706422 to 4705491 (-931 bp)
+				Next Alignment: 4705491 5142639 scf7180000006938 1 437186
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 933.
+			Align 48: 4706423 5142639 scf7180000006938 933 437186
+				Negative gap (overlap) between this and next alignment: 5142639 to 5140981 (-1658 bp)
+				Next Alignment: 5140981 5224283 scf7180000006936 1 83304
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 1660.
+			Align 49: 5142640 5224283 scf7180000006936 1660 83304
+			END in current alignment.  Modifying 5224283 to 5224283.
+
+	Reference gi|44004339|ref|NC_005707.1|_Bacillus_cereus_ATCC_10987_plasmid_pBc10987__complete_sequence: 6 total alignments. 1 total regions.
+		Region: 1 to 208369 (208369 bp)
+			Align 1: 1 46738 scf7180000006912 52050 5294
+				Negative gap (overlap) between this and next alignment: 46738 to 26786 (-19952 bp)
+				Next Alignment: 26786 52030 scf7180000006912 25271 2
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 25271 to 5268.
+			Align 2: 46739 52030 scf7180000006912 5268 2
+				Negative gap (overlap) between this and next alignment: 52030 to 50585 (-1445 bp)
+				Next Alignment: 50585 77164 scf7180000006932 26580 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 26580 to 25134.
+			Align 3: 52031 77164 scf7180000006932 25134 1
+				Negative gap (overlap) between this and next alignment: 77164 to 74776 (-2388 bp)
+				Next Alignment: 74776 112080 scf7180000006913 1 37266
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 2390.
+			Align 4: 77165 112080 scf7180000006913 2390 37266
+				Negative gap (overlap) between this and next alignment: 112080 to 109191 (-2889 bp)
+				Next Alignment: 109191 119408 scf7180000006914 3 10221
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3 to 2893.
+			Align 5: 112081 119408 scf7180000006914 2893 10221
+				Negative gap (overlap) between this and next alignment: 119408 to 119389 (-19 bp)
+				Next Alignment: 119389 207503 scf7180000006914 10242 98335
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 10242 to 10262.
+			Align 6: 119409 207503 scf7180000006914 10262 98335
+			END in gap: 207503 to 208369 (866 bp)
+
+Analysis is finished!
+Founded SNPs were written into /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2387/dataset_2469_files/Contig/contigs_reports/nucmer_output/BC-M-Cabog-Scaffold.used_snps
+
+Results:
+	Local Misassemblies: 12
+	Misassemblies: 10
+		Relocations: 9
+		Translocations: 1
+		Inversions: 0
+	Misassembled Contigs: 5
+	Misassembled Contig Bases: 1044142
+	Misassmblies Inter-Contig Overlap: 67556
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 1 part
+Partially Unaligned Contigs with Misassemblies: 1
+Unaligned Contig Bases: 2142
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 5396274
+
+	SNPs: 237
+	Insertions: 524
+	Deletions: 371
+
+	Positive Gaps: 14
+		Internal Gaps:  1
+		External Gaps:  13
+		External Gap Total:  35610
+		External Gap Average: 2739
+	Negative Gaps: 36
+		Internal Overlaps:  13
+		External Overlaps:  23
+		External Overlaps Total: -29954
+		External Overlaps Average: -1302
+	Contigs with Redundant Alignments: 1 (880)

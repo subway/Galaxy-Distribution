@@ -1,0 +1,15 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                      miseq  hiseq   abyss  abyss_hiseq
+# misassemblies               2      6       2      2          
+    # relocations             2      5       2      2          
+    # translocations          0      1       0      0          
+    # inversions              0      0       0      0          
+# misassembled contigs        2      5       2      2          
+Misassembled contigs length   70441  376802  10790  9653       
+# local misassemblies         0      17      0      0          
+# mismatches                  129    208     115    118        
+# indels                      103    225     103    110        
+    # short indels (<= 5 bp)  101    189     101    109        
+    # long indels (> 5 bp)    2      36      2      1          
+Indels length                 121    703     121    119        

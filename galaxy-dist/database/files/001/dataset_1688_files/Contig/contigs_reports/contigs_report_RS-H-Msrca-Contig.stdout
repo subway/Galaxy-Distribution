@@ -1,0 +1,1279 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence]
+	Loaded [gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence]
+	Loaded [gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence]
+	Loaded [gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence]
+	Loaded [gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence]
+	Loaded [gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence]
+	Loaded [gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 7
+	Total Region Length: 4602977
+Analyzing contigs...
+CONTIG: ctg7180000003186 (39141bp)
+Top Length: 39141  Top ID: 99.94
+		One align captures most of this contig: 850071 889211 | 39141 1 | 39141 39141 | 99.94 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003186
+
+CONTIG: ctg7180000003187 (104542bp)
+Top Length: 104542  Top ID: 99.93
+		Marking as insignificant: 704775 705589 | 91769 90956 | 815 814 | 96.07 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003187
+		One align captures most of this contig: 745553 850094 | 104542 1 | 104542 104542 | 99.93 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003187
+
+CONTIG: ctg7180000003180 (1896bp)
+Top Length: 1896  Top ID: 100.0
+		One align captures most of this contig: 84724 86619 | 1 1896 | 1896 1896 | 100.0 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003180
+
+CONTIG: ctg7180000003181 (797bp)
+Top Length: 650  Top ID: 98.32
+		Skipping redundant alignment 78476 78614 | 797 659 | 139 139 | 98.56 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003181
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 6474 7129 | 797 148 | 656 650 | 98.32 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence ctg7180000003181
+			  Extensive misassembly ( relocation, inconsistency = 28049 ) between these two alignments
+			Real Alignment 2: 34783 35325 | 543 1 | 543 543 | 99.45 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence ctg7180000003181
+
+CONTIG: ctg7180000003188 (19077bp)
+Top Length: 19077  Top ID: 99.92
+		Marking as insignificant: 3188120 3188296 | 18901 19077 | 177 177 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003188
+		One align captures most of this contig: 923714 942790 | 1 19077 | 19077 19077 | 99.92 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003188
+
+CONTIG: ctg7180000003189 (142663bp)
+Top Length: 142663  Top ID: 99.91
+		Marking as insignificant: 5177 5351 | 1 175 | 175 175 | 98.29 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003189
+		Marking as insignificant: 38849 39022 | 1 174 | 174 174 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003189
+		Marking as insignificant: 2176161 2176353 | 142471 142663 | 193 193 | 98.45 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003189
+		One align captures most of this contig: 5175 147876 | 1 142663 | 142702 142663 | 99.91 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003189
+
+CONTIG: jtg7180000003184f_7180000003185f (136269bp)
+Top Length: 136269  Top ID: 99.92
+		Marking as insignificant: 758326 759139 | 133436 134250 | 814 815 | 96.07 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence jtg7180000003184f_7180000003185f
+		Marking as insignificant: 252731 253787 | 136269 135211 | 1057 1059 | 99.25 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence jtg7180000003184f_7180000003185f
+		One align captures most of this contig: 571340 707608 | 1 136269 | 136269 136269 | 99.92 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence jtg7180000003184f_7180000003185f
+
+CONTIG: ctg7180000003108 (1547bp)
+Top Length: 1547  Top ID: 100.0
+		One align captures most of this contig: 671554 673100 | 1547 1 | 1547 1547 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003108
+
+CONTIG: ctg7180000003109 (839bp)
+Top Length: 839  Top ID: 100.0
+		Marking as insignificant: 14459 14541 | 624 542 | 83 83 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003109
+		Marking as insignificant: 559127 559506 | 1 380 | 380 380 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003109
+		One align captures most of this contig: 42213 43051 | 1 839 | 839 839 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003109
+
+CONTIG: ctg7180000003105 (515bp)
+Top Length: 515  Top ID: 100.0
+		Marking as insignificant: 148795 149309 | 1 515 | 515 515 | 98.06 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003105
+		One align captures most of this contig: 2177272 2177786 | 1 515 | 515 515 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003105
+
+CONTIG: ctg7180000003106 (3641bp)
+Top Length: 3636  Top ID: 99.97
+		One align captures most of this contig: 2575748 2579383 | 3636 1 | 3636 3636 | 99.97 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003106
+
+CONTIG: ctg7180000003100 (2255bp)
+Top Length: 2255  Top ID: 99.96
+		One align captures most of this contig: 249428 251682 | 1 2255 | 2255 2255 | 99.96 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003100
+
+CONTIG: ctg7180000003101 (2162bp)
+Top Length: 2162  Top ID: 100.0
+		Marking as insignificant: 38743 39022 | 1 280 | 280 280 | 98.93 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003101
+		Marking as insignificant: 5069 5349 | 1 281 | 281 281 | 98.93 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003101
+		One align captures most of this contig: 5071 7232 | 1 2162 | 2162 2162 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003101
+
+CONTIG: ctg7180000002758 (1169bp)
+Top Length: 1169  Top ID: 100.0
+		One align captures most of this contig: 223037 224205 | 1169 1 | 1169 1169 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000002758
+
+CONTIG: ctg7180000003197 (6443bp)
+Top Length: 6443  Top ID: 97.24
+		Marking as insignificant: 648575 655017 | 6443 1 | 6443 6443 | 95.18 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003197
+		One align captures most of this contig: 226412 232852 | 6443 1 | 6441 6443 | 97.24 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003197
+
+CONTIG: ctg7180000003196 (15571bp)
+Top Length: 15571  Top ID: 99.9
+		Marking as insignificant: 667519 668167 | 649 1 | 649 649 | 95.38 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003196
+		One align captures most of this contig: 232649 248219 | 15571 1 | 15571 15571 | 99.9 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003196
+
+CONTIG: ctg7180000003195 (11995bp)
+Top Length: 11995  Top ID: 99.92
+		Marking as insignificant: 27133 27304 | 11995 11824 | 172 172 | 99.42 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003195
+		Marking as insignificant: 14989 15161 | 173 1 | 173 173 | 100.0 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003195
+		One align captures most of this contig: 15150 27144 | 11995 1 | 11995 11995 | 99.92 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003195
+
+CONTIG: ctg7180000003194 (26396bp)
+Top Length: 26323  Top ID: 99.9
+		Marking as insignificant: 1 73 | 73 1 | 73 73 | 100.0 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence ctg7180000003194
+		Marking as insignificant: 1435195 1435371 | 177 1 | 177 177 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003194
+		Marking as insignificant: 1392 1568 | 1 177 | 177 177 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence ctg7180000003194
+		Marking as insignificant: 91461 91637 | 1 177 | 177 177 | 100.0 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003194
+		Marking as insignificant: 373064 373240 | 1 177 | 177 177 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003194
+		Marking as insignificant: 43870 44183 | 26396 26084 | 314 313 | 96.18 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003194
+		One align captures most of this contig: 78962 105284 | 26396 74 | 26323 26323 | 99.9 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence ctg7180000003194
+
+CONTIG: ctg7180000003193 (176783bp)
+Top Length: 158031  Top ID: 99.91
+		Skipping redundant alignment 1843488 1843563 | 10976 10901 | 76 76 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003193
+		Skipping redundant alignment 2138993 2139085 | 93550 93640 | 93 91 | 96.77 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003193
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 672944 691963 | 1 19021 | 19020 19021 | 99.87 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003193
+			  Gap between these two alignments (local misassembly). Inconsistency = 343
+			Real Alignment 2: 692038 850070 | 18753 176783 | 158033 158031 | 99.91 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003193
+
+CONTIG: ctg7180000003192 (4634bp)
+Top Length: 4634  Top ID: 99.94
+		One align captures most of this contig: 707490 712123 | 4634 1 | 4634 4634 | 99.94 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003192
+
+CONTIG: ctg7180000003191 (581bp)
+Top Length: 581  Top ID: 100.0
+		Marking as insignificant: 248140 248292 | 1 153 | 153 153 | 97.39 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003191
+		One align captures most of this contig: 711923 712503 | 581 1 | 581 581 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003191
+
+CONTIG: ctg7180000003190 (25619bp)
+Top Length: 25619  Top ID: 99.89
+		One align captures most of this contig: 712598 738216 | 25619 1 | 25619 25619 | 99.89 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003190
+
+CONTIG: ctg7180000003199 (17862bp)
+Top Length: 17862  Top ID: 99.96
+		Marking as insignificant: 307484 307661 | 1 178 | 178 178 | 99.44 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003199
+		Marking as insignificant: 287813 287991 | 17684 17862 | 179 179 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003199
+		One align captures most of this contig: 288807 306668 | 1 17862 | 17862 17862 | 99.96 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003199
+
+CONTIG: ctg7180000003198 (1893bp)
+Top Length: 1893  Top ID: 99.84
+		One align captures most of this contig: 646853 648745 | 1893 1 | 1893 1893 | 99.84 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003198
+
+CONTIG: ctg7180000003119 (507bp)
+Top Length: 507  Top ID: 100.0
+		One align captures most of this contig: 278967 279473 | 1 507 | 507 507 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003119
+
+CONTIG: ctg7180000003118 (12938bp)
+Top Length: 7681  Top ID: 99.9
+		Skipping redundant alignment 1 5251 | 5251 1 | 5251 5251 | 99.96 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003118
+		Skipping redundant alignment 1 5249 | 5251 1 | 5249 5251 | 99.92 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003118
+		Skipping redundant alignment 942614 943012 | 5656 5258 | 399 399 | 99.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003118
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 3180838 3188518 | 12938 5258 | 7681 7681 | 99.9 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003118
+			  Extensive misassembly ( translocation ) between these two alignments
+			Real Alignment 2: 33388 38923 | 5537 1 | 5536 5537 | 99.93 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003118
+
+CONTIG: ctg7180000003117 (557bp)
+Top Length: 454  Top ID: 98.24
+		Skipping redundant alignment 1 168 | 168 1 | 168 168 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003117
+		Skipping redundant alignment 1 168 | 168 1 | 168 168 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003117
+		Skipping redundant alignments after choosing the best set of alignments
+		Skipping [3188136][3188524] redundant alignment 3188136 3188524 | 557 169 | 389 389 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003117
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 33388 33841 | 454 1 | 454 454 | 98.24 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003117
+			  Extensive misassembly ( relocation, inconsistency = 909345 ) between these two alignments
+			Real Alignment 2: 942630 943018 | 557 169 | 389 389 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003117
+
+CONTIG: ctg7180000003116 (28165bp)
+Top Length: 28165  Top ID: 99.99
+		Marking as insignificant: 6728 6878 | 28015 28165 | 151 151 | 98.01 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence ctg7180000003116
+		Marking as insignificant: 34824 35178 | 1 361 | 355 361 | 96.68 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence ctg7180000003116
+		One align captures most of this contig: 6769 34933 | 1 28165 | 28165 28165 | 99.99 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence ctg7180000003116
+
+CONTIG: ctg7180000003113 (615bp)
+Top Length: 615  Top ID: 99.84
+		Marking as insignificant: 78350 78964 | 1 615 | 615 615 | 97.07 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence ctg7180000003113
+		One align captures most of this contig: 43258 43872 | 1 615 | 615 615 | 99.84 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003113
+
+CONTIG: ctg7180000003112 (19348bp)
+Top Length: 19348  Top ID: 99.92
+		Marking as insignificant: 105181 105284 | 19194 19297 | 104 104 | 100.0 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence ctg7180000003112
+		Marking as insignificant: 91483 91637 | 19348 19194 | 155 155 | 100.0 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003112
+		Marking as insignificant: 373086 373240 | 19348 19194 | 155 155 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003112
+		Marking as insignificant: 1414 1569 | 19348 19193 | 156 156 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence ctg7180000003112
+		One align captures most of this contig: 1416002 1435349 | 1 19348 | 19348 19348 | 99.92 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003112
+
+CONTIG: ctg7180000003110 (1164bp)
+Top Length: 1164  Top ID: 99.91
+		Marking as insignificant: 99211 99508 | 298 1 | 298 298 | 100.0 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003110
+		One align captures most of this contig: 70787 71950 | 1164 1 | 1164 1164 | 99.91 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003110
+
+CONTIG: jtg7180000003114r_7180000003138f (10126bp)
+Top Length: 10126  Top ID: 99.83
+		One align captures most of this contig: 2565645 2575762 | 10126 1 | 10118 10126 | 99.83 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence jtg7180000003114r_7180000003138f
+
+CONTIG: ctg7180000003206 (57798bp)
+Top Length: 57658  Top ID: 99.9
+		Marking as insignificant: 1 140 | 140 1 | 140 140 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence ctg7180000003206
+		Marking as insignificant: 1327 1505 | 1 179 | 179 179 | 100.0 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence ctg7180000003206
+		Marking as insignificant: 1436625 1436803 | 1 179 | 179 179 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003206
+		Marking as insignificant: 371634 371813 | 180 1 | 180 180 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003206
+		Marking as insignificant: 35502 35708 | 207 1 | 207 207 | 96.63 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence ctg7180000003206
+		Marking as insignificant: 64464 64967 | 39519 40021 | 504 503 | 97.42 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003206
+		One align captures most of this contig: 56523 114179 | 57798 141 | 57657 57658 | 99.9 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence ctg7180000003206
+
+CONTIG: ctg7180000003205 (21164bp)
+Top Length: 21164  Top ID: 99.92
+		One align captures most of this contig: 1035925 1057088 | 1 21164 | 21164 21164 | 99.92 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003205
+
+CONTIG: ctg7180000003204 (131520bp)
+Top Length: 131520  Top ID: 99.93
+		Marking as insignificant: 2715367 2715434 | 131520 131453 | 68 68 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003204
+		Marking as insignificant: 2715423 2715502 | 131520 131441 | 80 80 | 96.25 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003204
+		Marking as insignificant: 904404 904483 | 5 84 | 80 80 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003204
+		Marking as insignificant: 1025909 1035975 | 121468 131520 | 10067 10053 | 99.8 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003204
+		Marking as insignificant: 1025902 1035968 | 121461 131520 | 10067 10060 | 99.87 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003204
+		One align captures most of this contig: 904442 1035961 | 1 131520 | 131520 131520 | 99.93 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003204
+
+CONTIG: ctg7180000003203 (47360bp)
+Top Length: 47360  Top ID: 99.94
+		Marking as insignificant: 645324 645515 | 47169 47360 | 192 192 | 95.83 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003203
+		One align captures most of this contig: 175401 222760 | 1 47360 | 47360 47360 | 99.94 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003203
+
+CONTIG: ctg7180000003202 (697bp)
+Top Length: 697  Top ID: 99.71
+		Marking as insignificant: 671789 672485 | 1 697 | 697 697 | 95.28 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003202
+		Marking as insignificant: 708125 708822 | 697 1 | 698 697 | 95.85 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003202
+		One align captures most of this contig: 251518 252214 | 1 697 | 697 697 | 99.71 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003202
+
+CONTIG: ctg7180000003201 (3618bp)
+Top Length: 3618  Top ID: 99.94
+		One align captures most of this contig: 668100 671717 | 1 3618 | 3618 3618 | 99.94 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003201
+
+CONTIG: ctg7180000003200 (3645bp)
+Top Length: 3645  Top ID: 99.97
+		Marking as insignificant: 559127 559301 | 3471 3645 | 175 175 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003200
+		Marking as insignificant: 5071 5350 | 1 280 | 280 280 | 98.93 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003200
+		Marking as insignificant: 5069 5348 | 1 280 | 280 280 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003200
+		One align captures most of this contig: 38743 42387 | 1 3645 | 3645 3645 | 99.97 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003200
+
+CONTIG: ctg7180000003209 (3478bp)
+Top Length: 3478  Top ID: 99.94
+		Marking as insignificant: 26972 27134 | 163 1 | 163 163 | 100.0 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003209
+		Marking as insignificant: 5687 5949 | 3478 3216 | 263 263 | 96.2 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003209
+		Marking as insignificant: 85861 86123 | 3478 3216 | 263 263 | 98.1 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003209
+		One align captures most of this contig: 11674 15151 | 3478 1 | 3478 3478 | 99.94 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003209
+
+CONTIG: ctg7180000003208 (102004bp)
+Top Length: 102004  Top ID: 99.94
+		Marking as insignificant: 149127 149344 | 1 218 | 218 218 | 99.08 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003208
+		One align captures most of this contig: 2177604 2279607 | 1 102004 | 102004 102004 | 99.94 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003208
+
+CONTIG: ctg7180000003122 (3274bp)
+Top Length: 3274  Top ID: 99.91
+		Marking as insignificant: 11630 11936 | 3274 2968 | 307 307 | 96.74 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003122
+		Marking as insignificant: 85817 86224 | 3274 2867 | 408 408 | 97.55 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003122
+		One align captures most of this contig: 5643 8916 | 3274 1 | 3274 3274 | 99.91 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003122
+
+CONTIG: ctg7180000003120 (2542bp)
+Top Length: 2542  Top ID: 99.92
+		One align captures most of this contig: 891193 893734 | 2542 1 | 2542 2542 | 99.92 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003120
+
+CONTIG: ctg7180000003121 (1259bp)
+Top Length: 1259  Top ID: 99.84
+		Marking as insignificant: 224085 224426 | 1259 918 | 342 342 | 96.21 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003121
+		Marking as insignificant: 889846 890191 | 1259 914 | 346 346 | 95.68 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003121
+		One align captures most of this contig: 743316 744574 | 1 1259 | 1259 1259 | 99.84 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003121
+
+CONTIG: ctg7180000003126 (2319bp)
+Top Length: 2319  Top ID: 100.0
+		Marking as insignificant: 744233 744512 | 280 1 | 280 280 | 95.73 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003126
+		Marking as insignificant: 648308 648628 | 1999 2319 | 321 321 | 95.33 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003126
+		One align captures most of this contig: 224147 226465 | 1 2319 | 2319 2319 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003126
+
+CONTIG: ctg7180000003127 (3731bp)
+Top Length: 3731  Top ID: 99.97
+		Marking as insignificant: 901889 902559 | 1953 2623 | 671 671 | 95.38 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003127
+		Marking as insignificant: 904229 905313 | 2647 3731 | 1085 1085 | 95.4 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003127
+		One align captures most of this contig: 739708 743438 | 3731 1 | 3731 3731 | 99.97 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003127
+
+CONTIG: ctg7180000003124 (525bp)
+Top Length: 525  Top ID: 99.62
+		Marking as insignificant: 1 101 | 425 525 | 101 101 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence ctg7180000003124
+		Marking as insignificant: 1436664 1436803 | 525 386 | 140 140 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003124
+		Marking as insignificant: 371635 371774 | 386 525 | 140 140 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003124
+		Marking as insignificant: 1366 1535 | 525 356 | 170 170 | 97.65 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence ctg7180000003124
+		Marking as insignificant: 72539 72754 | 158 373 | 216 216 | 99.07 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003124
+		Marking as insignificant: 100097 100469 | 158 525 | 373 368 | 97.05 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003124
+		One align captures most of this contig: 35145 35669 | 1 525 | 525 525 | 99.62 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence ctg7180000003124
+
+CONTIG: ctg7180000003125 (947bp)
+Top Length: 947  Top ID: 99.89
+		One align captures most of this contig: 889034 889980 | 1 947 | 947 947 | 99.89 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003125
+
+CONTIG: ctg7180000003128 (1501bp)
+Top Length: 1501  Top ID: 99.13
+		One align captures most of this contig: 744272 745772 | 1 1501 | 1501 1501 | 99.13 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003128
+
+CONTIG: ctg7180000003129 (1171bp)
+Top Length: 1171  Top ID: 99.83
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 287813 288983 | 1 1171 | 1171 1171 | 99.83 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003129
+		Skipping alignment  306490 307660 | 1 1171 | 1171 1171 | 99.83 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003129
+
+CONTIG: jtg7180000003172f_7180000003173f (326722bp)
+Top Length: 326722  Top ID: 99.93
+		Marking as insignificant: 683844 683919 | 127454 127379 | 76 76 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence jtg7180000003172f_7180000003173f
+		One align captures most of this contig: 1716112 2042831 | 1 326722 | 326720 326722 | 99.93 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence jtg7180000003172f_7180000003173f
+
+CONTIG: ctg7180000002729 (1211bp)
+Top Length: 1211  Top ID: 100.0
+		Marking as insignificant: 905112 906322 | 1211 1 | 1211 1211 | 97.11 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000002729
+		One align captures most of this contig: 738699 739909 | 1 1211 | 1211 1211 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000002729
+
+CONTIG: ctg7180000003135 (3119bp)
+Top Length: 3119  Top ID: 99.87
+		Marking as insignificant: 5425 5852 | 2692 3119 | 428 428 | 96.27 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003135
+		Marking as insignificant: 85597 86026 | 2690 3119 | 430 430 | 98.37 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003135
+		One align captures most of this contig: 8721 11839 | 1 3119 | 3119 3119 | 99.87 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003135
+
+CONTIG: ctg7180000003134 (1014bp)
+Top Length: 1014  Top ID: 99.9
+		One align captures most of this contig: 645906 646919 | 1 1014 | 1014 1014 | 99.9 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003134
+
+CONTIG: ctg7180000003130 (2402bp)
+Top Length: 2402  Top ID: 100.0
+		One align captures most of this contig: 226327 228728 | 2402 1 | 2402 2402 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003130
+
+CONTIG: ctg7180000003133 (528bp)
+Top Length: 528  Top ID: 100.0
+		One align captures most of this contig: 645555 646082 | 1 528 | 528 528 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003133
+
+CONTIG: ctg7180000003132 (1534bp)
+Top Length: 1534  Top ID: 99.8
+		Marking as insignificant: 744229 744612 | 1146 1529 | 384 384 | 95.84 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003132
+		Marking as insignificant: 224042 224438 | 1534 1138 | 397 397 | 95.73 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003132
+		One align captures most of this contig: 889803 891336 | 1534 1 | 1534 1534 | 99.8 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003132
+
+CONTIG: ctg7180000002794 (503bp)
+Top Length: 503  Top ID: 100.0
+		One align captures most of this contig: 858895 859397 | 503 1 | 503 503 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000002794
+
+CONTIG: jtg7180000002936f_7180000003123f (20361bp)
+Top Length: 20361  Top ID: 99.92
+		One align captures most of this contig: 884102 904462 | 20361 1 | 20361 20361 | 99.92 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence jtg7180000002936f_7180000003123f
+
+CONTIG: ctg7180000003141 (881bp)
+Top Length: 881  Top ID: 99.43
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 80033 80913 | 1 881 | 881 881 | 99.43 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003141
+		Skipping alignment  60 940 | 1 881 | 881 881 | 98.52 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003141
+
+CONTIG: ctg7180000003142 (1321bp)
+Top Length: 1321  Top ID: 99.85
+		Marking as insignificant: 42581 43901 | 1 1321 | 1321 1321 | 97.43 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003142
+		One align captures most of this contig: 77673 78993 | 1 1321 | 1321 1321 | 99.85 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence ctg7180000003142
+
+CONTIG: ctg7180000003143 (3766bp)
+Top Length: 3766  Top ID: 99.97
+		One align captures most of this contig: 651027 654792 | 3766 1 | 3766 3766 | 99.97 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003143
+
+CONTIG: ctg7180000003145 (21032bp)
+Top Length: 13873  Top ID: 99.99
+		Skipping redundant alignment 35302 35517 | 13658 13873 | 216 216 | 97.22 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence ctg7180000003145
+		Skipping redundant alignment 6319 6612 | 19439 19733 | 294 295 | 95.93 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence ctg7180000003145
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 71653 79913 | 12772 21032 | 8261 8261 | 99.77 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003145
+			  Extensive misassembly ( translocation ) between these two alignments
+			Real Alignment 2: 86440 100312 | 1 13873 | 13873 13873 | 99.99 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003145
+
+CONTIG: ctg7180000003146 (5512bp)
+Top Length: 5512  Top ID: 99.96
+		One align captures most of this contig: 65452 70963 | 1 5512 | 5512 5512 | 99.96 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003146
+
+CONTIG: ctg7180000003148 (196511bp)
+Top Length: 196511  Top ID: 99.93
+		Marking as insignificant: 1463278 1463378 | 176880 176780 | 101 101 | 97.03 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003148
+		Marking as insignificant: 288799 288984 | 1 186 | 186 186 | 99.46 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003148
+		One align captures most of this contig: 307476 503985 | 1 196511 | 196510 196511 | 99.93 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003148
+
+CONTIG: ctg7180000003149 (34460bp)
+Top Length: 34460  Top ID: 99.92
+		Marking as insignificant: 306490 306668 | 179 1 | 179 179 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003149
+		Marking as insignificant: 706550 706805 | 34205 34460 | 256 256 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003149
+		One align captures most of this contig: 253532 287991 | 34460 1 | 34460 34460 | 99.92 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003149
+
+CONTIG: ctg7180000003099 (1520bp)
+Top Length: 1520  Top ID: 99.93
+		One align captures most of this contig: 248080 249599 | 1 1520 | 1520 1520 | 99.93 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003099
+
+CONTIG: ctg7180000003091 (2327bp)
+Top Length: 2327  Top ID: 99.96
+		One align captures most of this contig: 921561 923887 | 1 2327 | 2327 2327 | 99.96 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003091
+
+CONTIG: ctg7180000003095 (700bp)
+Top Length: 700  Top ID: 100.0
+		Marking as insignificant: 77655 78354 | 700 1 | 700 700 | 97.86 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence ctg7180000003095
+		One align captures most of this contig: 42563 43262 | 700 1 | 700 700 | 100.0 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003095
+
+CONTIG: jtg7180000003182f_7180000003183f (198324bp)
+Top Length: 198316  Top ID: 99.93
+		Marking as insignificant: 1 89 | 89 1 | 89 89 | 100.0 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence jtg7180000003182f_7180000003183f
+		Marking as insignificant: 105181 105283 | 193 91 | 103 103 | 100.0 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence jtg7180000003182f_7180000003183f
+		Marking as insignificant: 1435195 1435387 | 193 1 | 193 193 | 99.48 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence jtg7180000003182f_7180000003183f
+		Marking as insignificant: 1376 1568 | 1 193 | 193 193 | 99.48 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence jtg7180000003182f_7180000003183f
+		Marking as insignificant: 91445 91638 | 1 194 | 194 194 | 99.48 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence jtg7180000003182f_7180000003183f
+		One align captures most of this contig: 373048 571363 | 1 198316 | 198316 198316 | 99.93 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence jtg7180000003182f_7180000003183f
+
+CONTIG: ctg7180000003153 (15233bp)
+Top Length: 15233  Top ID: 99.94
+		Marking as insignificant: 738394 738582 | 1 189 | 189 189 | 98.94 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003153
+		Marking as insignificant: 738579 738834 | 14978 15233 | 256 256 | 98.44 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003153
+		One align captures most of this contig: 906187 921419 | 15233 1 | 15233 15233 | 99.94 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003153
+
+CONTIG: ctg7180000003152 (42200bp)
+Top Length: 42200  Top ID: 99.91
+		Marking as insignificant: 42409 42592 | 1 184 | 184 184 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003152
+		One align captures most of this contig: 559323 601523 | 1 42200 | 42201 42200 | 99.91 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003152
+
+CONTIG: ctg7180000003151 (12529bp)
+Top Length: 12529  Top ID: 99.97
+		Marking as insignificant: 740816 741486 | 8766 8096 | 671 671 | 95.38 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003151
+		Marking as insignificant: 738699 740792 | 12529 10436 | 2094 2094 | 96.13 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003151
+		One align captures most of this contig: 893794 906322 | 1 12529 | 12529 12529 | 99.97 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003151
+
+CONTIG: ctg7180000003150 (13667bp)
+Top Length: 13667  Top ID: 99.88
+		Marking as insignificant: 247571 248292 | 12915 13636 | 722 722 | 95.71 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003150
+		Marking as insignificant: 712320 713080 | 13667 12907 | 761 761 | 96.19 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003150
+		One align captures most of this contig: 654605 668271 | 1 13667 | 13667 13667 | 99.88 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003150
+
+CONTIG: ctg7180000003156 (358962bp)
+Top Length: 358962  Top ID: 99.94
+		One align captures most of this contig: 1057051 1416013 | 1 358962 | 358963 358962 | 99.94 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003156
+
+CONTIG: ctg7180000003155 (119429bp)
+Top Length: 119429  Top ID: 99.93
+		Marking as insignificant: 1 126 | 126 1 | 126 126 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence ctg7180000003155
+		Marking as insignificant: 100325 100494 | 165 1 | 170 165 | 97.06 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003155
+		Marking as insignificant: 35530 35694 | 165 1 | 165 165 | 100.0 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence ctg7180000003155
+		Marking as insignificant: 1341 1505 | 1 165 | 165 165 | 100.0 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence ctg7180000003155
+		Marking as insignificant: 1436639 1436803 | 1 165 | 165 165 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003155
+		One align captures most of this contig: 252373 371799 | 119429 1 | 119427 119429 | 99.93 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003155
+
+CONTIG: ctg7180000003154 (216717bp)
+Top Length: 173894  Top ID: 99.93
+		Skipping redundant alignment 1338 1534 | 1 197 | 197 197 | 95.96 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence ctg7180000003154
+		Skipping redundant alignment 371635 371802 | 168 1 | 168 168 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003154
+		Skipping redundant alignment 35530 35697 | 168 1 | 168 168 | 100.0 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence ctg7180000003154
+		Skipping redundant alignment 1 129 | 129 1 | 129 129 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence ctg7180000003154
+		Skipping redundant alignment 484254 484354 | 26743 26643 | 101 101 | 97.03 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003154
+		This contig is misassembled. 7 total aligns.
+			Real Alignment 1: 1436636 1479537 | 1 42902 | 42902 42902 | 99.95 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003154
+			  Overlap between these two alignments (local misassembly). Inconsistency = -165
+			Real Alignment 2: 1479294 1653187 | 42824 216717 | 173894 173894 | 99.93 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003154
+
+CONTIG: ctg7180000003159 (222851bp)
+Top Length: 222851  Top ID: 99.92
+		One align captures most of this contig: 2715434 2938284 | 1 222851 | 222851 222851 | 99.92 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003159
+
+CONTIG: ctg7180000003214 (1281bp)
+Top Length: 1281  Top ID: 99.84
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2176173 2177453 | 1 1281 | 1281 1281 | 99.84 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003214
+		Skipping alignment  147696 148976 | 1 1281 | 1281 1281 | 99.06 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003214
+
+CONTIG: ctg7180000003215 (76502bp)
+Top Length: 76502  Top ID: 99.89
+		Marking as insignificant: 1 126 | 76377 76502 | 126 126 | 100.0 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence ctg7180000003215
+		Marking as insignificant: 371635 371799 | 76338 76502 | 165 165 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003215
+		Marking as insignificant: 1436639 1436832 | 76502 76309 | 194 194 | 95.9 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003215
+		Marking as insignificant: 100295 100494 | 76308 76502 | 200 195 | 95.5 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003215
+		Marking as insignificant: 35500 35694 | 76308 76502 | 195 195 | 97.95 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence ctg7180000003215
+		Marking as insignificant: 39096 42748 | 3653 1 | 3653 3653 | 98.3 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003215
+		One align captures most of this contig: 1341 77840 | 76502 1 | 76500 76502 | 99.89 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence ctg7180000003215
+
+CONTIG: ctg7180000003210 (2131bp)
+Top Length: 2131  Top ID: 98.52
+		Marking as insignificant: 2019 2175 | 1976 2131 | 157 156 | 98.73 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003210
+		One align captures most of this contig: 80919 83081 | 1 2131 | 2163 2131 | 98.52 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003210
+
+CONTIG: ctg7180000003211 (901bp)
+Top Length: 901  Top ID: 99.89
+		Marking as insignificant: 80748 81021 | 1 274 | 274 274 | 95.99 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003211
+		Marking as insignificant: 1363 1900 | 357 900 | 538 544 | 95.97 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003211
+		One align captures most of this contig: 775 1676 | 1 901 | 902 901 | 99.89 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003211
+
+CONTIG: ctg7180000003166 (200886bp)
+Top Length: 128865  Top ID: 99.93
+		Skipping redundant alignment 6019 6164 | 41336 41191 | 146 146 | 99.32 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence ctg7180000003166
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 42807 114920 | 200886 128771 | 72114 72116 | 99.93 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003166
+			  Gap between these two alignments (local misassembly). Inconsistency = 94
+			Real Alignment 2: 114920 243782 | 128865 1 | 128863 128865 | 99.93 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003166
+
+CONTIG: ctg7180000003167 (37027bp)
+Top Length: 37027  Top ID: 99.89
+		One align captures most of this contig: 608734 645760 | 1 37027 | 37027 37027 | 99.89 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003167
+
+CONTIG: ctg7180000003164 (64104bp)
+Top Length: 37257  Top ID: 99.95
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1652124 1679049 | 64104 37179 | 26926 26926 | 99.89 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003164
+			  Overlap between these two alignments (local misassembly). Inconsistency = -112
+			Real Alignment 2: 1678859 1716115 | 37257 1 | 37257 37257 | 99.95 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003164
+
+CONTIG: ctg7180000003165 (136553bp)
+Top Length: 136553  Top ID: 99.92
+		One align captures most of this contig: 2578854 2715403 | 136553 1 | 136550 136553 | 99.92 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003165
+
+CONTIG: ctg7180000003162 (69776bp)
+Top Length: 69769  Top ID: 99.92
+		One align captures most of this contig: 2495901 2565683 | 69769 1 | 69783 69769 | 99.92 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003162
+
+CONTIG: ctg7180000003163 (26219bp)
+Top Length: 26219  Top ID: 99.92
+		Marking as insignificant: 2177678 2177821 | 1 144 | 144 144 | 99.31 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003163
+		One align captures most of this contig: 149201 175419 | 1 26219 | 26219 26219 | 99.92 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003163
+
+CONTIG: ctg7180000003160 (21678bp)
+Top Length: 21678  Top ID: 99.9
+		Marking as insignificant: 42213 42383 | 171 1 | 171 171 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003160
+		One align captures most of this contig: 537620 559297 | 21678 1 | 21678 21678 | 99.9 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003160
+
+CONTIG: ctg7180000003161 (242553bp)
+Top Length: 242553  Top ID: 99.93
+		One align captures most of this contig: 2938318 3180871 | 1 242553 | 242554 242553 | 99.93 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003161
+
+CONTIG: ctg7180000003213 (1008bp)
+Top Length: 1006  Top ID: 97.82
+		Marking as insignificant: 2828 3028 | 391 190 | 201 202 | 96.55 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003213
+		Marking as insignificant: 1360 1600 | 1008 768 | 241 241 | 96.68 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003213
+		Marking as insignificant: 1585 1825 | 1008 768 | 241 241 | 97.51 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003213
+		Marking as insignificant: 1435 1675 | 1008 768 | 241 241 | 98.34 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003213
+		Marking as insignificant: 83735 84118 | 390 8 | 384 383 | 95.31 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003213
+		Marking as insignificant: 83459 83842 | 390 8 | 384 383 | 95.31 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003213
+		Marking as insignificant: 84009 84394 | 392 8 | 386 385 | 95.34 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003213
+		Marking as insignificant: 2552 2940 | 392 3 | 389 390 | 95.15 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003213
+		Marking as insignificant: 82926 83571 | 649 3 | 646 647 | 97.99 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003213
+		One align captures most of this contig: 1660 2665 | 1008 3 | 1006 1006 | 97.82 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003213
+
+CONTIG: ctg7180000003168 (33668bp)
+Top Length: 33668  Top ID: 99.95
+		One align captures most of this contig: 503948 537615 | 33668 1 | 33668 33668 | 99.95 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003168
+
+CONTIG: ctg7180000003169 (2374bp)
+Top Length: 2345  Top ID: 99.66
+		This contig is partially unaligned. (2345 out of 2374)
+		Alignment: 278 2620 | 30 2374 | 2343 2345 | 99.66 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003169
+		Unaligned bases: 1 to 29 (29)
+
+CONTIG: jtg7180000003139f_7180000003140f (133887bp)
+Top Length: 133887  Top ID: 99.92
+		Marking as insignificant: 147684 147876 | 133695 133887 | 193 193 | 98.45 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence jtg7180000003139f_7180000003140f
+		One align captures most of this contig: 2042452 2176353 | 1 133887 | 133902 133887 | 99.92 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence jtg7180000003139f_7180000003140f
+
+CONTIG: jtg7180000003136f_7180000003137f (56722bp)
+Top Length: 56694  Top ID: 99.91
+		Marking as insignificant: 105181 105284 | 55128 55231 | 104 104 | 100.0 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence jtg7180000003136f_7180000003137f
+		Marking as insignificant: 90982 91637 | 55784 55128 | 656 657 | 99.85 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence jtg7180000003136f_7180000003137f
+		Marking as insignificant: 35541 36497 | 56722 55773 | 957 950 | 99.06 | gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence jtg7180000003136f_7180000003137f
+		Marking as insignificant: 1 1494 | 55232 56722 | 1494 1491 | 99.67 | gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence jtg7180000003136f_7180000003137f
+		Marking as insignificant: 1435194 1436792 | 55127 56722 | 1599 1596 | 99.69 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence jtg7180000003136f_7180000003137f
+		Marking as insignificant: 371646 373240 | 56722 55128 | 1595 1595 | 99.87 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence jtg7180000003136f_7180000003137f
+		One align captures most of this contig: 1 56695 | 56694 1 | 56695 56694 | 99.91 | gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence jtg7180000003136f_7180000003137f
+
+CONTIG: jtg7180000003111f_7180000003147f (26543bp)
+Top Length: 26543  Top ID: 99.92
+		Marking as insignificant: 42754 42836 | 19019 19101 | 83 83 | 100.0 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence jtg7180000003111f_7180000003147f
+		Marking as insignificant: 3188239 3188410 | 172 1 | 172 172 | 98.84 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence jtg7180000003111f_7180000003147f
+		Marking as insignificant: 942733 942904 | 172 1 | 172 172 | 98.84 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence jtg7180000003111f_7180000003147f
+		One align captures most of this contig: 7017 33559 | 26543 1 | 26543 26543 | 99.92 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence jtg7180000003111f_7180000003147f
+
+CONTIG: jtg7180000003176f_7180000002927r_7180000002915r_7180000003177f (216462bp)
+Top Length: 216462  Top ID: 99.92
+		One align captures most of this contig: 2279592 2496067 | 1 216462 | 216476 216462 | 99.92 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence jtg7180000003176f_7180000002927r_7180000002915r_7180000003177f
+
+CONTIG: ctg7180000003179 (4441bp)
+Top Length: 4441  Top ID: 99.89
+		Marking as insignificant: 8618 8755 | 4303 4441 | 138 139 | 97.84 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003179
+		Marking as insignificant: 11646 11936 | 1 292 | 291 292 | 97.95 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003179
+		Marking as insignificant: 5659 6050 | 1 393 | 392 393 | 97.2 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003179
+		One align captures most of this contig: 85833 90272 | 1 4441 | 4440 4441 | 99.89 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003179
+
+CONTIG: ctg7180000003178 (1322bp)
+Top Length: 1322  Top ID: 99.85
+		Marking as insignificant: 2276 2352 | 78 154 | 77 77 | 98.7 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003178
+		Marking as insignificant: 5425 5632 | 1116 1322 | 208 207 | 98.08 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003178
+		Marking as insignificant: 11410 11618 | 1114 1322 | 209 209 | 99.04 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence ctg7180000003178
+		One align captures most of this contig: 84484 85805 | 1 1322 | 1322 1322 | 99.85 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence ctg7180000003178
+
+CONTIG: ctg7180000002942 (683bp)
+Top Length: 683  Top ID: 99.85
+		One align captures most of this contig: 534517 535199 | 1 683 | 683 683 | 99.85 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000002942
+
+CONTIG: ctg7180000003171 (9967bp)
+Top Length: 9961  Top ID: 99.95
+		One align captures most of this contig: 850038 859998 | 9967 7 | 9961 9961 | 99.95 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003171
+
+CONTIG: ctg7180000003170 (24150bp)
+Top Length: 24150  Top ID: 99.96
+		One align captures most of this contig: 859976 884125 | 24150 1 | 24150 24150 | 99.96 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003170
+
+CONTIG: ctg7180000002768 (515bp)
+Top Length: 515  Top ID: 100.0
+		Marking as insignificant: 2177272 2177786 | 515 1 | 515 515 | 98.06 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000002768
+		One align captures most of this contig: 148795 149309 | 515 1 | 515 515 | 100.0 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000002768
+
+CONTIG: ctg7180000003175 (7178bp)
+Top Length: 7178  Top ID: 99.89
+		One align captures most of this contig: 601552 608729 | 7178 1 | 7178 7178 | 99.89 | gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence ctg7180000003175
+
+CONTIG: ctg7180000003174 (8613bp)
+Top Length: 8613  Top ID: 99.94
+		One align captures most of this contig: 243797 252409 | 8613 1 | 8613 8613 | 99.94 | gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence ctg7180000003174
+
+CONTIG: jtg7180000003157f_7180000003158f (40930bp)
+Top Length: 40930  Top ID: 99.97
+		Marking as insignificant: 65018 65626 | 40326 40930 | 609 605 | 99.18 | gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence jtg7180000003157f_7180000003158f
+		One align captures most of this contig: 43932 84861 | 1 40930 | 40930 40930 | 99.97 | gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence jtg7180000003157f_7180000003158f
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1606/dataset_1688_files/Contig/contigs_reports/nucmer_output/RS-H-Msrca-Contig.used_snps
+	Reference gi|77404693|ref|NC_007489.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_C__complete_sequence: 3 total alignments. 1 total regions.
+		Region: 1 to 105284 (105284 bp)
+			START in gap: 1 to 1341 (1340 bp)
+			Align 1: 1341 77840 ctg7180000003215 76502 1
+				Negative gap (overlap) between this and next alignment: 77840 to 77673 (-167 bp)
+				Next Alignment: 77673 78993 ctg7180000003142 1 1321
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 169.
+			Align 2: 77841 78993 ctg7180000003142 169 1321
+				Negative gap (overlap) between this and next alignment: 78993 to 78962 (-31 bp)
+				Next Alignment: 78962 105284 ctg7180000003194 26396 74
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 26396 to 26364.
+			Align 3: 78994 105284 ctg7180000003194 26364 74
+			END in current alignment.  Modifying 105284 to 105284.
+
+	Reference gi|552530953|ref|NC_007490.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_D__complete_sequence: 11 total alignments. 1 total regions.
+		Region: 1 to 100827 (100827 bp)
+			START in gap: 1 to 775 (774 bp)
+			Align 1: 775 1676 ctg7180000003211 1 901
+				Negative gap (overlap) between this and next alignment: 1676 to 1660 (-16 bp)
+				Next Alignment: 1660 2665 ctg7180000003213 1008 3
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1008 to 991.
+			Align 2: 1677 2665 ctg7180000003213 991 3
+				Gap between this and next alignment: 2665 to 5643 (2977 bp)
+				Next Alignment: 5643 8916 ctg7180000003122 3274 1
+
+			Align 3: 5643 8916 ctg7180000003122 3274 1
+				Negative gap (overlap) between this and next alignment: 8916 to 8721 (-195 bp)
+				Next Alignment: 8721 11839 ctg7180000003135 1 3119
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 197.
+			Align 4: 8917 11839 ctg7180000003135 197 3119
+				Negative gap (overlap) between this and next alignment: 11839 to 11674 (-165 bp)
+				Next Alignment: 11674 15151 ctg7180000003209 3478 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3478 to 3312.
+			Align 5: 11840 15151 ctg7180000003209 3312 1
+				Negative gap (overlap) between this and next alignment: 15151 to 15150 (-1 bp)
+				Next Alignment: 15150 27144 ctg7180000003195 11995 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 11995 to 11993.
+			Align 6: 15152 27144 ctg7180000003195 11993 1
+				Gap between this and next alignment: 27144 to 42563 (15418 bp)
+				Next Alignment: 42563 43262 ctg7180000003095 700 1
+
+			Align 7: 42563 43262 ctg7180000003095 700 1
+				Negative gap (overlap) between this and next alignment: 43262 to 43258 (-4 bp)
+				Next Alignment: 43258 43872 ctg7180000003113 1 615
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 6.
+			Align 8: 43263 43872 ctg7180000003113 6 615
+				Gap between this and next alignment: 43872 to 43932 (59 bp)
+				Next Alignment: 43932 84861 jtg7180000003157f_7180000003158f 1 40930
+
+			Align 9: 43932 84861 jtg7180000003157f_7180000003158f 1 40930
+				Negative gap (overlap) between this and next alignment: 84861 to 84724 (-137 bp)
+				Next Alignment: 84724 86619 ctg7180000003180 1 1896
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 139.
+			Align 10: 84862 86619 ctg7180000003180 139 1896
+				Negative gap (overlap) between this and next alignment: 86619 to 86440 (-179 bp)
+				Next Alignment: 86440 100312 ctg7180000003145 1 13873
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 181.
+			Align 11: 86620 100312 ctg7180000003145 181 13873
+			END in gap: 100312 to 100827 (515 bp)
+
+	Reference gi|552536492|ref|NC_007494.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_2__complete_sequence: 30 total alignments. 1 total regions.
+		Region: 1 to 943018 (943018 bp)
+			START in gap: 1 to 5071 (5070 bp)
+			Align 1: 5071 7232 ctg7180000003101 1 2162
+				Negative gap (overlap) between this and next alignment: 7232 to 7017 (-215 bp)
+				Next Alignment: 7017 33559 jtg7180000003111f_7180000003147f 26543 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 26543 to 26327.
+			Align 2: 7233 33559 jtg7180000003111f_7180000003147f 26327 1
+				Negative gap (overlap) between this and next alignment: 33559 to 33388 (-171 bp)
+				Next Alignment: 33388 38923 ctg7180000003118 5537 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5537 to 5365.
+			Align 3: 33560 38923 ctg7180000003118 5365 1
+				The next alignment (33388 33841 ctg7180000003117 454 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 38923 to 38743 (-180 bp)
+				Next Alignment: 38743 42387 ctg7180000003200 1 3645
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 182.
+			Align 5: 38924 42387 ctg7180000003200 182 3645
+				Negative gap (overlap) between this and next alignment: 42387 to 42213 (-174 bp)
+				Next Alignment: 42213 43051 ctg7180000003109 1 839
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 176.
+			Align 6: 42388 43051 ctg7180000003109 176 839
+				Negative gap (overlap) between this and next alignment: 43051 to 42807 (-244 bp)
+				Next Alignment: 42807 114920 ctg7180000003166 200886 128771
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 200886 to 200641.
+			Align 7: 43052 114920 ctg7180000003166 200641 128771
+				Negative gap (overlap) between this and next alignment: 114920 to 114920 (0 bp)
+				Next Alignment: 114920 243782 ctg7180000003166 128865 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 128865 to 128864.
+			Align 8: 114921 243782 ctg7180000003166 128864 1
+				Gap between this and next alignment: 243782 to 243797 (14 bp)
+				Next Alignment: 243797 252409 ctg7180000003174 8613 1
+
+			Align 9: 243797 252409 ctg7180000003174 8613 1
+				Negative gap (overlap) between this and next alignment: 252409 to 252373 (-36 bp)
+				Next Alignment: 252373 371799 ctg7180000003155 119429 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 119429 to 119392.
+			Align 10: 252410 371799 ctg7180000003155 119392 1
+				Gap between this and next alignment: 371799 to 373048 (1248 bp)
+				Next Alignment: 373048 571363 jtg7180000003182f_7180000003183f 1 198316
+
+			Align 11: 373048 571363 jtg7180000003182f_7180000003183f 1 198316
+				Negative gap (overlap) between this and next alignment: 571363 to 571340 (-23 bp)
+				Next Alignment: 571340 707608 jtg7180000003184f_7180000003185f 1 136269
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 25.
+			Align 12: 571364 707608 jtg7180000003184f_7180000003185f 25 136269
+				Negative gap (overlap) between this and next alignment: 707608 to 707490 (-118 bp)
+				Next Alignment: 707490 712123 ctg7180000003192 4634 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4634 to 4515.
+			Align 13: 707609 712123 ctg7180000003192 4515 1
+				Negative gap (overlap) between this and next alignment: 712123 to 711923 (-200 bp)
+				Next Alignment: 711923 712503 ctg7180000003191 581 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 581 to 380.
+			Align 14: 712124 712503 ctg7180000003191 380 1
+				Gap between this and next alignment: 712503 to 712598 (94 bp)
+				Next Alignment: 712598 738216 ctg7180000003190 25619 1
+
+			Align 15: 712598 738216 ctg7180000003190 25619 1
+				Gap between this and next alignment: 738216 to 738699 (482 bp)
+				Next Alignment: 738699 739909 ctg7180000002729 1 1211
+
+			Align 16: 738699 739909 ctg7180000002729 1 1211
+				Negative gap (overlap) between this and next alignment: 739909 to 739708 (-201 bp)
+				Next Alignment: 739708 743438 ctg7180000003127 3731 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3731 to 3529.
+			Align 17: 739910 743438 ctg7180000003127 3529 1
+				Negative gap (overlap) between this and next alignment: 743438 to 743316 (-122 bp)
+				Next Alignment: 743316 744574 ctg7180000003121 1 1259
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 124.
+			Align 18: 743439 744574 ctg7180000003121 124 1259
+				Negative gap (overlap) between this and next alignment: 744574 to 744272 (-302 bp)
+				Next Alignment: 744272 745772 ctg7180000003128 1 1501
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 304.
+			Align 19: 744575 745772 ctg7180000003128 304 1501
+				Negative gap (overlap) between this and next alignment: 745772 to 745553 (-219 bp)
+				Next Alignment: 745553 850094 ctg7180000003187 104542 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 104542 to 104322.
+			Align 20: 745773 850094 ctg7180000003187 104322 1
+				Negative gap (overlap) between this and next alignment: 850094 to 850071 (-23 bp)
+				Next Alignment: 850071 889211 ctg7180000003186 39141 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 39141 to 39117.
+			Align 21: 850095 889211 ctg7180000003186 39117 1
+				The next alignment (858895 859397 ctg7180000002794 503 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 889211 to 889034 (-177 bp)
+				Next Alignment: 889034 889980 ctg7180000003125 1 947
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 179.
+			Align 23: 889212 889980 ctg7180000003125 179 947
+				Negative gap (overlap) between this and next alignment: 889980 to 889803 (-177 bp)
+				Next Alignment: 889803 891336 ctg7180000003132 1534 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1534 to 1356.
+			Align 24: 889981 891336 ctg7180000003132 1356 1
+				Negative gap (overlap) between this and next alignment: 891336 to 891193 (-143 bp)
+				Next Alignment: 891193 893734 ctg7180000003120 2542 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2542 to 2398.
+			Align 25: 891337 893734 ctg7180000003120 2398 1
+				Gap between this and next alignment: 893734 to 893794 (59 bp)
+				Next Alignment: 893794 906322 ctg7180000003151 1 12529
+
+			Align 26: 893794 906322 ctg7180000003151 1 12529
+				Negative gap (overlap) between this and next alignment: 906322 to 906187 (-135 bp)
+				Next Alignment: 906187 921419 ctg7180000003153 15233 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 15233 to 15097.
+			Align 27: 906323 921419 ctg7180000003153 15097 1
+				Gap between this and next alignment: 921419 to 921561 (141 bp)
+				Next Alignment: 921561 923887 ctg7180000003091 1 2327
+
+			Align 28: 921561 923887 ctg7180000003091 1 2327
+				Negative gap (overlap) between this and next alignment: 923887 to 923714 (-173 bp)
+				Next Alignment: 923714 942790 ctg7180000003188 1 19077
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 175.
+			Align 29: 923888 942790 ctg7180000003188 175 19077
+				Negative gap (overlap) between this and next alignment: 942790 to 942630 (-160 bp)
+				Next Alignment: 942630 943018 ctg7180000003117 557 169
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 557 to 396.
+			Align 30: 942791 943018 ctg7180000003117 396 169
+			END in current alignment.  Modifying 943018 to 943018.
+
+	Reference gi|552530711|ref|NC_007488.2|_Rhodobacter_sphaeroides_2.4.1_plasmid_B__complete_sequence: 2 total alignments. 1 total regions.
+		Region: 1 to 114179 (114179 bp)
+			Align 1: 1 56695 jtg7180000003136f_7180000003137f 56694 1
+				Negative gap (overlap) between this and next alignment: 56695 to 56523 (-172 bp)
+				Next Alignment: 56523 114179 ctg7180000003206 57798 141
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 57798 to 57625.
+			Align 2: 56696 114179 ctg7180000003206 57625 141
+			END in current alignment.  Modifying 114179 to 114179.
+
+	Reference gi|552535527|ref|NC_007493.2|_Rhodobacter_sphaeroides_2.4.1_chromosome_1__complete_sequence: 56 total alignments. 1 total regions.
+		Region: 1 to 3188524 (3188524 bp)
+			START in gap: 1 to 5175 (5174 bp)
+			Align 1: 5175 147876 ctg7180000003189 1 142663
+				Gap between this and next alignment: 147876 to 148795 (918 bp)
+				Next Alignment: 148795 149309 ctg7180000002768 515 1
+
+			Align 2: 148795 149309 ctg7180000002768 515 1
+				Negative gap (overlap) between this and next alignment: 149309 to 149201 (-108 bp)
+				Next Alignment: 149201 175419 ctg7180000003163 1 26219
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 110.
+			Align 3: 149310 175419 ctg7180000003163 110 26219
+				Negative gap (overlap) between this and next alignment: 175419 to 175401 (-18 bp)
+				Next Alignment: 175401 222760 ctg7180000003203 1 47360
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 20.
+			Align 4: 175420 222760 ctg7180000003203 20 47360
+				Gap between this and next alignment: 222760 to 223037 (276 bp)
+				Next Alignment: 223037 224205 ctg7180000002758 1169 1
+
+			Align 5: 223037 224205 ctg7180000002758 1169 1
+				Negative gap (overlap) between this and next alignment: 224205 to 224147 (-58 bp)
+				Next Alignment: 224147 226465 ctg7180000003126 1 2319
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 60.
+			Align 6: 224206 226465 ctg7180000003126 60 2319
+				Negative gap (overlap) between this and next alignment: 226465 to 226327 (-138 bp)
+				Next Alignment: 226327 228728 ctg7180000003130 2402 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2402 to 2263.
+			Align 7: 226466 228728 ctg7180000003130 2263 1
+				Negative gap (overlap) between this and next alignment: 228728 to 226412 (-2316 bp)
+				Next Alignment: 226412 232852 ctg7180000003197 6443 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 6443 to 4123.
+			Align 8: 228729 232852 ctg7180000003197 4123 1
+				Negative gap (overlap) between this and next alignment: 232852 to 232649 (-203 bp)
+				Next Alignment: 232649 248219 ctg7180000003196 15571 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 15571 to 15367.
+			Align 9: 232853 248219 ctg7180000003196 15367 1
+				Negative gap (overlap) between this and next alignment: 248219 to 248080 (-139 bp)
+				Next Alignment: 248080 249599 ctg7180000003099 1 1520
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 141.
+			Align 10: 248220 249599 ctg7180000003099 141 1520
+				Negative gap (overlap) between this and next alignment: 249599 to 249428 (-171 bp)
+				Next Alignment: 249428 251682 ctg7180000003100 1 2255
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 173.
+			Align 11: 249600 251682 ctg7180000003100 173 2255
+				Negative gap (overlap) between this and next alignment: 251682 to 251518 (-164 bp)
+				Next Alignment: 251518 252214 ctg7180000003202 1 697
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 166.
+			Align 12: 251683 252214 ctg7180000003202 166 697
+				Gap between this and next alignment: 252214 to 253532 (1317 bp)
+				Next Alignment: 253532 287991 ctg7180000003149 34460 1
+
+			Align 13: 253532 287991 ctg7180000003149 34460 1
+				The next alignment (278967 279473 ctg7180000003119 1 507) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 287991 to 287813 (-178 bp)
+				Next Alignment: 287813 288983 ctg7180000003129 1 1171
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 180.
+			Align 15: 287992 288983 ctg7180000003129 180 1171
+				Negative gap (overlap) between this and next alignment: 288983 to 288807 (-176 bp)
+				Next Alignment: 288807 306668 ctg7180000003199 1 17862
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 178.
+			Align 16: 288984 306668 ctg7180000003199 178 17862
+				Gap between this and next alignment: 306668 to 307476 (807 bp)
+				Next Alignment: 307476 503985 ctg7180000003148 1 196511
+
+			Align 17: 307476 503985 ctg7180000003148 1 196511
+				Negative gap (overlap) between this and next alignment: 503985 to 503948 (-37 bp)
+				Next Alignment: 503948 537615 ctg7180000003168 33668 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 33668 to 33630.
+			Align 18: 503986 537615 ctg7180000003168 33630 1
+				The next alignment (534517 535199 ctg7180000002942 1 683) is redundant. Skipping.
+				Gap between this and next alignment: 537615 to 537620 (4 bp)
+				Next Alignment: 537620 559297 ctg7180000003160 21678 1
+
+			Align 20: 537620 559297 ctg7180000003160 21678 1
+				Gap between this and next alignment: 559297 to 559323 (25 bp)
+				Next Alignment: 559323 601523 ctg7180000003152 1 42200
+
+			Align 21: 559323 601523 ctg7180000003152 1 42200
+				Gap between this and next alignment: 601523 to 601552 (28 bp)
+				Next Alignment: 601552 608729 ctg7180000003175 7178 1
+
+			Align 22: 601552 608729 ctg7180000003175 7178 1
+				Gap between this and next alignment: 608729 to 608734 (4 bp)
+				Next Alignment: 608734 645760 ctg7180000003167 1 37027
+
+			Align 23: 608734 645760 ctg7180000003167 1 37027
+				Negative gap (overlap) between this and next alignment: 645760 to 645555 (-205 bp)
+				Next Alignment: 645555 646082 ctg7180000003133 1 528
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 207.
+			Align 24: 645761 646082 ctg7180000003133 207 528
+				Negative gap (overlap) between this and next alignment: 646082 to 645906 (-176 bp)
+				Next Alignment: 645906 646919 ctg7180000003134 1 1014
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 178.
+			Align 25: 646083 646919 ctg7180000003134 178 1014
+				Negative gap (overlap) between this and next alignment: 646919 to 646853 (-66 bp)
+				Next Alignment: 646853 648745 ctg7180000003198 1893 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1893 to 1826.
+			Align 26: 646920 648745 ctg7180000003198 1826 1
+				Gap between this and next alignment: 648745 to 651027 (2281 bp)
+				Next Alignment: 651027 654792 ctg7180000003143 3766 1
+
+			Align 27: 651027 654792 ctg7180000003143 3766 1
+				Negative gap (overlap) between this and next alignment: 654792 to 654605 (-187 bp)
+				Next Alignment: 654605 668271 ctg7180000003150 1 13667
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 189.
+			Align 28: 654793 668271 ctg7180000003150 189 13667
+				Negative gap (overlap) between this and next alignment: 668271 to 668100 (-171 bp)
+				Next Alignment: 668100 671717 ctg7180000003201 1 3618
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 173.
+			Align 29: 668272 671717 ctg7180000003201 173 3618
+				Negative gap (overlap) between this and next alignment: 671717 to 671554 (-163 bp)
+				Next Alignment: 671554 673100 ctg7180000003108 1547 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1547 to 1383.
+			Align 30: 671718 673100 ctg7180000003108 1383 1
+				Negative gap (overlap) between this and next alignment: 673100 to 672944 (-156 bp)
+				Next Alignment: 672944 691963 ctg7180000003193 1 19021
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 158.
+			Align 31: 673101 691963 ctg7180000003193 158 19021
+				Gap between this and next alignment: 691963 to 692038 (74 bp)
+				Next Alignment: 692038 850070 ctg7180000003193 18753 176783
+
+			Align 32: 692038 850070 ctg7180000003193 18753 176783
+				Negative gap (overlap) between this and next alignment: 850070 to 850038 (-32 bp)
+				Next Alignment: 850038 859998 ctg7180000003171 9967 7
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 9967 to 9934.
+			Align 33: 850071 859998 ctg7180000003171 9934 7
+				Negative gap (overlap) between this and next alignment: 859998 to 859976 (-22 bp)
+				Next Alignment: 859976 884125 ctg7180000003170 24150 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 24150 to 24127.
+			Align 34: 859999 884125 ctg7180000003170 24127 1
+				Negative gap (overlap) between this and next alignment: 884125 to 884102 (-23 bp)
+				Next Alignment: 884102 904462 jtg7180000002936f_7180000003123f 20361 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 20361 to 20337.
+			Align 35: 884126 904462 jtg7180000002936f_7180000003123f 20337 1
+				Negative gap (overlap) between this and next alignment: 904462 to 904442 (-20 bp)
+				Next Alignment: 904442 1035961 ctg7180000003204 1 131520
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 22.
+			Align 36: 904463 1035961 ctg7180000003204 22 131520
+				Negative gap (overlap) between this and next alignment: 1035961 to 1035925 (-36 bp)
+				Next Alignment: 1035925 1057088 ctg7180000003205 1 21164
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 38.
+			Align 37: 1035962 1057088 ctg7180000003205 38 21164
+				Negative gap (overlap) between this and next alignment: 1057088 to 1057051 (-37 bp)
+				Next Alignment: 1057051 1416013 ctg7180000003156 1 358962
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 39.
+			Align 38: 1057089 1416013 ctg7180000003156 39 358962
+				Negative gap (overlap) between this and next alignment: 1416013 to 1416002 (-11 bp)
+				Next Alignment: 1416002 1435349 ctg7180000003112 1 19348
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 13.
+			Align 39: 1416014 1435349 ctg7180000003112 13 19348
+				Gap between this and next alignment: 1435349 to 1436636 (1286 bp)
+				Next Alignment: 1436636 1479537 ctg7180000003154 1 42902
+
+			Align 40: 1436636 1479537 ctg7180000003154 1 42902
+				Negative gap (overlap) between this and next alignment: 1479537 to 1479294 (-243 bp)
+				Next Alignment: 1479294 1653187 ctg7180000003154 42824 216717
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 42824 to 43068.
+			Align 41: 1479538 1653187 ctg7180000003154 43068 216717
+				Negative gap (overlap) between this and next alignment: 1653187 to 1652124 (-1063 bp)
+				Next Alignment: 1652124 1679049 ctg7180000003164 64104 37179
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 64104 to 63040.
+			Align 42: 1653188 1679049 ctg7180000003164 63040 37179
+				Negative gap (overlap) between this and next alignment: 1679049 to 1678859 (-190 bp)
+				Next Alignment: 1678859 1716115 ctg7180000003164 37257 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 37257 to 37066.
+			Align 43: 1679050 1716115 ctg7180000003164 37066 1
+				Negative gap (overlap) between this and next alignment: 1716115 to 1716112 (-3 bp)
+				Next Alignment: 1716112 2042831 jtg7180000003172f_7180000003173f 1 326722
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 5.
+			Align 44: 1716116 2042831 jtg7180000003172f_7180000003173f 5 326722
+				Negative gap (overlap) between this and next alignment: 2042831 to 2042452 (-379 bp)
+				Next Alignment: 2042452 2176353 jtg7180000003139f_7180000003140f 1 133887
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 381.
+			Align 45: 2042832 2176353 jtg7180000003139f_7180000003140f 381 133887
+				Negative gap (overlap) between this and next alignment: 2176353 to 2176173 (-180 bp)
+				Next Alignment: 2176173 2177453 ctg7180000003214 1 1281
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 182.
+			Align 46: 2176354 2177453 ctg7180000003214 182 1281
+				Negative gap (overlap) between this and next alignment: 2177453 to 2177272 (-181 bp)
+				Next Alignment: 2177272 2177786 ctg7180000003105 1 515
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 183.
+			Align 47: 2177454 2177786 ctg7180000003105 183 515
+				Negative gap (overlap) between this and next alignment: 2177786 to 2177604 (-182 bp)
+				Next Alignment: 2177604 2279607 ctg7180000003208 1 102004
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 184.
+			Align 48: 2177787 2279607 ctg7180000003208 184 102004
+				Negative gap (overlap) between this and next alignment: 2279607 to 2279592 (-15 bp)
+				Next Alignment: 2279592 2496067 jtg7180000003176f_7180000002927r_7180000002915r_7180000003177f 1 216462
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 17.
+			Align 49: 2279608 2496067 jtg7180000003176f_7180000002927r_7180000002915r_7180000003177f 17 216462
+				Negative gap (overlap) between this and next alignment: 2496067 to 2495901 (-166 bp)
+				Next Alignment: 2495901 2565683 ctg7180000003162 69769 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 69769 to 69616.
+			Align 50: 2496068 2565683 ctg7180000003162 69616 1
+				Negative gap (overlap) between this and next alignment: 2565683 to 2565645 (-38 bp)
+				Next Alignment: 2565645 2575762 jtg7180000003114r_7180000003138f 10126 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 10126 to 10087.
+			Align 51: 2565684 2575762 jtg7180000003114r_7180000003138f 10087 1
+				Negative gap (overlap) between this and next alignment: 2575762 to 2575748 (-14 bp)
+				Next Alignment: 2575748 2579383 ctg7180000003106 3636 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3636 to 3621.
+			Align 52: 2575763 2579383 ctg7180000003106 3621 1
+				Negative gap (overlap) between this and next alignment: 2579383 to 2578854 (-529 bp)
+				Next Alignment: 2578854 2715403 ctg7180000003165 136553 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 136553 to 136023.
+			Align 53: 2579384 2715403 ctg7180000003165 136023 1
+				Gap between this and next alignment: 2715403 to 2715434 (30 bp)
+				Next Alignment: 2715434 2938284 ctg7180000003159 1 222851
+
+			Align 54: 2715434 2938284 ctg7180000003159 1 222851
+				Gap between this and next alignment: 2938284 to 2938318 (33 bp)
+				Next Alignment: 2938318 3180871 ctg7180000003161 1 242553
+
+			Align 55: 2938318 3180871 ctg7180000003161 1 242553
+				Negative gap (overlap) between this and next alignment: 3180871 to 3180838 (-33 bp)
+				Next Alignment: 3180838 3188518 ctg7180000003118 12938 5258
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 12938 to 12904.
+			Align 56: 3180872 3188518 ctg7180000003118 12904 5258
+			END in gap: 3188518 to 3188524 (6 bp)
+
+	Reference gi|125654605|ref|NC_009007.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_A__partial_sequence: 8 total alignments. 1 total regions.
+		Region: 1 to 114045 (114045 bp)
+			START in gap: 1 to 278 (277 bp)
+			Align 1: 278 2620 ctg7180000003169 30 2374
+				Gap between this and next alignment: 2620 to 65452 (62831 bp)
+				Next Alignment: 65452 70963 ctg7180000003146 1 5512
+
+			Align 2: 65452 70963 ctg7180000003146 1 5512
+				Negative gap (overlap) between this and next alignment: 70963 to 70787 (-176 bp)
+				Next Alignment: 70787 71950 ctg7180000003110 1164 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1164 to 987.
+			Align 3: 70964 71950 ctg7180000003110 987 1
+				Negative gap (overlap) between this and next alignment: 71950 to 71653 (-297 bp)
+				Next Alignment: 71653 79913 ctg7180000003145 12772 21032
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 12772 to 13070.
+			Align 4: 71951 79913 ctg7180000003145 13070 21032
+				Gap between this and next alignment: 79913 to 80033 (119 bp)
+				Next Alignment: 80033 80913 ctg7180000003141 1 881
+
+			Align 5: 80033 80913 ctg7180000003141 1 881
+				Gap between this and next alignment: 80913 to 80919 (5 bp)
+				Next Alignment: 80919 83081 ctg7180000003210 1 2131
+
+			Align 6: 80919 83081 ctg7180000003210 1 2131
+				Gap between this and next alignment: 83081 to 84484 (1402 bp)
+				Next Alignment: 84484 85805 ctg7180000003178 1 1322
+
+			Align 7: 84484 85805 ctg7180000003178 1 1322
+				Gap between this and next alignment: 85805 to 85833 (27 bp)
+				Next Alignment: 85833 90272 ctg7180000003179 1 4441
+
+			Align 8: 85833 90272 ctg7180000003179 1 4441
+			END in gap: 90272 to 114045 (23773 bp)
+
+	Reference gi|125654693|ref|NC_009008.1|_Rhodobacter_sphaeroides_2.4.1_plasmid_E__partial_sequence: 4 total alignments. 1 total regions.
+		Region: 1 to 37100 (37100 bp)
+			START in gap: 1 to 6474 (6473 bp)
+			Align 1: 6474 7129 ctg7180000003181 797 148
+				Negative gap (overlap) between this and next alignment: 7129 to 6769 (-360 bp)
+				Next Alignment: 6769 34933 ctg7180000003116 1 28165
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 362.
+			Align 2: 7130 34933 ctg7180000003116 362 28165
+				Negative gap (overlap) between this and next alignment: 34933 to 34783 (-150 bp)
+				Next Alignment: 34783 35325 ctg7180000003181 543 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 543 to 392.
+			Align 3: 34934 35325 ctg7180000003181 392 1
+				Negative gap (overlap) between this and next alignment: 35325 to 35145 (-180 bp)
+				Next Alignment: 35145 35669 ctg7180000003124 1 525
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 182.
+			Align 4: 35326 35669 ctg7180000003124 182 525
+			END in gap: 35669 to 37100 (1431 bp)
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1606/dataset_1688_files/Contig/contigs_reports/nucmer_output/RS-H-Msrca-Contig.used_snps
+
+Results:
+	Local Misassemblies: 4
+	Misassemblies: 4
+		Relocations: 2
+		Translocations: 2
+		Inversions: 0
+	Misassembled Contigs: 4
+	Misassembled Contig Bases: 35324
+	Misassmblies Inter-Contig Overlap: 2586
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 1 part
+Partially Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 29
+
+Ambiguously Mapped Contigs: 3
+Total Bases in Ambiguously Mapped Contigs: 3333
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 4466185
+
+	SNPs: 3220
+	Insertions: 34
+	Deletions: 134
+
+	Positive Gaps: 37
+		Internal Gaps:  1
+		External Gaps:  36
+		External Gap Total:  136718
+		External Gap Average: 3798
+	Negative Gaps: 76
+		Internal Overlaps:  3
+		External Overlaps:  73
+		External Overlaps Total: -13217
+		External Overlaps Average: -181
+	Contigs with Redundant Alignments: 4 (2147)

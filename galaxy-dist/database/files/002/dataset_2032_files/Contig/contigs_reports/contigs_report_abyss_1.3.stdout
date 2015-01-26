@@ -1,0 +1,1933 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence]
+	Loaded [gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 2
+	Total Region Length: 4033464
+Analyzing contigs...
+CONTIG: 575_2350_78178 (2350bp)
+Top Length: 1735  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 260556 262290 | 2350 616 | 1735 1735 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 575_2350_78178
+			  Extensive misassembly ( relocation, inconsistency = 1261 ) between these two alignments
+			Real Alignment 2: 263546 264166 | 621 1 | 621 621 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 575_2350_78178
+
+CONTIG: 557_83464_3599575 (83464bp)
+Top Length: 83464  Top ID: 99.99
+		One align captures most of this contig: 878576 962039 | 83464 1 | 83464 83464 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 557_83464_3599575
+
+CONTIG: 246_1410_30980 (1410bp)
+Top Length: 1410  Top ID: 100.0
+		One align captures most of this contig: 399899 401308 | 1 1410 | 1410 1410 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 246_1410_30980
+
+CONTIG: 336_59400_2423456 (59400bp)
+Top Length: 59400  Top ID: 99.99
+		One align captures most of this contig: 1234653 1294052 | 59400 1 | 59400 59400 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 336_59400_2423456
+
+CONTIG: 691_4877_258198 (4877bp)
+Top Length: 4877  Top ID: 99.98
+		One align captures most of this contig: 481510 486386 | 4877 1 | 4877 4877 | 99.98 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 691_4877_258198
+
+CONTIG: 708_5160_218175 (5160bp)
+Top Length: 5160  Top ID: 100.0
+		One align captures most of this contig: 699685 704844 | 5160 1 | 5160 5160 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 708_5160_218175
+
+CONTIG: 217_785_37409 (785bp)
+Top Length: 785  Top ID: 100.0
+		One align captures most of this contig: 349517 350301 | 1 785 | 785 785 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 217_785_37409
+
+CONTIG: 255_1132_43983 (1132bp)
+Top Length: 1132  Top ID: 100.0
+		One align captures most of this contig: 410616 411747 | 1132 1 | 1132 1132 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 255_1132_43983
+
+CONTIG: 544_534_17637 (534bp)
+Top Length: 534  Top ID: 100.0
+		One align captures most of this contig: 432421 432954 | 1 534 | 534 534 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 544_534_17637
+
+CONTIG: 396_859_41754 (859bp)
+Top Length: 859  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1578270 1579128 | 859 1 | 859 859 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 396_859_41754
+		Skipping alignment  1584391 1585249 | 859 1 | 859 859 | 99.88 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 396_859_41754
+
+CONTIG: 200_3116_95879 (3116bp)
+Top Length: 3116  Top ID: 100.0
+		Marking as insignificant: 379140 379679 | 2578 3116 | 540 539 | 97.96 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 200_3116_95879
+		One align captures most of this contig: 407548 410663 | 1 3116 | 3116 3116 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 200_3116_95879
+
+CONTIG: 195_17200_715145 (17200bp)
+Top Length: 17200  Top ID: 100.0
+		One align captures most of this contig: 973710 990909 | 17200 1 | 17200 17200 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 195_17200_715145
+
+CONTIG: 561_654_16567 (654bp)
+Top Length: 654  Top ID: 100.0
+		Marking as insignificant: 379616 379680 | 65 1 | 65 65 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 561_654_16567
+		Marking as insignificant: 393961 394615 | 654 1 | 655 654 | 97.71 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 561_654_16567
+		One align captures most of this contig: 433709 434362 | 654 1 | 654 654 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 561_654_16567
+
+CONTIG: 63_1024_38475 (1024bp)
+Top Length: 1024  Top ID: 100.0
+		One align captures most of this contig: 327891 328914 | 1024 1 | 1024 1024 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 63_1024_38475
+
+CONTIG: 539_3174_121441 (3174bp)
+Top Length: 3174  Top ID: 100.0
+		One align captures most of this contig: 613615 616788 | 3174 1 | 3174 3174 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 539_3174_121441
+
+CONTIG: 647_558_19911 (558bp)
+Top Length: 558  Top ID: 100.0
+		One align captures most of this contig: 322050 322607 | 1 558 | 558 558 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 647_558_19911
+
+CONTIG: 409_1111_45236 (1111bp)
+Top Length: 1111  Top ID: 100.0
+		One align captures most of this contig: 424396 425506 | 1111 1 | 1111 1111 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 409_1111_45236
+
+CONTIG: 457_775_48592 (775bp)
+Top Length: 775  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 322642 323416 | 1 775 | 775 775 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 457_775_48592
+		Skipping alignment  365307 366081 | 1 775 | 775 775 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 457_775_48592
+
+CONTIG: 118_2710_127482 (2710bp)
+Top Length: 2710  Top ID: 100.0
+		One align captures most of this contig: 2476110 2478819 | 2710 1 | 2710 2710 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 118_2710_127482
+
+CONTIG: 567_629_19953 (629bp)
+Top Length: 629  Top ID: 100.0
+		Marking as insignificant: 374382 375010 | 629 1 | 629 629 | 98.73 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 567_629_19953
+		One align captures most of this contig: 420544 421172 | 629 1 | 629 629 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 567_629_19953
+
+CONTIG: 601_722_7877 (722bp)
+Top Length: 722  Top ID: 100.0
+		One align captures most of this contig: 1951843 1952564 | 1 722 | 722 722 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 601_722_7877
+
+CONTIG: 10_760_26695 (760bp)
+Top Length: 760  Top ID: 100.0
+		Marking as insignificant: 389913 390053 | 760 619 | 141 142 | 95.1 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 10_760_26695
+		Marking as insignificant: 383779 384525 | 747 1 | 747 747 | 98.8 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 10_760_26695
+		One align captures most of this contig: 324386 325145 | 760 1 | 760 760 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 10_760_26695
+
+CONTIG: 199_1183_211203 (1183bp)
+Top Length: 1183  Top ID: 100.0
+		This contig has 6 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 262365 263547 | 1 1183 | 1183 1183 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 199_1183_211203
+		Skipping alignment  1583208 1584390 | 1 1183 | 1183 1183 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 199_1183_211203
+		Skipping alignment  1937511 1938693 | 1183 1 | 1183 1183 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 199_1183_211203
+		Skipping alignment  357176 358358 | 1183 1 | 1183 1183 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 199_1183_211203
+		Skipping alignment  435458 436640 | 1 1183 | 1183 1183 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 199_1183_211203
+		Skipping alignment  735763 736945 | 1183 1 | 1183 1183 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 199_1183_211203
+
+CONTIG: 449_1349_46427 (1349bp)
+Top Length: 1349  Top ID: 100.0
+		Marking as insignificant: 389953 390051 | 1349 1250 | 99 100 | 96.04 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 449_1349_46427
+		Marking as insignificant: 384932 385053 | 642 520 | 122 123 | 95.93 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 449_1349_46427
+		One align captures most of this contig: 366703 368051 | 1349 1 | 1349 1349 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 449_1349_46427
+
+CONTIG: 147_92819_4421588 (92819bp)
+Top Length: 92819  Top ID: 99.99
+		One align captures most of this contig: 167735 260553 | 1 92819 | 92819 92819 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 147_92819_4421588
+
+CONTIG: 670_178122_9451790 (178122bp)
+Top Length: 178122  Top ID: 99.99
+		One align captures most of this contig: 2707362 2885482 | 178122 1 | 178121 178122 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 670_178122_9451790
+
+CONTIG: 514_509_16982 (509bp)
+Top Length: 509  Top ID: 100.0
+		One align captures most of this contig: 318509 319017 | 1 509 | 509 509 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 514_509_16982
+
+CONTIG: 80_11121_626635 (11121bp)
+Top Length: 11121  Top ID: 99.99
+		One align captures most of this contig: 156234 167354 | 11121 1 | 11121 11121 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 80_11121_626635
+
+CONTIG: 420_47864_2067857 (47864bp)
+Top Length: 47864  Top ID: 99.99
+		One align captures most of this contig: 66971 114835 | 47864 1 | 47865 47864 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 420_47864_2067857
+
+CONTIG: 247_48634_1906754 (48634bp)
+Top Length: 48634  Top ID: 99.99
+		One align captures most of this contig: 829940 878572 | 48634 1 | 48633 48634 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 247_48634_1906754
+
+CONTIG: 405_69575_3145124 (69575bp)
+Top Length: 69575  Top ID: 99.99
+		One align captures most of this contig: 767990 837563 | 1 69575 | 69574 69575 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 405_69575_3145124
+
+CONTIG: 374_38100_1453669 (38100bp)
+Top Length: 38100  Top ID: 99.99
+		One align captures most of this contig: 456848 494947 | 1 38100 | 38100 38100 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 374_38100_1453669
+
+CONTIG: 47_31722_1567638 (31722bp)
+Top Length: 31722  Top ID: 99.99
+		One align captures most of this contig: 581927 613647 | 31722 1 | 31721 31722 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 47_31722_1567638
+
+CONTIG: 269_18567_1025890 (18567bp)
+Top Length: 18567  Top ID: 100.0
+		One align captures most of this contig: 382882 401448 | 18567 1 | 18567 18567 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 269_18567_1025890
+
+CONTIG: 115_13205_376808 (13205bp)
+Top Length: 13205  Top ID: 99.99
+		One align captures most of this contig: 1895921 1909126 | 13205 1 | 13206 13205 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 115_13205_376808
+
+CONTIG: 482_3466_93489 (3466bp)
+Top Length: 3466  Top ID: 100.0
+		One align captures most of this contig: 907554 911019 | 1 3466 | 3466 3466 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 482_3466_93489
+
+CONTIG: 697_13159_469540 (13159bp)
+Top Length: 13103  Top ID: 99.99
+		One align captures most of this contig: 494895 507997 | 1 13103 | 13103 13103 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 697_13159_469540
+
+CONTIG: 642_6951_139465 (6951bp)
+Top Length: 6951  Top ID: 100.0
+		One align captures most of this contig: 881434 888384 | 1 6951 | 6951 6951 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 642_6951_139465
+
+CONTIG: 75_531_22842 (531bp)
+Top Length: 531  Top ID: 100.0
+		One align captures most of this contig: 317982 318512 | 1 531 | 531 531 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 75_531_22842
+
+CONTIG: 82_3158_1290080 (3158bp)
+Top Length: 3158  Top ID: 100.0
+		This contig has 8 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 403564 406721 | 3158 1 | 3158 3158 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 82_3158_1290080
+		Skipping alignment  325958 329115 | 3158 1 | 3158 3158 | 99.97 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 82_3158_1290080
+		Skipping alignment  2676450 2679607 | 1 3158 | 3158 3158 | 99.97 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 82_3158_1290080
+		Skipping alignment  152791 155948 | 3158 1 | 3158 3158 | 99.94 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 82_3158_1290080
+		Skipping alignment  55549 58706 | 3158 1 | 3158 3158 | 99.78 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 82_3158_1290080
+		Skipping alignment  764507 767663 | 3158 1 | 3157 3158 | 99.78 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 82_3158_1290080
+		Skipping alignment  2933855 2937013 | 1 3158 | 3159 3158 | 99.68 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 82_3158_1290080
+		Skipping alignment  2928107 2931266 | 1 3158 | 3160 3158 | 99.3 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 82_3158_1290080
+
+CONTIG: 343_8903_370431 (8903bp)
+Top Length: 8903  Top ID: 99.97
+		One align captures most of this contig: 292760 301663 | 1 8903 | 8904 8903 | 99.97 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 343_8903_370431
+
+CONTIG: 599_121187_5558394 (121187bp)
+Top Length: 121187  Top ID: 99.99
+		One align captures most of this contig: 2199512 2320699 | 1 121187 | 121188 121187 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 599_121187_5558394
+
+CONTIG: 194_605_7194 (605bp)
+Top Length: 605  Top ID: 100.0
+		One align captures most of this contig: 879859 880463 | 1 605 | 605 605 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 194_605_7194
+
+CONTIG: 528_1013_33711 (1013bp)
+Top Length: 1013  Top ID: 100.0
+		One align captures most of this contig: 430873 431885 | 1013 1 | 1013 1013 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 528_1013_33711
+
+CONTIG: 263_1621_44358 (1621bp)
+Top Length: 1621  Top ID: 100.0
+		One align captures most of this contig: 1992442 1994062 | 1 1621 | 1621 1621 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 263_1621_44358
+
+CONTIG: 133_4521_171450 (4521bp)
+Top Length: 4521  Top ID: 100.0
+		One align captures most of this contig: 1374854 1379374 | 4521 1 | 4521 4521 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 133_4521_171450
+
+CONTIG: 355_18539_843556 (18539bp)
+Top Length: 18539  Top ID: 99.99
+		One align captures most of this contig: 1174 19713 | 18539 1 | 18540 18539 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 355_18539_843556
+
+CONTIG: 356_697_14581 (697bp)
+Top Length: 697  Top ID: 100.0
+		One align captures most of this contig: 338199 338895 | 697 1 | 697 697 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 356_697_14581
+
+CONTIG: 615_658_26230 (658bp)
+Top Length: 658  Top ID: 99.85
+		One align captures most of this contig: 366082 366739 | 658 1 | 658 658 | 99.85 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 615_658_26230
+
+CONTIG: 717_14218_536126 (14218bp)
+Top Length: 14218  Top ID: 99.98
+		One align captures most of this contig: 1683915 1698132 | 1 14218 | 14218 14218 | 99.98 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 717_14218_536126
+
+CONTIG: 734_55984_2674622 (55984bp)
+Top Length: 55984  Top ID: 99.99
+		One align captures most of this contig: 2420176 2476159 | 1 55984 | 55984 55984 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 734_55984_2674622
+
+CONTIG: 426_529_20457 (529bp)
+Top Length: 529  Top ID: 100.0
+		One align captures most of this contig: 316890 317418 | 1 529 | 529 529 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 426_529_20457
+
+CONTIG: 66_1272_22131 (1272bp)
+Top Length: 1272  Top ID: 100.0
+		One align captures most of this contig: 900749 902020 | 1 1272 | 1272 1272 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 66_1272_22131
+
+CONTIG: 40_1726_49328 (1726bp)
+Top Length: 1726  Top ID: 99.94
+		One align captures most of this contig: 402416 404140 | 1726 1 | 1725 1726 | 99.94 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 40_1726_49328
+
+CONTIG: 628_29080_1214179 (29080bp)
+Top Length: 29080  Top ID: 100.0
+		One align captures most of this contig: 187833 216912 | 1 29080 | 29080 29080 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 628_29080_1214179
+
+CONTIG: 319_24936_1175413 (24936bp)
+Top Length: 24936  Top ID: 99.99
+		One align captures most of this contig: 1484631 1509564 | 24936 1 | 24934 24936 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 319_24936_1175413
+
+CONTIG: 211_1352_48138 (1352bp)
+Top Length: 1352  Top ID: 100.0
+		One align captures most of this contig: 314646 315997 | 1 1352 | 1352 1352 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 211_1352_48138
+
+CONTIG: 24_1106_312933 (1106bp)
+Top Length: 1106  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1564769 1565874 | 1 1106 | 1106 1106 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 24_1106_312933
+		Skipping alignment  1571685 1572790 | 1 1106 | 1106 1106 | 99.73 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 24_1106_312933
+
+CONTIG: 683_6214_213884 (6214bp)
+Top Length: 6214  Top ID: 100.0
+		One align captures most of this contig: 1739005 1745218 | 6214 1 | 6214 6214 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 683_6214_213884
+
+CONTIG: 143_1618_36192 (1618bp)
+Top Length: 1618  Top ID: 100.0
+		One align captures most of this contig: 358678 360295 | 1 1618 | 1618 1618 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 143_1618_36192
+
+CONTIG: 300_25476_1292744 (25476bp)
+Top Length: 25476  Top ID: 99.99
+		One align captures most of this contig: 336448 361922 | 25476 1 | 25475 25476 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 300_25476_1292744
+
+CONTIG: 283_566_16960 (566bp)
+Top Length: 566  Top ID: 100.0
+		Marking as insignificant: 372537 373101 | 566 1 | 565 566 | 96.64 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 283_566_16960
+		One align captures most of this contig: 427365 427930 | 566 1 | 566 566 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 283_566_16960
+
+CONTIG: 699_16576_692461 (16576bp)
+Top Length: 16576  Top ID: 100.0
+		One align captures most of this contig: 220320 236895 | 1 16576 | 16576 16576 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 699_16576_692461
+
+CONTIG: 406_24049_962376 (24049bp)
+Top Length: 24049  Top ID: 99.99
+		One align captures most of this contig: 248586 272633 | 1 24049 | 24048 24049 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 406_24049_962376
+
+CONTIG: 478_60977_2284625 (60977bp)
+Top Length: 60977  Top ID: 99.99
+		One align captures most of this contig: 638648 699624 | 1 60977 | 60977 60977 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 478_60977_2284625
+
+CONTIG: 12_3981_285989 (3981bp)
+Top Length: 3981  Top ID: 99.97
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1574293 1578273 | 3981 1 | 3981 3981 | 99.97 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 12_3981_285989
+		Skipping alignment  1579144 1583124 | 3981 1 | 3981 3981 | 99.97 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 12_3981_285989
+
+CONTIG: 36_1216_61281 (1216bp)
+Top Length: 1216  Top ID: 100.0
+		One align captures most of this contig: 368050 369265 | 1216 1 | 1216 1216 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 36_1216_61281
+
+CONTIG: 110_1031_63436 (1031bp)
+Top Length: 1031  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 336065 337095 | 1031 1 | 1031 1031 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 110_1031_63436
+		Skipping alignment  395279 396309 | 1031 1 | 1031 1031 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 110_1031_63436
+
+CONTIG: 690_82031_4716331 (82031bp)
+Top Length: 82031  Top ID: 99.99
+		One align captures most of this contig: 58960 140996 | 82031 1 | 82037 82031 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 690_82031_4716331
+
+CONTIG: 190_717_58293 (717bp)
+Top Length: 717  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 343203 343919 | 1 717 | 717 717 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 190_717_58293
+		Skipping alignment  432995 433711 | 1 717 | 717 717 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 190_717_58293
+
+CONTIG: 348_7627_311890 (7627bp)
+Top Length: 7627  Top ID: 100.0
+		One align captures most of this contig: 1953325 1960951 | 7627 1 | 7627 7627 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 348_7627_311890
+
+CONTIG: 375_1901_83773 (1901bp)
+Top Length: 1901  Top ID: 100.0
+		One align captures most of this contig: 952711 954611 | 1 1901 | 1901 1901 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 375_1901_83773
+
+CONTIG: 608_98573_4054616 (98573bp)
+Top Length: 98573  Top ID: 99.99
+		One align captures most of this contig: 1100082 1198653 | 1 98573 | 98572 98573 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 608_98573_4054616
+
+CONTIG: 602_516_15934 (516bp)
+Top Length: 516  Top ID: 100.0
+		One align captures most of this contig: 331885 332400 | 516 1 | 516 516 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 602_516_15934
+
+CONTIG: 714_23537_922193 (23537bp)
+Top Length: 23537  Top ID: 100.0
+		One align captures most of this contig: 1961088 1984624 | 23537 1 | 23537 23537 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 714_23537_922193
+
+CONTIG: 453_25721_1412527 (25721bp)
+Top Length: 25721  Top ID: 99.99
+		One align captures most of this contig: 2681700 2707420 | 25721 1 | 25721 25721 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 453_25721_1412527
+
+CONTIG: 611_4008_169400 (4008bp)
+Top Length: 4008  Top ID: 100.0
+		One align captures most of this contig: 559410 563417 | 4008 1 | 4008 4008 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 611_4008_169400
+
+CONTIG: 45_8894_487395 (8894bp)
+Top Length: 8894  Top ID: 100.0
+		One align captures most of this contig: 2667406 2676299 | 1 8894 | 8894 8894 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 45_8894_487395
+
+CONTIG: 360_2536_43718 (2536bp)
+Top Length: 2536  Top ID: 100.0
+		One align captures most of this contig: 902022 904557 | 2536 1 | 2536 2536 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 360_2536_43718
+
+CONTIG: 470_965_37653 (965bp)
+Top Length: 965  Top ID: 99.9
+		Marking as insignificant: 378572 378725 | 1 154 | 154 154 | 96.1 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 470_965_37653
+		One align captures most of this contig: 344486 345449 | 1 965 | 964 965 | 99.9 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 470_965_37653
+
+CONTIG: 305_4617_320192 (4617bp)
+Top Length: 4617  Top ID: 99.96
+		One align captures most of this contig: 1566846 1571462 | 4617 1 | 4617 4617 | 99.96 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 305_4617_320192
+
+CONTIG: 104_71204_3626289 (71204bp)
+Top Length: 71204  Top ID: 99.99
+		One align captures most of this contig: 407261 478464 | 1 71204 | 71204 71204 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 104_71204_3626289
+
+CONTIG: 436_57037_2376938 (57037bp)
+Top Length: 57037  Top ID: 99.99
+		One align captures most of this contig: 990942 1047977 | 1 57037 | 57036 57037 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 436_57037_2376938
+
+CONTIG: 638_640_27825 (640bp)
+Top Length: 640  Top ID: 100.0
+		One align captures most of this contig: 361002 361641 | 640 1 | 640 640 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 638_640_27825
+
+CONTIG: 415_536_18699 (536bp)
+Top Length: 536  Top ID: 100.0
+		Marking as insignificant: 383755 383904 | 6 156 | 150 151 | 95.36 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 415_536_18699
+		Marking as insignificant: 388828 388979 | 1 154 | 152 154 | 95.45 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 415_536_18699
+		One align captures most of this contig: 329221 329756 | 1 536 | 536 536 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 415_536_18699
+
+CONTIG: 416_11533_398116 (11533bp)
+Top Length: 11533  Top ID: 99.99
+		One align captures most of this contig: 1763631 1775162 | 11533 1 | 11532 11533 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 416_11533_398116
+
+CONTIG: 174_11734_258101 (11734bp)
+Top Length: 11734  Top ID: 100.0
+		One align captures most of this contig: 888490 900223 | 1 11734 | 11734 11734 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 174_11734_258101
+
+CONTIG: 163_1283_49926 (1283bp)
+Top Length: 1283  Top ID: 100.0
+		One align captures most of this contig: 556978 558260 | 1283 1 | 1283 1283 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 163_1283_49926
+
+CONTIG: 347_28108_1230372 (28108bp)
+Top Length: 28108  Top ID: 99.99
+		One align captures most of this contig: 837568 865674 | 1 28108 | 28107 28108 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 347_28108_1230372
+
+CONTIG: 548_1105_27786 (1105bp)
+Top Length: 1105  Top ID: 100.0
+		One align captures most of this contig: 333788 334892 | 1105 1 | 1105 1105 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 548_1105_27786
+
+CONTIG: 428_6864_252917 (6864bp)
+Top Length: 6864  Top ID: 100.0
+		One align captures most of this contig: 1778511 1785374 | 1 6864 | 6864 6864 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 428_6864_252917
+
+CONTIG: 331_18880_776015 (18880bp)
+Top Length: 18880  Top ID: 99.99
+		One align captures most of this contig: 273384 292262 | 1 18880 | 18879 18880 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 331_18880_776015
+
+CONTIG: 307_43066_1955671 (43066bp)
+Top Length: 43066  Top ID: 99.99
+		One align captures most of this contig: 2332624 2375687 | 1 43066 | 43064 43066 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 307_43066_1955671
+
+CONTIG: 222_655_24217 (655bp)
+Top Length: 655  Top ID: 100.0
+		One align captures most of this contig: 1573702 1574356 | 1 655 | 655 655 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 222_655_24217
+
+CONTIG: 491_105320_3830550 (105320bp)
+Top Length: 105320  Top ID: 99.99
+		One align captures most of this contig: 1379377 1484694 | 105320 1 | 105318 105320 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 491_105320_3830550
+
+CONTIG: 722_67180_3192615 (67180bp)
+Top Length: 67180  Top ID: 99.99
+		One align captures most of this contig: 2484290 2551468 | 67180 1 | 67179 67180 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 722_67180_3192615
+
+CONTIG: 474_19382_1107028 (19382bp)
+Top Length: 19382  Top ID: 100.0
+		One align captures most of this contig: 16722 36103 | 1 19382 | 19382 19382 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 474_19382_1107028
+
+CONTIG: 55_776_29182 (776bp)
+Top Length: 776  Top ID: 100.0
+		Marking as insignificant: 393399 393490 | 776 685 | 92 92 | 97.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 55_776_29182
+		Marking as insignificant: 387491 387582 | 776 685 | 92 92 | 97.83 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 55_776_29182
+		Marking as insignificant: 375583 375674 | 776 685 | 92 92 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 55_776_29182
+		One align captures most of this contig: 419823 420598 | 776 1 | 776 776 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 55_776_29182
+
+CONTIG: 32_60477_2363441 (60477bp)
+Top Length: 60477  Top ID: 99.99
+		One align captures most of this contig: 1310990 1371467 | 60477 1 | 60478 60477 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 32_60477_2363441
+
+CONTIG: 153_16417_689336 (16417bp)
+Top Length: 16417  Top ID: 99.98
+		One align captures most of this contig: 141088 157505 | 16417 1 | 16418 16417 | 99.98 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 153_16417_689336
+
+CONTIG: 151_38702_2393789 (38702bp)
+Top Length: 21931  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 2: 2939219 2961149 | 1 21931 | 21931 21931 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 151_38702_2393789
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 1: 1 16771 | 21932 38702 | 16771 16771 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 151_38702_2393789
+
+CONTIG: 119_79410_3876027 (79410bp)
+Top Length: 79410  Top ID: 99.99
+		One align captures most of this contig: 683064 762473 | 79410 1 | 79410 79410 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 119_79410_3876027
+
+CONTIG: 413_3025_89075 (3025bp)
+Top Length: 3025  Top ID: 100.0
+		Marking as insignificant: 376607 376891 | 2741 3025 | 285 285 | 95.44 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 413_3025_89075
+		One align captures most of this contig: 404235 407259 | 1 3025 | 3025 3025 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 413_3025_89075
+
+CONTIG: 509_44305_2118555 (44305bp)
+Top Length: 44305  Top ID: 99.99
+		One align captures most of this contig: 638820 683124 | 44305 1 | 44305 44305 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 509_44305_2118555
+
+CONTIG: 512_18499_693662 (18499bp)
+Top Length: 18499  Top ID: 99.99
+		One align captures most of this contig: 1745179 1763676 | 1 18499 | 18498 18499 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 512_18499_693662
+
+CONTIG: 231_627_78290 (627bp)
+Top Length: 627  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1565860 1566486 | 627 1 | 627 627 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 231_627_78290
+		Skipping alignment  1572776 1573402 | 627 1 | 627 627 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 231_627_78290
+
+CONTIG: 459_545_5060 (545bp)
+Top Length: 545  Top ID: 100.0
+		One align captures most of this contig: 880579 881123 | 545 1 | 545 545 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 459_545_5060
+
+CONTIG: 128_1386_46513 (1386bp)
+Top Length: 1386  Top ID: 100.0
+		Marking as insignificant: 394648 395120 | 925 1386 | 473 462 | 97.04 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 128_1386_46513
+		One align captures most of this contig: 369207 370592 | 1 1386 | 1386 1386 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 128_1386_46513
+
+CONTIG: 702_18908_909899 (18908bp)
+Top Length: 18908  Top ID: 99.99
+		One align captures most of this contig: 362928 381835 | 1 18908 | 18908 18908 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 702_18908_909899
+
+CONTIG: 346_1197_95734 (1197bp)
+Top Length: 1197  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 301600 302796 | 1 1197 | 1197 1197 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 346_1197_95734
+		Skipping alignment  416455 417651 | 1197 1 | 1197 1197 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 346_1197_95734
+
+CONTIG: 203_18637_794132 (18637bp)
+Top Length: 18637  Top ID: 100.0
+		One align captures most of this contig: 954595 973231 | 1 18637 | 18637 18637 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 203_18637_794132
+
+CONTIG: 572_904_24636 (904bp)
+Top Length: 904  Top ID: 100.0
+		One align captures most of this contig: 350243 351146 | 1 904 | 904 904 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 572_904_24636
+
+CONTIG: 400_4209_114280 (4209bp)
+Top Length: 4209  Top ID: 99.98
+		One align captures most of this contig: 542424 546632 | 1 4209 | 4209 4209 | 99.98 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 400_4209_114280
+
+CONTIG: 112_2296_63976 (2296bp)
+Top Length: 2296  Top ID: 100.0
+		One align captures most of this contig: 319805 322100 | 1 2296 | 2296 2296 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 112_2296_63976
+
+CONTIG: 465_16260_568022 (16260bp)
+Top Length: 16260  Top ID: 99.99
+		One align captures most of this contig: 1698266 1714526 | 16260 1 | 16261 16260 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 465_16260_568022
+
+CONTIG: 594_16747_650537 (16747bp)
+Top Length: 16747  Top ID: 100.0
+		One align captures most of this contig: 1294242 1310988 | 1 16747 | 16747 16747 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 594_16747_650537
+
+CONTIG: 44_957_30042 (957bp)
+Top Length: 957  Top ID: 100.0
+		One align captures most of this contig: 558288 559244 | 957 1 | 957 957 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 44_957_30042
+
+CONTIG: 466_1798_66529 (1798bp)
+Top Length: 1798  Top ID: 100.0
+		One align captures most of this contig: 429111 430908 | 1798 1 | 1798 1798 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 466_1798_66529
+
+CONTIG: 556_910_31342 (910bp)
+Top Length: 910  Top ID: 100.0
+		One align captures most of this contig: 418433 419342 | 1 910 | 910 910 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 556_910_31342
+
+CONTIG: 202_16470_714845 (16470bp)
+Top Length: 16470  Top ID: 99.99
+		One align captures most of this contig: 1083624 1100092 | 16470 1 | 16469 16470 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 202_16470_714845
+
+CONTIG: 640_64688_2405618 (64688bp)
+Top Length: 64688  Top ID: 99.99
+		One align captures most of this contig: 565497 630183 | 64688 1 | 64687 64688 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 640_64688_2405618
+
+CONTIG: 549_1174_111316 (1174bp)
+Top Length: 1174  Top ID: 99.91
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 335338 336511 | 1174 1 | 1174 1174 | 99.91 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 549_1174_111316
+		Skipping alignment  381772 382945 | 1174 1 | 1174 1174 | 99.49 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 549_1174_111316
+
+CONTIG: 741_15465_824205 (15465bp)
+Top Length: 15465  Top ID: 100.0
+		One align captures most of this contig: 486327 501791 | 15465 1 | 15465 15465 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 741_15465_824205
+
+CONTIG: 179_17523_1003499 (17523bp)
+Top Length: 17523  Top ID: 99.99
+		One align captures most of this contig: 36063 53585 | 1 17523 | 17523 17523 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 179_17523_1003499
+
+CONTIG: 56_9388_287171 (9388bp)
+Top Length: 9388  Top ID: 100.0
+		One align captures most of this contig: 1938706 1948093 | 1 9388 | 9388 9388 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 56_9388_287171
+
+CONTIG: 503_42402_2437025 (42402bp)
+Top Length: 42402  Top ID: 99.99
+		One align captures most of this contig: 2885420 2927820 | 1 42402 | 42401 42402 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 503_42402_2437025
+
+CONTIG: 499_1738_62878 (1738bp)
+Top Length: 1738  Top ID: 100.0
+		One align captures most of this contig: 414781 416518 | 1738 1 | 1738 1738 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 499_1738_62878
+
+CONTIG: 297_2329_73078 (2329bp)
+Top Length: 2329  Top ID: 100.0
+		One align captures most of this contig: 345865 348193 | 2329 1 | 2329 2329 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 297_2329_73078
+
+CONTIG: 270_31084_1448879 (31084bp)
+Top Length: 31084  Top ID: 99.99
+		One align captures most of this contig: 2168464 2199546 | 1 31084 | 31083 31084 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 270_31084_1448879
+
+CONTIG: 759_2786_56259 (2786bp)
+Top Length: 2786  Top ID: 100.0
+		One align captures most of this contig: 217037 219822 | 1 2786 | 2786 2786 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 759_2786_56259
+
+CONTIG: 519_845_32875 (845bp)
+Top Length: 845  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1936727 1937571 | 1 845 | 845 845 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 519_845_32875
+		Skipping alignment  356392 357236 | 1 845 | 845 845 | 99.88 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 519_845_32875
+
+CONTIG: 573_29583_1269920 (29583bp)
+Top Length: 29583  Top ID: 100.0
+		One align captures most of this contig: 1053949 1083531 | 29583 1 | 29583 29583 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 573_29583_1269920
+
+CONTIG: 193_174218_7314855 (174218bp)
+Top Length: 174218  Top ID: 99.99
+		One align captures most of this contig: 1994159 2168374 | 1 174218 | 174216 174218 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 193_174218_7314855
+
+CONTIG: 160_592_9779 (592bp)
+Top Length: 592  Top ID: 100.0
+		One align captures most of this contig: 327347 327938 | 592 1 | 592 592 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 160_592_9779
+
+CONTIG: 81_1944_60162 (1944bp)
+Top Length: 1944  Top ID: 100.0
+		Marking as insignificant: 389925 389989 | 65 1 | 65 65 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 81_1944_60162
+		Marking as insignificant: 391760 391827 | 68 1 | 68 68 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 81_1944_60162
+		One align captures most of this contig: 425447 427390 | 1944 1 | 1944 1944 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 81_1944_60162
+
+CONTIG: 294_823_33467 (823bp)
+Top Length: 823  Top ID: 100.0
+		Marking as insignificant: 385480 385589 | 1 110 | 110 110 | 98.18 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 294_823_33467
+		One align captures most of this contig: 341826 342648 | 1 823 | 823 823 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 294_823_33467
+
+CONTIG: 132_1478_41253 (1478bp)
+Top Length: 1478  Top ID: 100.0
+		One align captures most of this contig: 332370 333847 | 1478 1 | 1478 1478 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 132_1478_41253
+
+CONTIG: 15_109210_5612875 (109210bp)
+Top Length: 109210  Top ID: 99.99
+		One align captures most of this contig: 2552242 2661448 | 1 109210 | 109207 109210 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 15_109210_5612875
+
+CONTIG: 621_59545_3182136 (59545bp)
+Top Length: 59545  Top ID: 99.99
+		One align captures most of this contig: 264281 323825 | 59545 1 | 59545 59545 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 621_59545_3182136
+
+CONTIG: 9_5427_306001 (5427bp)
+Top Length: 5427  Top ID: 100.0
+		One align captures most of this contig: 329455 334881 | 1 5427 | 5427 5427 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 9_5427_306001
+
+CONTIG: 98_2390_38994 (2390bp)
+Top Length: 2390  Top ID: 100.0
+		One align captures most of this contig: 904975 907364 | 2390 1 | 2390 2390 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 98_2390_38994
+
+CONTIG: 700_568_25408 (568bp)
+Top Length: 568  Top ID: 100.0
+		This contig has 3 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 340470 341037 | 1 568 | 568 568 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 700_568_25408
+		Skipping alignment  390110 390677 | 1 568 | 568 568 | 99.47 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 700_568_25408
+		Skipping alignment  401245 401812 | 1 568 | 568 568 | 99.3 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 700_568_25408
+
+CONTIG: 131_7816_308247 (7816bp)
+Top Length: 7816  Top ID: 99.99
+		One align captures most of this contig: 1984642 1992456 | 1 7816 | 7815 7816 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 131_7816_308247
+
+CONTIG: 14_3553_90567 (3553bp)
+Top Length: 3553  Top ID: 100.0
+		One align captures most of this contig: 1948175 1951727 | 1 3553 | 3553 3553 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 14_3553_90567
+
+CONTIG: 448_5558_270114 (5558bp)
+Top Length: 5558  Top ID: 100.0
+		One align captures most of this contig: 2478757 2484314 | 1 5558 | 5558 5558 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 448_5558_270114
+
+CONTIG: 754_16414_686495 (16414bp)
+Top Length: 16414  Top ID: 100.0
+		One align captures most of this contig: 936296 952709 | 1 16414 | 16414 16414 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 754_16414_686495
+
+CONTIG: 142_5853_320461 (5853bp)
+Top Length: 5853  Top ID: 100.0
+		One align captures most of this contig: 2661397 2667249 | 1 5853 | 5853 5853 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 142_5853_320461
+
+CONTIG: 551_798_40451 (798bp)
+Top Length: 798  Top ID: 100.0
+		One align captures most of this contig: 20431 21228 | 1 798 | 798 798 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 551_798_40451
+
+CONTIG: 324_798_42919 (798bp)
+Top Length: 798  Top ID: 100.0
+		One align captures most of this contig: 1510282 1511079 | 798 1 | 798 798 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 324_798_42919
+
+CONTIG: 33_22206_807716 (22206bp)
+Top Length: 22206  Top ID: 99.99
+		One align captures most of this contig: 1714528 1736733 | 22206 1 | 22206 22206 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 33_22206_807716
+
+CONTIG: 667_52139_2367107 (52139bp)
+Top Length: 52139  Top ID: 99.99
+		One align captures most of this contig: 1511737 1563874 | 1 52139 | 52138 52139 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 667_52139_2367107
+
+CONTIG: 464_1016_71744 (1016bp)
+Top Length: 1016  Top ID: 100.0
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 325804 326819 | 1 1016 | 1016 1016 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 464_1016_71744
+		Skipping alignment  421701 422716 | 1 1016 | 1016 1016 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 464_1016_71744
+
+CONTIG: 513_26018_1086369 (26018bp)
+Top Length: 26018  Top ID: 100.0
+		One align captures most of this contig: 114887 140904 | 1 26018 | 26018 26018 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 513_26018_1086369
+
+CONTIG: 4_11542_440286 (11542bp)
+Top Length: 11542  Top ID: 100.0
+		One align captures most of this contig: 237060 248601 | 1 11542 | 11542 11542 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 4_11542_440286
+
+CONTIG: 340_551_15584 (551bp)
+Top Length: 551  Top ID: 100.0
+		Marking as insignificant: 374961 375085 | 551 427 | 125 125 | 96.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 340_551_15584
+		One align captures most of this contig: 421123 421673 | 551 1 | 551 551 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 340_551_15584
+
+CONTIG: 510_1202_47361 (1202bp)
+Top Length: 1202  Top ID: 100.0
+		One align captures most of this contig: 362058 363259 | 1 1202 | 1202 1202 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 510_1202_47361
+
+CONTIG: 680_44588_2066835 (44588bp)
+Top Length: 44588  Top ID: 99.99
+		One align captures most of this contig: 2375638 2420225 | 44588 1 | 44588 44588 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 680_44588_2066835
+
+CONTIG: 733_45049_1966687 (45049bp)
+Top Length: 45049  Top ID: 99.99
+		One align captures most of this contig: 21886 66934 | 45049 1 | 45049 45049 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 733_45049_1966687
+
+CONTIG: 111_815_16440 (815bp)
+Top Length: 815  Top ID: 100.0
+		One align captures most of this contig: 319044 319858 | 1 815 | 815 815 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 111_815_16440
+
+CONTIG: 710_20314_807343 (20314bp)
+Top Length: 20314  Top ID: 99.99
+		One align captures most of this contig: 436580 456893 | 20314 1 | 20314 20314 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 710_20314_807343
+
+CONTIG: 688_92825_3711066 (92825bp)
+Top Length: 92825  Top ID: 99.99
+		One align captures most of this contig: 736959 829780 | 1 92825 | 92822 92825 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 688_92825_3711066
+
+CONTIG: 50_752_11499 (752bp)
+Top Length: 752  Top ID: 100.0
+		One align captures most of this contig: 1952572 1953323 | 1 752 | 752 752 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 50_752_11499
+
+CONTIG: 401_23147_1136708 (23147bp)
+Top Length: 23147  Top ID: 99.96
+		One align captures most of this contig: 546579 569716 | 1 23147 | 23138 23147 | 99.96 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 401_23147_1136708
+
+CONTIG: 591_31032_1266144 (31032bp)
+Top Length: 31032  Top ID: 100.0
+		One align captures most of this contig: 704794 735825 | 1 31032 | 31032 31032 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 591_31032_1266144
+
+CONTIG: 664_111098_4801270 (111098bp)
+Top Length: 110290  Top ID: 99.98
+		Marking as insignificant: 1 808 | 110291 111098 | 808 808 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 664_111098_4801270
+		One align captures most of this contig: 962026 1072315 | 1 110290 | 110290 110290 | 99.98 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 664_111098_4801270
+
+CONTIG: 566_530_16655 (530bp)
+Top Length: 530  Top ID: 100.0
+		One align captures most of this contig: 323421 323950 | 1 530 | 530 530 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 566_530_16655
+
+CONTIG: 607_27974_1056980 (27974bp)
+Top Length: 27974  Top ID: 99.99
+		One align captures most of this contig: 1655971 1683941 | 27974 1 | 27971 27974 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 607_27974_1056980
+
+CONTIG: 721_5954_258911 (5954bp)
+Top Length: 5954  Top ID: 100.0
+		One align captures most of this contig: 1047960 1053913 | 5954 1 | 5954 5954 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 721_5954_258911
+
+CONTIG: 533_8440_269522 (8440bp)
+Top Length: 6984  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 303960 310943 | 8440 1457 | 6984 6984 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 533_8440_269522
+			  Extensive misassembly ( relocation, inconsistency = 1376 ) between these two alignments
+			Real Alignment 2: 312311 313775 | 1465 1 | 1465 1465 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 533_8440_269522
+
+CONTIG: 76_504_27174 (504bp)
+Top Length: 504  Top ID: 100.0
+		One align captures most of this contig: 337556 338059 | 1 504 | 504 504 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 76_504_27174
+
+CONTIG: 559_22089_1043562 (22089bp)
+Top Length: 22089  Top ID: 100.0
+		One align captures most of this contig: 502941 525029 | 1 22089 | 22089 22089 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 559_22089_1043562
+
+CONTIG: 19_507_6052 (507bp)
+Top Length: 507  Top ID: 100.0
+		One align captures most of this contig: 563416 563922 | 1 507 | 507 507 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 19_507_6052
+
+CONTIG: 276_957_43011 (957bp)
+Top Length: 957  Top ID: 100.0
+		One align captures most of this contig: 501819 502775 | 1 957 | 957 957 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 276_957_43011
+
+CONTIG: 398_3483_148546 (3483bp)
+Top Length: 3483  Top ID: 100.0
+		One align captures most of this contig: 1371407 1374889 | 3483 1 | 3483 3483 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 398_3483_148546
+
+CONTIG: 154_17444_751637 (17444bp)
+Top Length: 17444  Top ID: 99.99
+		One align captures most of this contig: 525033 542477 | 1 17444 | 17445 17444 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 154_17444_751637
+
+CONTIG: 659_5299_134094 (5299bp)
+Top Length: 5299  Top ID: 99.96
+		Marking as insignificant: 373222 373551 | 5299 4969 | 330 331 | 96.07 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 659_5299_134094
+		Marking as insignificant: 310935 312316 | 4147 2766 | 1382 1382 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 659_5299_134094
+		One align captures most of this contig: 351158 356455 | 5299 1 | 5298 5299 | 99.96 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 659_5299_134094
+
+CONTIG: 241_997_25868 (997bp)
+Top Length: 997  Top ID: 100.0
+		One align captures most of this contig: 423463 424459 | 997 1 | 997 997 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 241_997_25868
+
+CONTIG: 314_621_27056 (621bp)
+		This contig is unaligned. (621 bp)
+		Unaligned bases: 621  total: 621
+
+CONTIG: 315_9996_516174 (9996bp)
+Top Length: 9996  Top ID: 99.99
+		One align captures most of this contig: 140942 150937 | 9996 1 | 9996 9996 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 315_9996_516174
+
+CONTIG: 480_8404_260039 (8404bp)
+Top Length: 8404  Top ID: 100.0
+		One align captures most of this contig: 508066 516469 | 1 8404 | 8404 8404 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 480_8404_260039
+
+CONTIG: 226_3380_109106 (3380bp)
+Top Length: 3380  Top ID: 100.0
+		One align captures most of this contig: 1775194 1778573 | 1 3380 | 3380 3380 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 226_3380_109106
+
+CONTIG: 495_3924_123905 (3924bp)
+Top Length: 3924  Top ID: 100.0
+		One align captures most of this contig: 1909231 1913154 | 3924 1 | 3924 3924 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 495_3924_123905
+
+CONTIG: 183_11357_602952 (11357bp)
+Top Length: 11357  Top ID: 99.99
+		One align captures most of this contig: 569675 581031 | 1 11357 | 11357 11357 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 183_11357_602952
+
+CONTIG: 618_1078_48232 (1078bp)
+Top Length: 1078  Top ID: 100.0
+		Marking as insignificant: 389957 390050 | 1 96 | 94 96 | 96.88 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 618_1078_48232
+		One align captures most of this contig: 364293 365370 | 1 1078 | 1078 1078 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 618_1078_48232
+
+CONTIG: 68_70826_2580262 (70826bp)
+Top Length: 70826  Top ID: 99.99
+		One align captures most of this contig: 1585186 1656010 | 70826 1 | 70825 70826 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 68_70826_2580262
+
+CONTIG: 6_24705_1117441 (24705bp)
+Top Length: 24705  Top ID: 99.99
+		One align captures most of this contig: 911157 935860 | 24705 1 | 24704 24705 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 6_24705_1117441
+
+CONTIG: 140_35834_1458154 (35834bp)
+Top Length: 35834  Top ID: 99.99
+		One align captures most of this contig: 1198828 1234660 | 1 35834 | 35833 35834 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 140_35834_1458154
+
+CONTIG: 258_552_17435 (552bp)
+Top Length: 552  Top ID: 100.0
+		Marking as insignificant: 382653 383199 | 552 6 | 547 547 | 96.89 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 258_552_17435
+		One align captures most of this contig: 337055 337606 | 552 1 | 552 552 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 258_552_17435
+
+CONTIG: 712_14103_411790 (14103bp)
+Top Length: 14103  Top ID: 99.99
+		One align captures most of this contig: 865681 879784 | 1 14103 | 14104 14103 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 712_14103_411790
+
+CONTIG: 229_22096_1053567 (22096bp)
+Top Length: 22096  Top ID: 99.99
+		One align captures most of this contig: 616758 638851 | 1 22096 | 22094 22096 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 229_22096_1053567
+
+CONTIG: 69_39870_1520421 (39870bp)
+Top Length: 39870  Top ID: 99.99
+		One align captures most of this contig: 517169 557039 | 1 39870 | 39871 39870 | 99.99 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 69_39870_1520421
+
+CONTIG: 696_23572_710659 (23572bp)
+Top Length: 23572  Top ID: 99.99
+		One align captures most of this contig: 1913220 1936790 | 1 23572 | 23571 23572 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 696_23572_710659
+
+CONTIG: 284_757_30945 (757bp)
+Top Length: 757  Top ID: 100.0
+		One align captures most of this contig: 399187 399943 | 757 1 | 757 757 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 284_757_30945
+
+CONTIG: 282_799_14894 (799bp)
+Top Length: 799  Top ID: 100.0
+		One align captures most of this contig: 302733 303531 | 799 1 | 799 799 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 282_799_14894
+
+CONTIG: 138_2745_147592 (2745bp)
+Top Length: 2745  Top ID: 99.96
+		One align captures most of this contig: 478815 481560 | 1 2745 | 2746 2745 | 99.96 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 138_2745_147592
+
+CONTIG: 511_10267_463903 (10267bp)
+Top Length: 10267  Top ID: 100.0
+		One align captures most of this contig: 2320702 2330968 | 1 10267 | 10267 10267 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 511_10267_463903
+
+CONTIG: 589_30362_1238903 (30362bp)
+Top Length: 30362  Top ID: 99.98
+		One align captures most of this contig: 157459 187822 | 1 30362 | 30364 30362 | 99.98 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 589_30362_1238903
+
+CONTIG: 103_941_34615 (941bp)
+Top Length: 941  Top ID: 100.0
+		One align captures most of this contig: 315974 316914 | 1 941 | 941 941 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 103_941_34615
+
+CONTIG: 473_1800_39744 (1800bp)
+Top Length: 1800  Top ID: 100.0
+		One align captures most of this contig: 396269 398068 | 1 1800 | 1800 1800 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 473_1800_39744
+
+CONTIG: 337_110305_4330014 (110305bp)
+Top Length: 110305  Top ID: 99.99
+		One align captures most of this contig: 1785599 1895898 | 1 110305 | 110300 110305 | 99.99 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 337_110305_4330014
+
+CONTIG: 384_1360_613059 (1360bp)
+Top Length: 1360  Top ID: 100.0
+		This contig has 8 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 54004 55363 | 1 1360 | 1360 1360 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 384_1360_613059
+		Skipping alignment  324328 325687 | 1 1360 | 1360 1360 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 384_1360_613059
+		Skipping alignment  2931739 2933098 | 1360 1 | 1360 1360 | 100.0 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 384_1360_613059
+		Skipping alignment  151240 152599 | 1 1360 | 1360 1360 | 99.93 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 384_1360_613059
+		Skipping alignment  762956 764315 | 1 1360 | 1360 1360 | 99.93 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 384_1360_613059
+		Skipping alignment  2937460 2938820 | 1360 1 | 1361 1360 | 99.93 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 384_1360_613059
+		Skipping alignment  2679878 2681237 | 1360 1 | 1360 1360 | 99.85 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 384_1360_613059
+		Skipping alignment  401932 403292 | 1 1360 | 1361 1360 | 99.04 | gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence 384_1360_613059
+
+CONTIG: 445_816_23162 (816bp)
+Top Length: 816  Top ID: 100.0
+		One align captures most of this contig: 422704 423519 | 816 1 | 816 816 | 100.0 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 445_816_23162
+
+CONTIG: 28_8230_305645 (8230bp)
+Top Length: 8230  Top ID: 99.98
+		One align captures most of this contig: 630484 638711 | 1 8230 | 8228 8230 | 99.98 | gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence 28_8230_305645
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1950/dataset_2032_files/Contig/contigs_reports/nucmer_output/abyss_1.3.used_snps
+	Reference gi|15640032|ref|NC_002505.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_I__complete_sequence: 110 total alignments. 1 total regions.
+		Region: 1 to 2961149 (2961149 bp)
+			Align 1: 1 16771 151_38702_2393789 21932 38702
+				Negative gap (overlap) between this and next alignment: 16771 to 16722 (-49 bp)
+				Next Alignment: 16722 36103 474_19382_1107028 1 19382
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 51.
+			Align 2: 16772 36103 474_19382_1107028 51 19382
+				Negative gap (overlap) between this and next alignment: 36103 to 36063 (-40 bp)
+				Next Alignment: 36063 53585 179_17523_1003499 1 17523
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 42.
+			Align 3: 36104 53585 179_17523_1003499 42 17523
+				Gap between this and next alignment: 53585 to 54004 (418 bp)
+				Next Alignment: 54004 55363 384_1360_613059 1 1360
+
+			Align 4: 54004 55363 384_1360_613059 1 1360
+				Gap between this and next alignment: 55363 to 58960 (3596 bp)
+				Next Alignment: 58960 140996 690_82031_4716331 82031 1
+
+			Align 5: 58960 140996 690_82031_4716331 82031 1
+				Negative gap (overlap) between this and next alignment: 140996 to 140942 (-54 bp)
+				Next Alignment: 140942 150937 315_9996_516174 9996 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 9996 to 9941.
+			Align 6: 140997 150937 315_9996_516174 9941 1
+				Gap between this and next alignment: 150937 to 156234 (5296 bp)
+				Next Alignment: 156234 167354 80_11121_626635 11121 1
+
+			Align 7: 156234 167354 80_11121_626635 11121 1
+				Gap between this and next alignment: 167354 to 167735 (380 bp)
+				Next Alignment: 167735 260553 147_92819_4421588 1 92819
+
+			Align 8: 167735 260553 147_92819_4421588 1 92819
+				Gap between this and next alignment: 260553 to 260556 (2 bp)
+				Next Alignment: 260556 262290 575_2350_78178 2350 616
+
+			Align 9: 260556 262290 575_2350_78178 2350 616
+				Gap between this and next alignment: 262290 to 262365 (74 bp)
+				Next Alignment: 262365 263547 199_1183_211203 1 1183
+
+			Align 10: 262365 263547 199_1183_211203 1 1183
+				Negative gap (overlap) between this and next alignment: 263547 to 263546 (-1 bp)
+				Next Alignment: 263546 264166 575_2350_78178 621 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 621 to 619.
+			Align 11: 263548 264166 575_2350_78178 619 1
+				Gap between this and next alignment: 264166 to 264281 (114 bp)
+				Next Alignment: 264281 323825 621_59545_3182136 59545 1
+
+			Align 12: 264281 323825 621_59545_3182136 59545 1
+				Gap between this and next alignment: 323825 to 329455 (5629 bp)
+				Next Alignment: 329455 334881 9_5427_306001 1 5427
+
+			Align 13: 329455 334881 9_5427_306001 1 5427
+				Gap between this and next alignment: 334881 to 335338 (456 bp)
+				Next Alignment: 335338 336511 549_1174_111316 1174 1
+
+			Align 14: 335338 336511 549_1174_111316 1174 1
+				Negative gap (overlap) between this and next alignment: 336511 to 336448 (-63 bp)
+				Next Alignment: 336448 361922 300_25476_1292744 25476 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 25476 to 25412.
+			Align 15: 336512 361922 300_25476_1292744 25412 1
+				Gap between this and next alignment: 361922 to 362928 (1005 bp)
+				Next Alignment: 362928 381835 702_18908_909899 1 18908
+
+			Align 16: 362928 381835 702_18908_909899 1 18908
+				Gap between this and next alignment: 381835 to 382882 (1046 bp)
+				Next Alignment: 382882 401448 269_18567_1025890 18567 1
+
+			Align 17: 382882 401448 269_18567_1025890 18567 1
+				Gap between this and next alignment: 401448 to 403564 (2115 bp)
+				Next Alignment: 403564 406721 82_3158_1290080 3158 1
+
+			Align 18: 403564 406721 82_3158_1290080 3158 1
+				Gap between this and next alignment: 406721 to 407261 (539 bp)
+				Next Alignment: 407261 478464 104_71204_3626289 1 71204
+
+			Align 19: 407261 478464 104_71204_3626289 1 71204
+				Gap between this and next alignment: 478464 to 478815 (350 bp)
+				Next Alignment: 478815 481560 138_2745_147592 1 2745
+
+			Align 20: 478815 481560 138_2745_147592 1 2745
+				Negative gap (overlap) between this and next alignment: 481560 to 481510 (-50 bp)
+				Next Alignment: 481510 486386 691_4877_258198 4877 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4877 to 4826.
+			Align 21: 481561 486386 691_4877_258198 4826 1
+				Negative gap (overlap) between this and next alignment: 486386 to 486327 (-59 bp)
+				Next Alignment: 486327 501791 741_15465_824205 15465 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 15465 to 15405.
+			Align 22: 486387 501791 741_15465_824205 15405 1
+				Gap between this and next alignment: 501791 to 501819 (27 bp)
+				Next Alignment: 501819 502775 276_957_43011 1 957
+
+			Align 23: 501819 502775 276_957_43011 1 957
+				Gap between this and next alignment: 502775 to 502941 (165 bp)
+				Next Alignment: 502941 525029 559_22089_1043562 1 22089
+
+			Align 24: 502941 525029 559_22089_1043562 1 22089
+				Gap between this and next alignment: 525029 to 525033 (3 bp)
+				Next Alignment: 525033 542477 154_17444_751637 1 17444
+
+			Align 25: 525033 542477 154_17444_751637 1 17444
+				Negative gap (overlap) between this and next alignment: 542477 to 542424 (-53 bp)
+				Next Alignment: 542424 546632 400_4209_114280 1 4209
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 55.
+			Align 26: 542478 546632 400_4209_114280 55 4209
+				Negative gap (overlap) between this and next alignment: 546632 to 546579 (-53 bp)
+				Next Alignment: 546579 569716 401_23147_1136708 1 23147
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 55.
+			Align 27: 546633 569716 401_23147_1136708 55 23147
+				Negative gap (overlap) between this and next alignment: 569716 to 569675 (-41 bp)
+				Next Alignment: 569675 581031 183_11357_602952 1 11357
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 43.
+			Align 28: 569717 581031 183_11357_602952 43 11357
+				Gap between this and next alignment: 581031 to 581927 (895 bp)
+				Next Alignment: 581927 613647 47_31722_1567638 31722 1
+
+			Align 29: 581927 613647 47_31722_1567638 31722 1
+				Negative gap (overlap) between this and next alignment: 613647 to 613615 (-32 bp)
+				Next Alignment: 613615 616788 539_3174_121441 3174 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3174 to 3141.
+			Align 30: 613648 616788 539_3174_121441 3141 1
+				Negative gap (overlap) between this and next alignment: 616788 to 616758 (-30 bp)
+				Next Alignment: 616758 638851 229_22096_1053567 1 22096
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 32.
+			Align 31: 616789 638851 229_22096_1053567 32 22096
+				Negative gap (overlap) between this and next alignment: 638851 to 638820 (-31 bp)
+				Next Alignment: 638820 683124 509_44305_2118555 44305 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 44305 to 44273.
+			Align 32: 638852 683124 509_44305_2118555 44273 1
+				Negative gap (overlap) between this and next alignment: 683124 to 683064 (-60 bp)
+				Next Alignment: 683064 762473 119_79410_3876027 79410 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 79410 to 79349.
+			Align 33: 683125 762473 119_79410_3876027 79349 1
+				Gap between this and next alignment: 762473 to 767990 (5516 bp)
+				Next Alignment: 767990 837563 405_69575_3145124 1 69575
+
+			Align 34: 767990 837563 405_69575_3145124 1 69575
+				Gap between this and next alignment: 837563 to 837568 (4 bp)
+				Next Alignment: 837568 865674 347_28108_1230372 1 28108
+
+			Align 35: 837568 865674 347_28108_1230372 1 28108
+				Gap between this and next alignment: 865674 to 865681 (6 bp)
+				Next Alignment: 865681 879784 712_14103_411790 1 14103
+
+			Align 36: 865681 879784 712_14103_411790 1 14103
+				Gap between this and next alignment: 879784 to 879859 (74 bp)
+				Next Alignment: 879859 880463 194_605_7194 1 605
+
+			Align 37: 879859 880463 194_605_7194 1 605
+				Gap between this and next alignment: 880463 to 880579 (115 bp)
+				Next Alignment: 880579 881123 459_545_5060 545 1
+
+			Align 38: 880579 881123 459_545_5060 545 1
+				Gap between this and next alignment: 881123 to 881434 (310 bp)
+				Next Alignment: 881434 888384 642_6951_139465 1 6951
+
+			Align 39: 881434 888384 642_6951_139465 1 6951
+				Gap between this and next alignment: 888384 to 888490 (105 bp)
+				Next Alignment: 888490 900223 174_11734_258101 1 11734
+
+			Align 40: 888490 900223 174_11734_258101 1 11734
+				Gap between this and next alignment: 900223 to 900749 (525 bp)
+				Next Alignment: 900749 902020 66_1272_22131 1 1272
+
+			Align 41: 900749 902020 66_1272_22131 1 1272
+				Gap between this and next alignment: 902020 to 902022 (1 bp)
+				Next Alignment: 902022 904557 360_2536_43718 2536 1
+
+			Align 42: 902022 904557 360_2536_43718 2536 1
+				Gap between this and next alignment: 904557 to 904975 (417 bp)
+				Next Alignment: 904975 907364 98_2390_38994 2390 1
+
+			Align 43: 904975 907364 98_2390_38994 2390 1
+				Gap between this and next alignment: 907364 to 907554 (189 bp)
+				Next Alignment: 907554 911019 482_3466_93489 1 3466
+
+			Align 44: 907554 911019 482_3466_93489 1 3466
+				Gap between this and next alignment: 911019 to 911157 (137 bp)
+				Next Alignment: 911157 935860 6_24705_1117441 24705 1
+
+			Align 45: 911157 935860 6_24705_1117441 24705 1
+				Gap between this and next alignment: 935860 to 936296 (435 bp)
+				Next Alignment: 936296 952709 754_16414_686495 1 16414
+
+			Align 46: 936296 952709 754_16414_686495 1 16414
+				Gap between this and next alignment: 952709 to 952711 (1 bp)
+				Next Alignment: 952711 954611 375_1901_83773 1 1901
+
+			Align 47: 952711 954611 375_1901_83773 1 1901
+				Negative gap (overlap) between this and next alignment: 954611 to 954595 (-16 bp)
+				Next Alignment: 954595 973231 203_18637_794132 1 18637
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 18.
+			Align 48: 954612 973231 203_18637_794132 18 18637
+				Gap between this and next alignment: 973231 to 973710 (478 bp)
+				Next Alignment: 973710 990909 195_17200_715145 17200 1
+
+			Align 49: 973710 990909 195_17200_715145 17200 1
+				Gap between this and next alignment: 990909 to 990942 (32 bp)
+				Next Alignment: 990942 1047977 436_57037_2376938 1 57037
+
+			Align 50: 990942 1047977 436_57037_2376938 1 57037
+				Negative gap (overlap) between this and next alignment: 1047977 to 1047960 (-17 bp)
+				Next Alignment: 1047960 1053913 721_5954_258911 5954 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5954 to 5936.
+			Align 51: 1047978 1053913 721_5954_258911 5936 1
+				Gap between this and next alignment: 1053913 to 1053949 (35 bp)
+				Next Alignment: 1053949 1083531 573_29583_1269920 29583 1
+
+			Align 52: 1053949 1083531 573_29583_1269920 29583 1
+				Gap between this and next alignment: 1083531 to 1083624 (92 bp)
+				Next Alignment: 1083624 1100092 202_16470_714845 16470 1
+
+			Align 53: 1083624 1100092 202_16470_714845 16470 1
+				Negative gap (overlap) between this and next alignment: 1100092 to 1100082 (-10 bp)
+				Next Alignment: 1100082 1198653 608_98573_4054616 1 98573
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 12.
+			Align 54: 1100093 1198653 608_98573_4054616 12 98573
+				Gap between this and next alignment: 1198653 to 1198828 (174 bp)
+				Next Alignment: 1198828 1234660 140_35834_1458154 1 35834
+
+			Align 55: 1198828 1234660 140_35834_1458154 1 35834
+				Negative gap (overlap) between this and next alignment: 1234660 to 1234653 (-7 bp)
+				Next Alignment: 1234653 1294052 336_59400_2423456 59400 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 59400 to 59392.
+			Align 56: 1234661 1294052 336_59400_2423456 59392 1
+				Gap between this and next alignment: 1294052 to 1294242 (189 bp)
+				Next Alignment: 1294242 1310988 594_16747_650537 1 16747
+
+			Align 57: 1294242 1310988 594_16747_650537 1 16747
+				Gap between this and next alignment: 1310988 to 1310990 (1 bp)
+				Next Alignment: 1310990 1371467 32_60477_2363441 60477 1
+
+			Align 58: 1310990 1371467 32_60477_2363441 60477 1
+				Negative gap (overlap) between this and next alignment: 1371467 to 1371407 (-60 bp)
+				Next Alignment: 1371407 1374889 398_3483_148546 3483 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3483 to 3422.
+			Align 59: 1371468 1374889 398_3483_148546 3422 1
+				Negative gap (overlap) between this and next alignment: 1374889 to 1374854 (-35 bp)
+				Next Alignment: 1374854 1379374 133_4521_171450 4521 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4521 to 4485.
+			Align 60: 1374890 1379374 133_4521_171450 4485 1
+				Gap between this and next alignment: 1379374 to 1379377 (2 bp)
+				Next Alignment: 1379377 1484694 491_105320_3830550 105320 1
+
+			Align 61: 1379377 1484694 491_105320_3830550 105320 1
+				Negative gap (overlap) between this and next alignment: 1484694 to 1484631 (-63 bp)
+				Next Alignment: 1484631 1509564 319_24936_1175413 24936 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 24936 to 24872.
+			Align 62: 1484695 1509564 319_24936_1175413 24872 1
+				Gap between this and next alignment: 1509564 to 1510282 (717 bp)
+				Next Alignment: 1510282 1511079 324_798_42919 798 1
+
+			Align 63: 1510282 1511079 324_798_42919 798 1
+				Gap between this and next alignment: 1511079 to 1511737 (657 bp)
+				Next Alignment: 1511737 1563874 667_52139_2367107 1 52139
+
+			Align 64: 1511737 1563874 667_52139_2367107 1 52139
+				Gap between this and next alignment: 1563874 to 1564769 (894 bp)
+				Next Alignment: 1564769 1565874 24_1106_312933 1 1106
+
+			Align 65: 1564769 1565874 24_1106_312933 1 1106
+				Negative gap (overlap) between this and next alignment: 1565874 to 1565860 (-14 bp)
+				Next Alignment: 1565860 1566486 231_627_78290 627 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 627 to 612.
+			Align 66: 1565875 1566486 231_627_78290 612 1
+				Gap between this and next alignment: 1566486 to 1566846 (359 bp)
+				Next Alignment: 1566846 1571462 305_4617_320192 4617 1
+
+			Align 67: 1566846 1571462 305_4617_320192 4617 1
+				Gap between this and next alignment: 1571462 to 1573702 (2239 bp)
+				Next Alignment: 1573702 1574356 222_655_24217 1 655
+
+			Align 68: 1573702 1574356 222_655_24217 1 655
+				Negative gap (overlap) between this and next alignment: 1574356 to 1574293 (-63 bp)
+				Next Alignment: 1574293 1578273 12_3981_285989 3981 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3981 to 3917.
+			Align 69: 1574357 1578273 12_3981_285989 3917 1
+				Negative gap (overlap) between this and next alignment: 1578273 to 1578270 (-3 bp)
+				Next Alignment: 1578270 1579128 396_859_41754 859 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 859 to 855.
+			Align 70: 1578274 1579128 396_859_41754 855 1
+				Gap between this and next alignment: 1579128 to 1585186 (6057 bp)
+				Next Alignment: 1585186 1656010 68_70826_2580262 70826 1
+
+			Align 71: 1585186 1656010 68_70826_2580262 70826 1
+				Negative gap (overlap) between this and next alignment: 1656010 to 1655971 (-39 bp)
+				Next Alignment: 1655971 1683941 607_27974_1056980 27974 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 27974 to 27934.
+			Align 72: 1656011 1683941 607_27974_1056980 27934 1
+				Negative gap (overlap) between this and next alignment: 1683941 to 1683915 (-26 bp)
+				Next Alignment: 1683915 1698132 717_14218_536126 1 14218
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 28.
+			Align 73: 1683942 1698132 717_14218_536126 28 14218
+				Gap between this and next alignment: 1698132 to 1698266 (133 bp)
+				Next Alignment: 1698266 1714526 465_16260_568022 16260 1
+
+			Align 74: 1698266 1714526 465_16260_568022 16260 1
+				Gap between this and next alignment: 1714526 to 1714528 (1 bp)
+				Next Alignment: 1714528 1736733 33_22206_807716 22206 1
+
+			Align 75: 1714528 1736733 33_22206_807716 22206 1
+				Gap between this and next alignment: 1736733 to 1739005 (2271 bp)
+				Next Alignment: 1739005 1745218 683_6214_213884 6214 1
+
+			Align 76: 1739005 1745218 683_6214_213884 6214 1
+				Negative gap (overlap) between this and next alignment: 1745218 to 1745179 (-39 bp)
+				Next Alignment: 1745179 1763676 512_18499_693662 1 18499
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 41.
+			Align 77: 1745219 1763676 512_18499_693662 41 18499
+				Negative gap (overlap) between this and next alignment: 1763676 to 1763631 (-45 bp)
+				Next Alignment: 1763631 1775162 416_11533_398116 11533 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 11533 to 11487.
+			Align 78: 1763677 1775162 416_11533_398116 11487 1
+				Gap between this and next alignment: 1775162 to 1775194 (31 bp)
+				Next Alignment: 1775194 1778573 226_3380_109106 1 3380
+
+			Align 79: 1775194 1778573 226_3380_109106 1 3380
+				Negative gap (overlap) between this and next alignment: 1778573 to 1778511 (-62 bp)
+				Next Alignment: 1778511 1785374 428_6864_252917 1 6864
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 64.
+			Align 80: 1778574 1785374 428_6864_252917 64 6864
+				Gap between this and next alignment: 1785374 to 1785599 (224 bp)
+				Next Alignment: 1785599 1895898 337_110305_4330014 1 110305
+
+			Align 81: 1785599 1895898 337_110305_4330014 1 110305
+				Gap between this and next alignment: 1895898 to 1895921 (22 bp)
+				Next Alignment: 1895921 1909126 115_13205_376808 13205 1
+
+			Align 82: 1895921 1909126 115_13205_376808 13205 1
+				Gap between this and next alignment: 1909126 to 1909231 (104 bp)
+				Next Alignment: 1909231 1913154 495_3924_123905 3924 1
+
+			Align 83: 1909231 1913154 495_3924_123905 3924 1
+				Gap between this and next alignment: 1913154 to 1913220 (65 bp)
+				Next Alignment: 1913220 1936790 696_23572_710659 1 23572
+
+			Align 84: 1913220 1936790 696_23572_710659 1 23572
+				Negative gap (overlap) between this and next alignment: 1936790 to 1936727 (-63 bp)
+				Next Alignment: 1936727 1937571 519_845_32875 1 845
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 65.
+			Align 85: 1936791 1937571 519_845_32875 65 845
+				Gap between this and next alignment: 1937571 to 1938706 (1134 bp)
+				Next Alignment: 1938706 1948093 56_9388_287171 1 9388
+
+			Align 86: 1938706 1948093 56_9388_287171 1 9388
+				Gap between this and next alignment: 1948093 to 1948175 (81 bp)
+				Next Alignment: 1948175 1951727 14_3553_90567 1 3553
+
+			Align 87: 1948175 1951727 14_3553_90567 1 3553
+				Gap between this and next alignment: 1951727 to 1951843 (115 bp)
+				Next Alignment: 1951843 1952564 601_722_7877 1 722
+
+			Align 88: 1951843 1952564 601_722_7877 1 722
+				Gap between this and next alignment: 1952564 to 1952572 (7 bp)
+				Next Alignment: 1952572 1953323 50_752_11499 1 752
+
+			Align 89: 1952572 1953323 50_752_11499 1 752
+				Gap between this and next alignment: 1953323 to 1953325 (1 bp)
+				Next Alignment: 1953325 1960951 348_7627_311890 7627 1
+
+			Align 90: 1953325 1960951 348_7627_311890 7627 1
+				Gap between this and next alignment: 1960951 to 1961088 (136 bp)
+				Next Alignment: 1961088 1984624 714_23537_922193 23537 1
+
+			Align 91: 1961088 1984624 714_23537_922193 23537 1
+				Gap between this and next alignment: 1984624 to 1984642 (17 bp)
+				Next Alignment: 1984642 1992456 131_7816_308247 1 7816
+
+			Align 92: 1984642 1992456 131_7816_308247 1 7816
+				Negative gap (overlap) between this and next alignment: 1992456 to 1992442 (-14 bp)
+				Next Alignment: 1992442 1994062 263_1621_44358 1 1621
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 16.
+			Align 93: 1992457 1994062 263_1621_44358 16 1621
+				Gap between this and next alignment: 1994062 to 1994159 (96 bp)
+				Next Alignment: 1994159 2168374 193_174218_7314855 1 174218
+
+			Align 94: 1994159 2168374 193_174218_7314855 1 174218
+				Gap between this and next alignment: 2168374 to 2168464 (89 bp)
+				Next Alignment: 2168464 2199546 270_31084_1448879 1 31084
+
+			Align 95: 2168464 2199546 270_31084_1448879 1 31084
+				Negative gap (overlap) between this and next alignment: 2199546 to 2199512 (-34 bp)
+				Next Alignment: 2199512 2320699 599_121187_5558394 1 121187
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 36.
+			Align 96: 2199547 2320699 599_121187_5558394 36 121187
+				Gap between this and next alignment: 2320699 to 2320702 (2 bp)
+				Next Alignment: 2320702 2330968 511_10267_463903 1 10267
+
+			Align 97: 2320702 2330968 511_10267_463903 1 10267
+				Gap between this and next alignment: 2330968 to 2332624 (1655 bp)
+				Next Alignment: 2332624 2375687 307_43066_1955671 1 43066
+
+			Align 98: 2332624 2375687 307_43066_1955671 1 43066
+				Negative gap (overlap) between this and next alignment: 2375687 to 2375638 (-49 bp)
+				Next Alignment: 2375638 2420225 680_44588_2066835 44588 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 44588 to 44538.
+			Align 99: 2375688 2420225 680_44588_2066835 44538 1
+				Negative gap (overlap) between this and next alignment: 2420225 to 2420176 (-49 bp)
+				Next Alignment: 2420176 2476159 734_55984_2674622 1 55984
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 51.
+			Align 100: 2420226 2476159 734_55984_2674622 51 55984
+				Negative gap (overlap) between this and next alignment: 2476159 to 2476110 (-49 bp)
+				Next Alignment: 2476110 2478819 118_2710_127482 2710 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2710 to 2660.
+			Align 101: 2476160 2478819 118_2710_127482 2660 1
+				Negative gap (overlap) between this and next alignment: 2478819 to 2478757 (-62 bp)
+				Next Alignment: 2478757 2484314 448_5558_270114 1 5558
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 64.
+			Align 102: 2478820 2484314 448_5558_270114 64 5558
+				Negative gap (overlap) between this and next alignment: 2484314 to 2484290 (-24 bp)
+				Next Alignment: 2484290 2551468 722_67180_3192615 67180 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 67180 to 67155.
+			Align 103: 2484315 2551468 722_67180_3192615 67155 1
+				Gap between this and next alignment: 2551468 to 2552242 (773 bp)
+				Next Alignment: 2552242 2661448 15_109210_5612875 1 109210
+
+			Align 104: 2552242 2661448 15_109210_5612875 1 109210
+				Negative gap (overlap) between this and next alignment: 2661448 to 2661397 (-51 bp)
+				Next Alignment: 2661397 2667249 142_5853_320461 1 5853
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 53.
+			Align 105: 2661449 2667249 142_5853_320461 53 5853
+				Gap between this and next alignment: 2667249 to 2667406 (156 bp)
+				Next Alignment: 2667406 2676299 45_8894_487395 1 8894
+
+			Align 106: 2667406 2676299 45_8894_487395 1 8894
+				Gap between this and next alignment: 2676299 to 2681700 (5400 bp)
+				Next Alignment: 2681700 2707420 453_25721_1412527 25721 1
+
+			Align 107: 2681700 2707420 453_25721_1412527 25721 1
+				Negative gap (overlap) between this and next alignment: 2707420 to 2707362 (-58 bp)
+				Next Alignment: 2707362 2885482 670_178122_9451790 178122 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 178122 to 178063.
+			Align 108: 2707421 2885482 670_178122_9451790 178063 1
+				Negative gap (overlap) between this and next alignment: 2885482 to 2885420 (-62 bp)
+				Next Alignment: 2885420 2927820 503_42402_2437025 1 42402
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 64.
+			Align 109: 2885483 2927820 503_42402_2437025 64 42402
+				Gap between this and next alignment: 2927820 to 2939219 (11398 bp)
+				Next Alignment: 2939219 2961149 151_38702_2393789 1 21931
+
+			Align 110: 2939219 2961149 151_38702_2393789 1 21931
+			END in current alignment.  Modifying 2961149 to 2961149.
+
+	Reference gi|15600771|ref|NC_002506.1|_Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_chromosome_II__complete_sequence: 95 total alignments. 1 total regions.
+		Region: 1 to 1072315 (1072315 bp)
+			START in gap: 1 to 1174 (1173 bp)
+			Align 1: 1174 19713 355_18539_843556 18539 1
+				Gap between this and next alignment: 19713 to 20431 (717 bp)
+				Next Alignment: 20431 21228 551_798_40451 1 798
+
+			Align 2: 20431 21228 551_798_40451 1 798
+				Gap between this and next alignment: 21228 to 21886 (657 bp)
+				Next Alignment: 21886 66934 733_45049_1966687 45049 1
+
+			Align 3: 21886 66934 733_45049_1966687 45049 1
+				Gap between this and next alignment: 66934 to 66971 (36 bp)
+				Next Alignment: 66971 114835 420_47864_2067857 47864 1
+
+			Align 4: 66971 114835 420_47864_2067857 47864 1
+				Gap between this and next alignment: 114835 to 114887 (51 bp)
+				Next Alignment: 114887 140904 513_26018_1086369 1 26018
+
+			Align 5: 114887 140904 513_26018_1086369 1 26018
+				Gap between this and next alignment: 140904 to 141088 (183 bp)
+				Next Alignment: 141088 157505 153_16417_689336 16417 1
+
+			Align 6: 141088 157505 153_16417_689336 16417 1
+				Negative gap (overlap) between this and next alignment: 157505 to 157459 (-46 bp)
+				Next Alignment: 157459 187822 589_30362_1238903 1 30362
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 48.
+			Align 7: 157506 187822 589_30362_1238903 48 30362
+				Gap between this and next alignment: 187822 to 187833 (10 bp)
+				Next Alignment: 187833 216912 628_29080_1214179 1 29080
+
+			Align 8: 187833 216912 628_29080_1214179 1 29080
+				Gap between this and next alignment: 216912 to 217037 (124 bp)
+				Next Alignment: 217037 219822 759_2786_56259 1 2786
+
+			Align 9: 217037 219822 759_2786_56259 1 2786
+				Gap between this and next alignment: 219822 to 220320 (497 bp)
+				Next Alignment: 220320 236895 699_16576_692461 1 16576
+
+			Align 10: 220320 236895 699_16576_692461 1 16576
+				Gap between this and next alignment: 236895 to 237060 (164 bp)
+				Next Alignment: 237060 248601 4_11542_440286 1 11542
+
+			Align 11: 237060 248601 4_11542_440286 1 11542
+				Negative gap (overlap) between this and next alignment: 248601 to 248586 (-15 bp)
+				Next Alignment: 248586 272633 406_24049_962376 1 24049
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 17.
+			Align 12: 248602 272633 406_24049_962376 17 24049
+				Gap between this and next alignment: 272633 to 273384 (750 bp)
+				Next Alignment: 273384 292262 331_18880_776015 1 18880
+
+			Align 13: 273384 292262 331_18880_776015 1 18880
+				Gap between this and next alignment: 292262 to 292760 (497 bp)
+				Next Alignment: 292760 301663 343_8903_370431 1 8903
+
+			Align 14: 292760 301663 343_8903_370431 1 8903
+				Negative gap (overlap) between this and next alignment: 301663 to 301600 (-63 bp)
+				Next Alignment: 301600 302796 346_1197_95734 1 1197
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 65.
+			Align 15: 301664 302796 346_1197_95734 65 1197
+				Negative gap (overlap) between this and next alignment: 302796 to 302733 (-63 bp)
+				Next Alignment: 302733 303531 282_799_14894 799 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 799 to 735.
+			Align 16: 302797 303531 282_799_14894 735 1
+				Gap between this and next alignment: 303531 to 303960 (428 bp)
+				Next Alignment: 303960 310943 533_8440_269522 8440 1457
+
+			Align 17: 303960 310943 533_8440_269522 8440 1457
+				Gap between this and next alignment: 310943 to 312311 (1367 bp)
+				Next Alignment: 312311 313775 533_8440_269522 1465 1
+
+			Align 18: 312311 313775 533_8440_269522 1465 1
+				Gap between this and next alignment: 313775 to 314646 (870 bp)
+				Next Alignment: 314646 315997 211_1352_48138 1 1352
+
+			Align 19: 314646 315997 211_1352_48138 1 1352
+				Negative gap (overlap) between this and next alignment: 315997 to 315974 (-23 bp)
+				Next Alignment: 315974 316914 103_941_34615 1 941
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 25.
+			Align 20: 315998 316914 103_941_34615 25 941
+				Negative gap (overlap) between this and next alignment: 316914 to 316890 (-24 bp)
+				Next Alignment: 316890 317418 426_529_20457 1 529
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 26.
+			Align 21: 316915 317418 426_529_20457 26 529
+				Gap between this and next alignment: 317418 to 317982 (563 bp)
+				Next Alignment: 317982 318512 75_531_22842 1 531
+
+			Align 22: 317982 318512 75_531_22842 1 531
+				Negative gap (overlap) between this and next alignment: 318512 to 318509 (-3 bp)
+				Next Alignment: 318509 319017 514_509_16982 1 509
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 5.
+			Align 23: 318513 319017 514_509_16982 5 509
+				Gap between this and next alignment: 319017 to 319044 (26 bp)
+				Next Alignment: 319044 319858 111_815_16440 1 815
+
+			Align 24: 319044 319858 111_815_16440 1 815
+				Negative gap (overlap) between this and next alignment: 319858 to 319805 (-53 bp)
+				Next Alignment: 319805 322100 112_2296_63976 1 2296
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 55.
+			Align 25: 319859 322100 112_2296_63976 55 2296
+				Negative gap (overlap) between this and next alignment: 322100 to 322050 (-50 bp)
+				Next Alignment: 322050 322607 647_558_19911 1 558
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 52.
+			Align 26: 322101 322607 647_558_19911 52 558
+				Gap between this and next alignment: 322607 to 322642 (34 bp)
+				Next Alignment: 322642 323416 457_775_48592 1 775
+
+			Align 27: 322642 323416 457_775_48592 1 775
+				Gap between this and next alignment: 323416 to 323421 (4 bp)
+				Next Alignment: 323421 323950 566_530_16655 1 530
+
+			Align 28: 323421 323950 566_530_16655 1 530
+				Gap between this and next alignment: 323950 to 324386 (435 bp)
+				Next Alignment: 324386 325145 10_760_26695 760 1
+
+			Align 29: 324386 325145 10_760_26695 760 1
+				Gap between this and next alignment: 325145 to 325804 (658 bp)
+				Next Alignment: 325804 326819 464_1016_71744 1 1016
+
+			Align 30: 325804 326819 464_1016_71744 1 1016
+				Gap between this and next alignment: 326819 to 327347 (527 bp)
+				Next Alignment: 327347 327938 160_592_9779 592 1
+
+			Align 31: 327347 327938 160_592_9779 592 1
+				Negative gap (overlap) between this and next alignment: 327938 to 327891 (-47 bp)
+				Next Alignment: 327891 328914 63_1024_38475 1024 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1024 to 976.
+			Align 32: 327939 328914 63_1024_38475 976 1
+				Gap between this and next alignment: 328914 to 329221 (306 bp)
+				Next Alignment: 329221 329756 415_536_18699 1 536
+
+			Align 33: 329221 329756 415_536_18699 1 536
+				Gap between this and next alignment: 329756 to 331885 (2128 bp)
+				Next Alignment: 331885 332400 602_516_15934 516 1
+
+			Align 34: 331885 332400 602_516_15934 516 1
+				Negative gap (overlap) between this and next alignment: 332400 to 332370 (-30 bp)
+				Next Alignment: 332370 333847 132_1478_41253 1478 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1478 to 1447.
+			Align 35: 332401 333847 132_1478_41253 1447 1
+				Negative gap (overlap) between this and next alignment: 333847 to 333788 (-59 bp)
+				Next Alignment: 333788 334892 548_1105_27786 1105 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1105 to 1045.
+			Align 36: 333848 334892 548_1105_27786 1045 1
+				Gap between this and next alignment: 334892 to 336065 (1172 bp)
+				Next Alignment: 336065 337095 110_1031_63436 1031 1
+
+			Align 37: 336065 337095 110_1031_63436 1031 1
+				Negative gap (overlap) between this and next alignment: 337095 to 337055 (-40 bp)
+				Next Alignment: 337055 337606 258_552_17435 552 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 552 to 511.
+			Align 38: 337096 337606 258_552_17435 511 1
+				Negative gap (overlap) between this and next alignment: 337606 to 337556 (-50 bp)
+				Next Alignment: 337556 338059 76_504_27174 1 504
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 52.
+			Align 39: 337607 338059 76_504_27174 52 504
+				Gap between this and next alignment: 338059 to 338199 (139 bp)
+				Next Alignment: 338199 338895 356_697_14581 697 1
+
+			Align 40: 338199 338895 356_697_14581 697 1
+				Gap between this and next alignment: 338895 to 340470 (1574 bp)
+				Next Alignment: 340470 341037 700_568_25408 1 568
+
+			Align 41: 340470 341037 700_568_25408 1 568
+				Gap between this and next alignment: 341037 to 341826 (788 bp)
+				Next Alignment: 341826 342648 294_823_33467 1 823
+
+			Align 42: 341826 342648 294_823_33467 1 823
+				Gap between this and next alignment: 342648 to 343203 (554 bp)
+				Next Alignment: 343203 343919 190_717_58293 1 717
+
+			Align 43: 343203 343919 190_717_58293 1 717
+				Gap between this and next alignment: 343919 to 344486 (566 bp)
+				Next Alignment: 344486 345449 470_965_37653 1 965
+
+			Align 44: 344486 345449 470_965_37653 1 965
+				Gap between this and next alignment: 345449 to 345865 (415 bp)
+				Next Alignment: 345865 348193 297_2329_73078 2329 1
+
+			Align 45: 345865 348193 297_2329_73078 2329 1
+				Gap between this and next alignment: 348193 to 349517 (1323 bp)
+				Next Alignment: 349517 350301 217_785_37409 1 785
+
+			Align 46: 349517 350301 217_785_37409 1 785
+				Negative gap (overlap) between this and next alignment: 350301 to 350243 (-58 bp)
+				Next Alignment: 350243 351146 572_904_24636 1 904
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 60.
+			Align 47: 350302 351146 572_904_24636 60 904
+				Gap between this and next alignment: 351146 to 351158 (11 bp)
+				Next Alignment: 351158 356455 659_5299_134094 5299 1
+
+			Align 48: 351158 356455 659_5299_134094 5299 1
+				Gap between this and next alignment: 356455 to 358678 (2222 bp)
+				Next Alignment: 358678 360295 143_1618_36192 1 1618
+
+			Align 49: 358678 360295 143_1618_36192 1 1618
+				Gap between this and next alignment: 360295 to 361002 (706 bp)
+				Next Alignment: 361002 361641 638_640_27825 640 1
+
+			Align 50: 361002 361641 638_640_27825 640 1
+				Gap between this and next alignment: 361641 to 362058 (416 bp)
+				Next Alignment: 362058 363259 510_1202_47361 1 1202
+
+			Align 51: 362058 363259 510_1202_47361 1 1202
+				Gap between this and next alignment: 363259 to 364293 (1033 bp)
+				Next Alignment: 364293 365370 618_1078_48232 1 1078
+
+			Align 52: 364293 365370 618_1078_48232 1 1078
+				Gap between this and next alignment: 365370 to 366082 (711 bp)
+				Next Alignment: 366082 366739 615_658_26230 658 1
+
+			Align 53: 366082 366739 615_658_26230 658 1
+				Negative gap (overlap) between this and next alignment: 366739 to 366703 (-36 bp)
+				Next Alignment: 366703 368051 449_1349_46427 1349 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1349 to 1312.
+			Align 54: 366740 368051 449_1349_46427 1312 1
+				Negative gap (overlap) between this and next alignment: 368051 to 368050 (-1 bp)
+				Next Alignment: 368050 369265 36_1216_61281 1216 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1216 to 1214.
+			Align 55: 368052 369265 36_1216_61281 1214 1
+				Negative gap (overlap) between this and next alignment: 369265 to 369207 (-58 bp)
+				Next Alignment: 369207 370592 128_1386_46513 1 1386
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 60.
+			Align 56: 369266 370592 128_1386_46513 60 1386
+				Gap between this and next alignment: 370592 to 396269 (25676 bp)
+				Next Alignment: 396269 398068 473_1800_39744 1 1800
+
+			Align 57: 396269 398068 473_1800_39744 1 1800
+				Gap between this and next alignment: 398068 to 399187 (1118 bp)
+				Next Alignment: 399187 399943 284_757_30945 757 1
+
+			Align 58: 399187 399943 284_757_30945 757 1
+				Negative gap (overlap) between this and next alignment: 399943 to 399899 (-44 bp)
+				Next Alignment: 399899 401308 246_1410_30980 1 1410
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 46.
+			Align 59: 399944 401308 246_1410_30980 46 1410
+				Gap between this and next alignment: 401308 to 402416 (1107 bp)
+				Next Alignment: 402416 404140 40_1726_49328 1726 1
+
+			Align 60: 402416 404140 40_1726_49328 1726 1
+				Gap between this and next alignment: 404140 to 404235 (94 bp)
+				Next Alignment: 404235 407259 413_3025_89075 1 3025
+
+			Align 61: 404235 407259 413_3025_89075 1 3025
+				Gap between this and next alignment: 407259 to 407548 (288 bp)
+				Next Alignment: 407548 410663 200_3116_95879 1 3116
+
+			Align 62: 407548 410663 200_3116_95879 1 3116
+				Negative gap (overlap) between this and next alignment: 410663 to 410616 (-47 bp)
+				Next Alignment: 410616 411747 255_1132_43983 1132 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1132 to 1084.
+			Align 63: 410664 411747 255_1132_43983 1084 1
+				Gap between this and next alignment: 411747 to 414781 (3033 bp)
+				Next Alignment: 414781 416518 499_1738_62878 1738 1
+
+			Align 64: 414781 416518 499_1738_62878 1738 1
+				Gap between this and next alignment: 416518 to 418433 (1914 bp)
+				Next Alignment: 418433 419342 556_910_31342 1 910
+
+			Align 65: 418433 419342 556_910_31342 1 910
+				Gap between this and next alignment: 419342 to 419823 (480 bp)
+				Next Alignment: 419823 420598 55_776_29182 776 1
+
+			Align 66: 419823 420598 55_776_29182 776 1
+				Negative gap (overlap) between this and next alignment: 420598 to 420544 (-54 bp)
+				Next Alignment: 420544 421172 567_629_19953 629 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 629 to 574.
+			Align 67: 420599 421172 567_629_19953 574 1
+				Negative gap (overlap) between this and next alignment: 421172 to 421123 (-49 bp)
+				Next Alignment: 421123 421673 340_551_15584 551 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 551 to 501.
+			Align 68: 421173 421673 340_551_15584 501 1
+				Gap between this and next alignment: 421673 to 422704 (1030 bp)
+				Next Alignment: 422704 423519 445_816_23162 816 1
+
+			Align 69: 422704 423519 445_816_23162 816 1
+				Negative gap (overlap) between this and next alignment: 423519 to 423463 (-56 bp)
+				Next Alignment: 423463 424459 241_997_25868 997 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 997 to 940.
+			Align 70: 423520 424459 241_997_25868 940 1
+				Negative gap (overlap) between this and next alignment: 424459 to 424396 (-63 bp)
+				Next Alignment: 424396 425506 409_1111_45236 1111 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1111 to 1047.
+			Align 71: 424460 425506 409_1111_45236 1047 1
+				Negative gap (overlap) between this and next alignment: 425506 to 425447 (-59 bp)
+				Next Alignment: 425447 427390 81_1944_60162 1944 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1944 to 1884.
+			Align 72: 425507 427390 81_1944_60162 1884 1
+				Negative gap (overlap) between this and next alignment: 427390 to 427365 (-25 bp)
+				Next Alignment: 427365 427930 283_566_16960 566 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 566 to 540.
+			Align 73: 427391 427930 283_566_16960 540 1
+				Gap between this and next alignment: 427930 to 429111 (1180 bp)
+				Next Alignment: 429111 430908 466_1798_66529 1798 1
+
+			Align 74: 429111 430908 466_1798_66529 1798 1
+				Negative gap (overlap) between this and next alignment: 430908 to 430873 (-35 bp)
+				Next Alignment: 430873 431885 528_1013_33711 1013 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1013 to 977.
+			Align 75: 430909 431885 528_1013_33711 977 1
+				Gap between this and next alignment: 431885 to 432421 (535 bp)
+				Next Alignment: 432421 432954 544_534_17637 1 534
+
+			Align 76: 432421 432954 544_534_17637 1 534
+				Gap between this and next alignment: 432954 to 433709 (754 bp)
+				Next Alignment: 433709 434362 561_654_16567 654 1
+
+			Align 77: 433709 434362 561_654_16567 654 1
+				Gap between this and next alignment: 434362 to 436580 (2217 bp)
+				Next Alignment: 436580 456893 710_20314_807343 20314 1
+
+			Align 78: 436580 456893 710_20314_807343 20314 1
+				Negative gap (overlap) between this and next alignment: 456893 to 456848 (-45 bp)
+				Next Alignment: 456848 494947 374_38100_1453669 1 38100
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 47.
+			Align 79: 456894 494947 374_38100_1453669 47 38100
+				Negative gap (overlap) between this and next alignment: 494947 to 494895 (-52 bp)
+				Next Alignment: 494895 507997 697_13159_469540 1 13103
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 54.
+			Align 80: 494948 507997 697_13159_469540 54 13103
+				Gap between this and next alignment: 507997 to 508066 (68 bp)
+				Next Alignment: 508066 516469 480_8404_260039 1 8404
+
+			Align 81: 508066 516469 480_8404_260039 1 8404
+				Gap between this and next alignment: 516469 to 517169 (699 bp)
+				Next Alignment: 517169 557039 69_39870_1520421 1 39870
+
+			Align 82: 517169 557039 69_39870_1520421 1 39870
+				Negative gap (overlap) between this and next alignment: 557039 to 556978 (-61 bp)
+				Next Alignment: 556978 558260 163_1283_49926 1283 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1283 to 1221.
+			Align 83: 557040 558260 163_1283_49926 1221 1
+				Gap between this and next alignment: 558260 to 558288 (27 bp)
+				Next Alignment: 558288 559244 44_957_30042 957 1
+
+			Align 84: 558288 559244 44_957_30042 957 1
+				Gap between this and next alignment: 559244 to 559410 (165 bp)
+				Next Alignment: 559410 563417 611_4008_169400 4008 1
+
+			Align 85: 559410 563417 611_4008_169400 4008 1
+				Negative gap (overlap) between this and next alignment: 563417 to 563416 (-1 bp)
+				Next Alignment: 563416 563922 19_507_6052 1 507
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 3.
+			Align 86: 563418 563922 19_507_6052 3 507
+				Gap between this and next alignment: 563922 to 565497 (1574 bp)
+				Next Alignment: 565497 630183 640_64688_2405618 64688 1
+
+			Align 87: 565497 630183 640_64688_2405618 64688 1
+				Gap between this and next alignment: 630183 to 630484 (300 bp)
+				Next Alignment: 630484 638711 28_8230_305645 1 8230
+
+			Align 88: 630484 638711 28_8230_305645 1 8230
+				Negative gap (overlap) between this and next alignment: 638711 to 638648 (-63 bp)
+				Next Alignment: 638648 699624 478_60977_2284625 1 60977
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 65.
+			Align 89: 638712 699624 478_60977_2284625 65 60977
+				Gap between this and next alignment: 699624 to 699685 (60 bp)
+				Next Alignment: 699685 704844 708_5160_218175 5160 1
+
+			Align 90: 699685 704844 708_5160_218175 5160 1
+				Negative gap (overlap) between this and next alignment: 704844 to 704794 (-50 bp)
+				Next Alignment: 704794 735825 591_31032_1266144 1 31032
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 52.
+			Align 91: 704845 735825 591_31032_1266144 52 31032
+				Gap between this and next alignment: 735825 to 736959 (1133 bp)
+				Next Alignment: 736959 829780 688_92825_3711066 1 92825
+
+			Align 92: 736959 829780 688_92825_3711066 1 92825
+				Gap between this and next alignment: 829780 to 829940 (159 bp)
+				Next Alignment: 829940 878572 247_48634_1906754 48634 1
+
+			Align 93: 829940 878572 247_48634_1906754 48634 1
+				Gap between this and next alignment: 878572 to 878576 (3 bp)
+				Next Alignment: 878576 962039 557_83464_3599575 83464 1
+
+			Align 94: 878576 962039 557_83464_3599575 83464 1
+				Negative gap (overlap) between this and next alignment: 962039 to 962026 (-13 bp)
+				Next Alignment: 962026 1072315 664_111098_4801270 1 110290
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 15.
+			Align 95: 962040 1072315 664_111098_4801270 15 110290
+			END in current alignment.  Modifying 1072315 to 1072315.
+
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1950/dataset_2032_files/Contig/contigs_reports/nucmer_output/abyss_1.3.used_snps
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 2
+		Relocations: 2
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 2
+	Misassembled Contig Bases: 10790
+	Misassmblies Inter-Contig Overlap: 15
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 1 + 0 part
+Partially Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 621
+
+Ambiguously Mapped Contigs: 15
+Total Bases in Ambiguously Mapped Contigs: 19597
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 3900233
+
+	SNPs: 115
+	Insertions: 81
+	Deletions: 40
+
+	Positive Gaps: 130
+		Internal Gaps:  1
+		External Gaps:  129
+		External Gap Total:  131864
+		External Gap Average: 1022
+	Negative Gaps: 74
+		Internal Overlaps:  0
+		External Overlaps:  74
+		External Overlaps Total: -3066
+		External Overlaps Average: -41
+	Contigs with Redundant Alignments: 0 (0)

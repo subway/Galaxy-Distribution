@@ -1,0 +1,104 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/001/dataset_1961.dat -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/001/dataset_1962.dat -l Abyss, Cabog /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_480.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_482.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.8.1.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-05-22 00:41:36
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/001/dataset_1961.dat ==> dataset_1961
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_480.dat ==> Abyss
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_482.dat ==> Cabog
+
+2014-05-22 00:41:44
+Running Basic statistics processor...
+  Reference genome:
+    dataset_1961.dat, Reference length = 4744448, Reference GC % = 61.55
+  Contig files: 
+    1  Abyss
+    2  Cabog
+  Calculating N50 and L50...
+    1  Abyss, N50 = 237457, L50 = 7, Total length = 4969260, GC % = 61.53, # N's per 100 kbp =  1.83
+    2  Cabog, N50 = 278382, L50 = 6, Total length = 5004541, GC % = 61.60, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/basic_stats/NGx_plot.pdf
+Done.
+
+2014-05-22 00:41:47
+Running Contig analyzer...
+  1  Abyss
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/contigs_reports/contigs_report_Abyss.stdout and contigs_report_Abyss.stderr...
+  2  Cabog
+  1  Running Nucmer... 
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/contigs_reports/contigs_report_Cabog.stdout and contigs_report_Cabog.stderr...
+  2  Running Nucmer... 
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/contigs_reports/alignments_Abyss.tsv
+  20244 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/contigs_reports/alignments_Cabog.tsv
+  20486 Analysis is finished.
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-05-22 00:42:41
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    1  Abyss, Largest alignment = 52419, NA50 = None, NGA50 = None, LA50 = None, LGA50 = None
+    2  Cabog, Largest alignment = 52397, NA50 = None, NGA50 = None, LA50 = None, LGA50 = None
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-05-22 00:42:42
+Running Genome analyzer...
+  Loaded 4284 genes
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  1  Abyss
+  2  Cabog
+  Drawing genes cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-05-22 00:42:47
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1914/dataset_1996_files/Contig/quast.log
+
+Finished: 2014-05-22 00:42:47
+Elapsed time: 0:01:11.413777

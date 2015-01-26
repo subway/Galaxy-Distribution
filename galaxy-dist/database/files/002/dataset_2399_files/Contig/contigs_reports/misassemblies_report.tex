@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{7}{|r}|}
+\hline
+Assembly & AH-H-Abyss-Scaffold & AH-H-Cabog-Scaffold & AH-H-Msrca-Scaffold & AH-H-Sga-Scaffold & AH-H-Soap-Scaffold & AH-H-Spades-Scaffold & AH-H-Velvet-Scaffold \\ \hline
+\# misassemblies & 1 & 2 & 2 & 3 & {\bf 0} & 1 & {\bf 0} \\ \hline
+\hspace{5mm}\# relocations & 1 & 2 & 2 & 3 & {\bf 0} & 1 & {\bf 0} \\ \hline
+\hspace{5mm}\# translocations & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\hspace{5mm}\# inversions & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# misassembled contigs & 1 & 2 & 2 & 3 & {\bf 0} & 1 & {\bf 0} \\ \hline
+Misassembled contigs length & 2772 & 28456 & 3104 & 131784 & {\bf 0} & 579 & {\bf 0} \\ \hline
+\# local misassemblies & {\bf 0} & 1 & {\bf 0} & 9 & 1 & {\bf 0} & {\bf 0} \\ \hline
+\# mismatches & 1060 & 2084 & 1575 & 17245 & 1534 & {\bf 953} & 1528 \\ \hline
+\# indels & 46 & 104 & 61 & 694 & 53 & {\bf 36} & 48 \\ \hline
+\hspace{5mm}\# short indels ($\leq$ 5 bp) & 45 & 102 & 60 & 666 & 52 & {\bf 35} & 47 \\ \hline
+\hspace{5mm}\# long indels ($>$ 5 bp) & {\bf 1} & 2 & {\bf 1} & 28 & {\bf 1} & {\bf 1} & {\bf 1} \\ \hline
+Indels length & 61 & 150 & 88 & 1084 & 69 & {\bf 49} & 64 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

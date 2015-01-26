@@ -1,0 +1,860 @@
+Aligning contigs to reference...
+	Running Nucmer...
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence]
+	Loaded [gi|169786809|ref|NC_010394.1|_Mycobacterium_abscessus_plasmid__complete_sequence]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 2
+	Total Region Length: 5090491
+Analyzing contigs...
+CONTIG: NODE_57_length_9269_cov_0.447219 (9269bp)
+Top Length: 9265  Top ID: 100.0
+		One align captures most of this contig: 3172229 3181493 | 1 9265 | 9265 9265 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_57_length_9269_cov_0.447219
+
+CONTIG: NODE_92_length_92091_cov_0.463888 (92091bp)
+Top Length: 62859  Top ID: 99.96
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 924094 986952 | 1 62859 | 62859 62859 | 99.96 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_92_length_92091_cov_0.463888
+			  Gap between these two alignments (local misassembly). Inconsistency = 483
+			Real Alignment 2: 987107 1016667 | 62531 92091 | 29561 29561 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_92_length_92091_cov_0.463888
+
+CONTIG: NODE_65_length_69432_cov_0.47719 (69432bp)
+Top Length: 69432  Top ID: 99.99
+		Marking as insignificant: 1315247 1315415 | 69432 69264 | 169 169 | 97.63 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_65_length_69432_cov_0.47719
+		One align captures most of this contig: 1315478 1384909 | 69432 1 | 69432 69432 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_65_length_69432_cov_0.47719
+
+CONTIG: NODE_42_length_7225_cov_0.484844 (7225bp)
+Top Length: 7225  Top ID: 100.0
+		Marking as insignificant: 1385265 1385400 | 7225 7090 | 136 136 | 95.59 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_42_length_7225_cov_0.484844
+		One align captures most of this contig: 1386141 1393365 | 7225 1 | 7225 7225 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_42_length_7225_cov_0.484844
+
+CONTIG: NODE_6_length_643_cov_0.485294 (643bp)
+Top Length: 643  Top ID: 100.0
+		One align captures most of this contig: 3438999 3439641 | 643 1 | 643 643 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_6_length_643_cov_0.485294
+
+CONTIG: NODE_72_length_150258_cov_0.467691 (150258bp)
+Top Length: 97154  Top ID: 99.99
+		Skipping redundant alignment 559983 560093 | 111 1 | 111 111 | 99.1 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_72_length_150258_cov_0.467691
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 3252356 3349503 | 1 97154 | 97148 97154 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_72_length_150258_cov_0.467691
+			  Gap between these two alignments (local misassembly). Inconsistency = 6
+			Real Alignment 2: 3329503 3402607 | 77148 150258 | 73105 73111 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_72_length_150258_cov_0.467691
+
+CONTIG: NODE_79_length_107346_cov_0.44446 (107346bp)
+Top Length: 46385  Top ID: 100.0
+		Skipping redundant alignment 1094872 1095017 | 1 146 | 146 146 | 99.32 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_79_length_107346_cov_0.44446
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 107346 and total length of all aligns is 53133
+		Alignment: 1096003 1102750 | 1 6748 | 6748 6748 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_79_length_107346_cov_0.44446
+		Alignment: 1102713 1149097 | 60962 107346 | 46385 46385 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_79_length_107346_cov_0.44446
+		Unaligned bases: 54213
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)!
+CONTIG: NODE_63_length_19939_cov_0.458569 (19939bp)
+Top Length: 19930  Top ID: 99.99
+		One align captures most of this contig: 1016647 1036576 | 10 19939 | 19930 19930 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_63_length_19939_cov_0.458569
+
+CONTIG: NODE_11_length_1212_cov_0.573226 (1212bp)
+Top Length: 1212  Top ID: 100.0
+		One align captures most of this contig: 1094872 1096083 | 1212 1 | 1212 1212 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_11_length_1212_cov_0.573226
+
+CONTIG: NODE_94_length_1015_cov_0.718341 (1015bp)
+Top Length: 1015  Top ID: 100.0
+		Marking as insignificant: 4067821 4068146 | 1015 690 | 326 326 | 99.69 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_94_length_1015_cov_0.718341
+		One align captures most of this contig: 4066891 4067905 | 1015 1 | 1015 1015 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_94_length_1015_cov_0.718341
+
+CONTIG: NODE_86_length_125893_cov_0.47321 (125893bp)
+Top Length: 125893  Top ID: 100.0
+		One align captures most of this contig: 2348977 2474869 | 125893 1 | 125893 125893 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_86_length_125893_cov_0.47321
+
+CONTIG: NODE_10_length_521_cov_0.462085 (521bp)
+Top Length: 521  Top ID: 100.0
+		Marking as insignificant: 1386141 1386276 | 1 136 | 136 136 | 95.59 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_10_length_521_cov_0.462085
+		One align captures most of this contig: 1385265 1385785 | 1 521 | 521 521 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_10_length_521_cov_0.462085
+
+CONTIG: NODE_84_length_890_cov_0.940582 (890bp)
+Top Length: 889  Top ID: 99.78
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1277874 1278762 | 889 1 | 889 889 | 99.78 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_84_length_890_cov_0.940582
+		Skipping alignment  453790 454678 | 2 890 | 889 889 | 99.66 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_84_length_890_cov_0.940582
+
+CONTIG: NODE_74_length_215724_cov_0.465391 (215724bp)
+Top Length: 215724  Top ID: 100.0
+		One align captures most of this contig: 1579216 1794939 | 1 215724 | 215724 215724 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_74_length_215724_cov_0.465391
+
+CONTIG: NODE_76_length_117110_cov_0.481912 (117110bp)
+Top Length: 117110  Top ID: 99.99
+		Marking as insignificant: 220385 220638 | 254 1 | 254 254 | 98.03 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_76_length_117110_cov_0.481912
+		One align captures most of this contig: 1462113 1579224 | 117110 1 | 117112 117110 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_76_length_117110_cov_0.481912
+
+CONTIG: NODE_71_length_45650_cov_0.446993 (45650bp)
+Top Length: 45650  Top ID: 100.0
+		Marking as insignificant: 1578971 1579224 | 45397 45650 | 254 254 | 98.03 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_71_length_45650_cov_0.446993
+		One align captures most of this contig: 174989 220638 | 1 45650 | 45650 45650 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_71_length_45650_cov_0.446993
+
+CONTIG: NODE_29_length_2742_cov_0.542944 (2742bp)
+Top Length: 2742  Top ID: 100.0
+		Marking as insignificant: 4814444 4814544 | 1 101 | 101 101 | 96.04 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_29_length_2742_cov_0.542944
+		One align captures most of this contig: 4811527 4814268 | 1 2742 | 2742 2742 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_29_length_2742_cov_0.542944
+
+CONTIG: NODE_37_length_15453_cov_0.467565 (15453bp)
+Top Length: 15453  Top ID: 100.0
+		Marking as insignificant: 28397 28475 | 15453 15375 | 79 79 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_37_length_15453_cov_0.467565
+		Marking as insignificant: 2253795 2253889 | 1 95 | 95 95 | 97.89 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_37_length_15453_cov_0.467565
+		One align captures most of this contig: 28496 43948 | 15453 1 | 15453 15453 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_37_length_15453_cov_0.467565
+
+CONTIG: NODE_80_length_213402_cov_0.481278 (213402bp)
+Top Length: 213402  Top ID: 99.99
+		One align captures most of this contig: 240202 453603 | 213402 1 | 213402 213402 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_80_length_213402_cov_0.481278
+
+CONTIG: NODE_85_length_82817_cov_0.475108 (82817bp)
+Top Length: 73623  Top ID: 99.99
+		Skipping redundant alignment 2251290 2251374 | 85 1 | 85 85 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_85_length_82817_cov_0.475108
+		Skipping redundant alignment 46335 46412 | 1 78 | 78 78 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_85_length_82817_cov_0.475108
+		Skipping redundant alignment 2596688 2596773 | 82732 82817 | 86 86 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_85_length_82817_cov_0.475108
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 670408 679603 | 1 9196 | 9196 9196 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_85_length_82817_cov_0.475108
+			  Extensive misassembly ( relocation, inconsistency = 2429 ) between these two alignments
+			Real Alignment 2: 682031 755653 | 9195 82817 | 73623 73623 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_85_length_82817_cov_0.475108
+
+CONTIG: NODE_66_length_118896_cov_0.48577 (118896bp)
+Top Length: 118891  Top ID: 99.99
+		One align captures most of this contig: 4501346 4620236 | 6 118896 | 118891 118891 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_66_length_118896_cov_0.48577
+
+CONTIG: NODE_43_length_526_cov_0.641686 (526bp)
+Top Length: 526  Top ID: 100.0
+		One align captures most of this contig: 455073 455598 | 1 526 | 526 526 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_43_length_526_cov_0.641686
+
+CONTIG: NODE_98_length_147871_cov_0.466888 (147871bp)
+Top Length: 147871  Top ID: 99.99
+		Marking as insignificant: 3020705 3020798 | 147871 147778 | 94 94 | 97.87 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_98_length_147871_cov_0.466888
+		One align captures most of this contig: 3024322 3172192 | 147871 1 | 147871 147871 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_98_length_147871_cov_0.466888
+
+CONTIG: NODE_96_length_220137_cov_0.506603 (220137bp)
+Top Length: 121108  Top ID: 99.99
+		Skipping redundant alignment 4811529 4811627 | 1 99 | 99 99 | 95.96 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_96_length_220137_cov_0.506603
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 4814446 4913715 | 1 99271 | 99270 99271 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_96_length_220137_cov_0.506603
+			  Gap between these two alignments (local misassembly). Inconsistency = 153
+			Real Alignment 2: 4913627 5034735 | 99030 220137 | 121109 121108 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_96_length_220137_cov_0.506603
+
+CONTIG: NODE_75_length_63445_cov_0.500426 (63445bp)
+Top Length: 63445  Top ID: 99.99
+		Marking as insignificant: 2251297 2251381 | 63361 63445 | 85 85 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_75_length_63445_cov_0.500426
+		Marking as insignificant: 670401 670485 | 63445 63361 | 85 85 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_75_length_63445_cov_0.500426
+		One align captures most of this contig: 46328 109771 | 63445 1 | 63444 63445 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_75_length_63445_cov_0.500426
+
+CONTIG: NODE_58_length_60941_cov_0.473127 (60941bp)
+Top Length: 32474  Top ID: 99.99
+		Skipping redundant alignment 18418 28500 | 10050 1 | 10083 10050 | 99.67 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_58_length_60941_cov_0.473127
+		Skipping redundant alignment 28483 28566 | 84 1 | 84 84 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_58_length_60941_cov_0.473127
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 2: 5034699 5067172 | 60941 28468 | 32474 32474 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_58_length_60941_cov_0.473127
+			  Fake misassembly (caused by linear representation of circular genome) between these two alignments
+			Real Alignment 1: 1 28467 | 28467 1 | 28467 28467 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_58_length_60941_cov_0.473127
+
+CONTIG: NODE_51_length_42757_cov_0.447255 (42757bp)
+Top Length: 42757  Top ID: 99.99
+		One align captures most of this contig: 2616702 2659459 | 1 42757 | 42758 42757 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_51_length_42757_cov_0.447255
+
+CONTIG: NODE_61_length_18964_cov_0.410443 (18964bp)
+Top Length: 18964  Top ID: 99.99
+		Marking as insignificant: 2521584 2521668 | 18964 18880 | 85 85 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_61_length_18964_cov_0.410443
+		One align captures most of this contig: 1944726 1963689 | 1 18964 | 18964 18964 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_61_length_18964_cov_0.410443
+
+CONTIG: NODE_30_length_630_cov_0.760829 (630bp)
+Top Length: 630  Top ID: 100.0
+		One align captures most of this contig: 4774171 4774800 | 1 630 | 630 630 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_30_length_630_cov_0.760829
+
+CONTIG: NODE_54_length_13564_cov_0.481025 (13564bp)
+Top Length: 13564  Top ID: 99.99
+		Marking as insignificant: 4774714 4774798 | 13564 13480 | 85 85 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_54_length_13564_cov_0.481025
+		One align captures most of this contig: 4797783 4811347 | 13564 1 | 13565 13564 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_54_length_13564_cov_0.481025
+
+CONTIG: NODE_40_length_3228_cov_0.460531 (3228bp)
+Top Length: 3228  Top ID: 100.0
+		Marking as insignificant: 4774146 4774255 | 3119 3228 | 110 110 | 95.45 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_40_length_3228_cov_0.460531
+		Marking as insignificant: 4773824 4773995 | 2797 2968 | 172 172 | 96.51 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_40_length_3228_cov_0.460531
+		One align captures most of this contig: 4794106 4797333 | 1 3228 | 3228 3228 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_40_length_3228_cov_0.460531
+
+CONTIG: NODE_91_length_550_cov_1.03104 (550bp)
+Top Length: 550  Top ID: 100.0
+		This contig has 3 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 669937 670486 | 550 1 | 550 550 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_91_length_550_cov_1.03104
+		Skipping alignment  2251296 2251845 | 1 550 | 550 550 | 99.45 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_91_length_550_cov_1.03104
+		Skipping alignment  45864 46412 | 550 2 | 549 549 | 99.45 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_91_length_550_cov_1.03104
+
+CONTIG: NODE_32_length_813_cov_0.514006 (813bp)
+Top Length: 813  Top ID: 100.0
+		Marking as insignificant: 2253068 2253880 | 813 1 | 813 813 | 95.57 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_32_length_813_cov_0.514006
+		One align captures most of this contig: 43863 44675 | 1 813 | 813 813 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_32_length_813_cov_0.514006
+
+CONTIG: NODE_53_length_18642_cov_0.448148 (18642bp)
+Top Length: 18642  Top ID: 99.98
+		One align captures most of this contig: 2474839 2493480 | 18642 1 | 18642 18642 | 99.98 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_53_length_18642_cov_0.448148
+
+CONTIG: NODE_60_length_8990_cov_0.49342 (8990bp)
+Top Length: 8990  Top ID: 100.0
+		One align captures most of this contig: 1963913 1972902 | 1 8990 | 8990 8990 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_60_length_8990_cov_0.49342
+
+CONTIG: NODE_73_length_80286_cov_0.491663 (80286bp)
+Top Length: 80282  Top ID: 100.0
+		Marking as insignificant: 3251859 3252466 | 80286 79679 | 608 608 | 99.34 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_73_length_80286_cov_0.491663
+		One align captures most of this contig: 480309 560590 | 5 80286 | 80282 80282 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_73_length_80286_cov_0.491663
+
+CONTIG: NODE_2_length_2996_cov_0.411115 (2996bp)
+Top Length: 2996  Top ID: 100.0
+		One align captures most of this contig: 3436081 3439076 | 1 2996 | 2996 2996 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_2_length_2996_cov_0.411115
+
+CONTIG: NODE_68_length_94999_cov_0.468409 (94999bp)
+Top Length: 94999  Top ID: 99.99
+		Marking as insignificant: 43854 43947 | 94906 94999 | 94 94 | 97.87 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_68_length_94999_cov_0.468409
+		One align captures most of this contig: 2253796 2348794 | 94999 1 | 94999 94999 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_68_length_94999_cov_0.468409
+
+CONTIG: NODE_39_length_2679_cov_0.360853 (2679bp)
+Top Length: 2679  Top ID: 100.0
+		One align captures most of this contig: 455514 458192 | 2679 1 | 2679 2679 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_39_length_2679_cov_0.360853
+
+CONTIG: NODE_48_length_19234_cov_0.483407 (19234bp)
+Top Length: 19234  Top ID: 100.0
+		Marking as insignificant: 756428 756544 | 19234 19118 | 117 117 | 98.29 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_48_length_19234_cov_0.483407
+		One align captures most of this contig: 2597542 2616775 | 19234 1 | 19234 19234 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_48_length_19234_cov_0.483407
+
+CONTIG: NODE_56_length_8242_cov_0.522289 (8242bp)
+Top Length: 8238  Top ID: 100.0
+		One align captures most of this contig: 472086 480323 | 1 8238 | 8238 8238 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_56_length_8242_cov_0.522289
+
+CONTIG: NODE_88_length_278414_cov_0.470639 (278414bp)
+Top Length: 278414  Top ID: 99.99
+		Marking as insignificant: 46335 46412 | 278414 278337 | 78 78 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_88_length_278414_cov_0.470639
+		Marking as insignificant: 670408 670492 | 278414 278330 | 85 85 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_88_length_278414_cov_0.470639
+		One align captures most of this contig: 1972961 2251374 | 1 278414 | 278414 278414 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_88_length_278414_cov_0.470639
+
+CONTIG: NODE_82_length_43507_cov_0.495162 (43507bp)
+Top Length: 43507  Top ID: 100.0
+		One align captures most of this contig: 1051446 1094952 | 43507 1 | 43507 43507 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_82_length_43507_cov_0.495162
+
+CONTIG: NODE_41_length_6475_cov_0.476474 (6475bp)
+Top Length: 6475  Top ID: 100.0
+		Marking as insignificant: 4797224 4797334 | 111 1 | 111 111 | 95.5 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_41_length_6475_cov_0.476474
+		Marking as insignificant: 4796902 4797073 | 433 262 | 172 172 | 96.51 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_41_length_6475_cov_0.476474
+		One align captures most of this contig: 4767782 4774256 | 6475 1 | 6475 6475 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_41_length_6475_cov_0.476474
+
+CONTIG: NODE_83_length_156422_cov_0.483333 (156422bp)
+Top Length: 106856  Top ID: 99.99
+		Skipping redundant alignment 4356878 4367269 | 156422 146085 | 10392 10338 | 99.48 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_83_length_156422_cov_0.483333
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 4356878 4394614 | 156422 118740 | 37737 37683 | 99.86 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_83_length_156422_cov_0.483333
+			  Extensive misassembly ( relocation, inconsistency = -11926 ) between these two alignments
+			Real Alignment 2: 4394570 4501424 | 106858 3 | 106855 106856 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_83_length_156422_cov_0.483333
+
+CONTIG: NODE_3_length_777_cov_0.283186 (777bp)
+Top Length: 777  Top ID: 100.0
+		Marking as insignificant: 45274 45358 | 693 777 | 85 85 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_3_length_777_cov_0.283186
+		One align captures most of this contig: 2252376 2253152 | 777 1 | 777 777 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_3_length_777_cov_0.283186
+
+CONTIG: NODE_50_length_19053_cov_0.48623 (19053bp)
+Top Length: 19053  Top ID: 100.0
+		Marking as insignificant: 4797783 4797867 | 19053 18969 | 85 85 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_50_length_19053_cov_0.48623
+		Marking as insignificant: 4767355 4767442 | 88 1 | 88 88 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_50_length_19053_cov_0.48623
+		One align captures most of this contig: 4774714 4793766 | 19053 1 | 19053 19053 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_50_length_19053_cov_0.48623
+
+CONTIG: NODE_81_length_286481_cov_0.488135 (286481bp)
+Top Length: 209756  Top ID: 99.99
+		Skipping redundant alignment 4067114 4067216 | 1 103 | 103 103 | 99.03 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_81_length_286481_cov_0.488135
+		Skipping redundant alignment 4356676 4356924 | 286233 286481 | 249 249 | 95.98 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_81_length_286481_cov_0.488135
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 4068044 4103635 | 1 35563 | 35592 35563 | 99.9 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_81_length_286481_cov_0.488135
+			  Overlap between these two alignments (local misassembly). Inconsistency = -30
+			Real Alignment 2: 4083572 4144799 | 15530 76727 | 61228 61198 | 99.95 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_81_length_286481_cov_0.488135
+			  Extensive misassembly ( relocation, inconsistency = 2244 ) between these two alignments
+			Real Alignment 3: 4147042 4356798 | 76726 286481 | 209757 209756 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_81_length_286481_cov_0.488135
+
+CONTIG: NODE_35_length_2918_cov_0.396949 (2918bp)
+Top Length: 2918  Top ID: 100.0
+		Marking as insignificant: 3024322 3024415 | 2918 2825 | 94 94 | 97.87 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_35_length_2918_cov_0.396949
+		One align captures most of this contig: 3020705 3023622 | 2918 1 | 2918 2918 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_35_length_2918_cov_0.396949
+
+CONTIG: NODE_87_length_360674_cov_0.466627 (360674bp)
+Top Length: 360674  Top ID: 99.98
+		One align captures most of this contig: 2659379 3019999 | 360674 1 | 360621 360674 | 99.98 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_87_length_360674_cov_0.466627
+
+CONTIG: NODE_89_length_534_cov_0.763218 (534bp)
+Top Length: 534  Top ID: 100.0
+		One align captures most of this contig: 1384822 1385355 | 534 1 | 534 534 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_89_length_534_cov_0.763218
+
+CONTIG: NODE_52_length_25841_cov_0.446857 (25841bp)
+Top Length: 12141  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 458228 470368 | 25841 13701 | 12141 12141 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_52_length_25841_cov_0.446857
+			  Extensive misassembly ( relocation, inconsistency = -11901 ) between these two alignments
+			Real Alignment 2: 470367 472167 | 1801 1 | 1801 1801 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_52_length_25841_cov_0.446857
+
+CONTIG: NODE_78_length_515_cov_0.516827 (515bp)
+Top Length: 515  Top ID: 100.0
+		One align captures most of this contig: 4767352 4767866 | 515 1 | 515 515 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_78_length_515_cov_0.516827
+
+CONTIG: NODE_70_length_68613_cov_0.477391 (68613bp)
+Top Length: 68613  Top ID: 99.99
+		One align captures most of this contig: 1393384 1461996 | 68613 1 | 68613 68613 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_70_length_68613_cov_0.477391
+
+CONTIG: NODE_67_length_109456_cov_0.497124 (109456bp)
+Top Length: 109456  Top ID: 100.0
+		Marking as insignificant: 3251859 3251944 | 109371 109456 | 86 86 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_67_length_109456_cov_0.497124
+		Marking as insignificant: 45802 45887 | 86 1 | 86 86 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_67_length_109456_cov_0.497124
+		One align captures most of this contig: 560505 669960 | 109456 1 | 109456 109456 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_67_length_109456_cov_0.497124
+
+CONTIG: NODE_45_length_10140_cov_0.514491 (10140bp)
+Top Length: 10114  Top ID: 99.97
+		Marking as insignificant: 1315474 1315558 | 85 1 | 85 85 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_45_length_10140_cov_0.514491
+		One align captures most of this contig: 1305216 1315327 | 10114 1 | 10112 10114 | 99.97 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_45_length_10140_cov_0.514491
+
+CONTIG: NODE_1_length_518_cov_0.348449 (518bp)
+Top Length: 518  Top ID: 100.0
+		Marking as insignificant: 669875 669960 | 86 1 | 86 86 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_1_length_518_cov_0.348449
+		One align captures most of this contig: 45370 45887 | 518 1 | 518 518 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_1_length_518_cov_0.348449
+
+CONTIG: NODE_49_length_26228_cov_0.44242 (26228bp)
+Top Length: 26228  Top ID: 100.0
+		One align captures most of this contig: 1278949 1305176 | 26228 1 | 26228 26228 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_49_length_26228_cov_0.44242
+
+CONTIG: NODE_90_length_147663_cov_0.456859 (147663bp)
+Top Length: 147660  Top ID: 99.99
+		One align captures most of this contig: 1797070 1944728 | 147663 4 | 147659 147660 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_90_length_147663_cov_0.456859
+
+CONTIG: NODE_46_length_33658_cov_0.447332 (33658bp)
+Top Length: 33658  Top ID: 100.0
+		One align captures most of this contig: 3402522 3436179 | 33658 1 | 33658 33658 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_46_length_33658_cov_0.447332
+
+CONTIG: NODE_93_length_167691_cov_0.462045 (167691bp)
+Top Length: 167691  Top ID: 99.99
+		Marking as insignificant: 2597542 2597658 | 167691 167575 | 117 117 | 98.29 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_93_length_167691_cov_0.462045
+		One align captures most of this contig: 756428 924118 | 167691 1 | 167691 167691 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_93_length_167691_cov_0.462045
+
+CONTIG: NODE_69_length_147200_cov_0.502206 (147200bp)
+Top Length: 147200  Top ID: 100.0
+		Marking as insignificant: 4793679 4793763 | 85 1 | 85 85 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_69_length_147200_cov_0.502206
+		One align captures most of this contig: 4620240 4767439 | 147200 1 | 147200 147200 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_69_length_147200_cov_0.502206
+
+CONTIG: NODE_12_length_769_cov_0.350746 (769bp)
+Top Length: 769  Top ID: 100.0
+		Marking as insignificant: 2252375 2252460 | 769 684 | 86 86 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_12_length_769_cov_0.350746
+		One align captures most of this contig: 44591 45359 | 1 769 | 769 769 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_12_length_769_cov_0.350746
+
+CONTIG: NODE_38_length_2306_cov_0.522429 (2306bp)
+Top Length: 2306  Top ID: 100.0
+		One align captures most of this contig: 1794863 1797168 | 2306 1 | 2306 2306 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_38_length_2306_cov_0.522429
+
+CONTIG: NODE_64_length_65149_cov_0.507102 (65149bp)
+Top Length: 65123  Top ID: 99.99
+		One align captures most of this contig: 109891 175014 | 65123 1 | 65124 65123 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_64_length_65149_cov_0.507102
+
+CONTIG: NODE_77_length_127478_cov_0.466325 (127478bp)
+Top Length: 110696  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1149279 1166059 | 127478 110698 | 16781 16781 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_77_length_127478_cov_0.466325
+			  Gap between these two alignments (local misassembly). Inconsistency = 315
+			Real Alignment 2: 1166376 1277071 | 110696 1 | 110696 110696 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_77_length_127478_cov_0.466325
+
+CONTIG: NODE_47_length_14859_cov_0.47378 (14859bp)
+Top Length: 14859  Top ID: 99.99
+		One align captures most of this contig: 1036668 1051526 | 14859 1 | 14859 14859 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_47_length_14859_cov_0.47378
+
+CONTIG: NODE_95_length_627055_cov_0.47174 (627055bp)
+Top Length: 627055  Top ID: 99.99
+		Marking as insignificant: 4067821 4067905 | 626971 627055 | 85 85 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_95_length_627055_cov_0.47174
+		One align captures most of this contig: 3439920 4066975 | 1 627055 | 627056 627055 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_95_length_627055_cov_0.47174
+
+CONTIG: NODE_62_length_19649_cov_0.473606 (19649bp)
+Top Length: 19649  Top ID: 100.0
+		One align captures most of this contig: 220630 240278 | 1 19649 | 19649 19649 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_62_length_19649_cov_0.473606
+
+CONTIG: NODE_19_length_700_cov_0.306156 (700bp)
+Top Length: 700  Top ID: 100.0
+		One align captures most of this contig: 2251761 2252460 | 700 1 | 700 700 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_19_length_700_cov_0.306156
+
+CONTIG: NODE_55_length_70479_cov_0.475561 (70479bp)
+Top Length: 70478  Top ID: 100.0
+		Marking as insignificant: 560506 560590 | 70479 70395 | 85 85 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_55_length_70479_cov_0.475561
+		One align captures most of this contig: 3181466 3251943 | 2 70479 | 70478 70478 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_55_length_70479_cov_0.475561
+
+CONTIG: NODE_34_length_734_cov_0.834646 (734bp)
+Top Length: 734  Top ID: 97.3
+		One align captures most of this contig: 755566 756305 | 1 734 | 740 734 | 97.3 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_34_length_734_cov_0.834646
+
+CONTIG: NODE_97_length_75192_cov_0.474532 (75192bp)
+Top Length: 75192  Top ID: 99.99
+		Marking as insignificant: 1963605 1963689 | 85 1 | 85 85 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_97_length_75192_cov_0.474532
+		Marking as insignificant: 755568 755655 | 75105 75192 | 88 88 | 100.0 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_97_length_75192_cov_0.474532
+		One align captures most of this contig: 2521584 2596775 | 1 75192 | 75192 75192 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_97_length_75192_cov_0.474532
+
+CONTIG: NODE_59_length_27912_cov_0.450689 (27912bp)
+Top Length: 27912  Top ID: 99.99
+		One align captures most of this contig: 2493449 2521360 | 27912 1 | 27912 27912 | 99.99 | gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence NODE_59_length_27912_cov_0.450689
+
+Analyzing coverage...
+Writing SNPs into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1817/dataset_1899_files/Contig/contigs_reports/nucmer_output/MA-H-Spades-Contig.used_snps
+	Reference gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence: 83 total alignments. 1 total regions.
+		Region: 1 to 5067172 (5067172 bp)
+			Align 1: 1 28467 NODE_58_length_60941_cov_0.473127 28467 1
+				Gap between this and next alignment: 28467 to 28496 (28 bp)
+				Next Alignment: 28496 43948 NODE_37_length_15453_cov_0.467565 15453 1
+
+			Align 2: 28496 43948 NODE_37_length_15453_cov_0.467565 15453 1
+				Negative gap (overlap) between this and next alignment: 43948 to 43863 (-85 bp)
+				Next Alignment: 43863 44675 NODE_32_length_813_cov_0.514006 1 813
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 87.
+			Align 3: 43949 44675 NODE_32_length_813_cov_0.514006 87 813
+				Negative gap (overlap) between this and next alignment: 44675 to 44591 (-84 bp)
+				Next Alignment: 44591 45359 NODE_12_length_769_cov_0.350746 1 769
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 86.
+			Align 4: 44676 45359 NODE_12_length_769_cov_0.350746 86 769
+				Gap between this and next alignment: 45359 to 45370 (10 bp)
+				Next Alignment: 45370 45887 NODE_1_length_518_cov_0.348449 518 1
+
+			Align 5: 45370 45887 NODE_1_length_518_cov_0.348449 518 1
+				Gap between this and next alignment: 45887 to 46328 (440 bp)
+				Next Alignment: 46328 109771 NODE_75_length_63445_cov_0.500426 63445 1
+
+			Align 6: 46328 109771 NODE_75_length_63445_cov_0.500426 63445 1
+				Gap between this and next alignment: 109771 to 109891 (119 bp)
+				Next Alignment: 109891 175014 NODE_64_length_65149_cov_0.507102 65123 1
+
+			Align 7: 109891 175014 NODE_64_length_65149_cov_0.507102 65123 1
+				Negative gap (overlap) between this and next alignment: 175014 to 174989 (-25 bp)
+				Next Alignment: 174989 220638 NODE_71_length_45650_cov_0.446993 1 45650
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 27.
+			Align 8: 175015 220638 NODE_71_length_45650_cov_0.446993 27 45650
+				Negative gap (overlap) between this and next alignment: 220638 to 220630 (-8 bp)
+				Next Alignment: 220630 240278 NODE_62_length_19649_cov_0.473606 1 19649
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 10.
+			Align 9: 220639 240278 NODE_62_length_19649_cov_0.473606 10 19649
+				Negative gap (overlap) between this and next alignment: 240278 to 240202 (-76 bp)
+				Next Alignment: 240202 453603 NODE_80_length_213402_cov_0.481278 213402 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 213402 to 213325.
+			Align 10: 240279 453603 NODE_80_length_213402_cov_0.481278 213325 1
+				Gap between this and next alignment: 453603 to 455073 (1469 bp)
+				Next Alignment: 455073 455598 NODE_43_length_526_cov_0.641686 1 526
+
+			Align 11: 455073 455598 NODE_43_length_526_cov_0.641686 1 526
+				Negative gap (overlap) between this and next alignment: 455598 to 455514 (-84 bp)
+				Next Alignment: 455514 458192 NODE_39_length_2679_cov_0.360853 2679 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2679 to 2594.
+			Align 12: 455599 458192 NODE_39_length_2679_cov_0.360853 2594 1
+				Gap between this and next alignment: 458192 to 458228 (35 bp)
+				Next Alignment: 458228 470368 NODE_52_length_25841_cov_0.446857 25841 13701
+
+			Align 13: 458228 470368 NODE_52_length_25841_cov_0.446857 25841 13701
+				Negative gap (overlap) between this and next alignment: 470368 to 470367 (-1 bp)
+				Next Alignment: 470367 472167 NODE_52_length_25841_cov_0.446857 1801 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1801 to 1799.
+			Align 14: 470369 472167 NODE_52_length_25841_cov_0.446857 1799 1
+				Negative gap (overlap) between this and next alignment: 472167 to 472086 (-81 bp)
+				Next Alignment: 472086 480323 NODE_56_length_8242_cov_0.522289 1 8238
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 83.
+			Align 15: 472168 480323 NODE_56_length_8242_cov_0.522289 83 8238
+				Negative gap (overlap) between this and next alignment: 480323 to 480309 (-14 bp)
+				Next Alignment: 480309 560590 NODE_73_length_80286_cov_0.491663 5 80286
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 5 to 20.
+			Align 16: 480324 560590 NODE_73_length_80286_cov_0.491663 20 80286
+				Negative gap (overlap) between this and next alignment: 560590 to 560505 (-85 bp)
+				Next Alignment: 560505 669960 NODE_67_length_109456_cov_0.497124 109456 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 109456 to 109370.
+			Align 17: 560591 669960 NODE_67_length_109456_cov_0.497124 109370 1
+				Negative gap (overlap) between this and next alignment: 669960 to 669937 (-23 bp)
+				Next Alignment: 669937 670486 NODE_91_length_550_cov_1.03104 550 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 550 to 526.
+			Align 18: 669961 670486 NODE_91_length_550_cov_1.03104 526 1
+				Negative gap (overlap) between this and next alignment: 670486 to 670408 (-78 bp)
+				Next Alignment: 670408 679603 NODE_85_length_82817_cov_0.475108 1 9196
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 80.
+			Align 19: 670487 679603 NODE_85_length_82817_cov_0.475108 80 9196
+				Gap between this and next alignment: 679603 to 682031 (2427 bp)
+				Next Alignment: 682031 755653 NODE_85_length_82817_cov_0.475108 9195 82817
+
+			Align 20: 682031 755653 NODE_85_length_82817_cov_0.475108 9195 82817
+				Negative gap (overlap) between this and next alignment: 755653 to 755566 (-87 bp)
+				Next Alignment: 755566 756305 NODE_34_length_734_cov_0.834646 1 734
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 89.
+			Align 21: 755654 756305 NODE_34_length_734_cov_0.834646 89 734
+				Gap between this and next alignment: 756305 to 756428 (122 bp)
+				Next Alignment: 756428 924118 NODE_93_length_167691_cov_0.462045 167691 1
+
+			Align 22: 756428 924118 NODE_93_length_167691_cov_0.462045 167691 1
+				Negative gap (overlap) between this and next alignment: 924118 to 924094 (-24 bp)
+				Next Alignment: 924094 986952 NODE_92_length_92091_cov_0.463888 1 62859
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 26.
+			Align 23: 924119 986952 NODE_92_length_92091_cov_0.463888 26 62859
+				Gap between this and next alignment: 986952 to 987107 (154 bp)
+				Next Alignment: 987107 1016667 NODE_92_length_92091_cov_0.463888 62531 92091
+
+			Align 24: 987107 1016667 NODE_92_length_92091_cov_0.463888 62531 92091
+				Negative gap (overlap) between this and next alignment: 1016667 to 1016647 (-20 bp)
+				Next Alignment: 1016647 1036576 NODE_63_length_19939_cov_0.458569 10 19939
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 10 to 31.
+			Align 25: 1016668 1036576 NODE_63_length_19939_cov_0.458569 31 19939
+				Gap between this and next alignment: 1036576 to 1036668 (91 bp)
+				Next Alignment: 1036668 1051526 NODE_47_length_14859_cov_0.47378 14859 1
+
+			Align 26: 1036668 1051526 NODE_47_length_14859_cov_0.47378 14859 1
+				Negative gap (overlap) between this and next alignment: 1051526 to 1051446 (-80 bp)
+				Next Alignment: 1051446 1094952 NODE_82_length_43507_cov_0.495162 43507 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 43507 to 43426.
+			Align 27: 1051527 1094952 NODE_82_length_43507_cov_0.495162 43426 1
+				Negative gap (overlap) between this and next alignment: 1094952 to 1094872 (-80 bp)
+				Next Alignment: 1094872 1096083 NODE_11_length_1212_cov_0.573226 1212 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1212 to 1131.
+			Align 28: 1094953 1096083 NODE_11_length_1212_cov_0.573226 1131 1
+				Gap between this and next alignment: 1096083 to 1149279 (53195 bp)
+				Next Alignment: 1149279 1166059 NODE_77_length_127478_cov_0.466325 127478 110698
+
+			Align 29: 1149279 1166059 NODE_77_length_127478_cov_0.466325 127478 110698
+				Gap between this and next alignment: 1166059 to 1166376 (316 bp)
+				Next Alignment: 1166376 1277071 NODE_77_length_127478_cov_0.466325 110696 1
+
+			Align 30: 1166376 1277071 NODE_77_length_127478_cov_0.466325 110696 1
+				Gap between this and next alignment: 1277071 to 1277874 (802 bp)
+				Next Alignment: 1277874 1278762 NODE_84_length_890_cov_0.940582 889 1
+
+			Align 31: 1277874 1278762 NODE_84_length_890_cov_0.940582 889 1
+				Gap between this and next alignment: 1278762 to 1278949 (186 bp)
+				Next Alignment: 1278949 1305176 NODE_49_length_26228_cov_0.44242 26228 1
+
+			Align 32: 1278949 1305176 NODE_49_length_26228_cov_0.44242 26228 1
+				Gap between this and next alignment: 1305176 to 1305216 (39 bp)
+				Next Alignment: 1305216 1315327 NODE_45_length_10140_cov_0.514491 10114 1
+
+			Align 33: 1305216 1315327 NODE_45_length_10140_cov_0.514491 10114 1
+				Gap between this and next alignment: 1315327 to 1315478 (150 bp)
+				Next Alignment: 1315478 1384909 NODE_65_length_69432_cov_0.47719 69432 1
+
+			Align 34: 1315478 1384909 NODE_65_length_69432_cov_0.47719 69432 1
+				Negative gap (overlap) between this and next alignment: 1384909 to 1384822 (-87 bp)
+				Next Alignment: 1384822 1385355 NODE_89_length_534_cov_0.763218 534 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 534 to 446.
+			Align 35: 1384910 1385355 NODE_89_length_534_cov_0.763218 446 1
+				Negative gap (overlap) between this and next alignment: 1385355 to 1385265 (-90 bp)
+				Next Alignment: 1385265 1385785 NODE_10_length_521_cov_0.462085 1 521
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 92.
+			Align 36: 1385356 1385785 NODE_10_length_521_cov_0.462085 92 521
+				Gap between this and next alignment: 1385785 to 1386141 (355 bp)
+				Next Alignment: 1386141 1393365 NODE_42_length_7225_cov_0.484844 7225 1
+
+			Align 37: 1386141 1393365 NODE_42_length_7225_cov_0.484844 7225 1
+				Gap between this and next alignment: 1393365 to 1393384 (18 bp)
+				Next Alignment: 1393384 1461996 NODE_70_length_68613_cov_0.477391 68613 1
+
+			Align 38: 1393384 1461996 NODE_70_length_68613_cov_0.477391 68613 1
+				Gap between this and next alignment: 1461996 to 1462113 (116 bp)
+				Next Alignment: 1462113 1579224 NODE_76_length_117110_cov_0.481912 117110 1
+
+			Align 39: 1462113 1579224 NODE_76_length_117110_cov_0.481912 117110 1
+				Negative gap (overlap) between this and next alignment: 1579224 to 1579216 (-8 bp)
+				Next Alignment: 1579216 1794939 NODE_74_length_215724_cov_0.465391 1 215724
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 10.
+			Align 40: 1579225 1794939 NODE_74_length_215724_cov_0.465391 10 215724
+				Negative gap (overlap) between this and next alignment: 1794939 to 1794863 (-76 bp)
+				Next Alignment: 1794863 1797168 NODE_38_length_2306_cov_0.522429 2306 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2306 to 2229.
+			Align 41: 1794940 1797168 NODE_38_length_2306_cov_0.522429 2229 1
+				Negative gap (overlap) between this and next alignment: 1797168 to 1797070 (-98 bp)
+				Next Alignment: 1797070 1944728 NODE_90_length_147663_cov_0.456859 147663 4
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 147663 to 147564.
+			Align 42: 1797169 1944728 NODE_90_length_147663_cov_0.456859 147564 4
+				Negative gap (overlap) between this and next alignment: 1944728 to 1944726 (-2 bp)
+				Next Alignment: 1944726 1963689 NODE_61_length_18964_cov_0.410443 1 18964
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 4.
+			Align 43: 1944729 1963689 NODE_61_length_18964_cov_0.410443 4 18964
+				Gap between this and next alignment: 1963689 to 1963913 (223 bp)
+				Next Alignment: 1963913 1972902 NODE_60_length_8990_cov_0.49342 1 8990
+
+			Align 44: 1963913 1972902 NODE_60_length_8990_cov_0.49342 1 8990
+				Gap between this and next alignment: 1972902 to 1972961 (58 bp)
+				Next Alignment: 1972961 2251374 NODE_88_length_278414_cov_0.470639 1 278414
+
+			Align 45: 1972961 2251374 NODE_88_length_278414_cov_0.470639 1 278414
+				Gap between this and next alignment: 2251374 to 2251761 (386 bp)
+				Next Alignment: 2251761 2252460 NODE_19_length_700_cov_0.306156 700 1
+
+			Align 46: 2251761 2252460 NODE_19_length_700_cov_0.306156 700 1
+				Negative gap (overlap) between this and next alignment: 2252460 to 2252376 (-84 bp)
+				Next Alignment: 2252376 2253152 NODE_3_length_777_cov_0.283186 777 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 777 to 692.
+			Align 47: 2252461 2253152 NODE_3_length_777_cov_0.283186 692 1
+				Gap between this and next alignment: 2253152 to 2253796 (643 bp)
+				Next Alignment: 2253796 2348794 NODE_68_length_94999_cov_0.468409 94999 1
+
+			Align 48: 2253796 2348794 NODE_68_length_94999_cov_0.468409 94999 1
+				Gap between this and next alignment: 2348794 to 2348977 (182 bp)
+				Next Alignment: 2348977 2474869 NODE_86_length_125893_cov_0.47321 125893 1
+
+			Align 49: 2348977 2474869 NODE_86_length_125893_cov_0.47321 125893 1
+				Negative gap (overlap) between this and next alignment: 2474869 to 2474839 (-30 bp)
+				Next Alignment: 2474839 2493480 NODE_53_length_18642_cov_0.448148 18642 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 18642 to 18611.
+			Align 50: 2474870 2493480 NODE_53_length_18642_cov_0.448148 18611 1
+				Negative gap (overlap) between this and next alignment: 2493480 to 2493449 (-31 bp)
+				Next Alignment: 2493449 2521360 NODE_59_length_27912_cov_0.450689 27912 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 27912 to 27880.
+			Align 51: 2493481 2521360 NODE_59_length_27912_cov_0.450689 27880 1
+				Gap between this and next alignment: 2521360 to 2521584 (223 bp)
+				Next Alignment: 2521584 2596775 NODE_97_length_75192_cov_0.474532 1 75192
+
+			Align 52: 2521584 2596775 NODE_97_length_75192_cov_0.474532 1 75192
+				Gap between this and next alignment: 2596775 to 2597542 (766 bp)
+				Next Alignment: 2597542 2616775 NODE_48_length_19234_cov_0.483407 19234 1
+
+			Align 53: 2597542 2616775 NODE_48_length_19234_cov_0.483407 19234 1
+				Negative gap (overlap) between this and next alignment: 2616775 to 2616702 (-73 bp)
+				Next Alignment: 2616702 2659459 NODE_51_length_42757_cov_0.447255 1 42757
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 75.
+			Align 54: 2616776 2659459 NODE_51_length_42757_cov_0.447255 75 42757
+				Negative gap (overlap) between this and next alignment: 2659459 to 2659379 (-80 bp)
+				Next Alignment: 2659379 3019999 NODE_87_length_360674_cov_0.466627 360674 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 360674 to 360593.
+			Align 55: 2659460 3019999 NODE_87_length_360674_cov_0.466627 360593 1
+				Gap between this and next alignment: 3019999 to 3020705 (705 bp)
+				Next Alignment: 3020705 3023622 NODE_35_length_2918_cov_0.396949 2918 1
+
+			Align 56: 3020705 3023622 NODE_35_length_2918_cov_0.396949 2918 1
+				Gap between this and next alignment: 3023622 to 3024322 (699 bp)
+				Next Alignment: 3024322 3172192 NODE_98_length_147871_cov_0.466888 147871 1
+
+			Align 57: 3024322 3172192 NODE_98_length_147871_cov_0.466888 147871 1
+				Gap between this and next alignment: 3172192 to 3172229 (36 bp)
+				Next Alignment: 3172229 3181493 NODE_57_length_9269_cov_0.447219 1 9265
+
+			Align 58: 3172229 3181493 NODE_57_length_9269_cov_0.447219 1 9265
+				Negative gap (overlap) between this and next alignment: 3181493 to 3181466 (-27 bp)
+				Next Alignment: 3181466 3251943 NODE_55_length_70479_cov_0.475561 2 70479
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2 to 30.
+			Align 59: 3181494 3251943 NODE_55_length_70479_cov_0.475561 30 70479
+				Gap between this and next alignment: 3251943 to 3252356 (412 bp)
+				Next Alignment: 3252356 3349503 NODE_72_length_150258_cov_0.467691 1 97154
+
+			Align 60: 3252356 3349503 NODE_72_length_150258_cov_0.467691 1 97154
+				Negative gap (overlap) between this and next alignment: 3349503 to 3329503 (-20000 bp)
+				Next Alignment: 3329503 3402607 NODE_72_length_150258_cov_0.467691 77148 150258
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 77148 to 97161.
+			Align 61: 3349504 3402607 NODE_72_length_150258_cov_0.467691 97161 150258
+				Negative gap (overlap) between this and next alignment: 3402607 to 3402522 (-85 bp)
+				Next Alignment: 3402522 3436179 NODE_46_length_33658_cov_0.447332 33658 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 33658 to 33572.
+			Align 62: 3402608 3436179 NODE_46_length_33658_cov_0.447332 33572 1
+				Negative gap (overlap) between this and next alignment: 3436179 to 3436081 (-98 bp)
+				Next Alignment: 3436081 3439076 NODE_2_length_2996_cov_0.411115 1 2996
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 100.
+			Align 63: 3436180 3439076 NODE_2_length_2996_cov_0.411115 100 2996
+				Negative gap (overlap) between this and next alignment: 3439076 to 3438999 (-77 bp)
+				Next Alignment: 3438999 3439641 NODE_6_length_643_cov_0.485294 643 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 643 to 565.
+			Align 64: 3439077 3439641 NODE_6_length_643_cov_0.485294 565 1
+				Gap between this and next alignment: 3439641 to 3439920 (278 bp)
+				Next Alignment: 3439920 4066975 NODE_95_length_627055_cov_0.47174 1 627055
+
+			Align 65: 3439920 4066975 NODE_95_length_627055_cov_0.47174 1 627055
+				Negative gap (overlap) between this and next alignment: 4066975 to 4066891 (-84 bp)
+				Next Alignment: 4066891 4067905 NODE_94_length_1015_cov_0.718341 1015 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1015 to 930.
+			Align 66: 4066976 4067905 NODE_94_length_1015_cov_0.718341 930 1
+				Gap between this and next alignment: 4067905 to 4068044 (138 bp)
+				Next Alignment: 4068044 4103635 NODE_81_length_286481_cov_0.488135 1 35563
+
+			Align 67: 4068044 4103635 NODE_81_length_286481_cov_0.488135 1 35563
+				Negative gap (overlap) between this and next alignment: 4103635 to 4083572 (-20063 bp)
+				Next Alignment: 4083572 4144799 NODE_81_length_286481_cov_0.488135 15530 76727
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 15530 to 35534.
+			Align 68: 4103636 4144799 NODE_81_length_286481_cov_0.488135 35534 76727
+				Gap between this and next alignment: 4144799 to 4147042 (2242 bp)
+				Next Alignment: 4147042 4356798 NODE_81_length_286481_cov_0.488135 76726 286481
+
+			Align 69: 4147042 4356798 NODE_81_length_286481_cov_0.488135 76726 286481
+				Gap between this and next alignment: 4356798 to 4356878 (79 bp)
+				Next Alignment: 4356878 4394614 NODE_83_length_156422_cov_0.483333 156422 118740
+
+			Align 70: 4356878 4394614 NODE_83_length_156422_cov_0.483333 156422 118740
+				Negative gap (overlap) between this and next alignment: 4394614 to 4394570 (-44 bp)
+				Next Alignment: 4394570 4501424 NODE_83_length_156422_cov_0.483333 106858 3
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 106858 to 106813.
+			Align 71: 4394615 4501424 NODE_83_length_156422_cov_0.483333 106813 3
+				Negative gap (overlap) between this and next alignment: 4501424 to 4501346 (-78 bp)
+				Next Alignment: 4501346 4620236 NODE_66_length_118896_cov_0.48577 6 118896
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 6 to 85.
+			Align 72: 4501425 4620236 NODE_66_length_118896_cov_0.48577 85 118896
+				Gap between this and next alignment: 4620236 to 4620240 (3 bp)
+				Next Alignment: 4620240 4767439 NODE_69_length_147200_cov_0.502206 147200 1
+
+			Align 73: 4620240 4767439 NODE_69_length_147200_cov_0.502206 147200 1
+				Negative gap (overlap) between this and next alignment: 4767439 to 4767352 (-87 bp)
+				Next Alignment: 4767352 4767866 NODE_78_length_515_cov_0.516827 515 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 515 to 427.
+			Align 74: 4767440 4767866 NODE_78_length_515_cov_0.516827 427 1
+				Negative gap (overlap) between this and next alignment: 4767866 to 4767782 (-84 bp)
+				Next Alignment: 4767782 4774256 NODE_41_length_6475_cov_0.476474 6475 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 6475 to 6390.
+			Align 75: 4767867 4774256 NODE_41_length_6475_cov_0.476474 6390 1
+				Negative gap (overlap) between this and next alignment: 4774256 to 4774171 (-85 bp)
+				Next Alignment: 4774171 4774800 NODE_30_length_630_cov_0.760829 1 630
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 87.
+			Align 76: 4774257 4774800 NODE_30_length_630_cov_0.760829 87 630
+				Negative gap (overlap) between this and next alignment: 4774800 to 4774714 (-86 bp)
+				Next Alignment: 4774714 4793766 NODE_50_length_19053_cov_0.48623 19053 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 19053 to 18966.
+			Align 77: 4774801 4793766 NODE_50_length_19053_cov_0.48623 18966 1
+				Gap between this and next alignment: 4793766 to 4794106 (339 bp)
+				Next Alignment: 4794106 4797333 NODE_40_length_3228_cov_0.460531 1 3228
+
+			Align 78: 4794106 4797333 NODE_40_length_3228_cov_0.460531 1 3228
+				Gap between this and next alignment: 4797333 to 4797783 (449 bp)
+				Next Alignment: 4797783 4811347 NODE_54_length_13564_cov_0.481025 13564 1
+
+			Align 79: 4797783 4811347 NODE_54_length_13564_cov_0.481025 13564 1
+				Gap between this and next alignment: 4811347 to 4811527 (179 bp)
+				Next Alignment: 4811527 4814268 NODE_29_length_2742_cov_0.542944 1 2742
+
+			Align 80: 4811527 4814268 NODE_29_length_2742_cov_0.542944 1 2742
+				Gap between this and next alignment: 4814268 to 4814446 (177 bp)
+				Next Alignment: 4814446 4913715 NODE_96_length_220137_cov_0.506603 1 99271
+
+			Align 81: 4814446 4913715 NODE_96_length_220137_cov_0.506603 1 99271
+				Negative gap (overlap) between this and next alignment: 4913715 to 4913627 (-88 bp)
+				Next Alignment: 4913627 5034735 NODE_96_length_220137_cov_0.506603 99030 220137
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 99030 to 99119.
+			Align 82: 4913716 5034735 NODE_96_length_220137_cov_0.506603 99119 220137
+				Negative gap (overlap) between this and next alignment: 5034735 to 5034699 (-36 bp)
+				Next Alignment: 5034699 5067172 NODE_58_length_60941_cov_0.473127 60941 28468
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 60941 to 60904.
+			Align 83: 5034736 5067172 NODE_58_length_60941_cov_0.473127 60904 28468
+			END in current alignment.  Modifying 5067172 to 5067172.
+
+ERROR: Reference [$ref] does not have any alignments!  Check that this is the same file used for alignment.
+ERROR: Alignment Reference Headers: ['gi|169627108|ref|NC_010397.1|_Mycobacterium_abscessus_chromosome__complete_sequence']
+Analysis is finished!
+Founded SNPs were written into /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1817/dataset_1899_files/Contig/contigs_reports/nucmer_output/MA-H-Spades-Contig.used_snps
+
+Results:
+	Local Misassemblies: 5
+	Misassemblies: 4
+		Relocations: 4
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 4
+	Misassembled Contig Bases: 551561
+	Misassmblies Inter-Contig Overlap: 40616
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 1 part
+Partially Unaligned Contigs with Misassemblies: 1
+Unaligned Contig Bases: 54213
+
+Ambiguously Mapped Contigs: 2
+Total Bases in Ambiguously Mapped Contigs: 1439
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 4998883
+
+	SNPs: 107
+	Insertions: 74
+	Deletions: 141
+
+	Positive Gaps: 39
+		Internal Gaps:  4
+		External Gaps:  35
+		External Gap Total:  63150
+		External Gap Average: 1804
+	Negative Gaps: 43
+		Internal Overlaps:  5
+		External Overlaps:  38
+		External Overlaps Total: -2420
+		External Overlaps Average: -64
+	Contigs with Redundant Alignments: 0 (0)

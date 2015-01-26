@@ -1,0 +1,132 @@
+#!/usr/bin/python
+import htmlHelpFile as hhf, combineResult as cr, sys, os, sqlite3
+
+def writeHtmlFile(path):
+    #Process result, add xy-plot functionality and assessment
+    result = open('result.html', 'w')
+    result.write('<!DOCTYPE html>\n')
+    result.write('<html lang="en">\n')
+    result.write('  <head></head>\n')
+    result.write('  <body>\n')
+    result.write('    <a name="top"><h1>Tool output</h1></a>\n')
+    result.write('    <small>Compare this output? Use the tool <i>Compare statistics</i> from the tool menu.</small><br>\n')
+    result.write('    <p><h2>Content</h2>\n')
+    result.write('    <dl>\n')
+    for pl in [d for d in sorted(os.listdir(path), key=str.lower) if os.path.isdir(path+'/'+d)]:
+        #Make scroll-links
+        result.write('    <dt><a href="#'+pl+'"><strong><font color="black">'+pl+'</font></strong></a>')
+        result.write('        <a href="'+pl+'.zip">Download</a></dt>\n<dd>')
+        for p in [d for d in sorted(os.listdir(path+'/'+pl), key=str.lower) if os.path.isdir(path+'/'+pl+'/'+d)]:
+            if p.strip() != 'report_html_aux':
+                result.write('    <a href="#'+pl+'-'+p+'"><font color="black">'+p+'</font></a><br>\n')
+                if (p.strip() == 'contigs_reports') & (os.path.isdir(path+'/'+pl+'/contigs_reports/nucmer_output')):
+                    result.write('    <a href="#'+pl+'-'+p+'-nucmer_output"><font color="black">nucmer_output</font></a><br>\n')
+            
+        result.write('    </dd><br>\n')
+    result.write('    </dl>\n')
+    for pathlist in [d for d in sorted(os.listdir(path), key=str.lower) if os.path.isdir(path+'/'+d)]:
+        path += '/'+pathlist
+        #Show result
+        result.write('    <hr>\n<a name="'+pathlist+'"><h3>'+pathlist+'</h3></a><ul>\n')
+        for filename in [f for f in sorted(os.listdir(path), key=str.lower) if os.path.isfile(path+'/'+f)]:
+            result.write('    <li><a href="'+pathlist+'/'+filename+'">'+filename+'</a><br>\n')
+        result.write('    </ul></p>\n')
+        #Add all the other folders
+        for p in [d for d in sorted(os.listdir(path), key=str.lower) if os.path.isdir(path+'/'+d)]:
+            if p.strip() != 'report_html_aux':
+                result.write('   <p><a name="'+pathlist+'-'+p+'"><strong>'+p+'</strong></a><ul>\n')
+                for filename in [f for f in sorted(os.listdir(path+'/'+p), key=str.lower) if os.path.isfile(path+'/'+p+'/'+f)]:
+                    result.write('    <li><a href="'+pathlist+'/'+p+'/'+filename+'">'+filename+'</a><br>\n')
+                if (p.strip() == 'contigs_reports') & (os.path.isdir(path+'/contigs_reports/nucmer_output')):
+                    result.write('    <li><a name="'+pathlist+'-'+p+'-nucmer_output"><strong>nucmer_output</strong></a><br><ul>\n')
+                    tmpPath = path+'/contigs_reports/nucmer_output'
+                    for filename in [f for f in sorted(os.listdir(tmpPath), key=str.lower) if os.path.isfile(tmpPath+'/'+f)]:
+                        result.write('    <li><a href="'+path+'/'+filename+'">'+filename+'</a><br>\n')
+                    result.write('     </ul>\n')
+                result.write('    </ul></p>\n')
+        result.write('    <a href="#top"><font color="black">[To the top]</font></a><br>')	
+        #Get original path
+        path = path[:-len(pathlist)-1]
+    result.write('    </body>\n')
+    result.write('</html>')
+    result.close()
+        
+if __name__ == '__main__':
+    global history; history = [] #History element with previous run
+    global path; path = ''
+    
+    for arg in sys.argv:
+        if arg.startswith('History'):
+            history.append(arg[7:])
+        else: #path
+            path = arg
+    #sqlite data
+    connection = sqlite3.connect(path.split('galaxy-dist')[0]+'galaxy-dist/database/universe.sqlite')
+    sql = connection.cursor()
+    #get current historyID
+    historyLen = len(history)
+    start = 0
+    tmpHistory = []
+    for h in range(historyLen):
+        sql.execute('select hid from history_dataset_association where dataset_id = '+history[h].split('/')[-1].replace('dataset_','')[:-4])
+        historyNr = sql.fetchone()[0]
+        history[h] = history[h].replace('.dat','_files')
+        if os.path.exists(history[h]):
+            tmpHistory.append(history[h])
+        else:
+            print 'Omitting data',historyNr,'which does not contain "Compute statistics" tool-output'
+
+    history = tmpHistory
+    if len(history) < 2:
+        raise ValueError('Provide at least two tool output/results')
+
+    os.system('mkdir '+path)
+
+    historyNr0 = 1
+    if os.path.exists(history[0]+'/Combined_history'):
+        history[0] += '/Combined_history'
+    elif os.path.exists(history[0]+'/Combined_reference'):
+        history[0] += '/Combined_reference'
+    elif os.path.exists(history[0]+'/Combined_dataset'):
+        history[0] += '/Combined_dataset'
+    elif os.path.exists(history[0]+'/Contig'):
+        history[0] += '/Contig'
+    elif os.path.exists(history[0]+'/Scaffold'):
+        history[0] += '/Scaffold'
+    os.system('ln -s '+history[0]+'/ '+path+'/history_'+str(historyNr0))
+    
+    first = True
+    for h in range(1,len(history)):
+        if os.path.exists(history[h]+'/Combined_history'):
+            history[h] += '/Combined_history'
+        elif os.path.exists(history[h]+'/Combined_reference'):
+            history[h] += '/Combined_reference'
+        elif os.path.exists(history[h]+'/Combined_dataset'):
+            history[h] += '/Combined_dataset'
+        elif os.path.exists(history[h]+'/Contig'):
+            history[h] += '/Contig'
+        elif os.path.exists(history[h]+'/Scaffold'):
+            history[h] += '/Scaffold'
+        historyNr = h+1
+        if not os.path.exists(path+'/history_'+str(historyNr)):
+            os.system('ln -s '+history[h]+' '+path+'/history_'+str(historyNr))
+        
+            if first:
+                cr.combineHistory(history[0], \
+                                  history[h], \
+                                  path+'/Combined_history', False, '1', str(historyNr))
+                first = False
+            else:
+                cr.combineHistory(path+'/Combined_history', \
+                                  history[h], \
+                                  path+'/Combined_history', True, '', str(historyNr))
+        else:
+            print 'Omitting duplicate data',historyNr
+    count = 0
+    for f in os.listdir(path):
+        if f.startswith('history_'): count += 1
+    if count < 2:
+        os.system('rm '+path+'/history_*')
+        raise ValueError('Provide at least two different tool output/results')
+    os.system('rm '+path+'/history_*')
+    writeHtmlFile(path)

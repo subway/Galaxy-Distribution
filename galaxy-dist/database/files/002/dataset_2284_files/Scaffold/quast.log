@@ -1,0 +1,147 @@
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold -R /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna -G /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/V_cholerae_O1_biovar_eltor_str_N1696.gff -l GAGE-B, SOAPdenovo2, SOAPdenovo2_GP --contig-thresholds 500,1000 --scaffolds /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2274.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2279.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2280.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.32-431.11.2.el6.x86_64-x86_64-with-redhat-6.5-Santiago
+  Python version: 2.7.6
+  CPUs number: 64
+
+Started: 2014-06-16 17:56:02
+
+Logging to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna ==> V_cholerae_O1_biovar_eltor_str_N1696
+
+Contigs:
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2274.dat ==> GAGE-B
+  breaking scaffolds into contigs:
+      1 scaffolds (GAGE-B) were broken into 312 contigs (GAGE-B_broken)
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2279.dat ==> SOAPdenovo2
+  breaking scaffolds into contigs:
+      1 scaffolds (SOAPdenovo2) were broken into 563 contigs (SOAPdenovo2_broken)
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2280.dat ==> SOAPdenovo2_GP
+  breaking scaffolds into contigs:
+      120588 scaffolds (SOAPdenovo2_GP) were broken into 281 contigs (SOAPdenovo2_GP_broken)
+
+2014-06-16 17:56:06
+Running Basic statistics processor...
+  Reference genome:
+    V_cholerae_O1_biovar_eltor_str_N1696.fna, Reference length = 4033464, Reference GC % = 47.49
+  Contig files: 
+    1  GAGE-B broken
+    2  GAGE-B
+    3  SOAPdenovo2 broken
+    4  SOAPdenovo2
+    5  SOAPdenovo2_GP broken
+    6  SOAPdenovo2_GP
+  Calculating N50 and L50...
+    1  GAGE-B broken, N50 = 71357, L50 = 15, Total length = 3924635, GC % = 47.56, # N's per 100 kbp =  0.00
+    2  GAGE-B, N50 = 91942, L50 = 14, Total length = 3933425, GC % = 47.55, # N's per 100 kbp =  92.34
+    3  SOAPdenovo2 broken, N50 = 30205, L50 = 37, Total length = 3882932, GC % = 47.60, # N's per 100 kbp =  0.00
+    4  SOAPdenovo2, N50 = 92267, L50 = 14, Total length = 3955352, GC % = 47.55, # N's per 100 kbp =  1026.18
+    5  SOAPdenovo2_GP broken, N50 = 92055, L50 = 14, Total length = 3934552, GC % = 47.54, # N's per 100 kbp =  2.49
+    6  SOAPdenovo2_GP, N50 = 92055, L50 = 14, Total length = 3936790, GC % = 47.54, # N's per 100 kbp =  19.74
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/basic_stats/NGx_plot.pdf
+Done.
+
+2014-06-16 17:56:10
+Running Contig analyzer...
+  1  GAGE-B broken
+  1  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/contigs_reports/contigs_report_GAGE-B_broken.stdout and contigs_report_GAGE-B_broken.stderr...
+  2  GAGE-B
+  3  SOAPdenovo2 broken
+  4  SOAPdenovo2
+  2  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/contigs_reports/contigs_report_GAGE-B.stdout and contigs_report_GAGE-B.stderr...
+  3  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/contigs_reports/contigs_report_SOAPdenovo2_broken.stdout and contigs_report_SOAPdenovo2_broken.stderr...
+  4  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/contigs_reports/contigs_report_SOAPdenovo2.stdout and contigs_report_SOAPdenovo2.stderr...
+  1  Running Nucmer... 
+  4  Running Nucmer... 
+  5  SOAPdenovo2_GP broken
+  6  SOAPdenovo2_GP
+  2  Running Nucmer... 
+  3  Running Nucmer... 
+  5  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/contigs_reports/contigs_report_SOAPdenovo2_GP_broken.stdout and contigs_report_SOAPdenovo2_GP_broken.stderr...
+  6  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/contigs_reports/contigs_report_SOAPdenovo2_GP.stdout and contigs_report_SOAPdenovo2_GP.stderr...
+  5  Running Nucmer... 
+  6  Running Nucmer... 
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/contigs_reports/alignments_SOAPdenovo2_broken.tsv
+  23504 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/contigs_reports/alignments_SOAPdenovo2.tsv
+  44299 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/contigs_reports/alignments_GAGE-B.tsv
+  44171 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/contigs_reports/alignments_GAGE-B_broken.tsv
+  44171 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/contigs_reports/alignments_SOAPdenovo2_GP.tsv
+  44300 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/contigs_reports/alignments_SOAPdenovo2_GP_broken.tsv
+  44300 Analysis is finished.
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-06-16 17:56:26
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    1  GAGE-B broken, Largest alignment = 246179, NA50 = 71357, NGA50 = 68152, LA50 = 15, LGA50 = 16
+    2  GAGE-B, Largest alignment = 246179, NA50 = 91942, NGA50 = 89759, LA50 = 14, LGA50 = 15
+    3  SOAPdenovo2 broken, Largest alignment = 107390, NA50 = 30205, NGA50 = 28829, LA50 = 37, LGA50 = 40
+    4  SOAPdenovo2, Largest alignment = 246082, NA50 = 91868, NGA50 = 89757, LA50 = 14, LGA50 = 15
+    5  SOAPdenovo2_GP broken, Largest alignment = 246327, NA50 = 86917, NGA50 = 86917, LA50 = 15, LGA50 = 15
+    6  SOAPdenovo2_GP, Largest alignment = 246327, NA50 = 92054, NGA50 = 89882, LA50 = 14, LGA50 = 15
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-06-16 17:56:28
+Running Genome analyzer...
+  Loaded 3693 genes
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  1  GAGE-B broken
+  2  GAGE-B
+  3  SOAPdenovo2 broken
+  4  SOAPdenovo2
+  5  SOAPdenovo2_GP broken
+  6  SOAPdenovo2_GP
+  Drawing genes cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-06-16 17:56:45
+Summarizing...
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/report.html
+  All pdf files are merged to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/plots.pdf
+Log saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2202/dataset_2284_files/Scaffold/quast.log
+
+Finished: 2014-06-16 17:56:45
+Elapsed time: 0:00:43.461519

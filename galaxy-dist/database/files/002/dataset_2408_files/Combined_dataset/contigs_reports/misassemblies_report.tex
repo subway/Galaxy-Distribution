@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{16}{|r}|}
+\hline
+Assembly & CABOG\_miseq\_ctg & CABOG\_hiseq\_ctg & MaSuRCA\_miseq\_ctg & MaSuRCA\_hiseq\_ctg & SPAdes\_miseq\_ctg & SPAdes\_hiseq\_ctg & Velvet\_miseq\_ctg & Velvet\_hiseq\_ctg & CABOG\_miseq\_scf & CABOG\_hiseq\_scf & MaSuRCA\_miseq\_scf & MaSuRCA\_hiseq\_scf & SPAdes\_miseq\_scf & SPAdes\_hiseq\_scf & Velvet\_miseq\_scf & Velvet\_hiseq\_scf \\ \hline
+\# misassemblies & 8 & 8 & 9 & 8 & {\bf 4} & 8 & 5 & 9 & 9 & 10 & 11 & 13 & {\bf 4} & 8 & 6 & 10 \\ \hline
+\hspace{5mm}\# relocations & 7 & 7 & 7 & 7 & {\bf 4} & 7 & 5 & 9 & 7 & 9 & 9 & 12 & {\bf 4} & 7 & 6 & 9 \\ \hline
+\hspace{5mm}\# translocations & 1 & 1 & 2 & 1 & {\bf 0} & 1 & {\bf 0} & {\bf 0} & 2 & 1 & 2 & 1 & {\bf 0} & 1 & {\bf 0} & 1 \\ \hline
+\hspace{5mm}\# inversions & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# misassembled contigs & 7 & 7 & 9 & 8 & {\bf 3} & 7 & 5 & 9 & 8 & 8 & 11 & 12 & {\bf 3} & 7 & 6 & 9 \\ \hline
+Misassembled contigs length & 30914 & 39006 & 140011 & 228152 & 533480 & 613451 & {\bf 28731} & 127292 & 46637 & 169129 & 151551 & 610408 & 533480 & 613488 & 45660 & 273985 \\ \hline
+\# local misassemblies & 6 & 7 & 6 & 6 & {\bf 1} & 3 & 3 & 9 & 6 & 38 & 6 & 20 & 3 & 6 & 6 & 123 \\ \hline
+\# mismatches & 263 & 353 & 196 & 2009 & 270 & 266 & {\bf 164} & 229 & 265 & 315 & 196 & 2024 & 280 & 262 & 168 & 225 \\ \hline
+\# indels & 140 & 172 & 131 & 224 & 132 & 133 & {\bf 102} & 122 & 140 & 2431 & 131 & 664 & 136 & 152 & 103 & 205 \\ \hline
+\hspace{5mm}\# short indels ($\leq$ 5 bp) & 138 & 169 & 126 & 216 & 130 & 125 & {\bf 98} & 116 & 138 & 2267 & 126 & 646 & 134 & 142 & {\bf 98} & 196 \\ \hline
+\hspace{5mm}\# long indels ($>$ 5 bp) & {\bf 2} & 3 & 5 & 8 & {\bf 2} & 8 & 4 & 6 & {\bf 2} & 164 & 5 & 18 & {\bf 2} & 10 & 5 & 9 \\ \hline
+Indels length & 158 & 200 & 169 & 301 & 173 & 288 & {\bf 137} & 174 & 158 & 5718 & 169 & 954 & 174 & 358 & 145 & 374 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

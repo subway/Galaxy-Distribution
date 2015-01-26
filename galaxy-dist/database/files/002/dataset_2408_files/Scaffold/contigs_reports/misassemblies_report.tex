@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{16}{|r}|}
+\hline
+Assembly & CABOG\_miseq\_scf broken & CABOG\_miseq\_scf & CABOG\_hiseq\_scf broken & CABOG\_hiseq\_scf & MaSuRCA\_miseq\_scf broken & MaSuRCA\_miseq\_scf & MaSuRCA\_hiseq\_scf broken & MaSuRCA\_hiseq\_scf & SPAdes\_miseq\_scf broken & SPAdes\_miseq\_scf & SPAdes\_hiseq\_scf broken & SPAdes\_hiseq\_scf & Velvet\_miseq\_scf broken & Velvet\_miseq\_scf & Velvet\_hiseq\_scf broken & Velvet\_hiseq\_scf \\ \hline
+\# misassemblies & 8 & 9 & 8 & 10 & 9 & 11 & 8 & 13 & {\bf 4} & {\bf 4} & 8 & 8 & 5 & 6 & 8 & 10 \\ \hline
+\hspace{5mm}\# relocations & 7 & 7 & 7 & 9 & 7 & 9 & 7 & 12 & {\bf 4} & {\bf 4} & 7 & 7 & 5 & 6 & 8 & 9 \\ \hline
+\hspace{5mm}\# translocations & 1 & 2 & 1 & 1 & 2 & 2 & 1 & 1 & {\bf 0} & {\bf 0} & 1 & 1 & {\bf 0} & {\bf 0} & {\bf 0} & 1 \\ \hline
+\hspace{5mm}\# inversions & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# misassembled contigs & 7 & 8 & 7 & 8 & 9 & 11 & 8 & 12 & {\bf 3} & {\bf 3} & 7 & 7 & 5 & 6 & 8 & 9 \\ \hline
+Misassembled contigs length & 30914 & 46637 & 39006 & 169129 & 140011 & 151551 & 228152 & 610408 & 533480 & 533480 & 613488 & 613488 & {\bf 28731} & 45660 & 69468 & 273985 \\ \hline
+\# local misassemblies & 6 & 6 & 7 & 38 & 6 & 6 & 6 & 20 & {\bf 3} & {\bf 3} & 6 & 6 & {\bf 3} & 6 & 6 & 123 \\ \hline
+\# mismatches & 263 & 265 & 353 & 315 & 205 & 196 & 2008 & 2024 & 280 & 280 & 262 & 262 & {\bf 155} & 168 & 221 & 225 \\ \hline
+\# indels & 140 & 140 & 172 & 2431 & 131 & 131 & 223 & 664 & 136 & 136 & 152 & 152 & {\bf 102} & 103 & 131 & 205 \\ \hline
+\hspace{5mm}\# short indels ($\leq$ 5 bp) & 138 & 138 & 169 & 2267 & 126 & 126 & 216 & 646 & 134 & 134 & 142 & 142 & {\bf 98} & {\bf 98} & 126 & 196 \\ \hline
+\hspace{5mm}\# long indels ($>$ 5 bp) & {\bf 2} & {\bf 2} & 3 & 164 & 5 & 5 & 7 & 18 & {\bf 2} & {\bf 2} & 10 & 10 & 4 & 5 & 5 & 9 \\ \hline
+Indels length & 158 & 158 & 200 & 5718 & 169 & 169 & 292 & 954 & 174 & 174 & 358 & 358 & {\bf 137} & 145 & 173 & 374 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

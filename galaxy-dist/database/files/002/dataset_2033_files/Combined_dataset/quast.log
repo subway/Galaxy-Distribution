@@ -1,0 +1,69 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1951/dataset_2033_files/Combined_dataset -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/V_cholerae_O1_biovar_eltor_str_N1696.gff -l GAGE-B_abyss_hiseq_ctg, abyss_1.3.4, abyss_1.3.6, GAGE-B_abyss_hiseq_scf /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2028.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2022.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2024.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2029.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.8.1.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-05-30 21:34:58
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1951/dataset_2033_files/Combined_dataset/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna ==> V_cholerae_O1_biovar_eltor_str_N1696
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2028.dat ==> GAGE-B_abyss_hiseq_ctg
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2022.dat ==> abyss_1.3.4
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2024.dat ==> abyss_1.3.6
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2029.dat ==> GAGE-B_abyss_hiseq_scf
+
+2014-05-30 21:35:00
+Running Basic statistics processor...
+  Reference genome:
+    V_cholerae_O1_biovar_eltor_str_N1696.fna, Reference length = 4033464, Reference GC % = 47.49
+  Contig files: 
+    1  GAGE-B_abyss_hiseq_ctg
+    2  abyss_1.3.4
+    3  abyss_1.3.6
+    4  GAGE-B_abyss_hiseq_scf
+  Calculating N50 and L50...
+    1  GAGE-B_abyss_hiseq_ctg, N50 = 94508, L50 = 13, Total length = 4086478, GC % = 47.57, # N's per 100 kbp =  100.94
+    2  abyss_1.3.4, N50 = 25689, L50 = 44, Total length = 3895189, GC % = 47.52, # N's per 100 kbp =  0.00
+    3  abyss_1.3.6, N50 = 25689, L50 = 44, Total length = 3895189, GC % = 47.52, # N's per 100 kbp =  0.00
+    4  GAGE-B_abyss_hiseq_scf, N50 = 217596, L50 = 6, Total length = 4109111, GC % = 47.57, # N's per 100 kbp =  424.33
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1951/dataset_2033_files/Combined_dataset/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1951/dataset_2033_files/Combined_dataset/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1951/dataset_2033_files/Combined_dataset/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1951/dataset_2033_files/Combined_dataset/basic_stats/NGx_plot.pdf
+Done.
+
+2014-05-30 21:35:03
+Running Contig analyzer...
+  1  GAGE-B_abyss_hiseq_ctg
+  2  abyss_1.3.4
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1951/dataset_2033_files/Combined_dataset/contigs_reports/contigs_report_abyss_1.3.stdout and contigs_report_abyss_1.3.stderr...
+  3  abyss_1.3.6
+  4  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1951/dataset_2033_files/Combined_dataset/contigs_reports/contigs_report_GAGE-B_abyss_hiseq_scf.stdout and contigs_report_GAGE-B_abyss_hiseq_scf.stderr...
+  2  Running Nucmer... 
+  3  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1951/dataset_2033_files/Combined_dataset/contigs_reports/contigs_report_abyss_1.3.stdout and contigs_report_abyss_1.3.stderr...
+  1  Running Nucmer... 
+  4  Running Nucmer... 
+  3  Running Nucmer... 
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1951/dataset_2033_files/Combined_dataset/contigs_reports/alignments_GAGE-B_abyss_hiseq_scf.tsv
+  27391 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1951/dataset_2033_files/Combined_dataset/contigs_reports/alignments_abyss_1.3.tsv
+  25610 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1951/dataset_2033_files/Combined_dataset/contigs_reports/alignments_GAGE-B_abyss_hiseq_ctg.tsv
+  27391 Analysis is finished.

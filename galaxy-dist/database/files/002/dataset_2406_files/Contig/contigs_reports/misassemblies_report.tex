@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{12}{|r}|}
+\hline
+Assembly & CABOG\_miseq\_ctg & CABOG\_hiseq\_ctg & MIRA\_miseq\_ctg & MIRA\_hiseq\_ctg & MaSuRCA\_miseq\_ctg & MaSuRCA\_hiseq\_ctg & SOAPdenovo\_miseq\_ctg & SOAPdenovo\_hiseq\_ctg & SPAdes\_miseq\_ctg & SPAdes\_hiseq\_ctg & Velvet\_miseq\_ctg & Velvet\_hiseq\_ctg \\ \hline
+\# misassemblies & 7 & 10 & 23 & 45 & 19 & 8 & {\bf 2} & {\bf 2} & 5 & 4 & 5 & 9 \\ \hline
+\hspace{5mm}\# relocations & 5 & 8 & 20 & 41 & 14 & 7 & {\bf 2} & {\bf 2} & 5 & 4 & 5 & 9 \\ \hline
+\hspace{5mm}\# translocations & 2 & 2 & 3 & 4 & 5 & 1 & {\bf 0} & {\bf 0} & {\bf 0} & {\bf 0} & {\bf 0} & {\bf 0} \\ \hline
+\hspace{5mm}\# inversions & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\ \hline
+\# misassembled contigs & 7 & 10 & 21 & 34 & 19 & 7 & {\bf 2} & {\bf 2} & 5 & 4 & 5 & 9 \\ \hline
+Misassembled contigs length & 15751 & 94087 & 357376 & 125492 & 216881 & 422752 & {\bf 6284} & 9685 & 385887 & 463075 & 28731 & 127292 \\ \hline
+\# local misassemblies & 1 & 7 & 4 & 10 & 3 & 4 & {\bf 0} & {\bf 0} & 4 & 9 & 3 & 9 \\ \hline
+\# mismatches & {\bf 112} & 297 & 209 & 665 & 247 & 2728 & 117 & 129 & 195 & 264 & 164 & 229 \\ \hline
+\# indels & {\bf 53} & 285 & 117 & 169 & 125 & 262 & 101 & 111 & 124 & 137 & 102 & 122 \\ \hline
+\hspace{5mm}\# short indels ($\leq$ 5 bp) & {\bf 51} & 280 & 114 & 168 & 120 & 257 & 99 & 110 & 118 & 134 & 98 & 116 \\ \hline
+\hspace{5mm}\# long indels ($>$ 5 bp) & 2 & 5 & 3 & {\bf 1} & 5 & 5 & 2 & {\bf 1} & 6 & 3 & 4 & 6 \\ \hline
+Indels length & {\bf 84} & 335 & 145 & 179 & 167 & 317 & 119 & 120 & 184 & 169 & 137 & 174 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

@@ -1,0 +1,55 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1929/dataset_2011_files/Combined_dataset -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/R_sphaeroides_2-4-1.fna -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/R_sphaeroides_2-4-1.gff -l R.S.-M-Newbler2.8_raw_ctg, R.S.-M-Newbler2.8_raw_scf /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2010.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2009.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.8.1.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-05-22 14:13:45
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1929/dataset_2011_files/Combined_dataset/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/R_sphaeroides_2-4-1.fna ==> R_sphaeroides_2-4-1
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2010.dat ==> R.S.-M-Newbler2.8_raw_ctg
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2009.dat ==> R.S.-M-Newbler2.8_raw_scf
+
+2014-05-22 14:13:48
+Running Basic statistics processor...
+  Reference genome:
+    R_sphaeroides_2-4-1.fna, Reference length = 4602977, Reference GC % = 68.79
+  Contig files: 
+    1  R.S.-M-Newbler2.8_raw_ctg
+    2  R.S.-M-Newbler2.8_raw_scf
+  Calculating N50 and L50...
+    1  R.S.-M-Newbler2.8_raw_ctg, N50 = 36952, L50 = 41, Total length = 4558746, GC % = 68.83, # N's per 100 kbp =  0.00
+    2  R.S.-M-Newbler2.8_raw_scf, N50 = 178486, L50 = 10, Total length = 4655430, GC % = 68.83, # N's per 100 kbp =  2313.47
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1929/dataset_2011_files/Combined_dataset/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1929/dataset_2011_files/Combined_dataset/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1929/dataset_2011_files/Combined_dataset/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1929/dataset_2011_files/Combined_dataset/basic_stats/NGx_plot.pdf
+Done.
+
+2014-05-22 14:13:50
+Running Contig analyzer...
+  1  R.S.-M-Newbler2.8_raw_ctg
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1929/dataset_2011_files/Combined_dataset/contigs_reports/contigs_report_R.S.-M-Newbler2.stdout and contigs_report_R.S.-M-Newbler2.stderr...
+  2  R.S.-M-Newbler2.8_raw_scf
+  1  Running Nucmer... 
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1929/dataset_2011_files/Combined_dataset/contigs_reports/contigs_report_R.S.-M-Newbler2.stdout and contigs_report_R.S.-M-Newbler2.stderr...
+  2  Running Nucmer... 
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1929/dataset_2011_files/Combined_dataset/contigs_reports/alignments_R.S.-M-Newbler2.tsv
+  22724 Analysis is finished.

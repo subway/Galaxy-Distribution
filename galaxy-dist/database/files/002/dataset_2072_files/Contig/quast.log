@@ -1,0 +1,114 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/V_cholerae_O1_biovar_eltor_str_N1696.gff -l GAGE-B_abyss_hiseq_ctg, abyss_1.3.4, abyss_1.3.6 /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2028.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2022.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2024.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.8.1.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-06-02 14:10:51
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna ==> V_cholerae_O1_biovar_eltor_str_N1696
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2028.dat ==> GAGE-B_abyss_hiseq_ctg
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2022.dat ==> abyss_1.3.4
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2024.dat ==> abyss_1.3.6
+
+2014-06-02 14:10:54
+Running Basic statistics processor...
+  Reference genome:
+    V_cholerae_O1_biovar_eltor_str_N1696.fna, Reference length = 4033464, Reference GC % = 47.49
+  Contig files: 
+    1  GAGE-B_abyss_hiseq_ctg
+    2  abyss_1.3.4
+    3  abyss_1.3.6
+  Calculating N50 and L50...
+    1  GAGE-B_abyss_hiseq_ctg, N50 = 94508, L50 = 13, Total length = 4086478, GC % = 47.57, # N's per 100 kbp =  100.94
+    2  abyss_1.3.4, N50 = 25689, L50 = 44, Total length = 3895189, GC % = 47.52, # N's per 100 kbp =  0.00
+    3  abyss_1.3.6, N50 = 25689, L50 = 44, Total length = 3895189, GC % = 47.52, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/basic_stats/NGx_plot.pdf
+Done.
+
+2014-06-02 14:10:56
+Running Contig analyzer...
+  1  GAGE-B_abyss_hiseq_ctg
+  2  abyss_1.3.4
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/contigs_reports/contigs_report_GAGE-B_abyss_hiseq_ctg.stdout and contigs_report_GAGE-B_abyss_hiseq_ctg.stderr...
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/contigs_reports/contigs_report_abyss_1.3.stdout and contigs_report_abyss_1.3.stderr...
+  3  abyss_1.3.6
+  2  Running Nucmer... 
+  1  Running Nucmer... 
+  3  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/contigs_reports/contigs_report_abyss_1.3.stdout and contigs_report_abyss_1.3.stderr...
+  3  Running Nucmer... 
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/contigs_reports/alignments_abyss_1.3.tsv
+  25610 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/contigs_reports/alignments_abyss_1.3.tsv
+  25610 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/contigs_reports/alignments_GAGE-B_abyss_hiseq_ctg.tsv
+  27391 Analysis is finished.
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-06-02 14:11:19
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    1  GAGE-B_abyss_hiseq_ctg, Largest alignment = 246076, NA50 = 92996, NGA50 = 92996, LA50 = 14, LGA50 = 14
+    2  abyss_1.3.4, Largest alignment = 145939, NA50 = 25689, NGA50 = 25448, LA50 = 44, LGA50 = 47
+    3  abyss_1.3.6, Largest alignment = 145939, NA50 = 25689, NGA50 = 25448, LA50 = 44, LGA50 = 47
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-06-02 14:11:21
+Running Genome analyzer...
+  Loaded 3693 genes
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  1  GAGE-B_abyss_hiseq_ctg
+  2  abyss_1.3.4
+  3  abyss_1.3.6
+  Drawing genes cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-06-02 14:11:31
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1990/dataset_2072_files/Contig/quast.log
+
+Finished: 2014-06-02 14:11:31
+Elapsed time: 0:00:39.889363

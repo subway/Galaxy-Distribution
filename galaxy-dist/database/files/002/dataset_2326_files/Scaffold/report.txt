@@ -1,0 +1,41 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     GAGE-B broken    GAGE-B           cabog_70 broken  cabog_70        cabog_81 broken  cabog_81       
+# contigs (>= 500 bp)        241              241              188              188             286              285            
+# contigs (>= 1000 bp)       241              241              188              188             286              285            
+Total length (>= 500 bp)     3953298          3953298          318746           318746          3790980          3791000        
+Total length (>= 1000 bp)    3953298          3953298          318746           318746          3790980          3791000        
+# contigs                    241              241              188              188             286              285            
+Total length                 3953298          3953298          318746           318746          3790980          3791000        
+Largest contig               140691           140691           5646             5646            106586           106586         
+Reference length             4033464          4033464          4033464          4033464         4033464          4033464        
+GC (%)                       47.52            47.52            41.54            41.54           47.92            47.92          
+Reference GC (%)             47.49            47.49            47.49            47.49           47.49            47.49          
+N50                          33710            33710            1707             1707            24969            24969          
+NG50                         32790            32790            -                -               22450            22450          
+N75                          17245            17245            1367             1367            12543            12652          
+NG75                         16374            16374            -                -               10823            10885          
+L50                          34               34               69               69              47               47             
+LG50                         35               35               -                -               52               52             
+L75                          74               74               121              121             101              100            
+LG75                         77               77               -                -               116              116            
+# misassemblies              17               17               7                7               8                9              
+Misassembled contigs length  128064           128064           15751            15751           30914            46637          
+# local misassemblies        7                7                1                1               6                6              
+# unaligned contigs          1 + 2 part       1 + 2 part       0 + 97 part      0 + 97 part     0 + 1 part       0 + 1 part     
+Unaligned contigs length     5249             5249             7706             7706            49               49             
+Genome fraction (%)          96.968           96.968           7.639            7.639           93.765           93.765         
+Duplication ratio            1.016            1.016            1.011            1.011           1.009            1.009          
+# N's per 100 kbp            0.00             0.00             0.00             0.00            0.00             0.53           
+# mismatches per 100 kbp     8.21             8.21             36.35            36.35           6.95             7.01           
+# indels per 100 kbp         3.63             3.63             17.20            17.20           3.70             3.70           
+# genes                      3401 + 144 part  3401 + 144 part  123 + 277 part   123 + 277 part  3286 + 166 part  3286 + 166 part
+Largest alignment            140691           140691           5582             5582            106586           106586         
+NA50                         33710            33710            1624             1624            24969            24969          
+NGA50                        32784            32784            -                -               22450            22450          
+NA75                         17241            17241            1288             1288            12543            12543          
+NGA75                        16374            16374            -                -               10092            10092          
+LA50                         34               34               72               72              47               47             
+LGA50                        35               35               -                -               52               52             
+LA75                         74               74               128              128             101              101            
+LGA75                        77               77               -                -               117              117            

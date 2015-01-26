@@ -1,0 +1,103 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098 -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/B_cereus_ATCC_1098.fna -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/B_cereus_ATCC_1098.gff --scaffolds /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_592.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-05-04 01:54:37
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/B_cereus_ATCC_1098.fna ==> B_cereus_ATCC_1098
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_592.dat ==> dataset_592.dat
+  breaking scaffolds into contigs:
+      82707 scaffolds (dataset_592) were broken into 864 contigs (dataset_592_broken)
+
+2014-05-04 01:54:39
+Running Basic statistics processor...
+  Reference genome:
+    B_cereus_ATCC_1098.fna, Reference length = 5432652, Reference GC % = 35.50
+  Contig files: 
+    1  dataset_592.dat broken
+    2  dataset_592.dat
+  Calculating N50 and L50...
+    1  dataset_592.dat broken, N50 = 47088, L50 = 37, Total length = 5801552, GC % = 35.20, # N's per 100 kbp =  0.00
+    2  dataset_592.dat, N50 = 48439, L50 = 32, Total length = 5810521, GC % = 35.21, # N's per 100 kbp =  33.56
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/basic_stats/NGx_plot.pdf
+Done.
+
+2014-05-04 01:54:42
+Running Contig analyzer...
+  1  dataset_592.dat broken
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/contigs_reports/contigs_report_dataset_592_broken.stdout and contigs_report_dataset_592_broken.stderr...
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/contigs_reports/contigs_report_dataset_592.stdout and contigs_report_dataset_592.stderr...
+  2  Running Nucmer... 
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/contigs_reports/alignments_dataset_592.tsv
+  395 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/contigs_reports/alignments_dataset_592_broken.tsv
+  423 Analysis is finished.
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-05-04 01:55:39
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    1  dataset_592.dat broken, Largest alignment = 9186, NA50 = None, NGA50 = None, LA50 = None, LGA50 = None
+    2  dataset_592.dat, Largest alignment = 9186, NA50 = None, NGA50 = None, LA50 = None, LGA50 = None
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-05-04 01:55:40
+Running Genome analyzer...
+  Loaded 6014 genes
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  1  dataset_592.dat broken
+  2  dataset_592.dat
+  Drawing genes cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-05-04 01:55:46
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1741/dataset_1823_files/B_cereus_ATCC_1098/quast.log
+
+Finished: 2014-05-04 01:55:46
+Elapsed time: 0:01:09.276950

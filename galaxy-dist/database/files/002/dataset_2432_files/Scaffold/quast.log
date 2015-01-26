@@ -1,0 +1,231 @@
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold -R /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/M_abscessus_ATCC_19977.fna -G /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/M_abscessus_ATCC_19977.gff -l MA-H-Abyss-Scaffold, MA-H-Cabog-Scaffold, MA-H-Msrca-Scaffold, MA-H-Sga-Scaffold, MA-H-Soap-Scaffold, MA-H-Spades-Scaffold, MA-H-Velvet-Scaffold --contig-thresholds 500,1000 --scaffolds /software/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_615.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_616.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_617.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_618.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_619.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_620.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_621.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.32-431.11.2.el6.x86_64-x86_64-with-redhat-6.5-Santiago
+  Python version: 2.7.6
+  CPUs number: 64
+
+Started: 2014-07-08 10:32:24
+
+Logging to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/M_abscessus_ATCC_19977.fna ==> M_abscessus_ATCC_19977
+
+Contigs:
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_615.dat ==> MA-H-Abyss-Scaffold
+  breaking scaffolds into contigs:
+      203778 scaffolds (MA-H-Abyss-Scaffold) were broken into 132 contigs (MA-H-Abyss-Scaffold_broken)
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_616.dat ==> MA-H-Cabog-Scaffold
+  breaking scaffolds into contigs:
+      8541 scaffolds (MA-H-Cabog-Scaffold) were broken into 128 contigs (MA-H-Cabog-Scaffold_broken)
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_617.dat ==> MA-H-Msrca-Scaffold
+  breaking scaffolds into contigs:
+      1 scaffolds (MA-H-Msrca-Scaffold) were broken into 66 contigs (MA-H-Msrca-Scaffold_broken)
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_618.dat ==> MA-H-Sga-Scaffold
+  breaking scaffolds into contigs:
+      1 scaffolds (MA-H-Sga-Scaffold) were broken into 363 contigs (MA-H-Sga-Scaffold_broken)
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_619.dat ==> MA-H-Soap-Scaffold
+  breaking scaffolds into contigs:
+      1 scaffolds (MA-H-Soap-Scaffold) were broken into 143 contigs (MA-H-Soap-Scaffold_broken)
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_620.dat ==> MA-H-Spades-Scaffold
+  breaking scaffolds into contigs:
+      1 scaffolds (MA-H-Spades-Scaffold) were broken into 73 contigs (MA-H-Spades-Scaffold_broken)
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/000/dataset_621.dat ==> MA-H-Velvet-Scaffold
+  breaking scaffolds into contigs:
+      1 scaffolds (MA-H-Velvet-Scaffold) were broken into 189 contigs (MA-H-Velvet-Scaffold_broken)
+
+2014-07-08 10:32:34
+Running Basic statistics processor...
+  Reference genome:
+    M_abscessus_ATCC_19977.fna, Reference length = 5090491, Reference GC % = 64.15
+  Contig files: 
+    1  MA-H-Abyss-Scaffold broken
+    2  MA-H-Abyss-Scaffold
+    3  MA-H-Cabog-Scaffold broken
+    4  MA-H-Cabog-Scaffold
+    5  MA-H-Msrca-Scaffold broken
+    6  MA-H-Msrca-Scaffold
+    7  MA-H-Sga-Scaffold broken
+    8  MA-H-Sga-Scaffold
+    9  MA-H-Soap-Scaffold broken
+    10  MA-H-Soap-Scaffold
+    11 MA-H-Spades-Scaffold broken
+    12 MA-H-Spades-Scaffold
+    13 MA-H-Velvet-Scaffold broken
+    14 MA-H-Velvet-Scaffold
+  Calculating N50 and L50...
+    1  MA-H-Abyss-Scaffold broken, N50 = 109929, L50 = 16, Total length = 5123853, GC % = 64.10, # N's per 100 kbp =  1.72
+    2  MA-H-Abyss-Scaffold, N50 = 147937, L50 = 8, Total length = 5130175, GC % = 64.10, # N's per 100 kbp =  67.83
+    3  MA-H-Cabog-Scaffold broken, N50 = 81416, L50 = 21, Total length = 5116053, GC % = 64.10, # N's per 100 kbp =  0.00
+    4  MA-H-Cabog-Scaffold, N50 = 94359, L50 = 19, Total length = 5116469, GC % = 64.10, # N's per 100 kbp =  8.09
+    5  MA-H-Msrca-Scaffold broken, N50 = 246830, L50 = 9, Total length = 5144734, GC % = 64.13, # N's per 100 kbp =  0.00
+    6  MA-H-Msrca-Scaffold, N50 = 246830, L50 = 9, Total length = 5144874, GC % = 64.13, # N's per 100 kbp =  2.72
+    7  MA-H-Sga-Scaffold broken, N50 = 28734, L50 = 55, Total length = 5120987, GC % = 64.11, # N's per 100 kbp =  0.00
+    8  MA-H-Sga-Scaffold, N50 = 28734, L50 = 55, Total length = 5120987, GC % = 64.11, # N's per 100 kbp =  0.00
+    9  MA-H-Soap-Scaffold broken, N50 = 148639, L50 = 11, Total length = 5136175, GC % = 64.09, # N's per 100 kbp =  0.00
+    10  MA-H-Soap-Scaffold, N50 = 150256, L50 = 10, Total length = 5137467, GC % = 64.09, # N's per 100 kbp =  13.84
+    11 MA-H-Spades-Scaffold broken, N50 = 215724, L50 = 9, Total length = 5460110, GC % = 64.06, # N's per 100 kbp =  0.00
+    12 MA-H-Spades-Scaffold, N50 = 215724, L50 = 9, Total length = 5460110, GC % = 64.06, # N's per 100 kbp =  0.00
+    13 MA-H-Velvet-Scaffold broken, N50 = 60955, L50 = 28, Total length = 5126222, GC % = 64.11, # N's per 100 kbp =  0.00
+    14 MA-H-Velvet-Scaffold, N50 = 248309, L50 = 8, Total length = 5140427, GC % = 64.11, # N's per 100 kbp =  262.49
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/basic_stats/NGx_plot.pdf
+Done.
+
+2014-07-08 10:32:43
+Running Contig analyzer...
+  1  MA-H-Abyss-Scaffold broken
+  2  MA-H-Abyss-Scaffold
+  1  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/contigs_report_MA-H-Abyss-Scaffold_broken.stdout and contigs_report_MA-H-Abyss-Scaffold_broken.stderr...
+  3  MA-H-Cabog-Scaffold broken
+  2  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/contigs_report_MA-H-Abyss-Scaffold.stdout and contigs_report_MA-H-Abyss-Scaffold.stderr...
+  3  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/contigs_report_MA-H-Cabog-Scaffold_broken.stdout and contigs_report_MA-H-Cabog-Scaffold_broken.stderr...
+  4  MA-H-Cabog-Scaffold
+  1  Running Nucmer... 
+  4  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/contigs_report_MA-H-Cabog-Scaffold.stdout and contigs_report_MA-H-Cabog-Scaffold.stderr...
+  2  Running Nucmer... 
+  3  Running Nucmer... 
+  5  MA-H-Msrca-Scaffold broken
+  6  MA-H-Msrca-Scaffold
+  5  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/contigs_report_MA-H-Msrca-Scaffold_broken.stdout and contigs_report_MA-H-Msrca-Scaffold_broken.stderr...
+  4  Running Nucmer... 
+  6  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/contigs_report_MA-H-Msrca-Scaffold.stdout and contigs_report_MA-H-Msrca-Scaffold.stderr...
+  7  MA-H-Sga-Scaffold broken
+  8  MA-H-Sga-Scaffold
+  7  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/contigs_report_MA-H-Sga-Scaffold_broken.stdout and contigs_report_MA-H-Sga-Scaffold_broken.stderr...
+  8  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/contigs_report_MA-H-Sga-Scaffold.stdout and contigs_report_MA-H-Sga-Scaffold.stderr...
+  9  MA-H-Soap-Scaffold broken
+  10  MA-H-Soap-Scaffold
+  9  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/contigs_report_MA-H-Soap-Scaffold_broken.stdout and contigs_report_MA-H-Soap-Scaffold_broken.stderr...
+  10  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/contigs_report_MA-H-Soap-Scaffold.stdout and contigs_report_MA-H-Soap-Scaffold.stderr...
+  5  Running Nucmer... 
+  6  Running Nucmer... 
+  7  Running Nucmer... 
+  9  Running Nucmer... 
+  10  Running Nucmer... 
+  8  Running Nucmer... 
+  11 MA-H-Spades-Scaffold broken
+  11 Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/contigs_report_MA-H-Spades-Scaffold_broken.stdout and contigs_report_MA-H-Spades-Scaffold_broken.stderr...
+  12 MA-H-Spades-Scaffold
+  12 Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/contigs_report_MA-H-Spades-Scaffold.stdout and contigs_report_MA-H-Spades-Scaffold.stderr...
+  13 MA-H-Velvet-Scaffold broken
+  14 MA-H-Velvet-Scaffold
+  13 Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/contigs_report_MA-H-Velvet-Scaffold_broken.stdout and contigs_report_MA-H-Velvet-Scaffold_broken.stderr...
+  14 Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/contigs_report_MA-H-Velvet-Scaffold.stdout and contigs_report_MA-H-Velvet-Scaffold.stderr...
+  11 Running Nucmer... 
+  12 Running Nucmer... 
+  13 Running Nucmer... 
+  14 Running Nucmer... 
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/alignments_MA-H-Cabog-Scaffold_broken.tsv
+  23477 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/alignments_MA-H-Msrca-Scaffold.tsv
+  32472 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/alignments_MA-H-Msrca-Scaffold_broken.tsv
+  32472 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/alignments_MA-H-Sga-Scaffold.tsv
+  27616 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/alignments_MA-H-Soap-Scaffold.tsv
+  60899 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/alignments_MA-H-Velvet-Scaffold_broken.tsv
+  53433 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/alignments_MA-H-Cabog-Scaffold.tsv
+  23477 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/alignments_MA-H-Spades-Scaffold_broken.tsv
+  60906 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/alignments_MA-H-Sga-Scaffold_broken.tsv
+  27616 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/alignments_MA-H-Velvet-Scaffold.tsv
+  61066 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/alignments_MA-H-Spades-Scaffold.tsv
+  60906 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/alignments_MA-H-Soap-Scaffold_broken.tsv
+  60899 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/alignments_MA-H-Abyss-Scaffold.tsv
+  32454 Analysis is finished.
+/software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/alignments_MA-H-Abyss-Scaffold_broken.tsv
+  32454 Analysis is finished.
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-07-08 10:33:03
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    1  MA-H-Abyss-Scaffold broken, Largest alignment = 303330, NA50 = 98139, NGA50 = 98139, LA50 = 17, LGA50 = 17
+    2  MA-H-Abyss-Scaffold, Largest alignment = 663800, NA50 = 127410, NGA50 = 127410, LA50 = 10, LGA50 = 10
+    3  MA-H-Cabog-Scaffold broken, Largest alignment = 238341, NA50 = 78165, NGA50 = 78165, LA50 = 23, LGA50 = 23
+    4  MA-H-Cabog-Scaffold, Largest alignment = 238341, NA50 = 89623, NGA50 = 89623, LA50 = 21, LGA50 = 21
+    5  MA-H-Msrca-Scaffold broken, Largest alignment = 309535, NA50 = 187809, NGA50 = 187809, LA50 = 10, LGA50 = 10
+    6  MA-H-Msrca-Scaffold, Largest alignment = 309535, NA50 = 187809, NGA50 = 187809, LA50 = 10, LGA50 = 10
+    7  MA-H-Sga-Scaffold broken, Largest alignment = 101254, NA50 = 27712, NGA50 = 27760, LA50 = 57, LGA50 = 56
+    8  MA-H-Sga-Scaffold, Largest alignment = 101254, NA50 = 27712, NGA50 = 27760, LA50 = 57, LGA50 = 56
+    9  MA-H-Soap-Scaffold broken, Largest alignment = 474277, NA50 = 147199, NGA50 = 147199, LA50 = 12, LGA50 = 12
+    10  MA-H-Soap-Scaffold, Largest alignment = 474277, NA50 = 147925, NGA50 = 147925, LA50 = 11, LGA50 = 11
+    11 MA-H-Spades-Scaffold broken, Largest alignment = 628906, NA50 = 209754, NGA50 = 213402, LA50 = 10, LGA50 = 9
+    12 MA-H-Spades-Scaffold, Largest alignment = 628906, NA50 = 209754, NGA50 = 213402, LA50 = 10, LGA50 = 9
+    13 MA-H-Velvet-Scaffold broken, Largest alignment = 191465, NA50 = 58337, NGA50 = 58337, LA50 = 29, LGA50 = 29
+    14 MA-H-Velvet-Scaffold, Largest alignment = 522498, NA50 = 147850, NGA50 = 147850, LA50 = 10, LGA50 = 10
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-07-08 10:33:06
+Running Genome analyzer...
+  Loaded 4992 genes
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  1  MA-H-Abyss-Scaffold broken
+  2  MA-H-Abyss-Scaffold
+  3  MA-H-Cabog-Scaffold broken
+  4  MA-H-Cabog-Scaffold
+  5  MA-H-Msrca-Scaffold broken
+  6  MA-H-Msrca-Scaffold
+  7  MA-H-Sga-Scaffold broken
+  8  MA-H-Sga-Scaffold
+  9  MA-H-Soap-Scaffold broken
+  10  MA-H-Soap-Scaffold
+  11 MA-H-Spades-Scaffold broken
+  12 MA-H-Spades-Scaffold
+  13 MA-H-Velvet-Scaffold broken
+  14 MA-H-Velvet-Scaffold
+  Drawing genes cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-07-08 10:33:54
+Summarizing...
+  Creating total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/report.html
+  All pdf files are merged to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/plots.pdf
+Log saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2350/dataset_2432_files/Scaffold/quast.log
+
+Finished: 2014-07-08 10:33:54
+Elapsed time: 0:01:30.224994

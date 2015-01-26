@@ -1,0 +1,59 @@
+/software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2027/dataset_2109_files/Contig -R /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna -G /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/V_cholerae_O1_biovar_eltor_str_N1696.gff -l GAGE-B, abyss_134, abyss_136 /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2028.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2022.dat /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2024.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.32-431.11.2.el6.x86_64-x86_64-with-redhat-6.5-Santiago
+  Python version: 2.7.6
+  CPUs number: 64
+
+Started: 2014-06-11 13:59:50
+
+Logging to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2027/dataset_2109_files/Contig/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /software/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna ==> V_cholerae_O1_biovar_eltor_str_N1696
+
+Contigs:
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2028.dat ==> GAGE-B
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2022.dat ==> abyss_134
+  /software/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2024.dat ==> abyss_136
+
+2014-06-11 13:59:54
+Running Basic statistics processor...
+  Reference genome:
+    V_cholerae_O1_biovar_eltor_str_N1696.fna, Reference length = 4033464, Reference GC % = 47.49
+  Contig files: 
+    1  GAGE-B
+    2  abyss_134
+    3  abyss_136
+  Calculating N50 and L50...
+    1  GAGE-B, N50 = 94508, L50 = 13, Total length = 4086478, GC % = 47.57, # N's per 100 kbp =  100.94
+    2  abyss_134, N50 = 25689, L50 = 44, Total length = 3895189, GC % = 47.52, # N's per 100 kbp =  0.00
+    3  abyss_136, N50 = 25689, L50 = 44, Total length = 3895189, GC % = 47.52, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2027/dataset_2109_files/Contig/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2027/dataset_2109_files/Contig/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2027/dataset_2109_files/Contig/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2027/dataset_2109_files/Contig/basic_stats/NGx_plot.pdf
+Done.
+
+2014-06-11 13:59:57
+Running Contig analyzer...
+  1  GAGE-B
+  2  abyss_134
+  1  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2027/dataset_2109_files/Contig/contigs_reports/contigs_report_GAGE-B.stdout and contigs_report_GAGE-B.stderr...
+  3  abyss_136
+  2  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2027/dataset_2109_files/Contig/contigs_reports/contigs_report_abyss_134.stdout and contigs_report_abyss_134.stderr...
+  1  Running Nucmer... 
+  3  Logging to files /software/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/002/2027/dataset_2109_files/Contig/contigs_reports/contigs_report_abyss_136.stdout and contigs_report_abyss_136.stderr...
+  2  Running Nucmer... 
+  3  Running Nucmer... 

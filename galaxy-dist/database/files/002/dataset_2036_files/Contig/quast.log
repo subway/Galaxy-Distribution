@@ -1,0 +1,104 @@
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/quast-2.2/quast.py -o /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig -R /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna -G /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/genefiles/V_cholerae_O1_biovar_eltor_str_N1696.gff -l GAGE-B_abyss_hiseq_ctg, GAGE-B_abyss_hiseq_scf /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2028.dat /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2029.dat
+
+Version 2.2, build 19.07.2013 21:21
+
+
+System information:
+  OS: Linux-2.6.18-371.8.1.el5-x86_64-with-redhat-5.10-Tikanga
+  Python version: 2.7.0
+  CPUs number: 64
+
+Started: 2014-05-31 12:11:46
+
+Logging to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 64 (use --threads option to set it manually)
+
+Reference:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/tools/comparative_assembly_statistics/reference/refGen/V_cholerae_O1_biovar_eltor_str_N1696.fna ==> V_cholerae_O1_biovar_eltor_str_N1696
+
+Contigs:
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2028.dat ==> GAGE-B_abyss_hiseq_ctg
+  /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/files/002/dataset_2029.dat ==> GAGE-B_abyss_hiseq_scf
+
+2014-05-31 12:11:49
+Running Basic statistics processor...
+  Reference genome:
+    V_cholerae_O1_biovar_eltor_str_N1696.fna, Reference length = 4033464, Reference GC % = 47.49
+  Contig files: 
+    1  GAGE-B_abyss_hiseq_ctg
+    2  GAGE-B_abyss_hiseq_scf
+  Calculating N50 and L50...
+    1  GAGE-B_abyss_hiseq_ctg, N50 = 94508, L50 = 13, Total length = 4086478, GC % = 47.57, # N's per 100 kbp =  100.94
+    2  GAGE-B_abyss_hiseq_scf, N50 = 217596, L50 = 6, Total length = 4109111, GC % = 47.57, # N's per 100 kbp =  424.33
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/basic_stats/NGx_plot.pdf
+Done.
+
+2014-05-31 12:11:51
+Running Contig analyzer...
+  1  GAGE-B_abyss_hiseq_ctg
+  2  GAGE-B_abyss_hiseq_scf
+  1  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/contigs_reports/contigs_report_GAGE-B_abyss_hiseq_ctg.stdout and contigs_report_GAGE-B_abyss_hiseq_ctg.stderr...
+  2  Logging to files /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/contigs_reports/contigs_report_GAGE-B_abyss_hiseq_scf.stdout and contigs_report_GAGE-B_abyss_hiseq_scf.stderr...
+  1  Running Nucmer... 
+  2  Running Nucmer... 
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/contigs_reports/alignments_GAGE-B_abyss_hiseq_ctg.tsv
+  27391 Analysis is finished.
+/usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/contigs_reports/alignments_GAGE-B_abyss_hiseq_scf.tsv
+  27391 Analysis is finished.
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2014-05-31 12:12:09
+Running NA-NGA calculation...
+  Calculating NA50 and NGA50...
+    1  GAGE-B_abyss_hiseq_ctg, Largest alignment = 246076, NA50 = 92996, NGA50 = 92996, LA50 = 14, LGA50 = 14
+    2  GAGE-B_abyss_hiseq_scf, Largest alignment = 522201, NA50 = 156774, NGA50 = 156774, LA50 = 7, LGA50 = 7
+  Drawing cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/aligned_stats/NGAx_plot.pdf
+  Done.
+
+2014-05-31 12:12:10
+Running Genome analyzer...
+  Loaded 3693 genes
+  NOTICE: Annotated operons file was not provided. Use -O option to specify it.
+  1  GAGE-B_abyss_hiseq_ctg
+  2  GAGE-B_abyss_hiseq_scf
+  Drawing genes cumulative plot...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2014-05-31 12:12:17
+Summarizing...
+  Creating total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/report.txt, report.tsv, and report.tex
+  Transposed version of total report...
+    saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/report.html
+  All pdf files are merged to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/plots.pdf
+Log saved to /usit/invitro/data/galaxy/master/sabbai/galaxy-dist/database/job_working_directory/001/1954/dataset_2036_files/Contig/quast.log
+
+Finished: 2014-05-31 12:12:17
+Elapsed time: 0:00:30.769472
